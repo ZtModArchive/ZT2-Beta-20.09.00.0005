@@ -1,0 +1,63 @@
+<UIToggleButton sticky="1" autosize="true">
+   <UIRegion x="4" y="0" w="-26" h="20" xalign="min" yalign="min" walign="max" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect alwayshit="true">
+      <default>
+         <BFFont x="32"/>
+      </default>
+      <standard>
+         <normal>
+            <BFFont>
+               <BFColor r="255" g="197" b="29" a="255"/>
+            </BFFont>
+         </normal>
+         <highlighted>
+            <BFFont>
+               <BFColor r="255" g="255" b="201" a="255"/>
+            </BFFont>
+         </highlighted>
+         <activated>
+            <BFColor r="220" g="191" b="113" a="255"/>
+         </activated>
+         <disabled>
+            <BFColor r="255" g="255" b="201" a="255"/>
+         </disabled>
+      </standard>
+      <alternate>
+         <normal>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </normal>
+         <highlighted>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </highlighted>
+         <activated>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </activated>
+         <disabled>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </disabled>
+      </alternate>
+   </UIAspect>
+   <text format="mapdata:campaign_name" type="multi"/>
+   <on/>
+   <children>
+      <UIMultiIcon name="check box">
+         <UIRegion x="4" y="-11" w="22" h="22" xalign="min" yalign="mid" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect alwayshit="never">
+            <default/>
+         </UIAspect>
+         <images>
+            <image key="unlocked" image="ui\shared\button_check.tga">
+               <BFRect x="12" y="140" w="40" h="40"/>
+            </image>
+            <image key="locked" image="ui/scenario/button_lock.tga">
+               <BFRect x="10" y="12" w="44" h="44"/>
+            </image>
+            <image key="completed" image="ui\shared\button_check.tga">
+               <BFRect x="12" y="12" w="40" h="40"/>
+            </image>
+         </images>
+      </UIMultiIcon>
+   </children>
+</UIToggleButton>

@@ -1,0 +1,5699 @@
+<ZT2Strings>
+   <mainmenu>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <nameformat>
+         <font name="arial" size="15" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </nameformat>
+      <playchallenge_name>Play Challenge Game</playchallenge_name>
+      <playchallenge_ltt>
+         <color r="255" g="248" b="178">
+            <b>Play Challenge Game button</b>
+         </color>
+         <br>Click to select a map and run a zoo. You may select specific game challenges, but you will have no primary goals.</br>
+      </playchallenge_ltt>
+      <playchallenge_help>zoopedia:zoopedia_challenge:entry</playchallenge_help>
+      <playfreeform_name>Play Freeform Game</playfreeform_name>
+      <playfreeform_ltt>
+         <color r="255" g="248" b="178">
+            <b>Play Freeform Game button</b>
+         </color>
+         <br>Click to select a map and run a zoo. You can play with unlimited money, and all animals and objects are available.</br>
+      </playfreeform_ltt>
+      <playfreeform_help>zoopedia:zoopedia_freeform:entry</playfreeform_help>
+      <playcampaign_name>Play Campaign Game</playcampaign_name>
+      <playcampaign_ltt>
+         <color r="255" g="248" b="178">
+            <b>Play Campaign Game button</b>
+         </color>
+         <br>Click to select a campaign to play. Each campaign has several scenarios, all with specific goals to complete.</br>
+      </playcampaign_ltt>
+      <playcampaign_help>zoopedia:zoopedia_campaign:entry</playcampaign_help>
+      <gameoptions_name>Game Options</gameoptions_name>
+      <gameoptions_ltt>
+         <color r="255" g="248" b="178">
+            <b>Game Options button</b>
+         </color>
+         <br>Click to change video, sound, and other game options.</br>
+      </gameoptions_ltt>
+      <gameoptions_help>zoopedia:zoopedia_options:entry</gameoptions_help>
+      <downloads_name>Downloads</downloads_name>
+      <downloads_ltt>
+         <color r="255" g="248" b="178">
+            <b>Downloads button</b>
+         </color>
+         <br>Click to check the Internet for game updates and new content. You can also enable or disable downloaded content.</br>
+      </downloads_ltt>
+      <downloads_help>zoopedia:zoopedia_downloads:entry</downloads_help>
+      <loadsave_name>Load Saved Game</loadsave_name>
+      <loadsave_ltt>
+         <color r="255" g="248" b="178">
+            <b>Load Saved Game button</b>
+         </color>
+         <br>Click to play a previously saved game.</br>
+      </loadsave_ltt>
+      <loadsave_help>zoopedia:zoopedia_loadgame:entry</loadsave_help>
+      <gameexit_name>Exit Game</gameexit_name>
+      <gameexit_ltt>
+         <color r="255" g="248" b="178">
+            <b>Exit Game button</b>
+         </color>
+         <br>Click to exit Zoo Tycoon 2 and return to Windows.</br>
+      </gameexit_ltt>
+      <gameexit_help>zoopedia:zoopedia_exitgame:entry</gameexit_help>
+      <continue_button_stt>Load player profile</continue_button_stt>
+      <continue_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Load Player Profile button</b>
+         </color>
+         <br>Click to load the selected player profile.</br>
+      </continue_button_ltt>
+      <delete_button_stt>Delete player profile</delete_button_stt>
+      <delete_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete Player Profile button</b>
+         </color>
+         <br>Click to delete the selected player profile.</br>
+      </delete_button_ltt>
+      <add_button_stt>Create player profile</add_button_stt>
+      <add_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Create New Player Profile button</b>
+         </color>
+         <br>Click to create a new player profile.</br>
+      </add_button_ltt>
+      <profile_name>
+         <font name="arial" size="12">
+            <b>%text%</b>
+         </font>
+      </profile_name>
+      <profile_label>
+         <font name="arial" size="15" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Player Profile</b>
+            </color>
+         </font>
+      </profile_label>
+      <profile_default>Default Profile</profile_default>
+      <profile_manager_label>
+         <font name="arial" size="15" image="ui\font\color_mainmenu.tga" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Profile Manager</b>
+            </color>
+         </font>
+      </profile_manager_label>
+      <profile_manger_button_stt>Manage player profiles</profile_manger_button_stt>
+      <profile_manger_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Profile Manager button</b>
+         </color>
+         <br>Click to add, delete, or select a player profile.</br>
+      </profile_manger_button_ltt>
+      <profile_manger_close_button_stt>Close Profile Manager</profile_manger_close_button_stt>
+      <profile_manger_close_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Close Profile Manager button</b>
+         </color>
+         <br>Click to close the Profile Manager.</br>
+      </profile_manger_close_button_ltt>
+      <selected_profile_label>
+         <font name="arial" size="12">
+            <b>Selected Profile:</b>
+         </font>
+      </selected_profile_label>
+      <guitool>
+         <font name="arial" size="14">
+            <b>Run UI Tool</b>
+         </font>
+      </guitool>
+      <credits>
+         <font name="arial" size="12">
+            <b>View Game Credits</b>
+         </font>
+      </credits>
+      <motdtext>
+         <font name="arial" size="14">%text%</font>
+      </motdtext>
+      <savegame>
+         <font name="arial" size="14">
+            <b>Save Game</b>
+         </font>
+      </savegame>
+      <legalcopy1>
+         <font name="arial" size="10" shadowx="0" shadowy="0">
+            <b>© &amp; (p) 2001-2004 Microsoft Corporation. All rights reserved.</b>
+         </font>
+      </legalcopy1>
+      <legalcopy2>
+         <font name="arial" size="10" shadowx="0" shadowy="0">
+            <b>This program is protected by U.S. and international copyright laws.</b>
+         </font>
+      </legalcopy2>
+      <legalcopy3>
+         <font name="arial" size="10" shadowx="0" shadowy="0">
+            <b>Developed by Blue Fang Games, LLC</b>
+         </font>
+      </legalcopy3>
+      <legalcopy4>
+         <font name="arial" size="10" shadowx="0" shadowy="0">
+            <b>© 2001-2004 Blue Fang Games, LLC</b>
+         </font>
+      </legalcopy4>
+      <click_to_continue>
+         <font name="arial" size="26" shadowx="0" shadowy="0" image="ui\font\color_mainmenu.tga">
+            <b>Click To Continue</b>
+         </font>
+      </click_to_continue>
+      <tutorial_panel_play_stt>Play Tutorial</tutorial_panel_play_stt>
+      <tutorial_panel_play_ltt>
+         <color r="255" g="248" b="178">
+            <b>Play Tutorial</b>
+         </color>
+         <br>Click here to play through the Zoo Tycoon 2 Tutorials.</br>
+      </tutorial_panel_play_ltt>
+      <tutorial_panel_dont_play_stt>Skip Tutorial</tutorial_panel_dont_play_stt>
+      <tutorial_panel_dont_play_ltt>
+         <color r="255" g="248" b="178">
+            <b>Skip Tutorial</b>
+         </color>
+         <br>Click here to skip the Zoo Tycoon 2 Tutorials and just play the game.</br>
+      </tutorial_panel_dont_play_ltt>
+      <tutorial_play_label>
+         <font name="airal" size="18" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Play Tutorial</b>
+            </color>
+         </font>
+      </tutorial_play_label>
+      <tutorial_intro_text>
+         <color r="255" g="248" b="178">
+            <b/>
+         </color>
+         <font name="arial" size="24" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <text>Would you like to learn how to play Zoo Tycoon 2?</text>
+            </color>
+         </font>
+      </tutorial_intro_text>
+   </mainmenu>
+   <savegame>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <cancel_button_stt>Cancel button</cancel_button_stt>
+      <cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel button</b>
+         </color>
+         <br>Click to make no changes and close the Save Game dialog box.</br>
+      </cancel_button_ltt>
+      <save_button_stt>Save game button</save_button_stt>
+      <save_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Save Game button</b>
+         </color>
+         <br>Click to save the game using the name you've entered.</br>
+      </save_button_ltt>
+      <delete_button_stt>Delete game button</delete_button_stt>
+      <delete_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete Game button</b>
+         </color>
+         <br>Click to delete the selected saved game.</br>
+      </delete_button_ltt>
+      <savegame>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Save Game</b>
+            </color>
+         </font>
+      </savegame>
+      <untitled>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Untitled</b>
+         </font>
+      </untitled>
+      <filename>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>%text%</b>
+         </font>
+      </filename>
+      <prompt>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>%text%</b>
+         </font>
+      </prompt>
+      <cancel>
+         <font name="arial" size="14">
+            <b>Cancel</b>
+         </font>
+      </cancel>
+      <save>
+         <font name="arial" size="14">
+            <b>Save</b>
+         </font>
+      </save>
+      <delete>
+         <font name="arial" size="14">
+            <b>Delete</b>
+         </font>
+      </delete>
+   </savegame>
+   <loadgame>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <cancel_button_stt>Cancel button </cancel_button_stt>
+      <cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel button</b>
+         </color>
+         <br>Click to close the Load Game dialog box without loading a game.</br>
+      </cancel_button_ltt>
+      <load_button_stt>Load button</load_button_stt>
+      <load_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Load Game button</b>
+         </color>
+         <br>Click to load the selected saved game.</br>
+      </load_button_ltt>
+      <delete_button_stt>Delete game button</delete_button_stt>
+      <delete_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete Game button</b>
+         </color>
+         <br>Click to delete the selected saved game.</br>
+      </delete_button_ltt>
+      <delete>
+         <font name="arial" size="14">
+            <b>Delete</b>
+         </font>
+      </delete>
+      <loadgame>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Load Game</b>
+            </color>
+         </font>
+      </loadgame>
+      <filename>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>%text%</b>
+         </font>
+      </filename>
+      <prompt>
+         <font name="arial" size="10">
+            <b>%text%</b>
+         </font>
+      </prompt>
+      <cancel>
+         <font name="arial" size="14">
+            <b>Cancel</b>
+         </font>
+      </cancel>
+      <load>
+         <font name="arial" size="14">
+            <b>Load</b>
+         </font>
+      </load>
+   </loadgame>
+   <photom>
+      <number>
+         <font name="arial" size="12">
+            <b>%text%</b>
+         </font>
+      </number>
+      <counter>
+         <font name="arial" size="12">
+            <b>%text%</b>
+         </font>
+      </counter>
+      <spacebarmessage>
+         <font name="arial" size="12">
+            <b>Press Spacebar to take a picture</b>
+         </font>
+      </spacebarmessage>
+      <help_button_stt>Click to close</help_button_stt>
+      <help_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Click to close</b>
+         </color>
+         <br>Click to close this help screen.</br>
+      </help_button_ltt>
+      <photo_help_label>
+         <font name="arial" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Photo Safari</b>
+            </color>
+         </font>
+      </photo_help_label>
+      <photo_help_label2>
+         <font name="arial" size="16">
+            <color r="255" g="248" b="178">
+               <b>Control Help</b>
+            </color>
+         </font>
+      </photo_help_label2>
+      <photo_right_click_message>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="178">
+               <b>Right click to "activate cursor".</b>
+            </color>
+         </font>
+      </photo_right_click_message>
+      <photo_left_click_message>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="178">
+               <b>Left click the "X button" to close this panel.</b>
+            </color>
+         </font>
+      </photo_left_click_message>
+      <toggle_camera>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Press the "C" key to toggle the camera on and off.</b>
+            </color>
+         </font>
+      </toggle_camera>
+      <spacebar_take_photo>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Press the "SPACE BAR" to take a photo.</b>
+            </color>
+         </font>
+      </spacebar_take_photo>
+      <zoom_camera>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Zoom Camera IN and OUT.</b>
+            </color>
+         </font>
+      </zoom_camera>
+      <move_forward>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Move Forward</b>
+            </color>
+         </font>
+      </move_forward>
+      <right_click>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="178">
+               <b>Activate Cursor</b>
+            </color>
+         </font>
+      </right_click>
+      <look_around>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="178">
+               <b>Look Around</b>
+            </color>
+         </font>
+      </look_around>
+      <incomplete_label>
+         <font name="arial" size="12">
+            <color r="255" g="248" b="255" a="128">
+               <b>Incomplete</b>
+            </color>
+         </font>
+      </incomplete_label>
+      <decline>
+         <font name="arial" size="10">
+            <b>Decline Challenge</b>
+         </font>
+      </decline>
+   </photom>
+   <provider>
+      <providers>
+         <font name="arial" size="11" shadowx="1" shadowy="1" shadowa="64">
+            <b>%text%</b>
+         </font>
+      </providers>
+   </provider>
+   <photoalbum>
+      <filmcount>
+         <font name="comic sans ms" size="12">%text%</font>
+      </filmcount>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <album_label>
+         <font name="haettenschweiler" size="16">
+            <color r="255" g="248" b="178">Photo Album:</color>
+         </font>
+      </album_label>
+      <album_name_label>
+         <font name="arial" size="12">
+            <b>%text%</b>
+            <color r="255" g="248" b="178"/>
+         </font>
+      </album_name_label>
+      <film_label>
+         <font name="haettenschweiler" size="16">
+            <color r="255" g="248" b="178">Photo Capacity:</color>
+         </font>
+      </film_label>
+      <pagenumber>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>%text%</b>
+         </font>
+      </pagenumber>
+      <album_selecter_button_stt>Select photo album</album_selecter_button_stt>
+      <album_selecter_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Select Photo Album button</b>
+         </color>
+         <br>Click to select a new or existing photo album.</br>
+      </album_selecter_button_ltt>
+      <createnew_button_stt>Create new photo album</createnew_button_stt>
+      <createnew_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Create new Photo album button</b>
+         </color>
+         <br>Click to create and name a new photo album</br>
+      </createnew_button_ltt>
+      <delete_album_button_stt>Delete photo album</delete_album_button_stt>
+      <delete_album_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete Photo Album button</b>
+         </color>
+         <br>Click to delete the selected photo album.</br>
+      </delete_album_button_ltt>
+      <clearall_button_stt>Delete all photos from album</clearall_button_stt>
+      <clearall_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete All Photos From Album button</b>
+         </color>
+         <br>Click to delete all the photos in this photo album. </br>
+      </clearall_button_ltt>
+      <delete_all_pics_button_stt>Delete all photos from camera </delete_all_pics_button_stt>
+      <delete_all_pics_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete all Photos From Camera button </b>
+         </color>
+         <br>Click to clear the film and delete all photos from the camera.</br>
+      </delete_all_pics_button_ltt>
+      <delete_pic_button_stt>Delete selected photos</delete_pic_button_stt>
+      <delete_pic_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete Selected Photos button</b>
+         </color>
+         <br>Click to delete the selected photos.</br>
+      </delete_pic_button_ltt>
+      <move_pic_button_stt>Move selected photo</move_pic_button_stt>
+      <move_pic_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Move Selected Photo button</b>
+         </color>
+         <br>Click to move the selected photo to the current photo album.</br>
+      </move_pic_button_ltt>
+      <save_html_button_stt>Export photo album to HTML</save_html_button_stt>
+      <save_html_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Export Photo Album to HTML button</b>
+         </color>
+         <br>Click to export the selected photo album to HTML.</br>
+      </save_html_button_ltt>
+      <prevpage_button_stt>Go to previous page</prevpage_button_stt>
+      <prevpage_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Previous Page button</b>
+         </color>
+         <br>Click to display the previous page in the photo album.</br>
+      </prevpage_button_ltt>
+      <nextpage_button_stt>Go to next page</nextpage_button_stt>
+      <nextpage_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Next Page button</b>
+         </color>
+         <br>Click to display the next page in the photo album.</br>
+      </nextpage_button_ltt>
+      <return_button_stt>Return to game</return_button_stt>
+      <return_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Return to Game button</b>
+         </color>
+         <br>Click to close the photo album and return to the game.</br>
+      </return_button_ltt>
+      <return_to_album_stt>Return to photo album</return_to_album_stt>
+      <return_to_album_ltt>
+         <color r="255" g="248" b="178">
+            <b>Return to Photo Album button</b>
+         </color>
+         <br>Click to return to the photo album.</br>
+      </return_to_album_ltt>
+      <myphotoalbum>My Photo Album</myphotoalbum>
+      <prompt>
+         <font name="comic sans ms" size="16" shadowx="1" shadowy="1" shadowa="64">
+            <b>%text%</b>
+         </font>
+      </prompt>
+      <photo_safari_label>
+         <font name="arial" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Photo Safari</b>
+            </color>
+         </font>
+      </photo_safari_label>
+      <large_pic_stt>Double-click to enlarge</large_pic_stt>
+      <large_pic_ltt>
+         <color r="255" g="248" b="178">
+            <b>Select/Enlarge Photo button</b>
+         </color>
+         <br>Click to select a photo or double-click to enlarge the photo.</br>
+      </large_pic_ltt>
+      <photo_album_manager_label>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Photo Album Manager</b>
+            </color>
+         </font>
+      </photo_album_manager_label>
+      <selected_album_label>
+         <font name="arial" size="12">
+            <color r="255" g="248" b="178">
+               <b>Selected Album:</b>
+            </color>
+         </font>
+      </selected_album_label>
+      <continue_button_stt>Use selected album</continue_button_stt>
+      <continue_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Use selected album</b>
+         </color>
+         <br>Click to use the currently selected album.</br>
+      </continue_button_ltt>
+   </photoalbum>
+   <options>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <options_label>
+         <font name="arial" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Game Options</b>
+            </color>
+         </font>
+      </options_label>
+      <vidoe_panel_tab_stt>Video and Audio options</vidoe_panel_tab_stt>
+      <vidoe_panel_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Video and Audio options button</b>
+         </color>
+         <br>Click to change video and audio options, including video mode, quality, resolution and volume control.</br>
+      </vidoe_panel_tab_ltt>
+      <videooptions>
+         <font name="arial" size="12" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Video and Audio options</b>
+            </color>
+         </font>
+      </videooptions>
+      <videomode>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Video Mode</b>
+         </font>
+      </videomode>
+      <fullscreen>
+         <font name="arial" size="10">
+            <b>Full Screen</b>
+         </font>
+      </fullscreen>
+      <full_screen_button_ltt>Full-Screen Mode check box</full_screen_button_ltt>
+      <full_screen_button_stt>
+         <color r="255" g="248" b="178">
+            <b>Full-Screen Mode check box</b>
+         </color>
+         <br>Select to play Zoo Tycoon 2 in full-screen mode.</br>
+      </full_screen_button_stt>
+      <windowed>
+         <font name="arial" size="10">
+            <b>Windowed</b>
+         </font>
+      </windowed>
+      <windowed_screen_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Windowed-Mode check box</b>
+         </color>
+         <br>Select to play Zoo Tycoon 2 in a window.</br>
+      </windowed_screen_button_ltt>
+      <windowed_screen_button_stt>Windowed-Mode check box</windowed_screen_button_stt>
+      <videoquality>
+         <font name="arial" size="14" shadowx="1" shadowy="1" shadowa="64">
+            <b>Performance Settings</b>
+         </font>
+      </videoquality>
+      <high_preset>
+         <font name="arial" size="14">
+            <b>High</b>
+         </font>
+      </high_preset>
+      <high_detail_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>High-Detail check box</b>
+         </color>
+         <br>Select to play Zoo Tycoon 2 with the highest video quality. This may cause slower game performance.</br>
+      </high_detail_button_ltt>
+      <high_detail_button_stt>High-Detail check box</high_detail_button_stt>
+      <medium_preset>
+         <font name="arial" size="14">
+            <b>Medium</b>
+         </font>
+      </medium_preset>
+      <medium_detail_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Medium-Detail check box</b>
+         </color>
+         <br>Select to play Zoo Tycoon 2 with medium video quality. This may improve game performance.</br>
+      </medium_detail_button_ltt>
+      <medium_detail_button_stt>Medium-Detail check box</medium_detail_button_stt>
+      <low_preset>
+         <font name="arial" size="14">
+            <b>Low</b>
+         </font>
+      </low_preset>
+      <low_detail_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Low-Detail check box</b>
+         </color>
+         <br>Select to play Zoo Tycoon 2 with the lowest video quality. This may improve game performance.</br>
+      </low_detail_button_ltt>
+      <low_detail_button_stt>Low-Detail check box</low_detail_button_stt>
+      <custom_preset>
+         <font name="arial" size="14">
+            <b>Custom</b>
+         </font>
+      </custom_preset>
+      <custom_detail_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Custom-Detail check box</b>
+         </color>
+         <br>Select to choose your own custom settings for performance.</br>
+      </custom_detail_button_ltt>
+      <custom_detail_button_stt>Custom-Detail check box</custom_detail_button_stt>
+      <on>
+         <font name="arial" size="10">
+            <b>On</b>
+         </font>
+      </on>
+      <off>
+         <font name="arial" size="10">
+            <b>Off</b>
+         </font>
+      </off>
+      <high>
+         <font name="arial" size="10">
+            <b>High</b>
+         </font>
+      </high>
+      <medium>
+         <font name="arial" size="10">
+            <b>Medium</b>
+         </font>
+      </medium>
+      <low>
+         <font name="arial" size="10">
+            <b>Low</b>
+         </font>
+      </low>
+      <rez1_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>1280 by 1024 Resolution check box</b>
+         </color>
+         <br>Select to play Zoo Tycoon 2 in a resolution of 1280 by 1024 pixels.</br>
+      </rez1_button_ltt>
+      <rez2_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>1024 by 768 Resolution check box</b>
+         </color>
+         <br>Select to play Zoo Tycoon 2 in a resolution of 1024 by 768 pixels.</br>
+      </rez2_button_ltt>
+      <rez3_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>800 by 600 Resolution check box</b>
+         </color>
+         <br>Select to play Zoo Tycoon 2 in a resolution of 800 by 600 pixels.</br>
+      </rez3_button_ltt>
+      <enableshadows>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Shadow Detail</b>
+         </font>
+      </enableshadows>
+      <shadow_detail_button_ltt>
+         <font name="arial" size="10">
+            <color r="255" g="248" b="178">
+               <b>Change Shadow Detail Level</b>
+            </color>
+            <br>Slide this bar to change the level of Shadow detail displayed in the game world.</br>
+         </font>
+      </shadow_detail_button_ltt>
+      <shadow_detail_button_stt>Change Shadow Detail Level</shadow_detail_button_stt>
+      <enabledetailobjects>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Detail Objects</b>
+         </font>
+      </enabledetailobjects>
+      <detail_objects_detail_button_ltt>
+         <font name="arial" size="10">
+            <color r="255" g="248" b="178">
+               <b>Change Terrain Detail Objects Level </b>
+            </color>
+            <br>Slide this bar to change the level of detailed objects displayed in the terrain, including small tufts of grass and rocks that are appropriate to the terrain's biome type.</br>
+         </font>
+      </detail_objects_detail_button_ltt>
+      <terrainresolution>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Terrain Resolution</b>
+         </font>
+      </terrainresolution>
+      <terraintexturesize>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Terrain Texture Size</b>
+         </font>
+      </terraintexturesize>
+      <terrainblending>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Terrain Blending</b>
+         </font>
+      </terrainblending>
+      <viewdistance>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>View Distance</b>
+         </font>
+      </viewdistance>
+      <objectdetail>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Object Detail</b>
+         </font>
+      </objectdetail>
+      <objecttexturedetail>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Object Texture Detail</b>
+         </font>
+      </objecttexturedetail>
+      <waterdetail>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Water Detail</b>
+         </font>
+      </waterdetail>
+      <lightingdetail>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Lighting Detail</b>
+         </font>
+      </lightingdetail>
+      <back>
+         <font name="arial" size="14">Exit</font>
+      </back>
+      <exit_download_button_stt>Exit downloads</exit_download_button_stt>
+      <exit_dowload_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Exit downloads button</b>
+         </color>
+         <br>Click to exit down load screen and return to the game.</br>
+      </exit_dowload_button_ltt>
+      <apply>
+         <font name="arial" size="14">Apply</font>
+      </apply>
+      <apply_button_stt>Save changes and Exit</apply_button_stt>
+      <apply_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Save changes and Exit</b>
+         </color>
+         <br>Click to apply all selected changes and exit now.</br>
+      </apply_button_ltt>
+      <videoresolution>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Video Resolution</b>
+         </font>
+      </videoresolution>
+      <highres>
+         <font name="arial" size="10">
+            <b>1280X1024</b>
+         </font>
+      </highres>
+      <mediumres>
+         <font name="arial" size="10">
+            <b>1024x768</b>
+         </font>
+      </mediumres>
+      <lowres>
+         <font name="arial" size="10">
+            <b>800x600</b>
+         </font>
+      </lowres>
+      <sound_panel_tab_stt>Sound options</sound_panel_tab_stt>
+      <sound_panel_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sound Options button</b>
+         </color>
+         <br>Click to adjust the master volume and music volume levels.</br>
+      </sound_panel_tab_ltt>
+      <soundoptions>
+         <font name="arial" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Sound Options</b>
+            </color>
+         </font>
+      </soundoptions>
+      <mastervolume>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Master Volume</b>
+         </font>
+      </mastervolume>
+      <master_audio_higher_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Increase Master Volume</b>
+         </color>
+         <br>Click to increase the master volume sound level, which includes animal and environment sound effects.</br>
+      </master_audio_higher_button_ltt>
+      <master_audio_lower_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Decrease Master Volume</b>
+         </color>
+         <br>Click to decrease the master volume sound level, which includes animal and environment sound effects.</br>
+      </master_audio_lower_button_ltt>
+      <master_audio_thumb_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Change Master Volume</b>
+         </color>
+         <br>Slide this bar left or right to change the master volume sound level, which includes animal and environment sound effects.</br>
+      </master_audio_thumb_button_ltt>
+      <musicvolume>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Music Volume</b>
+         </font>
+      </musicvolume>
+      <music_audio_higher_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Increase Menu Music Volume</b>
+         </color>
+         <br>Click to increase the volume level of the music that plays when the menus are displayed.</br>
+      </music_audio_higher_button_ltt>
+      <music_audio_lower_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Decrease Menu Music Volume</b>
+         </color>
+         <br>Click to decrease the volume level of the menu music.</br>
+      </music_audio_lower_button_ltt>
+      <music_audio_thumb_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Change Menu Music Volume slider control</b>
+         </color>
+         <br>Slide this bar left or right to change the  menu music volume.</br>
+      </music_audio_thumb_button_ltt>
+      <number>
+         <font name="arial" size="10">
+            <b>%text%</b>
+         </font>
+      </number>
+      <audioboardsettingtext>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Provider List</b>
+         </font>
+      </audioboardsettingtext>
+      <misc_panel_tab_stt>Miscellaneous Options</misc_panel_tab_stt>
+      <misc_panel_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Miscellaneous Options button</b>
+         </color>
+         <br>Click to change first person mode and Message of the Day options.</br>
+      </misc_panel_tab_ltt>
+      <miscoptions>
+         <font name="arial" size="12" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Miscellaneous Options</b>
+            </color>
+         </font>
+      </miscoptions>
+      <firstpersonmode>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>First Person Mode</b>
+         </font>
+      </firstpersonmode>
+      <enablemouselook>
+         <font name="arial" size="10">
+            <b>Enable Mouse Look</b>
+         </font>
+      </enablemouselook>
+      <misc_mouse_look_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Enable Mouse check box</b>
+         </color>
+         <br>Select to have the ability to look around your zoo using the mouse while in 1st person mode.</br>
+      </misc_mouse_look_button_ltt>
+      <misc_mouse_look_button_stt>Enable Mouse check box</misc_mouse_look_button_stt>
+      <blank>
+         <color r="255" g="248" b="178">
+            <b/>
+         </color>
+         <br/>
+      </blank>
+      <motdlabel>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>Message of the Day</b>
+         </font>
+      </motdlabel>
+      <enablemotd>
+         <font name="arial" size="10">
+            <b>Enable Message of the Day</b>
+         </font>
+      </enablemotd>
+      <misc_motd_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Enable Message of the Day check box</b>
+         </color>
+         <br>Select to allow Zoo Tycoon 2 to connect to the Internet, download new messages, and display them on the main menu.</br>
+      </misc_motd_button_ltt>
+      <misc_motd_button_stt>Enable Message of the Day check box</misc_motd_button_stt>
+      <downloadlabel>
+         <font name="arial" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Downloads</b>
+            </color>
+         </font>
+      </downloadlabel>
+      <enable_content_stt>Enable or Disable Content check box</enable_content_stt>
+      <enable_content_ltt>
+         <color r="255" g="248" b="178">
+            <b>Enable or Disable Content check box</b>
+         </color>
+         <br>Select to allow or disable downloaded content in Zoo Tycoon 2.</br>
+      </enable_content_ltt>
+      <show_content_stt>Goto New Content button</show_content_stt>
+      <show_content_ltt>
+         <color r="255" g="248" b="178">
+            <b>Goto New Content button</b>
+         </color>
+         <br>Select to goto the directory inwhich the new content is stored.</br>
+      </show_content_ltt>
+   </options>
+   <cameraset>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <overheadcameramode_stt>Overview map</overheadcameramode_stt>
+      <overheadcameramode_ltt>
+         <color r="255" g="248" b="178">
+            <b>Overview map</b>
+         </color>
+         <br>Click to switch to the overview map where you can see all of your zoo.</br>
+      </overheadcameramode_ltt>
+      <buildingcameramode_stt>Overhead view</buildingcameramode_stt>
+      <buildingcameramode_ltt>
+         <color r="255" g="248" b="178">
+            <b>Overhead view</b>
+         </color>
+         <br>Click to switch to an overhead view that allows you to build and place objects in your zoo.</br>
+      </buildingcameramode_ltt>
+      <firstpersoncameramode_stt>1st person view</firstpersoncameramode_stt>
+      <firstpersoncameramode_ltt>
+         <color r="255" g="248" b="178">
+            <b>1st person view</b>
+         </color>
+         <br>Click to switch to a 1st person view, where you can walk around your zoo from a guest's perspective.</br>
+      </firstpersoncameramode_ltt>
+      <photocameramode_stt>Photo Safari</photocameramode_stt>
+      <photocameramode_ltt>
+         <color r="255" g="248" b="178">
+            <b>Photo safari view</b>
+         </color>
+         <br>Click to switch to the Photo Safari view, where you can take photographs of the animals and objects in your zoo.</br>
+      </photocameramode_ltt>
+   </cameraset>
+   <shell>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <currentdatedisplay>
+         <font name="arial" size="12">
+            <b>%text%</b>
+         </font>
+      </currentdatedisplay>
+      <profilenameformat>
+         <font name="arial" size="11">
+            <b>%text%</b>
+         </font>
+      </profilenameformat>
+      <posformat>
+         <font name="arial" size="12">
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </posformat>
+      <negformat>
+         <font name="arial" size="12">
+            <color r="255" g="0" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </negformat>
+      <adoption_number>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <color r="25" g="25" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </adoption_number>
+      <pgb_construction_stt>Construction </pgb_construction_stt>
+      <pgb_pointer_construction>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Construction Panel</b>
+            </color>
+         </font>
+      </pgb_pointer_construction>
+      <pgb_construction_ltt>
+         <color r="255" g="248" b="178">
+            <b>Construction button</b>
+         </color>
+         <br>Click to view the Construction panel, where you can buy fences, paths, buildings, benches, fountains, trash cans, and more.</br>
+      </pgb_construction_ltt>
+      <construction_fence_tab_stt>Fences</construction_fence_tab_stt>
+      <construction_fence_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Fences tab</b>
+         </color>
+         <br>This tab shows the fences and gates you can buy.</br>
+      </construction_fence_tab_ltt>
+      <construction_fence_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Fences</b>
+            </color>
+         </font>
+      </construction_fence_buy_area_label>
+      <construction_fenceplacement_octagon_mode_stt>Octagonal fence placement mode</construction_fenceplacement_octagon_mode_stt>
+      <construction_fenceplacement_octagon_mode_display_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Octagonal Mode</b>
+            </color>
+         </font>
+      </construction_fenceplacement_octagon_mode_display_label>
+      <construction_fenceplacement_octagon_mode_ltt>
+         <color r="255" g="248" b="178">
+            <b>Octagonal Fence Placement mode</b>
+         </color>
+         <br>Click to start fence placement, and then drag the mouse to adjust the size of the octagonal fence. Click again to complete the fence.</br>
+      </construction_fenceplacement_octagon_mode_ltt>
+      <construction_fenceplacement_rectangle_mode_stt>Rectangular fence placement mode</construction_fenceplacement_rectangle_mode_stt>
+      <construction_fenceplacement_rectangle_mode_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rectangular Fence Placement mode</b>
+         </color>
+         <br>Click to start fence placement, and then drag the mouse to adjust the size of the rectangular fence. Click again to complete the fence.</br>
+      </construction_fenceplacement_rectangle_mode_ltt>
+      <construction_fenceplacement_rectangle_mode_display_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Rectangular Mode</b>
+            </color>
+         </font>
+      </construction_fenceplacement_rectangle_mode_display_label>
+      <construction_fenceplacement_clickdrag_mode_stt>Zoo Tycoon 1 fence construction mode</construction_fenceplacement_clickdrag_mode_stt>
+      <construction_fenceplacement_clickdrag_mode_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zoo Tycoon 1 Fence Placement mode</b>
+         </color>
+         <br>Click to place one section of fence.</br>
+         <br>Click and then drag the mouse to construct multiple fence sections.</br>
+      </construction_fenceplacement_clickdrag_mode_ltt>
+      <construction_fenceplacement_rubberband_mode_stt>Rubber band fence placement mode</construction_fenceplacement_rubberband_mode_stt>
+      <construction_fenceplacement_rubberband_mode_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rubber band fence placement mode</b>
+         </color>
+         <br>Click to start fence placement. Subsequent clicks will place additional fence sections. Right-click to complete placing fence sections.</br>
+      </construction_fenceplacement_rubberband_mode_ltt>
+      <construction_fenceplacement_rubberband_mode_display_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Rubber band Mode</b>
+            </color>
+         </font>
+      </construction_fenceplacement_rubberband_mode_display_label>
+      <construction_path_tab_stt>Paths</construction_path_tab_stt>
+      <construction_path_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Paths</b>
+            </color>
+         </font>
+      </construction_path_buy_area_label>
+      <construction_path_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Paths tab</b>
+         </color>
+         <br>This tab shows the different types of paths you can buy.</br>
+      </construction_path_tab_ltt>
+      <pgb_animal_stt>Animals </pgb_animal_stt>
+      <pgb_animal_ltt>
+         <color r="255" g="248" b="178">
+            <b>Animals button</b>
+         </color>
+         <br>Click to view the Animals panel, where you can adopt animals or buy enrichment objects and animal food.</br>
+      </pgb_animal_ltt>
+      <pgb_pointer_animal>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Animals Panel</b>
+            </color>
+         </font>
+      </pgb_pointer_animal>
+      <decline_button_stt>Decline</decline_button_stt>
+      <decline_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Decline Adoption button</b>
+         </color>
+         <br>Click to decline this animal for adoption.</br>
+      </decline_button_ltt>
+      <female_button_stt>Female</female_button_stt>
+      <female_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Female Animals button</b>
+         </color>
+         <br>Click to view the female animals you can adopt.</br>
+      </female_button_ltt>
+      <male_button_stt>Male</male_button_stt>
+      <male_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Male Animals button</b>
+         </color>
+         <br>Click to view the male animals you can adopt.</br>
+      </male_button_ltt>
+      <animal_tab_stt>Animals</animal_tab_stt>
+      <animal_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Adopt Animals tab</b>
+         </color>
+         <br>This tab shows the animals you can adopt.</br>
+      </animal_tab_ltt>
+      <animal_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Adopt Animals</b>
+            </color>
+         </font>
+      </animal_buy_area_label>
+      <animal_enrichment_tab_stt>Animal enrichment</animal_enrichment_tab_stt>
+      <animal_enrichment_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Animal Enrichment </b>
+            </color>
+         </font>
+      </animal_enrichment_buy_area_label>
+      <animal_enrichment_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Animal Enrichment tab</b>
+         </color>
+         <br>This tab shows the toys and enrichment objects that you can buy for your animals.</br>
+      </animal_enrichment_tab_ltt>
+      <animal_food_tab_stt>Animal food </animal_food_tab_stt>
+      <animal_food_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Animal Food tab</b>
+         </color>
+         <br>This tab shows the food you can buy for your animals. </br>
+      </animal_food_tab_ltt>
+      <animal_food_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Animal Food</b>
+            </color>
+         </font>
+      </animal_food_buy_area_label>
+      <animal_shelter_tab_stt>Animal shelters</animal_shelter_tab_stt>
+      <animal_shelter_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Animal Shelters tab</b>
+         </color>
+         <br>This tab shows the different types of shelters you can buy for your animals. </br>
+      </animal_shelter_tab_ltt>
+      <animal_shelter_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Animal Shelters</b>
+            </color>
+         </font>
+      </animal_shelter_buy_area_label>
+      <animal_gender_male_display_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Male Animals</b>
+            </color>
+         </font>
+      </animal_gender_male_display_label>
+      <animal_gender_female_display_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Female Animals</b>
+            </color>
+         </font>
+      </animal_gender_female_display_label>
+      <pgb_structures_stt>Structures</pgb_structures_stt>
+      <pgb_structures_ltt>
+         <color r="255" g="248" b="178">
+            <b>Structures Panel</b>
+         </color>
+         <br>Click to view the structures panel, where you can buy buildings and scenery objects.</br>
+      </pgb_structures_ltt>
+      <pgb_pointer_structures>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Structures Panel</b>
+            </color>
+         </font>
+      </pgb_pointer_structures>
+      <structures_scenery_buy_area>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Scenery</b>
+            </color>
+         </font>
+      </structures_scenery_buy_area>
+      <structures_scenery_tab_stt>Scenery</structures_scenery_tab_stt>
+      <structures_scenery_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Scenery tab</b>
+         </color>
+         <br>This tab shows the scenery objects you can buy, including seating options, trash cans, decorative arches, fountains, and statues.</br>
+      </structures_scenery_tab_ltt>
+      <structures_building_tab_stt>Buildings</structures_building_tab_stt>
+      <structures_building_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Buildings tab</b>
+         </color>
+         <br>This tab shows the buildings you can buy, including food and beverage stands, restaurants, and restrooms.</br>
+      </structures_building_tab_ltt>
+      <structures_building_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Buildings</b>
+            </color>
+         </font>
+      </structures_building_buy_area_label>
+      <!--TERRAIN PANEL ELEMENTS-->
+      <pgb_terrain_stt>Landscaping</pgb_terrain_stt>
+      <pgb_terrain_ltt>
+         <color r="255" g="248" b="178">
+            <b>Landscaping button</b>
+         </color>
+         <br>Click to view the Landscaping panel, where you can place tree, plants, and rocks, and create hills, valleys, lakes. </br>
+      </pgb_terrain_ltt>
+      <pgb_pointer_terrain>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Terrain Panel</b>
+            </color>
+         </font>
+      </pgb_pointer_terrain>
+      <terrain_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Terrain Modification</b>
+            </color>
+         </font>
+      </terrain_buy_area_label>
+      <terrain_tab_stt>Terrain modification</terrain_tab_stt>
+      <terrain_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Terrain Modification tab</b>
+         </color>
+         <br>This tab shows the six terrain manipulation tools you can use to flatten or smooth surfaces and create cliffs, mountains, and plateaus.</br>
+      </terrain_tab_ltt>
+      <hill_brush_button_stt>Create Hill</hill_brush_button_stt>
+      <hill_brush_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Select Create Hill brush</b>
+         </color>
+         <br>Click to select the Create Hill brush. Then click or click and hold on the terrain to create hills.</br>
+      </hill_brush_button_ltt>
+      <valley_brush_button_stt>Create Valley</valley_brush_button_stt>
+      <valley_brush_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Select Create Valley brush</b>
+         </color>
+         <br>Click to select the Create Valley brush. Then click or click and hold on the terrain to create valleys of varying depths.</br>
+      </valley_brush_button_ltt>
+      <flatten_brush_button_stt>Create Plateau </flatten_brush_button_stt>
+      <flatten_brush_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Create Plateau </b>
+         </color>
+         <br>Click to select the Create Plateau brush. Then click or click and hold on the terrain to flatten raised terrain and create plateaus.</br>
+      </flatten_brush_button_ltt>
+      <smooth_brush_button_stt>Smooth terrain</smooth_brush_button_stt>
+      <smooth_brush_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Select Smooth Terrain brush</b>
+         </color>
+         <br>Click to select the Smooth Terrain brush. Then click or click and hold on the terrain to smooth rough terrain or to create smooth hills.</br>
+      </smooth_brush_button_ltt>
+      <cliff_brush_button_stt>Create cliff</cliff_brush_button_stt>
+      <cliff_brush_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Select Create Cliff brush</b>
+         </color>
+         <br>Click to select the Create Cliff brush. Then click or click and hold on the terrain to create cliffs.</br>
+      </cliff_brush_button_ltt>
+      <ditch_brush_button_stt>Create ditch</ditch_brush_button_stt>
+      <ditch_brush_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Select Ditch Digger brush</b>
+         </color>
+         <br>Click to select the Ditch Digger brush. Then click or click and hold on the terrain to create ditches.</br>
+      </ditch_brush_button_ltt>
+      <terrain_biome_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Biome Modification</b>
+            </color>
+         </font>
+      </terrain_biome_area_label>
+      <terrain_biome_tab_stt>Biome modification</terrain_biome_tab_stt>
+      <terrain_biome_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Biome Modification tab</b>
+         </color>
+         <br>On this tab, you can choose a biome type and then use the mouse to paint the terrain with plants, trees, and other elements that are appropriate for selected biome.</br>
+      </terrain_biome_tab_ltt>
+      <previousbiome_stt>Previous biome</previousbiome_stt>
+      <previousbiome_ltt>
+         <color r="255" g="248" b="178">
+            <b>Previous Biome button</b>
+         </color>
+         <br>Click to change to the previous biome.</br>
+      </previousbiome_ltt>
+      <nextbiome_stt>Next biome</nextbiome_stt>
+      <nextbiome_ltt>
+         <color r="255" g="248" b="178">
+            <b>Next Biome button</b>
+         </color>
+         <br>Click to change to the next biome.</br>
+      </nextbiome_ltt>
+      <brushincrease_stt>Increase brush size</brushincrease_stt>
+      <brushincrease_ltt>
+         <color r="255" g="248" b="178">
+            <b> Increase Brush Size button</b>
+         </color>
+         <br>Click to increase the size of the area the biome brush paints each time you click the mouse.</br>
+      </brushincrease_ltt>
+      <brushdecrease_stt>Decrease brush size</brushdecrease_stt>
+      <brushdecrease_ltt>
+         <color r="255" g="248" b="178">
+            <b> Decrease Brush Size button</b>
+         </color>
+         <br>Click o decrease the size of the area the biome brush paints each time you click the mouse.</br>
+      </brushdecrease_ltt>
+      <terrain_tree_tab_stt>Trees</terrain_tree_tab_stt>
+      <terrain_tree_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Trees</b>
+            </color>
+         </font>
+      </terrain_tree_buy_area_label>
+      <terrain_tree_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Trees tab</b>
+         </color>
+         <br>This tab shows the different types of trees you can buy.</br>
+      </terrain_tree_tab_ltt>
+      <terrain_plant_tab_stt>Plants</terrain_plant_tab_stt>
+      <terrain_plant_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Plants</b>
+            </color>
+         </font>
+      </terrain_plant_buy_area_label>
+      <terrain_plant_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Plants tab</b>
+         </color>
+         <br>This tab shows different types of plants you can buy.</br>
+      </terrain_plant_tab_ltt>
+      <terrain_rock_tab_stt>Rocks</terrain_rock_tab_stt>
+      <terrain_rock_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Rocks</b>
+            </color>
+         </font>
+      </terrain_rock_buy_area_label>
+      <terrain_rock_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rocks tab</b>
+         </color>
+         <br>This tab shows the rocks you can buy.</br>
+      </terrain_rock_tab_ltt>
+      <!--STAFF PANEL ELEMENTS-->
+      <pgb_pointer_staff>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Staff Panel</b>
+            </color>
+         </font>
+      </pgb_pointer_staff>
+      <pgb_staff_stt>Staff</pgb_staff_stt>
+      <pgb_staff_ltt>
+         <color r="255" g="248" b="178">
+            <b>Staff button</b>
+         </color>
+         <br>Click to view the Staff panel, where you can hire staff members, including zookeepers, maintenance workers, and educators.</br>
+      </pgb_staff_ltt>
+      <staff_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Staff</b>
+            </color>
+         </font>
+      </staff_buy_area_label>
+      <staff_tab_stt>Staff</staff_tab_stt>
+      <staff_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Staff tab</b>
+         </color>
+         <br>On this tab, you can choose male or female staff members including zookeepers, maintenance workers, and educators.</br>
+      </staff_tab_ltt>
+      <keeper_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Zookeeper</b>
+            </color>
+         </font>
+      </keeper_buy_area_label>
+      <keeper_tab_stt>Zookeepers</keeper_tab_stt>
+      <keeper_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zookeepers tab</b>
+         </color>
+         <br>On this tab, you can choose a male or female zookeeper. A zookeeper can take care of all of the needs of the animals in your zoo.</br>
+      </keeper_tab_ltt>
+      <mw_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Maintenance Workers</b>
+            </color>
+         </font>
+      </mw_buy_area_label>
+      <mw_tab_stt>Maintenance Workers</mw_tab_stt>
+      <mw_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Maintenance Workers tab</b>
+         </color>
+         <br>On this tab, you can hire maintenance workers who will empty trash cans and clean up animal droppings in your zoo.</br>
+      </mw_tab_ltt>
+      <educator_buy_area_label>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>Educators</b>
+            </color>
+         </font>
+      </educator_buy_area_label>
+      <educator_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Educators tab</b>
+         </color>
+         <br>On this tab, you can hire educators, who can give informative talks to guests about animals, satisfying their thirst for knowledge.</br>
+      </educator_tab_ltt>
+      <educator_tab_stt>Educators</educator_tab_stt>
+      <zoom_in_button_stt>Zoom in</zoom_in_button_stt>
+      <zoom_in_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zoom In button</b>
+         </color>
+         <br>Click to zoom in for a closer look at your zoo.</br>
+      </zoom_in_button_ltt>
+      <zoom_out_button_stt>Zoom out</zoom_out_button_stt>
+      <zoom_out_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zoom out button</b>
+         </color>
+         <br>Click to zoom out for a higher-level look at your zoo.</br>
+      </zoom_out_button_ltt>
+      <rotate_counter_clockwise_button_stt>Rotate counter-clockwise</rotate_counter_clockwise_button_stt>
+      <rotate_counter_clockwise_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rotate Counter-Clockwise button</b>
+         </color>
+         <br>Click to rotate your view of the zoo in a counter-clockwise direction.</br>
+      </rotate_counter_clockwise_button_ltt>
+      <rotate_clockwise_button_stt>Rotate clockwise</rotate_clockwise_button_stt>
+      <rotate_clockwise_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rotate Clockwise button</b>
+         </color>
+         <br>Click to rotate your view of the zoo in a clockwise direction.</br>
+      </rotate_clockwise_button_ltt>
+      <multiinfo_button_stt>Zoo Quick Stats</multiinfo_button_stt>
+      <multiinfo_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zoo Quick Stats button</b>
+         </color>
+         <br>Click to access information about your animals, guests, staff, and buildings.</br>
+      </multiinfo_button_ltt>
+      <undo_button_stt>Undo</undo_button_stt>
+      <undo_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Undo button</b>
+         </color>
+         <br>Click to undo your last action.</br>
+      </undo_button_ltt>
+      <challenges_button_stt>Display challenges</challenges_button_stt>
+      <challenges_button_ltt>
+         <color r="255" g="248" b="178">
+            <b> Display Challenges button</b>
+         </color>
+         <br>Click to display information about current challenges.</br>
+      </challenges_button_ltt>
+      <recycle_button_stt>Recycle objects and buildings</recycle_button_stt>
+      <recycle_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Recycle Objects and Buildings buttons</b>
+         </color>
+         <br>Click to change the mouse cursor to a bulldozer. Then, point to any object in the zoo and click to delete it.</br>
+      </recycle_button_ltt>
+      <scenario_goals_button_stt>Display scenario goals</scenario_goals_button_stt>
+      <scenario_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Display Scenario Goals button</b>
+         </color>
+         <br>Click to display information about the current scenario goals.</br>
+      </scenario_goals_button_ltt>
+      <options_button_stt>Display game options</options_button_stt>
+      <options_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Game Options button</b>
+         </color>
+         <br>Click to display the Game Options menu, where you can save games, load games, return to the main menu, or exit Zoo Tycoon 2.</br>
+      </options_button_ltt>
+      <zoo_finance_button_stt>Display zoo finances</zoo_finance_button_stt>
+      <zoo_finance_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Display Zoo Finances button</b>
+         </color>
+         <br>Click to display information about zoo finances, including income and expenses, graphs, awards, and donations.</br>
+      </zoo_finance_button_ltt>
+      <photo_album_button_stt>Display photo album</photo_album_button_stt>
+      <photo_album_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Display Photo Album button</b>
+         </color>
+         <br>Click to view and organize photos taken in photo safari mode.</br>
+      </photo_album_button_ltt>
+      <ingameoptions_label>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Game Options</b>
+            </color>
+         </font>
+      </ingameoptions_label>
+      <ingameoptions_cancel>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga" shadowx="0" shadowy="0">
+            <b>Return To Game</b>
+         </font>
+      </ingameoptions_cancel>
+      <ingameoptions_exit>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga" shadowx="0" shadowy="0">
+            <b>Exit Game</b>
+         </font>
+      </ingameoptions_exit>
+      <ingameoptions_load>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga" shadowx="0" shadowy="0">
+            <b>Load Game</b>
+         </font>
+      </ingameoptions_load>
+      <ingameoptions_save>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga" shadowx="0" shadowy="0">
+            <b>Save Game</b>
+         </font>
+      </ingameoptions_save>
+      <ingameoptions_options>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga" shadowx="0" shadowy="0">
+            <b>Game Settings</b>
+         </font>
+      </ingameoptions_options>
+      <ingameoptions_mainmenu>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga" shadowx="0" shadowy="0">
+            <b>Return To Main Menu</b>
+         </font>
+      </ingameoptions_mainmenu>
+      <rotate_clock_stt>Rotate object clockwise</rotate_clock_stt>
+      <rotate_clock_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rotate Object Clockwise button</b>
+         </color>
+         <br/>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         Click to rotate this object in a clockwise direction before placing it.
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </rotate_clock_ltt>
+      <rotate_counter-clock_stt>Rotate object counter-clockwise</rotate_counter-clock_stt>
+      <rotate_counter-clock_ltt>
+         <color r="255" g="248" b="178">
+            <b>Rotate Object Counter-clockwise button</b>
+         </color>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         Click to rotate this object in a counter-clockwise direction before placing it.
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </rotate_counter-clock_ltt>
+      <devmodedisplay>
+         <font name="arial" size="24" shadowx="2" shadowy="2" shadowa="32">
+            <b>Dev Mode</b>
+         </font>
+      </devmodedisplay>
+      <maximize_ui_button_stt>Maximize</maximize_ui_button_stt>
+      <maximize_ui_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Maximize Game Controls button</b>
+         </color>
+         <br>Click to expand the Game Controls panel to its maximize size, displaying the most information possible but obscuring some of your zoo.</br>
+      </maximize_ui_button_ltt>
+      <minimize_ui_button_stt>Minimize</minimize_ui_button_stt>
+      <minimize_ui_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Minimize</b>
+         </color>
+         <br>Click to reduce the Game Controls panel to its minimum size, obscuring your view of your zoo as little as possible.</br>
+      </minimize_ui_button_ltt>
+      <zoo_money_button_stt>Display income and expense report</zoo_money_button_stt>
+      <zoo_money_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Display Income and Expense Report button</b>
+         </color>
+         <br>Click to display the display your zoo's income and expense report.</br>
+      </zoo_money_button_ltt>
+      <pause_game_label>
+         <font name="arial" size="24" shadowx="-1" shadowy="1">
+            <b>GAME PAUSED</b>
+         </font>
+      </pause_game_label>
+      <filter_all>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>All</b>
+         </font>
+      </filter_all>
+      <filter_theme_safari>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Safari Theme</b>
+         </font>
+      </filter_theme_safari>
+      <filter_theme_jungle>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Jungle Theme</b>
+         </font>
+      </filter_theme_jungle>
+      <filter_researchable>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Research</b>
+         </font>
+      </filter_researchable>
+      <filter_alpine>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Alpine</b>
+         </font>
+      </filter_alpine>
+      <filter_borealforest>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Boreal Forest</b>
+         </font>
+      </filter_borealforest>
+      <filter_desert>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Desert</b>
+         </font>
+      </filter_desert>
+      <filter_grassland>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Grassland</b>
+         </font>
+      </filter_grassland>
+      <filter_savannah>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Savannah</b>
+         </font>
+      </filter_savannah>
+      <filter_scrub>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Scrub</b>
+         </font>
+      </filter_scrub>
+      <filter_temperateforest>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Temperate Forest</b>
+         </font>
+      </filter_temperateforest>
+      <filter_tropicalrainforest>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Tropical Rainforest</b>
+         </font>
+      </filter_tropicalrainforest>
+      <filter_tundra>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b> Tundra</b>
+         </font>
+      </filter_tundra>
+      <filter_wetlands>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Wetlands</b>
+         </font>
+      </filter_wetlands>
+      <filter_show_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1">
+            <b>Show</b>
+         </font>
+      </filter_show_label>
+      <downloadformatlabel>
+         <font name="arial" size="10" shadowx="-1" shadowy="1">
+            <b>%text%</b>
+         </font>
+      </downloadformatlabel>
+   </shell>
+   <confirm>
+      <!--EXIT GAME CONFIMATION-->
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <exit_app_label>
+         <font name="arial" size="24" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <text>
+                  <br/>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  Are you sure you want to 
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               </text>
+            </color>
+         </font>
+      </exit_app_label>
+      <exit_app_2_label>
+         <font name="arial" size="24" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <text>
+                  <br/>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  Exit  Zoo Tycoon 2?
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               </text>
+            </color>
+         </font>
+      </exit_app_2_label>
+      <cancel_exit_zoo_button_stt>Return to Zoo Tycoon 2</cancel_exit_zoo_button_stt>
+      <cancel_exit_zoo_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Return to Zoo Tycoon 2</b>
+         </color>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         Click to return to Zoo Tycoon 2.
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </cancel_exit_zoo_button_ltt>
+      <exit_zoo_stt>Exit Zoo Tycoon 2</exit_zoo_stt>
+      <exit_zoo_ltt>
+         <color r="255" g="248" b="178">
+            <b>Exit Zoo Tycoon 2 button</b>
+         </color>
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         
+         Click to exit Zoo Tycoon 2.
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      
+      </exit_zoo_ltt>
+      <!--DELETE PHOTO CONFIRMATION-->
+      <delete_pic>
+         <font name="arial" size="24" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <text>
+                  <br>Delete this photograph?</br>
+               </text>
+            </color>
+         </font>
+      </delete_pic>
+      <delete_pic_button_stt>Delete photo</delete_pic_button_stt>
+      <delete_pic_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete Photo button</b>
+         </color>
+         <br>Click to delete the selected photo.</br>
+      </delete_pic_button_ltt>
+      <delete_pic_cancel_button_stt>Cancel</delete_pic_cancel_button_stt>
+      <delete_pic_cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel Delete Photo button</b>
+         </color>
+         <br>Click to cancel the deletion of the photo.</br>
+      </delete_pic_cancel_button_ltt>
+      <delete_camera_pics>
+         <font name="arial" size="24" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <text>
+                  <br>Delete all photographs from camera?</br>
+               </text>
+            </color>
+         </font>
+      </delete_camera_pics>
+      <delete_camera_pics_button_stt>Delete all photos from camera</delete_camera_pics_button_stt>
+      <delete_camera_pics_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete All Photos from Camera button</b>
+         </color>
+         <br>Click to delete all the photos from your camera.</br>
+      </delete_camera_pics_button_ltt>
+      <delete_camera_pics_cancel_button_stt>Cancel</delete_camera_pics_cancel_button_stt>
+      <delete_camera_pics_cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel Delete All Photos button</b>
+         </color>
+         <br>Click to cancel the deletion of all photos from your camera.</br>
+      </delete_camera_pics_cancel_button_ltt>
+      <!--ADD PROFILE CONFIRMATION-->
+      <new_profile_label>
+         <font name="arial" size="15" image="ui\font\color_mainmenu.tga" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Create New Profile</b>
+            </color>
+         </font>
+      </new_profile_label>
+      <create_profile_label>
+         <font name="arial" size="20" image="ui\font\color_mainmenu.tga" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Type new user profile.</b>
+            </color>
+         </font>
+      </create_profile_label>
+      <prompt>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="64">
+            <b>%text%</b>
+         </font>
+      </prompt>
+      <new_profile_cancel_button_stt>Cancel </new_profile_cancel_button_stt>
+      <new_profile_cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel New Profile button</b>
+         </color>
+         <br>Click to cancel and return to Profile Manager.</br>
+      </new_profile_cancel_button_ltt>
+      <profile_create_button_stt>Create player profile</profile_create_button_stt>
+      <profile_create_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Create New Profile button</b>
+         </color>
+         <br>Click to create a new player profile.</br>
+      </profile_create_button_ltt>
+      <!--DELETE PROFILE CONFIRMATION-->
+      <delete_profile_label>
+         <font name="arial" size="15" image="ui\font\color_mainmenu.tga" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Delete Profile</b>
+            </color>
+         </font>
+      </delete_profile_label>
+      <delete_selected_profile_label>
+         <font name="arial" size="20" image="ui\font\color_mainmenu.tga" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Delete this profile?</b>
+            </color>
+         </font>
+      </delete_selected_profile_label>
+      <delete_profile_button_stt>Delete player profile</delete_profile_button_stt>
+      <delete_profile_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete Player Profile button</b>
+         </color>
+         <br>Click to delete the selected player profile.</br>
+      </delete_profile_button_ltt>
+      <delete_profile_cancel_button_stt>Cancel</delete_profile_cancel_button_stt>
+      <delete_profile_cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel Delete Player Profile button</b>
+         </color>
+         <br>Click to cancel and return to Profile Manager.</br>
+      </delete_profile_cancel_button_ltt>
+      <!--CREATE ALBUM CONFIRMATION-->
+      <create_new_album>
+         <font name="arial" size="24" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <b>Create New Photo Album?</b>
+            </color>
+         </font>
+      </create_new_album>
+      <create_new_album_button_stt>Create new photo album</create_new_album_button_stt>
+      <create_new_album_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Create New Photo Album button</b>
+         </color>
+         <br>Click to create a new photo album, where you can view and organize the photos you've taken of your zoo.</br>
+      </create_new_album_button_ltt>
+      <create_new_album_cancel_button_stt>Cancel </create_new_album_cancel_button_stt>
+      <create_new_album_cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel Create New Photo Album button</b>
+         </color>
+         <br>Click to cancel and return to the photo album.</br>
+      </create_new_album_cancel_button_ltt>
+      <!--DELETE ALBUM CONFIRMATION-->
+      <delete_album_confirmation>
+         <font name="arial" size="22" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <b> Delete Photo Album?</b>
+            </color>
+         </font>
+      </delete_album_confirmation>
+      <delete_album_button_stt>Delete photo album</delete_album_button_stt>
+      <delete_album_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete Photo Album button</b>
+         </color>
+         <br>Click to delete this photo album. This will delete all photos included in this photo album.</br>
+      </delete_album_button_ltt>
+      <delete_album_cancel_button_stt>Cancel</delete_album_cancel_button_stt>
+      <delete_album_cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel Delete Photo Album button</b>
+         </color>
+         <br>Click to cancel and return to the photo album.</br>
+      </delete_album_cancel_button_ltt>
+      <!--MAINMENU RETURN-->
+      <return_mainmenu_label>
+         <font name="arial" size="20" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <b>Save your game before </b>
+            </color>
+         </font>
+      </return_mainmenu_label>
+      <return_mainmenu_label2>
+         <font name="arial" size="20" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <b>returning to the main menu?</b>
+            </color>
+         </font>
+      </return_mainmenu_label2>
+      <save_continue_button_stt>Save game and display Main Menu</save_continue_button_stt>
+      <save_continue_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Save Game button</b>
+         </color>
+         <br>Click to save the current game and display the Main Menu.</br>
+      </save_continue_button_ltt>
+      <no_save_continue_button_stt>Continue without saving</no_save_continue_button_stt>
+      <no_save_continue_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Continue Without Saving button</b>
+         </color>
+         <br>Click to continue without saving and return to the Main Menu.</br>
+      </no_save_continue_button_ltt>
+      <return_button_stt>Return to game</return_button_stt>
+      <return_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Return to Game button</b>
+         </color>
+         <br>Click to return to the current game.</br>
+      </return_button_ltt>
+      <!--SELL OBJECT-->
+      <sell_object_button_stt>Sell object</sell_object_button_stt>
+      <sell_object_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sell Object button</b>
+         </color>
+         <br>Click to sell the selected object. Any profit you earn is automatically added to your bank account.</br>
+      </sell_object_button_ltt>
+      <no_sell_object_button_stt>Cancel </no_sell_object_button_stt>
+      <no_sell_object_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel Sale button</b>
+         </color>
+         <br>Click to cancel the sale of this object.</br>
+      </no_sell_object_button_ltt>
+      <sell_selected_item_label>
+         <font name="arial" size="24" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <text>
+                  <br/>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  Sell This Object?
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               </text>
+            </color>
+         </font>
+      </sell_selected_item_label>
+      <!--Fire staff-->
+      <fire_selected_staff_label>
+         <font name="arial" size="22" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <text>
+                  <br/>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  Fire this staff member?
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               </text>
+            </color>
+         </font>
+      </fire_selected_staff_label>
+      <fire_staff_button_stt>Fire staff member</fire_staff_button_stt>
+      <fire_staff_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Fire Staff Member button</b>
+         </color>
+         <br>Click to fire the selected staff member.</br>
+      </fire_staff_button_ltt>
+      <no_fire_staff_button_stt>Cancel </no_fire_staff_button_stt>
+      <no_fire_staff_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel Fire Staff Member button</b>
+         </color>
+         <br>Click to cancel firing the selected staff member.</br>
+      </no_fire_staff_button_ltt>
+      <confimation_delete_game_label>
+         <font name="arial" size="15" image="ui\font\color_mainmenu.tga" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Delete Game</b>
+            </color>
+         </font>
+      </confimation_delete_game_label>
+      <delete_game_label>
+         <font name="arial" size="22" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <b> Delete Saved Game?</b>
+            </color>
+         </font>
+      </delete_game_label>
+      <delete_game_button_stt>Delete saved game</delete_game_button_stt>
+      <delete_game_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Delete Saved Game button</b>
+         </color>
+         <br>Click to delete this previously saved game.</br>
+      </delete_game_button_ltt>
+      <delete_game_cancel_button_stt>Cancel</delete_game_cancel_button_stt>
+      <delete_game_cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel Delete Saved Game button</b>
+         </color>
+         <br>Click to cancel the deletion of this previously saved game.</br>
+      </delete_game_cancel_button_ltt>
+      <restart_game_ok_label>
+         <font name="arial" size="20" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <text>
+                  <br/>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  Due to content changes, you must
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               </text>
+            </color>
+         </font>
+      </restart_game_ok_label>
+      <restart_game_ok_label2>
+         <font name="arial" size="20" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <text>
+                  <br/>
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  
+                  restart Zoo Tycoon 2.
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               
+               </text>
+            </color>
+         </font>
+      </restart_game_ok_label2>
+      <restart_game_ok_stt>Restart</restart_game_ok_stt>
+      <restart_game_ok_ltt>
+         <color r="255" g="248" b="178">
+            <b>Restart Zoo Tycoon 2</b>
+         </color>
+         <br>Click to restart Zoo Tycoon 2.</br>
+      </restart_game_ok_ltt>
+   </confirm>
+   <zoopedia>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <exit_button_stt>Return to game</exit_button_stt>
+      <exit_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Return to Game button</b>
+         </color>
+         <br>Click to close Zoopedia and return to the game.</br>
+      </exit_button_ltt>
+      <next_topic_button_stt>Next topic</next_topic_button_stt>
+      <next_topic_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Next Topic button</b>
+         </color>
+         <br>Click to view the next Zoopedia topic.</br>
+      </next_topic_button_ltt>
+      <prev_topic_button_stt>Previous topic</prev_topic_button_stt>
+      <prev_topic_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Previous Topic button</b>
+         </color>
+         <br>Click to view the previous Zoopedia topic.</br>
+      </prev_topic_button_ltt>
+      <toc_button_stt>Table of contents</toc_button_stt>
+      <toc_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Table of Contents button</b>
+         </color>
+         <br>Click to view the Zoopedia Table of Contents.</br>
+      </toc_button_ltt>
+   </zoopedia>
+   <zoomap>
+      <animalslabel>Animals</animalslabel>
+      <buildingslabel>Buildings</buildingslabel>
+      <fenceslabel>Fences</fenceslabel>
+      <pathslabel>Paths</pathslabel>
+      <foliagelabel>Foliage</foliagelabel>
+      <youareherelabel>You are here</youareherelabel>
+      <waterlabel>Water</waterlabel>
+      <export_map_button_stt>Export Map button</export_map_button_stt>
+      <export_map_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Export Map button</b>
+         </color>
+         <br>Click to export a copy of this map to HTML.</br>
+      </export_map_button_ltt>
+      <exit_button_stt>Return to game</exit_button_stt>
+      <exit_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Return to Game button</b>
+         </color>
+         <br>Click to close the zoo overview map and return to the game.</br>
+      </exit_button_ltt>
+      <legend_item_stt>Show/hide item</legend_item_stt>
+      <legend_item_ltt>
+         <color r="255" g="248" b="178">
+            <b>Show/Hide Items on Map button</b>
+         </color>
+         <br>Click to show or hide items on the zoo overview map.</br>
+      </legend_item_ltt>
+      <map_legend_label>
+         <font name="arial" size="18" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Map Legend</b>
+            </color>
+         </font>
+      </map_legend_label>
+      <zoo_name_label>
+         <font name="airal" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="197" b="78">
+               <b>%text%</b>
+            </color>
+         </font>
+      </zoo_name_label>
+      <over_view_map_label>
+         <font name="arial" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Overview Map:</b>
+            </color>
+         </font>
+      </over_view_map_label>
+   </zoomap>
+   <zoostatus>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <zoo_status_label>
+         <font name="airal" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Zoo Status</b>
+            </color>
+         </font>
+      </zoo_status_label>
+      <money_format>$%d</money_format>
+      <number_format>%d</number_format>
+      <info_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Zoo Information</b>
+            </color>
+         </font>
+      </info_tab_label>
+      <info_tab_stt>Zoo information</info_tab_stt>
+      <info_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zoo Information tab</b>
+         </color>
+         <br>Click to view and adjust zoo admission price and to check your zoo's operational status.</br>
+      </info_tab_ltt>
+      <info_price_up_button_stt>Increase admission price</info_price_up_button_stt>
+      <info_price_up_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Increase Admission Price button</b>
+         </color>
+         <br>Click to increase the admission price of the zoo. A higher admission price can lead to higher guest expectations.</br>
+      </info_price_up_button_ltt>
+      <info_price_down_button_stt>Decrease admission price</info_price_down_button_stt>
+      <info_price_down_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Decrease Admission Price button</b>
+         </color>
+         <br>Click to decrease the admission price for your zoo.</br>
+      </info_price_down_button_ltt>
+      <close_stt>Close</close_stt>
+      <close_ltt>
+         <color r="255" g="248" b="178">
+            <b>Close Zoo Information panel</b>
+         </color>
+         <br>Click to close the Zoo Information panel.</br>
+      </close_ltt>
+      <balance_sheet_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Income/Expenses</b>
+            </color>
+         </font>
+      </balance_sheet_tab_label>
+      <balance_sheet_tab_stt>Income &amp; Expense report</balance_sheet_tab_stt>
+      <balance_sheet_tab_ltt>
+         <marketing_tab_ltt>
+            <color r="255" g="248" b="178">
+               <b>View Income &amp; Expense Report tab</b>
+            </color>
+            <br>Click to view the Income &amp; Expense report for your zoo.</br>
+         </marketing_tab_ltt>
+      </balance_sheet_tab_ltt>
+      <graphs_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Zoo Graphs</b>
+            </color>
+         </font>
+      </graphs_tab_label>
+      <graphs_tab_stt>Zoo graphs</graphs_tab_stt>
+      <graphs_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>View Zoo Graphs tab</b>
+         </color>
+         <br>Click to view graphs that chart your zoo's progress in a variety of categories over time.</br>
+      </graphs_tab_ltt>
+      <awards_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Zoo Awards</b>
+            </color>
+         </font>
+      </awards_tab_label>
+      <awards_tab_stt>Zoo awards</awards_tab_stt>
+      <awards_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zoo Awards tab</b>
+         </color>
+         <br>Click to view the awards your zoo has received.</br>
+      </awards_tab_ltt>
+      <award_text_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </award_text_format>
+      <building_list_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Zoo Buildings</b>
+            </color>
+         </font>
+      </building_list_tab_label>
+      <building_list_buildings_name>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </building_list_buildings_name>
+      <building_list_num_color>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </building_list_num_color>
+      <building_list_tab_stt>Zoo buildings</building_list_tab_stt>
+      <building_list_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zoo Buildings tab</b>
+         </color>
+         <br>Click to view a list of the buildings in your zoo and their economic statistics.</br>
+      </building_list_tab_ltt>
+      <donations_box_names>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </donations_box_names>
+      <donations_list_num_color>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </donations_list_num_color>
+      <donations_summary_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Zoo Donations Summary</b>
+            </color>
+         </font>
+      </donations_summary_tab_label>
+      <donations_tab_stt>Zoo Donations Summary</donations_tab_stt>
+      <donations_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zoo Donations Summary</b>
+         </color>
+         <br>Click to view a summary of donations your zoo has received.</br>
+      </donations_tab_ltt>
+      <donations_summary_filter_button_stt>View zoo donations summary</donations_summary_filter_button_stt>
+      <donations_summary_filter_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View zoo donations summary</b>
+         </color>
+         <br>Click to view a summary of donations your zoo has received.</br>
+      </donations_summary_filter_button_ltt>
+      <donations_species_filter_button_stt>View zoo donations by species</donations_species_filter_button_stt>
+      <donations_species_filter_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View zoo donations by species</b>
+         </color>
+         <br>Click to view a summary of donations by species your zoo has received.</br>
+      </donations_species_filter_button_ltt>
+      <surveys_summary_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Guest Surveys</b>
+            </color>
+         </font>
+      </surveys_summary_tab_label>
+      <surveys_tab_stt>Guest surveys </surveys_tab_stt>
+      <surveys_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Click to view feedback from guests who have visited your zoo.</b>
+         </color>
+      </surveys_tab_ltt>
+      <surveys_overall_survey_questions_filter_button_stt>View the overall survey.</surveys_overall_survey_questions_filter_button_stt>
+      <surveys_overall_survey_questions_filter_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View the overall survey.</b>
+         </color>
+         <br>Click to view the zoo's overall survey summary.</br>
+      </surveys_overall_survey_questions_filter_button_ltt>
+      <surveys_food_survey_questions_filter_button_stt>View the food survey </surveys_food_survey_questions_filter_button_stt>
+      <surveys_food_survey_questions_filter_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View the food survey.</b>
+         </color>
+         <br>Click to view the zoo's food survey </br>
+         <food_survey/>
+         <food_survey/>
+      </surveys_food_survey_questions_filter_button_ltt>
+      <surveys_misc_survey_questions_filter_button_stt>View the miscellaneous survey.</surveys_misc_survey_questions_filter_button_stt>
+      <surveys_misc_survey_questions_filter_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View the miscellaneous survey.</b>
+         </color>
+         <br>Click to view the zoo's miscellaneous survey.</br>
+         <food_survey/>
+         <food_survey/>
+      </surveys_misc_survey_questions_filter_button_ltt>
+      <graph_value_tab_stt>Zoo value</graph_value_tab_stt>
+      <graph_value_tab_ltt>Click to view of your zoo's value over time. </graph_value_tab_ltt>
+      <graph_profit_tab_stt>Monthly profit </graph_profit_tab_stt>
+      <graph_profit_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Monthly Profit Graph tab</b>
+         </color>
+         <br>Click to view a graph of your zoo's monthly profit over time.</br>
+      </graph_profit_tab_ltt>
+      <graph_donations_tab_stt>Monthly donations </graph_donations_tab_stt>
+      <graph_donations_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Monthly Donations Graph tab</b>
+         </color>
+         <br>Click to view a graph of your zoo's monthly donations over time.</br>
+      </graph_donations_tab_ltt>
+      <graph_attendance_tab_stt>Monthly attendance </graph_attendance_tab_stt>
+      <graph_attendance_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Monthly Attendance Graph tab</b>
+         </color>
+         <br>Click to view a graph of your zoo's monthly attendance over time.</br>
+      </graph_attendance_tab_ltt>
+      <graph_fame_tab_stt>Zoo Fame </graph_fame_tab_stt>
+      <graph_fame_tab_ltt>Click to view a graph of your zoo's fame and recognition level over time.</graph_fame_tab_ltt>
+      <graph_members_tab_stt>Zoo Members </graph_members_tab_stt>
+      <graph_members_tab_ltt>Click to view a graph that charts the number of zoo members your zoo has signed up over time.</graph_members_tab_ltt>
+      <graph_toggle_button_stt>Bar graph view</graph_toggle_button_stt>
+      <graph_toggle_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Bar Graph button</b>
+         </color>
+         <br>Click to change the graphs to display in bar graph format.</br>
+      </graph_toggle_button_ltt>
+      <line_toggle_button_stt>Line graph view</line_toggle_button_stt>
+      <line_toggle_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Line Graph button</b>
+         </color>
+         <br>Click to change the graphs to display in line graph format.</br>
+      </line_toggle_button_ltt>
+      <!-- note: these must all be "econ_category_X", where X is the economic category -->
+      <econ_category_admissions>Admissions:</econ_category_admissions>
+      <econ_category_admissions_income>Admissions Income:</econ_category_admissions_income>
+      <econ_category_construction>Construction:</econ_category_construction>
+      <econ_category_animal>Animal Adoption:</econ_category_animal>
+      <econ_category_animal_upkeep>Animal Upkeep:</econ_category_animal_upkeep>
+      <econ_category_concessions_gifts>Shop Sales:</econ_category_concessions_gifts>
+      <econ_category_concessions_food_drink>Food/Drink Sales:</econ_category_concessions_food_drink>
+      <econ_category_staff_salaries>Staff Salaries:</econ_category_staff_salaries>
+      <econ_category_research>Research:</econ_category_research>
+      <econ_category_donations_income>Donations:</econ_category_donations_income>
+      <econ_category_cash_grants>Cash Grants:</econ_category_cash_grants>
+      <econ_category_upkeep>Upkeep:</econ_category_upkeep>
+      <econ_category_recycling>Recycling:</econ_category_recycling>
+      <econ_category_Zoo>Total:</econ_category_Zoo>
+      <zoo_is_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Your Zoo Is</b>
+            </color>
+         </font>
+      </zoo_is_label>
+      <zoo_is_open>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="0" g="248" b="0">
+               <b>OPEN!</b>
+            </color>
+         </font>
+      </zoo_is_open>
+      <zoo_is_closed>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="0" b="0">
+               <b>CLOSED.</b>
+            </color>
+         </font>
+      </zoo_is_closed>
+      <open_zoo_stt>Open the zoo</open_zoo_stt>
+      <open_zoo_ltt>
+         <color r="255" g="248" b="178">
+            <b>Open Zoo button</b>
+         </color>
+         <br>Click to open the zoo for guests to enjoy.</br>
+      </open_zoo_ltt>
+      <close_zoo_stt>Close the zoo</close_zoo_stt>
+      <close_zoo_ltt>
+         <color r="255" g="248" b="178">
+            <b>Close Zoo button</b>
+         </color>
+         <br>Click to close the zoo. No guests will visit when the zoo is closed.</br>
+      </close_zoo_ltt>
+      <admission_prices_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Admission price:</b>
+            </color>
+         </font>
+      </admission_prices_label>
+      <adult_price_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Adult Cost:</b>
+            </color>
+         </font>
+      </adult_price_label>
+      <child_price_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Child Cost:</b>
+            </color>
+         </font>
+      </child_price_label>
+      <tour_group_price_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Tour Group Cost:</b>
+            </color>
+         </font>
+      </tour_group_price_label>
+      <building_list_name>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Building Name:</b>
+            </color>
+         </font>
+      </building_list_name>
+      <building_list_months>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Months:</b>
+            </color>
+         </font>
+      </building_list_months>
+      <building_list_users>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Visitors:</b>
+            </color>
+         </font>
+      </building_list_users>
+      <building_list_profit>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Profit:</b>
+            </color>
+         </font>
+      </building_list_profit>
+      <building_list_average_profit>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Avg Profit:</b>
+            </color>
+         </font>
+      </building_list_average_profit>
+      <donation_box_list_name>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Donations Box Name:</b>
+            </color>
+         </font>
+      </donation_box_list_name>
+      <donation_box_list_months>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Months:</b>
+            </color>
+         </font>
+      </donation_box_list_months>
+      <donation_box_list_users>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Guest Donations:</b>
+            </color>
+         </font>
+      </donation_box_list_users>
+      <donation_box_list_profit>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Box Total:</b>
+            </color>
+         </font>
+      </donation_box_list_profit>
+      <donation_box_list_average_profit>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Avg Donation:</b>
+            </color>
+         </font>
+      </donation_box_list_average_profit>
+      <donation_species_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Species</b>
+            </color>
+         </font>
+      </donation_species_label>
+      <donation_species_amount_donate_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Amount Donated</b>
+            </color>
+         </font>
+      </donation_species_amount_donate_label>
+      <donation_education_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Educational Donations</b>
+            </color>
+         </font>
+      </donation_education_label>
+      <donation_education_amount_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Amount Donated</b>
+            </color>
+         </font>
+      </donation_education_amount_label>
+      <donation_education_number_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </donation_education_number_format>
+      <donation_allspecies_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Animal Donations</b>
+            </color>
+         </font>
+      </donation_allspecies_label>
+      <donation_allspecies_amount_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Amount Donated</b>
+            </color>
+         </font>
+      </donation_allspecies_amount_label>
+      <donation_allspecies_number_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </donation_allspecies_number_format>
+      <donation_combined_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Combined Donations</b>
+            </color>
+         </font>
+      </donation_combined_label>
+      <donation_combined_amount_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Amount Donated</b>
+            </color>
+         </font>
+      </donation_combined_amount_label>
+      <donation_combined_number_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </donation_combined_number_format>
+      <zoo_name_label>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="254" g="219" b="89">
+               <b>Zoo Name:</b>
+            </color>
+         </font>
+      </zoo_name_label>
+      <zoo_name>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="255">
+            <b>%text%</b>
+         </font>
+      </zoo_name>
+      <months_label_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </months_label_format>
+      <misc_label_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </misc_label_format>
+      <misc_label_green_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <b>%text%</b>
+         </font>
+      </misc_label_green_format>
+      <misc_label_red_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <b>%text%</b>
+         </font>
+      </misc_label_red_format>
+      <bar_item_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <b/>
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </bar_item_format>
+      <posformat>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </posformat>
+      <negformat>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="0" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </negformat>
+      <num_guest_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Guests in Zoo:</b>
+            </color>
+         </font>
+      </num_guest_label>
+   </zoostatus>
+   <uigraph>
+      <posformat>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </posformat>
+      <negformat>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="0" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </negformat>
+   </uigraph>
+   <buyinfo>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <cost_label>
+         <font name="arial" size="11">
+            <b>Cost:</b>
+         </font>
+      </cost_label>
+      <research_cost_label>
+         <font name="arial" size="11">
+            <b>Research Cost:</b>
+         </font>
+      </research_cost_label>
+      <researching_label>
+         <font name="arial" size="11">
+            <b>Currently researching</b>
+         </font>
+      </researching_label>
+      <biome_label>
+         <font name="arial" size="11">
+            <b>Biome:</b>
+         </font>
+      </biome_label>
+      <biome_format>
+         <font name="arial" size="11" shadowa="192">
+            <b>%text%</b>
+         </font>
+      </biome_format>
+      <location_label>
+         <font name="arial" size="11">
+            <b>Location:</b>
+         </font>
+      </location_label>
+      <gender_label>
+         <font name="arial" size="11">
+            <b>Gender:</b>
+         </font>
+      </gender_label>
+      <gender_male_stt>Male</gender_male_stt>
+      <gender_female_stt>Female</gender_female_stt>
+      <posformat>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </posformat>
+      <items_sold_label>
+         <font name="arial" size="11">
+            <b>Items Sold:</b>
+         </font>
+      </items_sold_label>
+      <zoopedia_button_stt>Access Zoopedia</zoopedia_button_stt>
+      <zoopedia_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Access Zoopedia</b>
+         </color>
+         <br>Click this button to access the zoopedia and get infomation about this entity.</br>
+      </zoopedia_button_ltt>
+      <research_button_stt>Research Entity</research_button_stt>
+      <research_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Research Entity</b>
+         </color>
+         <br>Click this button to start researching this entity.</br>
+      </research_button_ltt>
+      <zookeeper_rec_button_stt>Zookeeper Recommendations</zookeeper_rec_button_stt>
+      <zookeeper_rec_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Zookeeper Recommendations</b>
+         </color>
+         <br>Click this button to get zookeeper recommendations for this animal.</br>
+      </zookeeper_rec_button_ltt>
+   </buyinfo>
+   <alert>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <save_game_message>
+         <font name="arial" size="20">
+            <b>Game Saved</b>
+         </font>
+      </save_game_message>
+   </alert>
+   <entityinfo>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <task_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Current Activity:</b>
+            </color>
+         </font>
+      </task_label>
+      <status_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Basic Needs Status:</b>
+            </color>
+         </font>
+      </status_label>
+      <status_advanced_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Advanced Needs Status:</b>
+            </color>
+         </font>
+      </status_advanced_label>
+      <gender_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Gender:</b>
+            </color>
+         </font>
+      </gender_label>
+      <inventory_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Inventory:</b>
+            </color>
+         </font>
+      </inventory_label>
+      <cash_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Cash:</b>
+            </color>
+         </font>
+      </cash_label>
+      <location_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Location:</b>
+            </color>
+         </font>
+      </location_label>
+      <biome_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Biome:</b>
+            </color>
+         </font>
+      </biome_label>
+      <animal_debug_info_stt>debug window</animal_debug_info_stt>
+      <animal_status_info_stt>Animal status</animal_status_info_stt>
+      <animal_status_info_ltt>
+         <color r="255" g="248" b="178">
+            <b>Animal Status Panel button</b>
+         </color>
+         <br>Click to view the Animal Status panel.</br>
+      </animal_status_info_ltt>
+      <animal_needs_info_stt>Needs</animal_needs_info_stt>
+      <animal_needs_info_ltt>
+         <color r="255" g="248" b="178">
+            <b>Animal Needs button</b>
+         </color>
+         <br>Click to review the status of the animal's basic and advanced needs.</br>
+      </animal_needs_info_ltt>
+      <animal_general_info_stt>General information</animal_general_info_stt>
+      <animal_general_info_ltt>
+         <color r="255" g="248" b="178">
+            <b>General information button</b>
+         </color>
+         <br>Click to view the animal's gender, biome preference, and geographical location.</br>
+      </animal_general_info_ltt>
+      <adoption_button_stt>Put up for adoption</adoption_button_stt>
+      <adoption_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Put Animal up for Adoption button</b>
+         </color>
+         <br>Click to put this animal up for adoption so that other zoos may consider acquiring it.</br>
+      </adoption_button_ltt>
+      <release_button_stt>Release animal into wild</release_button_stt>
+      <release_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Release Animal button</b>
+         </color>
+         <br>Click to release this animal into the wild, an important step in conservation efforts.</br>
+      </release_button_ltt>
+      <pickup_animal_button_stt>Pick up animal</pickup_animal_button_stt>
+      <pickup_animal_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pick Up Animal button</b>
+         </color>
+         <br>Click to pick up the selected animal wherever it is located in the zoo.</br>
+      </pickup_animal_button_ltt>
+      <track_animal_button_stt>Track Animal button</track_animal_button_stt>
+      <track_animal_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Track Animal button</b>
+         </color>
+         <br>Click to track the selected animal wherever it is located in the zoo.</br>
+      </track_animal_button_ltt>
+      <crate_animal_button_stt>Crate animal</crate_animal_button_stt>
+      <crate_animal_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Crate animal button</b>
+         </color>
+         <br>Click to crate the selected animal wherever it is located in the zoo.</br>
+      </crate_animal_button_ltt>
+      <basic_needs_ok_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Basic Need Status</b>
+            </color>
+         </font>
+      </basic_needs_ok_label>
+      <state_indicator_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Quick Status Display</b>
+            </color>
+         </font>
+      </state_indicator_label>
+      <advanced_needs_ok_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Advanced Need Status</b>
+            </color>
+         </font>
+      </advanced_needs_ok_label>
+      <pickup_crate_button_stt>Pick up crate</pickup_crate_button_stt>
+      <pickup_crate_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pick Up Crate button</b>
+         </color>
+         <br>Click to pick up the selected createa wherever it is located in the zoo.</br>
+      </pickup_crate_button_ltt>
+      <uncrate_button_stt>Uncrate animal</uncrate_button_stt>
+      <uncrate_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Uncrate animal button</b>
+         </color>
+         <br>Click to uncrate the selected animal wherever it is located in the zoo.</br>
+      </uncrate_button_ltt>
+      <guest_debug_info_stt>debug window</guest_debug_info_stt>
+      <guest_thoughts_tab_stt>Guest thoughts</guest_thoughts_tab_stt>
+      <guest_thoughts_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Guest Thoughts tab</b>
+         </color>
+         <br>Click to view guests' thoughts as they visit your zoo.</br>
+      </guest_thoughts_tab_ltt>
+      <guest_fav_tab_stt>Guest favorites</guest_fav_tab_stt>
+      <guest_fav_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Guest Favorites tab</b>
+         </color>
+         <br>Click to view a list of the current guest's zoo favorites.</br>
+      </guest_fav_tab_ltt>
+      <guest_status_tab_stt>Guest status</guest_status_tab_stt>
+      <guest_status_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Guest status tab</b>
+         </color>
+         <br>Click to view guest status.</br>
+      </guest_status_tab_ltt>
+      <guest_general_tab_stt>Guest activities and needs</guest_general_tab_stt>
+      <guest_general_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Guest Activities and Needs tab</b>
+         </color>
+         <br>Click to view the current guest's activities and to review his or her basic needs.</br>
+      </guest_general_tab_ltt>
+      <guest_needs_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Guest Need Status</b>
+            </color>
+         </font>
+      </guest_needs_label>
+      <guest_favorites_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Favorites</b>
+            </color>
+         </font>
+      </guest_favorites_label>
+      <guest_thought_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Thoughts</b>
+            </color>
+         </font>
+      </guest_thought_label>
+      <close_button_stt>Close panel</close_button_stt>
+      <close_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Close Panel button</b>
+         </color>
+         <br>Click to close this panel.</br>
+      </close_button_ltt>
+      <pickup_button_stt>Pick up animal</pickup_button_stt>
+      <pickup_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pick Up Animal button</b>
+         </color>
+         <br>Click to pick up the selected animal wherever it's located in your zoo.</br>
+      </pickup_button_ltt>
+      <track_guest_button_stt>Track Guest button</track_guest_button_stt>
+      <track_guest_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Track Guest button</b>
+         </color>
+         <br>Click to track the selected guest wherever it is located in the zoo.</br>
+      </track_guest_button_ltt>
+      <zoopedia_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View Zoopedia Topic button</b>
+         </color>
+         <br>Click to view the Zoopedia topic that describes this object.</br>
+      </zoopedia_button_ltt>
+      <zoopedia_button_stt>Zoopedia</zoopedia_button_stt>
+      <pickup_guest_button_stt>Pick up guest</pickup_guest_button_stt>
+      <pickup_guest_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pick Up Guest button</b>
+         </color>
+         <br>Click to pick up the selected guest wherever he or she is located in your zoo.</br>
+      </pickup_guest_button_ltt>
+      <pickup_building_button_stt>Pick up building</pickup_building_button_stt>
+      <pickup_building_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pick Up Building button</b>
+         </color>
+         <br>Click to pick up the selected building or structure wherever it is located in your zoo.</br>
+      </pickup_building_button_ltt>
+      <sell_building_button_stt>Sell </sell_building_button_stt>
+      <sell_building_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sell button</b>
+         </color>
+         <br>Click to sell the selected object. Any profit you make will be automatically added to your bank account.</br>
+      </sell_building_button_ltt>
+      <sell_fence_button_stt>Sell</sell_fence_button_stt>
+      <sell_fence_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sell button</b>
+         </color>
+         <br>Click to sell the selected object. Any profit you make will be automatically added to your bank account.</br>
+      </sell_fence_button_ltt>
+      <pickup_generic_button_stt>Pick up </pickup_generic_button_stt>
+      <pickup_generic_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pick Up button</b>
+         </color>
+         <br>Click to pick up the selected object wherever it is located in your zoo.</br>
+      </pickup_generic_button_ltt>
+      <price_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Price:</b>
+            </color>
+         </font>
+      </price_label>
+      <price_free>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">
+               <b>Free</b>
+            </color>
+         </font>
+      </price_free>
+      <price_free_stt>Set free price</price_free_stt>
+      <price_free_ltt/>
+      <price_low>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">
+               <b>Low</b>
+            </color>
+         </font>
+      </price_low>
+      <price_low_stt>Set low prices</price_low_stt>
+      <price_low_ltt>
+         <color r="255" g="248" b="178">
+            <b>Set Low Prices button</b>
+         </color>
+         <br>Click to set low prices on the items this building sells.</br>
+      </price_low_ltt>
+      <price_med>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">
+               <b>Moderate</b>
+            </color>
+         </font>
+      </price_med>
+      <price_med_stt>Set moderate prices</price_med_stt>
+      <price_med_ltt>
+         <color r="255" g="248" b="178">
+            <b>Set Moderate Prices button</b>
+         </color>
+         <br>Click to set moderate prices on the items this building sells.</br>
+      </price_med_ltt>
+      <price_high>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">
+               <b>Expensive</b>
+            </color>
+         </font>
+      </price_high>
+      <price_high_stt>Set high prices</price_high_stt>
+      <price_high_ltt>
+         <color r="255" g="248" b="178">
+            <b>Set High Prices button</b>
+         </color>
+         <br>Click to set expensive prices on the items this building sells.</br>
+      </price_high_ltt>
+      <building_status_tab_stt>Status</building_status_tab_stt>
+      <building_status_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>View Building Status tab</b>
+         </color>
+         <br>Click to view the status of the current building.</br>
+      </building_status_tab_ltt>
+      <building_finance_tab_stt>Finance</building_finance_tab_stt>
+      <building_finance_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>View Finance Imformation tab</b>
+         </color>
+         <br>Click to view the sales figures for this building.</br>
+      </building_finance_tab_ltt>
+      <building_color_tab_stt>Change color</building_color_tab_stt>
+      <building_color_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Change Building Color tab</b>
+         </color>
+         <br>Click to change the color of the building trim.</br>
+      </building_color_tab_ltt>
+      <items_sold_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Items Sold:</b>
+            </color>
+         </font>
+      </items_sold_label>
+      <months_in_operation_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Months in operation</b>
+            </color>
+         </font>
+      </months_in_operation_label>
+      <mgh>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">month here</color>
+         </font>
+      </mgh>
+      <income_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Income:</b>
+            </color>
+         </font>
+      </income_label>
+      <upkeep_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Upkeep:</b>
+            </color>
+         </font>
+      </upkeep_label>
+      <profit_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Profit:</b>
+            </color>
+         </font>
+      </profit_label>
+      <user_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Users:</b>
+            </color>
+         </font>
+      </user_label>
+      <lifetime_non_commerce_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Lifetime Upkeep:</b>
+            </color>
+         </font>
+      </lifetime_non_commerce_label>
+      <lifetime_commerce_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Lifetime Profit:</b>
+            </color>
+         </font>
+      </lifetime_commerce_label>
+      <current_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Current:</b>
+            </color>
+         </font>
+      </current_label>
+      <last_label>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Last:</b>
+            </color>
+         </font>
+      </last_label>
+      <color_replacement>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Color Replacement</b>
+            </color>
+         </font>
+      </color_replacement>
+      <posformat>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </posformat>
+      <negformat>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="0" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </negformat>
+      <staff_salary>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="0" g="255" b="0">
+               <b>fill in amount</b>
+            </color>
+         </font>
+      </staff_salary>
+      <staff_months_employed_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Months Employed</b>
+            </color>
+         </font>
+      </staff_months_employed_label>
+      <staff_months_employed>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">
+               <b>fill in amount</b>
+            </color>
+         </font>
+      </staff_months_employed>
+      <staff_month_salary>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>fill in amount</b>
+            </color>
+         </font>
+      </staff_month_salary>
+      <staff_thoughts_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">
+               <b>Thoughts:</b>
+            </color>
+         </font>
+      </staff_thoughts_label>
+      <staff_status_button_stt>Staff status</staff_status_button_stt>
+      <staff_status_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Staff Status button</b>
+         </color>
+         <br>Click to find out what your staff member is doing right now.</br>
+      </staff_status_button_ltt>
+      <staff_assign_button_stt>Staff assignments</staff_assign_button_stt>
+      <staff_assign_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Staff Assignments button</b>
+         </color>
+         <br>Click to check on this staff member's current assignments.</br>
+      </staff_assign_button_ltt>
+      <staff_thoughts_button_stt>Staff thoughts</staff_thoughts_button_stt>
+      <staff_thoughts_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Staff Thoughts button</b>
+         </color>
+         <br>Click to review this staff member's thoughts throughout the day.</br>
+      </staff_thoughts_button_ltt>
+      <staff_salary_button_stt>Staff salary</staff_salary_button_stt>
+      <staff_salary_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Staff Salary button</b>
+         </color>
+         <br>Click to display this staff member's salary details.</br>
+      </staff_salary_button_ltt>
+      <pickup_staff_button_stt>Pick up staff member</pickup_staff_button_stt>
+      <pickup_staff_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Pick Up Staff member</b>
+         </color>
+         <br>Click to pick up the selected staff member, wherever he or she is located in your zoo.</br>
+      </pickup_staff_button_ltt>
+      <track_staff_button_stt>Track Staff button</track_staff_button_stt>
+      <track_staff_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Track Staff button</b>
+         </color>
+         <br>Click to track the selected staff memeber wherever it is located in the zoo.</br>
+      </track_staff_button_ltt>
+      <add_assignment_stt>Add new assignment</add_assignment_stt>
+      <add_assignment_ltt>
+         <color r="255" g="248" b="178">
+            <b>Add New Assignment button</b>
+         </color>
+         <br>Click and then select an animal to assign it to this zookeeper.</br>
+      </add_assignment_ltt>
+      <remove_assignment_stt>Remove selected assignment</remove_assignment_stt>
+      <remove_assignment_ltt>
+         <color r="255" g="248" b="178">
+            <b>Remove Selected Assignment button</b>
+         </color>
+         <br>Click to remove the selected animal from this zookeeper's list of assignments.</br>
+      </remove_assignment_ltt>
+      <keeper_assignment_label>Assignment </keeper_assignment_label>
+      <educator_add_assignment_stt>Add new podium assignment</educator_add_assignment_stt>
+      <educator_add_assignment_ltt>
+         <color r="255" g="248" b="178">
+            <b>Add New Podium Assignment button</b>
+         </color>
+         <br>Click and then select a podium to assign it to this educator.</br>
+      </educator_add_assignment_ltt>
+      <educator_remove_assignment_stt>Remove podium assignment</educator_remove_assignment_stt>
+      <educator_remove_assignment_ltt>
+         <color r="255" g="248" b="178">
+            <b>Remove Podium Assignment button</b>
+         </color>
+         <br>Click to remove the selected podium from this educator's list of assignments.</br>
+      </educator_remove_assignment_ltt>
+      <fire_staff_button_stt>Fire staff member</fire_staff_button_stt>
+      <fire_staff_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Fire Staff Member button</b>
+         </color>
+         <br>Click to fire this staff member.</br>
+      </fire_staff_button_ltt>
+      <specialization_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Specialization:</b>
+            </color>
+         </font>
+      </specialization_label>
+      <assignment_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Current Assignments:</b>
+            </color>
+         </font>
+      </assignment_label>
+      <duty_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Current Duty:</b>
+            </color>
+         </font>
+      </duty_label>
+      <sweep_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>SweepTrash</b>
+            </color>
+         </font>
+      </sweep_label>
+      <empty_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Empty Trash</b>
+            </color>
+         </font>
+      </empty_label>
+      <quantity_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Amount left</b>
+            </color>
+         </font>
+      </quantity_label>
+      <average_donation_income_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Average Income:</b>
+            </color>
+         </font>
+      </average_donation_income_label>
+      <donation_education_quantity_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Education Donations:</b>
+            </color>
+         </font>
+      </donation_education_quantity_label>
+      <donation_education_income_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Education Income:</b>
+            </color>
+         </font>
+      </donation_education_income_label>
+      <donation_education_income>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="0" g="255" b="0">
+               <b>number here</b>
+            </color>
+         </font>
+      </donation_education_income>
+      <donation_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Total Donations:</b>
+            </color>
+         </font>
+      </donation_label>
+      <donation_quantity>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">
+               <b># Here</b>
+            </color>
+         </font>
+      </donation_quantity>
+      <donation_income_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Total Income:</b>
+            </color>
+         </font>
+      </donation_income_label>
+      <donation_income>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="0" g="255" b="0">
+               <b>number here</b>
+            </color>
+         </font>
+      </donation_income>
+      <donation_species_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Species:</b>
+            </color>
+         </font>
+      </donation_species_label>
+      <donation_number_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b># Donations:</b>
+            </color>
+         </font>
+      </donation_number_label>
+      <donation_total_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Total Donations:</b>
+            </color>
+         </font>
+      </donation_total_label>
+      <trash_quantity_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Trash level</b>
+            </color>
+         </font>
+      </trash_quantity_label>
+      <thought_format>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <b>%text%</b>
+         </font>
+      </thought_format>
+      <month_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </month_format>
+      <poscursorformat>
+         <font name="arial" size="16" shadowx="0" shadowy="0" shadowa="255">
+            <color r="255" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </poscursorformat>
+      <negcursorformat>
+         <font name="arial" size="16" shadowx="0" shadowy="0" shadowa="255">
+            <color r="255" g="0" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </negcursorformat>
+      <refill_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Refill food container</b>
+            </color>
+         </font>
+      </refill_label>
+      <species_label>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="64">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </species_label>
+   </entityinfo>
+   <sort>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <entity_name_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="32">
+            <color r="59" g="84" b="65">
+               <b>%text%</b>
+            </color>
+         </font>
+      </entity_name_format>
+   </sort>
+   <messages>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <normal_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="32">
+            <b>%text%</b>
+         </font>
+      </normal_format>
+      <good_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="32">
+            <b>%text%</b>
+         </font>
+      </good_format>
+      <bad_format>
+         <font name="arial" size="10" shadowx="-1" shadowy="1" shadowa="32">
+            <b>%text%</b>
+         </font>
+      </bad_format>
+      <open_queue_button_stt>Message queue</open_queue_button_stt>
+      <open_queue_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Open Message Queue button</b>
+         </color>
+         <br>Click to open the message queue to view a list of messages about your zoo.</br>
+      </open_queue_button_ltt>
+   </messages>
+   <guestthoughtformat>
+      <thought_format>
+         <font name="arial" size="9" shadowx="-1" shadowy="1" shadowa="32">
+            <b>%text%</b>
+         </font>
+      </thought_format>
+   </guestthoughtformat>
+   <multilist>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <multilist_label>
+         <font name="airal" size="12" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Quick Stats</b>
+            </color>
+         </font>
+      </multilist_label>
+      <sort_label_format>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </sort_label_format>
+      <animal_name_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>Animals:</b>
+            </color>
+         </font>
+      </animal_name_label>
+      <animal_state_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>Status:</b>
+            </color>
+         </font>
+      </animal_state_label>
+      <animal_info_tab_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Animal List</b>
+            </color>
+         </font>
+      </animal_info_tab_label>
+      <animal_info_tab_stt>Animal information</animal_info_tab_stt>
+      <animal_info_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Animal Information tab</b>
+         </color>
+         <br>Click to view a list of all the animals in your zoo</br>
+      </animal_info_tab_ltt>
+      <animal_sort_type_stt>Sort by type</animal_sort_type_stt>
+      <animal_sort_type_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Animal Type button</b>
+         </color>
+         <br>Click to sort the list of animals by species type.</br>
+      </animal_sort_type_ltt>
+      <animal_sort_env_stt>Sort by enviornment</animal_sort_env_stt>
+      <animal_sort_env_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Enviornment Suitability button</b>
+         </color>
+         <br>Click to sort the list of animals by enviornment suitability.</br>
+      </animal_sort_env_ltt>
+      <animal_sort_hunger_stt>Sort by hunger</animal_sort_hunger_stt>
+      <animal_sort_hunger_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Hunger button</b>
+         </color>
+         <br>Click to sort the list of animals by hunger.</br>
+      </animal_sort_hunger_ltt>
+      <animal_sort_thirst_stt>Sort by thirst</animal_sort_thirst_stt>
+      <animal_sort_thirst_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Thirst button</b>
+         </color>
+         <br>Click to sort the list of animals by thirst.</br>
+      </animal_sort_thirst_ltt>
+      <animal_sort_rest_stt>Sort by rest</animal_sort_rest_stt>
+      <animal_sort_rest_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Rest button</b>
+         </color>
+         <br>Click to sort the list of animals by rest.</br>
+      </animal_sort_rest_ltt>
+      <animal_sort_exercise_stt>Sort by exercise</animal_sort_exercise_stt>
+      <animal_sort_exercise_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Exercise button</b>
+         </color>
+         <br>Click to sort the list of animals by exercise.</br>
+      </animal_sort_exercise_ltt>
+      <animal_sort_sick_stt>Sort by sickness</animal_sort_sick_stt>
+      <animal_sort_sick_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Sickness button</b>
+         </color>
+         <br>Click to sort the list of animals by sickness.</br>
+      </animal_sort_sick_ltt>
+      <animal_sort_happy_stt>Sort by happiness</animal_sort_happy_stt>
+      <animal_sort_happy_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Happiness button</b>
+         </color>
+         <br>Click to sort the list of animals by happiness.</br>
+      </animal_sort_happy_ltt>
+      <animal_sort_pregnant_stt>Sort by pregnancy</animal_sort_pregnant_stt>
+      <animal_sort_pregnant_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Pregnancy button</b>
+         </color>
+         <br>Click to sort the list of animals by pregnancy.</br>
+      </animal_sort_pregnant_ltt>
+      <guest_info_tab_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Guest List</b>
+            </color>
+         </font>
+      </guest_info_tab_label>
+      <guest_info_tab_stt>Guest information </guest_info_tab_stt>
+      <guest_info_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>Guest information tab</b>
+         </color>
+         <br>Click to view a list of all the guests in your zoo</br>
+      </guest_info_tab_ltt>
+      <guest_name_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>Guests:</b>
+            </color>
+         </font>
+      </guest_name_label>
+      <guest_sort_type_stt>Sort by type</guest_sort_type_stt>
+      <guest_sort_type_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Guest Type button</b>
+         </color>
+         <br>Click to sort the list of guests by guest type.</br>
+      </guest_sort_type_ltt>
+      <guest_sort_happy_stt>Sort by happiness</guest_sort_happy_stt>
+      <guest_sort_happy_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Guest Happiness button</b>
+         </color>
+         <br>Click to sort the list of guests by happiness.</br>
+      </guest_sort_happy_ltt>
+      <guest_sort_fav_animal_stt>Sort by favorite animal</guest_sort_fav_animal_stt>
+      <guest_sort_fav_animal_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Favorite Animal button</b>
+         </color>
+         <br>Click to sort the list of guests by their favorite animals.</br>
+      </guest_sort_fav_animal_ltt>
+      <guest_sort_hunger_stt>Sort by hunger</guest_sort_hunger_stt>
+      <guest_sort_hunger_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Guest Hunger button</b>
+         </color>
+         <br>Click to sort the list of guests by hunger.</br>
+      </guest_sort_hunger_ltt>
+      <guest_sort_thirst_stt>Sort by thirst</guest_sort_thirst_stt>
+      <guest_sort_thirst_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Guest Thirst button</b>
+         </color>
+         <br>Click to sort the list of guests by thirst.</br>
+      </guest_sort_thirst_ltt>
+      <guest_sort_rest_stt>Sort by rest</guest_sort_rest_stt>
+      <guest_sort_rest_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Guest Rest button</b>
+         </color>
+         <br>Click to sort the list of guests by rest.</br>
+      </guest_sort_rest_ltt>
+      <guest_sort_amusement_stt>Sort by amusement</guest_sort_amusement_stt>
+      <guest_sort_amusement_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Guest Amusement button</b>
+         </color>
+         <br>Click to sort the list of guests by amusement.</br>
+      </guest_sort_amusement_ltt>
+      <guest_sort_bathroom_stt>Sort by bathroom</guest_sort_bathroom_stt>
+      <guest_sort_bathroom_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Guest Bathroom Need button</b>
+         </color>
+         <br>Click to sort the list of guests by bathroom need.</br>
+      </guest_sort_bathroom_ltt>
+      <guest_sort_thought_stt>Sort by thought</guest_sort_thought_stt>
+      <guest_sort_thought_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Guest Thought button</b>
+         </color>
+         <br>Click to sort the list of guests by thoughts.</br>
+      </guest_sort_thought_ltt>
+      <staff_info_tab_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Staff List</b>
+            </color>
+         </font>
+      </staff_info_tab_label>
+      <staff_name_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>Staff Members</b>
+            </color>
+         </font>
+      </staff_name_label>
+      <staff_sort_type_stt>Sort by type</staff_sort_type_stt>
+      <staff_sort_type_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Staff Type button</b>
+         </color>
+         <br>Click to sort the list of staff by type.</br>
+      </staff_sort_type_ltt>
+      <staff_sort_task_stt>Sort by task</staff_sort_task_stt>
+      <staff_sort_task_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Staff Tasks button</b>
+         </color>
+         <br>Click to sort the list of staff by tasks.</br>
+      </staff_sort_task_ltt>
+      <staff_sort_assign_stt>Sort by assignments</staff_sort_assign_stt>
+      <staff_sort_assign_ltt>
+         <color r="255" g="248" b="178">
+            <b>Sort By Staff Assignments button</b>
+         </color>
+         <br>Click to sort the list of staff by assignments.</br>
+      </staff_sort_assign_ltt>
+      <staff_info_tab_stt>Staff information</staff_info_tab_stt>
+      <staff_info_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>View All Staff button</b>
+         </color>
+         <br>Click to view a list of all the staff in working in your zoo.</br>
+      </staff_info_tab_ltt>
+   </multilist>
+   <scenario>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <goals_label>
+         <font name="airal" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Goals and Challenges</b>
+            </color>
+         </font>
+      </goals_label>
+      <primary_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Primary Goals</b>
+            </color>
+         </font>
+      </primary_tab_label>
+      <primary_goals_tab_stt>Primary goals</primary_goals_tab_stt>
+      <primary_goals_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>View Primary Goals tab</b>
+         </color>
+         <br>This tab lists the primary goals for the current scenario.</br>
+      </primary_goals_tab_ltt>
+      <primary_show_all_goals_button_stt>Show all primary goals</primary_show_all_goals_button_stt>
+      <primary_show_all_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Show All Primary Goals button</b>
+         </color>
+         <br>Click to view a list of all the primary goals for the current scenario.</br>
+      </primary_show_all_goals_button_ltt>
+      <primary_show_all_completed_goals_button_stt>Show all completed primary goals</primary_show_all_completed_goals_button_stt>
+      <primary_show_all_completed_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Show All Completed Primary Goals button</b>
+         </color>
+         <br>Click to view a list of all the primary goals you've completed for this scenario.</br>
+      </primary_show_all_completed_goals_button_ltt>
+      <primary_show_all_uncompleted_goals_button_stt>Show all uncompleted primary goals</primary_show_all_uncompleted_goals_button_stt>
+      <primary_show_all_uncompleted_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Show All Uncompleted Primary Goals tab</b>
+         </color>
+         <br>Click to view a list of all the primary goals you have not yet completed for this scenario.</br>
+      </primary_show_all_uncompleted_goals_button_ltt>
+      <secondary_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Secondary Goals and Challenges</b>
+            </color>
+         </font>
+      </secondary_tab_label>
+      <secondary_goals_tab_stt>Secondary goals and challenges</secondary_goals_tab_stt>
+      <secondary_goals_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>View Secondary Goals and Challenges button</b>
+         </color>
+         <br>Click to view a list of all the secondary goals and challenges for this scenario.</br>
+      </secondary_goals_tab_ltt>
+      <secondary_show_all_goals_button_stt>View all secondary goals</secondary_show_all_goals_button_stt>
+      <secondary_show_all_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View All Secondary Goals button</b>
+         </color>
+         <br>Click to view a list of all the secondary goals for this scenario.</br>
+      </secondary_show_all_goals_button_ltt>
+      <secondary_show_all_completed_goals_button_stt>View all completed secondary goals</secondary_show_all_completed_goals_button_stt>
+      <secondary_show_all_completed_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View All Completed Secondary Goals button</b>
+         </color>
+         <br>Click to view a list of all the secondary goals you have already completed for this scenario.</br>
+      </secondary_show_all_completed_goals_button_ltt>
+      <secondary_show_all_uncompleted_goals_button_stt>View all uncompleted secondary goals</secondary_show_all_uncompleted_goals_button_stt>
+      <secondary_show_all_uncompleted_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View All Uncompleted Secondary Goals button</b>
+         </color>
+         <br>Click to view a list of all the secondary goals for this scenario that you have not yet completed.</br>
+      </secondary_show_all_uncompleted_goals_button_ltt>
+      <photo_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Photo Safari Challenges</b>
+            </color>
+         </font>
+      </photo_tab_label>
+      <photo_goals_tab_stt>Photo Safari challenges</photo_goals_tab_stt>
+      <photo_goals_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>View Photo Safari Challenges button</b>
+         </color>
+         <br>Click to view a list of all the Photo Safari challenges, where you use a camera to meet your goals.</br>
+      </photo_goals_tab_ltt>
+      <photo_show_all_goals_button_stt>View all Photo Safari challenges</photo_show_all_goals_button_stt>
+      <photo_show_all_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View all Photo Safari challenges button</b>
+         </color>
+         <br>Click to view the complete list of all Photo Safari challenges.</br>
+      </photo_show_all_goals_button_ltt>
+      <photo_show_all_completed_goals_button_stt>View all completed Photo Safari challenges</photo_show_all_completed_goals_button_stt>
+      <photo_show_all_completed_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View All Completed Photo Safari challenges</b>
+         </color>
+         <br>Click to view a list of all the Photo Safari challenges you've already completed.</br>
+      </photo_show_all_completed_goals_button_ltt>
+      <photo_show_all_uncompleted_goals_button_stt>View all uncompleted Photo Safari challenges</photo_show_all_uncompleted_goals_button_stt>
+      <photo_show_all_uncompleted_goals_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>View All Uncompleted Photo Safari challenges</b>
+         </color>
+         <br>Click to view a list of all the uncompleted Photo Safari challenges.</br>
+      </photo_show_all_uncompleted_goals_button_ltt>
+      <introduction_tab_label>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="248" b="178">
+               <b>Introduction</b>
+            </color>
+         </font>
+      </introduction_tab_label>
+      <introduction_tab_stt>Introduction</introduction_tab_stt>
+      <introduction_tab_ltt>
+         <color r="255" g="248" b="178">
+            <b>View Introduction tab</b>
+         </color>
+         <br>Click to view the Introduction.</br>
+      </introduction_tab_ltt>
+      <goals_state_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>Status:</b>
+            </color>
+         </font>
+      </goals_state_label>
+      <goals_name_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>Goals:</b>
+            </color>
+         </font>
+      </goals_name_label>
+      <neutral_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </neutral_label>
+      <success_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </success_label>
+      <failure_label>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="248" g="0" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </failure_label>
+      <intro_text_format>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </intro_text_format>
+   </scenario>
+   <firstperson>
+      <staffmode>
+         <font name="arial" size="12">Right click to enable the cursor.</font>
+      </staffmode>
+   </firstperson>
+   <economy>
+      <unlimitedcash>Unlimited</unlimitedcash>
+   </economy>
+   <photochal>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <accept_label>
+         <font name="airal" size="16">
+            <color r="255" g="248" b="178">
+               <b>Accept this Challenge?</b>
+            </color>
+         </font>
+      </accept_label>
+      <goals_label>
+         <font name="airal" size="18" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Game Challenge</b>
+            </color>
+         </font>
+      </goals_label>
+      <intro_text_format>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="255" b="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </intro_text_format>
+      <accept_button_stt>Accept challenge</accept_button_stt>
+      <accept_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Accept challenge</b>
+         </color>
+         <br>Click to accept this game challenge.</br>
+      </accept_button_ltt>
+      <decline_button_stt>Decline challenge</decline_button_stt>
+      <decline_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Decline challenge</b>
+         </color>
+         <br>Click to decline this game challenge.</br>
+      </decline_button_ltt>
+      <scenario_win_label>
+         <font name="airal" size="18" image="ui\font\color_mainmenu.tga">
+            <color r="75" g="255" b="75">
+               <b>Scenario Won!</b>
+            </color>
+         </font>
+      </scenario_win_label>
+      <continue_label>
+         <font name="airal" size="16">
+            <color r="255" g="248" b="178">
+               <b>Do you wish to continue playing this scenario?</b>
+            </color>
+         </font>
+      </continue_label>
+      <continue_button_stt>Continue playing</continue_button_stt>
+      <continue_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Continue playing</b>
+         </color>
+         <br>Click to continue playing this scenario.</br>
+      </continue_button_ltt>
+      <continue_next_button_stt>Play next scenario</continue_next_button_stt>
+      <continue_next_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Play next scenario</b>
+         </color>
+         <br>Click to play the next scenario</br>
+      </continue_next_button_ltt>
+      <no_continue_button_stt>Exit to the main menu</no_continue_button_stt>
+      <no_continue_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Exit to the main menu</b>
+         </color>
+         <br>Click to exit to the main menu.</br>
+      </no_continue_button_ltt>
+      <scenario_failed_label>
+         <font name="airal" size="18" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="50" b="50">
+               <b>Scenario Failed!</b>
+            </color>
+         </font>
+      </scenario_failed_label>
+      <scenario_failed_replay_label>
+         <font name="airal" size="16">
+            <color r="255" g="248" b="178">
+               <b>Do you wish to restart this scenario?</b>
+            </color>
+         </font>
+      </scenario_failed_replay_label>
+      <scenario_failed_replay_button_stt>Replay scenario</scenario_failed_replay_button_stt>
+      <scenario_failed_replay_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Replay scenario</b>
+         </color>
+         <br>Click to replay this scenario.</br>
+      </scenario_failed_replay_button_ltt>
+      <challenge_failed_label>
+         <font name="airal" size="18" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="50" b="50">
+               <b>Challenge Failed!</b>
+            </color>
+         </font>
+      </challenge_failed_label>
+      <challenge_failed_ok_button_stt>Continue playing</challenge_failed_ok_button_stt>
+      <challenge_failed_ok_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Continue playing</b>
+         </color>
+         <br>Click to continue playing this scenario.</br>
+      </challenge_failed_ok_button_ltt>
+      <cash_grant_label>
+         <font name="airal" size="18" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Cash Grant</b>
+            </color>
+         </font>
+      </cash_grant_label>
+      <tutorial_label>
+         <font name="airal" size="18" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Tutorial</b>
+            </color>
+         </font>
+      </tutorial_label>
+      <tutorial_heading_label>
+         <font name="airal" size="18">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </tutorial_heading_label>
+      <tutorial_menu_label>
+         <font name="airal" size="18" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Tutorial Complete</b>
+            </color>
+         </font>
+      </tutorial_menu_label>
+   </photochal>
+   <filter>
+      <sttformat>
+         <font name="arial" size="10">%text%</font>
+      </sttformat>
+      <lttformat>
+         <font name="arial" size="10">%text%</font>
+      </lttformat>
+      <maximize_filter_button_stt>Maximize filter panel</maximize_filter_button_stt>
+      <maximize_filter_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Maximize filter panel</b>
+         </color>
+         <br>Click to maximize filter panel.</br>
+      </maximize_filter_button_ltt>
+      <minimize_filter_button_stt>Minimize filter panel</minimize_filter_button_stt>
+      <minimize_filter_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Minimize filter panel</b>
+         </color>
+         <br>Click to button to minimize filter panel.</br>
+      </minimize_filter_button_ltt>
+      <guest_toggle_button_stt>Show or hide guests</guest_toggle_button_stt>
+      <guest_toggle_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Show or hide guests</b>
+         </color>
+         <br>Click to Show or hide guests in the zoo.</br>
+      </guest_toggle_button_ltt>
+      <building_toggle_button_stt>Show or hide buildings</building_toggle_button_stt>
+      <building_toggle_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Show or hide buildings</b>
+         </color>
+         <br>Click to Show or hide buldings in the zoo.</br>
+      </building_toggle_button_ltt>
+      <fence_toggle_button_stt>Show or hide fences</fence_toggle_button_stt>
+      <fence_toggle_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Show or hide fences</b>
+         </color>
+         <br>Click to Show or hide fences in the zoo.</br>
+      </fence_toggle_button_ltt>
+      <foliage_toggle_button_stt>Show or hide foliage</foliage_toggle_button_stt>
+      <foliage_toggle_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Show or hide foliage</b>
+         </color>
+         <br>Click to Show or hide foliage in the zoo.</br>
+      </foliage_toggle_button_ltt>
+   </filter>
+   <devpanel>
+      <smallformat>
+         <font name="arial" size="10">%text%</font>
+      </smallformat>
+   </devpanel>
+</ZT2Strings>

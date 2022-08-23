@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key time="0.0" text="ClimbThing"/>
+   <key percent="100" text="!anim 'Climb_Idle' blend .3 advance_cur_t, anim 'Climb_Idle', dis, exit"/>
+</TEXTKEY>
+

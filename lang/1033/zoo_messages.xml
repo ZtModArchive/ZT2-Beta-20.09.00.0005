@@ -1,0 +1,34 @@
+<ZT2Strings>
+      <LOC_STRING _locID="zoomessages:GuestsHungry">Guests are starving!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsThirsty">Guests are thirsty!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsBathroom">Your zoo needs more bathrooms!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsTired">Guests are tired in your zoo. They needs more places to rest.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsNeedDessert">Guests need some desserts to go with their meals!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestAmusementBad">You should place some buildings that will amuse your guests.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsEntertained">Guests are having a good time in your zoo!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsAmused">Guests like your zoo.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsBored">Guests think your zoo is boring.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsDisturbed">Guests are disturbed.  Very disturbed.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsTrashGround">Guests are upset at the lack of trash cans.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsTrashFull">Guests can't find a trash can that isn't overflowing!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsStandingEat">Guests are complaining because there is no place to sit and eat!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalsHungry">There are lots of hungry animals in the zoo!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalsThirsty">There are lots of thirsty animals in the zoo!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:EscapedAnimal">%s has escaped from its exhibit!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:SickAnimal">%s is sick.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:VerySickAnimal">%s is very sick!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:PregnantAnimal">%s is now pregnant.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalBirth">%s has given birth.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalDied">%s has died of old age.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalDrowning">%s is in the water and can't swim!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsCantFindATM">Guests are out of money and can't find an ATM machine!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestsCantFindDonationBox">You don't have enough donation boxes!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:GuestAttacked">A guest was attacked by an escaped animal!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalAttacked">%s was attacked and killed!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalBiomeBad">Animals are in hostile habitats!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalSpaceBad">Animals don't have enough space!</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalCaptured">%s has been captured.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalLayEgg">%s has laid an egg.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:AnimalHatchEgg">%s has just hatched.</LOC_STRING>
+      <LOC_STRING _locID="zoomessages:StaffFailure">%1s can't reach %2s.</LOC_STRING>
+</ZT2Strings>

@@ -1,0 +1,45 @@
+<ZTApp>
+   <!--Elements can have initData or not-->
+   <BFLog sendFile="0" sendDebugger="1" logfile="logfile.txt">
+      <BFRenderer cutoff="note"/>
+      <BFBinderRoot cutoff="note"/>
+   </BFLog>
+   <BFResourceMgr path="../data"/>
+   <BFRegistry appKey="Software\Microsoft\Microsoft Games\Zoo Tycoon\2.0"/>
+   <BFLocaleMgr initData="config/locale.xml"/>
+   <BFWindowComponent width="1024" height="768" class="Zoo2" window="Zoo Tycoon 2" icon="101"/>
+   <BFDX9Renderer initData="config/graphics.xml"/>
+   <BFPhysObj initData="world/cameras/overheadcam.xml"/>
+   <BFNISpriteMgr/>
+   <UIRoot>
+      <UIRegion x="0" y="0" w="1024" h="768"/>
+      <UIHotKeys>
+         <down code="27" msg="UI_CHILD" data="UIChildData" name="Help Panel">
+            <child msg="UI_HIDE"/>
+         </down>
+         <down code="112" msg="UI_CHILD" data="UIChildData" name="Help Panel">
+            <child msg="UI_SHOW"/>
+         </down>
+      </UIHotKeys>
+      <children>
+         <UITooltip float="false" appear="0" display="0" type="long" autohide="true">
+            <UIRegion x="2" y="490" w="256" h="96" xalign="min" yalign="min" walign="len" halign="len"/>
+            <UIAspect padx="5" pady="5">
+               <default image="ui/shared/black50_outline.tga"/>
+            </UIAspect>
+            <text format="shell:lttformat" type="multi"/>
+         </UITooltip>
+         <UITooltip float="true" appear=".5" display="0" type="short" offy="20">
+            <UIAspect padx="3" pady="2">
+               <default image="ui/shared/black_outline.tga"/>
+            </UIAspect>
+            <text format="shell:sttformat"/>
+         </UITooltip>
+      </children>
+   </UIRoot>
+   <BFXMLFactoryS/>
+   <BFXMLSchemaMgr/>
+   <BFTimeKeeper initData="config/timekeeper.xml"/>
+   <ZTSimController feedbackControl="true" gain="0.2" minInterval="0.010" maxInterval="0.1"/>
+   <ZTToolsetMode initData="ui/modes/toolmodes.xml"/>
+</ZTApp>

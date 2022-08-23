@@ -1,0 +1,4 @@
+<BFCampaign name="PandasLabels:Pandasshort">
+   <entry name="PandasLabels:PandasS1" short="PandasLabels:PandasS1short" key="Pandascampaign" scenario="scenario\goals\pandacampaigngoals.xml" map="pandacampaign" cash="100000" difficulty="difficulty:hard" description="Pandas:Pandasoverviewshort" state="locked"/>
+     
+</BFCampaign>

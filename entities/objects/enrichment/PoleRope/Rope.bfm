@@ -1,0 +1,12 @@
+<BFM modelname="entities\objects\enrichment\PoleRope\Rope.nif">
+	<animation anim="entities\objects\enrichment\PoleRope\Rope_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\PoleRope\Rope_Swing.bf" animName="Stand_Swing" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Rope" version="1">
+	<node name="Stand">
+		<table>
+			<Stand_Idle />
+			<Stand_Swing />
+		</table>
+	</node>
+</Graph>

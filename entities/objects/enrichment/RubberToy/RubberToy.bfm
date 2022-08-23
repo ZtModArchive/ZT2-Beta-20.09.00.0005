@@ -1,0 +1,22 @@
+<BFM modelname="entities\objects\enrichment\RubberToy\Rubbertoy_Idle.nif">
+	<animation anim="entities\objects\enrichment\RubberToy\Rubbertoy_Bounce_Bip01_Bounce.bf" animName="Bounce" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\RubberToy\rubbertoy_Idle_Bip01_Idle.bf" animName="Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\RubberToy\Rubbertoy_Nudge_Bip01_Roll.bf" animName="Roll" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Rubbertoy_Idle" version="1">
+	<node name="Bounce">
+		<table>
+			<Bounce />
+		</table>
+	</node>
+	<node name="Idle">
+		<table>
+			<Idle />
+		</table>
+	</node>
+	<node name="Roll">
+		<table>
+			<Roll />
+		</table>
+	</node>
+</Graph>

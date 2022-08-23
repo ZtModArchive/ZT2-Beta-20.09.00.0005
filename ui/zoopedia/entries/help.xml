@@ -1,0 +1,12 @@
+<entries>
+   <BFHelpEntry order="zoopedia_home:order" entry="zoopedia_home:entry" text="zoopedia_home:text" noPrevEntry="true" noNextEntry="true"/>
+   <BFHelpEntry order="zoopedia_f1help:order" entry="zoopedia_f1help:entry" text="zoopedia_f1help:text" page2="zoopedia_f1help:page2"/>
+   <BFHelpEntry order="zoopedia_f1help2:order" entry="zoopedia_f1help2:entry" text="zoopedia_f1help2:text" page2="zoopedia_f1help2:page2"/>
+   <BFHelpEntry order="zoopedia_challenge:order" entry="zoopedia_challenge:entry" text="zoopedia_challenge:text"/>
+   <BFHelpEntry order="zoopedia_freeform:order" entry="zoopedia_freeform:entry" text="zoopedia_freeform:text"/>
+   <BFHelpEntry order="zoopedia_options:order" entry="zoopedia_options:entry" text="zoopedia_options:text"/>
+   <BFHelpEntry order="zoopedia_campaign:order" entry="zoopedia_campaign:entry" text="zoopedia_campaign:text"/>
+   <BFHelpEntry order="zoopedia_downloads:order" entry="zoopedia_downloads:entry" text="zoopedia_downloads:text"/>
+   <BFHelpEntry order="zoopedia_loadgame:order" entry="zoopedia_loadgame:entry" text="zoopedia_loadgame:text"/>
+   <BFHelpEntry order="zoopedia_exitgame:order" entry="zoopedia_exitgame:entry" text="zoopedia_exitgame:text"/>
+</entries>

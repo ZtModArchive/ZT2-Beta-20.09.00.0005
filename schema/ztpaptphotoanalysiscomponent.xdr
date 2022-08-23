@@ -1,0 +1,16 @@
+<Schema name="ZTPAPTPhotoAnalysisComponent">
+	<ElementType name="ZTPAPTPhotoAnalysisComponent">
+		<extends type="BFXMLObj"/>
+		<AttributeType name="posfloat">
+			<datatype dt:type="float" dt:min="0.0" />
+		</AttributeType>
+		<AttributeType name="percentage">
+			<datatype dt:type="float" dt:min="0.0" dt:max="1.0" />
+		</AttributeType>
+		<attribute type="posfloat" name="distFromCamera" dt:type="float" default="0.0" />
+		<attribute name="obscured" dt:type="boolean" default="true" />
+		<attribute type="percentage" name="percentSeen" dt:type="float" default="0.0" />
+		<attribute type="percentage" name="percentSeenInCenter" dt:type="float" default="0.0" />
+		<attribute type="percentage" name="percentOfScreen" dt:type="float" default="0.0" />
+	</ElementType>
+</Schema>

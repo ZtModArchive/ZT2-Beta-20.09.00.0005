@@ -1,0 +1,6 @@
+<BFUserOptions>
+	<Graphics graphicsDetail="high" screenWidth="1024" screenHeight="768" screenDepth="32" fullScreen="1" />
+	<Sound WantSound="true" SampleRate="44100" Bits="16" Channels="2" MixerChannels="32" Mixer3DChannels="32" MasterVolume="1.000000" MusicVolume="1.000000" inRangeDist="2500.000000" outRangeDist="3000.000000" rolloff="1.000000" Provider3D="Miles Fast 2D Positional Audio" />
+	<Attributes freemouselook="true" shadowsOn="true" terrainDetail="false" />
+	<Online />
+</BFUserOptions>

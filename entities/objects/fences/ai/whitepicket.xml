@@ -1,0 +1,109 @@
+<BFTypedBinder binderType="whitepicket">
+   <types>
+      <entity>
+         <fence>
+            <whitepicket/>
+         </fence>
+      </entity>
+   </types>
+   <instance>
+      <ZTFenceEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <UIToggleButton template="fence">
+         <UIAspect>
+            <default image="entities\objects\fences\whitepicket_df\whitepicket_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:whitepicket"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTFENCE" data="BFString" string="whitepicket"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\fences\whitepicket_df\whitepicket_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo short="entityname:whitepicket_research_stt" long="entityname:whitepicket_research_ltt" help=""/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="whitepicket"/>
+         </on>
+      </UIToggleButton>      
+      <BFAIEntityDataShared b_lowfence="true" s_Zoopedia="zoopedia:zoopedia_picket:entry" f_researchUnlockTime="60" f_researchCost="600" s_Broken="whitepicket_broken" b_SeeThrough="true"/>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <ZTFence gate="whitepicketgate"/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="start_post">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\fences\whitepicket_df\whitepicket_df_post.nif"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder required="0" binderName="fence90">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\fences\whitepicket_df\whitepicket_df_vert.nif"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder required="0" binderName="fence45">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\fences\whitepicket_df\whitepicket_df_diag.nif"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="end_post">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\fences\whitepicket_df\whitepicket_df_post.nif"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder required="0" binderName="fence90curve90">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\fences\whitepicket_df\whitepicket_df_curve90down.nif"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder required="0" binderName="fence45curve90">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\fences\whitepicket_df\whitepicket_df_curve90diag_down.nif"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder required="0" binderName="fence90curve135">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\fences\whitepicket_df\whitepicket_df_curve135down_short.nif"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder required="0" binderName="fence45curve135">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\fences\whitepicket_df\whitepicket_df_curve135down_long.nif"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFAIEntityDataInstance f_FenceStrength="0"/>
+         </instance>
+      </BFBinder>
+                  <BFBinder>
+      			<instance>
+				<ZTEconomyComponent cost="100">
+      					<ZTTransaction name="build" costType="parent" type="debit" category="construction" />
+					<ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling" />
+      				</ZTEconomyComponent>
+      			</instance>
+		</BFBinder>
+</binder>
+</BFTypedBinder>

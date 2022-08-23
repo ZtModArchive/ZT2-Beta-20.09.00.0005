@@ -1,0 +1,222 @@
+<BFParticleDictionary>
+   <EmoteAnimalFoodFish>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_food_fish.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalFoodFish>
+   <EmoteAnimalFoodGrass>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_food_grass.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalFoodGrass>
+   <EmoteAnimalFoodMeat>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_food_meat.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalFoodMeat>
+   <EmoteAnimalThirstWater>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_thirst_water.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalThirstWater>
+   <EmoteAnimalAdvancedExercise>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_advanced_exercise.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalAdvancedExercise>
+   <EmoteAnimalAdvancedHygiene>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_advanced_hygiene.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalAdvancedHygiene>
+   <EmoteAnimalAdvancedPrivacy>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_advanced_privacy.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalAdvancedPrivacy>
+   <EmoteAnimalAdvancedReproduction>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_advanced_reproduction.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalAdvancedReproduction>
+   <EmoteAnimalAdvancedShelter>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_advanced_Shelter.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalAdvancedShelter>
+   <EmoteAnimalAdvancedSocial>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_advanced_social.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalAdvancedSocial>
+   <EmoteAnimalAdvancedStimulation>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_advanced_stimulation.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalAdvancedStimulation>
+   <EmoteAngry>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_angry.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAngry>
+   <EmoteExclamation>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_exclamation.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteExclamation>
+   <EmoteHappy>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_happy.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteHappy>
+   <EmoteGuestBathroom>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_bathrooom.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestBathroom>
+   <EmoteGuestEducation>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_education.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestEducation>
+   <EmoteGuestEntertainment>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_entertainment.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestEntertainment>
+   <EmoteGuestHunger>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_hunger.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestHunger>
+   <EmoteGuestThirst>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_thirst.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestThirst>
+   <EmoteBored>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_bored.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteBored>
+   <EmoteAmuse>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_amuse.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAmuse>
+   <EmoteTest>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_test.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteTest>
+   <EmoteGuestCannotSee>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_cannotsee.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestCannotSee>
+   <AttackedCloud>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/animal_attacked.xml" removeTime="9.0"/>
+      </Conditions>
+   </AttackedCloud>
+   <GuestAttackedCloud>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_attacked.xml" removeTime="3.2"/>
+      </Conditions>
+   </GuestAttackedCloud>
+   <EmoteGuestDonateBad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_donatebad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestDonateBad>
+   <EmoteGuestATMBad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_ATMbad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestATMBad>
+   <EmoteGuestexpensivebad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_expensivebad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestexpensivebad>
+   <EmoteGuestcheapgood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_cheapgood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestcheapgood>
+   <EmoteBirth>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_birth.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteBirth>
+   <EmoteGuestUneducation>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/guest_uneducate.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestUneducation>
+   <EmoteBiomebad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_biomebad.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteBiomebad>
+   <EmoteCrampedbad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_cramped.xml" removeTime="7.0"/>
+      </Conditions>
+   </EmoteCrampedbad>
+   <StaffAssignedarea>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/staff_assignedarea.xml" removeTime="10.0"/>
+      </Conditions>
+   </StaffAssignedarea>
+   <EmoteReleaseToWild>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/release_to_wild.xml" removeTime="20.0"/>
+      </Conditions>
+   </EmoteReleaseToWild>
+   <EmoteAmusementbad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_amusement_bad.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteAmusementbad>
+   <EmoteAmusementgood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_amusement_good.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteAmusementgood>
+   <EmoteDessertgood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_dessert_good.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteDessertgood>
+   <EmoteDessertbad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_dessert_bad.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteDessertbad>
+   <EmoteBathroombad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_bathroom_bad.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteBathroombad>
+   <EmoteBathroomgood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_bathroom_good.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteBathroomgood>
+   <EmoteRestgood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_rest_good.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteRestgood>
+   <EmoteRestbad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_rest_bad.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteRestbad>
+   <EmoteTrashbad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/emote_trash_bad.xml" removeTime="9.0"/>
+      </Conditions>
+   </EmoteTrashbad>
+</BFParticleDictionary>

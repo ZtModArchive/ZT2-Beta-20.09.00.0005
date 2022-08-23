@@ -1,0 +1,16 @@
+<BFM modelname="entities\objects\scenery\Footstool_df\Footstool_df.nif">
+	<animation anim="entities\objects\scenery\Footstool_df\Footstool_df_TAP_Bip01_DockNode01_EnterA.bf" animName="EnterA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\scenery\Footstool_df\Footstool_df_TAP_Bip01_DockNode02_ExitA.bf" animName="ExitA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Footstool_df" version="1">
+	<node name="EnterA">
+		<table>
+			<EnterA />
+		</table>
+	</node>
+	<node name="ExitA">
+		<table>
+			<ExitA />
+		</table>
+	</node>
+</Graph>

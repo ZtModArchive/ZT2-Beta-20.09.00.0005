@@ -1,0 +1,168 @@
+<ZT2Strings>
+      <LOC_STRING _locID="zoopedia_bamboo:entry">Bamboo</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_bamboo:text">
+            <img src="entities/objects/food/Terrain/Terrain_Bamboo_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>
+            Only a few members of your zoo family, including the 
+		     <a href="zoopedia:zoopedia_panda:entry">
+			<u>
+			   <color r="0" g="0" b="255">giant panda</color>
+			</u>
+	             </a> 
+            , the 
+		     <a href="zoopedia:zoopedia_redpanda:entry">
+			<u>
+			   <color r="0" g="0" b="255">red panda</color>
+			</u>
+	             </a>            
+            , and the 
+		     <a href="zoopedia:zoopedia_gorilla:entry">
+			<u>
+			   <color r="0" g="0" b="255">gorilla</color>
+			</u>
+	             </a>            
+            , enjoy this exotic treat, but it’s a crucial part of these animals’ diets.
+	    <p/>
+	    Bamboo can be placed directly on the ground, or in an elevated food dish, browse holder, 
+	    or trough.
+
+         
+         </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_bananas:entry">Bananas</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_bananas:text">
+            <img src="entities/objects/food/Terrain/Terrain_Bananas_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>            
+            Bananas are a less popular food item among animals than you might expect. In fact, only the 
+	             <a href="zoopedia:zoopedia_chimp:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">chimpanzee</color>
+	                </u>
+	             </a>             
+            , 
+	             <a href="zoopedia:zoopedia_gorilla:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">gorilla</color>
+	                </u>
+	             </a>            
+            , and the 
+	             <a href="zoopedia:zoopedia_lemur:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">ring-tailed lemur</color>
+	                </u>
+	             </a>            
+             can be counted among this fruit’s fans.
+	    
+	    Bananas can be placed directly on the ground, or in an elevated or regular food dish. They 
+	    can also be hidden in some containers to encourage exploring behavior in animals.
+
+         </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_branches:entry">Branches</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_branches:text">
+            <img src="entities/objects/food/Terrain/Terrain_Branches_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>                
+               Branches are a fiber-packed component of several zoo animals’s diets, including 
+	             <a href="zoopedia:zoopedia_beaver:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">beavers</color>
+	                </u>
+	             </a>               
+               , 
+	             <a href="zoopedia:zoopedia_ostrich:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">ostriches</color>
+	                </u>
+	             </a>               
+               , 
+	             <a href="zoopedia:zoopedia_chimp:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">chimpanzees</color>
+	                </u>
+	             </a>               
+               , 
+	             <a href="zoopedia:zoopedia_elephant:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">elephants</color>
+	                </u>
+	             </a>               
+               , and 
+	             <a href="zoopedia:zoopedia_moose:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">moose.</color>
+	                </u>
+	             </a>               
+               
+	       <p/>
+	       A wide variety of animals also use branches as tools, toys, and sometimes even shelter.
+	       For example, baby animals may use a pile of branches as a cozy napping place, and 
+	       male chimpanzees have been known to shake branches at females to get their attention.
+	       <p/>
+	       Branches can be placed directly on the ground, or in a browse holder or elevated 
+	       food dish.
+
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_fish:entry">Fish</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_fish:text">
+            <img src="entities/objects/food/Terrain/Terrain_Fish_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>                
+               Fish is a staple in the diet of many zoo animals, including the big cats, bears, 
+               penguins, and crocodiles.
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_grass:entry">Grass</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_grass:text">
+               
+               Like hay, grass is a primary food staple for grazing animals in your zoo, including the 
+               gemsbok, the kangaroo, and the rhino.
+	       <p/>
+	       Grass can be placed directly on the ground, or in a trough, elevated food dish, or browse 
+	       holder. Both the elevated food dish and the browse holder can be helpful for tall 
+	       animals like the giraffe and the elephant.
+
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_hay:entry">Hay</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_hay:text">
+               
+               Like grass, hay is a primary food staple for grazing animals in your zoo, including 
+               elephants, zebras, camels, and hippos.
+	       <p/>
+	       Hay can be placed directly in the ground, or in a trough, elevated food dish, or browse 
+	       holder. Both the elevated food dish and the browse holder can be helpful for tall animals 
+	       like the giraffe and the elephant.
+
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_lettuce:entry">Lettuce</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_lettuce:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_meat:entry">Meat</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_meat:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_shrimp:entry">Shrimp</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_shrimp:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_water:entry">Water</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_water:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+    
+   
+   
+   
+   
+   
+   
+   
+   </ZT2Strings>

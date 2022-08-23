@@ -1,0 +1,106 @@
+<ZT2Strings>
+
+
+   <zoopedia_animalcarcass>
+         <entry>Animal Carcass</entry>
+         <text>
+            
+            <img src="entities/objects/food/Carcass/Carcass_Meat_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <img src="entities/objects/food/Carcass/Carcass_Fish_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>
+            The dead bodies of whole animals, including fur, skin, and bones, are often fed to 
+            carnivorous animals which enjoy the challenging of having to work to "unwrap" their meal to 
+            find the best parts.
+	    <p/>
+	    Artificially-built animal carcasses are used as "containers" for feeding large chunks of 
+	    meat or fish to carnivores.  Guests enjoy watching the animals eat from these more 
+	    interesting containers.
+         </text>
+         
+   </zoopedia_animalcarcass>
+
+   
+   <zoopedia_browseholder>
+         <entry>Browse Holder</entry>
+         <text>
+            <img src="entities/objects/food/BrowseHolder/BrowseHolder_Branches_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <img src="entities/objects/food/BrowseHolder/BrowseHolder_Grass_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <img src="entities/objects/food/BrowseHolder/BrowseHolder_Hay_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>            
+            A browse holder is an 8-10 ft. pole with a container on top that is designed to hold 
+            grass, hay, and large, leafy tree branches. The positioning of food in this high location 
+            encourages 
+         		<a href="zoopedia:zoopedia_giraffe:entry">
+            		   <u>
+               			<color r="0" g="0" b="255">giraffes</color>
+            		   </u>
+         		</a>            
+             and other large animals to feed in a posture that is similar to the one they use in their 
+            natural environment.
+         </text>
+         
+   </zoopedia_browseholder>
+   
+   <zoopedia_elevateddish>
+            <entry>Elevated Dish</entry>
+            <text>
+               <img src="entities/objects/food/ElevatedDish/ElevatedDish_Branches_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+               <img src="entities/objects/food/ElevatedDish/ElevatedDish_Grass_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+               <img src="entities/objects/food/ElevatedDish/ElevatedDish_Hay_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+               <img src="entities/objects/food/ElevatedDish/ElevatedDish_Lettuce_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+               <img src="entities/objects/food/ElevatedDish/ElevatedDish_Water_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+               <p/>
+               An elevated food dish enables taller animals, like giraffes, to reach their food more 
+               easily. 
+	       Since animals can eat from it while standing, an elevated food dish 
+	       also aids digestion in many four-legged animals.
+
+            
+            </text>
+            
+   </zoopedia_elevateddish>
+   
+   <zoopedia_fooddish>
+            <entry>Food Dish</entry>
+            <text>
+               
+               A food dish is an all-purpose food and water container that can serve the needs of 
+               all types of animals and dietary choices. A food dish cannot accommodate as many animals
+               as a trough and will need to be refilled more often.
+
+            
+            </text>
+            
+   </zoopedia_fooddish>
+   
+   <zoopedia_metaltrough>
+            <entry>Metal Trough</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_metaltrough>
+   
+   <zoopedia_trough>
+            <entry>Trough</entry>
+            <text>
+               A food trough is a large all-purpose food and water container that can accommodate 
+               multiple animals at a time.  The trough holds more food than the fooddish and will not need
+               to be refilled as often.
+            
+            </text>
+            
+   </zoopedia_trough>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   </ZT2Strings>

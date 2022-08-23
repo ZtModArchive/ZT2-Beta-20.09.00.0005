@@ -1,0 +1,278 @@
+<challenges>
+	<ZTPhotoChallenge name="HungryTiger" difficulty="1" script="photo/testscoring.lua" function="scoreHungryTiger"
+						stt="ZTPhotoMode:challenge_hungry_tiger_stt" cstt="ZTPhotoMode:challenge_hungry_tiger_cstt"
+						/>
+	<ZTPhotoChallenge name="MotherWithYoungTiger" difficulty="2" script="photo/testscoring.lua" function="scoreNearbyMotherAndYoungTiger"
+						stt="ZTPhotoMode:challenge_mother_and_young_tiger_stt" cstt="ZTPhotoMode:challenge_mother_and_young_tiger_cstt"
+						/>
+	<ZTPhotoChallenge name="TigerEating" difficulty="1" script="photo/testscoring.lua" function="scoreTigerEating"
+						stt="ZTPhotoMode:challenge_tiger_eating_stt" cstt="ZTPhotoMode:challenge_tiger_eating_cstt"
+						/>
+	<ZTPhotoChallenge name="TigerWalking" difficulty="1" script="photo/testscoring.lua" function="scoreTigerWalking"
+						stt="ZTPhotoMode:challenge_tiger_walking_stt" cstt="ZTPhotoMode:challenge_tiger_walking_cstt"
+						/>
+	<ZTPhotoChallenge name="TigerAndGorilla" difficulty="1" script="photo/testscoring.lua" function="scoreNearbyTigerAndGorilla"
+						stt="ZTPhotoMode:challenge_tiger_and_gorilla_stt" cstt="ZTPhotoMode:challenge_tiger_and_gorilla_cstt"
+						/>
+	<ZTPhotoChallengeSet name="Tiger_Difficulty1" title="ZTPhotoMode:challengeset_tiger_difficulty1">
+		<TigerWalking/>
+		<TigerEating/>
+		<HungryTiger/>
+		<TigerAndGorilla/>
+	</ZTPhotoChallengeSet>
+	
+	<ZTPhotoChallenge name="GuestonBench" difficulty="1" script="scenario/scripts/challenge/marketingbrochure.lua" function="takepicofguest"
+						stt="PhotoChallengetext:stt_guestsonbench" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="GuestwithSoda" difficulty="1" script="scenario/scripts/challenge/marketingbrochure.lua" function="guestwithsoda"
+						stt="PhotoChallengetext:stt_guestswithsoda" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="Marketing_brochure" title="PhotoChallengetext:PHPromotional Photos">
+		<GuestonBench/>
+		<GuestwithSoda/>
+	</ZTPhotoChallengeSet>	
+	
+	
+	<ZTPhotoChallenge name="Camel" difficulty="1" script="scenario/scripts/challenge/ungulates.lua" function="scoreCamel"
+						stt="PhotoChallengetext:stt_Camel" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="Gemsbok" difficulty="1" script="scenario/scripts/challenge/ungulates.lua" function="scoreGemsbok"
+						stt="PhotoChallengetext:stt_Gemsbok" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="Gazelle" difficulty="1" script="scenario/scripts/challenge/ungulates.lua" function="scoreGazelle"
+						stt="PhotoChallengetext:stt_Gazelle" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="Ungulates" title="PhotoChallengetext:PHUngulatePhotos">
+		<Camel/>
+		<Gemsbok/>
+		<Gazelle/>
+	</ZTPhotoChallengeSet>						
+
+
+	<ZTPhotoChallenge name="JaguarSwimming" difficulty="1" script="scenario/scripts/challenge/zoonewsmonthly.lua" function="scoreJaguarSwimming"
+						stt="ZooNewstext:stt_JaguarSwimming" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="PenguinSpreadWings" difficulty="1" script="scenario/scripts/challenge/zoonewsmonthly.lua" function="scorePenguinSpreadWings"
+						stt="ZooNewstext:stt_PenguinWingSpreading" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="MooseRubAntlers" difficulty="1" script="scenario/scripts/challenge/zoonewsmonthly.lua" function="scoreMooseRubAntlers"
+						stt="ZooNewstext:stt_MooseRubAntlers" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="ZooNewsMonthly" title="ZooNewstext:PHZooNewsPhotos">
+		<JaguarSwimming/>
+		<PenguinSpreadWings/>
+		<MooseRubAntlers/>
+	</ZTPhotoChallengeSet>	
+	
+	
+	<ZTPhotoChallenge name="CarnivoreStalking" difficulty="1" script="scenario/scripts/challenge/foodchain.lua" function="scorePenguinSpreadWings"
+						stt="FoodChaintext:stt_CarnivoreStalking" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="CarnivoreCatching" difficulty="1" script="scenario/scripts/challenge/foodchain.lua" function="scoreMooseRubAntlers"
+						stt="FoodChaintext:stt_CarnivoreCatching" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="FoodChain" title="FoodChaintext:PHFoodChainPhotos">
+		<CarnivoreStalking/>
+		<CarnivoreCatching/>
+	</ZTPhotoChallengeSet>	
+	
+
+	<ZTPhotoChallenge name="FamilyRestroom" difficulty="1" script="scenario/scripts/challenge/zoodesign.lua" function="scoreJaguarSwimming"
+						stt="ZooDesigntext:stt_FamilyRestroom" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="GiftShop" difficulty="1" script="scenario/scripts/challenge/zoodesign.lua" function="scorePenguinSpreadWings"
+						stt="ZooDesigntext:stt_GiftShop" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="AnimalPhotoBooth" difficulty="1" script="scenario/scripts/challenge/zoodesign.lua" function="scoreAnimalPhotoBooth"
+						stt="ZooDesigntext:stt_AnimalPhotoBooth" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="AnyFoodStand" difficulty="1" script="scenario/scripts/challenge/zoodesign.lua" function="scoreAnyFoodStand"
+						stt="ZooDesigntext:stt_AnyFoodStand" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="ZooDesignMonthly" title="ZooDesigntext:PHZooDesignPhotos">
+		<FamilyRestroom/>
+		<GiftShop/>
+		<AnimalPhotoBooth/>
+		<AnyFoodStand/>
+	</ZTPhotoChallengeSet>	
+	
+
+	<ZTPhotoChallenge name="Baobob" difficulty="1" script="scenario/scripts/challenge/gardeningsociety.lua" function="scoreBaobob"
+						stt="GardeningSocietytext:stt_Baobob" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="Kapok" difficulty="1" script="scenario/scripts/challenge/gardeningsociety.lua" function="scoreKapok"
+						stt="GardeningSocietytext:stt_Kapok" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="Tamarack" difficulty="1" script="scenario/scripts/challenge/gardeningsociety.lua" function="scoreTamarack"
+						stt="GardeningSocietytext:stt_Tamarack" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="HimalayanPine" difficulty="1" script="scenario/scripts/challenge/gardeningsociety.lua" function="scoreHimalayanPine"
+						stt="GardeningSocietytext:stt_HimalayanPine" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="GardeningSociety" title="GardeningSocietytext:PHGardeningSocietyPhotos">
+		<Baobob/>
+		<Kapok/>
+		<Tamarack/>
+		<HimalayanPine/>
+	</ZTPhotoChallengeSet>	
+	
+	
+	<ZTPhotoChallenge name="AnyBabyAnimal" difficulty="1" script="scenario/scripts/challenge/nationalzooassociation.lua" function="scoreAnyBabyAnimal"
+						stt="ZooAssociationtext:stt_AnyBabyAnimal" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="AnyBabyAnimalwithMother" difficulty="1" script="scenario/scripts/challenge/nationalzooassociation.lua" function="scoreAnyBabyAnimalwithMother"
+						stt="ZooAssociationtext:stt_AnyBabyAnimalwithMother" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="TwoZebrasGrooming" difficulty="1" script="scenario/scripts/challenge/nationalzooassociation.lua" function="scoreTwoZebrasGrooming"
+						stt="ZooAssociationtext:stt_TwoZebrasGrooming" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="AnimalUsingEnrichment" difficulty="1" script="scenario/scripts/challenge/nationalzooassociation.lua" function="scoreAnimalUsingEnrichment"
+						stt="ZooAssociationtext:stt_AnimalUsingEnrichment" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="ZooAssociation" title="ZooAssociationtext:PHZooAssociationPhotos">
+		<AnyBabyAnimal/>
+		<AnyBabyAnimalwithMother/>
+		<TwoZebrasGrooming/>
+		<AnimalUsingEnrichment/>
+	</ZTPhotoChallengeSet>
+	
+	
+	
+	<ZTPhotoChallenge name="BengalTiger" difficulty="1" script="scenario/scripts/challenge/centeranimalconservation.lua" function="scoreBengalTiger"
+						stt="CenterAnimalConservationtext:stt_BengalTiger" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="SnowLeopard" difficulty="1" script="scenario/scripts/challenge/centeranimalconservation.lua" function="scoreSnowLeopard"
+						stt="CenterAnimalConservationtext:stt_SnowLeopard" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="MountainGorilla" difficulty="1" script="scenario/scripts/challenge/centeranimalconservation.lua" function="scoreMountainGorilla"
+						stt="CenterAnimalConservationtext:stt_MountainGorilla" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="GrizzlyBear" difficulty="1" script="scenario/scripts/challenge/centeranimalconservation.lua" function="scoreGrizzlyBear"
+						stt="CenterAnimalConservationtext:stt_GrizzlyBear" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="CenterAnimalConservation" title="CenterAnimalConservationtext:PHCenterAnimalConservationPhotos">
+		<BengalTiger/>
+		<SnowLeopard/>
+		<MountainGorilla/>
+		<GrizzlyBear/>
+	</ZTPhotoChallengeSet>		
+			
+			
+			
+	<ZTPhotoChallenge name="CamelsGrooming" difficulty="1" script="scenario/scripts/challenge/centeranimalconservation.lua" function="scoreCamelsGrooming"
+						stt="UngulatesPart2text:stt_CamelsGrooming" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="GemsbokSleepingShade" difficulty="1" script="scenario/scripts/challenge/centeranimalconservation.lua" function="scoreGemsbokSleepingShade"
+						stt="UngulatesPart2text:stt_GemsbokSleepingShade" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="GazelleGreeting" difficulty="1" script="scenario/scripts/challenge/centeranimalconservation.lua" function="scoreGazelleGreeting"
+						stt="UngulatesPart2text:stt_GazelleGreeting" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallengeSet name="UngulatesPart2" title="UngulatesPart2text:PHUngulatesPart2Photos">
+		<CamelsGrooming/>
+		<GemsbokSleepingShade/>
+		<GazelleGreeting/>
+	</ZTPhotoChallengeSet>
+	
+	
+	<ZTPhotoChallenge name="TigerEatMeatCarcass" difficulty="1" script="scenario/scripts/challenge/bistromagazine.lua" function="scoreTigerEatMeatCarcass"
+						stt="BistroMagazinetext:stt_TigerEatMeatCarcass" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="GiraffeEatBranchesBrowseHolder" difficulty="1" script="scenario/scripts/challenge/bistromagazine.lua" function="scoreGiraffeEatBranchesBrowseHolder"
+						stt="BistroMagazinetext:stt_GiraffeEatBranchesBrowseHolder" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="LemurEatElevatedDish" difficulty="1" script="scenario/scripts/challenge/bistromagazine.lua" function="scoreLemurEatElevatedDish"
+						stt="BistroMagazinetext:stt_LemurEatElevatedDish" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallengeSet name="BistroMagazine" title="BistroMagazinetext:PHBistroMagazinePhotos">
+		<TigerEatMeatCarcass/>
+		<GiraffeEatBranchesBrowseHolder/>
+		<LemurEatElevatedDish/>
+	</ZTPhotoChallengeSet>	
+	
+	
+	
+	<ZTPhotoChallenge name="PandaUseCarTire" difficulty="1" script="scenario/scripts/challenge/psychologicalconference.lua" function="scorePandaUseCarTire"
+						stt="PsychologicalConferencetext:stt_PandaUseCarTire" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="ElephantUseEasel" difficulty="1" script="scenario/scripts/challenge/psychologicalconference.lua" function="scoreElephantUseEasel"
+						stt="PsychologicalConferencetext:stt_ElephantUseEasel" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="CheetahUseHeatedRock" difficulty="1" script="scenario/scripts/challenge/psychologicalconference.lua" function="scoreCheetahUseHeatedRock"
+						stt="PsychologicalConferencetext:stt_CheetahUseHeatedRock" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="RhinoUsePursuitBall" difficulty="1" script="scenario/scripts/challenge/psychologicalconference.lua" function="scoreRhinoUsePursuitBall"
+						stt="PsychologicalConferencetext:stt_RhinoUsePursuitBall" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="PsychologicalConference" title="PsychologicalConferencetext:PHPsychologicalConferencePhotos">
+		<PandaUseCarTire/>
+		<ElephantUseEasel/>
+		<CheetahUseHeatedRock/>
+		<RhinoUsePursuitBall/>
+	</ZTPhotoChallengeSet>	
+	
+	
+	
+	<ZTPhotoChallenge name="LemursGrooming" difficulty="1" script="scenario/scripts/challenge/animalinstincts.lua" function="scoreLemursGrooming"
+						stt="AnimalInstinctstext:stt_LemursGrooming" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="LionsSleepinShade" difficulty="1" script="scenario/scripts/challenge/animalinstincts.lua" function="scoreLionsSleepinShade"
+						stt="AnimalInstinctstext:stt_LionsSleepinShade" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="OstrichMatingDance" difficulty="1" script="scenario/scripts/challenge/animalinstincts.lua" function="scoreOstrichMatingDance"
+						stt="AnimalInstinctstext:stt_OstrichMatingDance" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="YoungGiraffeCalling" difficulty="1" script="scenario/scripts/challenge/animalinstincts.lua" function="scoreYoungGiraffeCalling"
+						stt="AnimalInstinctstext:stt_YoungGiraffeCalling" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="AnimalInstincts" title="AnimalInstinctstext:PHAnimalInstinctsPhotos">
+		<LemursGrooming/>
+		<LionsSleepinShade/>
+		<OstrichMatingDance/>
+		<YoungGiraffeCalling/>
+	</ZTPhotoChallengeSet>	
+	
+	
+	
+	<ZTPhotoChallenge name="TwoAnimalsUpClose" difficulty="1" script="scenario/scripts/challenge/alfredwindsorschool.lua" function="scoreTwoAnimalsUpClose"
+						stt="AlfredWindsorSchooltext:stt_TwoAnimalsUpClose" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>	
+	<ZTPhotoChallengeSet name="AlfredWindsorSchool" title="AlfredWindsorSchooltext:PHAlfredWindsorSchoolPhotos">
+		<TwoAnimalsUpClose/>
+
+	</ZTPhotoChallengeSet>	
+	
+	
+	<ZTPhotoChallenge name="GorillaChuckling" difficulty="1" script="scenario/scripts/challenge/primatepictures.lua" function="scoreGorillaChuckling"
+						stt="PrimatePicturestext:stt_GorillaChuckling" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="GorillaCalling" difficulty="1" script="scenario/scripts/challenge/primatepictures.lua" function="scoreGorillaCalling"
+						stt="PrimatePicturestext:stt_GorillaCalling" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="ChimpUseMonkeyBars" difficulty="1" script="scenario/scripts/challenge/primatepictures.lua" function="scoreChimpUseMonkeyBars"
+						stt="PrimatePicturestext:stt_ChimpUseMonkeyBars" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="ChimpClimbTree" difficulty="1" script="scenario/scripts/challenge/primatepictures.lua" function="scoreChimpClimbTree"
+						stt="PrimatePicturestext:stt_ChimpClimbTree" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="PrimatePictures" title="PrimatePicturestext:PHPrimatePicturesPhotos">
+		<GorillaChuckling/>
+		<GorillaCalling/>
+		<ChimpUseMonkeyBars/>
+		<ChimpClimbTree/>
+	</ZTPhotoChallengeSet>
+	
+	
+	<ZTPhotoChallenge name="TwoZebrasGroomingCampaign" difficulty="1" script="scenario/scripts/challenge/nationalzooassociation.lua" function="scoreTwoZebrasGrooming"
+							stt="ZooAssociationtext:stt_TwoZebrasGrooming" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="ZebraScratchingPost" difficulty="1" script="scenario/scripts/challenge/zookeepertraining.lua" function="scoreZebraScratchingPost"
+						stt="ZookeeperCampaignPhotos:stt_ZebraScratchingPost" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="ZookeeperCampaignPhotos" title="ZookeeperCampaignPhotos:PHZebraPhotos">
+		<TwoZebrasGroomingCampaign/>
+		<ZebraScratchingPost/>
+	</ZTPhotoChallengeSet>	
+				
+						
+</challenges>

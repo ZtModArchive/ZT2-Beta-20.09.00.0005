@@ -1,0 +1,16 @@
+<UILayout name="econlistnegitem">
+   <UIRegion x="0" y="0" w="40" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+   <children>
+      <UIText name="value">
+         <UIRegion x="0" y="0" w="40" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIAspect>
+            <default>
+               <BFFont align="right">
+                  <BFColor r="255" g="0" b="0" a="255"/>
+               </BFFont>
+            </default>
+         </UIAspect>
+         <text format="zoostatus:misc_label_red_format"/>
+      </UIText>
+   </children>
+</UILayout>

@@ -1,0 +1,47 @@
+<soundtags>
+   <BFSoundtag>
+      <BF3DSndFactory name="fountain_st">
+         <snd name="entities/objects/scenery/fountain_st/sound/fountain_safari.wav" volume="1.0" mindist="3" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="fountain_lion">
+         <snd name="entities/objects/scenery/fountain_lion/sound/fountain_lion.wav" volume="1.0" mindist="3" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="waterfall">
+         <snd name="entities/objects/scenery/fountain_tiger/sound/fountain_tiger.wav" volume="1.0" mindist="3" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="fountain_tiger">
+         <snd name="entities/objects/scenery/fountain_tiger/sound/fountain_tiger.wav" volume="1.0" mindist="3" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="fountain_elephant">
+         <snd name="entities/objects/scenery/fountain_elephant/sound/fountain_elephant.wav" volume="1.0" mindist="3" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="rockmusic">
+         <snd name="entities/objects/scenery/musicalrock_df/sound/rockmusic.wav" volume="1.0" mindist="4" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="rockmusic_1">
+         <snd name="entities/objects/scenery/musicalrock_jt/sound/rockmusic_jt.wav" volume="1.0" mindist="4" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="rockmusic_2">
+         <snd name="entities/objects/scenery/musicalrock_st/sound/rockmusic_st.wav" volume="1.0" mindist="4" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="rockmusic_3">
+         <snd name="entities/objects/scenery/musicalrock_ac/sound/rockmusic_ac.wav" volume="1.0" mindist="3" maxdist="50" looping="1"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+</soundtags>

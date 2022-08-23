@@ -1,0 +1,334 @@
+-- attrKey: savePose DATA
+
+aK_resetPoseBlend();
+
+-- PRS DATA for Bip01 Head
+if (isSelected $'Bip01 Head') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 Head'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 Head'.rotation" "(quat -0.169146 0.000193238 0.0134459 0.985499)" "Quat";
+    	aK_addPoseBlend "$'Bip01 Head'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 L Foot
+if (isSelected $'Bip01 L Foot') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 L Foot'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 L Foot'.rotation" "(quat 0.503561 0 0 0.863959)" "Quat";
+    	aK_addPoseBlend "$'Bip01 L Foot'.position" "[0,0.0377543,0.110418]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for kneeR
+if (isSelected $'kneeR') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'kneeR'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'kneeR'.rotation" "(quat 0 0 0 1)" "Quat";
+    	aK_addPoseBlend "$'kneeR'.position" "[0.0666623,-0.05515,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 R Foot
+if (isSelected $'Bip01 R Foot') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 R Foot'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 R Foot'.rotation" "(quat 0.529927 0 0 0.848044)" "Quat";
+    	aK_addPoseBlend "$'Bip01 R Foot'.position" "[0,-0.190304,0.118772]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 R Hand
+if (isSelected $'Bip01 R Hand') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 R Hand'.scale" "[1,0.999999,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 R Hand'.rotation" "(quat -0.0107452 0.0885201 0.138683 0.986314)" "Quat";
+    	aK_addPoseBlend "$'Bip01 R Hand'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 Spine
+if (isSelected $'Bip01 Spine') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 Spine'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 Spine'.rotation" "(quat 0.0291298 0 0 0.999576)" "Quat";
+    	aK_addPoseBlend "$'Bip01 Spine'.position" "[0.0173677,-0.0293045,-0.0322344]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 Pelvis
+if (isSelected $'Bip01 Pelvis') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 Pelvis'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 Pelvis'.rotation" "(quat 0 0.0226554 0 0.999743)" "Quat";
+    	aK_addPoseBlend "$'Bip01 Pelvis'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 Spine1
+if (isSelected $'Bip01 Spine1') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 Spine1'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 Spine1'.rotation" "(quat 0.052038 0 0 0.998645)" "Quat";
+    	aK_addPoseBlend "$'Bip01 Spine1'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 Spine2
+if (isSelected $'Bip01 Spine2') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 Spine2'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 Spine2'.rotation" "(quat 0.0466896 0 0 0.998909)" "Quat";
+    	aK_addPoseBlend "$'Bip01 Spine2'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 Spine3
+if (isSelected $'Bip01 Spine3') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 Spine3'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 Spine3'.rotation" "(quat 0.050987 0 0 0.998699)" "Quat";
+    	aK_addPoseBlend "$'Bip01 Spine3'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 Neck
+if (isSelected $'Bip01 Neck') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 Neck'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 Neck'.rotation" "(quat 0 0 0 1)" "Quat";
+    	aK_addPoseBlend "$'Bip01 Neck'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for kneeL
+if (isSelected $'kneeL') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'kneeL'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'kneeL'.rotation" "(quat 0 0 0 1)" "Quat";
+    	aK_addPoseBlend "$'kneeL'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 L Clavicle
+if (isSelected $'Bip01 L Clavicle') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 L Clavicle'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 L Clavicle'.rotation" "(quat 0 -0.229992 0 0.973193)" "Quat";
+    	aK_addPoseBlend "$'Bip01 L Clavicle'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 L UpperArm
+if (isSelected $'Bip01 L UpperArm') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 L UpperArm'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 L UpperArm'.rotation" "(quat -0.067072 0.647103 0.167796 0.740678)" "Quat";
+    	aK_addPoseBlend "$'Bip01 L UpperArm'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 L Forearm
+if (isSelected $'Bip01 L Forearm') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 L Forearm'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 L Forearm'.rotation" "(quat 0 0 -0.661712 0.749758)" "Quat";
+    	aK_addPoseBlend "$'Bip01 L Forearm'.position" "[0,-2.52318e-007,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 L Hand
+if (isSelected $'Bip01 L Hand') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 L Hand'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 L Hand'.rotation" "(quat -0.109525 -0.259933 -0.0488532 0.958151)" "Quat";
+    	aK_addPoseBlend "$'Bip01 L Hand'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 R Clavicle
+if (isSelected $'Bip01 R Clavicle') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 R Clavicle'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 R Clavicle'.rotation" "(quat 0 0 0 1)" "Quat";
+    	aK_addPoseBlend "$'Bip01 R Clavicle'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 R UpperArm
+if (isSelected $'Bip01 R UpperArm') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 R UpperArm'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 R UpperArm'.rotation" "(quat -0.337843 -0.476359 0.147681 0.798207)" "Quat";
+    	aK_addPoseBlend "$'Bip01 R UpperArm'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 R Forearm
+if (isSelected $'Bip01 R Forearm') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 R Forearm'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01 R Forearm'.rotation" "(quat 0 0 0.665071 0.74678)" "Quat";
+    	aK_addPoseBlend "$'Bip01 R Forearm'.position" "[0,0,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 L Toe0
+if (isSelected $'Bip01 L Toe0') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 L Toe0'.scale" "[1.38628,1.38628,1.38628]" "Point3";
+    	aK_addPoseBlend "$'Bip01 L Toe0'.rotation" "(quat 0 0 0 1)" "Quat";
+    	aK_addPoseBlend "$'Bip01 L Toe0'.position" "[-0.000246454,0.0626945,0.00644202]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01
+if (isSelected $'Bip01') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01'.scale" "[1,1,1]" "Point3";
+    	aK_addPoseBlend "$'Bip01'.rotation" "(quat 0 0 0 1)" "Quat";
+    	aK_addPoseBlend "$'Bip01'.position" "[-0.0546728,-0.655029,0]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+
+-- PRS DATA for Bip01 R Toe0
+if (isSelected $'Bip01 R Toe0') then
+    (
+    if (aKloadPRS == 1) then
+    	(
+    	aK_addPoseBlend "$'Bip01 R Toe0'.scale" "[1.21728,1.21728,1.21728]" "Point3";
+    	aK_addPoseBlend "$'Bip01 R Toe0'.rotation" "(quat 0 0 0 1)" "Quat";
+    	aK_addPoseBlend "$'Bip01 R Toe0'.position" "[0.000267396,0.062694,0.00644084]" "Point3";
+    	)
+
+    if (aKloadAtt == 1) then
+    	(
+    	)
+    )
+

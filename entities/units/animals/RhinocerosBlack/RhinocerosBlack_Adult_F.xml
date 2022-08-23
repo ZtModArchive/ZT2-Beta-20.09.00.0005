@@ -1,0 +1,22 @@
+<Graph name = "RhinocerosBlack_Adult_F">
+	<node name = "Run">
+		<table>
+			<Run_Ahead />
+		</table>
+		<edge anim = "Run_2Stand" node = "Stand" />
+	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+		<edge anim = "Stand_2Run" node = "Run" />
+		<edge anim = "Stand_2Walk" node = "Walk" />
+	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+		</table>
+		<edge anim = "Walk_2Stand" node = "Stand" />
+	</node>
+
+</Graph>

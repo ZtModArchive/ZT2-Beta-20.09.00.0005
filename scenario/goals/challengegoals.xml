@@ -1,0 +1,9 @@
+<ZTScenarioMgr interval="6" name="mgr" state="0" chain="false" allsuccess="true" sticky="true" optional="true">
+	<children>
+		<BFScenarioRule hidden="1" name="decidechallengeset" state="0" sticky="false" optional="true">		 
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="decidechallengeset" />
+			 </evaluate>
+		</BFScenarioRule>
+	</children>
+</ZTScenarioMgr>

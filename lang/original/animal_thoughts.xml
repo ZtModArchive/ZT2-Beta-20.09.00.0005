@@ -1,0 +1,12 @@
+<ZT2Strings>
+   <animalthoughts>
+<!--Animal Thoughts-->
+      <HungryAnimal>Dummy text to show hungry animal zoo message.</HungryAnimal>
+      <ThirstyAnimal>Dummy text to show thirsty animal zoo message.</ThirstyAnimal>
+      <EscapedAnimal>An animal has escaped!</EscapedAnimal>
+      <SickAnimal>%s is sick.</SickAnimal>
+      <VerySickAnimal>%s is very sick!</VerySickAnimal>
+      <AnimalBiomeBad>This animal is in a hostile environment!</AnimalBiomeBad>
+      <AnimalSpaceBad>This animal doesn't have enough space!</AnimalSpaceBad>      
+   </animalthoughts>
+</ZT2Strings>

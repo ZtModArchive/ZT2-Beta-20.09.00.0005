@@ -1,0 +1,8 @@
+<ZT2Strings>
+	<ZTWebComponent version="0">
+		<OfficialFilesSite>http://komodo/</OfficialFilesSite>
+		<MOTDSite>http://komodo/</MOTDSite>
+		<FilesIndexURL>filesindex2.xml</FilesIndexURL>
+		<MOTDURL>motd.xml</MOTDURL>
+	</ZTWebComponent>
+</ZT2Strings>

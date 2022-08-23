@@ -1,0 +1,90 @@
+<UILayout templateName="PGB">
+   <UIRegion x="0" y="0" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default/>
+   </UIAspect>
+   <children>
+      <UIStatic name="TopLeft">
+         <UIRegion x="0" y="0" w="91" h="91" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/PGB.tga">
+               <BFRect x="0" y="0" w="91" h="91"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopMiddle">
+         <UIRegion x="91" y="OUT_TOP" w="-82" h="91" xalign="min" yalign="min" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/PGB.tga">
+               <BFRect x="91" y="0" w="83" h="91"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="TopRight">
+         <UIRegion x="-82" y="0" w="82" h="91" xalign="max" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/PGB.tga">
+               <BFRect x="174" y="0" w="82" h="91"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidLeft">
+         <UIRegion x="0" y="91" w="91" h="-LAST_H" xalign="min" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/PGB.tga">
+               <BFRect x="0" y="91" w="91" h="83"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomLeft">
+         <UIRegion x="0" y="-LAST_H" w="91" h="LAST_H" xalign="min" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/PGB.tga">
+               <BFRect x="0" y="174" w="91" h="LAST_H"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomMiddle">
+         <UIRegion x="91" y="-LAST_H" w="-82" h="LAST_H" xalign="min" yalign="max" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/PGB.tga">
+               <BFRect x="91" y="174" w="83" h="LAST_H"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="BottomRight">
+         <UIRegion x="-82" y="-LAST_H" w="82" h="LAST_H" xalign="max" yalign="max" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/PGB.tga">
+               <BFRect x="174" y="174" w="82" h="LAST_H"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="MidRight">
+         <UIRegion x="-82" y="91" w="82" h="-LAST_H" xalign="max" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/PGB.tga">
+               <BFRect x="174" y="91" w="82" h="83"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIStatic name="Center">
+         <UIRegion x="91" y="91" w="-82" h="-LAST_H" xalign="min" yalign="min" walign="max" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/shared/PGB.tga">
+               <BFRect x="91" y="91" w="83" h="83"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+   </children>
+</UILayout>

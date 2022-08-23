@@ -1,0 +1,5 @@
+<BFM modelname="entities\objects\foliage\DatePalm\DatePalm_Desert_TAP.nif">
+	<animation anim="entities\objects\foliage\DatePalm\DatePalm_Desert_TAP_Bip01_DockNode01_BaseA2Branch1AEnd.bf" animName="Bip01_DockNode01_BaseA2Branch1AEnd" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\foliage\DatePalm\DatePalm_Desert_TAP_Bip01_DockNode02_Branch1AEnd2ExitA.bf" animName="Bip01_DockNode02_Branch1AEnd2ExitA" debug="false" animSpeed="1.000000" load="true" />
+</BFM>
+<Graph name="DatePalm_Desert_TAP" version="1" />

@@ -1,0 +1,34 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="Paint" reserveTag="Paint">
+      <BFAICreateData>
+         <Subjects>
+            <ElephantAfrican_Adult/>
+            <ElephantAfrican_Young/>
+            <Chimpanzee_Adult/>
+            <GorillaMountain_Adult/>
+         </Subjects>
+         <Targets>
+            <Easel/>
+            <Qualifiers_AND inHabitat="true" inSight="20"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="30">
+         <BFAIAttributeFloatMap stimulation="-30"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehEnter/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap stimulation="-50"/>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="useContainer"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

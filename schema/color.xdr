@@ -1,0 +1,9 @@
+<Schema name="Color">
+	<ElementType name="Color">
+		<extends type="BFXMLObj"/>
+		<attribute name="r" dt:type="int" default="0" />
+		<attribute name="g" dt:type="int" default="0" />
+		<attribute name="b" dt:type="int" default="0" />
+		<attribute name="a" dt:type="int" default="255" />
+	</ElementType>
+</Schema>

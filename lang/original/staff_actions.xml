@@ -1,0 +1,46 @@
+<ZT2Strings>
+   <staffactions>
+      <!--Staff Actions-->
+      <GoFillDish>Going to fill a food dish</GoFillDish>
+      <GoFeedAnimal>Going to feed animal</GoFeedAnimal>
+      <FeedAnimal>Placing food</FeedAnimal>
+      <FillDish>Filling a dish</FillDish>
+      <GoWaterAnimal>Going to give an animal water</GoWaterAnimal>
+      <WaterAnimal>Placing food</WaterAnimal>
+      <RakePoo>Raking poo</RakePoo>
+      <GoRakePoo>Going to rake poo</GoRakePoo>
+      <GotoSweepTrash>Going to sweep trash</GotoSweepTrash>
+      <SweepTrash>Sweeping trash</SweepTrash>
+      <GotoEmptyTrashcan>Going to empty trashcan</GotoEmptyTrashcan>
+      <EmptyTrashcan>Emptying trashcan</EmptyTrashcan>
+      <GotoEducateGuests>Going to podium</GotoEducateGuests>
+      <EducateGuests>Teaching guests about animals</EducateGuests>
+      <WaitingForTask>Waiting for job</WaitingForTask>
+      <WaitingForTaskBench>Going to sit on bench</WaitingForTaskBench>
+      <WaitingForTaskCenter>Going to staff center for supplies</WaitingForTaskCenter>
+      <StaffPlaced>Assessing zoo</StaffPlaced>
+      <GoHealAnimal>Going to treat %s</GoHealAnimal>
+      <HealAnimal>Healing %s</HealAnimal>
+      <GoCrateAnimal>Going to capture %s</GoCrateAnimal>
+      <CrateAnimal>Capturing %s</CrateAnimal>
+      <GoCheckupBaby>Going to give a baby a checkup</GoCheckupBaby>
+      <CheckupBaby>Giving %s a health checkup</CheckupBaby>
+      <RunningFromAnimal>Running from %s</RunningFromAnimal>
+   </staffactions>
+   <superstaff>
+      <format>
+         <font name="arial" size="24">%text%</font>
+      </format>
+      <food>Press space bar to replenish the %s .</food>
+      <gate>Press space bar to open the gate.</gate>
+      <animal_heal>Press space bar to heal %s.</animal_heal>
+      <animal_wash>Press space bar to wash %s.</animal_wash>
+      <animal_groom>Press space bar to groom %s.</animal_groom>
+      <animal_poop>Press space bar to clean up the %s</animal_poop>
+      <clean_trash>Press space bar to clean up the %s</clean_trash>
+      <empty_trash>Press space bar to empty the %s</empty_trash>
+      <summon>Press space bar to call %s over</summon>
+      <clean_recycle>Press space bar to clean up the %s</clean_recycle>
+      <compost>Press space bar to sell the compost</compost>
+   </superstaff>
+</ZT2Strings>

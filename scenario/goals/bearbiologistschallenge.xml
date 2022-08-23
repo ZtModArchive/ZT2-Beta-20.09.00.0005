@@ -1,0 +1,20 @@
+<BFScenarioGroup name="bearrules" state="0" chain="true" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="bearbiologist" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHBearConferenceShort" overview="Challengetext:CHBearConference" />
+				<success locid="Challengetext:CHBearSuccessShort" overview="Challengetext:CHBearSuccess" />
+				<failure locid="Challengetext:CHBearFailureShort" overview="Challengetext:CHBearFailure" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="bearbiologistschallenge" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/campaign1.lua" entry="completebearchallenge" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="failbearchallenge" />
+			</failure>			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

@@ -1,0 +1,148 @@
+<Graph name = "Giraffe_Adult_F">
+	<node name = "BegGuest">
+		<table>
+			<BegGuest_Idle />
+			<BegGuest_Lick />
+		</table>
+		<edge anim = "BegGuest_2Stand" node = "Stand" />
+	</node>
+	<node name = "BrowseLow">
+		<table>
+			<BrowseLow_Idle />
+		</table>
+		<edge anim = "BrowseLow_2Chew" node = "Chew" />
+	</node>
+	<node name = "Browse">
+		<table>
+			<Browse_Idle />
+		</table>
+		<edge anim = "Browse_2Chew" node = "Chew" />
+	</node>
+	<node name = "Chew">
+		<table>
+			<Chew_Belch />
+			<Chew_Idle />
+			<Chew_LookLeft />
+			<Chew_LookRight />
+		</table>
+		<edge anim = "Chew_2Browse" node = "Browse" />
+		<edge anim = "Chew_2BrowseLow" node = "BrowseLow" />
+		<edge anim = "Chew_2Stand" node = "Stand" />
+	</node>
+	<node name = "Drink">
+		<table>
+			<Drink_Idle />
+		</table>
+		<edge anim = "Drink_2Stand" node = "Stand" />
+	</node>
+	<node name = "Eat">
+		<table>
+			<Eat_Idle />
+			<Eat_LookLeft />
+			<Eat_LookRight />
+		</table>
+		<edge anim = "Eat_2Stand" node = "Stand" />
+	</node>
+	<node name = "HoofInspection">
+		<table>
+			<HoofInspection_Idle />
+		</table>
+		<edge anim = "HoofInspection_2Stand" node = "Stand" />
+	</node>
+	<node name = "Lie">
+		<table>
+			<Lie_Chew />
+			<Lie_Idle />
+			<Lie_LookLeft />
+			<Lie_LookRight />
+		</table>
+		<edge anim = "Lie_2Sleep" node = "Sleep" />
+		<edge anim = "Lie_2Stand" node = "Stand" />
+	</node>
+	<node name = "MouthInspection">
+		<table>
+			<MouthInspection_Idle />
+		</table>
+		<edge anim = "MouthInspection_2Stand" node = "Stand" />
+	</node>
+	<node name = "Pee">
+		<table>
+			<Pee_Idle />
+		</table>
+		<edge anim = "Pee_2Stand" node = "Stand" />
+	</node>
+	<node name = "Poop">
+		<table>
+			<Poop_Idle />
+		</table>
+		<edge anim = "Poop_2Stand" node = "Stand" />
+	</node>
+	<node name = "Rest">
+		<table>
+			<Rest_Idle />
+		</table>
+		<edge anim = "Rest_2Stand" node = "Stand" />
+	</node>
+	<node name = "Run">
+		<table>
+			<Run_Ahead />
+			<Run_Left />
+			<Run_Right />
+		</table>
+		<edge anim = "Run_2Jump" node = "Jump" />
+		<edge anim = "Run_2Stand" node = "Stand" />
+		<edge anim = "Run_2Walk" node = "Walk" />
+	</node>
+	<node name = "Sleep">
+		<table>
+			<Sleep_Idle />
+		</table>
+		<edge anim = "Sleep_2Lie" node = "Lie" />
+	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Attacked />
+			<Stand_GroomA />
+			<Stand_GroomB />
+			<Stand_Grunt />
+			<Stand_Idle />
+			<Stand_Kick />
+			<Stand_LookLeft />
+			<Stand_LookRight />
+			<Stand_Moo />
+			<Stand_MouthInspection />
+			<Stand_Neck />
+			<Stand_Rub />
+			<Stand_RubTree />
+			<Stand_Snort />
+			<Stand_Stretch />
+			<Stand_TailSwish />
+			<Stand_TurnL />
+			<Stand_TurnR />
+		</table>
+		<edge anim = "Stand_2BegGuest" node = "BegGuest" />
+		<edge anim = "Stand_2Browse" node = "Browse" />
+		<edge anim = "Stand_2BrowseLow" node = "BrowseLow" />
+		<edge anim = "Stand_2Chew" node = "Chew" />
+		<edge anim = "Stand_2Drink" node = "Drink" />
+		<edge anim = "Stand_2Eat" node = "Eat" />
+		<edge anim = "Stand_2HoofInspection" node = "HoofInspection" />
+		<edge anim = "Stand_2Lie" node = "Lie" />
+		<edge anim = "Stand_2MouthInspection" node = "MouthInspection" />
+		<edge anim = "Stand_2Pee" node = "Pee" />
+		<edge anim = "Stand_2Poop" node = "Poop" />
+		<edge anim = "Stand_2Rest" node = "Rest" />
+		<edge anim = "Stand_2Run" node = "Run" />
+		<edge anim = "Stand_2Walk" node = "Walk" />
+	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_Left />
+			<Walk_Right />
+		</table>
+		<edge anim = "Walk_2Run" node = "Run" />
+		<edge anim = "Walk_2Stand" node = "Stand" />
+	</node>
+
+</Graph>

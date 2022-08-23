@@ -1,0 +1,9 @@
+<Schema name="BFStringEvent">
+	<ElementType name="BFStringEvent">
+		<extends type="BFEvent"/>
+		<ElementType name="string">
+			<attribute name="value" dt:type="string"/>
+		</ElementType>
+		<element type="string"/>
+	</ElementType>
+</Schema>

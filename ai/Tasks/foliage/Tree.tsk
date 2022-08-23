@@ -1,0 +1,422 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="RamTree">
+      <BFAICreateData>
+         <Subjects>
+            <ElephantAfrican/>
+         </Subjects>
+         <Targets>
+            <tree/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsBad="30">
+         <BFAIAttributeFloatMap social="-30"/>
+         <BFAIBiomeMap alpine=".75" borealforest=".75" temperateforest=".50" desert=".75" grassland=".50" savannah=".25" tropicalrainforest=".50" scrub=".75" tundra="1.0" wetlands=".75"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToRam" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Mouth" targetAnim="Stand_HeadRam" locoSpeed="fast"/>
+         <BFBehHeadLook disengage="true"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAngry"/>
+                  <ZTActionInfo locID="animalactions:Ramming" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+            <ZTBehViewEvent viewKey="Neg_6">
+               <ZTFeedbackData>
+                  <ZTThoughtInfo locID="guestthoughts:AnimalAngryBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehViewEvent>
+            <BFBehPlaySet behSet="HeadRam"/>
+            <BFBehKill killTarget="true"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ScratchTree">
+      <BFAICreateData>
+         <Subjects>
+            <ElephantAfrican/>
+         </Subjects>
+         <Targets>
+            <tree/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsBad="30">
+         <BFAIAttributeFloatMap social="-30"/>
+         <BFAIBiomeMap alpine=".75" borealforest=".75" temperateforest=".50" desert=".75" grassland=".50" savannah=".25" tropicalrainforest=".50" scrub=".75" tundra="1.0" wetlands=".75"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToScratch" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Mouth" targetAnim="Stand_TuskThrust" locoSpeed="fast"/>
+         <BFBehHeadLook disengage="true"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAngry"/>
+                  <ZTActionInfo locID="animalactions:Scratching" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+            <ZTBehViewEvent viewKey="Neg_4">
+               <ZTFeedbackData>
+                  <ZTThoughtInfo locID="guestthoughts:AnimalAngryBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehViewEvent>
+            <BFBehPlaySet behSet="TuskThrust"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ScratchTree1" reserveTag="Scratch">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal_Adult_M/>
+         </Subjects>
+         <Targets>
+            <AcaciaCaffra_Savannah/>
+            <Baobob_Savannah/>
+            <Birch_Temperate/>
+            <ElephantEar_Rainforest/>
+            <Kapok_Rainforest/>
+            <Kily_Rainforest/>
+            <Mangrove_Wetland/>
+            <Maple_Temperate/>
+            <Orchid_Rainforest/>
+            <UmbrellaAcacia_Savannah/>
+            <WeepingMyall_Scrub/>
+            <YellowFeverAcacia_Scrub/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="15">
+         <BFAIAttributeFloatMap social="-10" hygiene="-10"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToScratch" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehEnter/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap social="-10" hygiene="-10"/>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalSocialGood"/>
+                  <ZTActionInfo locID="animalactions:Scratching" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+            <ZTBehViewEvent viewKey="Pos_4">
+               <ZTFeedbackData>
+                  <ZTThoughtInfo locID="guestthoughts:AnimalScratchObjectGood" priority="1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehViewEvent>
+            <BFBehPlaySet behSet="useContainer"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ScratchTree2" reserveTag="General">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal_Adult_M/>
+         </Subjects>
+         <Targets>
+            <BalsamFir_Boreal/>
+            <BananaTree_Rainforest/>
+            <BlackSpruce_Boreal/>
+            <DatePalm_Desert/>
+            <FoxtailPalm_Rainforest/>
+            <HimalayanPine_Alpine/>
+            <RedCedar_Rainforest/>
+            <TremblingAspen_Grassland/>
+            <TreeFern_Rainforest/>
+            <YellowCedar_Alpine/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="15">
+         <BFAIAttributeFloatMap social="-10" hygiene="-10"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToScratch" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Swipe" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap social="-10" hygiene="-10"/>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalSocialGood"/>
+                  <ZTActionInfo locID="animalactions:Scratching" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+            <ZTBehViewEvent viewKey="Pos_4">
+               <ZTFeedbackData>
+                  <ZTThoughtInfo locID="guestthoughts:AnimalScratchObjectGood" priority="1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehViewEvent>
+            <BFBehPlaySet behSet="ScratchTree"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ScratchLog" reserveTag="General">
+      <BFAICreateData>
+         <Subjects>
+            <TigerBengal_Adult_M/>
+         </Subjects>
+         <Targets>
+            <Log/>
+            <HollowLog/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="15">
+         <BFAIAttributeFloatMap social="-20" hygiene="-10"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToScratch" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Swipe" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap social="-10" hygiene="-10"/>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalSocialGood"/>
+                  <ZTActionInfo locID="animalactions:Scratching" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+            <ZTBehViewEvent viewKey="Pos_4">
+               <ZTFeedbackData>
+                  <ZTThoughtInfo locID="guestthoughts:AnimalScratchObjectGood" priority="1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehViewEvent>
+            <BFBehPlaySet behSet="PlayLog"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="PoundTree1" reserveTag="Rub">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+         </Subjects>
+         <Targets>
+            <AcaciaCaffra_Savannah/>
+            <Baobob_Savannah/>
+            <Birch_Temperate/>
+            <ElephantEar_Rainforest/>
+            <Kapok_Rainforest/>
+            <Kily_Rainforest/>
+            <Mangrove_Wetland/>
+            <Maple_Temperate/>
+            <Orchid_Rainforest/>
+            <TremblingAspen_Grassland/>
+            <UmbrellaAcacia_Savannah/>
+            <WeepingMyall_Scrub/>
+            <YellowFeverAcacia_Scrub/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="30">
+         <BFAIAttributeFloatMap social="-10"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToHit" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Front" targetAnim="StandBi_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap social="-10"/>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalSocialGood"/>
+                  <ZTActionInfo locID="animalactions:Hitting" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Pos_4">
+            	<ZTFeedbackData>
+               		<ZTThoughtInfo locID="guestthoughts:AnimalHitGood" priority="1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            	</ZTFeedbackData>
+            </ZTBehViewEvent>
+            <BFBehPlaySet behSet="PoundTree"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="PoundTree2" reserveTag="General">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+         </Subjects>
+         <Targets>
+            <BalsamFir_Boreal/>
+            <BananaTree_Rainforest/>
+            <BlackSpruce_Boreal/>
+            <DatePalm_Desert/>
+            <FoxtailPalm_Rainforest/>
+            <HimalayanPine_Alpine/>
+            <RedCedar_Rainforest/>
+            <TreeFern_Rainforest/>
+            <YellowCedar_Alpine/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="30">
+         <BFAIAttributeFloatMap social="-10"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToHit" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Front" targetAnim="StandBi_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap social="-10"/>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalSocialGood"/>
+                  <ZTActionInfo locID="animalactions:Hitting" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Pos_4">
+            	<ZTFeedbackData>
+               		<ZTThoughtInfo locID="guestthoughts:AnimalHitGood" priority="1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            	</ZTFeedbackData>
+            </ZTBehViewEvent>
+            <BFBehPlaySet behSet="PoundTree"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="MarkScentGiantPanda" reserveTag="General" TaskDelayMin="60" TaskDelayMax="120">
+      <BFAICreateData>
+         <Subjects>
+            <PandaGiant_Adult/>
+         </Subjects>
+         <Targets_AND>
+            <tree/>
+            <Qualifiers inHabitat="true" inSight="20"/>
+         </Targets_AND>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="40">
+         <BFAIAttributeFloatMap social="-25"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="animalactions:GoingToMarkScent" useTargetName="true"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="p_MarkScentNode" targetAnim="Stand_Idle" />
+         <BFBehHeadLook disengage="true"/>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="animalactions:MarkingScent" useTargetName="true"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+            <ZTBehViewEvent viewKey="Pos_8">
+                <ZTFeedbackData>
+               		<ZTThoughtInfo locID="guestthoughts:AnimalMarkScentGood" priority="1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            	</ZTFeedbackData>
+            </ZTBehViewEvent>
+         <BFBehPlaySet behSet="ScentMark"/>
+      </BFBehExecTask>
+      <BFAICompletionData invalidateTarget="true">
+         <BFAIAttributeFloatMap social="-20"/>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalSocialGood"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

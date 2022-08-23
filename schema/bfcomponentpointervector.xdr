@@ -1,0 +1,12 @@
+<Schema name="BFComponentPointerVector">
+	<ElementType name="BFComponentPointerVector">
+		<extends type="BFXMLObj"/>
+		<ElementType name="pointer">
+			<AttributeType name="comp_pointer">
+				<datatype dt:type="bin.hex" bf:pointer="BFComponent"/>
+			</AttributeType>
+			<attribute name="value" type="comp_pointer" required="yes"/>
+		</ElementType>
+		<element type="pointer" occurs="zeroOrMore"/>
+	</ElementType>
+</Schema>

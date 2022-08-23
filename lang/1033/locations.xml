@@ -1,0 +1,37 @@
+<ZT2Strings>
+      <LOC_STRING _locID="worldlocation:northamerica">North America</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:southamerica">South America</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:centralamerica">Central America &amp; Caribbean</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:westafrica">West Africa</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:northafrica">North Africa</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:eastafrica">East Africa</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:centralafrica">Central Africa</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:southernafrica">Southern Africa</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:southasia">South Asia</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:southeastasia">Southeast Asia</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:centralasia">Central Asia</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:eastasia">East Asia</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:oceania">Oceania</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:arctic">Arctic</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:antarctica">Antarctica</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:westerneurope">Western Europe</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:southerneurope">Southern Europe</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:notherneurope">Northern Europe</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:easterneurope">Eastern Europe</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:worldwide">Worldwide</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:middleeast">Middle East</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:all">All Biome Maps</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:africa">Africa</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:southafrica">South Africa</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:southeastafrica">Southeast Africa</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:southwestafrica">Southwest Africa</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:madagascar">Madagascar</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:asia">Asia</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:westernasia">Western Asia</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:australia">Australia</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:eastaustralia">East Australia</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:arcticantarctica">Arctic Antarctica</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:everglades">Florida Everglades</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:outback">Australian Outback</LOC_STRING>
+      <LOC_STRING _locID="worldlocation:europe">Europe</LOC_STRING>
+</ZT2Strings>

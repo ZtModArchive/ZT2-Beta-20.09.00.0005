@@ -1,0 +1,20 @@
+<BFM modelname="entities\objects\buildings\InsectKiosk_df\InsectKiosk_Bugs_df.nif">
+	<animation anim="entities\objects\buildings\InsectKiosk_df\HB_Bip01_Secondary_HercBeetle.bf" animName="Secondary_HercBeetle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\InsectKiosk_df\SCORPIONG_BIP01_Secondary_Scorpion.bf" animName="Secondary_Scorpion" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\InsectKiosk_df\T_Bip01_Secondary_Tarantula.bf" animName="Secondary_Tarantula" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\InsectKiosk_df\Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="InsectKiosk_Bugs_df" version="1">
+	<node name="Secondary">
+		<table>
+			<Secondary_HercBeetle />
+			<Secondary_Scorpion />
+			<Secondary_Tarantula />
+		</table>
+	</node>
+	<node name="Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+	</node>
+</Graph>

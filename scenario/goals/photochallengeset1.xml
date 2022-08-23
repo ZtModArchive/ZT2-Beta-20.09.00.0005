@@ -1,0 +1,35 @@
+	<ZTScenarioMgr>
+	 <children>
+	   <BFScenarioGroup name="photochallengeset1" state="0" chain="false" allsuccess="true" sticky="false" optional="true">
+	     <success>
+	     	<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="clearneedchallenge" />
+	     </success>
+	     <failure>
+	     	<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="clearneedchallenge" />
+	     </failure>	     
+	     <children>
+		<BFScenarioRule hidden="1" name="marketingbrochure" state="0" sticky="true" optional="false">
+			<info type="photo">
+				<neutral locid="PhotoChallengetext:PHMarketingBrochureShort" overview="PhotoChallengetext:PHMarketingBrochure" />
+				<success locid="PhotoChallengetext:PHMarketingBrochureSuccessShort" overview="PhotoChallengetext:PHMarketingBrochureSuccess" />		
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="marketingbrochure" />
+			 </evaluate>
+		</BFScenarioRule>
+		<BFScenarioRule hidden="1" name="ungulatesphoto" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="PhotoChallengetext:PHUngulateShort" overview="PhotoChallengetext:PHUngulate" />
+				<success locid="PhotoChallengetext:PHUngulateSuccessShort" overview="PhotoChallengetext:PHUngulateSuccess" />		
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="ungulatesphoto" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="completeshowoverview" />
+			 </success>			 
+		</BFScenarioRule>		
+	     </children>
+	   </BFScenarioGroup>
+	 </children>
+	</ZTScenarioMgr>

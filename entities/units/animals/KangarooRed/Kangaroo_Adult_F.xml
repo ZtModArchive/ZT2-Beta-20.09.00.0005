@@ -1,0 +1,146 @@
+<Graph name = "Kangaroo_Adult_F">
+	<node name = "Attacked">
+		<table>
+			<Attacked_Loop />
+		</table>
+		<edge anim = "Attacked_2Lie" node = "Lie" />
+	</node>
+	<node name = "Browse">
+		<table>
+			<Browse_Idle />
+			<Browse_Loop />
+		</table>
+		<edge anim = "Browse_2Eat" node = "Eat" />
+		<edge anim = "Browse_2Stand" node = "Stand" />
+	</node>
+	<node name = "Drink">
+		<table>
+			<Drink_Loop />
+		</table>
+		<edge anim = "Drink_2Eat" node = "Eat" />
+	</node>
+	<node name = "Eat">
+		<table>
+			<Eat_Idle />
+			<Eat_Loop />
+			<Eat_Sniff />
+		</table>
+		<edge anim = "Eat_2Drink" node = "Drink" />
+		<edge anim = "Eat_2Stand" node = "Stand" />
+	</node>
+	<node name = "FootInspection">
+		<table>
+			<FootInspection_Loop />
+		</table>
+		<edge anim = "FootInspection_2Stand" node = "Stand" />
+	</node>
+	<node name = "Graze">
+		<table>
+			<Graze_Loop />
+		</table>
+		<edge anim = "Graze_2Eat" node = "Eat" />
+		<edge anim = "Graze_2Stand" node = "Stand" />
+	</node>
+	<node name = "Hop">
+		<table>
+			<Hop_Forward />
+			<Hop_LeftA />
+			<Hop_LeftB />
+			<Hop_RightA />
+			<Hop_RightB />
+		</table>
+		<edge anim = "Hop_2Stand" node = "Stand" />
+		<edge anim = "Hop_2Walk" node = "Walk" />
+	</node>
+	<node name = "Lie">
+		<table>
+			<Lie_Idle />
+			<Lie_Loop />
+			<Lie_Roll />
+		</table>
+		<edge anim = "Lie_2Sleep" node = "Sleep" />
+		<edge anim = "Lie_2Stand" node = "Stand" />
+	</node>
+	<node name = "Pee">
+		<table>
+			<Pee_Loop />
+		</table>
+		<edge anim = "Pee_2Stand" node = "Stand" />
+	</node>
+	<node name = "Poop">
+		<table>
+			<Poop_Loop />
+		</table>
+		<edge anim = "Poop_2Stand" node = "Stand" />
+	</node>
+	<node name = "Punch">
+		<table>
+			<Punch_Idle />
+			<Punch_Loop />
+		</table>
+		<edge anim = "Punch_2StandTall" node = "StandTall" />
+	</node>
+	<node name = "Sleep">
+		<table>
+			<Sleep_Loop />
+		</table>
+		<edge anim = "Sleep_2Lie" node = "Lie" />
+	</node>
+	<node name = "StandTall">
+		<table>
+			<StandTall_Flex />
+			<StandTall_Idle />
+			<StandTall_Loop />
+		</table>
+		<edge anim = "StandTall_2Punch" node = "Punch" />
+		<edge anim = "StandTall_2Stand" node = "Stand" />
+	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Attacked />
+			<Stand_Breath />
+			<Stand_Groom />
+			<Stand_Idle />
+			<Stand_Kick />
+			<Stand_LookLeft />
+			<Stand_LookRight />
+			<Stand_Loop />
+			<Stand_Scratch />
+			<Stand_Shake />
+			<Stand_Sniff />
+			<Stand_StampFeet />
+			<Stand_ThumpTail />
+		</table>
+		<edge anim = "Stand_2Attacked" node = "Attacked" />
+		<edge anim = "Stand_2Browse" node = "Browse" />
+		<edge anim = "Stand_2Eat" node = "Eat" />
+		<edge anim = "Stand_2FootInspection" node = "FootInspection" />
+		<edge anim = "Stand_2Graze" node = "Graze" />
+		<edge anim = "Stand_2Hop" node = "Hop" />
+		<edge anim = "Stand_2Lie" node = "Lie" />
+		<edge anim = "Stand_2Pee" node = "Pee" />
+		<edge anim = "Stand_2Poop" node = "Poop" />
+		<edge anim = "Stand_2StandTall" node = "StandTall" />
+		<edge anim = "Stand_2ToothInspection" node = "ToothInspection" />
+		<edge anim = "Stand_2Walk" node = "Walk" />
+	</node>
+	<node name = "ToothInspection">
+		<table>
+			<ToothInspection_Loop />
+		</table>
+		<edge anim = "ToothInspection_2Stand" node = "Stand" />
+	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_Forward />
+			<Walk_LeftA />
+			<Walk_LeftB />
+			<Walk_RightA />
+			<Walk_RightB />
+		</table>
+		<edge anim = "Walk_2Hop" node = "Hop" />
+		<edge anim = "Walk_2Stand" node = "Stand" />
+	</node>
+
+</Graph>

@@ -1,0 +1,15 @@
+<BFTypedBinder binderType="PathArch" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <PathArch/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData terrainFlatten="true" moveable="false" autoFootprint="false"/>
+   </shared>
+</BFTypedBinder>

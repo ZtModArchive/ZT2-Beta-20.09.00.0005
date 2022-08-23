@@ -1,0 +1,68 @@
+<BFTypedBinder binderType="PathArch_St">
+   <types>
+      <entity>
+         <scenery>
+            <PathArch>
+               <PathArch_St/>
+            </PathArch>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj2" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\scenery\PathArch_St\PathArch_St_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:PathArch_St"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PathArch_St"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared s_ProfileLock="safarilock" s_Zoopedia="zoopedia:zoopedia_arch:entry" s_Theme="safari"/>
+      <ZTPlacementData terrainFlatten="true" autoFootprint="false" moveable="false">
+         <cfootprint width="3" height="1"/>
+         <dfootprint width="4" height="1"/>
+      </ZTPlacementData>
+      <BFGCollisionData isPassable="true"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\square_grad_blob.tga" baseNode="ShadowNode_01" ignoreLights="false" width="4.5" minLength="4" maxLength="12" minOffset="0" maxOffset="2"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj2">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\square_grad_blob.tga" baseNode="ShadowNode_02" ignoreLights="false" width="4.5" minLength="4" maxLength="12" minOffset="0" maxOffset="2"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/scenery/PathArch_St/PathArch_St.nif" switch="0 30 50"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="420">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

@@ -1,0 +1,7 @@
+<ambient loop="alpine_loop">
+   <ambients>
+      <snds>
+         <snd name="a_animals01"/>
+      </snds>
+   </ambients>
+</ambient>

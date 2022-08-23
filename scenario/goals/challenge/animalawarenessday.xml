@@ -1,0 +1,20 @@
+<BFScenarioGroup name="animalawarenessdayrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="animalawarenessday" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHAnimalAwarenessDayShort" overview="Challengetext:CHAnimalAwarenessDay" />
+				<success locid="Challengetext:CHAnimalAwarenessDaySuccessShort" overview="Challengetext:CHAnimalAwarenessDaySuccess" />
+				<failure locid="Challengetext:CHAnimalAwarenessDayFailureShort" overview="Challengetext:CHAnimalAwarenessDayFailure" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalawarenessday.lua" entry="evalanimalawarenessday" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalawarenessday.lua" entry="completeanimalawarenessday" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalawarenessday.lua" entry="failanimalawarenessday" />
+			</failure>			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

@@ -1,0 +1,38 @@
+<BFM modelname="entities\units\animals\Rat\Rat_Adult_F.nif">
+	<animation anim="entities\units\animals\Rat\Rat_Adult_F_Dead_Idle.bf" animName="Dead_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Rat\Rat_Adult_F_Run_2Stand.bf" animName="Run_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Rat\Rat_Adult_F_Run_Ahead.bf" animName="Run_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Rat\Rat_Adult_F_Run_TurnLeftA.bf" animName="Run_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Rat\Rat_Adult_F_Run_TurnRightA.bf" animName="Run_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Rat\Rat_Adult_F_Stand_2Run.bf" animName="Stand_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Rat\Rat_Adult_F_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Rat_Adult_F" version="1">
+	<node name="Dead">
+		<table>
+			<Dead_Idle />
+		</table>
+	</node>
+	<node name="Run">
+		<table>
+			<Run_Ahead />
+			<Run_TurnLeftA />
+			<Run_TurnRightA />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Run_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+		<edge name="Run">
+			<table>
+				<Stand_2Run />
+			</table>
+		</edge>
+	</node>
+</Graph>

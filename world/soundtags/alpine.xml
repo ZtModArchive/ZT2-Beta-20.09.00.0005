@@ -1,0 +1,26 @@
+<soundtags>
+   <BFSoundtag>
+      <BF2DSndFactory name="Condor_01">
+         <snd name="sounds/B_AP_Condor01.wav" randpan="1" randvolume="1" minpitch=".9" maxpitch="1.1" minvolume=".20" maxvolume=".25"/>
+      </BF2DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF2DSndFactory name="Condor_02">
+         <snd name="sounds/B_AP_Condor02.wav" randpan="1" randvolume="1" minpitch=".9" maxpitch="1.1" minvolume=".20" maxvolume=".25"/>
+      </BF2DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF2DSndFactory name="Condor_03">
+         <snd name="sounds/B_AP_Condor03.wav" randpan="1" randvolume="1" minpitch=".9" maxpitch="1.1" minvolume=".20" maxvolume=".25"/>
+      </BF2DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BFAmbient2DSndFactory name="a_animals01">
+         <snds>
+            <snd name="Condor_01" mindelay="25" maxdelay="100"/>
+            <snd name="Condor_02" mindelay="45" maxdelay="100"/>
+            <snd name="Condor_03" mindelay="55" maxdelay="160"/>
+         </snds>
+      </BFAmbient2DSndFactory>
+   </BFSoundtag>
+</soundtags>

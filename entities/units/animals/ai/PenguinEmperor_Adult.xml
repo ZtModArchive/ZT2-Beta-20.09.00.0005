@@ -1,0 +1,86 @@
+<BFTypedBinder binderType="PenguinEmperor_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Sphenisciformes>
+                     <Spheniscidae>
+                        <PenguinEmperor>
+                           <PenguinEmperor_Adult/>
+                        </PenguinEmperor>
+                     </Spheniscidae>
+                  </Sphenisciformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0 1.180625" icon3Dscale="1.327675" />
+      <BFAIEntityDataShared f_viewBonus="10" b_Adult="1"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent lodLevel="0" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Spine" width="1.0" minLength="1.0" maxLength="3.0" minOffset="0" maxOffset=".75"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="texController" required="1">
+         <instance>
+            <BFAITextureController currState="well" defaultState="well">
+               <attribList>
+                  <health/>
+                  <hygiene/>
+               </attribList>
+               <stateList>
+                  <sickanddirty>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="PenguinEmperor_Adult_MTL" image="entities\units\animals\PenguinEmperor\PenguinEmperor_Adult_Sick_Dirty.dds"/>
+                     </textureData>
+                  </sickanddirty>
+                  <sick>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="PenguinEmperor_Adult_MTL" image="entities\units\animals\PenguinEmperor\PenguinEmperor_Adult_Sick.dds"/>
+                     </textureData>
+                  </sick>
+                  <dirty>
+                     <attribData>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="PenguinEmperor_Adult_MTL" image="entities\units\animals\PenguinEmperor\PenguinEmperor_Adult_Dirty.dds"/>
+                     </textureData>
+                  </dirty>
+                  <well>
+                     <textureData>
+                        <mainObj material="PenguinEmperor_Adult_MTL" image="entities\units\animals\PenguinEmperor\PenguinEmperor_Adult_F.dds"/>
+                     </textureData>
+                  </well>
+               </stateList>
+            </BFAITextureController>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius=".25" motionClass="swimmer" waterScore="0" landScore="0" maxSlope=".50"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

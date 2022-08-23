@@ -1,0 +1,75 @@
+<BFTypedBinder binderType="CamelDromedary_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Artiodactyla>
+                     <Camelidae>
+                        <CamelDromedary>
+                           <CamelDromedary_Adult/>
+                        </CamelDromedary>
+                     </Camelidae>
+                  </Artiodactyla>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared b_Adult="1"/>
+      <ZTPlacementData icon3Doffset="0 0 1.210000" icon3Dscale="0.597569" />
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="texController" required="1">
+         <instance>
+            <BFAITextureController currState="well" defaultState="well">
+               <attribList>
+                  <health/>
+                  <hygiene/>
+               </attribList>
+               <stateList>
+                  <sickanddirty>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="CamelDromedary_Adult_F_MTL" image="entities\units\animals\CamelDromedary\CamelDromedary_Adult_Sick_Dirty.dds"/>
+                     </textureData>
+                  </sickanddirty>
+                  <sick>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="CamelDromedary_Adult_F_MTL" image="entities\units\animals\CamelDromedary\CamelDromedary_Adult_Sick.dds"/>
+                     </textureData>
+                  </sick>
+                  <dirty>
+                     <attribData>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="CamelDromedary_Adult_F_MTL" image="entities\units\animals\CamelDromedary\CamelDromedary_Adult_Dirty.dds"/>
+                     </textureData>
+                  </dirty>
+                  <well>
+                     <textureData>
+                        <mainObj material="CamelDromedary_Adult_F_MTL" image="entities\units\animals\CamelDromedary\CamelDromedary_Adult_F.dds"/>
+                     </textureData>
+                  </well>
+               </stateList>
+            </BFAITextureController>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="2" motionClass="mover" maxSlope=".75" wadeDepth="1"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

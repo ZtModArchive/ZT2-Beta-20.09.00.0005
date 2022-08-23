@@ -1,0 +1,9 @@
+<Schema name="BFStringVector">
+	<ElementType name="BFStringVector">
+		<extends type="BFXMLObj"/>
+		<ElementType name="string">
+			<attribute name="value" dt:type="string" required="yes"/>
+		</ElementType>
+		<element type="string" occurs="zeroOrMore"/>
+	</ElementType>
+</Schema>

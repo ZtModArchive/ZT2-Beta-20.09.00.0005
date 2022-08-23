@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key frame="10" text="{Bip01 R Finger0Nub} snd 'medium_dropa'"/>
+   <key frame="10" text="{Bip01 R Finger0Nub} runps Biomefx"/>
+   <key frame="20" text="{Bip01 Head} snd 'medium_dropb'"/>
+</TEXTKEY>

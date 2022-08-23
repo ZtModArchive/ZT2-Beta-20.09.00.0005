@@ -1,0 +1,9 @@
+<Schema name="BFRect">
+	<ElementType name="BFRect">
+		<extends type="BFXMLObj"/>
+		<attribute name="x" dt:type="int" default="0" />
+		<attribute name="y" dt:type="int" default="0" />
+		<attribute name="w" dt:type="int" default="0" />
+		<attribute name="h" dt:type="int" default="0" />
+	</ElementType>
+</Schema>

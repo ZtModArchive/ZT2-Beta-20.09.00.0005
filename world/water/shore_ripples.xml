@@ -1,0 +1,10 @@
+<BFPhysObj drawLast="true">
+	<BFSceneGraphComponent
+		applyFog="false"
+		updateBounds="true" 
+		modelfile="world\water\shore_ripples.nif" 
+	/>
+	<BFHasParticleComponent/>
+	<BFForceUpdateWhenVisibleComponent controllersOnly="false"/>
+	<BFWaterGroundFitComponent heightOffset="0.0"/>
+</BFPhysObj>

@@ -1,0 +1,51 @@
+<BFTypedBinder binderType="gate" abstract="true">
+   <types>
+      <entity>
+         <fence>
+            <gate/>
+         </fence>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared b_ReceiveUpdates="true"/>
+      <ZTUserStaffAction>
+         <SetAttribute name="f_timeToClose" value="2.0f" locid="superstaff:gate"/>
+      </ZTUserStaffAction>
+      <BFGCollisionData>
+         <typeScores Staff="0"/>
+      </BFGCollisionData>
+   </shared>
+   <binder>
+      <BFBinder>
+         <instance>
+            <ZTFence hasCurves="false"/>
+         </instance>
+      </BFBinder>
+      <BFBinder>
+         <instance>
+            <ZTGate openDistance="4" closeDistance="6" pollFreq="0.1" physObj="gate_animation" openAnim="Bip01_open" closeAnim="Bip01_close" openForEntityType="Staff"/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="gate_animation">
+         <instance>
+            <BFPhysObj>
+               <position x="0" y="0" z="0"/>
+               <BFActorComponent/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFSkewComponent axis="0"/>
+            </BFPhysObj>
+         </instance>
+         <shared>
+            <BFSharedPhysVars seeThrough="false"/>
+         </shared>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <BFAIEntityDataInstance f_timeToClose="0.0"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

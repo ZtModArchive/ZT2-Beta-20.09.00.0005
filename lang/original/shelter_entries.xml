@@ -1,0 +1,228 @@
+<ZT2Strings>
+
+
+   <zoopedia_beaverlodge>
+         <entry>Beaver Lodge</entry>
+         <text>
+            <img src="entities/objects/shelters/BeaverLodge_Shelter/BeaverLodge_Shelter_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>
+            Beavers construct the beaver lodge from sticks, twigs and branches placed in their exhibit.  
+	             <a href="zoopedia:zoopedia_beaver:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">Beavers</color>
+	                </u>
+	             </a>             
+             enter the lodge by swimming into the entrance.
+         
+         </text>
+         
+   </zoopedia_beaverlodge>
+
+   
+   <zoopedia_cubbingden>
+         <entry>Cubbing Den</entry>
+         <text>
+            <img src="entities/objects/shelters/CubbingDen_Shelter/CubbingDen_Shelter_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>            
+	       A cubbing den is a warm, quiet enclosure that certain female animals will 
+	       use to give birth. It is used by 
+	             <a href="zoopedia:zoopedia_grizzly:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">bears,</color>
+	                </u>
+	             </a>	       
+	        
+	             <a href="zoopedia:zoopedia_panda:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">pandas</color>
+	                </u>
+	             </a>	       
+	        and 
+	             <a href="zoopedia:zoopedia_gorilla:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">gorillas.</color>
+	                </u>
+	             </a>	       
+	        Animals that give birth in 
+	       cubbing dens are less likely to become ill. 
+	       
+	       
+
+         </text>
+         
+   </zoopedia_cubbingden>
+   
+   <zoopedia_elephanthouse>
+            <entry>Elephant House</entry>
+            <text>
+            <img src="entities/objects/shelters/ElephantHouse_Shelter/ElephantHouse_Shelter_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>                               
+               This large, roomy concrete structure is designed to accommodate the 
+               particularly large mass of the elephant
+            
+            </text>
+            
+   </zoopedia_elephanthouse>
+   
+   <zoopedia_nestbox>
+            <entry>Elevated Nest Box</entry>
+            <text>
+            <img src="entities/objects/shelters/ElevatedNestBox_Shelter/ElevatedNestBox_Shelter_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>               
+               The elevated nest box is a small house-like shelter mounted on a tall pole, which 
+               satisfies the needs of animals who like to nest above the ground.
+            
+            </text>
+            
+   </zoopedia_nestbox>
+   
+   <zoopedia_giraffehouse>
+            <entry>Giraffe House</entry>
+            <text>
+               
+               This tall building is designed to accommodate the extra height requirements of the 
+               tall giraffe.
+            
+            </text>
+            
+   </zoopedia_giraffehouse>
+   
+   <zoopedia_groundnest>
+            <entry>Ground Nest</entry>
+            <text>
+            <img src="entities/objects/shelters/GroundNest_Shelter/GroundNest_Shelter_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>                
+               A ground nest, which is really nothing more than a large pile of leaves, is a comfortable 
+               resting place for many animals.
+	       <p/>
+	       For many animals, including the gorilla, building a nest is a highly instinctual activity.
+
+            
+            </text>
+            
+   </zoopedia_groundnest>
+   
+   <zoopedia_treestump>
+            <entry>Hollow Tree Stump</entry>
+            <text>
+               
+               Both the giant panda and the red panda consider a tall, hollow tree stump to be a very 
+               natural and inviting form of shelter. Guests enjoy seeing animals use shelters that 
+               more closely represent natural habitats.
+            
+            </text>
+            
+   </zoopedia_treestump>
+   
+   <zoopedia_concreteshelter>
+            <entry>Concrete Shelters</entry>
+            <text>
+               
+		The large concrete shelter is a man-made structure that provides a restful environment 
+		and maximum protection for animals that prefer to sleep in an enclosure, including 
+		tigers, cheetahs, and most bears. Up to 2 animals may sleep in the small concrete 
+		shelter and up to 4 animals are accomodated by the large concrete shelter.
+            
+            </text>
+            
+   </zoopedia_concreteshelter>
+   
+   
+   <zoopedia_rockcave>
+            <entry>Rock Cave</entry>
+            <text>
+               
+               The large rock cave, which includes a hole in the roof to ensure adequate ventilation, 
+               provides a natural habitat for animals, including the polar bear and cheetah, who prefer 
+               a dark, enclosed resting environment. The small cave accomodates 2 animals, 
+               and the large cave holds 4.
+            
+            </text>
+            
+   </zoopedia_rockcave>
+   
+   <zoopedia_snowyrockcave>
+            <entry>Snowy Rock Cave</entry>
+            <text>
+               
+               The large snowy rock cave, which includes a hole in the roof to ensure adequate 
+               ventilation, provides a natural habitat for animals, including the penguin and the 
+               polar bear, who are comfortable in frigid, dark, and enclosed resting environments. 
+               The small cave accomodates 2 animals, 
+               and the large cave holds 4.
+            
+            </text>
+            
+   </zoopedia_snowyrockcave>   
+   
+   <zoopedia_stable>
+            <entry>Stables</entry>
+            <text>
+               
+               A wooden building contains stalls bedded with straw, providing a comfortable enclosure for hooved animals.  
+               An exterior overhang provides shade and protection from the elements. The small stable has 2 stalls and the 
+               large stable has 4.
+            
+            </text>
+            
+   </zoopedia_stable>   
+   
+   
+   <zoopedia_woodenshelter>
+            <entry>Wooden Shelters</entry>
+            <text>
+               
+               This man-made structure provides protection for animals that prefer to sleep in an enclosure.
+               Up to 2 animals may sleep in the small wooden shelter and up to 4 animals can sleep in the 
+               large wooden shelter.
+            
+            </text>
+            
+   </zoopedia_woodenshelter>   
+   
+   
+   <zoopedia_raisedsleepingplatform>
+            <entry>Raised Sleeping Platform</entry>
+            <text>
+               
+               A raised platform with wooden ramps allows animals to walk up and sleep in a more protected position off 
+               the ground.
+            
+            </text>
+            
+   </zoopedia_raisedsleepingplatform>   
+   
+   
+   <zoopedia_shadestructure>
+            <entry>Shade Structure</entry>
+            <text>
+               
+               This simple structure provides animals with a place to seek shelter from the sun.
+            
+            </text>
+            
+   </zoopedia_shadestructure>   
+   
+   
+   <zoopedia_sleepingbasket>
+            <entry>Sleeping Basket</entry>
+            <text>
+               
+               A basket primarily used by primates. One large animal or two small ones can fit comfortably into the basket. 
+               The basket can be made more restful if bedding material is placed in the exhibit.  
+               Bedding material will deteriorate over time.
+            
+            </text>
+            
+   </zoopedia_sleepingbasket>   
+      
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   </ZT2Strings>

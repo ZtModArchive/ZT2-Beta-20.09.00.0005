@@ -1,0 +1,9 @@
+del *.kf
+del *.kfm
+del *.kfinfo
+del Kangaroo_Adult_F_*.nif
+del Kangaroo_Adult_M_*.nif
+del Kangaroo_Young_F_*.nif
+del Kangaroo_Adult_F.bf
+del Kangaroo_Adult_M.bf
+del Kangaroo_Young_F.bf

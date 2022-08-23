@@ -1,0 +1,30 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="GetStick" reserveTag="General">
+      <BFAICreateData>
+         <Subjects>
+            <BeaverAmerican/>
+         </Subjects>
+         <Targets>
+            <ShelterMaterials_Sticks/>
+            <Qualifiers_AND inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap rest="-75"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="ApproachShelterMaterials"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="PickUpStick"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

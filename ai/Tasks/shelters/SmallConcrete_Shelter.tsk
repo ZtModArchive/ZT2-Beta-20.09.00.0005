@@ -1,0 +1,51 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="SmallConcreteShelter" reserveTag="TAP">
+      <BFAICreateData>
+         <Subjects>
+            <BearPolar/>
+            <BearGrizzly/>
+            <PandaGiant/>
+            <PandaRed/>
+            <GorillaMountain/>
+            <TigerBengal/>
+            <Cheetah/>
+            <Lion/>
+            <Jaguar/>
+            <LeopardSnow/>
+            <Chimpanzee/>
+            <LemurRingtailed/>
+         </Subjects>
+         <Targets>
+            <SmallConcrete_Shelter/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap privacy="-30"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehEnter/>
+         <ZTBehViewEvent viewKey="Pos_1">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalUseShelterBad" priority="-1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehPlaySet behSet="useContainer"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap privacy="-100"/>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalPrivacyVeryGood"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

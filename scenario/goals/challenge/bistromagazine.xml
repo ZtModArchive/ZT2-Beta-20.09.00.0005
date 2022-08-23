@@ -1,0 +1,19 @@
+<BFScenarioGroup name="bistromagazinerules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="bistromagazinephoto" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="BistroMagazinetext:PHBistroMagazineShort" overview="BistroMagazinetext:PHBistroMagazine" />
+				<success locid="BistroMagazinetext:PHBistroMagazineSuccessShort" overview="BistroMagazinetext:PHBistroMagazineSuccess" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/bistromagazine.lua" entry="evalbistromagazine" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/bistromagazine.lua" entry="completebistromagazine" />
+			 </success>
+			 <failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/bistromagazine.lua" entry="failbistromagazine" />
+			 </failure>	
+		</BFScenarioRule>		
+	 </children>
+</BFScenarioGroup>

@@ -1,0 +1,8 @@
+<TEXTKEY>
+   <key frame="1" text="{Bip01 Spine1} snd 'TailThrash'"/>
+   <key frame="13" text="{Bip01 Tail4} runps Biomefx_Splash"/>
+   <key frame="25" text="{Bip01 Tail4} runps Biomefx_Splash"/>
+   <key frame="39" text="{Bip01 Tail4} runps Biomefx_Splash"/>
+   <key frame="53" text="{Bip01 Tail4} runps Biomefx_Splash"/>
+   <key frame="68" text="{Bip01 TailNub} runps Biomefx_Splash"/>
+</TEXTKEY>

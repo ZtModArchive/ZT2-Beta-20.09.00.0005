@@ -1,0 +1,81 @@
+<ZT2Strings>
+   <zoostatus>
+      <survey_recommendzoo>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I recommend this zoo!</b>
+            </color>
+         </font>
+      </survey_recommendzoo>
+      <survey_enjoyedzoo>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I enjoyed this zoo!</b>
+            </color>
+         </font>
+      </survey_enjoyedzoo>
+      <survey_wasentertained>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I was entertained in this zoo!</b>
+            </color>
+         </font>
+      </survey_wasentertained>
+      <survey_waseducated>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I was educated at this zoo!</b>
+            </color>
+         </font>
+      </survey_waseducated>
+      <survey_foundfood>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I was able to find food!</b>
+            </color>
+         </font>
+      </survey_foundfood>
+      <survey_founddrink>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I was able to find something to drink!</b>
+            </color>
+         </font>
+      </survey_founddrink>
+      <survey_founddessert>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I was able to find dessert!</b>
+            </color>
+         </font>
+      </survey_founddessert>
+      <survey_foundfavfood>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I was able to find my favorite food!</b>
+            </color>
+         </font>
+      </survey_foundfavfood>
+      <survey_founddonate>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I found donation boxes when I needed to!</b>
+            </color>
+         </font>
+      </survey_founddonate>
+      <survey_foundgift>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I was able to find gifts!</b>
+            </color>
+         </font>
+      </survey_foundgift>
+      <survey_foundbathroom>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="248" b="178">
+               <b>I was able to find the bathroom!</b>
+            </color>
+         </font>
+      </survey_foundbathroom>
+   </zoostatus>
+</ZT2Strings>

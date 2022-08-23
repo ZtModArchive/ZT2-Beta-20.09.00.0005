@@ -1,0 +1,100 @@
+<BFTypedBinder binderType="Cheetah_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Carnivora>
+                     <Felidae>
+                        <Cheetah>
+                           <Cheetah_Adult/>
+                        </Cheetah>
+                     </Felidae>
+                  </Carnivora>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj2" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj3" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj4" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj5" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj6" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj7" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj8" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared f_viewBonus="15" b_Adult="1" p_PredatorOffset="0 -2 0" b_Predator="true"/>
+      <ZTPlacementData icon3Doffset="0 0.007764 1.105786" icon3Dscale="0.567229" />
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent minLODLevel="0" maxLODLevel="0" shadowTexture="world\shadows\blob\blob_limb.tga" baseNode="Bip01 L Toe0" width="1" minLength="1" maxLength="2.0" fadeHeight=".4" minOffset="0" maxOffset="0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj2">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent minLODLevel="0" maxLODLevel="0" shadowTexture="world\shadows\blob\blob_limb.tga" baseNode="Bip01 R Toe0" width="1" minLength="1" maxLength="2.0" fadeHeight=".4" minOffset="0" maxOffset="0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj3">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent minLODLevel="0" maxLODLevel="0" shadowTexture="world\shadows\blob\blob_limb.tga" baseNode="Bip01 R Finger0" width="1" minLength="1" maxLength="2.0" fadeHeight=".4" minOffset="0" maxOffset="0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj4">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent minLODLevel="0" maxLODLevel="0" shadowTexture="world\shadows\blob\blob_limb.tga" baseNode="Bip01 L Finger0" width="1" minLength="1" maxLength="2.0" fadeHeight=".4" minOffset="0" maxOffset="0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj5">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent minLODLevel="0" maxLODLevel="1" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Neck" width="2" minLength="2" maxLength="4" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj6">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent minLODLevel="0" maxLODLevel="1" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Head" width="2" minLength="2" maxLength="4" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj7">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent minLODLevel="0" maxLODLevel="1" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Spine1" width="2" minLength="2" maxLength="4" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj8">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent minLODLevel="0" maxLODLevel="1" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Spine2" width="2" minLength="2" maxLength="4" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="1.5" motionClass="mover" maxSlope=".75" wadeDepth="1"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

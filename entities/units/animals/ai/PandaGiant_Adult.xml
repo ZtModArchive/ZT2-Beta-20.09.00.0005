@@ -1,0 +1,93 @@
+<BFTypedBinder binderType="PandaGiant_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Carnivora>
+                     <Ursidae>
+                        <PandaGiant>
+                           <PandaGiant_Adult/>
+                        </PandaGiant>
+                     </Ursidae>
+                  </Carnivora>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj2" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared f_viewBonus="50" b_Adult="1" b_TroughEater="true"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent lodLevel="0" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Neck1" width="1.5" minLength="1.5" maxLength="3.0" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj2">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent lodLevel="0" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Spine1" width="1.5" minLength="1.5" maxLength="3.0" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="texController" required="1">
+         <instance>
+            <BFAITextureController currState="well" defaultState="well">
+               <attribList>
+                  <health/>
+                  <hygiene/>
+               </attribList>
+               <stateList>
+                  <sickanddirty>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="eye" image="entities\units\animals\PandaGiant\Panda_Adult_Sick_Dirty.dds"/>
+                     </textureData>
+                  </sickanddirty>
+                  <sick>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="eye" image="entities\units\animals\PandaGiant\Panda_Adult_Sick.dds"/>
+                     </textureData>
+                  </sick>
+                  <dirty>
+                     <attribData>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="eye" image="entities\units\animals\PandaGiant\Panda_Adult_Dirty.dds"/>
+                     </textureData>
+                  </dirty>
+                  <well>
+                     <textureData>
+                        <mainObj material="eye" image="entities\units\animals\PandaGiant\panda_map.dds"/>
+                     </textureData>
+                  </well>
+               </stateList>
+            </BFAITextureController>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="1" motionClass="swimmer" waterScore="10" landScore="0" maxSlope=".90"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

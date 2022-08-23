@@ -1,0 +1,33 @@
+<BehaviorSets>
+   <QueueDonationBox>
+      <subjects>
+         <Guest/>
+      </subjects>
+      <behaviors>
+         <BFBehDockQueue hitRadius="3" queueRadius="12" locoSpeed="slow"/>
+         <BFBehWaitQueue minWaitTime="30" maxWaitTime="60" waitBehSet="WaitInLine"/>
+         <BFBehDock targetAnim="Stand_Idle"/>
+      </behaviors>
+   </QueueDonationBox>
+   <MakeDonation>
+      <subjects>
+         <Guest/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:DonateMoney"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:DonateMoney" priority="1" timeout="60" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Donate"/>
+         <ZTBehEconomy transactionName="donate"/>
+         <BFBehAnimate targetAnim="Stand_Turn180"/>
+         <BFBehAnimate targetAnim="Walk_Ahead"/>
+      </behaviors>
+   </MakeDonation>
+</BehaviorSets>

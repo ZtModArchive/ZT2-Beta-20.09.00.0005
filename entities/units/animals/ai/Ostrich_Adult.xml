@@ -1,0 +1,33 @@
+<BFTypedBinder binderType="Ostrich_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Struthioniformes>
+                     <Struthionidae>
+                        <Ostrich>
+                           <Ostrich_Adult/>
+                        </Ostrich>
+                     </Struthionidae>
+                  </Struthioniformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 -0.045313 0.964219" icon3Dscale="0.992710" />
+      <BFAIEntityDataShared b_Adult="1"/>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="1" motionClass="mover" maxSlope=".75" wadeDepth="1"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

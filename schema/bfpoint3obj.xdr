@@ -1,0 +1,8 @@
+<Schema name="BFPoint3Obj">
+	<ElementType name="BFPoint3Obj">
+		<extends type="BFXMLObj"/>
+		<attribute name="x" dt:type="float" default="0.0" />
+		<attribute name="y" dt:type="float" default="0.0" />
+		<attribute name="z" dt:type="float" default="0.0" />
+	</ElementType>
+</Schema>

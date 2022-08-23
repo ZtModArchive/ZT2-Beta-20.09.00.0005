@@ -1,0 +1,29 @@
+<UIToggleButton name="GuestMessageEntryNormal" sticky="0" autosize="true">
+   <UIRegion x="0" w="290" h="16"/>
+   <UIAspect alwayshit="true">
+      <default>
+         <BFFont>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </BFFont>
+      </default>
+      <standard>
+         <normal>
+            <BFFont>
+               <BFColor r="250" g="250" b="250" a="255"/>
+            </BFFont>
+         </normal>
+         <highlighted image="">
+            <BFFont>
+               <BFColor r="255" g="255" b="201" a="255"/>
+            </BFFont>
+         </highlighted>
+         <activated image="">
+            <BFFont>
+               <BFColor r="255" g="255" b="0" a="255"/>
+            </BFFont>
+         </activated>
+         <disabled/>
+      </standard>
+   </UIAspect>
+   <text format="guestthoughtformat:thought_format" type="multi"/>
+</UIToggleButton>

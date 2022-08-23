@@ -1,0 +1,7 @@
+<Schema name="BFKeyValObj">
+	<ElementType name="BFKeyValObj">
+		<extends type="BFXMLObj"/>
+		<attribute name="key" dt:type="string" />
+		<attribute name="val" dt:type="string" />
+	</ElementType>
+</Schema>

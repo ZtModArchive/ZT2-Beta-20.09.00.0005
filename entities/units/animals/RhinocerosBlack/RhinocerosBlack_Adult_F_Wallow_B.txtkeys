@@ -1,0 +1,6 @@
+<TEXTKEY>
+   <key frame="1" text="{Bip01 Head} snd 'WallowA'"/>
+   <key frame="1" text="{Bip01 Head} snd 'Scrape'"/>
+   <key frame="11" text="{Point08} runps Biomefx"/>
+   <key frame="43" text="{Bip01 Spine1} runps Biomefx"/>
+</TEXTKEY>

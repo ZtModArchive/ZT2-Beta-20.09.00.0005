@@ -1,0 +1,15 @@
+<BFScenarioGroup name="giverandomanimalrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="randomanimal" state="0" sticky="true">
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/giverandomanimal.lua" entry="evalgiverandomanimal" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/giverandomanimal.lua" entry="completegiverandomanimal" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/giverandomanimal.lua" entry="failgiverandomanimal" />
+			</failure>			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

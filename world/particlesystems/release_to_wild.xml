@@ -1,0 +1,11 @@
+<BFPhysObj drawLast="true">
+   <position x="0" y="0" z="0"/>
+   <BFSceneGraphComponent modelfile="world/particlesystems/emoticons/release_to_wild.nif" updateBounds="true"/>
+   <BFHasParticleComponent/>
+   <BFForceUpdateWhenVisibleComponent controllersOnly="false"/>
+   <BFTimeTriggersComponent>
+      <keys>
+         <BFTimeKeyInfo time="0.0" soundtag="helicopter"/>
+      </keys>
+   </BFTimeTriggersComponent>
+</BFPhysObj>

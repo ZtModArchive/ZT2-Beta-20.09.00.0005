@@ -1,0 +1,16 @@
+<BFM modelname="entities\objects\foliage\LogMedium\LogMedium_Wetlands.nif">
+	<animation anim="entities\objects\foliage\LogMedium\LogMedium_Wetlands_TAP_Bip01_DockNode00_EnterA.bf" animName="EnterA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\foliage\LogMedium\LogMedium_Wetlands_TAP_Bip01_DockNode01_ExitA.bf" animName="ExitA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="LogMedium_Wetlands" version="1">
+	<node name="EnterA">
+		<table>
+			<EnterA />
+		</table>
+	</node>
+	<node name="ExitA">
+		<table>
+			<ExitA />
+		</table>
+	</node>
+</Graph>

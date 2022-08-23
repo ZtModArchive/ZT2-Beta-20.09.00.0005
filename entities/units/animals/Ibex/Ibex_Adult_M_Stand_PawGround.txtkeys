@@ -1,0 +1,10 @@
+<TEXTKEY>
+   <key frame="1" text="{FootFrontRight} runps Biomefx"/>
+   <key frame="1" text="{FootFrontRight} snd 'pawground' terrain"/>
+   <key frame="34" text="{FootFrontRight} runps Biomefx"/>
+   <key frame="34" text="{FootFrontRight} snd 'pawground' terrain"/>
+   <key frame="65" text="{FootFrontRight} runps Biomefx"/>
+   <key frame="65" text="{FootFrontRight} snd 'pawground' terrain"/>
+   <key frame="96" text="{FootFrontRight} runps Biomefx"/>
+   <key frame="96" text="{FootFrontRight} snd 'pawground' terrain"/>
+</TEXTKEY>

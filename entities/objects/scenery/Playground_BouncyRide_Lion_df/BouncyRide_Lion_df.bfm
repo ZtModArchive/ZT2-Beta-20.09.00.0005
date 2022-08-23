@@ -1,0 +1,12 @@
+<BFM modelname="entities\objects\scenery\Playground_BouncyRide_Lion_df\BouncyRide_bottom_df.nif">
+	<animation anim="entities\objects\scenery\Playground_BouncyRide_Lion_df\BouncyRide_idle.bf" animName="BouncyRide_idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\scenery\Playground_BouncyRide_Lion_df\BouncyRide_used.bf" animName="BouncyRide_used" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="BouncyRide_bottom_df" version="1">
+	<node name="BouncyRide">
+		<table>
+			<BouncyRide_idle />
+			<BouncyRide_used />
+		</table>
+	</node>
+</Graph>

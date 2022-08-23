@@ -1,0 +1,38 @@
+<BFTypedBinder binderType="frontgate_df">
+   <types>
+      <entity>
+         <building>
+            <frontgate_df/>
+         </building>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\buildings\frontgate_df\frontgate_df_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:compost"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="frontgate_df"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData autoFootprint="false">
+         <cfootprint width="8" height="4"/>
+         <dfootprint width="12" height="4"/>
+      </ZTPlacementData>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/buildings/frontgate_df/frontgate_df.nif"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

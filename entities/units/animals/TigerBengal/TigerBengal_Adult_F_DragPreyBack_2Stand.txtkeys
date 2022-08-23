@@ -1,0 +1,7 @@
+<TEXTKEY>
+<<<<<<< TigerBengal_Adult_F_DragPreyBack_2Stand.txtkeys
+   <key frame="1" text="{Bip01 Ponytail1} snd 'drag'terrain"/>
+</TEXTKEY>
+=======
+	<key frame="20" text = "{Node_Carry} detach_object" />
+</TEXTKEY>>>>>>>> 1.2

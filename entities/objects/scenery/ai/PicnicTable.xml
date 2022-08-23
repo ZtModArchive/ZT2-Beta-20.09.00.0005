@@ -1,0 +1,12 @@
+<BFTypedBinder binderType="PicnicTable" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <PicnicTable/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+</BFTypedBinder>

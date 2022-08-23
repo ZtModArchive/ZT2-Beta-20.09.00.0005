@@ -1,0 +1,19 @@
+<ZT2Strings>
+   <scenario>
+      <test>
+         <font size="12">
+            <color r="255" g="255" b="255" a="255">
+               <b>Test Scenario</b>
+            </color>
+         </font>
+      </test>
+      <test0>Have three tigers with all basic needs satisfied.</test0>
+      <test1_n>Have two giraffes that have food and drink.</test1_n>
+      <test1_s>At some point you had two fed and watered giraffes.</test1_s>
+      <test1_f>I don't know how, but you failed the two giraffe task.</test1_f>
+      <test1a>Have two giraffes.</test1a>
+      <test1b>Provide food for the giraffes.</test1b>
+      <test1c>Provide water for the giraffes.</test1c>
+      <test2>test2</test2>
+   </scenario>
+</ZT2Strings>

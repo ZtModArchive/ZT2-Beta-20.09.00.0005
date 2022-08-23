@@ -1,0 +1,50 @@
+<BFTypedBinder binderType="ArcticMoss_Tundra">
+   <types>
+      <entity>
+         <foliage>
+            <plant>
+               <fungi>
+                  <ArcticMoss_Tundra/>
+               </fungi>
+            </plant>
+         </foliage>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\foliage\ArcticMoss\ArcticMoss_Tundra_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:ArcticMoss_Tundra"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ArcticMoss_Tundra"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData terrainFlatten="true" icon3Doffset="0 0 0.642857" icon3Dscale="0.489258" />
+      <BFAIEntityDataShared s_Zoopedia="zoopedia:zoopedia_arcticmoss:entry"/>
+      <BFGBiomeData location="tundra_northamerica">
+         <tundra/>
+      </BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\foliage\ArcticMoss\ArcticMoss_Tundra.nif" scale="1.0" switch="0 20 50"/>
+               <BFMultiGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="10">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

@@ -1,0 +1,75 @@
+<BFTypedBinder binderType="Gemsbok_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Artiodactyla>
+                     <Bovidae>
+                        <Gemsbok>
+                           <Gemsbok_Adult/>
+                        </Gemsbok>
+                     </Bovidae>
+                  </Artiodactyla>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 -0.039038 0.999731" icon3Dscale="0.786842" />
+      <BFAIEntityDataShared b_Adult="1"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="texController" required="1">
+         <instance>
+            <BFAITextureController currState="well" defaultState="well">
+               <attribList>
+                  <health/>
+                  <hygiene/>
+               </attribList>
+               <stateList>
+                  <sickanddirty>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="Gemsbok_Adult_M_MTL" image="entities\units\animals\Gemsbok\Gemsbok_Adult_Sick_Dirty.dds"/>
+                     </textureData>
+                  </sickanddirty>
+                  <sick>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="Gemsbok_Adult_M_MTL" image="entities\units\animals\Gemsbok\Gemsbok_Adult_Sick.dds"/>
+                     </textureData>
+                  </sick>
+                  <dirty>
+                     <attribData>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="Gemsbok_Adult_M_MTL" image="entities\units\animals\Gemsbok\Gemsbok_Adult_Dirty.dds"/>
+                     </textureData>
+                  </dirty>
+                  <well>
+                     <textureData>
+                        <mainObj material="Gemsbok_Adult_M_MTL" image="entities\units\animals\Gemsbok\Gemsbok_Adult_M.dds"/>
+                     </textureData>
+                  </well>
+               </stateList>
+            </BFAITextureController>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="1" motionClass="mover" maxSlope=".90" wadeDepth="1"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

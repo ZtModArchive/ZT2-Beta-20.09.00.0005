@@ -1,0 +1,13 @@
+<Schema name="UIState">
+	<ElementType name="UIState">
+		<extends type="BFXMLObj"/>
+		<AttributeType name="visible">
+			<datatype dt:type="enumeration" dt:values="normal hidden frozen"/>
+		</AttributeType>
+		<AttributeType name="active">
+			<datatype dt:type="enumeration" dt:values="normal idle disabled frozen"/>
+		</AttributeType>
+		<attribute type="visible" default="normal" />
+		<attribute type="active" default="normal" />
+	</ElementType>
+</Schema>

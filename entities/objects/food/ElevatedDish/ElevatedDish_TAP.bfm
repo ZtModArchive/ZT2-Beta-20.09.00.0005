@@ -1,0 +1,5 @@
+<BFM modelname="entities\objects\food\ElevatedDish\ElevatedDish.nif">
+	<animation anim="entities\objects\food\ElevatedDish\ElevatedDish_TAP_Bip01_DockNode01_BaseA2Branch1AEnd.bf" animName="DockNode01_BaseA2Branch1AEnd" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\food\ElevatedDish\ElevatedDish_TAP_Bip01_DockNode02_Branch1AEnd2ExitA.bf" animName="DockNode02_Branch1AEnd2ExitA" debug="false" animSpeed="1.000000" load="true" />
+</BFM>
+<Graph name="ElevatedDish" version="1" />

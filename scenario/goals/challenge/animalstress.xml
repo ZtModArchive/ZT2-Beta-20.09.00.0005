@@ -1,0 +1,20 @@
+<BFScenarioGroup name="animalstressrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="animalstress" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHAnimalStressShort" overview="Challengetext:CHAnimalStress" />
+				<success locid="Challengetext:CHAnimalStressSuccessShort" overview="Challengetext:CHAnimalStressSuccess" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalstress.lua" entry="evalanimalstress" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalstress.lua" entry="completeanimalstress" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalstress.lua" entry="failanimalstress" />
+			</failure>
+			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

@@ -1,0 +1,24 @@
+<BFM modelname="entities\objects\buildings\ReptileKiosk_df\ReptileKiosk_Reptiles_df.nif">
+	<animation anim="entities\objects\buildings\ReptileKiosk_df\ReptileKiosk_Reptiles_Secondary_Cham.bf" animName="Seconadary_Cham" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\ReptileKiosk_df\ReptileKiosk_Reptiles_Secondary_Snake.bf" animName="Secondary_Snake" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\ReptileKiosk_df\ReptileKiosk_Reptiles_Secondary_Turtle.bf" animName="Secondary_Turtle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\ReptileKiosk_df\ReptileKiosk_Reptiles_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="ReptileKiosk_Reptiles_df" version="1">
+	<node name="Seconadary">
+		<table>
+			<Seconadary_Cham />
+		</table>
+	</node>
+	<node name="Secondary">
+		<table>
+			<Secondary_Snake />
+			<Secondary_Turtle />
+		</table>
+	</node>
+	<node name="Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+	</node>
+</Graph>

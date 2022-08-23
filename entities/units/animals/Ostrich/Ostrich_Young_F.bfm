@@ -1,0 +1,474 @@
+<BFM modelname="entities\units\animals\Ostrich\Ostrich_Young_F.nif">
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Attacked_2Stand.bf" animName="Attacked_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Attacked_Idle.bf" animName="Attacked_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Chew_2Eat.bf" animName="Chew_2Eat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Chew_2Graze.bf" animName="Chew_2Graze" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Chew_2Stand.bf" animName="Chew_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Chew_Idle.bf" animName="Chew_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Drown_2Stand.bf" animName="Drown_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Drown_Idle.bf" animName="Drown_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Eat_2Chew.bf" animName="Eat_2Chew" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Eat_2Stand.bf" animName="Eat_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Eat_Drink.bf" animName="Eat_Drink" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Eat_Idle.bf" animName="Eat_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Graze_2Chew.bf" animName="Graze_2Chew" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Graze_2Stand.bf" animName="Graze_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Graze_Drink.bf" animName="Graze_Drink" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Graze_Idle.bf" animName="Graze_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_GroomWingA_2Stand.bf" animName="GroomWingA_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_GroomWingA_Idle.bf" animName="GroomWingA_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_GroomWingB_2Stand.bf" animName="GroomWingB_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_GroomWingB_Idle.bf" animName="GroomWingB_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_JumpAcross_2Run.bf" animName="JumpAcross_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_JumpAcross_Ahead.bf" animName="JumpAcross_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Lie_2MouthInspection.bf" animName="Lie_2MouthInspection" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Lie_2Sleep.bf" animName="Lie_2Sleep" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Lie_2Stand.bf" animName="Lie_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Lie_DustBathe.bf" animName="Lie_DustBathe" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Lie_Idle.bf" animName="Lie_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Lie_Yawn.bf" animName="Lie_Yawn" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_MouthInspection_2Lie.bf" animName="MouthInspection_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_MouthInspection_Idle.bf" animName="MouthInspection_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Poop_2Stand.bf" animName="Poop_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Poop_Idle.bf" animName="Poop_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Prance_2Walk.bf" animName="Prance_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Prance_Ahead.bf" animName="Prance_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Prance_Left.bf" animName="Prance_Left" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Prance_Right.bf" animName="Prance_Right" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Run_2JumpAcross.bf" animName="Run_2JumpAcross" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Run_2Stand.bf" animName="Run_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Run_2Walk.bf" animName="Run_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Run_Ahead.bf" animName="Run_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Run_JumpLowFence.bf" animName="Run_JumpLowFence" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Run_TurnLeftA.bf" animName="Run_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Run_TurnLeftB.bf" animName="Run_TurnLeftB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Run_TurnRightA.bf" animName="Run_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Run_TurnRightB.bf" animName="Run_TurnRightB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Secondary_HeadLook.bf" animName="Secondary_HeadLook" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Secondary_TailA.bf" animName="Secondary_TailA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Sit_2Sleep.bf" animName="Sit_2Sleep" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Sit_2Stand.bf" animName="Sit_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Sit_Idle.bf" animName="Sit_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Sit_LookLeft.bf" animName="Sit_LookLeft" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Sit_LookRight.bf" animName="Sit_LookRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Sit_Yawn.bf" animName="Sit_Yawn" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Sleep_2Lie.bf" animName="Sleep_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Sleep_2Sit.bf" animName="Sleep_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Sleep_Idle.bf" animName="Sleep_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Attacked.bf" animName="Stand_2Attacked" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Chew.bf" animName="Stand_2Chew" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Drown.bf" animName="Stand_2Drown" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Eat.bf" animName="Stand_2Eat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Graze.bf" animName="Stand_2Graze" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2GroomWingA.bf" animName="Stand_2GroomWingA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2GroomWingB.bf" animName="Stand_2GroomWingB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Lie.bf" animName="Stand_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Poop.bf" animName="Stand_2Poop" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Run.bf" animName="Stand_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Sit.bf" animName="Stand_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Sit_KnockedDown.bf" animName="Stand_2Sit_KnockedDown" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2Walk.bf" animName="Stand_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2WingInspection.bf" animName="Stand_2WingInspection" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2WingOutLeft.bf" animName="Stand_2WingOutLeft" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_2WingOutRight.bf" animName="Stand_2WingOutRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_AttackGuest.bf" animName="Stand_AttackGuest" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_Beak.bf" animName="Stand_Beak" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_Click.bf" animName="Stand_Click" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_Hiss.bf" animName="Stand_Hiss" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_Kick.bf" animName="Stand_Kick" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_MateDance.bf" animName="Stand_MateDance" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_Scratch.bf" animName="Stand_Scratch" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_Snort.bf" animName="Stand_Snort" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_Squawk.bf" animName="Stand_Squawk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_TendEgg.bf" animName="Stand_TendEgg" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_TurnLeft90.bf" animName="Stand_TurnLeft90" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_TurnRight180.bf" animName="Stand_TurnRight180" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_TurnRight90.bf" animName="Stand_TurnRight90" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Stand_Yawn.bf" animName="Stand_Yawn" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Walk_2Prance.bf" animName="Walk_2Prance" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Walk_2Run.bf" animName="Walk_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Walk_2Stand.bf" animName="Walk_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Walk_Ahead.bf" animName="Walk_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Walk_TurnLeftA.bf" animName="Walk_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Walk_TurnLeftB.bf" animName="Walk_TurnLeftB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Walk_TurnRightA.bf" animName="Walk_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_Walk_TurnRightB.bf" animName="Walk_TurnRightB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_WingInspection_2Stand.bf" animName="WingInspection_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_WingInspection_Idle.bf" animName="WingInspection_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_WingOutLeft_2Stand.bf" animName="WingOutLeft_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_WingOutLeft_Idle.bf" animName="WingOutLeft_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_WingOutRight_2Stand.bf" animName="WingOutRight_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Ostrich\Ostrich_Adult_F_WingOutRight_Idle.bf" animName="WingOutRight_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Ostrich_Young_F" version="1">
+	<node name="Attacked">
+		<table>
+			<Attacked_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Attacked_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Chew">
+		<table>
+			<Chew_Idle />
+		</table>
+		<edge name="Eat">
+			<table>
+				<Chew_2Eat />
+			</table>
+		</edge>
+		<edge name="Graze">
+			<table>
+				<Chew_2Graze />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Chew_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Drown">
+		<table>
+			<Drown_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Drown_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Eat">
+		<table>
+			<Eat_Drink />
+			<Eat_Idle />
+		</table>
+		<edge name="Chew">
+			<table>
+				<Eat_2Chew />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Eat_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Graze">
+		<table>
+			<Graze_Drink />
+			<Graze_Idle />
+		</table>
+		<edge name="Chew">
+			<table>
+				<Graze_2Chew />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Graze_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="GroomWingA">
+		<table>
+			<GroomWingA_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<GroomWingA_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="GroomWingB">
+		<table>
+			<GroomWingB_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<GroomWingB_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="JumpAcross">
+		<table>
+			<JumpAcross_Ahead />
+		</table>
+		<edge name="Run">
+			<table>
+				<JumpAcross_2Run />
+			</table>
+		</edge>
+	</node>
+	<node name="Lie">
+		<table>
+			<Lie_DustBathe />
+			<Lie_Idle />
+			<Lie_Yawn />
+		</table>
+		<edge name="MouthInspection">
+			<table>
+				<Lie_2MouthInspection />
+			</table>
+		</edge>
+		<edge name="Sleep">
+			<table>
+				<Lie_2Sleep />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Lie_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="MouthInspection">
+		<table>
+			<MouthInspection_Idle />
+		</table>
+		<edge name="Lie">
+			<table>
+				<MouthInspection_2Lie />
+			</table>
+		</edge>
+	</node>
+	<node name="Poop">
+		<table>
+			<Poop_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Poop_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Prance">
+		<table>
+			<Prance_Ahead />
+			<Prance_Left />
+			<Prance_Right />
+		</table>
+		<edge name="Walk">
+			<table>
+				<Prance_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="Run">
+		<table>
+			<Run_Ahead />
+			<Run_JumpLowFence />
+			<Run_TurnLeftA />
+			<Run_TurnLeftB />
+			<Run_TurnRightA />
+			<Run_TurnRightB />
+		</table>
+		<edge name="JumpAcross">
+			<table>
+				<Run_2JumpAcross />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Run_2Stand />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Run_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="Secondary">
+		<table>
+			<Secondary_HeadLook />
+			<Secondary_TailA />
+		</table>
+	</node>
+	<node name="Sit">
+		<table>
+			<Sit_Idle />
+			<Sit_LookLeft />
+			<Sit_LookRight />
+			<Sit_Yawn />
+		</table>
+		<edge name="Sleep">
+			<table>
+				<Sit_2Sleep />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Sit_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Sleep">
+		<table>
+			<Sleep_Idle />
+		</table>
+		<edge name="Lie">
+			<table>
+				<Sleep_2Lie />
+			</table>
+		</edge>
+		<edge name="Sit">
+			<table>
+				<Sleep_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="Stand">
+		<table>
+			<Stand_AttackGuest />
+			<Stand_Beak />
+			<Stand_Click />
+			<Stand_Hiss />
+			<Stand_Idle />
+			<Stand_Kick />
+			<Stand_MateDance />
+			<Stand_Scratch />
+			<Stand_Snort />
+			<Stand_Squawk />
+			<Stand_TendEgg />
+			<Stand_TurnLeft90 />
+			<Stand_TurnRight180 />
+			<Stand_TurnRight90 />
+			<Stand_Yawn />
+		</table>
+		<edge name="Attacked">
+			<table>
+				<Stand_2Attacked />
+			</table>
+		</edge>
+		<edge name="Chew">
+			<table>
+				<Stand_2Chew />
+			</table>
+		</edge>
+		<edge name="Drown">
+			<table>
+				<Stand_2Drown />
+			</table>
+		</edge>
+		<edge name="Eat">
+			<table>
+				<Stand_2Eat />
+			</table>
+		</edge>
+		<edge name="Graze">
+			<table>
+				<Stand_2Graze />
+			</table>
+		</edge>
+		<edge name="GroomWingA">
+			<table>
+				<Stand_2GroomWingA />
+			</table>
+		</edge>
+		<edge name="GroomWingB">
+			<table>
+				<Stand_2GroomWingB />
+			</table>
+		</edge>
+		<edge name="Lie">
+			<table>
+				<Stand_2Lie />
+			</table>
+		</edge>
+		<edge name="Poop">
+			<table>
+				<Stand_2Poop />
+			</table>
+		</edge>
+		<edge name="Run">
+			<table>
+				<Stand_2Run />
+			</table>
+		</edge>
+		<edge name="Sit">
+			<table>
+				<Stand_2Sit />
+				<Stand_2Sit_KnockedDown />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Stand_2Walk />
+			</table>
+		</edge>
+		<edge name="WingInspection">
+			<table>
+				<Stand_2WingInspection />
+			</table>
+		</edge>
+		<edge name="WingOutLeft">
+			<table>
+				<Stand_2WingOutLeft />
+			</table>
+		</edge>
+		<edge name="WingOutRight">
+			<table>
+				<Stand_2WingOutRight />
+			</table>
+		</edge>
+	</node>
+	<node name="Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_TurnLeftA />
+			<Walk_TurnLeftB />
+			<Walk_TurnRightA />
+			<Walk_TurnRightB />
+		</table>
+		<edge name="Prance">
+			<table>
+				<Walk_2Prance />
+			</table>
+		</edge>
+		<edge name="Run">
+			<table>
+				<Walk_2Run />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Walk_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="WingInspection">
+		<table>
+			<WingInspection_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<WingInspection_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="WingOutLeft">
+		<table>
+			<WingOutLeft_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<WingOutLeft_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="WingOutRight">
+		<table>
+			<WingOutRight_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<WingOutRight_2Stand />
+			</table>
+		</edge>
+	</node>
+</Graph>

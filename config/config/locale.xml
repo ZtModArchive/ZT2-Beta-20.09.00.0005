@@ -1,0 +1,5 @@
+<BFLocaleMgr LocaleID="1033" StringTableRoot="lang/">
+	<Currency CurrencySymbol="$" />
+	<DateFormats MonthYear="MMM',' 'Year' y" DayDate="ddd'.' MMM d" MonthDayYear="MMM d', Year' y" />
+	<MonthAbbreviations January="Jan" February="Feb" March="Mar" April="Apr" May="May" June="Jun" July="Jul" August="Aug" September="Sep" October="Oct" November="Nov" December="Dec" />
+</BFLocaleMgr>

@@ -1,0 +1,79 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="EducatePodium" CursorTask="false" reserveTag="general" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <Educator/>
+         </Subjects>
+         <Targets>
+            <educator_podium_df/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="100">
+         <BFAIAttributeFloatMap/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:GotoEducateGuests"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTThoughtInfo locID="staffthoughts:EducatorGotoEducateGuests" priority="1" timeout="30" global="false"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+          <BFBehDock targetNode="Dock_Staff" targetAnim="Stand_Idle"/>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:EducateGuests"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTThoughtInfo locID="staffthoughts:EducatorEducateGuests" priority="1" timeout="30" global="false"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+          <BFBehRandomSet minPlays="10" maxPlays="15">
+            <randomSets>
+               <Educate_With_VEvent weight="20"/>
+               <Educate_Without_VEvent weight="80"/>
+            </randomSets>
+        </BFBehRandomSet>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   
+   <BFAITaskTemplate Name="EvadeAttack">
+      <BFAICreateData>
+         <Subjects>
+            <Educator/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+            <Qualifier inHabitat="true"/>
+         </Targets>
+         <Objects>
+            <t_Attack/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="100"/>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="staffactions:RunningFromAnimal" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:RunningFromAnimal" priority="1" timeout="30" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehEvasion evasionRadius="30" locoSpeed="fast"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>   
+   
+</BFAITaskTemplateList>

@@ -1,0 +1,24 @@
+<BFM modelname="entities\objects\rocks\borealforest\Rock_BorealForest_Medium_A.nif">
+	<animation anim="entities\objects\rocks\borealforest\Rock_BorealForest_Medium_A_TAP_Bip01_DockNode00_EnterA.bf" animName="Rock_EnterA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\borealforest\Rock_BorealForest_Medium_A_TAP_Bip01_DockNode02_EnterB.bf" animName="Rock_EnterB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\borealforest\Rock_BorealForest_Medium_A_TAP_Bip01_DockNode04_EnterC.bf" animName="Rock_EnterC" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\borealforest\Rock_BorealForest_Medium_A_TAP_Bip01_DockNode06_EnterD.bf" animName="Rock_EnterD" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\borealforest\Rock_BorealForest_Medium_A_TAP_Bip01_DockNode01_ExitA.bf" animName="Rock_ExitA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\borealforest\Rock_BorealForest_Medium_A_TAP_Bip01_DockNode03_ExitB.bf" animName="Rock_ExitB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\borealforest\Rock_BorealForest_Medium_A_TAP_Bip01_DockNode05_ExitC.bf" animName="Rock_ExitC" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\borealforest\Rock_BorealForest_Medium_A_TAP_Bip01_DockNode07_ExitD.bf" animName="Rock_ExitD" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Rock_BorealForest_Medium_A" version="1">
+	<node name="Rock">
+		<table>
+			<Rock_EnterA />
+			<Rock_EnterB />
+			<Rock_EnterC />
+			<Rock_EnterD />
+			<Rock_ExitA />
+			<Rock_ExitB />
+			<Rock_ExitC />
+			<Rock_ExitD />
+		</table>
+	</node>
+</Graph>

@@ -1,0 +1,58 @@
+<ZTScenarioMgr interval="2" name="mgr" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<info locid="scenario:test">
+		<general locid=""/>
+		<neutral locid=""/>
+		<success locid=""/>
+		<failure locid=""/>
+	</info>
+	<evaluate>
+		<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="evalNeutral"/>
+	</evaluate>
+	<success>
+		<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="executeWin"/>
+	</success>
+	<failure>
+		<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="executeLose"/>
+	</failure>
+	<children>
+		<BFScenarioRule name="bengal tiger" state="0" sticky="true">
+			<info type="primary" locid="scenario:test0"/>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="evaluate0"/>
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="complete0"/>
+			</success>
+		</BFScenarioRule>
+		<BFScenarioGroup name="giraffe group" state="0" chain="true" allsuccess="true" sticky="true">
+			<info type="primary">
+				<neutral locid="scenario:test1_n"/>
+				<success locid="scenario:test1_s"/>
+				<failure locid="scenario:test1_f"/>
+			</info>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="complete1"/>
+			</success>
+			<children>
+				<BFScenarioRule name="giraffe 1" state="0">
+					<info type="primary" locid="scenario:test1a"/>
+					<evaluate>
+						<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="eval1a"/>
+					</evaluate>
+				</BFScenarioRule>
+				<BFScenarioRule name="giraffe 2" state="0">
+					<info type="primary" locid="scenario:test1b"/>
+					<evaluate>
+						<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="eval1b"/>
+					</evaluate>
+				</BFScenarioRule>
+				<BFScenarioRule name="giraffe 3" state="0">
+					<info type="primary" locid="scenario:test1c"/>
+					<evaluate>
+						<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="eval1c"/>
+					</evaluate>
+				</BFScenarioRule>
+			</children>
+		</BFScenarioGroup>
+	</children>
+</ZTScenarioMgr>

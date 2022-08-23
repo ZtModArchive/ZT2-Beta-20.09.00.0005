@@ -1,0 +1,9 @@
+<BFContext>
+	<ZTUndoMgr safehandledobjid="0" />
+	<ZTStatus timeScale="7200" safehandledobjid="1" />
+	<ZTWorldMgr safehandledobjid="2" defaultWorldSize="75.0f" environment="world/environments/env1noskirt.xml" />
+	<BFGPlacementGrid safehandledobjid="3" />
+	<BFGManager safehandledobjid="398">
+	</BFGManager>
+	<BFGPathFinder safehandledobjid="399" />
+</BFContext>

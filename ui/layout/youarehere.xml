@@ -1,0 +1,18 @@
+<UILayout name="YouAreHere">
+   <UIRegion x="0" y="0" w="43" h="43" xalign="min" yalign="min" walign="len" halign="len"/>
+   <children>
+      <UIButton name="arrow" cursor="zoom.cur">
+         <UIRegion x="0" y="0" w="43" h="43" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIHelpInfo name="" short="" long="" help=""/>
+         <UIAspect>
+            <default image="ui/zoomap/urhere.dds">
+               <BFRect x="0" y="0" w="43" h="43"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+         <activate>
+            <event msg="ZT_CAMERA_POSITION" data="BFString" string=""/>
+         </activate>
+      </UIButton>
+   </children>
+</UILayout>

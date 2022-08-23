@@ -1,0 +1,16 @@
+<BFM modelname="entities\units\guests\AdultMale\Vendor_Adult_M.nif">
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_Stand_ShopGiveMoney.bf" animName="Stand_ShopGiveMoney" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_Stand_ShopReceiveItem.bf" animName="Stand_ShopReceiveItem" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_Stand_StaffPhotoBooth.bf" animName="Stand_StaffPhotoBooth" debug="false" animSpeed="1.000000" load="true" />
+</BFM>
+<Graph name="Vendor_Adult_M" version="1">
+	<node name="Stand">
+		<table>
+			<Stand_Idle />
+			<Stand_ShopGiveMoney />
+			<Stand_ShopReceiveItem />
+			<Stand_StaffPhotoBooth />
+		</table>
+	</node>
+</Graph>

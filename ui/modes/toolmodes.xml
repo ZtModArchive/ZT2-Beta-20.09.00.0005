@@ -1,0 +1,12 @@
+<ZTToolsetMode name="mode_toolset">
+	<layout>
+		<gui>ui/tool/commandconsole.xml</gui>
+	</layout>
+	<UIHotKeys>
+		<!-- tab -->
+		<down code="9" msg="ZT_SET_SPRITE_DEBUG_MODE" data="bool" value="true"/>
+		<up code="9" msg="ZT_SET_SPRITE_DEBUG_MODE" data="bool" value="false"/>
+		<!-- F1 -->
+		<down code="112" msg="ZT_EDITOR_SET_TARGET"/>
+	</UIHotKeys>
+</ZTToolsetMode>

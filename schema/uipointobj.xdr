@@ -1,0 +1,6 @@
+<Schema name="UIPointObj">
+	<ElementType name="UIPointObj">
+		<attribute name="x" dt:type="int" default="0" />
+		<attribute name="y" dt:type="int" default="0" />
+	</ElementType>
+</Schema>

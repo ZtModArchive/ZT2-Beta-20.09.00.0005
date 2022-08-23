@@ -1,0 +1,19 @@
+<BFScenarioGroup name="centeranimalconservationrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="centeranimalconservationphoto" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="CenterAnimalConservationtext:PHCenterAnimalConservationShort" overview="CenterAnimalConservationtext:PHCenterAnimalConservation" />
+				<success locid="CenterAnimalConservationtext:PHCenterAnimalConservationSuccessShort" overview="CenterAnimalConservationtext:PHCenterAnimalConservationSuccess" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/centeranimalconservation.lua" entry="evalcenteranimalconservation" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/centeranimalconservation.lua" entry="completecenteranimalconservation" />
+			 </success>
+			 <failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/centeranimalconservation.lua" entry="failcenteranimalconservation" />
+			 </failure>
+		</BFScenarioRule>		
+	 </children>
+</BFScenarioGroup>

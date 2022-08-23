@@ -1,0 +1,75 @@
+<BFTypedBinder binderType="ElephantAfrican_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Proboscidea>
+                     <Elephantidae>
+                        <ElephantAfrican>
+                           <ElephantAfrican_Adult/>
+                        </ElephantAfrican>
+                     </Elephantidae>
+                  </Proboscidea>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared f_viewBonus="25" b_Adult="1" b_BrowseHolderEater="true"/>
+      <ZTPlacementData icon3Doffset="0 -0.067969 1.266494" icon3Dscale="0.312554" />
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="2.5" motionClass="swimmer" waterScore="20" landScore="30" maxSlope=".50"/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="texController" required="1">
+         <instance>
+            <BFAITextureController currState="well" defaultState="well">
+               <attribList>
+                  <health/>
+                  <hygiene/>
+               </attribList>
+               <stateList>
+                  <sickanddirty>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="elephant" image="entities\units\animals\ElephantAfrican\ElephantAfrican_Adult_Sick_Dirty.dds"/>
+                     </textureData>
+                  </sickanddirty>
+                  <sick>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="elephant" image="entities\units\animals\ElephantAfrican\ElephantAfrican_Adult_Sick.dds"/>
+                     </textureData>
+                  </sick>
+                  <dirty>
+                     <attribData>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="elephant" image="entities\units\animals\ElephantAfrican\ElephantAfrican_Adult_Dirty.dds"/>
+                     </textureData>
+                  </dirty>
+                  <well>
+                     <textureData>
+                        <mainObj material="elephant" image="entities\units\animals\ElephantAfrican\african_ele_map.dds"/>
+                     </textureData>
+                  </well>
+               </stateList>
+            </BFAITextureController>
+         </instance>
+      </BFNamedBinder>  
+   </binder>
+</BFTypedBinder>

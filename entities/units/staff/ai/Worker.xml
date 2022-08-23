@@ -1,0 +1,43 @@
+<BFTypedBinder binderType="Worker" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <people>
+               <Staff>
+                 <Worker/>
+               </Staff>
+            </people>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFAICognitiveMgr>
+               <Sensors>
+                  <ZTAIStaffSensorSelf/>
+                  <ZTAIStaffSensor/>
+               </Sensors>             
+               <TaskThinkers>
+                  <ZTAIStaffTaskThinker/>
+               </TaskThinkers>
+            </BFAICognitiveMgr>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <ZTAIStaffAssignmentComponent/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="Broom" required="0">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\Items\Broom\Broom.nif" scale="1.0" switch="0 9"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>   
+   </binder>   
+</BFTypedBinder>

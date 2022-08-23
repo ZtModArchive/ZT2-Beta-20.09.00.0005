@@ -1,0 +1,10 @@
+<entries>
+   <BFHelpEntry order="zoopedia_foodcontainer:entry" entry="zoopedia_foodcontainer:entry" text="zoopedia_foodcontainer:text" page2="zoopedia_foodcontainer:page2"/>
+   <BFHelpEntry order="zoopedia_animalcarcass:entry" entry="zoopedia_animalcarcass:entry" text="zoopedia_animalcarcass:text" page2="zoopedia_animalcarcass:page2"/>
+   <BFHelpEntry order="zoopedia_browseholder:entry" entry="zoopedia_browseholder:entry" text="zoopedia_browseholder:text" page2="zoopedia_browseholder:page2"/>
+   <BFHelpEntry order="zoopedia_elevateddish:entry" entry="zoopedia_elevateddish:entry" text="zoopedia_elevateddish:text" page2="zoopedia_elevateddish:page2"/>
+   <BFHelpEntry order="zoopedia_fooddish:entry" entry="zoopedia_fooddish:entry" text="zoopedia_fooddish:text" page2="zoopedia_fooddish:page2"/>
+   <BFHelpEntry order="zoopedia_metaltrough:entry" entry="zoopedia_metaltrough:entry" text="zoopedia_metaltrough:text" page2="zoopedia_metaltrough:page2"/>
+   <BFHelpEntry order="zoopedia_trough:entry" entry="zoopedia_trough:entry" text="zoopedia_trough:text" page2="zoopedia_trough:page2"/>
+     
+</entries>

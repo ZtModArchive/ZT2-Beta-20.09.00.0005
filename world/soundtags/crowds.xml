@@ -1,0 +1,27 @@
+<soundtags>
+   <BFSoundtag>
+      <BF2DSndFactory name="crowd_quiet">
+         <snd name="sounds/quiet.wav" looping="1" volume="0"/>
+      </BF2DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF2DSndFactory name="crowd_small">
+         <snd name="sounds/crowd_loopvs.wav" looping="1" volume=".20"/>
+      </BF2DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF2DSndFactory name="crowd_medium">
+         <snd name="sounds/crowd_loops.wav" looping="1" volume=".3"/>
+      </BF2DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF2DSndFactory name="crowd_large">
+         <snd name="sounds/crowd_loopm.wav" looping="1" volume=".4"/>
+      </BF2DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF2DSndFactory name="crowd_huge">
+         <snd name="sounds/crowd_loopl.wav" looping="1" volume=".5"/>
+      </BF2DSndFactory>
+   </BFSoundtag>
+</soundtags>

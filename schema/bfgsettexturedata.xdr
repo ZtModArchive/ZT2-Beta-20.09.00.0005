@@ -1,0 +1,10 @@
+<Schema name="BFGSetTextureData">
+	<ElementType name="BFGSetTextureData">
+		<extends type="BFXMLObj"/>
+		<attribute name="physObj" dt:type="string" required="yes"/>
+		<attribute name="material" dt:type="string" required="yes"/>
+		<attribute name="image" dt:type="string" required="yes"/>
+		<attribute name="layer" dt:type="string" default="base"/>
+		<attribute name="uvSet" dt:type="int" default="-1"/>
+	</ElementType>
+</Schema>

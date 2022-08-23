@@ -1,0 +1,14 @@
+<BFM modelname="entities\objects\enrichment\PlasticBarrel\PlasticBarrel_Idle.nif">
+	<animation anim="entities\objects\enrichment\PlasticBarrel\PlasticBarrel_Idle.bf" animName="PlasticBarrel_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\PlasticBarrel\PlasticBarrel_Nudge.bf" animName="PlasticBarrel_Nudge" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\PlasticBarrel\PlasticBarrel_Used.bf" animName="PlasticBarrel_Used" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="PlasticBarrel_Idle" version="1">
+	<node name="PlasticBarrel">
+		<table>
+			<PlasticBarrel_Idle />
+			<PlasticBarrel_Nudge />
+			<PlasticBarrel_Used />
+		</table>
+	</node>
+</Graph>

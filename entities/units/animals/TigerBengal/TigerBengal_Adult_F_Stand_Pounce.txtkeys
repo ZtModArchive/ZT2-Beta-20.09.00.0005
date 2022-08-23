@@ -1,0 +1,8 @@
+<TEXTKEY>
+   <key frame="1" text="{Bip01 Ponytail1} snd 'RoarA'"/>
+   <key frame="32" text="{Bip01 Ponytail1} snd 'medium_dropa'"/>
+   <key frame="32" text="{FootBackLeft} runps Biomefx"/>
+   <key frame="32" text="{FootBackRight} runps Biomefx"/>
+   <key frame="33" text="{FootFrontLeft} runps Biomefx"/>
+   <key frame="33" text="{FootFrontRight} runps Biomefx"/>
+</TEXTKEY>

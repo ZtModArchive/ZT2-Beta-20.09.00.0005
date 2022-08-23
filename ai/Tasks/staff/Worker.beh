@@ -1,0 +1,60 @@
+<BehaviorSets>
+   <DockTrashContainer>
+      <subjects>
+         <Worker/>
+      </subjects>
+      <behaviors>
+         <BFBehDock targetAnim="Stand_Idle"/>
+      </behaviors>
+   </DockTrashContainer>
+   
+   
+   <UseTrashContainer>
+      <subjects>
+         <Worker/>
+      </subjects>
+      <behaviors>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:EmptyTrashcan"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTThoughtInfo locID="staffthoughts:WorkerEmptyTrashcan" priority="1" timeout="30" global="false" />
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_EmptyTrash"/>
+      </behaviors>
+   </UseTrashContainer>
+   <UseRecyclingBin>
+      <subjects>
+         <Worker/>
+      </subjects>
+      <behaviors>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:EmptyTrashcan"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTThoughtInfo locID="staffthoughts:WorkerEmptyTrashcan" priority="1" timeout="30" global="false" />
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_EmptyTrash"/>
+      </behaviors>
+   </UseRecyclingBin>   
+   
+   
+   <ExitTrashContainer>
+      <subjects>
+         <Worker/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </ExitTrashContainer>
+
+   
+</BehaviorSets>

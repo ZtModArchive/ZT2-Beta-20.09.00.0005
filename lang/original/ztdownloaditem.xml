@@ -1,0 +1,15 @@
+<ZT2Strings>
+   <ZTDownloadItem version="0">
+      <CancelDownload>Cancel</CancelDownload>
+      <Download>Download</Download>
+      <AwaitingDownload>Awaiting Download</AwaitingDownload>
+      <ContactingServer>Contacting Server</ContactingServer>
+      <ProgressFormatString>%d%%</ProgressFormatString>
+      <MultiFileProgressFormatString>%d of %d files complete--%d%%</MultiFileProgressFormatString>
+      <GettingFile>Getting File</GettingFile>
+      <DownloadComplete>Download Complete</DownloadComplete>
+      <DownloadCanceled>Download Canceled</DownloadCanceled>
+      <ErrorFormatString>Error: %d %u</ErrorFormatString>
+      <NumFiles>%d files</NumFiles>
+   </ZTDownloadItem>
+</ZT2Strings>

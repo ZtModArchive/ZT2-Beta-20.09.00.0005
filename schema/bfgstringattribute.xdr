@@ -1,0 +1,7 @@
+<Schema name="BFGStringAttribute">
+	<ElementType name="BFGStringAttribute">
+		<extends type="BFXMLObj"/>
+		<attribute name="name" dt:type="string" required="yes"/>
+		<attribute name="value" dt:type="string" required="yes"/>
+	</ElementType>
+</Schema>

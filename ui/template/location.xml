@@ -1,0 +1,13 @@
+<UIStatic templateName="location" value="europe">
+   <UIRegion x="0" y="0" w="60" h="60" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIHelpInfo name="" short="" long="" help="" ids=""/>
+   <UIAspect>
+      <default image="" sound="">
+         <BFRect x="0" y="0" w="-1" h="-1"/>
+      </default>
+      <standard>
+         <normal/>
+      </standard>
+   </UIAspect>
+</UIStatic>

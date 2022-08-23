@@ -1,0 +1,19 @@
+	<ZTScenarioMgr>
+	 <children>
+
+		<BFScenarioRule hidden="1" name="wildlifemagazinephoto" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="PhotoChallengetext:PHWildlifeMagShort" overview="PhotoChallengetext:PHWildlifeMag" />
+				<success locid="PhotoChallengetext:PHWildlifeMagSuccessShort" overview="PhotoChallengetext:PHWildlifeMagFullSuccess" />
+				<failure locid="PhotoChallengetext:PHWildlifeMagFailureShort" overview="PhotoChallengetext:PHWildlifeMagFailure" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="wildlifemagazinephoto" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/test.lua" entry="completeshowoverview" />
+			 </success>			 
+		</BFScenarioRule>		
+
+	 </children>
+	</ZTScenarioMgr>

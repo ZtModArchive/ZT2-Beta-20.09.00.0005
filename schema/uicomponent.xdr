@@ -1,0 +1,13 @@
+<Schema name="UIComponent">
+	<ElementType name="UIComponent">
+		<extends type="BFXMLObj"/>
+		<attribute name="template" dt:type="string" default="" />
+		<attribute name="name" dt:type="string" default="UIComponent" />
+		<element type="UIRegion" />
+		<element type="UIState" />
+		<element type="UIAspect" />
+		<element type="UIHotKeys" />
+		<element type="UIHelpInfo" />
+		<element type="UIAnimation" name="UIShowHideAnim" />
+	</ElementType>
+</Schema>

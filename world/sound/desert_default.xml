@@ -1,0 +1,7 @@
+<ambient loop="desert_loop">
+   <ambients>
+      <snds>
+         <snd name="d_animals01"/>
+      </snds>
+   </ambients>
+</ambient>

@@ -1,0 +1,60 @@
+<BFTypedBinder binderType="PeafowlCommon_Egg">
+   <types>
+      <entity>
+          <egg>
+              <PeafowlCommon_Egg/>
+          </egg>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities/objects/eggs/CommonPeafowl_Egg/CommonPeafowl_Egg.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:PeafowlCommon_Egg"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PeafowlCommon_Egg"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData autoFootprint="false" moveable="true">
+         <cfootprint width="1.5" height="2"/>
+         <dfootprint width="1.5" height="2"/>
+      </ZTPlacementData> 
+      <BFGCollisionData isTraversable="true"/>
+      <ZTEntitySelector parentName="mainObj" nodeName="" animationTime="0.4" useFootprint="false" size="2.0">
+         <BFPhysObj>
+            <BFTerrainDecalComponent imageName="UI/fx/selection/unit.tga" alphaBlend="true">
+               <lighting emmisiveColor="255 255 255" specularColor="255 255 255" diffuseColor="255 255 255" ambientColor="255 255 255"/>
+            </BFTerrainDecalComponent>
+         </BFPhysObj>
+      </ZTEntitySelector>
+      <BFAIEntityDataShared/>
+      <BFGBiomeData location="temperateforest_india" locationSensitivity="10">
+         <alpine sensitivity="0"/>
+         <borealforest sensitivity="2"/>
+         <desert sensitivity="-5"/>
+         <grassland sensitivity="0"/>
+         <temperateforest sensitivity="10" primary="true"/>
+         <tropicalrainforest sensitivity="0"/>
+         <tundra sensitivity="-10"/>
+         <savannah sensitivity="-5"/>
+         <scrub sensitivity="-5"/>
+         <wetlands sensitivity="-5"/>
+      </BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent grid="Bip01"/>
+               <BFActorComponent actorfile="entities/objects/eggs/CommonPeafowl_Egg/CommonPeafowl_Egg.bfm" activeSequenceName="Stand_Idle" activeSequenceAccumulate="false" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

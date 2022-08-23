@@ -1,0 +1,48 @@
+<BFTypedBinder binderType="BouncyRide" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <Playground>
+               <BouncyRide/>
+            </Playground>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData autoFootprint="false">
+         <cfootprint width="1" height="2"/>
+         <dfootprint width="1" height="2"/>
+      </ZTPlacementData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFActorComponent actorfile="entities/objects/scenery/Playground_BouncyRide_Lion_df/BouncyRide_Lion_df.bfm" activeSequenceName="BouncyRide_used" activeSequenceAccumulate="false" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFBehaviorMgr behaviorVersion="1" physObj="mainObj">
+               <subBehaviors>
+                  <BFBehAnimate interruptible="true" targetAnim="BouncyRide_idle" interruptFlag="true" loopFlag="true"/>
+               </subBehaviors>
+            </BFBehaviorMgr>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="Use_Ride">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot targetNode="Dock_Young" capacity="1" enterBehSet="EnterBouncyRide" useBehSet="UseBouncyRide"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

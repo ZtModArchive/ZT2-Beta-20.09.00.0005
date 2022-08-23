@@ -1,0 +1,45 @@
+<entries>
+   
+   
+   <BFHelpEntry order="zoopedia_apple:entry" entry="zoopedia_apple:entry" text="zoopedia_apple:text" page2="zoopedia_apple:page2"/>
+   <BFHelpEntry order="zoopedia_animalenrichment:entry" entry="zoopedia_animalenrichment:entry" text="zoopedia_animalenrichment:text" page2="zoopedia_animalenrichment:page2"/>
+   <BFHelpEntry order="zoopedia_ball:entry" entry="zoopedia_ball:entry" text="zoopedia_ball:text" page2="zoopedia_ball:page2"/>
+   <BFHelpEntry order="zoopedia_ballwithrattle:entry" entry="zoopedia_ballwithrattle:entry" text="zoopedia_ballwithrattle:text" page2="zoopedia_ballwithrattle:page2"/>
+   <BFHelpEntry order="zoopedia_beddingmaterial:entry" entry="zoopedia_beddingmaterial:entry" text="zoopedia_beddingmaterial:text" page2="zoopedia_beddingmaterial:page2"/>
+   <BFHelpEntry order="zoopedia_beefshank:entry" entry="zoopedia_beefshank:entry" text="zoopedia_beefshank:text" page2="zoopedia_beefshank:page2"/>
+   <BFHelpEntry order="zoopedia_bone:entry" entry="zoopedia_bone:entry" text="zoopedia_bone:text" page2="zoopedia_bone:page2"/>
+   <BFHelpEntry order="zoopedia_cartire:entry" entry="zoopedia_cartire:entry" text="zoopedia_cartire:text" page2="zoopedia_cartire:page2"/>
+   <BFHelpEntry order="zoopedia_carrot:entry" entry="zoopedia_carrot:entry" text="zoopedia_carrot:text" page2="zoopedia_carrot:page2"/>
+   <BFHelpEntry order="zoopedia_deadfish:entry" entry="zoopedia_deadfish:entry" text="zoopedia_deadfish:text" page2="zoopedia_deadfish:page2"/>
+   <BFHelpEntry order="zoopedia_deadrat:entry" entry="zoopedia_deadrat:entry" text="zoopedia_deadrat:text" page2="zoopedia_deadrat:page2"/>
+   <BFHelpEntry order="zoopedia_easel:entry" entry="zoopedia_easel:entry" text="zoopedia_easel:text" page2="zoopedia_easel:page2"/>
+   <BFHelpEntry order="zoopedia_fig:entry" entry="zoopedia_fig:entry" text="zoopedia_fig:text" page2="zoopedia_fig:page2"/>
+   <BFHelpEntry order="zoopedia_heatedrock:entry" entry="zoopedia_heatedrock:entry" text="zoopedia_heatedrock:text" page2="zoopedia_heatedrock:page2"/>
+   <BFHelpEntry order="zoopedia_grainpellets:entry" entry="zoopedia_grainpellets:entry" text="zoopedia_grainpellets:text" page2="zoopedia_grainpellets:page2"/>
+   <BFHelpEntry order="zoopedia_hollowlog:entry" entry="zoopedia_hollowlog:entry" text="zoopedia_hollowlog:text" page2="zoopedia_hollowlog:page2"/>
+   <BFHelpEntry order="zoopedia_honey:entry" entry="zoopedia_honey:entry" text="zoopedia_honey:text" page2="zoopedia_honey:page2"/>
+   <BFHelpEntry order="zoopedia_iceblock:entry" entry="zoopedia_iceblock:entry" text="zoopedia_iceblock:text" page2="zoopedia_iceblock:page2"/>
+   <BFHelpEntry order="zoopedia_insects:entry" entry="zoopedia_insects:entry" text="zoopedia_insects:text" page2="zoopedia_insects:page2"/>
+   <BFHelpEntry order="zoopedia_icefloatlrg:entry" entry="zoopedia_icefloatlrg:entry" text="zoopedia_icefloatlrg:text" page2="zoopedia_icefloatlrg:page2"/>
+   <BFHelpEntry order="zoopedia_icefloatmed:entry" entry="zoopedia_icefloatmed:entry" text="zoopedia_icefloatmed:text" page2="zoopedia_icefloatmed:page2"/>
+   <BFHelpEntry order="zoopedia_livefish:entry" entry="zoopedia_livefish:entry" text="zoopedia_livefish:text" page2="zoopedia_livefish:page2"/>
+   <BFHelpEntry order="zoopedia_liverat:entry" entry="zoopedia_liverat:entry" text="zoopedia_liverat:text" page2="zoopedia_liverat:page2"/>
+   <BFHelpEntry order="zoopedia_lookoutpost:entry" entry="zoopedia_lookoutpost:entry" text="zoopedia_lookoutpost:text" page2="zoopedia_lookoutpost:page2"/>
+   <BFHelpEntry order="zoopedia_peanutfeeder:entry" entry="zoopedia_peanutfeeder:entry" text="zoopedia_peanutfeeder:text" page2="zoopedia_peanutfeeder:page2"/>
+   <BFHelpEntry order="zoopedia_stickpile:entry" entry="zoopedia_stickpile:entry" text="zoopedia_stickpile:text" page2="zoopedia_stickpile:page2"/>
+   <BFHelpEntry order="zoopedia_plasticbarrel:entry" entry="zoopedia_plasticbarrel:entry" text="zoopedia_plasticbarrel:text" page2="zoopedia_plasticbarrel:page2"/>
+   <BFHelpEntry order="zoopedia_polenrope:entry" entry="zoopedia_polenrope:entry" text="zoopedia_polenrope:text" page2="zoopedia_polenrope:page2"/>
+   <BFHelpEntry order="zoopedia_pursuitball:entry" entry="zoopedia_pursuitball:entry" text="zoopedia_pursuitball:text" page2="zoopedia_pursuitball:page2"/>
+   <BFHelpEntry order="zoopedia_rubbertoy:entry" entry="zoopedia_rubbertoy:entry" text="zoopedia_rubbertoy:text" page2="zoopedia_rubbertoy:page2"/>
+   <BFHelpEntry order="zoopedia_scratchingpost:entry" entry="zoopedia_scratchingpost:entry" text="zoopedia_scratchingpost:text" page2="zoopedia_scratchingpost:page2"/>
+   <BFHelpEntry order="zoopedia_substratepile:entry" entry="zoopedia_substratepile:entry" text="zoopedia_substratepile:text" page2="zoopedia_substratepile:page2"/>
+   <BFHelpEntry order="zoopedia_termitemound:entry" entry="zoopedia_termitemound:entry" text="zoopedia_termitemound:text" page2="zoopedia_termitemound:page2"/>
+   <BFHelpEntry order="zoopedia_woodenramp:entry" entry="zoopedia_woodenramp:entry" text="zoopedia_woodenramp:text" page2="zoopedia_woodenramp:page2"/>
+   <BFHelpEntry order="zoopedia_monkeybars:entry" entry="zoopedia_monkeybars:entry" text="zoopedia_monkeybars:text" page2="zoopedia_monkeybars:page2"/>   
+   
+   
+   
+   
+   
+   
+</entries>

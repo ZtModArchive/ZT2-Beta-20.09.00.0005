@@ -1,0 +1,8 @@
+<Graph name = "Hippopotamus_Adult_F">
+	<node name = "Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+	</node>
+
+</Graph>

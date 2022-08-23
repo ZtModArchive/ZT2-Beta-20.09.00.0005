@@ -1,0 +1,6 @@
+<TEXTKEY>
+<key time="0.0" text="Walky"/>
+<key percent="100" text="!anim 'Stand_Idle' blend 0.5 advance_cur_t, dis, TurnRight180, Stand2LieBelly, LieOnBelly, LieBelly2Stand,  tap-trans 'Bip01_DockNode08_Branch1DEnd2ExitD'"/>
+</TEXTKEY>
+ 
+ 

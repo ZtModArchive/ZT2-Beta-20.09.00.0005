@@ -1,0 +1,10 @@
+<Schema name="UIMouseData">
+	<ElementType name="UIMouseData">
+		<extends type="BFXMLObj"/>
+		<attribute name="x" dt:type="int" default="0"/>
+		<attribute name="y" dt:type="int" default="0"/>
+		<attribute name="z" dt:type="int" default="0"/>
+		<attribute name="keystate" dt:type="int" default="0"/>
+		<attribute name="doubleclick" dt:type="boolean" default="false"/>
+	</ElementType>
+</Schema>

@@ -1,0 +1,11 @@
+<UIText name="Debug String">
+   <UIRegion x="0" y="150" w="1024" h="30"/>
+   <UIAspect>
+      <default>
+         <BFFont shadowx="0" shadowy="0" font="Arial" size="14">
+            <BFColor r="255" g="83" b="66" a="255"/>
+         </BFFont>
+      </default>
+   </UIAspect>
+   <text format="shell:posformat"/>
+</UIText>

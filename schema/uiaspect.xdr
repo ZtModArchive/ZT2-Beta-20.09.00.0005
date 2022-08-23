@@ -1,0 +1,41 @@
+<Schema name="UIAspect">
+	<ElementType name="BFFontData">
+		<extends type="BFXMLObj"/>
+		<AttributeType name="align">
+			<datatype dt:type="enumeration" dt:values="center right left"/>
+		</AttributeType> 
+		<attribute name="x" dt:type="int" default="0" />
+		<attribute name="y" dt:type="int" default="0" />
+		<attribute type="align" default="left" />
+		<element type="BFColor" />
+	</ElementType>
+	<ElementType name="ModeEntry">
+		<extends type="BFXMLObj"/>
+		<attribute name="image" dt:type="string" default="" />
+		<attribute name="sound" dt:type="string" default="" />
+		<element type="BFRect" />
+		<element type="BFColor" />
+		<element type="BFFontData" />
+	</ElementType>
+	<ElementType name="ModeList">
+		<extends type="BFXMLObj"/>
+		<element type="ModeEntry" name="normal" />
+		<element type="ModeEntry" name="highlighted" />
+		<element type="ModeEntry" name="activated" />
+		<element type="ModeEntry" name="disabled" />
+	</ElementType>
+	<ElementType name="UIAspect">
+		<extends type="BFXMLObj"/>
+		<AttributeType name="alwayshit">
+			<datatype dt:type="enumeration" dt:values="always never normal region"/>
+		</AttributeType>
+		<attribute name="locid" dt:type="string" />
+		<attribute name="string" dt:type="string" />
+		<attribute type="alwayshit" default="normal" />
+		<attribute name="padx" dt:type="int" />
+		<attribute name="pady" dt:type="int" />
+		<element type="ModeEntry" name="default" />
+		<element type="ModeList" name="standard" />
+		<element type="ModeList" name="alternate" />
+	</ElementType>
+</Schema>

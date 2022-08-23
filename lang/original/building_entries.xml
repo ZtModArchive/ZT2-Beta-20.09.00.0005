@@ -1,0 +1,515 @@
+<ZT2Strings>
+
+
+   <zoopedia_adultresto>
+         <entry>Restaurant</entry>
+         <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/restaurant/restaurant_regular_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>
+            
+            I am placeholder text!
+         
+         </text>
+         
+   </zoopedia_adultresto>
+
+   
+   <zoopedia_animalphotobooth>
+         <entry>Animal Photo Booth</entry>
+         <text>
+            <br/>
+            <img src="entities/objects/buildings/animalphotobooth_df/animalphotobooth_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>            
+            With the animal photo booth, your guests can purchase a cute photo memento of their visit to the zoo.
+         </text>
+         
+   </zoopedia_animalphotobooth>
+   
+   <zoopedia_atm>
+            <entry>ATM</entry>
+            <text>
+               
+            <br/>
+            <img src="entities/objects/buildings/atm_df/atm_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>               
+               Zoo guests can use the ATM (Automated Teller Machine) to withdraw spending money, which may encourage them to buy more food and souvenirs and to make donations to your zoo.
+            
+            </text>
+            
+   </zoopedia_atm>
+   
+   <zoopedia_cheesecake>
+            <entry>Cheesecake Cart</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/snackcart/snackcart_cheesecake_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>            
+               
+               The cheesecake cart offers a tasty, filling dessert that is particularly popular 
+               with adult male guests. Guests often look for dessert after eating other foods so it's 
+               a good idea to place the cheesecake cart near other food stands.
+            
+            </text>
+            
+   </zoopedia_cheesecake>
+   
+   <zoopedia_coffee>
+            <entry>Coffee Stand</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/foodstand/foodstand_coffee_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>            
+               
+               The coffee stand offers hot coffee that is enjoyed by adult guests.
+            
+            </text>
+            
+   </zoopedia_coffee>
+   
+   <zoopedia_compost>
+            <entry>Compost Building</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/compost_df/compost_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>            
+               
+               A compost building in your zoo is the repository for all of the garbage, compost, and recyclable items 
+               collected by you and your zoo staff.
+               <p/>
+	       Since you can earn money for your recycling efforts, including a compost building in your zoo can be a 
+	       smart economic move. Due to the aromatic nature of the compost building, it's best to place it in a remote 
+	       corner of your zoo where it won't offend your guests.
+
+            
+            </text>
+            
+   </zoopedia_compost>
+   
+   <zoopedia_cottoncandy>
+            <entry>Cotton Candy Cart</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/snackcart/snackcart_cottoncandy_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The cotton candy cart offers a sweet, nutritionally empty snack that is sure to cause sticky 
+               fingers and faces. Cotton candy is a favorite treat for children.
+            
+            </text>
+            
+   </zoopedia_cottoncandy>
+   
+   <zoopedia_elephantride>
+            <entry>Elephant Bouncy Ride</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_elephantride>
+   
+   <zoopedia_familyrestroom>
+            <entry>Family Restroom</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/bathroomlarge_df/bathroomlarge_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               Family restrooms are larger and cost more than small restrooms, but they accommodate more guests. Guests who
+               don't have to stand in line for the small bathroom can spend their time viewing animals and enjoying your
+               zoo's more entertaining amenities.
+            
+            </text>
+            
+   </zoopedia_familyrestroom>
+   
+   <zoopedia_frontgate>
+            <entry>Front Gate</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/frontgate_df/frontgate_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The front gate is the main entrance to your zoo. Every guest who visits your zoo will pass through the 
+               front gate (and pay admission!). It is a good idea to leave plenty of open space around this main entry 
+               point to allow your guests to come and go easily.
+               <p/>
+               Clicking on the front gate will open the Zoo Status panel where you can review information about your zoo's 
+               performance.
+            
+            </text>
+            
+   </zoopedia_frontgate>
+   
+   <zoopedia_fruitcup>
+            <entry>Fruit Cup Cart</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/snackcart_fruitcup_df/snackcart_fruitcup_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The fruit cup cart offers a nutritious snack option for your zoo guests, which makes adult women guests happy. 
+            
+            </text>
+            
+   </zoopedia_fruitcup>
+   
+   <zoopedia_giftcart>
+            <entry>Gift Cart</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/giftcart_df/giftcart_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The gift cart offers a limited selection of the same gifts and souvenirs offered in the gift shop. 
+               Guests like gift carts almost as much as the gift shop, but gift carts can't offer as much 
+               merchandise or accommodate as many guests.
+            
+            </text>
+            
+   </zoopedia_giftcart>
+   
+   <zoopedia_giftshop>
+            <entry>Gift Shop</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/giftshop_df/giftshop_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The gift shop, which offers gifts and souvenirs at a wide range of prices, can accommodate multiple 
+               guests at a time. Guests particularly enjoy purchasing a souvenier when they've had a great experience 
+               in your zoo, and their purchases can do a lot to help your zoo's bottom line.
+            
+            </text>
+            
+   </zoopedia_giftshop>
+   
+   <zoopedia_giraffeswing>
+            <entry>Giraffe Swing</entry>
+            <text>
+               
+            <br/>
+            <img src="entities/objects/buildings/giraffeswing_df/giraffeswing_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>                
+               The giraffe swing is a piece of playground equipment that can send one child at a time swinging through the air.
+            
+            </text>
+            
+   </zoopedia_giraffeswing>  
+   
+   <zoopedia_gourmetresto>
+            <entry>Gourmet Restaurant</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/restaurant/restaurant_fancy_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               Serving fine cuisine, the gourmet restaurant is popular with adult guests who appreciate table service. These guests
+               don't mind paying the higher prices in exchange for the more refined atmosphere.
+            
+            </text>
+            
+   </zoopedia_gourmetresto> 
+   
+   <zoopedia_hamburger>
+            <entry>Hamburger Stand</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/foodstand/foodstand_burger_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               This stand offers the classic American fast food - hamburgers. The hamburger stand is a safe dining choice 
+               for families - kids love burgers, and parents like the low price. To keep the whole family happy, place a beverage stand and a couple of picnic tables nearby.
+            
+            </text>
+            
+   </zoopedia_hamburger> 
+   
+   <zoopedia_hotdog>
+            <entry>Hotdog Stand</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/foodstand/foodstand_hotdog_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               This stand sells hot dogs, which are enjoyed by your younger zoo guests. To keep the whole family happy, 
+               place a beverage stand and a couple of picnic tables nearby.
+            
+            </text>
+            
+   </zoopedia_hotdog> 
+   
+   <zoopedia_icecream>
+            <entry>Ice Cream Cart</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/snackcart/snackcart_icecream_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The ice cream cart features classic ice cream treats that are big hit with the younger guests who visit 
+               your zoo. The sound of the bell on the ice cream cart can attract hot, hungry youngsters from all over 
+               your zoo.
+            
+            </text>
+            
+   </zoopedia_icecream> 
+   
+   <zoopedia_kidsresto>
+            <entry>Family Restaurant</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/restaurant/restaurant_family_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The fun-filled family restaurant does a great job of providing a kid-friendly environment where multiple guests with a place to satisfy their food, 
+               beverage and rest needs. 
+            
+            </text>
+            
+   </zoopedia_kidsresto> 
+   
+   <zoopedia_monkeygoround>
+            <entry>Monkey Go-Round</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_monkeygoround> 
+   
+   <zoopedia_ostrichride>
+            <entry>Ostrich Bouncy Ride</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_ostrichride> 
+   
+   <zoopedia_popcorn>
+            <entry>Popcorn Cart</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/snackcart/snackcart_popcorn_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The popcorn cart provides guests of all ages with an economical and filling snack treat. Popcorn is 
+               especially popular with adult male guests, who like to poke it in by the handful.
+
+            
+            </text>
+            
+   </zoopedia_popcorn>    
+   
+   <zoopedia_pretzel>
+            <entry>Pretzel Cart</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/snackcart/snackcart_pretzel_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The pretzel cart provides guests with an economical and filling snack treat. Pretzels are particularly 
+               popular with adult female guests, but they make them thirsty, so be sure to include a beverage stand nearby.
+
+            
+            </text>
+            
+   </zoopedia_pretzel> 
+   
+   <zoopedia_restroom>
+            <entry>Restroom</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/bathroomsmall_df/bathroomsmall_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The small restroom has a limited capacity but is an essential amenity for the comfort of your 
+               guests. Zoo guests who cannot find a bathroom when they need one will become very unhappy.
+
+            
+            </text>
+            
+   </zoopedia_restroom> 
+   
+   <zoopedia_rhinoride>
+            <entry>Rhino Bouncy Ride</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_rhinoride> 
+   
+   <zoopedia_salad>
+            <entry>Salad Stand</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/foodstand/foodstand_salad_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The salad stand provides guests who have been watching animals eat their vegetables to do the same, with 
+               a convenient and inexpensive dining option. Salads are a particularly popular menu item with adult female zoo 
+               guests.
+	                
+            </text>
+            
+   </zoopedia_salad> 
+   
+   <zoopedia_shish>
+            <entry>Shish Kabob Stand</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/foodstand/foodstand_shishkabob_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The shish kabob stand, which features roasted meat and vegetables on skewers, provides guests with a 
+               gourmet food option.
+	       
+	       Gourmet foods like the shish kabob cost more than some of the other dining options, but some adult guests 
+	       appreciate and are willing to pay the higher prices for fancier foods.
+
+            
+            </text>
+            
+   </zoopedia_shish> 
+   
+   <zoopedia_soda>
+            <entry>Soda Stand</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/foodstand/foodstand_soda_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The soda stand provides guests with a convenient and inexpensive beverage option. Not surprisingly, sodas are especially popular with the kids.
+            
+            </text>
+            
+   </zoopedia_soda>    
+   
+   <zoopedia_sparklingwater>
+            <entry>Sparkling Water Stand</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/foodstand/foodstand_water_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The sparkling water stand, which features fancy bottled spring water, provides adult guests with a 
+               non-sugary beverage option. 
+
+            
+            </text>
+            
+   </zoopedia_sparklingwater>   
+   
+   <zoopedia_staffcenter>
+            <entry>Staff Center</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/staffcenter_df/staffcenter_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The staff center is the building your zoo staff, including zookeepers, animal educators, and maintenance workers, will return to when they have no active assignments or pressing tasks.
+            
+            </text>
+            
+   </zoopedia_staffcenter> 
+   
+   <zoopedia_substand>
+            <entry>Sub Stand</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/foodstand/foodstand_sub_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The sub stand provides guests with a convenient and inexpensive dining option. Sub sandwiches are especially popular with adult male zoo guests.
+            
+            </text>
+            
+   </zoopedia_substand> 
+   
+   <zoopedia_sushi>
+            <entry>Sushi Stand</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/buildings/foodstand/foodstand_sushi_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>              
+               
+               The sushi stand, which features raw fish and rice, provides guests with a gourmet food option. Gourmet 
+               foods like sushi cost more than some of the other dining options, but adult female guests appreciate and are willing to pay for fancier foods.
+
+            
+            </text>
+            
+   </zoopedia_sushi> 
+   
+   <zoopedia_tigerride>
+            <entry>Tiger Bouncy Ride</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_tigerride> 
+   
+   <zoopedia_zebrabars>
+            <entry>Zebra Climbing Bars</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_zebrabars> 
+   
+   <zoopedia_educator_podium>
+            <entry>Animal Educator's Podium</entry>
+            <text>
+               
+            <br/>
+            <img src="entities/objects/buildings/educator_podium_df/educator_podium_df_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <br/>                
+               Animal educators require a podium to allow them to communicate interesting animal information 
+               to zoo guests.
+            
+            
+            
+            </text>
+            
+   </zoopedia_educator_podium>      
+   
+  
+
+   
+   
+   </ZT2Strings>

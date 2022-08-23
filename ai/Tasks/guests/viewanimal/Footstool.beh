@@ -1,0 +1,57 @@
+<BehaviorSets>
+   <DockFootstool>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehDockTAP targetAnim="Stand_Idle" subjectNode="Floor" targetTAP="EnterA"/>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="EnterA" exitTAP="false"/>  
+      </behaviors>
+   </DockFootstool>
+   
+   
+   <UseFootstool>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehViewAnimals viewMeter="150">
+            <emoteSets>
+               <VA_Path_Neg_10 min="-1000" max="-45"/>
+               <VA_Path_Neg_9 min="-45" max="-40"/>
+               <VA_Path_Neg_8 min="-40" max="-35"/>
+               <VA_Path_Neg_7 min="-35" max="-30"/>
+               <VA_Path_Neg_6 min="-30" max="-25"/>
+               <VA_Path_Neg_5 min="-25" max="-20"/>
+               <VA_Path_Neg_4 min="-20" max="-15"/>
+               <VA_Path_Neg_3 min="-15" max="-10"/>
+               <VA_Path_Neg_2 min="-10" max="-5"/>
+               <VA_Path_Neg_1 min="-5" max="-1"/>
+               <VA_Path_Midpoint min="-1" max="1"/>
+               <VA_Path_Pos_1 min="1" max="4"/>
+               <Educator_Path_Event min="4" max="6"/>
+               <VA_Path_Pos_2 min="6" max="10"/>
+               <VA_Path_Pos_3 min="10" max="15"/>
+               <VA_Path_Pos_4 min="15" max="20"/>
+               <VA_Path_Pos_5 min="20" max="25"/>
+               <VA_Path_Pos_6 min="25" max="30"/>
+               <VA_Path_Pos_7 min="30" max="35"/>
+               <VA_Path_Pos_8 min="35" max="40"/>
+               <VA_Path_Pos_9 min="40" max="45"/>
+               <VA_Path_Pos_10 min="45" max="1000"/>
+            </emoteSets>
+         </ZTBehViewAnimals>
+      </behaviors>
+   </UseFootstool>
+   
+   
+   <ExitFootstool>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="ExitA" exitTAP="true"/>
+         <BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </ExitFootstool>
+</BehaviorSets>

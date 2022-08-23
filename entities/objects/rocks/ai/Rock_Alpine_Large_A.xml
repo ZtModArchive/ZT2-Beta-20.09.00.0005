@@ -1,0 +1,96 @@
+<BFTypedBinder binderType="Rock_Alpine_Large_A">
+   <types>
+      <entity>
+         <rock>
+            <Rock_Alpine_Large_A/>
+         </rock>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\rocks\alpine\Rock_Alpine_Large_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:Rock_Alpine_Large_A"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Rock_Alpine_Large_A"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\rocks\alpine\Rock_Alpine_Large_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Rock_Alpine_Large_A"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData icon3Doffset="0 0 0.705882" icon3Dscale="0.202573" terrainFlatten="true"><!--check rock.xml for other placement data--></ZTPlacementData>
+      <BFAIEntityDataShared b_LargeRock="true" b_ScentMarkable="true" s_Zoopedia="zoopedia:zoopedia_alpinerocks:entry" f_researchUnlockTime="108" f_researchCost="90" b_SeeThrough="false"/>
+      <BFGBiomeData location="alpine_worldwide">
+         <alpine/>
+      </BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFStaticBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="footprint" width="9.5" minLength="9.5" maxLength="14" minOffset="0" maxOffset="3"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/rocks/alpine/Rock_Alpine_Large_A.nif" scale=".9"/>
+               <BFTravAnimPathComponent actorfile="entities/objects/rocks/alpine/Rock_Alpine_Large_A_TAP.bfm"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFAIEntityDataInstance b_ScentEmitter="false"/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="TAP">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock1" useBehSet="UseRock" exitBehSet="ExitRock1" targetNode="Rock_EnterA"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock2" useBehSet="UseRock" exitBehSet="ExitRock2" targetNode="Rock_EnterB"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock3" useBehSet="UseRock" exitBehSet="ExitRock3" targetNode="Rock_EnterC"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock4" useBehSet="UseRock" exitBehSet="ExitRock4" targetNode="Rock_EnterD"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock5" useBehSet="UseRock" exitBehSet="ExitRock5" targetNode="Rock_EnterE"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock6" useBehSet="UseRock" exitBehSet="ExitRock6" targetNode="Rock_EnterF"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock7" useBehSet="UseRock" exitBehSet="ExitRock7" targetNode="Rock_EnterG"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock8" useBehSet="UseRock" exitBehSet="ExitRock8" targetNode="Rock_EnterH"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock9" useBehSet="UseRock" exitBehSet="ExitRock9" targetNode="Rock_EnterI"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock10" useBehSet="UseRock" exitBehSet="ExitRock10" targetNode="Rock_EnterJ"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock11" useBehSet="UseRock" exitBehSet="ExitRock11" targetNode="Rock_EnterK"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock12" useBehSet="UseRock" exitBehSet="ExitRock12" targetNode="Rock_EnterL"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock13" useBehSet="UseRock" exitBehSet="ExitRock13" targetNode="Rock_EnterM"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock14" useBehSet="UseRock" exitBehSet="ExitRock14" targetNode="Rock_EnterN"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock15" useBehSet="UseRock" exitBehSet="ExitRock15" targetNode="Rock_EnterO"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock16" useBehSet="UseRock" exitBehSet="ExitRock16" targetNode="Rock_EnterP"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock17" useBehSet="UseRock" exitBehSet="ExitRock17" targetNode="Rock_EnterQ"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="50">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

@@ -1,0 +1,45 @@
+<ZTScenarioMgr>
+   <children>
+      <BFScenarioGroup name="moneyrules" state="0" chain="false" allsuccess="false" sticky="true">
+         <success>
+            <BFScenarioScriptAction script="scenario/scripts/test.lua" entry="executeSuccess"/>
+         </success>
+         <failure>
+            <BFScenarioScriptAction script="scenario/scripts/test.lua" entry="executeFailure"/>
+         </failure>
+         <children>
+            <BFScenarioRule hidden="1" name="decidewhichmoneychallenge" state="0" sticky="true" optional="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="deciderandommoneychallenge"/>
+               </evaluate>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="grantgetmoneychallenge1" state="0" sticky="true" optional="false">
+               <info type="primary">
+                  <neutral locid="Challengetext:CHgrantmoneyShort" overview="Challengetext:CHgrantmoney"/>
+                  <success locid="Challengetext:CHgrantmoneySuccessShort" overview="Challengetext:CHgrantmoneySuccess"/>
+                  <failure locid="Challengetext:CHgrantmoneyFailureShort" overview="Challengetext:CHgrantmoneyFailure"/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="getmoneychallenge1facade"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/test.lua" entry="completeshowoverview"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="grantgetmoneychallenge2" state="0" sticky="true" optional="false">
+               <info type="primary">
+                  <neutral locid="Challengetext:CHgrantmoney2Short" overview="Challengetext:CHgrantmoney2"/>
+                  <success locid="Challengetext:CHgrantmoney2SuccessShort" overview="Challengetext:CHgrantmoney2Success"/>
+                  <!--failure locid="Challengetext:CHgrantmoney2FailureShort" overview="Challengetext:CHgrantmoney2Failure" /-->
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="getmoneychallenge2facade"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/test.lua" entry="completeshowoverview"/>
+               </success>
+            </BFScenarioRule>
+         </children>
+      </BFScenarioGroup>
+   </children>
+</ZTScenarioMgr>

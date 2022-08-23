@@ -1,0 +1,959 @@
+<BFM modelname="entities\units\animals\PandaGiant\PandaGiant_Adult_M.nif">
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Attacked_2Lie.bf" animName="Attacked_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Attacked_2Stand.bf" animName="Attacked_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Attacked_Idle.bf" animName="Attacked_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Browse_2Chew.bf" animName="Browse_2Chew" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Browse_2Sit.bf" animName="Browse_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Browse_Idle.bf" animName="Browse_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Chew_2Browse.bf" animName="Chew_2Browse" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Chew_2Sit.bf" animName="Chew_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Chew_Idle.bf" animName="Chew_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_ClimbFence_2Sit.bf" animName="ClimbFence_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_ClimbFence_2Sit_Narrow.bf" animName="ClimbFence_2Sit_Narrow" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_ClimbFence_2Sit_Wide.bf" animName="ClimbFence_2Sit_Wide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_ClimbFence_Idle.bf" animName="ClimbFence_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Climb_2LieBack.bf" animName="Climb_2LieBack" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Climb_2Sit.bf" animName="Climb_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Climb_2Stand.bf" animName="Climb_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Climb_Down.bf" animName="Climb_Down" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Climb_Idle.bf" animName="Climb_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Climb_LookLeft.bf" animName="Climb_LookLeft" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Climb_LookRight.bf" animName="Climb_LookRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Climb_Up.bf" animName="Climb_Up" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Drink_2Stand.bf" animName="Drink_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Drink_Idle.bf" animName="Drink_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_EatFat_2Sit.bf" animName="EatFat_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_EatFat_Idle.bf" animName="EatFat_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_EatTrough_2Stand.bf" animName="EatTrough_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_EatTrough_Idle.bf" animName="EatTrough_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Eat_Idle.bf" animName="Eat_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LickPaw_2Sit.bf" animName="LickPaw_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LickPaw_GroomA.bf" animName="LickPaw_GroomA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LickPaw_GroomB.bf" animName="LickPaw_GroomB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LickPaw_Idle.bf" animName="LickPaw_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBaby_2Lie.bf" animName="LieBaby_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBaby_2SleepBaby.bf" animName="LieBaby_2SleepBaby" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBaby_2StandBaby.bf" animName="LieBaby_2StandBaby" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBaby_Eat.bf" animName="LieBaby_Eat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBaby_Idle.bf" animName="LieBaby_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBack_2Lie.bf" animName="LieBack_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBack_2LieSide.bf" animName="LieBack_2LieSide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBack_2SleepBack.bf" animName="LieBack_2SleepBack" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBack_A.bf" animName="LieBack_A" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBack_B.bf" animName="LieBack_B" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBack_Eat.bf" animName="LieBack_Eat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBack_Idle.bf" animName="LieBack_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBack_RollA.bf" animName="LieBack_RollA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieBack_RollB.bf" animName="LieBack_RollB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieSide_2Lie.bf" animName="LieSide_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieSide_2LieBack.bf" animName="LieSide_2LieBack" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieSide_Eat.bf" animName="LieSide_Eat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_LieSide_Idle.bf" animName="LieSide_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_2LieBaby.bf" animName="Lie_2LieBaby" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_2LieBack.bf" animName="Lie_2LieBack" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_2LieSide.bf" animName="Lie_2LieSide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_2Sleep.bf" animName="Lie_2Sleep" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_2Stand.bf" animName="Lie_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_Eat.bf" animName="Lie_Eat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_Idle.bf" animName="Lie_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_RollL.bf" animName="Lie_RollL" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_RollR.bf" animName="Lie_RollR" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_Scratch.bf" animName="Lie_Scratch" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_ScratchA.bf" animName="Lie_ScratchA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Lie_Yawn.bf" animName="Lie_Yawn" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_MarkTree_2Stand.bf" animName="MarkTree_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_MarkTree_Idle.bf" animName="MarkTree_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_PawInspection_2Sit.bf" animName="PawInspection_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_PawInspection_Idle.bf" animName="PawInspection_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_PawSuck_2Sit.bf" animName="PawSuck_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_PawSuck_Idle.bf" animName="PawSuck_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Pee_2Stand.bf" animName="Pee_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Pee_Idle.bf" animName="Pee_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_PerchSleep_2Perch.bf" animName="PerchSleep_2Perch" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_PerchSleep_Idle.bf" animName="PerchSleep_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Perch_2PerchSleep.bf" animName="Perch_2PerchSleep" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Perch_Idle.bf" animName="Perch_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Poop_2Stand.bf" animName="Poop_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Poop_Idle.bf" animName="Poop_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_PushBarrel_2Stand.bf" animName="PushBarrel_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_PushBarrel_Ahead.bf" animName="PushBarrel_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Run_2Slide.bf" animName="Run_2Slide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Run_2Stand.bf" animName="Run_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Run_2Walk.bf" animName="Run_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Run_Ahead.bf" animName="Run_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Run_Tumble.bf" animName="Run_Tumble" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Run_TurnLeftA.bf" animName="Run_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Run_TurnRightA.bf" animName="Run_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Secondary_EarA.bf" animName="Secondary_EarA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Secondary_EarB.bf" animName="Secondary_EarB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Secondary_HeadLook.bf" animName="Secondary_HeadLook" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SitGroomYoung_2Sit.bf" animName="SitGroomYoung_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SitGroomYoung_Idle.bf" animName="SitGroomYoung_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SitHide_2Sit.bf" animName="SitHide_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SitHide_Idle.bf" animName="SitHide_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SitNurse_2Sit.bf" animName="SitNurse_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SitNurse_Idle.bf" animName="SitNurse_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SitPlayTire_2Sit.bf" animName="SitPlayTire_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SitPlayTire_A.bf" animName="SitPlayTire_A" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SitPlayTire_Idle.bf" animName="SitPlayTire_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2Browse.bf" animName="Sit_2Browse" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2Chew.bf" animName="Sit_2Chew" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2EatFat.bf" animName="Sit_2EatFat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2LickPaw.bf" animName="Sit_2LickPaw" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2Lie.bf" animName="Sit_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2LieBack.bf" animName="Sit_2LieBack" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2PawInspection.bf" animName="Sit_2PawInspection" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2PawSuck.bf" animName="Sit_2PawSuck" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2SitGroomYoung.bf" animName="Sit_2SitGroomYoung" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2SitHide.bf" animName="Sit_2SitHide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2SitNurse.bf" animName="Sit_2SitNurse" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2SitPlayTire.bf" animName="Sit_2SitPlayTire" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2Stand.bf" animName="Sit_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_2ToothInspection.bf" animName="Sit_2ToothInspection" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_BackSomersault.bf" animName="Sit_BackSomersault" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_Bark.bf" animName="Sit_Bark" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_Bleat.bf" animName="Sit_Bleat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_Eat.bf" animName="Sit_Eat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_Grunt.bf" animName="Sit_Grunt" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_Hide.bf" animName="Sit_Hide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_Idle.bf" animName="Sit_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_LookLeft.bf" animName="Sit_LookLeft" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_LookRight.bf" animName="Sit_LookRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_ScratchEarFrontPaw.bf" animName="Sit_ScratchEarFrontPaw" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_ScratchEarRearPaw.bf" animName="Sit_ScratchEarRearPaw" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_Somersault.bf" animName="Sit_Somersault" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_Whimper.bf" animName="Sit_Whimper" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sit_Yawn.bf" animName="Sit_Yawn" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SleepBaby_2LieBaby.bf" animName="SleepBaby_2LieBaby" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SleepBaby_Idle.bf" animName="SleepBaby_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SleepBack_2LieBack.bf" animName="SleepBack_2LieBack" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SleepBack_A.bf" animName="SleepBack_A" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SleepBack_B.bf" animName="SleepBack_B" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_SleepBack_Idle.bf" animName="SleepBack_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sleep_2Lie.bf" animName="Sleep_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Sleep_Idle.bf" animName="Sleep_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Slide_2Run.bf" animName="Slide_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Slide_2Stand.bf" animName="Slide_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Slide_2Walk.bf" animName="Slide_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Slide_Ahead.bf" animName="Slide_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Slide_AheadShort.bf" animName="Slide_AheadShort" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandBaby_2DrinkBaby.bf" animName="StandBaby_2DrinkBaby" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandBaby_2Grunt.bf" animName="StandBaby_2Grunt" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandBaby_2LieBaby.bf" animName="StandBaby_2LieBaby" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandBaby_2WalkBaby.bf" animName="StandBaby_2WalkBaby" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandBaby_Idle.bf" animName="StandBaby_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandBaby_TurnLeft90.bf" animName="StandBaby_TurnLeft90" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandBaby_TurnRight180.bf" animName="StandBaby_TurnRight180" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandBaby_TurnRight90.bf" animName="StandBaby_TurnRight90" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandYoung_2Stand.bf" animName="StandYoung_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandYoung_2WalkYoung.bf" animName="StandYoung_2WalkYoung" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_StandYoung_Idle.bf" animName="StandYoung_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Attacked.bf" animName="Stand_2Attacked" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Climb.bf" animName="Stand_2Climb" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2ClimbFence.bf" animName="Stand_2ClimbFence" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Drink.bf" animName="Stand_2Drink" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2EatTrough.bf" animName="Stand_2EatTrough" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2JumpDown.bf" animName="Stand_2JumpDown" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2JumpUp.bf" animName="Stand_2JumpUp" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Lie.bf" animName="Stand_2Lie" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2LieSide_KnockedDown.bf" animName="Stand_2LieSide_KnockedDown" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2MarkTree.bf" animName="Stand_2MarkTree" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Pee.bf" animName="Stand_2Pee" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Poop.bf" animName="Stand_2Poop" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2PushBarrel.bf" animName="Stand_2PushBarrel" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Sit.bf" animName="Stand_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Sit_AttackGuest.bf" animName="Stand_2Sit_AttackGuest" debug="false" animSpeed="1.000000" explicitUseOnly="true" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2StandYoung.bf" animName="Stand_2StandYoung" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Swim.bf" animName="Stand_2Swim" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_2Walk.bf" animName="Stand_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_AttackHigh.bf" animName="Stand_AttackHigh" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_AttackLow.bf" animName="Stand_AttackLow" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_AttackMed.bf" animName="Stand_AttackMed" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_Bark.bf" animName="Stand_Bark" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_BatObject.bf" animName="Stand_BatObject" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_Bleat.bf" animName="Stand_Bleat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_Grunt.bf" animName="Stand_Grunt" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_Jump.bf" animName="Stand_Jump" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_LookRight.bf" animName="Stand_LookRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_NudgeObject.bf" animName="Stand_NudgeObject" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_PushBarrel.bf" animName="Stand_PushBarrel" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_ShakeWater.bf" animName="Stand_ShakeWater" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_ShoveBarrel.bf" animName="Stand_ShoveBarrel" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_SniffA.bf" animName="Stand_SniffA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_SniffB.bf" animName="Stand_SniffB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_SwingHead.bf" animName="Stand_SwingHead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_TackleObject.bf" animName="Stand_TackleObject" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_TurnLeft90.bf" animName="Stand_TurnLeft90" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_TurnRight180.bf" animName="Stand_TurnRight180" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_TurnRight90.bf" animName="Stand_TurnRight90" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_Whimper.bf" animName="Stand_Whimper" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Stand_Yawn.bf" animName="Stand_Yawn" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Swim_2Stand.bf" animName="Swim_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Swim_2TreadWater.bf" animName="Swim_2TreadWater" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Swim_2Walk.bf" animName="Swim_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Swim_Ahead.bf" animName="Swim_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Swim_TurnLeftA.bf" animName="Swim_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Swim_TurnRightA.bf" animName="Swim_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_ToothInspection_2Sit.bf" animName="ToothInspection_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_ToothInspection_Idle.bf" animName="ToothInspection_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_TreadWater_2Stand.bf" animName="TreadWater_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_TreadWater_2Swim.bf" animName="TreadWater_2Swim" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_TreadWater_Idle.bf" animName="TreadWater_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_TreadWater_TurnLeftA.bf" animName="TreadWater_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_TreadWater_TurnRightA.bf" animName="TreadWater_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_WalkBaby_2StandBaby.bf" animName="WalkBaby_2StandBaby" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_WalkBaby_Ahead.bf" animName="WalkBaby_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_WalkBaby_TurnLeftA.bf" animName="WalkBaby_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_WalkBaby_TurnRightA.bf" animName="WalkBaby_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Walk_2Run.bf" animName="Walk_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Walk_2Slide.bf" animName="Walk_2Slide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Walk_2Stand.bf" animName="Walk_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Walk_2Swim.bf" animName="Walk_2Swim" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Walk_Ahead.bf" animName="Walk_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Walk_Bark.bf" animName="Walk_Bark" debug="false" animSpeed="1.000000" explicitUseOnly="true" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Walk_Sniff.bf" animName="Walk_Sniff" debug="false" animSpeed="1.000000" explicitUseOnly="true" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Walk_TurnLeftA.bf" animName="Walk_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PandaGiant\PandaGiant_Adult_M_Walk_TurnRightA.bf" animName="Walk_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="PandaGiant_Adult_M" version="1">
+	<node name="Attacked">
+		<table>
+			<Attacked_Idle />
+		</table>
+		<edge name="Lie">
+			<table>
+				<Attacked_2Lie />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Attacked_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Browse">
+		<table>
+			<Browse_Idle />
+		</table>
+		<edge name="Chew">
+			<table>
+				<Browse_2Chew />
+			</table>
+		</edge>
+		<edge name="Sit">
+			<table>
+				<Browse_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="Chew">
+		<table>
+			<Chew_Idle />
+		</table>
+		<edge name="Browse">
+			<table>
+				<Chew_2Browse />
+			</table>
+		</edge>
+		<edge name="Sit">
+			<table>
+				<Chew_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="Climb">
+		<table>
+			<Climb_Down />
+			<Climb_Idle />
+			<Climb_LookLeft />
+			<Climb_LookRight />
+			<Climb_Up />
+		</table>
+		<edge name="LieBack">
+			<table>
+				<Climb_2LieBack />
+			</table>
+		</edge>
+		<edge name="Sit">
+			<table>
+				<Climb_2Sit />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Climb_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="ClimbFence">
+		<table>
+			<ClimbFence_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<ClimbFence_2Sit />
+				<ClimbFence_2Sit_Narrow />
+				<ClimbFence_2Sit_Wide />
+			</table>
+		</edge>
+	</node>
+	<node name="Drink">
+		<table>
+			<Drink_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Drink_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Eat">
+		<table>
+			<Eat_Idle />
+		</table>
+	</node>
+	<node name="EatFat">
+		<table>
+			<EatFat_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<EatFat_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="EatTrough">
+		<table>
+			<EatTrough_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<EatTrough_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="LickPaw">
+		<table>
+			<LickPaw_GroomA />
+			<LickPaw_GroomB />
+			<LickPaw_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<LickPaw_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="Lie">
+		<table>
+			<Lie_Eat />
+			<Lie_Idle />
+			<Lie_RollL />
+			<Lie_RollR />
+			<Lie_Scratch />
+			<Lie_ScratchA />
+			<Lie_Yawn />
+		</table>
+		<edge name="LieBaby">
+			<table>
+				<Lie_2LieBaby />
+			</table>
+		</edge>
+		<edge name="LieBack">
+			<table>
+				<Lie_2LieBack />
+			</table>
+		</edge>
+		<edge name="LieSide">
+			<table>
+				<Lie_2LieSide />
+			</table>
+		</edge>
+		<edge name="Sleep">
+			<table>
+				<Lie_2Sleep />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Lie_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="LieBaby">
+		<table>
+			<LieBaby_Eat />
+			<LieBaby_Idle />
+		</table>
+		<edge name="Lie">
+			<table>
+				<LieBaby_2Lie />
+			</table>
+		</edge>
+		<edge name="SleepBaby">
+			<table>
+				<LieBaby_2SleepBaby />
+			</table>
+		</edge>
+		<edge name="StandBaby">
+			<table>
+				<LieBaby_2StandBaby />
+			</table>
+		</edge>
+	</node>
+	<node name="LieBack">
+		<table>
+			<LieBack_A />
+			<LieBack_B />
+			<LieBack_Eat />
+			<LieBack_Idle />
+			<LieBack_RollA />
+			<LieBack_RollB />
+		</table>
+		<edge name="Lie">
+			<table>
+				<LieBack_2Lie />
+			</table>
+		</edge>
+		<edge name="LieSide">
+			<table>
+				<LieBack_2LieSide />
+			</table>
+		</edge>
+		<edge name="SleepBack">
+			<table>
+				<LieBack_2SleepBack />
+			</table>
+		</edge>
+	</node>
+	<node name="LieSide">
+		<table>
+			<LieSide_Eat />
+			<LieSide_Idle />
+		</table>
+		<edge name="Lie">
+			<table>
+				<LieSide_2Lie />
+			</table>
+		</edge>
+		<edge name="LieBack">
+			<table>
+				<LieSide_2LieBack />
+			</table>
+		</edge>
+	</node>
+	<node name="MarkTree">
+		<table>
+			<MarkTree_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<MarkTree_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="PawInspection">
+		<table>
+			<PawInspection_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<PawInspection_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="PawSuck">
+		<table>
+			<PawSuck_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<PawSuck_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="Pee">
+		<table>
+			<Pee_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Pee_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Perch">
+		<table>
+			<Perch_Idle />
+		</table>
+		<edge name="PerchSleep">
+			<table>
+				<Perch_2PerchSleep />
+			</table>
+		</edge>
+	</node>
+	<node name="PerchSleep">
+		<table>
+			<PerchSleep_Idle />
+		</table>
+		<edge name="Perch">
+			<table>
+				<PerchSleep_2Perch />
+			</table>
+		</edge>
+	</node>
+	<node name="Poop">
+		<table>
+			<Poop_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Poop_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="PushBarrel">
+		<table>
+			<PushBarrel_Ahead />
+		</table>
+		<edge name="Stand">
+			<table>
+				<PushBarrel_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Run">
+		<table>
+			<Run_Ahead />
+			<Run_Tumble />
+			<Run_TurnLeftA />
+			<Run_TurnRightA />
+		</table>
+		<edge name="Slide">
+			<table>
+				<Run_2Slide />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Run_2Stand />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Run_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="Secondary">
+		<table>
+			<Secondary_EarA />
+			<Secondary_EarB />
+			<Secondary_HeadLook />
+		</table>
+	</node>
+	<node name="Sit">
+		<table>
+			<Sit_BackSomersault />
+			<Sit_Bark />
+			<Sit_Bleat />
+			<Sit_Eat />
+			<Sit_Grunt />
+			<Sit_Hide />
+			<Sit_Idle />
+			<Sit_LookLeft />
+			<Sit_LookRight />
+			<Sit_ScratchEarFrontPaw />
+			<Sit_ScratchEarRearPaw />
+			<Sit_Somersault />
+			<Sit_Whimper />
+			<Sit_Yawn />
+		</table>
+		<edge name="Browse">
+			<table>
+				<Sit_2Browse />
+			</table>
+		</edge>
+		<edge name="Chew">
+			<table>
+				<Sit_2Chew />
+			</table>
+		</edge>
+		<edge name="EatFat">
+			<table>
+				<Sit_2EatFat />
+			</table>
+		</edge>
+		<edge name="LickPaw">
+			<table>
+				<Sit_2LickPaw />
+			</table>
+		</edge>
+		<edge name="Lie">
+			<table>
+				<Sit_2Lie />
+			</table>
+		</edge>
+		<edge name="LieBack">
+			<table>
+				<Sit_2LieBack />
+			</table>
+		</edge>
+		<edge name="PawInspection">
+			<table>
+				<Sit_2PawInspection />
+			</table>
+		</edge>
+		<edge name="PawSuck">
+			<table>
+				<Sit_2PawSuck />
+			</table>
+		</edge>
+		<edge name="SitGroomYoung">
+			<table>
+				<Sit_2SitGroomYoung />
+			</table>
+		</edge>
+		<edge name="SitHide">
+			<table>
+				<Sit_2SitHide />
+			</table>
+		</edge>
+		<edge name="SitNurse">
+			<table>
+				<Sit_2SitNurse />
+			</table>
+		</edge>
+		<edge name="SitPlayTire">
+			<table>
+				<Sit_2SitPlayTire />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Sit_2Stand />
+			</table>
+		</edge>
+		<edge name="ToothInspection">
+			<table>
+				<Sit_2ToothInspection />
+			</table>
+		</edge>
+	</node>
+	<node name="SitGroomYoung">
+		<table>
+			<SitGroomYoung_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<SitGroomYoung_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="SitHide">
+		<table>
+			<SitHide_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<SitHide_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="SitNurse">
+		<table>
+			<SitNurse_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<SitNurse_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="SitPlayTire">
+		<table>
+			<SitPlayTire_A />
+			<SitPlayTire_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<SitPlayTire_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="Sleep">
+		<table>
+			<Sleep_Idle />
+		</table>
+		<edge name="Lie">
+			<table>
+				<Sleep_2Lie />
+			</table>
+		</edge>
+	</node>
+	<node name="SleepBaby">
+		<table>
+			<SleepBaby_Idle />
+		</table>
+		<edge name="LieBaby">
+			<table>
+				<SleepBaby_2LieBaby />
+			</table>
+		</edge>
+	</node>
+	<node name="SleepBack">
+		<table>
+			<SleepBack_A />
+			<SleepBack_B />
+			<SleepBack_Idle />
+		</table>
+		<edge name="LieBack">
+			<table>
+				<SleepBack_2LieBack />
+			</table>
+		</edge>
+	</node>
+	<node name="Slide">
+		<table>
+			<Slide_Ahead />
+			<Slide_AheadShort />
+		</table>
+		<edge name="Run">
+			<table>
+				<Slide_2Run />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Slide_2Stand />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Slide_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="Stand">
+		<table>
+			<Stand_AttackHigh />
+			<Stand_AttackLow />
+			<Stand_AttackMed />
+			<Stand_Bark />
+			<Stand_BatObject />
+			<Stand_Bleat />
+			<Stand_Grunt />
+			<Stand_Idle />
+			<Stand_Jump />
+			<Stand_LookRight />
+			<Stand_NudgeObject />
+			<Stand_PushBarrel />
+			<Stand_ShakeWater />
+			<Stand_ShoveBarrel />
+			<Stand_SniffA />
+			<Stand_SniffB />
+			<Stand_SwingHead />
+			<Stand_TackleObject />
+			<Stand_TurnLeft90 />
+			<Stand_TurnRight180 />
+			<Stand_TurnRight90 />
+			<Stand_Whimper />
+			<Stand_Yawn />
+		</table>
+		<edge name="Attacked">
+			<table>
+				<Stand_2Attacked />
+			</table>
+		</edge>
+		<edge name="Climb">
+			<table>
+				<Stand_2Climb />
+			</table>
+		</edge>
+		<edge name="ClimbFence">
+			<table>
+				<Stand_2ClimbFence />
+			</table>
+		</edge>
+		<edge name="Drink">
+			<table>
+				<Stand_2Drink />
+			</table>
+		</edge>
+		<edge name="EatTrough">
+			<table>
+				<Stand_2EatTrough />
+			</table>
+		</edge>
+		<edge name="Lie">
+			<table>
+				<Stand_2Lie />
+			</table>
+		</edge>
+		<edge name="LieSide">
+			<table>
+				<Stand_2LieSide_KnockedDown />
+			</table>
+		</edge>
+		<edge name="MarkTree">
+			<table>
+				<Stand_2MarkTree />
+			</table>
+		</edge>
+		<edge name="Pee">
+			<table>
+				<Stand_2Pee />
+			</table>
+		</edge>
+		<edge name="Poop">
+			<table>
+				<Stand_2Poop />
+			</table>
+		</edge>
+		<edge name="PushBarrel">
+			<table>
+				<Stand_2PushBarrel />
+			</table>
+		</edge>
+		<edge name="Sit">
+			<table>
+				<Stand_2Sit />
+				<Stand_2Sit_AttackGuest />
+			</table>
+		</edge>
+		<edge name="StandYoung">
+			<table>
+				<Stand_2StandYoung />
+			</table>
+		</edge>
+		<edge name="Swim">
+			<table>
+				<Stand_2Swim />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Stand_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="StandBaby">
+		<table>
+			<StandBaby_Idle />
+			<StandBaby_TurnLeft90 />
+			<StandBaby_TurnRight180 />
+			<StandBaby_TurnRight90 />
+		</table>
+		<edge name="LieBaby">
+			<table>
+				<StandBaby_2LieBaby />
+			</table>
+		</edge>
+		<edge name="WalkBaby">
+			<table>
+				<StandBaby_2WalkBaby />
+			</table>
+		</edge>
+	</node>
+	<node name="StandYoung">
+		<table>
+			<StandYoung_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<StandYoung_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Swim">
+		<table>
+			<Swim_Ahead />
+			<Swim_TurnLeftA />
+			<Swim_TurnRightA />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Swim_2Stand />
+			</table>
+		</edge>
+		<edge name="TreadWater">
+			<table>
+				<Swim_2TreadWater />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Swim_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="ToothInspection">
+		<table>
+			<ToothInspection_Idle />
+		</table>
+		<edge name="Sit">
+			<table>
+				<ToothInspection_2Sit />
+			</table>
+		</edge>
+	</node>
+	<node name="TreadWater">
+		<table>
+			<TreadWater_Idle />
+			<TreadWater_TurnLeftA />
+			<TreadWater_TurnRightA />
+		</table>
+		<edge name="Stand">
+			<table>
+				<TreadWater_2Stand />
+			</table>
+		</edge>
+		<edge name="Swim">
+			<table>
+				<TreadWater_2Swim />
+			</table>
+		</edge>
+	</node>
+	<node name="Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_Bark />
+			<Walk_Sniff />
+			<Walk_TurnLeftA />
+			<Walk_TurnRightA />
+		</table>
+		<edge name="Run">
+			<table>
+				<Walk_2Run />
+			</table>
+		</edge>
+		<edge name="Slide">
+			<table>
+				<Walk_2Slide />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Walk_2Stand />
+			</table>
+		</edge>
+		<edge name="Swim">
+			<table>
+				<Walk_2Swim />
+			</table>
+		</edge>
+	</node>
+	<node name="WalkBaby">
+		<table>
+			<WalkBaby_Ahead />
+			<WalkBaby_TurnLeftA />
+			<WalkBaby_TurnRightA />
+		</table>
+		<edge name="StandBaby">
+			<table>
+				<WalkBaby_2StandBaby />
+			</table>
+		</edge>
+	</node>
+</Graph>

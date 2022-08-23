@@ -1,0 +1,42 @@
+<Graph name = "Guest_Young_M">
+	<node name = "Run">
+		<table>
+			<Run_Ahead />
+			<Run_Left />
+			<Run_Right />
+		</table>
+		<edge anim = "Run_2Stand" node = "Stand" />
+		<edge anim = "Run_2Walk" node = "Walk" />
+	</node>
+	<node name = "SitBench">
+		<table>
+			<SitBench_Idle />
+		</table>
+		<edge anim = "SitBench_2Stand" node = "Stand" />
+	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Applaud />
+			<Stand_Idle />
+			<Stand_OohAhh />
+			<Stand_PinchNose />
+			<Stand_Point />
+			<Stand_Turn180 />
+			<Stand_TurnL />
+			<Stand_TurnR />
+		</table>
+		<edge anim = "Stand_2Run" node = "Run" />
+		<edge anim = "Stand_2SitBench" node = "SitBench" />
+		<edge anim = "Stand_2Walk" node = "Walk" />
+	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_Left />
+			<Walk_Right />
+		</table>
+		<edge anim = "Walk_2Run" node = "Run" />
+		<edge anim = "Walk_2Stand" node = "Stand" />
+	</node>
+
+</Graph>

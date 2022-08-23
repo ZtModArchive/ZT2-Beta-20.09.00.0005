@@ -1,0 +1,65 @@
+<BFTypedBinder binderType="snackcart_popcorn_df">
+   <types>
+      <entity>
+         <building>
+            <snackcart>
+               <snackcart_popcorn>
+                  <snackcart_popcorn_df/>
+               </snackcart_popcorn>
+            </snackcart>
+         </building>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\buildings\Snackcart\snackcart_popcorn_df_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:snackcart_popcorn"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="snackcart_popcorn_df"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\buildings\Snackcart\snackcart_popcorn_df_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="snackcart_popcorn_df"/>
+         </on>
+      </UIToggleButton>
+      <UIButton name="overviewicon">
+         <UIAspect>
+            <default image="ui/zoomap/icon_dessert.dds"/>
+         </UIAspect>
+      </UIButton>
+      <BFAIEntityDataShared s_ItemsSold="Popcorn" b_CommerceBuilding="true" b_DonationAcceptor="false" s_Zoopedia="zoopedia:zoopedia_popcorn:entry" f_researchUnlockTime="60" f_researchCost="300"/>
+      <ZTTriggeredEventsComponent>
+         <Buy_Item>
+            <nonbroadcast>
+               <event msg="BFSND_PLAY_FROM_ENTITY" data="BFString" string="cash_register"/>
+            </nonbroadcast>
+         </Buy_Item>
+      </ZTTriggeredEventsComponent>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/buildings/Snackcart/snackcart_mainobj_df.nif"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Umbrella">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities/objects/buildings/Snackcart/umbrella_blue.nif"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

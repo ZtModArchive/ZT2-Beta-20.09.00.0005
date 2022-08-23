@@ -1,0 +1,740 @@
+<BehaviorSets>
+   <Idle>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateSwitch>
+            <animTable>
+               <Stand anim="Stand_Idle"/>
+               <Rest anim="Rest_Idle"/>
+               <default anim="Stand_Idle"/>
+            </animTable>
+         </BFBehAnimateSwitch>
+      </behaviors>
+   </Idle>
+   <Think>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet loopFlag="true">
+            <behaviorTable>
+               <Stand behSet="Idle"/>
+               <default behSet="Idle"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </Think>
+   <LookAt>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Idle weight="50"/>
+               <Investigate weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </LookAt>
+   <Investigate>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToLookAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehMove pathRadius="3"/>
+         <ZTBehViewEvent viewKey="Pos_2"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:LookAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehFaceTarget/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </Investigate>
+   <Stand>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Stand>
+   <Die_OldAge>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Dying"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Sleep"/>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalDiedBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               <ZTMessageInfo locID="zoomessages:AnimalDied" priority="-1" timeout="60" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </behaviors>
+   </Die_OldAge>
+   <Die_Sick>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Dying_Sick"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Sleep"/>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalDiedBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               <ZTMessageInfo locID="zoomessages:AnimalDied" priority="-1" timeout="60" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </behaviors>
+   </Die_Sick>
+   <Die_Fight>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+	 <ZTBehMorph morphEntity="subject" morphTargetEntityType="Carcass_Meat"/>
+      </behaviors>
+   </Die_Fight>
+   <StandEgg>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="StandEgg_Idle"/>
+      </behaviors>
+   </StandEgg>
+   <FailureSet>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_AlarmCall"/>
+      </behaviors>
+   </FailureSet>
+   <Stand_Idle>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate interruptFlag="true" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Stand_Idle>
+   <TreadWater_Idle>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate interruptFlag="true" targetAnim="TreadWater_Idle"/>
+      </behaviors>
+   </TreadWater_Idle>
+   <Rest>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Rest_Idle" playTime="8"/>
+      </behaviors>
+   </Rest>
+   <Sleep>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Rest_Idle" playTime="20"/>
+      </behaviors>
+   </Sleep>
+   <Eat>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </Eat>
+   <Graze>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Eat_Idle"/>
+      </behaviors>
+   </Graze>
+   <EnterTrough>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Mouth" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterTrough> 
+   <UseTrough>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </UseTrough>
+   <DrinkTrough>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+         <BFBehAnimate targetAnim="Eat_Idle"/>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+      </behaviors>
+   </DrinkTrough>
+   <ExitTrough>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </ExitTrough>
+   <EnterFoodDish>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Mouth" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterFoodDish> 
+   <UseFoodDish>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </UseFoodDish>
+   <DrinkFoodDish>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+         <BFBehAnimate targetAnim="Eat_Idle"/>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+      </behaviors>
+   </DrinkFoodDish>
+   <ExitFoodDish>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </ExitFoodDish>
+   <Drink>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+         <BFBehAnimate targetAnim="Eat_Idle"/>
+         <BFBehAnimate targetAnim="Eat_Drink"/>
+      </behaviors>
+   </Drink>
+   <SpreadWings>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="SpreadWings_Idle"/>
+      </behaviors>
+   </SpreadWings>
+   <AlarmCall>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_AlarmCall"/>
+      </behaviors>
+   </AlarmCall>
+   <Poop>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Poop_Idle"/>
+      </behaviors>
+   </Poop>
+   <Groom>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_CleanWingL weight="50"/>
+               <Stand_CleanWingR weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </Groom>
+   <Scratch>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Scratch"/>
+      </behaviors>
+   </Scratch>
+   <Shake>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Shake"/>
+      </behaviors>
+   </Shake>
+   <Stretch>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Stretch"/>
+      </behaviors>
+   </Stretch>
+   <Wake>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Yawn weight="50"/>
+               <Stretch weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Wake>
+   <HeadBob>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_HeadBob"/>
+      </behaviors>
+   </HeadBob>
+   <Yawn>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Yawn"/>
+      </behaviors>
+   </Yawn>
+   <MatingCall>
+      <subjects>
+         <PenguinEmperor_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_MatingCall"/>
+      </behaviors>
+   </MatingCall>
+   <MutualCall>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_MutualCall"/>
+      </behaviors>
+   </MutualCall>
+   <Threat>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Threat"/>
+      </behaviors>
+   </Threat>
+   <Attack>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Attack"/>
+      </behaviors>
+   </Attack>
+   <DockAttacked>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="AttackedCloud" emoticonEntityNode="Floor"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDockNow targetNode="p_PredatorOffset" subjectNode="p_PreyOffset" reserveSlotName="general"/>
+      </behaviors>
+   </DockAttacked>
+   <Attacked>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="SpreadWings_Idle"/>
+         <BFBehPlaySet behSet="Die_Fight"/>
+      </behaviors>
+   </Attacked>
+   <AttackedDie>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Attacked"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Killed"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalDiedBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               <ZTMessageInfo locID="zoomessages:AnimalDied" priority="-1" timeout="60" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehPlaySet behSet="Die_Fight"/>
+      </behaviors>
+   </AttackedDie>
+   <Fight>
+      <subjects>
+         <PenguinEmperor_Adult_M/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Attack"/>
+      </behaviors>
+   </Fight>
+   <DefendEqual>
+      <subjects>
+         <PenguinEmperor_Adult_M/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Attacked weight="50"/>
+               <AttackedDie weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </DefendEqual>
+   <DockFight>
+      <subjects>
+         <PenguinEmperor_Adult_M/>
+      </subjects>
+      <behaviors>
+         <BFBehDock subjectNode="Node_Mouth" targetNode="Node_Mouth" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </DockFight>
+   <WaitFight>
+      <subjects>
+         <PenguinEmperor_Adult_M/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Threat" loopFlag="true"/>
+      </behaviors>
+   </WaitFight>
+   <BeakInspection>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="BeakInspection_Idle"/>
+      </behaviors>
+   </BeakInspection>
+   <FootInspection>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="FootInspection_Idle"/>
+      </behaviors>
+   </FootInspection>
+   <SlayGuest>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="SlayGuest_Idle"/>
+      </behaviors>
+   </SlayGuest>
+   <Sick>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Sick>
+   <VerySick>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </VerySick>
+   <EnterIceFloe_Large3>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToClimb" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDockTAP targetAnim="TreadWater_Idle" subjectNode="Floor" targetTAP="EnterCPenguin"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Climbing" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="EnterCPenguin" exitTAP="false"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterIceFloe_Large3>
+   <EnterIceFloe_Large4>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToClimb" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDockTAP targetAnim="TreadWater_Idle" subjectNode="Floor" targetTAP="EnterDPenguin"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Climbing" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="EnterDPenguin" exitTAP="false"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterIceFloe_Large4>
+   <UseIceFloe_Large>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:RestingOn" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Rest_Idle" playTime="20"/>
+      </behaviors>
+   </UseIceFloe_Large>
+   <ExitIceFloe_Large3>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ClimbingDown" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="ExitCPenguin" exitTAP="true"/>
+      </behaviors>
+   </ExitIceFloe_Large3>
+   <ExitIceFloe_Large4>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ClimbingDown" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="ExitDPenguin" exitTAP="true"/>
+      </behaviors>
+   </ExitIceFloe_Large4>
+   <MateF>
+      <subjects>
+         <PenguinEmperor_Adult/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Mating" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_MatingCall"/>
+         <BFBehAnimate targetAnim="Stand_Stretch"/>
+         <BFBehAnimate targetAnim="Stand_MatingCall"/>
+      </behaviors>
+   </MateF>
+   <MateM>
+      <subjects>
+         <PenguinEmperor_Adult/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Mating" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Stretch"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehAnimate targetAnim="Stand_MatingCall"/>
+      </behaviors>
+   </MateM>
+   <LayEgg>
+      <subjects>
+         <PenguinEmperor_Adult_F/>
+      </subjects>
+      <behaviors>
+         <BFBehSpawn spawnEntity="PenguinEmperor_Egg" spawnRelation="child" subjectNode="Floor" fadeInPeriod="1" randomPosOffset="1"/>
+         <BFBehScript context="behavior" file="scripts/justgavebirth.lua" function="justgavebirth"/>
+      </behaviors>
+   </LayEgg>
+   <HatchEgg>
+      <subjects>
+         <PenguinEmperor_Egg/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet minPlays="1" maxPlays="1">
+            <randomSets>
+               <SpawnF weight="50"/>
+               <SpawnM weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </HatchEgg>
+   <IdleEgg>
+      <subjects>
+         <PenguinEmperor_Egg/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </IdleEgg>
+   <SpawnF>
+      <subjects>
+         <PenguinEmperor_Egg/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Hatch_Idle"/>
+         <ZTBehMorph morphEntity="PenguinEmperor_Egg" morphTargetEntityType="PenguinEmperor_Young_F" morphPeriod="2"/>
+         <BFBehKill killSubject="true"/>
+      </behaviors>
+   </SpawnF>
+   <SpawnM>
+      <subjects>
+         <PenguinEmperor_Egg/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Hatch_Idle"/>
+         <ZTBehMorph morphEntity="PenguinEmperor_Egg" morphTargetEntityType="PenguinEmperor_Young_M" morphPeriod="2"/>
+         <BFBehKill killSubject="true"/>
+      </behaviors>
+   </SpawnM>
+   <Slide>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Slide_Ahead"/>
+      </behaviors>
+   </Slide>
+   <FeedMother>
+      <subjects>
+         <PenguinEmperor_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:BeingFed" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_FoodCall" playTime="8"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalHungerGood"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </behaviors>
+   </FeedMother>
+   <DockFeedMother>
+      <subjects>
+         <PenguinEmperor_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToFeed" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDock subjectNode="Node_Mouth" targetNode="p_FeedYoungNode" targetAnim="Stand_Idle" locoSpeed="fast"/>
+      </behaviors>
+   </DockFeedMother>
+   <WaitFeedYoung>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:WaitingToFeedYoung" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitFeedYoung>
+   <FeedYoung>
+      <subjects>
+         <PenguinEmperor/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:FeedYoung" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="FeedYoung_Idle" loopFlag="true"/>
+      </behaviors>
+   </FeedYoung>
+</BehaviorSets>

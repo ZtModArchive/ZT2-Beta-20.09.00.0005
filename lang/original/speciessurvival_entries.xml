@@ -1,0 +1,251 @@
+<ZT2Strings>
+   <SpeciesSurvival>
+   
+   
+      <VulnerableAnimalsintro>Vulnerable Animals Adoption Program</VulnerableAnimalsintro>
+      <VulnerableAnimalsoverview>
+	Captive breeding is a strong indication of a zoo's ongoing commitment to wildlife conservation. The major donors backing your 
+	zoo are so committed to conservation that they have put a restriction on your ability to adopt animals from other 
+	facilities. They are insisting that you develop a thriving breeding and active adoption program so that you can 
+	offer animals to other facilities.  
+	<p/>
+	Meet the advanced needs of your animals to encourage reproduction. Don't let your animals become too crowded in their 
+	exhibits. Put extra animals up for adoption to other facilities but make sure you keep enough of an animal stock 
+	so that you can continue to maintain a growing and thriving animal community.  
+	<p/>
+	You will receive an adoption fee for each animal adopted by another facility and all funds raised through the 
+	adoption program will allow you to better provide for special diets, animal enrichment toys and comfortable 
+	homes for your animals.
+      </VulnerableAnimalsoverview>
+      <VulnerableAnimalsoverviewshort>
+        Captive breeding is a strong indication of a zoo's ongoing commitment to wildlife conservation. Develop a thriving breeding 
+        and active adoption program so that you can offer animals to other facilities.
+      </VulnerableAnimalsoverviewshort>
+      
+      <VulnerableAnimalsSuccessoverview>
+	Your breeding program has successfully added to the world's vulnerable animal population. You have had enough animal births
+	to support placing your animals up for adoption to other facilitiesand in doing so you have contributed to the 
+	conservation of these important animals.
+      </VulnerableAnimalsSuccessoverview> 
+      <VulnerableAnimalsFailureoverview>
+	You have neglected to keep enough mixed gender animals to maintain a breeding program. Unfortunately you have no way
+	to breed your animals to support any sort of adoption drive. Contrary to the wishes of your zoo's major donors, you would
+	have no choice now but to adopt additional animals.
+      </VulnerableAnimalsFailureoverview>       
+   
+      <VulnerableAnimalsresult>Animal Adoption program a success!</VulnerableAnimalsresult>
+
+      <VulnerableAnimalsBreeding>
+      	Breed your animals and offer extra animals up for adoption. You must put at least 6 animals up for adoption but make 
+      	sure that you have at least as many animals as when you started.
+      </VulnerableAnimalsBreeding>
+      
+      <VulnerableAnimalsBreedingone>
+      	You have successfully placed one animal up for adoption!
+      </VulnerableAnimalsBreedingone>
+      
+      <VulnerableAnimalsBreedingtwo>
+      	You have successfully placed two animals up for adoption!
+      </VulnerableAnimalsBreedingtwo>      
+      
+      <VulnerableAnimalsBreedingthree>
+       You have successfully placed three animals up for adoption!
+      </VulnerableAnimalsBreedingthree>      
+
+      <VulnerableAnimalsBreedingfour>
+      You have successfully placed four animals up for adoption!
+      </VulnerableAnimalsBreedingfour>
+      
+      <VulnerableAnimalsBreedingfive>
+       	You have successfully placed five animals up for adoption!
+      </VulnerableAnimalsBreedingfive>  
+      
+      <VulnerableAnimalsBreedingsix>
+      </VulnerableAnimalsBreedingsix> 
+      
+      <VulnerableAnimalsBreedingOK>
+      	Your exceptional breeding program has allowed you to place six animals up for adoption!
+      	Your donors are satisfied that you've made a positive impact on 
+      	conservation by supplying other facilities through this adoption program. 
+      </VulnerableAnimalsBreedingOK>      
+      
+      <VulnerableAnimalsBreedingFailed>
+      	Oh no! You no longer have enough of an animal stock to continue your breeding program. Your donors are very disappointed.
+      </VulnerableAnimalsBreedingFailed>
+
+   
+      <EndangeredAnimalsintro>Endangered Animals Species Survival</EndangeredAnimalsintro>
+      <EndangeredAnimalsoverview>
+	The birth of any baby animal is always a momentous occasion but the captive breeding of endangered animals 
+	is an important, proactive way of ensuring species survival. 
+	<p/>
+	Guests particularly enjoy seeing baby animals. When the species is endangered, it makes even more of an impact 
+	and guests are more likely to make generous donations when they view these special babies. 
+	<p/>
+	Meet the advanced needs of your Mountain Gorillas, Red Pandas and Snow Leopards to encourage their 
+	reproduction. Achieve $2000 in donations for each of these endangered animals.
+      </EndangeredAnimalsoverview>
+      <EndangeredAnimalsoverviewshort>
+        The birth of any baby animal is always a momentous occasion but the captive breeding of endangered animals 
+	is an important, proactive way of ensuring species survival. Do your part to encourage the reproduction of several
+	species of endangered animals.
+      </EndangeredAnimalsoverviewshort>
+      
+      <EndangeredAnimalsSuccessPart1overview>
+	Your breeding program has made a superb contribution to the survival of several endangered species. Guests really 
+	enjoy viewing baby animals and when those babies are endangered, it's even more appealing. The 
+	extra appeal of these babies is likely to increase your donation revenue. 
+      </EndangeredAnimalsSuccessPart1overview> 
+      <EndangeredAnimalsSuccessPart2overview>
+	You have had excellent results obtaining additional revenue from donations. This additional income will allow 
+	your zoo even more flexibility to fund new exhibits, improve animal accomodations or expand the amenities available to your
+	guests.
+      </EndangeredAnimalsSuccessPart2overview>      
+   
+      <EndangeredAnimalsresult>Endangered animals thriving!</EndangeredAnimalsresult>
+ 
+      <EndangeredAnimalsBreedGorilla>
+	Breed your Mountain Gorillas.      
+      </EndangeredAnimalsBreedGorilla>
+      <EndangeredAnimalsBreedRedPanda>
+      	Breed your Red Pandas.
+      </EndangeredAnimalsBreedRedPanda>      
+      <EndangeredAnimalsBreedSnowLeopard>
+      	Breed your Snow Leopards.
+      </EndangeredAnimalsBreedSnowLeopard>      
+      <EndangeredAnimalsBreedGorillaOK>
+      	Great! You've successfully bred Mountain Gorillas!
+      </EndangeredAnimalsBreedGorillaOK>
+      <EndangeredAnimalsBreedRedPandaOK>
+      	Great! You've successfully bred Red Pandas!
+      </EndangeredAnimalsBreedRedPandaOK>      
+      <EndangeredAnimalsBreedSnowLeopardOK>
+      	Great! You've successfully bred Snow Leopards!
+      </EndangeredAnimalsBreedSnowLeopardOK>      
+      
+      <EndangeredAnimalsBreedingFailed>
+        Oh no! You no longer have enough of an animal stock to continue your breeding program. 
+      </EndangeredAnimalsBreedingFailed>
+      <EndangeredAnimalsFailureoverview>
+	You have neglected to keep enough mixed gender animals to maintain a breeding program. Unfortunately you have no way
+	to breed your animals to support a conservation program for endangered animals.
+      </EndangeredAnimalsFailureoverview>      
+      
+   
+      <EndangeredAnimalsGorillaDonations>
+      	Now that you have a Mountain Gorilla baby, achieve $2000 in donations for your Mountain Gorillas.
+      </EndangeredAnimalsGorillaDonations>
+      <EndangeredAnimalsRedPandaDonations>
+      	Now that you have a Red Panda baby, achieve $2000 in donations for your Red Pandas.
+      </EndangeredAnimalsRedPandaDonations>      
+      <EndangeredAnimalsSnowLeopardDonations>
+      	Now that you have a Snow Leopard baby ,achieve $2000 in donations for your Snow Leopards.
+      </EndangeredAnimalsSnowLeopardDonations>   
+      <EndangeredAnimalsGorillaDonationsOK>
+      	You have received at least $2000 in donations for your Mountain Gorillas.
+      </EndangeredAnimalsGorillaDonationsOK>
+      <EndangeredAnimalsRedPandaDonationsOK>
+      	You have received at least $2000 in donations for your Red Pandas.
+      </EndangeredAnimalsRedPandaDonationsOK>      
+      <EndangeredAnimalsSnowLeopardDonationsOK>
+      	You have received at least $2000 in donations for your Snow Leopards.
+      </EndangeredAnimalsSnowLeopardDonationsOK> 
+
+
+
+
+
+      <SecondGenerationintro>Second Generation Animals</SecondGenerationintro>
+      <SecondGenerationoverview>
+	Breeding animals in captivity is a difficult venture that many zoos strive to add to their list of 
+	accomplishments. Successfully breeding second-generation animals is even more challenging. Establish a 
+	thriving breeding program where any of your animals breed second generation animals, and your zoo will be added to 
+	the list of the select few who have successfully supported multiple breeding generations.
+      </SecondGenerationoverview>
+      <SecondGenerationoverviewshort>
+        Breeding animals in captivity is a difficult venture that many zoos strive to add to their list of 
+	accomplishments. Successfully breeding second-generation animals is even more challenging. Can your zoo 
+	be one of the few than can boast of this accomplishment?
+      </SecondGenerationoverviewshort>
+      
+      <SecondGenerationSuccessoverview>
+	Few facilities can boast that they have successfully bred second generation animals. You have been added to a 
+	list of the select few who can make this claim. Your notoriety in the world of zoos is certain to be widespread 
+	and the births of your animal additions have made headlines around the world.
+      </SecondGenerationSuccessoverview> 
+      <SecondGenerationFailureoverview>
+	You have neglected to keep enough mixed gender animals to maintain a breeding program and achieving the select status
+	of breeding multiple generations of animals is out of your grasp.
+      </SecondGenerationFailureoverview>       
+   
+      <SecondGenerationresult>A thriving animal community!</SecondGenerationresult>
+
+      <SecondGenerationBreeding>
+      	Successfully breed any of your animals such that the offspring of animals bred in your zoo are also successfully bred.
+      </SecondGenerationBreeding>
+      
+      <SecondGenerationBreedingZebraOne>
+      	Your Common Zebras have produced their first offspring!
+      </SecondGenerationBreedingZebraOne>
+      	
+      <SecondGenerationBreedingZebraTwo>
+      	The offspring of your Common Zebras have produced a second generation of Zebras!
+      </SecondGenerationBreedingZebraTwo>
+      
+      <SecondGenerationBreedingLemurOne>
+      	Your Lemurs have produced their first offspring!
+      </SecondGenerationBreedingLemurOne>
+      
+      <SecondGenerationBreedingLemurTwo>
+      	The offspring of your Lemurs have produced a second generation of Lemurs!
+      </SecondGenerationBreedingLemurTwo>
+      
+      <SecondGenerationBreedingChimpOne>
+      	Your Chimpanzees have produced their first offspring!
+      </SecondGenerationBreedingChimpOne>
+      
+      <SecondGenerationBreedingChimpTwo>
+     	The offspring of your Chimpanzees have produced a second generation of Chimpanzees!
+      </SecondGenerationBreedingChimpTwo>
+      
+      
+      <SecondGenerationBreedingOK>
+      	Congratulations! Very few facilities can say they have successfully bred second generation animals. You have been added to a list of the select few that have. 
+      </SecondGenerationBreedingOK>      
+      
+      <SecondGenerationBreedingFailed>
+      	Oh no! You no longer have enough of an animal stock to continue your breeding program. 
+      </SecondGenerationBreedingFailed>
+
+
+
+
+   </SpeciesSurvival>
+
+
+
+
+
+
+
+
+
+   
+   <SpeciesSurvivalLabels>
+   	<SpeciesSurvivalshort>Conservation Programs</SpeciesSurvivalshort>
+   	
+   	<VulnerableAnimalsS1>Animal Adoption Program</VulnerableAnimalsS1>
+   	<VulnerableAnimalsS1short>Animal Adoptions</VulnerableAnimalsS1short>   	
+   	
+   		
+   	<EndangeredAnimalsS2>Animal Conservation</EndangeredAnimalsS2>
+   	<EndangeredAnimalsS2short>Animal Conservation</EndangeredAnimalsS2short>  
+   	
+  	
+   	<SecondGenerationS3>Second Generation Animals</SecondGenerationS3>
+   	<SecondGenerationS3short>Second Generation</SecondGenerationS3short>
+
+   
+   </SpeciesSurvivalLabels>   
+   
+</ZT2Strings>

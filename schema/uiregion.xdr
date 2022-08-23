@@ -1,0 +1,16 @@
+<Schema name="UIRegion">
+	<ElementType name="UIRegion">
+		<extends type="BFXMLObj"/>
+		<AttributeType name="align">
+			<datatype dt:type="enumeration" dt:values="min mid max %min %mid %max"/>
+		</AttributeType>
+		<attribute name="x" dt:type="int" default="0" />
+		<attribute name="y" dt:type="int" default="0" />
+		<attribute name="w" dt:type="int" default="0" />
+		<attribute name="h" dt:type="int" default="0" />
+		<attribute name="xalign" type="align" default="min" />
+		<attribute name="yalign" type="align" default="min" />
+		<attribute name="walign" type="align" default="len" />
+		<attribute name="halign" type="align" default="len" />
+	</ElementType>
+</Schema>

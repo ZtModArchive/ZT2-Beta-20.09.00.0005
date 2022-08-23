@@ -1,0 +1,526 @@
+<BFM modelname="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M.NIF">
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_EatTrough_2Stand.bf" animName="EatTrough_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_EatTrough_Idle.bf" animName="EatTrough_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Eat_2Stand.bf" animName="Eat_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Eat_Idle.bf" animName="Eat_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_FeedYoung_2Stand.bf" animName="FeedYoung_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_FeedYoung_Idle.bf" animName="FeedYoung_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Fly_2Run.bf" animName="Fly_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Fly_2Walk.bf" animName="Fly_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Fly_Ahead.bf" animName="Fly_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Fly_Left.bf" animName="Fly_Left" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Fly_Right.bf" animName="Fly_Right" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Fly_TurnLeftA.bf" animName="Fly_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Fly_TurnRightA.bf" animName="Fly_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_HeadDown_2Stand.bf" animName="HeadDown_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_HeadDown_Call.bf" animName="HeadDown_Call" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_HeadDown_Idle.bf" animName="HeadDown_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_HeadDown_Nudge.bf" animName="HeadDown_Nudge" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_HeadDown_Scratch.bf" animName="HeadDown_Scratch" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_Jump_2Run.bf" animName="Jump_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_Jump_Ahead.bf" animName="Jump_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_KnockedDown_2Stand.bf" animName="KnockedDown_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_KnockedDown_Idle.bf" animName="KnockedDown_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Poop_2Stand.bf" animName="Poop_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Poop_Idle.bf" animName="Poop_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Rest_2Sleep.bf" animName="Rest_2Sleep" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Rest_2Stand.bf" animName="Rest_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Rest_Idle.bf" animName="Rest_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Run_2Fly.bf" animName="Run_2Fly" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_Run_2Jump.bf" animName="Run_2Jump" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Run_2Stand.bf" animName="Run_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Run_2Walk.bf" animName="Run_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Run_Ahead.bf" animName="Run_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_Run_JumpLowFence.bf" animName="Run_JumpLowFence" debug="false" animSpeed="1.000000" explicitUseOnly="true" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Run_Left.bf" animName="Run_Left" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Run_Right.bf" animName="Run_Right" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Run_TurnLeftA.bf" animName="Run_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Run_TurnRightA.bf" animName="Run_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Secondary_HeadLook.bf" animName="Secondary_HeadLook" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_Secondary_MouthA.bf" animName="Secondary_MouthA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_Secondary_TailA.bf" animName="Secondary_TailA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Sit_2Stand.bf" animName="Sit_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Sit_Idle.bf" animName="Sit_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Sit_LookLeft.bf" animName="Sit_LookLeft" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Sit_LookRight.bf" animName="Sit_LookRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Sit_Pose.bf" animName="Sit_Pose" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Sleep_2Rest.bf" animName="Sleep_2Rest" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Sleep_Idle.bf" animName="Sleep_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_StandLeftLeg_2Stand.bf" animName="StandLeftLeg_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_StandLeftLeg_Idle.bf" animName="StandLeftLeg_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_StandRightLeg_2Stand.bf" animName="StandRightLeg_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_StandRightLeg_Idle.bf" animName="StandRightLeg_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2Eat.bf" animName="Stand_2Eat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_Stand_2EatTrough.bf" animName="Stand_2EatTrough" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_Stand_2FeedYoung.bf" animName="Stand_2FeedYoung" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2HeadDown.bf" animName="Stand_2HeadDown" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2KnockedDown.bf" animName="Stand_2KnockedDown" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2Poop.bf" animName="Stand_2Poop" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2Rest.bf" animName="Stand_2Rest" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2Run.bf" animName="Stand_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2Sit.bf" animName="Stand_2Sit" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2StandLeftLeg.bf" animName="Stand_2StandLeftLeg" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2StandRightLeg.bf" animName="Stand_2StandRightLeg" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2TailSpread.bf" animName="Stand_2TailSpread" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_2Walk.bf" animName="Stand_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_AttackGuest.bf" animName="Stand_AttackGuest" debug="false" animSpeed="1.000000" explicitUseOnly="true" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_Attacked.bf" animName="Stand_Attacked" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_BeakAttack.bf" animName="Stand_BeakAttack" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_Breath.bf" animName="Stand_Breath" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_Call.bf" animName="Stand_Call" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_CleanWingL.bf" animName="Stand_CleanWingL" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_CleanWingR.bf" animName="Stand_CleanWingR" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_CleanWing_Left.bf" animName="Stand_CleanWing_Left" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_CleanWing_Right.bf" animName="Stand_CleanWing_Right" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_HeadBob.bf" animName="Stand_HeadBob" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_LookLeft.bf" animName="Stand_LookLeft" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_LookRight.bf" animName="Stand_LookRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_PeckGuest.bf" animName="Stand_PeckGuest" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_Pose.bf" animName="Stand_Pose" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_Stand_Scratch.bf" animName="Stand_Scratch" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_Shake.bf" animName="Stand_Shake" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_StretchLeft.bf" animName="Stand_StretchLeft" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_StretchRight.bf" animName="Stand_StretchRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_Turn180.bf" animName="Stand_Turn180" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_TurnL.bf" animName="Stand_TurnL" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_TurnLeft180.bf" animName="Stand_TurnLeft180" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_TurnLeft90.bf" animName="Stand_TurnLeft90" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_TurnR.bf" animName="Stand_TurnR" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Stand_TurnRight90.bf" animName="Stand_TurnRight90" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_SwimEat_2Swim.bf" animName="SwimEat_2Swim" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_SwimEat_Idle.bf" animName="SwimEat_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Swim_2SwimEat.bf" animName="Swim_2SwimEat" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Swim_2TreadWater.bf" animName="Swim_2TreadWater" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Swim_2Walk.bf" animName="Swim_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Swim_Ahead.bf" animName="Swim_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_TailSpread_2Stand.bf" animName="TailSpread_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_TailSpread_Call.bf" animName="TailSpread_Call" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_TailSpread_Idle.bf" animName="TailSpread_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_F_TreadWater_2Stand.bf" animName="TreadWater_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_TreadWater_2Swim.bf" animName="TreadWater_2Swim" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_TreadWater_Call.bf" animName="TreadWater_Call" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_TreadWater_Groom.bf" animName="TreadWater_Groom" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_TreadWater_Idle.bf" animName="TreadWater_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_TreadWater_TurnLeft.bf" animName="TreadWater_TurnLeft" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_TreadWater_TurnRight.bf" animName="TreadWater_TurnRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_WalkHeadDown_2HeadDown.bf" animName="WalkHeadDown_2HeadDown" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_WalkHeadDown_2Stand.bf" animName="WalkHeadDown_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_WalkHeadDown_2Walk.bf" animName="WalkHeadDown_2Walk" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_WalkHeadDown_Ahead.bf" animName="WalkHeadDown_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_WalkHeadDown_Left.bf" animName="WalkHeadDown_Left" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_WalkHeadDown_Right.bf" animName="WalkHeadDown_Right" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_WalkHeadDown_TurnLeftA.bf" animName="WalkHeadDown_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_WalkHeadDown_TurnRightA.bf" animName="WalkHeadDown_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_2Fly.bf" animName="Walk_2Fly" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_2Run.bf" animName="Walk_2Run" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_2Stand.bf" animName="Walk_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_2Swim.bf" animName="Walk_2Swim" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_2WalkHeadDown.bf" animName="Walk_2WalkHeadDown" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_Ahead.bf" animName="Walk_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_Left.bf" animName="Walk_Left" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_Right.bf" animName="Walk_Right" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_TurnLeftA.bf" animName="Walk_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_Walk_TurnRightA.bf" animName="Walk_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="FlamingoGreater_Adult_M" version="1">
+	<node name="Eat">
+		<table>
+			<Eat_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Eat_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="EatTrough">
+		<table>
+			<EatTrough_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<EatTrough_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="FeedYoung">
+		<table>
+			<FeedYoung_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<FeedYoung_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Fly">
+		<table>
+			<Fly_Ahead />
+			<Fly_Left />
+			<Fly_Right />
+			<Fly_TurnLeftA />
+			<Fly_TurnRightA />
+		</table>
+		<edge name="Run">
+			<table>
+				<Fly_2Run />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Fly_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="HeadDown">
+		<table>
+			<HeadDown_Call />
+			<HeadDown_Idle />
+			<HeadDown_Nudge />
+			<HeadDown_Scratch />
+		</table>
+		<edge name="Stand">
+			<table>
+				<HeadDown_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Jump">
+		<table>
+			<Jump_Ahead />
+		</table>
+		<edge name="Run">
+			<table>
+				<Jump_2Run />
+			</table>
+		</edge>
+	</node>
+	<node name="KnockedDown">
+		<table>
+			<KnockedDown_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<KnockedDown_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Poop">
+		<table>
+			<Poop_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Poop_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Rest">
+		<table>
+			<Rest_Idle />
+		</table>
+		<edge name="Sleep">
+			<table>
+				<Rest_2Sleep />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Rest_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Run">
+		<table>
+			<Run_Ahead />
+			<Run_JumpLowFence />
+			<Run_Left />
+			<Run_Right />
+			<Run_TurnLeftA />
+			<Run_TurnRightA />
+		</table>
+		<edge name="Fly">
+			<table>
+				<Run_2Fly />
+			</table>
+		</edge>
+		<edge name="Jump">
+			<table>
+				<Run_2Jump />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Run_2Stand />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Run_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="Secondary">
+		<table>
+			<Secondary_HeadLook />
+			<Secondary_MouthA />
+			<Secondary_TailA />
+		</table>
+	</node>
+	<node name="Sit">
+		<table>
+			<Sit_Idle />
+			<Sit_LookLeft />
+			<Sit_LookRight />
+			<Sit_Pose />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Sit_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Sleep">
+		<table>
+			<Sleep_Idle />
+		</table>
+		<edge name="Rest">
+			<table>
+				<Sleep_2Rest />
+			</table>
+		</edge>
+	</node>
+	<node name="Stand">
+		<table>
+			<Stand_AttackGuest />
+			<Stand_Attacked />
+			<Stand_BeakAttack />
+			<Stand_Breath />
+			<Stand_Call />
+			<Stand_CleanWingL />
+			<Stand_CleanWingR />
+			<Stand_CleanWing_Left />
+			<Stand_CleanWing_Right />
+			<Stand_HeadBob />
+			<Stand_Idle />
+			<Stand_LookLeft />
+			<Stand_LookRight />
+			<Stand_PeckGuest />
+			<Stand_Pose />
+			<Stand_Scratch />
+			<Stand_Shake />
+			<Stand_StretchLeft />
+			<Stand_StretchRight />
+			<Stand_Turn180 />
+			<Stand_TurnL />
+			<Stand_TurnLeft180 />
+			<Stand_TurnLeft90 />
+			<Stand_TurnR />
+			<Stand_TurnRight90 />
+		</table>
+		<edge name="Eat">
+			<table>
+				<Stand_2Eat />
+			</table>
+		</edge>
+		<edge name="EatTrough">
+			<table>
+				<Stand_2EatTrough />
+			</table>
+		</edge>
+		<edge name="FeedYoung">
+			<table>
+				<Stand_2FeedYoung />
+			</table>
+		</edge>
+		<edge name="HeadDown">
+			<table>
+				<Stand_2HeadDown />
+			</table>
+		</edge>
+		<edge name="KnockedDown">
+			<table>
+				<Stand_2KnockedDown />
+			</table>
+		</edge>
+		<edge name="Poop">
+			<table>
+				<Stand_2Poop />
+			</table>
+		</edge>
+		<edge name="Rest">
+			<table>
+				<Stand_2Rest />
+			</table>
+		</edge>
+		<edge name="Run">
+			<table>
+				<Stand_2Run />
+			</table>
+		</edge>
+		<edge name="Sit">
+			<table>
+				<Stand_2Sit />
+			</table>
+		</edge>
+		<edge name="StandLeftLeg">
+			<table>
+				<Stand_2StandLeftLeg />
+			</table>
+		</edge>
+		<edge name="StandRightLeg">
+			<table>
+				<Stand_2StandRightLeg />
+			</table>
+		</edge>
+		<edge name="TailSpread">
+			<table>
+				<Stand_2TailSpread />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Stand_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="StandLeftLeg">
+		<table>
+			<StandLeftLeg_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<StandLeftLeg_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="StandRightLeg">
+		<table>
+			<StandRightLeg_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<StandRightLeg_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Swim">
+		<table>
+			<Swim_Ahead />
+		</table>
+		<edge name="SwimEat">
+			<table>
+				<Swim_2SwimEat />
+			</table>
+		</edge>
+		<edge name="TreadWater">
+			<table>
+				<Swim_2TreadWater />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<Swim_2Walk />
+			</table>
+		</edge>
+	</node>
+	<node name="SwimEat">
+		<table>
+			<SwimEat_Idle />
+		</table>
+		<edge name="Swim">
+			<table>
+				<SwimEat_2Swim />
+			</table>
+		</edge>
+	</node>
+	<node name="TailSpread">
+		<table>
+			<TailSpread_Call />
+			<TailSpread_Idle />
+		</table>
+		<edge name="Stand">
+			<table>
+				<TailSpread_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="TreadWater">
+		<table>
+			<TreadWater_Call />
+			<TreadWater_Groom />
+			<TreadWater_Idle />
+			<TreadWater_TurnLeft />
+			<TreadWater_TurnRight />
+		</table>
+		<edge name="Stand">
+			<table>
+				<TreadWater_2Stand />
+			</table>
+		</edge>
+		<edge name="Swim">
+			<table>
+				<TreadWater_2Swim />
+			</table>
+		</edge>
+	</node>
+	<node name="Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_Left />
+			<Walk_Right />
+			<Walk_TurnLeftA />
+			<Walk_TurnRightA />
+		</table>
+		<edge name="Fly">
+			<table>
+				<Walk_2Fly />
+			</table>
+		</edge>
+		<edge name="Run">
+			<table>
+				<Walk_2Run />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<Walk_2Stand />
+			</table>
+		</edge>
+		<edge name="Swim">
+			<table>
+				<Walk_2Swim />
+			</table>
+		</edge>
+		<edge name="WalkHeadDown">
+			<table>
+				<Walk_2WalkHeadDown />
+			</table>
+		</edge>
+	</node>
+	<node name="WalkHeadDown">
+		<table>
+			<WalkHeadDown_Ahead />
+			<WalkHeadDown_Left />
+			<WalkHeadDown_Right />
+			<WalkHeadDown_TurnLeftA />
+			<WalkHeadDown_TurnRightA />
+		</table>
+		<edge name="HeadDown">
+			<table>
+				<WalkHeadDown_2HeadDown />
+			</table>
+		</edge>
+		<edge name="Stand">
+			<table>
+				<WalkHeadDown_2Stand />
+			</table>
+		</edge>
+		<edge name="Walk">
+			<table>
+				<WalkHeadDown_2Walk />
+			</table>
+		</edge>
+	</node>
+</Graph>

@@ -1,0 +1,64 @@
+<BFTypedBinder binderType="DonationBox_df">
+   <types>
+      <entity>
+         <scenery>
+            <donationbox>
+               <DonationBox_df/>
+            </donationbox>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\scenery\DonationBox_df\DonationBox_df_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:DonationBox"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="DonationBox_df"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData terrainFlatten="false" dockArrowStyle="special" dockArrowSize="1.0" icon3Doffset="0 0.009851 0.366036" icon3Dscale="0.977818"/>
+      <BFAIEntityDataShared b_DonationAcceptor="true" s_Zoopedia="zoopedia:zoopedia_donationbox:entry"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="footprint" ignoreLights="false" width="1.5" minLength="1.5" maxLength="3" minOffset="0" maxOffset=".75"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/scenery/DonationBox_df/DonationBox_df.nif" switch="0 18 45"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="200">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+               <ZTTransaction name="donate" cost="10" type="debit" category="donations_income"/>
+               <ZTTransaction name="add_user" cost="1" type="addUser" category="user"/>
+               <BFGTransactionTracker>
+                  <ignore>
+                     <build/>
+                     <add_user/>
+                  </ignore>
+               </BFGTransactionTracker>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

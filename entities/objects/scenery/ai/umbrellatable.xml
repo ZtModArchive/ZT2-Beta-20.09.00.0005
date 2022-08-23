@@ -1,0 +1,15 @@
+<BFTypedBinder binderType="umbrellatable" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <umbrellatable/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0 0.278613" icon3Dscale="0.487608" />
+   </shared>
+</BFTypedBinder>

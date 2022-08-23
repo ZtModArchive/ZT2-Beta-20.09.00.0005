@@ -1,0 +1,100 @@
+<BFTypedBinder binderType="ScratchPost">
+   <types>
+      <entity>
+         <enrichment>
+            <stationary_enrichment>
+               <ScratchPost/>
+            </stationary_enrichment>
+         </enrichment>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\enrichment\ScratchPost\ScratchPost_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:ScratchPost"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ScratchPost"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\enrichment\ScratchPost\ScratchPost_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ScratchPost"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData randomRotate="false" gridSnap="true" autoFootprint="true" terrainFlatten="true" icon3Doffset="0 0 0.119769" icon3Dscale="0.833129"/>
+      <BFAIEntityDataShared b_RubObject_Medium="true" s_Zoopedia="zoopedia:zoopedia_scratchingpost:entry" f_researchUnlockTime="108" f_researchCost="900"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\square_blob.tga" baseNode="footprint" width="2" minLength="2" maxLength="5" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/enrichment/ScratchPost/ScratchPost.nif" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="500">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal_upkeep"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="General">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterBall" useBehSet="UseBall" exitBehSet="ExitBall" targetNode="Dock_01" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterBall" useBehSet="UseBall" exitBehSet="ExitBall" targetNode="Dock_02" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterBall" useBehSet="UseBall" exitBehSet="ExitBall" targetNode="Dock_03" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterBall" useBehSet="UseBall" exitBehSet="ExitBall" targetNode="Dock_04" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Rub">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeRub" useBehSet="RubTree" exitBehSet="ExitTreeRub" targetNode="Dock_01" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeRub" useBehSet="RubTree" exitBehSet="ExitTreeRub" targetNode="Dock_02" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeRub" useBehSet="RubTree" exitBehSet="ExitTreeRub" targetNode="Dock_03" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeRub" useBehSet="RubTree" exitBehSet="ExitTreeRub" targetNode="Dock_04" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Scratch">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterScratch" useBehSet="ScratchObject" exitBehSet="ExitScratch" targetNode="Dock_01" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterScratch" useBehSet="ScratchObject" exitBehSet="ExitScratch" targetNode="Dock_02" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterScratch" useBehSet="ScratchObject" exitBehSet="ExitScratch" targetNode="Dock_03" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterScratch" useBehSet="ScratchObject" exitBehSet="ExitScratch" targetNode="Dock_04" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

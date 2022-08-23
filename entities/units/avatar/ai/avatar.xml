@@ -1,0 +1,30 @@
+<BFTypedBinder binderType="avatar">
+   <types>
+      <entity>
+         <avatar/>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <BFGCollisionData isPassable="true"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities\units\avatar\avatar.nif" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFGridCollisionComponent enable="true"/>
+               <BFCollisionComponent grid="footprint"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <BFGCollisionTester motionClass="avatarMover" maxSlope=".78"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

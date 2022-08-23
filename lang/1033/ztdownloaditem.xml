@@ -1,0 +1,14 @@
+<ZT2Strings>
+      <LOC_STRING _locID="ZTDownloadItem" version="0"/>
+      <LOC_STRING _locID="ZTDownloadItem:CancelDownload">Cancel</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:Download">Download</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:AwaitingDownload">Awaiting Download</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:ContactingServer">Contacting Server</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:ProgressFormatString">%d%%</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:MultiFileProgressFormatString">%d of %d files complete--%d%%</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:GettingFile">Getting File</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:DownloadComplete">Download Complete</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:DownloadCanceled">Download Canceled</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:ErrorFormatString">Error: %d %u</LOC_STRING>
+      <LOC_STRING _locID="ZTDownloadItem:NumFiles">%d files</LOC_STRING>
+</ZT2Strings>

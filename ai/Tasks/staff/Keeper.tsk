@@ -1,0 +1,272 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="FillFoodContainer" CursorTask="false" reserveTag="Eat" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <Keeper/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+            <Qualifiers f_FoodLevel="LE 33"/>
+         </Targets>
+         <Objects>
+            <t_FillFoodContainer/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-100"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="staffactions:GoFillDish"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:KeeperGoFillDish" priority="1" timeout="30" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehEnter/>
+         <BFBehPlaySet behSet="useContainer"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="staffactions:FillDish"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:KeeperFillDish" priority="1" timeout="30" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehEconomy transactionName="refill"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAITargetData f_FoodLevel="100"/>
+      </BFAICompletionData>
+      <BFAIFailureData>
+      	<BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:StaffFailure" priority="-1" timeout="30" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>      		
+      	</BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="RakePoo" CursorTask="false" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <Keeper/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_RakePoo/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-50"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+             	  <ZTActionInfo locID="staffactions:GoRakePoo"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDockRadial dockRadius="1" targetAnim="Stand_Idle"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+      	<BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+             	  <ZTActionInfo locID="staffactions:RakePoo"/>
+               <ZTThoughtInfo locID="staffthoughts:KeeperRakePoo" priority="1" timeout="30" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Rake_Idle"/>
+         <BFBehKill killTarget="true"/>
+         <BFBehScript file="scripts/CompostPoo.lua" context="behavior" function="CompostPoo"/>
+      </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+      	<BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:StaffFailure" priority="-1" timeout="30" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>      		
+      	</BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="FeedAnimal" CursorTask="false" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <Keeper/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_FeedAnimal/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-100"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="staffactions:GoFeedAnimal"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:KeeperGoFillDish" priority="1" timeout="30" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehMove locoSpeed="fast"/>
+         <BFBehAnimate targetAnim="PlaceFood_Idle"/>
+         <ZTBehPlaceTarget targetBaseType="food" taskFilter="EatKeeper"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="staffactions:FeedAnimal"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:KeeperFillDish" priority="1" timeout="30" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData>
+      	<BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:StaffFailure" priority="1" timeout="30" global="false" useEntityName="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>      		
+      	</BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   
+   <BFAITaskTemplate Name="WaterAnimal" CursorTask="false" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <Keeper/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_WaterAnimal/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-100"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="staffactions:GoWaterAnimal"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:KeeperGoFillDish" priority="1" timeout="30" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehMove locoSpeed="fast"/>
+         <BFBehAnimate targetAnim="PlaceFood_Idle"/>
+         <ZTBehPlaceTarget targetBaseType="food" taskFilter="DrinkKeeper"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="staffactions:WaterAnimal"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:KeeperFillDish" priority="1" timeout="30" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+
+   <BFAITaskTemplate Name="HealAnimal" CursorTask="false" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <Keeper/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_HealAnimal/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-150"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+
+         <BFBehPlaySet behSet="HealAnimal"/>
+
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   
+   <BFAITaskTemplate Name="CheckupBaby" CursorTask="false" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <Keeper/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_CheckupBaby/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-125"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+
+         <BFBehPlaySet behSet="CheckupBaby"/>
+
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   
+   
+
+   <BFAITaskTemplate Name="CrateAnimal" CursorTask="false" Priority="20">
+      <BFAICreateData>
+         <Subjects>
+            <Keeper/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_CrateAnimal/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-150"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+
+         <BFBehPlaySet behSet="CrateAnimal"/>
+
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+
+</BFAITaskTemplateList>

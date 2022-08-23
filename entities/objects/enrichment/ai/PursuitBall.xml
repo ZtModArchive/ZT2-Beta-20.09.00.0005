@@ -1,0 +1,91 @@
+<BFTypedBinder binderType="PursuitBall">
+   <types>
+      <entity>
+         <enrichment>
+            <toy>
+               <PursuitBall/>
+            </toy>
+         </enrichment>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\enrichment\PursuitBall\PursuitBall_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:PursuitBall"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PursuitBall"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData moveable="true" waterPlacement="true" randomRotate="false" gridSnap="true" autoFootprint="false" icon3Doffset="0 -0.060010 0.158160" icon3Dscale="1.064964">
+         <cfootprint width="0" height="0"/>
+         <dfootprint width="1" height="1"/>
+      </ZTPlacementData>
+      <BFAIEntityDataShared s_Zoopedia="zoopedia:zoopedia_PursuitBall:entry"/>
+      <BFGCollisionData isPassable="true"/>
+      <BFGDetachInfo>
+         <detachActionTable>
+            <dropitem destination="drop"/>
+            <killitem destination="kill"/>
+            <inventory destination="inventory"/>
+            <maketrash destination="kill"/>
+         </detachActionTable>
+      </BFGDetachInfo>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="footprint" width=".5" minLength=".5" maxLength=".75" minOffset="0" maxOffset=".125"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFActorComponent actorfile="entities\objects\enrichment\PursuitBall\PursuitBall.bfm" scale="1.0"/>
+               <BFFakePhysicsComponent idleAnim="Stand_Idle" moveAnim="Stand_Bounce" escapeAnim="Stand_Nudge" slideRate="2.0" maxEscapeTries="5"/>
+               <BFGroundFitComponent heightOffset="0.0" floatOnWater="true" waterOffset="-0.65"/>
+               <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+               <BFCollisionComponent grid="Bone01"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Play">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterBall" useBehSet="UsePursuitBall_Whap" exitBehSet="ExitBall" targetNode="Dock_01" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterBall" useBehSet="UsePursuitBall_Whap" exitBehSet="ExitBall" targetNode="Dock_02" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterBall" useBehSet="UsePursuitBall_Whap" exitBehSet="ExitBall" targetNode="Dock_03" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterBall" useBehSet="UsePursuitBall_Whap" exitBehSet="ExitBall" targetNode="Dock_04" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="320">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal_upkeep"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFAIEntityDataInstance b_Moving="false"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

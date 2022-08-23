@@ -1,0 +1,3 @@
+<UIListBox name="aistuff" columns="2" autosize="false">
+	<UIRegion y="20" w="100" h="160" walign="% min" />
+</UIListBox>

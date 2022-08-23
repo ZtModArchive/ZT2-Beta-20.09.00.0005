@@ -1,0 +1,65 @@
+<Graph name = "Moose_Adult_M">
+	<node name = "Eat">
+		<table>
+			<Eat_Idle />
+		</table>
+		<edge anim = "Eat_2Stand" node = "Stand" />
+	</node>
+	<node name = "Lie">
+		<table>
+			<Lie_Idle />
+		</table>
+		<edge anim = "Lie_2Sleep" node = "Sleep" />
+		<edge anim = "Lie_2Stand" node = "Stand" />
+	</node>
+	<node name = "Pee">
+		<table>
+			<Pee_Idle />
+		</table>
+		<edge anim = "Pee_2Stand" node = "Stand" />
+	</node>
+	<node name = "Poop">
+		<table>
+			<Poop_Idle />
+		</table>
+		<edge anim = "Poop_2Stand" node = "Stand" />
+	</node>
+	<node name = "Run">
+		<table>
+			<Run_Ahead />
+		</table>
+	</node>
+	<node name = "Sleep">
+		<table>
+			<Sleep_Idle />
+		</table>
+		<edge anim = "Sleep_2Lie" node = "Lie" />
+	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Idle />
+			<Stand_RubAntlersOnTree />
+			<Stand_Shake />
+			<Stand_TailTwitch />
+			<Stand_Turn180 />
+			<Stand_TurnL />
+			<Stand_TurnR />
+		</table>
+		<edge anim = "Stand_2Eat" node = "Eat" />
+		<edge anim = "Stand_2Lie" node = "Lie" />
+		<edge anim = "Stand_2Pee" node = "Pee" />
+		<edge anim = "Stand_2Poop" node = "Poop" />
+		<edge anim = "Stand_2Walk" node = "Walk" />
+	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_LeftA />
+			<Walk_LeftB />
+			<Walk_RightA />
+			<Walk_RightB />
+		</table>
+		<edge anim = "Walk_2Stand" node = "Stand" />
+	</node>
+
+</Graph>

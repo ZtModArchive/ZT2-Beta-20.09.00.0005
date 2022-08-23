@@ -1,0 +1,122 @@
+<BFParticleDictionary>
+   <EmoteAnimalExerciseGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalExerciseGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalExerciseGood>
+   <EmoteAnimalHungerGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalHungerGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalHungerGood>
+   <EmoteAnimalThirstGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalThirstGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalThirstGood>
+   <EmoteAnimalPrivacyGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalPrivacyGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalPrivacyGood>
+   <EmoteAnimalExerciseVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalExerciseVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalExerciseVeryGood>
+   <EmoteAnimalHungerVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalHungerVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalHungerVeryGood>
+   <EmoteAnimalThirstVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalThirstVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalThirstVeryGood>
+   <EmoteAnimalPrivacyVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalPrivacyVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalPrivacyVeryGood>
+   <EmoteAnimalHungerBad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalHungerBad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalHungerBad>
+   <EmoteAnimalThirstBad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalThirstBad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalThirstBad>
+   <EmoteAnimalRestBad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalRestBad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalRestBad>
+   <EmoteAnimalExerciseBad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalExerciseBad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalExerciseBad>
+   <EmoteAnimalPrivacyBad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalPrivacyBad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalPrivacyBad>
+   <EmoteAnimalHealthBad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalHealthBad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalHealthBad>
+   <EmoteAnimalHygieneGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalHygieneGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalHygieneGood>
+   <EmoteAnimalSocialGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalSocialGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalSocialGood>
+   <EmoteAnimalStimulationGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalStimulationGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalStimulationGood>
+   <EmoteAnimalReproductionGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalReproductionGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalReproductionGood>
+   <EmoteAnimalHygieneVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalHygieneVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalHygieneVeryGood>
+   <EmoteAnimalSocialVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalSocialVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalSocialVeryGood>
+   <EmoteAnimalStimulationVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalStimulationVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalStimulationVeryGood>
+   <EmoteAnimalReproductionVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalReproductionVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalReproductionVeryGood>
+   <EmoteAnimalBathroomVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalBathroomVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalBathroomVeryGood>
+   <EmoteAnimalRestVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteAnimalRestVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteAnimalRestVeryGood>
+</BFParticleDictionary>

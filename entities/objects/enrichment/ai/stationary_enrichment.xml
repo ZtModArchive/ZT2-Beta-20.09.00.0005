@@ -1,0 +1,27 @@
+<BFTypedBinder binderType="stationary_enrichment" abstract="true">
+   <types>
+      <entity>
+         <enrichment>
+            <stationary_enrichment/>
+         </enrichment>
+      </entity>
+   </types>
+   <shared>
+      <ZTPlacementData>
+         <stompData>
+            <delete>
+               <bush/>
+               <wildflowers/>
+               <fungi/>
+               <watersurfacefoliage/>
+            </delete>
+            <prevent>
+               <treat/>
+            </prevent>
+            <allow>
+               <grass/>
+            </allow>
+         </stompData>
+      </ZTPlacementData>
+   </shared>
+</BFTypedBinder>

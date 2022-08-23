@@ -1,0 +1,6 @@
+<TEXTKEY>
+   <key frame="40" text="{Bip01 R Finger0} create HealClosed"/>
+   <key frame="90" text="{Bip01 R Finger0} destroy HealClosed"/>
+   <key frame="91" text="{Bip01 R Foot} create HealOpen"/>
+   <key frame="350" text="{Bip01 R Foot} destroy HealOpen"/>
+</TEXTKEY>

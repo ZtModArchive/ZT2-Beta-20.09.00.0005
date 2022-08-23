@@ -1,0 +1,15 @@
+<BFTypedBinder binderType="lamp" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <lamp/>
+         </scenery>
+      </entity>
+   </types>
+   <shared>
+      <ZTPlacementData terrainFlatten="false" icon3Doffset="0 0 0.050439" icon3Dscale="0.608154"/>
+   </shared>
+   <instance>
+      <BFGEntity/>
+   </instance>
+</BFTypedBinder>

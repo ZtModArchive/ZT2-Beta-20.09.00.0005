@@ -1,0 +1,48 @@
+<BehaviorSets>
+   <DockTalk>
+      <subjects>
+         <Guest_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehDock subjectNode="Bip01" targetNode="Dock_Adult" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </DockTalk>
+   <WaitTalkNeutral>
+      <subjects>
+         <Guest_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehFaceTarget/>
+         <BFBehAnimate targetAnim="Stand_Wave"/>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitTalkNeutral>
+   <TalkNeutral>
+      <subjects>
+         <Guest_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehFaceTarget/>
+         <BFBehAnimateRandom minPlays="1" maxPlays="2">
+            <randomAnims>
+               <StandTalk_A weight="50"/>
+               <StandTalk_Idle weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </TalkNeutral>
+   <ListenNeutral>
+      <subjects>
+         <Guest_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehFaceTarget/>
+         <BFBehAnimateRandom loopFlag="true">
+            <randomAnims>
+               <StandListen_A weight="50"/>
+               <StandListen_Idle weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </ListenNeutral>
+</BehaviorSets>

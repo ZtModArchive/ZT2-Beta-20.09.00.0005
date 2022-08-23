@@ -1,0 +1,75 @@
+<BFTypedBinder binderType="Giraffe_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Artiodactyla>
+                     <Giraffidae>
+                        <Giraffe>
+                           <Giraffe_Adult/>
+                        </Giraffe>
+                     </Giraffidae>
+                  </Artiodactyla>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 -0.111719 1.036499" icon3Dscale="0.262606" />
+      <BFAIEntityDataShared f_viewBonus="15" b_Adult="1"/>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="1.5" motionClass="mover" maxSlope=".50" wadeDepth="2"/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="texController" required="1">
+         <instance>
+            <BFAITextureController currState="well" defaultState="well">
+               <attribList>
+                  <health/>
+                  <hygiene/>
+               </attribList>
+               <stateList>
+                  <sickanddirty>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="4 - Default" image="entities\units\animals\Giraffe\Giraffe_Adult_Sick_Dirty.dds"/>
+                     </textureData>
+                  </sickanddirty>
+                  <sick>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="4 - Default" image="entities\units\animals\Giraffe\Giraffe_Adult_Sick.dds"/>
+                     </textureData>
+                  </sick>
+                  <dirty>
+                     <attribData>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="4 - Default" image="entities\units\animals\Giraffe\Giraffe_Adult_Dirty.dds"/>
+                     </textureData>
+                  </dirty>
+                  <well>
+                     <textureData>
+                        <mainObj material="4 - Default" image="entities\units\animals\Giraffe\Giraffe_Adult_F.dds"/>
+                     </textureData>
+                  </well>
+               </stateList>
+            </BFAITextureController>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

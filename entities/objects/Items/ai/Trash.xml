@@ -1,0 +1,29 @@
+<BFTypedBinder binderType="Trash">
+   <types>
+      <entity>
+         <item>
+            <Trash/>
+         </item>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <BFGCollisionData isPassable="true"/>
+      <ZTUserStaffAction>
+         <RemoveObject/>
+      </ZTUserStaffAction>
+      <ZTPlacementData deletable="false"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/Items/Trash/Trash.nif" scale="1.0" switch="0 36"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

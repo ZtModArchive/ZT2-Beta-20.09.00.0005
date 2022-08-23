@@ -1,0 +1,37 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="Ambient">
+      <BFAICreateData>
+         <Subjects>
+            <ambient_ground/>
+            <Qualifiers inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="10000"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Ambient"/>
+         <BFBehWander playTime="20" locoSpeed="fast"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="Die">
+      <BFAICreateData>
+         <Subjects>
+            <ambient_ground/>
+            <Qualifiers_AND inWater_OR_onLand="true" lifespan="GE 2"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="12000"/>
+      <BFBehExecTask>
+         <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

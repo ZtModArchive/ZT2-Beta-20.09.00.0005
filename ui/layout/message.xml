@@ -1,0 +1,123 @@
+<UILayout name="Message bar layout">
+   <UIRegion x="0" y="15" w="1024" h="300" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect locid="">
+      <default image="" sound="">
+         <BFRect x="0" y="0" w="512" h="512"/>
+         <BFColor r="255" g="255" b="255" a="255"/>
+      </default>
+      <normal/>
+   </UIAspect>
+   <children>
+      <UILayout name="">
+         <UIRegion x="300" y="0" w="425" h="300" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect locid="">
+            <default image="" sound="">
+               <BFRect x="0" y="0" w="512" h="512"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+            <normal/>
+         </UIAspect>
+         <children>
+            <UILayout name="Single Message">
+               <UIRegion x="0" y="0" w="400" h="34"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default/>
+               </UIAspect>
+               <children>
+                  <UIStatic name="background">
+                     <UIRegion x="0" y="0" w="393" h="34"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default image="ui\maingame\message.tga">
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                           <BFRect x="0" y="222" w="393" h="34"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIListBox name="feedbackLastMessage" rows="-1">
+                     <UIRegion x="15" y="10" w="375" h="16"/>
+                     <UIState active="normal" visible="normal"/>
+                  </UIListBox>
+               </children>
+            </UILayout>
+            <UILayout name="Multi Message">
+               <UIRegion x="0" y="0" w="450" h="300"/>
+               <UIState active="normal" visible="hidden"/>
+               <UIAspect>
+                  <default/>
+               </UIAspect>
+               <children>
+                  <UIStatic name="background">
+                     <UIRegion x="0" y="0" w="420" h="150"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default image="ui\maingame\message.tga">
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                           <BFRect x="0" y="0" w="420" h="150"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIListBox name="feedbackMessageList" template="panel" rows="-1">
+                     <UIRegion x="15" y="8" w="365" h="132"/>
+                     <UIState active="normal" visible="normal"/>
+                  </UIListBox>
+               </children>
+            </UILayout>
+            <UIToggleButton name="opener">
+               <UIRegion x="380" y="0" w="36" h="36"/>
+               <UIHelpInfo name="" short="" long="" help="" ids="messages:open_queue_button"/>
+               <UIAspect>
+                  <default image="ui\maingame\message.tga"/>
+                  <standard>
+                     <normal>
+                        <BFRect x="440" y="0" w="36" h="36"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="440" y="36" w="36" h="36"/>
+                     </highlighted>
+                     <activated sound="uiclick">
+                        <BFRect x="476" y="0" w="36" h="36"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="476" y="36" w="36" h="36"/>
+                     </disabled>
+                  </standard>
+                  <alternate>
+                     <normal>
+                        <BFRect x="476" y="0" w="36" h="36"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="476" y="0" w="36" h="36"/>
+                     </highlighted>
+                     <activated>
+                        <BFRect x="476" y="0" w="36" h="36"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="476" y="36" w="36" h="36"/>
+                     </disabled>
+                  </alternate>
+               </UIAspect>
+               <on>
+                  <event msg="UI_CHILD" data="UIChildData" name="Multi Message">
+                     <child msg="UI_SHOW"/>
+                  </event>
+                  <event msg="UI_CHILD" data="UIChildData" name="Single Message">
+                     <child msg="UI_HIDE"/>
+                  </event>
+               </on>
+               <off>
+                  <event msg="UI_CHILD" data="UIChildData" name="Single Message">
+                     <child msg="UI_SHOW"/>
+                  </event>
+                  <event msg="UI_CHILD" data="UIChildData" name="Multi Message">
+                     <child msg="UI_HIDE"/>
+                  </event>
+               </off>
+            </UIToggleButton>
+         </children>
+      </UILayout>
+   </children>
+</UILayout>

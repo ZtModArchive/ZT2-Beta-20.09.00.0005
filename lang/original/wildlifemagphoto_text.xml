@@ -1,0 +1,58 @@
+<ZT2Strings>
+   
+   
+   <WildlifeMagChallengetext>
+   	
+   	<PHWildlifeMagPhotos>Wildlife Magazine</PHWildlifeMagPhotos>
+   	<PHWildlifeMag>
+		Wildlife Magazine is running a photo contest and will pay $2000 per photograph for each 
+		photo they run in their magazine. The contest ends in 2 months. They have requested photos of specific 
+		animals. At the end of the time period, Wildlife Magazine will pay you for each photo you have 
+		been able to successfully take.  
+   	</PHWildlifeMag> 
+   	<PHWildlifeMagShort>
+   		Provide the following photographs:
+   		<p/>
+   		*  A single photo containing three Common Zebras.
+   		<br/>
+   		*  A photo containing 2 Greater Flamingoes and a Hippopotamus.
+   		<br/>
+   		*  A Nile Crocodile in the water.
+   		<br/>
+   		*  A Red Kangaroo thumping its tail.
+   	</PHWildlifeMagShort>   	
+   	<PHWildlifeMagFailure>
+   		The contest period has ended and unfortunately you did not provide any of the photos requested by
+   		Wildlife Magazine. Better luck next time!
+   	</PHWildlifeMagFailure>
+	<PHWildlifeMagFailureShort>
+		Unfortunately you were unable to provide any of the photos reqeusted by Wildlife Magazine.
+   	</PHWildlifeMagFailureShort> 
+   	<PHWildlifeMagPartialSuccess>
+   		The contest period has ended. Wildlife Magazine has paid you for the photos you were 
+   		able to take.
+   	</PHWildlifeMagPartialSuccess>   	
+	<PHWildlifeMagFullSuccess>
+		Wildlife Magazine loves your photos! They also recognize that achieving such a unique collection
+		of pictures in such a short time was no small accomplishment and have presented you with the 
+		Wildlife Magazine Amateur Photographer Award. Congratulations on your achievement!
+	</PHWildlifeMagFullSuccess>
+   	<PHWildlifeMagSuccessShort>
+   		Your photos were a big hit with Wildlife Magazine.
+   	</PHWildlifeMagSuccessShort>
+
+   	<stt_ThreeZebras>Take a single photo of a three Common Zebras.</stt_ThreeZebras>
+   	<stt_TwoFlamingoesandHippo>Take a photo containing 2 Greater Flamingoes and a Hippopotamus.</stt_TwoFlamingoesandHippo>
+   	<stt_CrocinWater>Take a photo of a Nile Crocodile in the water.</stt_CrocinWater>
+   	<stt_KangarooTailThump>Take a picture of a Red Kangaroo thumping its tail.</stt_KangarooTailThump>
+   	
+
+   	
+   	
+   	
+   	
+
+   </WildlifeMagChallengetext>
+   
+   
+</ZT2Strings>

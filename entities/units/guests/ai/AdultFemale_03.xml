@@ -1,0 +1,123 @@
+<BFTypedBinder binderType="Guest_Adult_F_03">
+   <types>
+      <entity>
+         <actor>
+            <people>
+               <Guest>
+                  <Guest_Adult>
+                     <Guest_Adult_F>
+                        <Guest_Adult_F_03/>
+                     </Guest_Adult_F>
+                  </Guest_Adult>
+               </Guest>
+            </people>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="headObj" rottype="use" postype="use" attachnode="Link_Head"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFShadowLODComponent numLevels="1" switchingDists="30.0"/>
+               <BFActorComponent cheapfile="entities\units\guests\AdultMale\Guest_Adult_F_LOD.nif" actorfile="entities\units\guests\AdultMale\Guest_Adult_F.bfm" scale="1.0"/>
+               <BF2LegsGroundFitComponent rightAnkleJoint="Bip01 R Foot" leftAnkleJoint="Bip01 L Foot" ankleRotVectorLeft="0 0 1" ankleRotVectorRight="0 0 1" heightOffset="0" fitRadius=".15"/>
+               <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+               <BFBoundedObjectComponent>
+                  <minPoint x="0" y="0" z="-100"/>
+                  <maxPoint x="300" y="300" z="100"/>
+               </BFBoundedObjectComponent>
+               <BFCollisionComponent grid="Grid"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+         <shared>
+            <BFSharedRandomTextureInfo>
+               <replacementSet>
+                  <group weight="1">
+                     <item material="guest_adult_m_top" image="entities\units\guests\shared\guest_adult_m_torso_pink.dds" layer="base"/>
+                  </group>
+               </replacementSet>
+               <replacementSet>
+                  <group weight="1">
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_pants_01.dds" layer="base"/>
+                     <item material="guest_adult_m_pants_lo" image="entities\units\guests\shared\guest_adult_m_pants_01.dds" layer="base"/>
+                  </group>
+                  <group weight="1">
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_pants_02.dds" layer="base"/>
+                     <item material="guest_adult_m_pants_lo" image="entities\units\guests\shared\guest_adult_m_pants_02.dds" layer="base"/>
+                  </group>
+                  <group weight="1">
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_pants_03.dds" layer="base"/>
+                     <item material="guest_adult_m_pants_lo" image="entities\units\guests\shared\guest_adult_m_pants_03.dds" layer="base"/>
+                  </group>
+                  <group weight="1">
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_pants_04.dds" layer="base"/>
+                     <item material="guest_adult_m_pants_lo" image="entities\units\guests\shared\guest_adult_m_pants_04.dds" layer="base"/>
+                  </group>
+                  <group weight="1">
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_pants_05.dds" layer="base"/>
+                     <item material="guest_adult_m_pants_lo" image="entities\units\guests\shared\guest_adult_m_pants_05.dds" layer="base"/>
+                  </group>
+                  <group weight="0.1">
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_pants_06.dds" layer="base"/>
+                     <item material="guest_adult_m_pants_lo" image="entities\units\guests\shared\guest_adult_m_pants_06.dds" layer="base"/>
+                  </group>
+                  <group weight="0.2">
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_pants_07.dds" layer="base"/>
+                     <item material="guest_adult_m_pants_lo" image="entities\units\guests\shared\guest_adult_m_pants_07.dds" layer="base"/>
+                  </group>
+               </replacementSet>
+               <replacementSet>
+                  <group weight="1">
+                     <item material="guest_adult_m_top" image="entities\units\guests\shared\guest_adult_m_top_02.dds" layer="decal0" uvSet="0"/>
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_top_02.dds" layer="decal0"/>
+                  </group>
+                  <group weight="1">
+                     <item material="guest_adult_m_top" image="entities\units\guests\shared\guest_adult_m_top_02a.dds" layer="decal0" uvSet="0"/>
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_top_02a.dds" layer="decal0"/>
+                  </group>
+                  <group weight="1">
+                     <item material="guest_adult_m_top" image="entities\units\guests\shared\guest_adult_m_top_02b.dds" layer="decal0" uvSet="0"/>
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_top_02b.dds" layer="decal0"/>
+                  </group>
+                  <group weight="1">
+                     <item material="guest_adult_m_top" image="entities\units\guests\shared\guest_adult_m_top_02c.dds" layer="decal0" uvSet="0"/>
+                     <item material="guest_adult_m_pants" image="entities\units\guests\shared\guest_adult_m_top_02c.dds" layer="decal0"/>
+                  </group>
+               </replacementSet>
+            </BFSharedRandomTextureInfo>
+         </shared>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="headObj">
+         <instance>
+            <BFPhysObj useTriShapeGroup="false">
+               <BFSimpleLODComponent modelfile="entities\units\guests\AdultMale\Head_Adult_F_Goth.nif" scale="0.95"/>
+            </BFPhysObj>
+         </instance>
+         <shared>
+            <BFSharedRandomTextureInfo>
+               <replacementSet>
+                  <group weight="1">
+                     <item material="guest_adult_f_head" image="entities\units\guests\shared\guest_adult_f_head_goth.dds" layer="base"/>
+                     <item material="guest_f_head" image="entities\units\guests\shared\guest_adult_f_headlo_goth.dds" layer="base"/>
+                  </group>
+                  <group weight="1">
+                     <item material="guest_adult_f_head" image="entities\units\guests\shared\guest_adult_f_head_goth2.dds" layer="base"/>
+                     <item material="guest_f_head" image="entities\units\guests\shared\guest_adult_f_headlo_goth2.dds" layer="base"/>
+                  </group>
+               </replacementSet>
+            </BFSharedRandomTextureInfo>
+         </shared>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

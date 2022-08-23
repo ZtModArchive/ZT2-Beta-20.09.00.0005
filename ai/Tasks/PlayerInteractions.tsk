@@ -1,0 +1,33 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="Interact_Player">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+         </Subjects>
+         <Targets>
+            <avatar/>
+         </Targets>
+         <Objects>
+            <t_InteractPlayer/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <BFBehMove pathRadius="3.0"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <BFBehAnimate targetAnim="Stand_Idle"/>
+            <BFBehAnimate targetAnim="Stand_Idle"/>
+            <BFBehAnimate targetAnim="Stand_Idle"/>
+            <BFBehAnimate targetAnim="Stand_Idle"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFAIAttributeFloatMap/>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

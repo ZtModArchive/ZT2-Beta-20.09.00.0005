@@ -1,0 +1,20 @@
+<BFScenarioGroup name="zoonewsmonthlyrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="zoonewsmonthlyphoto" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="ZooNewstext:PHZooNewsShort" overview="ZooNewstext:PHZooNews" />
+				<success locid="ZooNewstext:PHZooNewsSuccessShort" overview="ZooNewstext:PHZooNewsSuccess" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/zoonewsmonthly.lua" entry="evalzoonewsmonthly" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/zoonewsmonthly.lua" entry="completezoonewsmonthly" />
+			 </success>
+			 <failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/zoonewsmonthly.lua" entry="failzoonewsmonthly" />
+			 </failure>	
+	 
+		</BFScenarioRule>		
+	 </children>
+</BFScenarioGroup>

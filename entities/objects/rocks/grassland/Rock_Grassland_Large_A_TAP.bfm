@@ -1,0 +1,80 @@
+<BFM modelname="entities\objects\rocks\grassland\Rock_Grassland_Large_A.nif">
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode00_EnterA.bf" animName="Rock_EnterA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode02_EnterB.bf" animName="Rock_EnterB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode04_EnterC.bf" animName="Rock_EnterC" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode06_EnterD.bf" animName="Rock_EnterD" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode08_EnterE.bf" animName="Rock_EnterE" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode10_EnterG.bf" animName="Rock_EnterG" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode12_EnterH.bf" animName="Rock_EnterH" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode14_EnterI.bf" animName="Rock_EnterI" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode16_EnterJ.bf" animName="Rock_EnterJ" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode18_EnterK.bf" animName="Rock_EnterK" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode20_EnterL.bf" animName="Rock_EnterL" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode22_EnterM.bf" animName="Rock_EnterM" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode24_EnterN.bf" animName="Rock_EnterN" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode26_EnterO.bf" animName="Rock_EnterO" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode28_EnterP.bf" animName="Rock_EnterP" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode30_EnterQ.bf" animName="Rock_EnterQ" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode32_EnterR.bf" animName="Rock_EnterR" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode34_EnterS.bf" animName="Rock_EnterS" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode01_ExitA.bf" animName="Rock_ExitA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode03_ExitB.bf" animName="Rock_ExitB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode04_ExitC.bf" animName="Rock_ExitC" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode07_ExitD.bf" animName="Rock_ExitD" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode09_ExitE.bf" animName="Rock_ExitE" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode11_ExitG.bf" animName="Rock_ExitG" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode13_ExitH.bf" animName="Rock_ExitH" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode15_ExitI.bf" animName="Rock_ExitI" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode17_ExitJ.bf" animName="Rock_ExitJ" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode19_ExitK.bf" animName="Rock_ExitK" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode21_ExitL.bf" animName="Rock_ExitL" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode23_ExitM.bf" animName="Rock_ExitM" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode25_ExitN.bf" animName="Rock_ExitN" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode27_ExitO.bf" animName="Rock_ExitO" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode29_ExitP.bf" animName="Rock_ExitP" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode31_ExitQ.bf" animName="Rock_ExitQ" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode33_ExitR.bf" animName="Rock_ExitR" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\rocks\grassland\Rock_Grassland_Large_A_TAP_Bip01_DockNode35_ExitS.bf" animName="Rock_ExitS" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Rock_Grassland_Large_A" version="1">
+	<node name="Rock">
+		<table>
+			<Rock_EnterA />
+			<Rock_EnterB />
+			<Rock_EnterC />
+			<Rock_EnterD />
+			<Rock_EnterE />
+			<Rock_EnterG />
+			<Rock_EnterH />
+			<Rock_EnterI />
+			<Rock_EnterJ />
+			<Rock_EnterK />
+			<Rock_EnterL />
+			<Rock_EnterM />
+			<Rock_EnterN />
+			<Rock_EnterO />
+			<Rock_EnterP />
+			<Rock_EnterQ />
+			<Rock_EnterR />
+			<Rock_EnterS />
+			<Rock_ExitA />
+			<Rock_ExitB />
+			<Rock_ExitC />
+			<Rock_ExitD />
+			<Rock_ExitE />
+			<Rock_ExitG />
+			<Rock_ExitH />
+			<Rock_ExitI />
+			<Rock_ExitJ />
+			<Rock_ExitK />
+			<Rock_ExitL />
+			<Rock_ExitM />
+			<Rock_ExitN />
+			<Rock_ExitO />
+			<Rock_ExitP />
+			<Rock_ExitQ />
+			<Rock_ExitR />
+			<Rock_ExitS />
+		</table>
+	</node>
+</Graph>

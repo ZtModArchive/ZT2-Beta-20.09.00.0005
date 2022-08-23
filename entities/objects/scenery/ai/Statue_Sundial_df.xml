@@ -1,0 +1,71 @@
+<BFTypedBinder binderType="Statue_Sundial_df">
+   <types>
+      <entity>
+         <scenery>
+            <Statue>
+               <Statue_Sundial_df/>
+            </Statue>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="face" rottype="ignore" postype="use"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\scenery\Statue_Sundial_df\Statue_Sundial_df_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:Statue_Sundial_df"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Statue_Sundial_df"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared s_ProfileLock="sundiallock" s_Zoopedia="zoopedia:zoopedia_sundial:entry" />
+      <ZTPlacementData icon3Doffset="0 0 0.463806" icon3Dscale="0.265851" autofootprint="false">
+         <cfootprint width="1" height="1"/>
+         <dfootprint width="2" height="1"/>
+      </ZTPlacementData>
+      <BFGCollisionData isPassable="false"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\square_blob.tga" baseNode="ShadowNode_01" width="10" minLength="10" maxLength="15" minOffset="0" maxOffset="4"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="face">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/scenery/Statue_Sundial_df/Statue_Sundial_Face_df.nif" scale="1.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFSimpleLODComponent modelfile="entities/objects/scenery/Statue_Sundial_df/Statue_Sundial_df.nif" scale="1.0" switch="0 25 40"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="300">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

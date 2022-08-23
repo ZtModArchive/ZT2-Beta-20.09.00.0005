@@ -1,0 +1,31 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="DefaultTask">
+      <BFAICreateData>
+         <Subjects>
+            <actor/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore=".00001">
+         <BFAIAttributeFloatMap/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="null:null" timeout="0.0f"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateRandom minPlays="1" maxPlays="7">
+            <randomAnims>
+               <Stand_Idle weight="1"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

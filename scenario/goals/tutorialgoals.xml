@@ -1,0 +1,250 @@
+<ZTScenarioMgr interval="1" name="mgr" state="0" chain="true" allsuccess="true" sticky="true" optional="false">
+   <info locid="Tutorialtext:T1"/>
+   <children>
+      <BFScenarioGroup name="tutorialcameracontrols" state="0" chain="true" allsuccess="true" sticky="true">
+         <children>
+            <BFScenarioRule hidden="1" name="setinitialtutorialstate" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="setinitialtutorialstate"/>
+               </evaluate>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="welcome1" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="welcome1"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="welcome1success"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="showcompletiontext" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontext"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontextsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="0" name="opengoals" state="0" sticky="true">
+               <info type="primary">
+                  <neutral locid="tutorial1:opengoalpanel" overview="Tutoriallabels:T1overviewshort"/>
+                  <success locid="tutorial1:opengoalpanelcompleted"/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="opengoals"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="opengoalssuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="0" name="closegoals" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="closegoals"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="closegoalssuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="showcompletiontext" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontext"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontextsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="scrollmap" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="scrollmap"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="scrollmapsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="showcompletiontext" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontext"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontextsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="zoommap" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="zoommap"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="zoommapsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="showcompletiontext" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontext"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontextsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="rotatemap" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="rotatemap"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="rotatemapsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="showcompletiontext" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontext"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontextsuccess"/>
+               </success>
+            </BFScenarioRule>
+         </children>
+      </BFScenarioGroup>
+      <BFScenarioGroup name="tutorialmapviewcontrols" state="0" chain="true" allsuccess="true" sticky="true">
+         <children>
+            <BFScenarioRule hidden="1" name="firstperson" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="firstperson"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="firstpersonsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="showcompletiontext" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontext"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontextsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="photosafarimode" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="photosafarimode"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="photosafarimodesuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="showcompletiontext" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontext"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontextsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="returntooverheadmap" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="returntooverheadmap"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="returntooverheadmapsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="mapoverview" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="mapoverview"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="mapoverviewsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="showcompletiontext" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontext"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontextsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="mapoverviewclose" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="mapoverviewclose"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="mapoverviewclosesuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="openzoopedia" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="openzoopedia"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="openzoopediasuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="closezoopedia" state="0" sticky="true">
+               <info type="primary">
+                  <neutral/>
+                  <success/>
+               </info>
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="closezoopedia"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="closezoopediasuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="showcompletiontext" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontext"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="showcompletiontextsuccess"/>
+               </success>
+            </BFScenarioRule>
+            <BFScenarioRule hidden="1" name="scenario end" state="0" sticky="true">
+               <evaluate>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="endscenario"/>
+               </evaluate>
+               <success>
+                  <BFScenarioScriptAction script="scenario/scripts/tutorial_1.lua" entry="endscenariosuccess"/>
+               </success>
+            </BFScenarioRule>
+         </children>
+      </BFScenarioGroup>
+   </children>
+</ZTScenarioMgr>

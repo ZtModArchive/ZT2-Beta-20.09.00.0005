@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key time="0.0" text="anim 'Walk_Ahead'"/>
+   <key percent="90" text="anim 'Walk_Ahead', anim 'Walk_2Stand', dis, TurnRight180, exit"/>
+</TEXTKEY>
+ 

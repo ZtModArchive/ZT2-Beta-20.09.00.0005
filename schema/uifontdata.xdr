@@ -1,0 +1,9 @@
+<Schema name="UIFontData">
+	<ElementType name="UIFontData">
+		<extends type="BFXMLObj"/>
+		<element type="Color"/>
+		<attribute name="offsetX" dt:type="int"/>
+		<attribute name="offsetY" dt:type="int"/>
+		<attribute name="alignment" dt:type="string"/>
+	</ElementType>
+</Schema>

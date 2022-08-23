@@ -1,0 +1,14 @@
+<ZT2Strings>
+	<ztapp>
+		<general_regkey>Software\Microsoft\Microsoft Games\Zoo Tycoon 2</general_regkey>
+
+		<general_eula_filename>eula.rtf</general_eula_filename>
+		<general_warranty_filename>warranty.rtf</general_warranty_filename>
+		<general_eula_dll_name>eula.dll</general_eula_dll_name>
+		<general_eula_required_title>EULA acceptance required</general_eula_required_title>
+		<general_eula_required_text>You must accept the EULA in order to play Zoo Tycoon 2.</general_eula_required_text>
+
+		<general_cd_required_title>Zoo Tycoon 2 game CD required</general_cd_required_title>
+		<general_cd_required_text>Please insert your Zoo Tycoon 2 CD-ROM.</general_cd_required_text>
+	</ztapp>
+</ZT2Strings>

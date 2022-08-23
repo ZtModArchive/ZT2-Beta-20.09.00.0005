@@ -1,0 +1,20 @@
+<BFScenarioGroup name="zoodesignrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="zoodesignphoto" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="ZooDesigntext:PHZooDesignShort" overview="ZooDesigntext:PHZooDesign" />
+				<success locid="ZooDesigntext:PHZooDesignSuccessShort" overview="ZooDesigntext:PHZooDesignSuccess" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/zoodesign.lua" entry="evalzoodesign" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/zoodesign.lua" entry="completezoodesign" />
+			 </success>
+			 <failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/zoodesign.lua" entry="failzoodesign" />
+			 </failure>
+	 
+		</BFScenarioRule>		
+	 </children>
+</BFScenarioGroup>

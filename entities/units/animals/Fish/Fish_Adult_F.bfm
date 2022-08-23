@@ -1,0 +1,38 @@
+<BFM modelname="entities\units\animals\Fish\Fish_Adult_F.nif">
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_Swim_2TreadWater.bf" animName="Swim_2TreadWater" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_Swim_Ahead.bf" animName="Swim_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_Swim_TurnLeftA.bf" animName="Swim_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_Swim_TurnRightA.bf" animName="Swim_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_TreadWater_2Swim.bf" animName="TreadWater_2Swim" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_TreadWater_2TurnLeftA.bf" animName="TreadWater_2TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_TreadWater_2TurnRightA.bf" animName="TreadWater_2TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_TreadWater_Idle.bf" animName="TreadWater_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_TreadWater_TurnLeftA.bf" animName="TreadWater_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Fish\Fish_Adult_F_TreadWater_TurnRightA.bf" animName="TreadWater_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Fish_Adult_F" version="1">
+	<node name="Swim">
+		<table>
+			<Swim_Ahead />
+			<Swim_TurnLeftA />
+			<Swim_TurnRightA />
+		</table>
+		<edge name="TreadWater">
+			<table>
+				<Swim_2TreadWater />
+			</table>
+		</edge>
+	</node>
+	<node name="TreadWater">
+		<table>
+			<TreadWater_Idle />
+			<TreadWater_TurnLeftA />
+			<TreadWater_TurnRightA />
+		</table>
+		<edge name="Swim">
+			<table>
+				<TreadWater_2Swim />
+			</table>
+		</edge>
+	</node>
+</Graph>

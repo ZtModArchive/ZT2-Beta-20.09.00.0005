@@ -1,0 +1,7 @@
+<ambient loop="scrub_loop">
+   <ambients>
+      <snds>
+         <snd name="b_sr_animals01"/>
+      </snds>
+   </ambients>
+</ambient>

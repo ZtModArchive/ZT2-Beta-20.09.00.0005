@@ -1,0 +1,326 @@
+<ZT2Strings>
+
+
+   <zoopedia_f1help>
+      <order>!!!!!Help</order>
+      <entry>Controls Help</entry>
+      <text>
+         
+         Camera Movement
+         
+         <br/>
+         
+         -----------------------
+         
+         <br/>
+         
+         Arrow Keys OR
+         
+         <br/>
+         
+         W : Scroll Forward
+         
+         <br/>
+         
+         A : Scroll Left
+         
+         <br/>
+         
+         S : Scroll Backward      
+         
+         <br/>         
+         
+         D : Scroll Right
+        
+         <br/>
+         
+         -
+         
+         <br/>
+        
+         Camera Rotation
+       
+         <br/>
+      
+         --------------------
+         
+         <br/>
+         
+         CTRL + Mouse OR
+       
+         <br/>
+       
+         CTRL + Arrow Keys
+         
+         <br/>
+        
+         -
+        
+         <br/>
+         
+         Camera Zoom
+         
+         <br/>
+     
+         -----------------
+         
+         <br/>
+         
+         + : Zoom In
+       
+         <br/>
+        
+         - : Zoom Out
+         
+         <br/>
+      </text>
+      <page2>
+     
+          Save/Load
+         
+         <br/>
+         
+      
+         -----------------------
+         
+         <br/>
+          
+             F6: Save Game
+         
+         <br/>
+          
+             F7: Load Game
+         
+         <br/>
+        
+         -     
+          
+         <br/>
+          
+          Terrain Mode [icon]
+        
+         <br/>
+         
+         -----------------------
+         
+         <br/>
+         
+           [icon] Create Hill
+         
+         <br/>
+         
+           [icon] Create Valley
+          
+         <br/>
+         
+         
+          [icon] Create Cliff
+        
+         <br/>
+         
+         [icon] Smooth Terrain
+         
+         <br/>
+      
+         -----------------------
+         
+         <br/>
+         
+          [ : Decrease Terrain Deformation Brush Size
+         
+         <br/>
+      
+          ] : Increase Terrain Deformation Brush Size     
+         
+         <br/>
+          
+         Left Button: Perform Selected Terrain Operation.    
+      
+         <br/>
+      </page2>
+   </zoopedia_f1help>
+   <zoopedia_f1help2>
+      <order>!!!!!Help2</order>
+      <entry>Controls Help2</entry>
+      <text>
+        
+         Placement Mode [animal and foliage icons]
+         
+         <br/>
+       
+         -----------------------------------------
+        
+         <br/>
+        
+         Left click on animal or object icon in the panel,
+       
+         <br/>
+        
+         then left click to place the object in the world.
+       
+         <br/>
+       
+         -
+      
+         <br/>
+     
+         Selection Mode [icon]
+       
+         <br/>
+    
+         -----------------------------------------
+   
+         <br/>
+      
+         Click on an object in the world to select it. Click on the selected object to move it and place it somewhere else.
+        
+         <br/>
+      
+         -
+      
+         <br/>
+     
+         Deletion Mode [icon]
+    
+         <br/>
+  
+         -----------------------------------------
+        
+         <br/>
+       
+         Left click on object in the world to delete it.
+        
+         <br/>
+          
+         -
+        
+         <br/>
+       
+         UI Panels
+       
+         <br/>
+       
+         -----------------------------------------
+       
+         <br/>
+       
+         F1: Show/Hide Zoopedia
+        
+         <br/>
+      </text>
+      <page2>
+         
+         First Person Controls
+         
+         <br/>
+         
+         --------------------------
+         
+         <br/>
+         
+         Right click toggles between movement mode and cursor mode. 
+         
+         <br/>
+         
+         Left click while in movement mode to move around.
+         
+         <br/>
+         
+         -
+         
+         <br/>
+         
+         First Person Camera Controls
+         
+         <br/>
+         
+         --------------------------
+         
+         <br/>
+         
+         Right click toggles between camera mode and cursor mode. 
+         
+         <br/>
+         
+         Left click while in cameramode to take a picture.
+         
+         <br/>
+      </page2>
+   </zoopedia_f1help2>
+   <zoopedia_challenge>
+      <order>!!!Challenge Play</order>
+      <entry>Challenge Play</entry>
+      <text>
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="0" sy="107" sw="97" sh="110" width="97" height="110"/>
+               
+         Use this button to play the game in challenge mode, with few rules.
+      
+      </text>
+      <page2>Test of page 2.</page2>
+   </zoopedia_challenge>
+   <zoopedia_freeform>
+      <order>!!!Freeform Play</order>
+      <entry>Freeform Play</entry>
+      <text>
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="0" sy="0" sw="90" sh="107" width="90" height="107"/>
+         
+         Use this button to play the game in freeform mode, with no rules.
+ 
+      </text>
+   </zoopedia_freeform>
+   <zoopedia_campaign>
+      <order>!!!Campaign Play</order>
+      <entry>Campaign Play</entry>
+      <text>
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="0" sy="217" sw="109" sh="97" width="109" height="97"/>
+         
+         Use this button to play the game in campaign mode.
+      
+      </text>
+   </zoopedia_campaign>
+   <zoopedia_options>
+      <order>!!!Game Options</order>
+      <entry>Game Options</entry>
+      <text>
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="3" sy="415" sw="90" sh="97" width="90" height="97"/>
+         
+         Use this button to set game options.
+  
+      </text>
+   </zoopedia_options>
+   <zoopedia_downloads>
+      <order>!!!Downloads</order>
+      <entry>Downloads</entry>
+      <text>
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="432" sy="0" sw="80" sh="87" width="80" height="87"/>
+   
+         Use this button to download addition Zoo Tycoon 2 content.
+  
+      </text>
+   </zoopedia_downloads>
+   <zoopedia_loadgame>
+      <order>!!!Load Game</order>
+      <entry>Load Game</entry>
+      <text>
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="0" sy="314" sw="105" sh="91" width="105" height="91"/>
+   
+         Use this button to load a previously-saved game.
+      
+      </text>
+   </zoopedia_loadgame>
+   <zoopedia_exitgame>
+      <order>!!!Exit Game</order>
+      <entry>Exit Game</entry>
+      <text>
+         <img src="ui/mainmenu/paw_b_pointers.tga" sx="0" sy="0" sw="96" sh="96" width="96" height="96"/>
+       
+         Use this button to exit Zoo Tycoon 2.
+    
+      </text>
+   </zoopedia_exitgame>
+
+   
+   
+   
+   
+   </ZT2Strings>

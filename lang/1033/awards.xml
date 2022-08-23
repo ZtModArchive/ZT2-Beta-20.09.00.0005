@@ -1,0 +1,278 @@
+<ZT2Strings>
+      <LOC_STRING _locID="awards:example">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! Your zoo has won the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Highest Quality Exhibits - Gold Certificate"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:AnimalBirth">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations on your new a baby animal! Here is your </b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Endangered Animal Birth Certificate"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:BronzeSealParkRedevelopment">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! Your zoo has won the </b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Bronze Seal for Park Redevelopment"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:ZooAttendance100">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>One hundred guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 100" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:ZooAttendance1000">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>One thousand guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 1,000" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:ZooAttendance5000">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Five thousand guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 5,000" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:ZooAttendance10000">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Ten thousand guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 10,000" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:ZooAttendance20000">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Twenty thousand guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 20,000" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:CrueltyPrevention">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>You have been admitted to the Cruelty Prevention Coalition's (CPC) Gold List! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"CPC Gold List Certificate"</b>
+            </color>
+            <b>.</b>
+         </font>      
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:FirstAnniversary">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Your zoo has been open for one year! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Bronze Commemorative Seal"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:FifthAnniversary">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Your zoo has been open for five years! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Silver Commemorative Seal"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:TenthAnniversary">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Your zoo has been open for ten years! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Gold Commemorative Seal"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:TwentiethAnniversary">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Your zoo has been open for twenty years! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Diamond Medallion"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:AlfredWindsor">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Alfred Windsor Photography Award of Merit"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:Beckenspot">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Beckenspot Charitable Foundation Photographic Portfolio Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:ConservationEffort">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Conservation Effort Award"</b>
+            </color>
+            <b>in recognition of your 1st animal released to the wild.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:ConservationAchieve">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Conservation Achievement Award"</b>
+            </color>
+            <b>in recognition of your 10th animal released to the wild.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:ConservationExel">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Conservation Excellence Award"</b>
+            </color>
+            <b>in recognition of your 25th animal released to the wild.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:ConservationImage">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Animal Conservation Image Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:Entertainment">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Exemplary Entertainment Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:Global">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Global Achievement Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:Habitat">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Habitat Trophy"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:Lindain">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Lindain Lenses Photographic Clarity Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:LoneStar">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Lone Star Trophy"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:PhotoDesign">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Photo Design Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:Premier">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Premier Plaque"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:Procedural">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Procedural Safety Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:Scholars">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Scholars Achievement Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="awards:Wildlife">
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Wildlife Magazine Amateur Photographer Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="moneygrants:speciesgrant">	
+   		Your progress in adding new species to your zoo has earned you a cash grant! You have received:
+   	</LOC_STRING>
+      <LOC_STRING _locID="itemunlock:newitemsafari">
+   		Congratulations! You have unlocked the Safari Themed buildings and objects!
+   	</LOC_STRING>
+      <LOC_STRING _locID="itemunlock:newitemjungle">
+   		Congratulations! You have unlocked the Jungle Themed buildings and objects!
+   	</LOC_STRING>
+      <LOC_STRING _locID="itemunlock:newitemgeneral">
+	   	Congratulations! A new scenery item is available! You've unlocked the:	
+   	</LOC_STRING>
+   
+   
+   
+</ZT2Strings>

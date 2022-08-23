@@ -1,0 +1,5 @@
+<BFM modelname="entities\objects\shelters\CubbingDen_Shelter\CubbingDen_Shelter.nif">
+	<animation anim="entities\objects\shelters\CubbingDen_Shelter\CubbingDen_Shelter_TAP_Bip01_DockNode01_BaseA2Branch1AEnd.bf" animName="Bip01_DockNode01_BaseA2Branch1AEnd" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\shelters\CubbingDen_Shelter\CubbingDen_Shelter_TAP_Bip01_DockNode02_Branch1AEnd2ExitA.bf" animName="Bip01_DockNode02_Branch1AEnd2ExitA" debug="false" animSpeed="1.000000" load="true" />
+</BFM>
+<Graph name="CubbingDen_Shelter" version="1" />

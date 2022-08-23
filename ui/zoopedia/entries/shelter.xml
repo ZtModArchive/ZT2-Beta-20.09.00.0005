@@ -1,0 +1,20 @@
+<entries>
+   <BFHelpEntry order="zoopedia_shelters:entry" entry="zoopedia_shelters:entry" text="zoopedia_shelters:text" page2="zoopedia_shelters:page2"/>
+   <BFHelpEntry order="zoopedia_beaverlodge:entry" entry="zoopedia_beaverlodge:entry" text="zoopedia_beaverlodge:text" page2="zoopedia_beaverlodge:page2"/>
+   <BFHelpEntry order="zoopedia_cubbingden:entry" entry="zoopedia_cubbingden:entry" text="zoopedia_cubbingden:text" page2="zoopedia_cubbingden:page2"/>
+   <BFHelpEntry order="zoopedia_elephanthouse:entry" entry="zoopedia_elephanthouse:entry" text="zoopedia_elephanthouse:text" page2="zoopedia_elephanthouse:page2"/>
+   <BFHelpEntry order="zoopedia_nestbox:entry" entry="zoopedia_nestbox:entry" text="zoopedia_nestbox:text" page2="zoopedia_nestbox:page2"/>
+   <BFHelpEntry order="zoopedia_giraffehouse:entry" entry="zoopedia_giraffehouse:entry" text="zoopedia_giraffehouse:text" page2="zoopedia_giraffehouse:page2"/>
+   <BFHelpEntry order="zoopedia_groundnest:entry" entry="zoopedia_groundnest:entry" text="zoopedia_groundnest:text" page2="zoopedia_groundnest:page2"/>
+   <BFHelpEntry order="zoopedia_treestump:entry" entry="zoopedia_treestump:entry" text="zoopedia_treestump:text" page2="zoopedia_treestump:page2"/>
+   <BFHelpEntry order="zoopedia_concreteshelter:entry" entry="zoopedia_concreteshelter:entry" text="zoopedia_concreteshelter:text" page2="zoopedia_concreteshelter:page2"/>
+   <BFHelpEntry order="zoopedia_rockcave:entry" entry="zoopedia_rockcave:entry" text="zoopedia_rockcave:text" page2="zoopedia_rockcave:page2"/>
+   <BFHelpEntry order="zoopedia_snowyrockcave:entry" entry="zoopedia_snowyrockcave:entry" text="zoopedia_snowyrockcave:text" page2="zoopedia_snowyrockcave:page2"/>
+   <BFHelpEntry order="zoopedia_stable:entry" entry="zoopedia_stable:entry" text="zoopedia_stable:text" page2="zoopedia_stable:page2"/>
+   <BFHelpEntry order="zoopedia_woodenshelter:entry" entry="zoopedia_woodenshelter:entry" text="zoopedia_woodenshelter:text" page2="zoopedia_woodenshelter:page2"/>
+   <BFHelpEntry order="zoopedia_raisedsleepingplatform:entry" entry="zoopedia_raisedsleepingplatform:entry" text="zoopedia_raisedsleepingplatform:text" page2="zoopedia_raisedsleepingplatform:page2"/>
+   <BFHelpEntry order="zoopedia_shadestructure:entry" entry="zoopedia_shadestructure:entry" text="zoopedia_shadestructure:text" page2="zoopedia_shadestructure:page2"/>
+   <BFHelpEntry order="zoopedia_sleepingbasket:entry" entry="zoopedia_sleepingbasket:entry" text="zoopedia_sleepingbasket:text" page2="zoopedia_sleepingbasket:page2"/>
+   
+     
+</entries>

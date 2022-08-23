@@ -1,0 +1,7 @@
+<Schema name="BFGBooleanAttribute">
+	<ElementType name="BFGBooleanAttribute">
+		<extends type="BFXMLObj"/>
+		<attribute name="name" dt:type="string" required="yes"/>
+		<attribute name="value" dt:type="boolean" required="yes"/>
+	</ElementType>
+</Schema>

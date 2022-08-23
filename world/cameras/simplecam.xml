@@ -1,0 +1,5 @@
+<BFPhysObj>
+   <BFCameraComponent>
+      <frustum left="-0.64" right="0.64" up="0.48" down="-0.48" near="0.3"/>
+   </BFCameraComponent>
+</BFPhysObj>

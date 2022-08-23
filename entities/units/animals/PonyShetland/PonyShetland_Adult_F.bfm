@@ -1,0 +1,12 @@
+<BFM modelname="entities\units\animals\PonyShetland\PonyShetland_Adult_F.nif">
+	<animation anim="entities\units\animals\PonyShetland\PonyShetland_Adult_F_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\PonyShetland\PonyShetland_Adult_F_Stand_Used.bf" animName="Stand_Used" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="PonyShetland_Adult_F" version="1">
+	<node name="Stand">
+		<table>
+			<Stand_Idle />
+			<Stand_Used />
+		</table>
+	</node>
+</Graph>

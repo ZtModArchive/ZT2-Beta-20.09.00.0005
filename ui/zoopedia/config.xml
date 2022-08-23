@@ -1,0 +1,7 @@
+<BFHelpComponent>
+	<BFHelpOptions>
+		<dirs>
+			<dir name="ui/zoopedia/entries" />
+		</dirs>
+	</BFHelpOptions>
+</BFHelpComponent>

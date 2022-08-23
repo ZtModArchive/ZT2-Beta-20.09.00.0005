@@ -1,0 +1,139 @@
+<BFTypedBinder binderType="FlamingoGreater" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Phoenicopteriformes>
+                     <Phoenicopteridae>
+                        <FlamingoGreater/>
+                     </Phoenicopteridae>
+                  </Phoenicopteriformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\units\animals\FlamingoGreater\FlamingoGreater_Adult_M_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo ids="entityname:FlamingoGreater"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="FlamingoGreater_Adult_F"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared p_FightOffset="0 -1 0" s_DonateToken="t_DonateFlamingoGreater" p_FeedYoungNode="0 -1 180" p_EggOffset="0 -.5 0" p_MateOffset="-1 0 0" p_PreyOffset="0 1 0" b_Prey="true" s_Species="FlamingoGreater" b_Basic="true" b_Crustacivore="true" b_SmallAnimal="true" b_FoodDishEater="true" b_TroughEater="true" f_adoptRemoveTime="0" f_adoptRarity="1" s_Zoopedia="zoopedia:zoopedia_flamingo:entry" f_RequiredInitialSpace="200" f_RequiredAdditionalSpace="12" p_PursuitBallNode="0 -3 180"/>
+      <BFGBiomeData location="wetland_africa" locationSensitivity="10">
+		<alpine sensitivity="-5"/>
+		<borealforest sensitivity="0"/>
+		<desert sensitivity="-10"/>
+		<grassland sensitivity="2"/>
+		<temperateforest sensitivity="0"/>
+		<tropicalrainforest sensitivity="0"/>
+		<tundra sensitivity="-10"/>
+		<savannah sensitivity="2"/>
+		<scrub sensitivity="0"/>
+		<wetlands sensitivity="10" primary="true"/>
+      </BFGBiomeData>
+      <ZTPlacementData waterPlacement="true" icon3Doffset="0 0 .1" icon3Dscale="1.02"/>
+      <ZTUserStaffAction>
+         <SetAttribute name="hygiene" value="0" threshold="20" locid="superstaff:animal_groom" effect="SuperStaffGroom"/>
+         <SetAttribute name="health" value="0" threshold="20" locid="superstaff:animal_heal"/>
+      </ZTUserStaffAction>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFShadowLODComponent numLevels="1" switchingDists="60.0"/>
+               <BFActorComponent actorfile="entities/units/animals/FlamingoGreater/FlamingoGreater_Adult_M.bfm" scale="1.0"/>
+               <BF2LegsGroundFitComponent rightAnkleJoint="Bip01 R Foot" leftAnkleJoint="Bip01 L Foot" ankleRotVectorLeft="0 0 -1" ankleRotVectorRight="0 0 -1" heightOffset="0" fitRadius=".15" frontBuoyancyNode="Node_Buoy"/>
+               <BFSecondaryAnimComponent animName="Secondary_TailA" frequency="1.5" chance="40" validAnims="Stand_Idle,Stand_Turn180,Stand_TurnL,Stand_TurnLeft180,Stand_TurnLeft90,Stand_TurnR,Stand_TurnRight90,Stand_Breath,Stand_LookLeft,Stand_LookRight,Stand_PeckGuest,Stand_Scratch,Sit_Idle,Sit_LookLeft,Sit_LookRight,Poop_Idle,Rest_Idle,StandLeftLeg_Idle,StandRightLeg_Idle,HeadDown_Idle,HeadDown_Nudge,HeadDown_Scratch,TreadWater_Call,TreadWater_Idle,TreadWater_TurnRight,TreadWater_TurnLeft"/>
+               <BFSecondaryAnimComponent animName="Secondary_MouthA" frequency="1.5" chance="40" validAnims="Stand_Idle,Stand_Turn180,Stand_TurnL,Stand_TurnLeft180,Stand_TurnLeft90,Stand_TurnR,Stand_TurnRight90,Stand_LookLeft,Stand_LookRight,Sit_Idle,Sit_LookLeft,Sit_LookRight,Poop_Idle,Rest_Idle,StandLeftLeg_Idle,StandRightLeg_Idle,HeadDown_Idle,HeadDown_Nudge,HeadDown_Scratch,TreadWater_Idle,TreadWater_TurnRight,TreadWater_TurnLeft"/>               
+               <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+               <BFCollisionComponent grid="Bip01 Spine"/>
+               <BFGridCollisionComponent/>
+               <BFDecalTextureCycleComponent materialName="flamingo_mat">
+                  <Step imageName="" hold="3.0" variance="0.5"/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink.dds" hold="0.1" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+               </BFDecalTextureCycleComponent>
+               <BFSwimComponent waterInDistance="0.50" waterOutDistance="0.1"/>
+               <BFHeadLookComponent leftRightAnimName="Secondary_HeadLook" lookDirNode="Bip01 Head" lookDirVector="0 1 0" gain_z="-2" fov_extreme_lr="90.0"/>
+            </BFPhysObj>
+         </instance>
+         <shared>
+            <BFTextTagMacrosComponent>
+               <MACROS>
+                  <macro name="Walky" text="anim 'Walk_Ahead'"/>
+                  <macro name="Walky2Standy" text="anim 'Walk_2Stand', anim'Stand_Idle'"/>
+                  <macro name="Stand2LieBelly" text="anim 'Stand_2Sit', anim 'Sit_Idle'"/>
+                  <macro name="LieBelly2Stand" text="anim 'Sit_2Stand', anim 'Stand_Idle'"/>
+                  <macro name="Standy2Walky" text="anim 'Stand_2Walk', anim 'Walk_TurnLeftA'"/>
+                  <macro name="LieOnBelly" text="anim 'Sit_Idle'"/>
+                  <macro name="TurnLeft180" text="anim 'Stand_TurnLeft90', anim 'Stand_TurnLeft90'"/>
+                  <macro name="TurnRight180" text="anim 'Stand_TurnRight90', anim 'Stand_TurnRight90'"/>
+               </MACROS>
+            </BFTextTagMacrosComponent>
+         </shared>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFBehaviorMgr behaviorVersion="1">
+               <subBehaviors>
+                  <BFBehLocoSwitchSet loopFlag="true">
+                     <behaviorTable>
+                        <ground behSet="Stand_Idle"/>
+                        <water behSet="TreadWater_Idle"/>
+                     </behaviorTable>
+                  </BFBehLocoSwitchSet>
+               </subBehaviors>
+            </BFBehaviorMgr>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFLocomotionMgr/>
+         </instance>
+         <binder>
+            <BFNamedBinder binderName="ground" required="1">
+               <instance>
+                  <BFLocoAnimate version="1">
+                     <stop name="Stand"/>
+                     <slow name="Walk"/>
+                     <medium name="Walk"/>
+                     <fast name="Run"/>
+                     <fly name="Fly"/>
+                     <headdown name="WalkHeadDown"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+            <BFNamedBinder binderName="water" required="1">
+               <instance>
+                  <BFLocoAnimate version="1" stationaryAnim="TreadWater_Idle">
+                     <stop name="TreadWater"/>
+                     <slow name="Swim"/>
+                     <medium name="Swim"/>
+                     <fast name="Swim"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+         </binder>
+      </BFBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="600">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>       
+   </binder>
+</BFTypedBinder>

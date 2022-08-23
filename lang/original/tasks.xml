@@ -1,0 +1,131 @@
+<ZT2Strings>
+   <taskname>
+<!--Animals-->
+      <Eat>Eating</Eat>
+      <Drink>Drinking</Drink>
+      <Sleep>Sleeping</Sleep>
+      <Lie>Lying</Lie>
+      <LieFaceDown>Lying</LieFaceDown>
+      <GroomSelf>Grooming</GroomSelf>
+      <Groom>Grooming</Groom>
+      <Shake>Shaking</Shake>
+      <ShakeHead>Shaking</ShakeHead>
+      <SwishTail>Swishing Tail</SwishTail>
+      <StampFoot>Stamping foot</StampFoot>
+      <Sniff>Sniffing</Sniff>
+      <SniffAir>Sniffing</SniffAir>
+      <ThumpTail>Thumping tail</ThumpTail>
+      <LookLeftRight>Looking around</LookLeftRight>
+      <StandTall>Standing tall</StandTall>
+      <Prance>Prancing</Prance>
+      <Poop>Pooping</Poop>
+      <PoopDirt>Pooping</PoopDirt>
+      <Pee>Peeing</Pee>
+      <PeeDirt>Peeing</PeeDirt>
+      <Gape>Gaping</Gape>
+      <Roar>Roaring</Roar>
+      <Mew>Mewing</Mew>
+      <SitIdle>Sitting</SitIdle>
+      <Sit>Sitting</Sit>
+      <Dig>Digging</Dig>
+      <RubEye>Rubbing eye</RubEye>
+      <EarFlap>Flapping ears</EarFlap>
+      <DustBathe>Dust bathing</DustBathe>
+      <DustThrow>Dust bathing</DustThrow>
+      <Sway>Swaying</Sway>
+      <PawGround>Pawing at ground</PawGround>
+      <NoiseMaker>Unfurling trunk</NoiseMaker>
+      <Trumpet>Trumpeting</Trumpet>
+      <Question>Questioning</Question>
+      <Ponder>Pondering</Ponder>
+      <Yawn>Yawning</Yawn>
+      <SwingHead>Swinging head</SwingHead>
+      <Scratch>Scratching itch</Scratch>
+      <ScratchSelf>Scratching itch</ScratchSelf>
+      <SuckPaw>Sucking paw</SuckPaw>
+      <ContentmentSigh>Sighing Contentedly</ContentmentSigh>
+      <Play>Playing</Play>
+      <PeanutFeeder>Using peanut feeder</PeanutFeeder>
+      <HeatedRock>Using heated rock</HeatedRock>
+      <Paint>Painting</Paint>
+      <ScratchPost>Sharpening nails</ScratchPost>
+      <RubTree>Rubbing on tree</RubTree>
+      <Climb>Climbing</Climb>
+      <Graze>Grazing</Graze>
+      <Browse>Browsing</Browse>
+      <Rest>Resting</Rest>
+      <MarkScent>Scent marking</MarkScent>
+      <Roll>Rolling</Roll>
+      <Somersault>Somersaulting</Somersault>
+      <DefaultTask>Idling</DefaultTask>
+      <Wander>Wandering</Wander>
+      <Roar_Call>Roaring</Roar_Call>
+      <Roar_Answer>Roaring</Roar_Answer>
+      <Chuff_Call>Chuffing</Chuff_Call>
+      <Chuff_Answer>Chuffing</Chuff_Answer>
+      <CatchPrey>Fighting</CatchPrey>
+      <DrinkWaterTerrain>Drinking</DrinkWaterTerrain>
+   </taskname>
+   <taskname>
+<!--Guests-->
+      <GuestViewAnimal_Path>Viewing an animal</GuestViewAnimal_Path>
+      <GuestViewAnimal_Bench>Viewing an animal</GuestViewAnimal_Bench>
+      <GuestRest>Resting</GuestRest>
+      <LeaveZoo>Leaving the zoo</LeaveZoo>
+      <GetCash>Getting money at ATM</GetCash>
+      <UseBathroomSmall>Using small bathroom</UseBathroomSmall>
+      <UseBathroomLarge>Using large bathroom</UseBathroomLarge>
+      <GuestViewAnimal_BinocsAdult>Using binoculars</GuestViewAnimal_BinocsAdult>
+      <GuestViewAnimal_BinocsYoung>Using binoculars</GuestViewAnimal_BinocsYoung>
+      <SitEatSub>Eating sub on bench</SitEatSub>
+      <SitEatSalad>Eating a salad</SitEatSalad>
+      <SitEatSushi>Eating a sushi</SitEatSushi>
+      <SitEatBurger>Eating a burger</SitEatBurger>
+      <SitEatHotdog>Eating a hotdog</SitEatHotdog>
+      <SitEatShishkabob>Eating a shishkabob</SitEatShishkabob>
+      <StandEatSub>Eating a sub</StandEatSub>
+      <StandEatSalad>Eating a salad</StandEatSalad>
+      <StandEatSushi>Eating some sushi</StandEatSushi>
+      <StandEatBurger>Eating a burger</StandEatBurger>
+      <StandEatHotdog>Eating a hotdog</StandEatHotdog>
+      <StandEatShishkabob>Eating a shishkabob</StandEatShishkabob>
+      <SitEatCheesecake>Eating some cheesecake</SitEatCheesecake>
+      <SitEatIcecream>Eating some icecream</SitEatIcecream>
+      <SitEatPopcorn>Eating some popcorn</SitEatPopcorn>
+      <SitEatPretzel>Eating a pretzel</SitEatPretzel>
+      <SitEatFruitcup>Eating a fruit cup</SitEatFruitcup>
+      <SitEatCottoncandy>Eating some cotton candy</SitEatCottoncandy>
+      <StandEatCheesecake>Eating some cheesecake</StandEatCheesecake>
+      <StandEatIcecream>Eating some icecream</StandEatIcecream>
+      <StandEatPopcorn>Eating some popcorn</StandEatPopcorn>
+      <StandEatPretzel>Eating a pretzel</StandEatPretzel>
+      <StandEatFruitcup>Eating a fruit cup</StandEatFruitcup>
+      <StandEatCottoncandy>Eating some cotton candy</StandEatCottoncandy>
+      <SitDrinkCoffee>Drinking some coffee</SitDrinkCoffee>
+      <SitDrinkSoda>Drinking some soda</SitDrinkSoda>
+      <SitDrinkWater>Drinking some water</SitDrinkWater>
+      <StandDrinkCoffee>Drinking some coffee</StandDrinkCoffee>
+      <StandDrinkSoda>Drinking some soda</StandDrinkSoda>
+      <StandDrinkWater>Drinking some water</StandDrinkWater>
+      <BuySub>Buying a sub</BuySub>
+      <BuySalad>Buying a salad</BuySalad>
+      <BuySushi>Buying some sushi</BuySushi>
+      <BuyBurger>Buying a burger</BuyBurger>
+      <BuyHotdog>Buying a hotdog</BuyHotdog>
+      <BuyShishkabob>Buying a shishkabob</BuyShishkabob>
+      <BuyCheesecake>Buying some cheesecake</BuyCheesecake>
+      <BuyIcecream>Buying some icecream</BuyIcecream>
+      <BuyPopcorn>Buying some popcorn</BuyPopcorn>
+      <BuyPretzel>Buying a pretzel</BuyPretzel>
+      <BuyFruitcup>Buying a fruit cup</BuyFruitcup>
+      <BuyCottoncandy>Buying some cotton candy</BuyCottoncandy>
+      <BuyCoffee>Buying a coffee</BuyCoffee>
+      <BuyWater>Buying some water</BuyWater>
+      <BuySoda>Buying a soda</BuySoda>
+      <BuyGiftCart>Buying a small gift</BuyGiftCart>
+      <BuyGiftShop>Buying a large gift</BuyGiftShop>
+      <BuyFamilyMeal>Buying a family meal</BuyFamilyMeal>
+      <BuyFancyMeal>Buying a fancy meal</BuyFancyMeal>
+      <BuyRegularMeal>Buying a meal</BuyRegularMeal>
+   </taskname>
+</ZT2Strings>

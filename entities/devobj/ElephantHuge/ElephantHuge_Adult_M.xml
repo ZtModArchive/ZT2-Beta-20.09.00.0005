@@ -1,0 +1,7 @@
+<Graph name = "ElephantHuge_Adult_M">
+	<node name = "Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+	</node>
+</Graph>

@@ -1,0 +1,7 @@
+<ambient loop="savannah_loop">
+   <ambients>
+      <snds>
+         <snd name="s_animals01"/>
+      </snds>
+   </ambients>
+</ambient>

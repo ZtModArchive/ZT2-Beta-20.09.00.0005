@@ -1,0 +1,37 @@
+<BFTypedBinder binderType="TerrainFood" abstract="true">
+   <types>
+      <entity>
+         <food>
+            <TerrainFood/>
+         </food>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData randomRotate="false" gridSnap="true" autoFootprint="true">
+         <stompData>
+            <allow>
+               <bush/>
+               <grass/>
+               <wildflowers/>
+               <thicket/>
+               <fungi/>
+               <watersurfacefoliage/>
+            </allow>
+         </stompData>
+      </ZTPlacementData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="Eat">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterTerrainFood" useBehSet="UseTerrainFood" exitBehSet="ExitTerrainFood" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

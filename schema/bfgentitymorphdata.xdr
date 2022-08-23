@@ -1,0 +1,16 @@
+<Schema name="BFGEntityMorphData">
+	<ElementType name="BFGEntityMorphData">
+		<extends type="BFXMLObj" />
+		<AttributeType name="fadePeriod">
+			<datatype dt:type="float" dt:min="0.0" default="0.0" />
+		</AttributeType>
+		<AttributeType name="initialScale">
+			<datatype dt:type="float" dt:min="0.0" default="0.0" />
+		</AttributeType>
+		<attribute name="morphTarget" dt:type="string" required="yes" />
+		<attribute name="fade" dt:type="boolean" required="no" default="false" />
+		<attribute type="fadePeriod" required="no" />
+		<attribute name="scale" dt:type="boolean" required="no" default="false" />
+		<attribute type="initialScale" required="no" />
+	</ElementType>
+</Schema>

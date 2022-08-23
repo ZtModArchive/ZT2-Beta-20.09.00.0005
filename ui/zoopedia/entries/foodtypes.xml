@@ -1,0 +1,15 @@
+<entries>
+   <BFHelpEntry order="zoopedia_food:entry" entry="zoopedia_food:entry" text="zoopedia_food:text" page2="zoopedia_food:page2"/>
+   <BFHelpEntry order="zoopedia_bamboo:entry" entry="zoopedia_bamboo:entry" text="zoopedia_bamboo:text" page2="zoopedia_bamboo:page2"/>
+   <BFHelpEntry order="zoopedia_bananas:entry" entry="zoopedia_bananas:entry" text="zoopedia_bananas:text" page2="zoopedia_bananas:page2"/>
+   <BFHelpEntry order="zoopedia_branches:entry" entry="zoopedia_branches:entry" text="zoopedia_branches:text" page2="zoopedia_branches:page2"/>
+   <BFHelpEntry order="zoopedia_fish:entry" entry="zoopedia_fish:entry" text="zoopedia_fish:text" page2="zoopedia_fish:page2"/>
+   <BFHelpEntry order="zoopedia_grass:entry" entry="zoopedia_grass:entry" text="zoopedia_grass:text" page2="zoopedia_grass:page2"/>
+   <BFHelpEntry order="zoopedia_hay:entry" entry="zoopedia_hay:entry" text="zoopedia_hay:text" page2="zoopedia_hay:page2"/>
+   <BFHelpEntry order="zoopedia_lettuce:entry" entry="zoopedia_lettuce:entry" text="zoopedia_lettuce:text" page2="zoopedia_lettuce:page2"/>
+   <BFHelpEntry order="zoopedia_meat:entry" entry="zoopedia_meat:entry" text="zoopedia_meat:text" page2="zoopedia_meat:page2"/>
+   <BFHelpEntry order="zoopedia_shrimp:entry" entry="zoopedia_shrimp:entry" text="zoopedia_shrimp:text" page2="zoopedia_shrimp:page2"/>
+   <BFHelpEntry order="zoopedia_water:entry" entry="zoopedia_water:entry" text="zoopedia_water:text" page2="zoopedia_water:page2"/>
+   
+     
+</entries>

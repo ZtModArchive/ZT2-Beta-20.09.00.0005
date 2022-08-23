@@ -1,0 +1,71 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="Airborne">
+      <BFAICreateData>
+         <Subjects>
+            <ambient_air/>
+            <Qualifiers_AND inWater_OR_onLand="true" b_Glider="E false"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="10000"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Airborne"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="Airborne_Glider">
+      <BFAICreateData>
+         <Subjects>
+            <ambient_air/>
+            <Qualifiers_AND inWater_OR_onLand="true" b_Glider="E true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="10000"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Airborne_Glider"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="CircleCarrion" TaskDelayMin="30" TaskDelayMax="60" >
+      <BFAICreateData>
+         <Subjects>
+            <VultureKing/>
+            <Qualifiers inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <Carcass_Meat/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="10100"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="CircleCarrion"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="Die">
+      <BFAICreateData>
+         <Subjects>
+            <ambient_air/>
+            <Qualifiers_AND inWater_OR_onLand="true" isSwimming="false" lifespan="GE 2"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="12000"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="FlyStraight"/>
+         <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

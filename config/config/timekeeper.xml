@@ -1,0 +1,5 @@
+<BFTimeKeeper timeScale="2880">
+	<BFTIME_HEARTBEAT interval="0.010" />
+	<BFTIME_SIMTICK interval="0.010" paused="1" />
+	<BFTIME_SLOWTICK interval="0.500" paused="1" />
+</BFTimeKeeper>

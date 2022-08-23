@@ -1,0 +1,8 @@
+<Schema name="UIKeyData">
+	<ElementType name="UIKeyData">
+		<extends type="BFXMLObj"/>
+		<attribute name="key" dt:type="int" default="0"/>
+		<attribute name="count" dt:type="int" default="0"/>
+		<attribute name="keydown" dt:type="boolean" default="0"/>
+	</ElementType>
+</Schema>

@@ -1,0 +1,437 @@
+<ZT2Strings>
+
+
+   
+   <zoopedia_apple>
+         <entry>Apple</entry>
+         <text>
+            <img src="entities/objects/enrichment/Apple/Apple_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>
+            Apples are a healthy part of many animals’ diets, and they have the extra advantage of being 
+            almost as much fun to play with as a ball.
+	    <p/>
+	    They can also be hidden in containers or on the ground to encourage foraging and exploring 
+	    behavior in animals.
+         </text>
+         
+   </zoopedia_apple>
+   
+   <zoopedia_ball>
+         <entry>Ball</entry>
+         <text>
+            <img src="entities/objects/enrichment/Ball/Ball_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>
+            A ball is one of the most popular and common toys you can offer to animals in your zoo. 
+            Many animals, from primates to the big cats, enjoy rolling or chasing a ball.
+         </text>
+         
+   </zoopedia_ball>
+   
+   <zoopedia_ballwithrattle>
+         <entry>Ball with Rattle</entry>
+         <text>
+            <img src="entities/objects/enrichment/RattleBall/RattleBall_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>            
+            The ball with rattle can provide hours of entertainment for certain animals in your 
+            zoo. Monkeys, 
+	             <a href="zoopedia:zoopedia_elephant:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">elephants</color>
+	                </u>
+	             </a>            
+            , and infant animals especially enjoy the rattle sound effect.
+         </text>
+         
+   </zoopedia_ballwithrattle>
+   
+   <zoopedia_beddingmaterial>
+         <entry>Bedding Material</entry>
+         <text>
+            <img src="entities/objects/enrichment/ShelterMaterials/ShelterMaterials_Branches_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <img src="entities/objects/enrichment/ShelterMaterials/ShelterMaterials_Leaves_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>            
+            Bedding materials consist of wide leaves and soft brush that many zoo animals, including 
+            the 
+	             <a href="zoopedia:zoopedia_chimp:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">chimpanzee</color>
+	                </u>
+	             </a>             
+            , 
+	             <a href="zoopedia:zoopedia_gorilla:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">gorilla</color>
+	                </u>
+	             </a>             
+            , and 
+	             <a href="zoopedia:zoopedia_panda:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">giant panda</color>
+	                </u>
+	             </a>             
+            , use to make themselves a comfortable bed.
+         </text>
+         
+   </zoopedia_beddingmaterial>
+   
+   <zoopedia_beefshank>
+         <entry>Beef Shank</entry>
+         <text>
+            <img src="entities/objects/enrichment/BeefShank/BeefShank_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>             
+            A beef shank is a big treat for most carnivores; they enjoy ripping and tearing into a big 
+            solid chunk of meat and bone. It should be considered a supplemental dietary item, as most 
+            animals could not survive on a diet of beef shanks alone.
+	    <p/>
+	    A beef shank can also be hidden in a container or on the ground to encourage animals to 
+	    forage and explore.
+
+         </text>
+         
+   </zoopedia_beefshank>
+   
+   <zoopedia_bone>
+         <entry>Bone</entry>
+         <text>
+            <img src="entities/objects/enrichment/Bone/Bone_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>             
+            Zookeepers often give bones of dead animals to carnivorous animals as enrichment objects. Big 
+            cats and bears, in particular, enjoy chewing and gnawing on them.
+         </text>
+         
+   </zoopedia_bone>
+   
+   <zoopedia_cartire>
+         <entry>Car Tire</entry>
+         <text>
+            <img src="entities/objects/enrichment/CarTire/CarTire_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>            
+            Many animals, including 
+         		<a href="zoopedia:zoopedia_lion:entry">
+            		   <u>
+               			<color r="0" g="0" b="255">lions, </color>
+            		   </u>
+         		</a>            
+             
+         		<a href="zoopedia:zoopedia_tiger:entry">
+            		   <u>
+               			<color r="0" g="0" b="255">tigers, </color>
+            		   </u>
+         		</a>            
+             
+         		<a href="zoopedia:zoopedia_grizzly:entry">
+            		   <u>
+               			<color r="0" g="0" b="255">bears</color>
+            		   </u>
+         		</a>            
+            , and 
+         		<a href="zoopedia:zoopedia_elephant:entry">
+            		   <u>
+               			<color r="0" g="0" b="255">elephants</color>
+            		   </u>
+         		</a>            
+            , enjoy the tactile pleasures of 
+            playing with a car tire, which can be thrown, bounced, and rolled.
+         </text>
+         
+   </zoopedia_cartire>
+   
+   <zoopedia_carrot>
+         <entry>Carrot</entry>
+         <text>
+            <img src="entities/objects/enrichment/Carrot/Carrot_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>            
+            Carrots are a popular food treat for many animals, especially grazing animals. They are 
+            easy to hide in substrate piles or in animal enrichment objects.
+         </text>
+         
+   </zoopedia_carrot>
+   
+   <zoopedia_deadfish>
+         <entry>Dead Fish</entry>
+         <text>
+            <img src="entities/objects/enrichment/DeadFish/DeadFish_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>            
+            For most of your zoo animals, dead fish is a far more common, and far less thrilling dining 
+            option than live fish.
+	    
+	    Dead fish can present a satisfying dining challenge for most animals, however, when it is 
+	    hidden in containers or on the ground, and the animals must forage for it.
+
+         </text>
+         
+   </zoopedia_deadfish>
+   
+   <zoopedia_deadrat>
+         <entry>Dead Rat</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_deadrat>  
+   
+   <zoopedia_easel>
+         <entry>Easel</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_easel> 
+   
+   <zoopedia_fig>
+         <entry>Figs</entry>
+         <text>
+            <img src="entities/objects/enrichment/Figs/Figs_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+	    <p/>            
+            Figs, a pear-shaped fruit, are another popular supplemental diet item for most animals. 
+            They can be hidden in containers or on the ground to encourage foraging and exploring 
+            behavior in animals.
+         </text>
+         
+   </zoopedia_fig> 
+   
+   <zoopedia_heatedrock>
+         <entry>Flat Heated Rock</entry>
+         <text>
+            
+            A heated rock is a large, natural-looking rock that is artificially heated from within 
+            to mimic a rock that has been warmed by the sun. Heated rocks are particularly popular 
+            with African animals, especially tigers, which are used to the sun-heated rocks on the 
+            African savannah.
+         </text>
+         
+   </zoopedia_heatedrock> 
+   
+   <zoopedia_grainpellets>
+         <entry>Grain Pellets</entry>
+         <text>
+            
+            Grain pellets are a popular food with many grazing animals and foraging for grain pellets 
+            can be a satisfying foraging challenge for many animals.
+         </text>
+         
+   </zoopedia_grainpellets> 
+   
+   <zoopedia_hollowlog>
+         <entry>Hollow Log</entry>
+         <text>
+            
+            Many different types of animals like to climb on and sleep inside hollow logs, which provide 
+            both shelter and protection.
+	    
+	    A hollow log is also a natural food container.
+
+         </text>
+         
+   </zoopedia_hollowlog> 
+   
+   <zoopedia_honey>
+         <entry>Honey</entry>
+         <text>
+            
+            Honey works well when combined with other animal enrichment objects, including the hollow 
+            log and the termite mound feeder.
+	    <p/>
+	    Animals enjoy using all of their skills to extract the sweet-tasting honey from challenging 
+	    locations.
+
+         </text>
+         
+   </zoopedia_honey> 
+   
+   <zoopedia_iceblock>
+         <entry>Ice Block</entry>
+         <text>
+            <img src="entities/objects/enrichment/IceBlock/IceBlock_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <img src="entities/objects/enrichment/IceBlock/IceBlock_Apples_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <img src="entities/objects/enrichment/IceBlock/IceBlock_Bananas_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <img src="entities/objects/enrichment/IceBlock/IceBlock_BeefShank_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <img src="entities/objects/enrichment/IceBlock/IceBlock_Carrots_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            <p/>             
+            A block of ice is a very popular item with aquatic mammals, especially the 
+	             <a href="zoopedia:zoopedia_polarbear:entry">
+	                <u>
+	                   <color r="0" g="0" b="255">polar bear</color>
+	                </u>
+	             </a>             
+            , which enjoys playing with the floating block in the water. Food treats can be frozen into ice blocks to 
+            provide additional stimulation for a variety of other animals.
+         </text>
+         
+   </zoopedia_iceblock> 
+   
+   <zoopedia_insects>
+         <entry>Insects</entry>
+         <text>
+            
+            Insects are considered a culinary treat by many zoo animals, including chimpanzees and 
+            ring-tailed lemurs.
+	    
+	    Combining insects with honey in a termite mound feeder will virtually guarantee hours of 
+	    challenging fun for the nearest chimpanzee with a stick.
+
+         </text>
+         
+   </zoopedia_insects>   
+   
+   <zoopedia_icefloatlrg>
+         <entry>Large Floating Ice Pack</entry>
+         <text>
+            
+            The large floating ice pack consists of a large platform made of ice. They are most commonly 
+            seen floating in water in arctic exhibits.
+	    <p/>
+	    The large floating ice pack is most popular with penguins and polar bears who like to climb 
+	    or float around on them.
+
+         </text>
+         
+   </zoopedia_icefloatlrg> 
+   
+   <zoopedia_icefloatmed>
+         <entry>Medium Floating Ice Pack</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_icefloatmed> 
+   
+   <zoopedia_livefish>
+         <entry>Live Fish</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_livefish> 
+   
+   <zoopedia_liverat>
+         <entry>Live Rat</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_liverat> 
+   
+   <zoopedia_lookoutpost>
+         <entry>Lookout Post</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_lookoutpost> 
+   
+   <zoopedia_monkeybars>
+         <entry>Monkey Bars</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_monkeybars>    
+   
+   <zoopedia_peanutfeeder>
+         <entry>Peanut Feeder</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_peanutfeeder> 
+   
+   <zoopedia_stickpile>
+         <entry>Pile of Sticks</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_stickpile> 
+   
+   <zoopedia_plasticbarrel>
+         <entry>Plastic Barrel</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_plasticbarrel> 
+   
+   <zoopedia_polenrope>
+         <entry>Pole with Rope</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_polenrope>  
+   
+   <zoopedia_pursuitball>
+         <entry>Pursuit Ball</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_pursuitball>
+   
+   <zoopedia_rubbertoy>
+         <entry>Rubber Toy</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_rubbertoy>
+   
+   <zoopedia_scratchingpost>
+         <entry>Scratching Post</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_scratchingpost>
+   
+   <zoopedia_substratepile>
+         <entry>Substrate Pile</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_substratepile>
+   
+   <zoopedia_termitemound>
+         <entry>Termite Mound Feeder</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_termitemound>   
+   <zoopedia_woodenramp>
+         <entry>Wooden Ramp</entry>
+         <text>
+            <img src="entities\objects\enrichment\WoodenRamp\WoodenRamp_icon.tga" sx="0" sy="0" sw="64" sh="64"/>
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_woodenramp>   
+   
+   
+   
+   
+   
+      
+   
+   
+   
+   
+   
+   </ZT2Strings>

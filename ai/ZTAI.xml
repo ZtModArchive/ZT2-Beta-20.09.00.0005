@@ -1,0 +1,29 @@
+<ZTAIMgr>
+   <General AI_On="1" DebugAI="0" DebugAITrace="0" DebugAIScoreTrace="0" DebugAIUpdate="80" Need_Adjust_On="1" Update_Count="0" Activate_Count="0" Activate_Interval="0" LowScore="0" StateThinkerInterval="50" CriticalAdjustInterval="50" NoTaskWait="100" OutsideRangeNeedValue="0" DefaultSensorsRadius="25" BadEntityClearInterval="50" NumTargetsPerTerrainRegion="3" NumTargetsPerShoreRegion="10" NeedPointUpdateInterval="5" ScoreMomentum="1" Slap_On="true" ExportTaskData="false" Optimization="false" Instrumentation="false"/>
+   <ZTAIAmbientsMgr configData="AI/ambientsmgr.xml"/>
+   <BFBehSetMap>
+      <behaviorpath path="ai/tasks"/>
+      <behaviorpath path="ai/tasks/animals"/>
+      <behaviorpath path="ai/tasks/buildings"/>
+      <behaviorpath path="ai/tasks/enrichment"/>
+      <behaviorpath path="ai/tasks/foliage"/>
+      <behaviorpath path="ai/tasks/food"/>
+      <behaviorpath path="ai/tasks/guests"/>
+      <behaviorpath path="ai/tasks/guests/food"/>
+      <behaviorpath path="ai/tasks/guests/drink"/>
+      <behaviorpath path="ai/tasks/guests/dessert"/>
+      <behaviorpath path="ai/tasks/guests/restaurant"/>
+      <behaviorpath path="ai/tasks/guests/gift"/>
+      <behaviorpath path="ai/tasks/guests/bathroom"/>
+      <behaviorpath path="ai/tasks/guests/seating"/>
+      <behaviorpath path="ai/tasks/guests/trash"/>
+      <behaviorpath path="ai/tasks/guests/attack"/>
+      <behaviorpath path="ai/tasks/guests/viewanimal"/>
+      <behaviorpath path="ai/tasks/guests/amusement"/>
+      <behaviorpath path="ai/tasks/rocks"/>
+      <behaviorpath path="ai/tasks/scenery"/>
+      <behaviorpath path="ai/tasks/staff"/>
+      <behaviorpath path="ai/tasks/global"/>
+      <behaviorpath path="ai/tasks/debug"/>
+   </BFBehSetMap>
+</ZTAIMgr>

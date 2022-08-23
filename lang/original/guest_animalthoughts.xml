@@ -1,0 +1,146 @@
+<ZT2Strings>
+   <guestthoughts>
+<!--Guest Thoughts-->
+      <AnimalHungryBad>It looks like %s needs something to eat!</AnimalHungryBad>
+      <AnimalThirstyBad>It looks like %s needs something to drink!</AnimalThirstyBad>
+      <AnimalFightBad>%1s and %2s are fighting!</AnimalFightBad>
+      <AnimalAttackedBad>Oh No! %1s was attacked by %2s!</AnimalAttackedBad>
+      <AnimalChasedBad>%2s is chasing %1s!</AnimalChasedBad>
+      <AnimalChasedGood>Neat! %2s and %1s are chasing each other around.</AnimalChasedGood>
+      <AnimalUseShelterGood>It's neat seeing %1s resting in %2s.</AnimalUseShelterGood>
+      <AnimalUseShelterBad>The %1s looks odd using %2s.</AnimalUseShelterBad>
+      <AnimalEatGood>%1s really likes eating %2s.</AnimalEatGood>
+      <AnimalEatBad>Hey, %1s doesn't like eating %2s.</AnimalEatBad>
+      <AnimalGreetGood>Look at %1s and %2s greeting each other.</AnimalGreetGood>
+      <AnimalGroomGood>%1s and %2s are grooming each other.</AnimalGroomGood>
+      <AnimalGroomSelfGood>Cool, %s is grooming itself.</AnimalGroomSelfGood>
+      <AnimalRubGood>Looks like %s needed to scratch an itch.</AnimalRubGood>
+      <AnimalRunGood>I like seeing %s run around!</AnimalRunGood>
+      <AnimalHopGood>I like seeing %s hop around!</AnimalHopGood>
+      <AnimalDustBathGood>It's neat watching %s take a dust bath.</AnimalDustBathGood>
+      <AnimalPranceGood>It's neat watching %s prance around the exhibit.</AnimalPranceGood>
+      <AnimalRoarGood>Wow! %s has a really loud roar.</AnimalRoarGood>
+      <AnimalRoarBad>I think %1s is roaring at %2s because its angry.</AnimalRoarBad>
+      <AnimalRoarPreyGood>Its neat to see %1s roar at %2s.</AnimalRoarPreyGood>
+      <AnimalRoarSelfBad>I think %s is roaring because its angry.</AnimalRoarSelfBad>
+      <AnimalCallGood>Look at %1s calling to %2s.</AnimalCallGood>
+      <AnimalCallYoungGood>Look at %1s calling to the young %2s.</AnimalCallYoungGood>
+      <AnimalGroomYoungGood>I like seeing %s groom the cub.</AnimalGroomYoungGood>
+      <AnimalAttackingBad>%1s is going to attack %2s.</AnimalAttackingBad>
+      <AnimalScratchObjectGood>Look at %1s scratching %2s.</AnimalScratchObjectGood>
+      <AnimalUseObjectGood>It's neat watching %1s use %2s.</AnimalUseObjectGood>
+      <AnimalUseNativeRockGood>It's neat watching %s climb rocks from its biome.</AnimalUseNativeRockGood>
+      <AnimalUseNonNativeRockBad>%1s looks odd climbing rocks not from its biome</AnimalUseNonNativeRockBad>
+      <AnimalPlayObjectGood>Cool! %1s is playing with %2s.</AnimalPlayObjectGood>
+      <AnimalPickUpObjectGood>Wow! %1s picked up %2s.</AnimalPickUpObjectGood>
+      <AnimalCarryObjectGood>Hey, %1s is carrying around %2s.</AnimalCarryObjectGood>
+      <AnimalHoldObjectGood>Neat! %1s is holding %2s.</AnimalHoldObjectGood>
+      <AnimalClimbNonNativeTreeBad>%1s looks odd climbing %2s.</AnimalClimbNonNativeTreeBad>
+      <AnimalClimbNativeTreeGood>It's neat watching %s climb trees from its biome.</AnimalClimbNativeTreeGood>
+      <AnimalSwimGood>I like seeing %s swim around!</AnimalSwimGood>
+      <AnimalFloatGood>I like seeing %s in the water!</AnimalFloatGood>
+      <AnimalEatContainerGood>I like seeing %1s eat from %2s.</AnimalEatContainerGood>
+      <AnimalBrowseGood>I like seeing %1s browse from %2s.</AnimalBrowseGood>
+      <AnimalDrinkContainerGood>I like seeing %1s drink from %2s.</AnimalDrinkContainerGood>
+      <AnimalUseEaselGood>It's neat watching %1s paint on %2s.</AnimalUseEaselGood>
+      <AnimalAngryBad>I think %s is unhappy.</AnimalAngryBad>
+      <AnimalPeanutFeederGood>Cool! Did you see %1s get the peanuts from %2s?</AnimalPeanutFeederGood>
+      <AnimalMarkScentGood>Look at %1s mark its scent on %2s.</AnimalMarkScentGood>
+      <AnimalContainerEmptyBad>%1s can't eat because there is no food in %2s.</AnimalContainerEmptyBad>
+      <AnimalRollGood>Hey, %s just rolled over!</AnimalRollGood>
+      <AnimalSomersaultGood>Wow! %s just did a somersault!</AnimalSomersaultGood>
+      <AnimalCleanPawGood>Look! %s is licking its paw.</AnimalCleanPawGood>
+      <AnimalDiedBad>Oh No! %s has died of old age.</AnimalDiedBad>
+      <AnimalEscapedBad>Oh No! %s has escaped and is running loose.</AnimalEscapedBad>
+      <AnimalEscapedGood>Hey! I think %s has escaped from the exhibit.</AnimalEscapedGood>
+      <AnimalSniffGood>Look at %1s and %2s sniffing each other.</AnimalSniffGood>
+      <AnimalNuzzleGood>Cool! %1s and %2s are nuzzling.</AnimalNuzzleGood>
+      <AnimalNurseGood>Wow! %1s is nursing %2s.</AnimalNurseGood>
+      <AnimalThreatenBad>Hey! %1s is threatening %2s.</AnimalThreatenBad>
+      <AnimalAttackedGuestBad>Oh No! %1s attacked %2s!</AnimalAttackedGuestBad>
+      <AnimalSniffSelfGood>Look! %s is sniffing.</AnimalSniffSelfGood>
+      <AnimalStampFootGood>Look! %s is stomping its foot.</AnimalStampFootGood>
+      <AnimalThumpTailGood>Cool! %s is thumping its tail.</AnimalThumpTailGood>
+      <AnimalStandTallGood>%s looks neat when it stands up tall.</AnimalStandTallGood>
+      <AnimalShakeGood>%s is shaking itself off.</AnimalShakeGood>
+      <AnimalSneezeGood>%s just sneezed.</AnimalSneezeGood>
+      <AnimalStretchGood>Neat! %s is stretching.</AnimalStretchGood>
+      <AnimalFlyGood>Wow! %s is flying around.</AnimalFlyGood>
+      <AnimalStalkGood>Cool! %s is stalking its prey.</AnimalStalkGood>
+      <AnimalGapeGood>It's really neat when %s opens its mouth.</AnimalGapeGood>
+      <AnimalCallSelfGood>%s is making a lot of noise.</AnimalCallSelfGood>
+      <AnimalSunbatheGood>%s looks neat lying in the sun.</AnimalSunbatheGood>
+      <AnimalSwishTailOtherGood>Hey, %1s is swishing its tail at %2s.</AnimalSwishTailOtherGood>
+      <AnimalPonderGood>Neat! %s looks very curious.</AnimalPonderGood>
+      <AnimalSpreadWingsGood>Wow! %s is spreading its wings.</AnimalSpreadWingsGood>
+      <AnimalFunnyWalkGood>Hey! %s looks funny when it walks.</AnimalFunnyWalkGood>
+      <AnimalYawnGood>Look! %s just yawned.</AnimalYawnGood>
+      <AnimalSleepShadeGood>Look! %s is sleeping in the shade.</AnimalSleepShadeGood>
+      <AnimalEmbraceGood>Wow! %1s is embracing %2s.</AnimalEmbraceGood>
+      <AnimalCallOtherBad>I think %1s is calling at %2s because its angry.</AnimalCallOtherBad>
+      <AnimalKissGood>Hey! %1s is kissing %2s.</AnimalKissGood>
+      <AnimalDrumGood>Cool! %s is drumming on the ground.</AnimalDrumGood>
+      <AnimalSleepTogetherGood>Neat! I like how the %s are sleeping together.</AnimalSleepTogetherGood>
+      <AnimalLookAroundGood>%s is looking around.</AnimalLookAroundGood>
+      <AnimalHitGood>Look at %1s is hitting %2s.</AnimalHitGood>
+      <AnimalRubAgainstGood>Wow! %1s is rubbing against %2s.</AnimalRubAgainstGood>
+      <AnimalPredatorPreyGood>I think its neat that %1s and %2s can live in the same exhibit.</AnimalPredatorPreyGood>
+      <AnimalSickBad>%s looks pretty sick.</AnimalSickBad>
+      <AnimalVerySickBad>%s looks so sick!</AnimalVerySickBad>
+      <AnimalTranquilizedGood>Whew! %s has been captured!</AnimalTranquilizedGood>
+      <AnimalStottGood>Wow! %s is stotting.</AnimalStottGood>
+      <AnimalChargeBad>Oh No! %1s is charging at %2s.</AnimalChargeBad>
+      <AnimalChargeGood>Neat! %1s is play charging at %2s.</AnimalChargeGood>
+      <AnimalPrivacyGood>%s seems to be very shy.</AnimalPrivacyGood>
+      <AnimalSpitGood>Ha Ha. %s just spit on that guest.</AnimalSpitGood>
+      <GotSpitOnBad>Hey! %s just spit on me.</GotSpitOnBad>
+      <AnimalLayEggGood>Wow! %s just laid an egg.</AnimalLayEggGood>
+      <AnimalEggHatchedGood>Wow! %s just hatched from the egg.</AnimalEggHatchedGood>
+      <AnimalFollowMotherGood>Neat! %s is following its mother.</AnimalFollowMotherGood>
+      <AnimalShakeHeadGood>%s is shaking its head.</AnimalShakeHeadGood>
+      <AnimalSplashGood>Neat! %s is splashing in the water.</AnimalSplashGood>
+      <AnimalStandOneLegGood>Neat! %s is standing on one leg.</AnimalStandOneLegGood>
+      <AnimalCheckEggGood>Neat! %s is checking on the egg.</AnimalCheckEggGood>
+      <AnimalSlidingGood>Neat! %s is sliding on the ice.</AnimalSlidingGood>
+      <AnimalPouncingGood>Hey! Did you see %s pounce?.</AnimalPouncingGood>
+      <AnimalPlayFightGood>%1s and %2s are play fighting!</AnimalPlayFightGood>
+      <AnimalMateGood>%1s and %2s are mating!</AnimalMateGood>
+      <AnimalHideGrassGood>%s is hiding in the grass.</AnimalHideGrassGood>
+      <AnimalHideBushGood>%1s is hiding in the %2s.</AnimalHideBushGood>
+      <AnimalListenGood>%s is listening to the other animals.</AnimalListenGood>
+      <AnimalStompIceGood>%s just stomped on the ice.</AnimalStompIceGood>
+      <AnimalFishGood>Look! %s is trying to catch a fish.</AnimalFishGood>
+      <AnimalCatchFishGood>Wow! %s just caught a fish.</AnimalCatchFishGood>
+      <AnimalChewIceGood>Hey! %s is chewing on the ice floe.</AnimalChewIceGood>
+      <AnimalWalkUprightGood>%s is walking upright!</AnimalWalkUprightGood>
+      <AnimalDigFoodGood>%s is digging for food.</AnimalDigFoodGood>
+      <AnimalEntertaining>%s is entertaining!</AnimalEntertaining>
+      <AnimalAmusing>It's neat seeing a real %s!</AnimalAmusing>
+      <AnimalBoring>%s is boring.</AnimalBoring>
+      <AnimalDisturbing>I'm very upset at the condition of %s.</AnimalDisturbing>
+      <AnimalHappy>%s seems pretty happy.</AnimalHappy>
+      <AnimalVeryHappy>%s looks very happy!</AnimalVeryHappy>
+      <AnimalUnhappy>%s seems unhappy</AnimalUnhappy>
+      <AnimalVeryUnhappy>%s seems really upset!</AnimalVeryUnhappy>
+      <AnimalBornGood>Wow! %s just had a baby! It's so cute.</AnimalBornGood>
+      <AnimalEduAwful>This habitat is all wrong for %s!</AnimalEduAwful>
+      <AnimalEduBad>%s looks out of place in its habitat.</AnimalEduBad>
+      <AnimalEduNormal>%s looks comfortable in its habitat.</AnimalEduNormal>
+      <AnimalEduGood>Wow! That habitat is perfect for %s!</AnimalEduGood>
+      <AnimalBiomeBad>Poor %s is in a hostile environment.</AnimalBiomeBad>
+      <AnimalSpaceBad>It doesn't look like %s has enough space!</AnimalSpaceBad>
+      <AnimalSubmissiveGood>It is interesting to see the %2 behaving submissively towards %1</AnimalSubmissiveGood>
+      <AnimalBlowBubblesGood>Wow! %s is blowing bubbles! That is cool!</AnimalBlowBubblesGood>
+      <AnimalJumpGood>I like seeing %s jump around!</AnimalJumpGood>
+      <AnimalKickBad>I think %s is kicking because its angry.</AnimalKickBad>
+      <AnimalCuteGood>%s is so cute!</AnimalCuteGood>
+      <AnimalWalkAroundGood>I like seeing %s so active.</AnimalWalkAroundGood>
+      <AnimalRamGood>Hey! %1s and %2s are ramming each other.</AnimalRamGood>
+      <AnimalPlayOtherGood>Hey! %1s is playing with %2s.</AnimalPlayOtherGood>
+      <AnimalStrutWalkGood>%s is strutting around!</AnimalStrutWalkGood>
+      <AnimalFeedYoungGood>Wow! %1s is feeding %2s.</AnimalFeedYoungGood>
+      <AnimalRunJumpingGood>I like seeing %s run and jump.</AnimalRunJumpingGood>
+      <AnimalDrownBad>Oh No! %s can't swim!</AnimalDrownBad>
+      <AnimalCoverEyesGood>Look! %s is covering its eyes.</AnimalCoverEyesGood>
+   </guestthoughts>
+</ZT2Strings>

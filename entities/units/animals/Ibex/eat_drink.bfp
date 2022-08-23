@@ -1,0 +1,12 @@
+Stand_Idle
+Stand_2Eat
+Eat_Drink
+Eat_Idle
+Eat_2Chew
+Chew_Idle
+Chew_2Graze
+Graze_Drink
+Graze_Idle
+Graze_2Chew
+Chew_Idle
+Chew_2Stand

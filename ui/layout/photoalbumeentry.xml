@@ -1,0 +1,28 @@
+<UIToggleButton name="AlbumEntry" sticky="1">
+   <UIRegion x="15" w="0" h="20" walign="max"/>
+   <UIAspect alwayshit="true">
+      <standard>
+         <normal>
+            <BFFont>
+               <BFColor r="255" g="197" b="78" a="255"/>
+            </BFFont>
+         </normal>
+         <highlighted>
+            <BFFont>
+               <BFColor r="255" g="255" b="201" a="255"/>
+            </BFFont>
+         </highlighted>
+         <activated>
+            <BFFont>
+               <BFColor r="255" g="255" b="0" a="255"/>
+            </BFFont>
+         </activated>
+         <disabled>
+            <BFFont>
+               <BFColor r="200" g="200" b="200" a="255"/>
+            </BFFont>
+         </disabled>
+      </standard>
+   </UIAspect>
+   <text format="mainmenu:profile_name"/>
+</UIToggleButton>

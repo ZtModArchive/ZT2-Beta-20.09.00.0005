@@ -1,0 +1,6 @@
+<TEXTKEY>
+   <key frame="1" text="{Bip01 Head} snd 'FloatLunge'"/>
+   <key frame="8" text="{Bip01 R Hand} runps Biomefx_Splash"/>
+   <key frame="8" text="{Bip01 L Hand} runps Biomefx_Splash"/>
+   <key frame="28" text="{Bip01 Head} runps Biomefx_Splash"/>
+</TEXTKEY>

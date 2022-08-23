@@ -1,0 +1,20 @@
+<BFScenarioGroup name="specialguestrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="specialguest" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHSpecialGuestShort" overview="Challengetext:CHSpecialGuest" />
+				<success locid="Challengetext:CHSpecialGuestSuccessShort" overview="Challengetext:CHSpecialGuestSuccess" />
+				<failure locid="Challengetext:CHSpecialGuestFailureShort" overview="Challengetext:CHSpecialGuestFailure" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/specialguest.lua" entry="evalspecialguest" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/specialguest.lua" entry="completespecialguest" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/specialguest.lua" entry="failspecialguest" />
+			</failure>			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

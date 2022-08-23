@@ -1,0 +1,65 @@
+<ZT2Strings>
+   <ZTPhotoMode version="0">
+      <NumPicsFormat>%02d / %02d</NumPicsFormat>
+      <photo_challenge_mode_label>
+         <font name="arial" size="20" image="ui\font\color_mainmenu.tga" shadowx="1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Photo Challenge</b>
+            </color>
+         </font>
+      </photo_challenge_mode_label>
+      <CameraNotFullFormat>
+         <font name="arial" size="12" shadowx="1" shadowy="1" shadowa="64">
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </CameraNotFullFormat>
+      <CameraFullFormat>
+         <font name="arial" size="12" shadowx="1" shadowy="1" shadowa="64">
+            <color r="255" g="8" b="8">
+               <b>%text%</b>
+            </color>
+         </font>
+      </CameraFullFormat>
+      <go_to_cursor_mode>
+         <font name="arial" size="12" shadowx="0" shadowy="0" shadowa="60">
+            <color r="255" g="255" b="255" a="100">
+               <b>Right click to toggle the mouse cursor on and off.</b>
+            </color>
+         </font>
+      </go_to_cursor_mode>
+      <go_to_photo_mode>
+         <font name="arial" size="12" shadowx="0" shadowy="0" shadowa="60">
+            <color r="255" g="255" b="255" a="100">
+               <b>Right click to enter photo mode.</b>
+            </color>
+         </font>
+      </go_to_photo_mode>
+      <ScoreLabel>Score:</ScoreLabel>
+      <Challenge2stt>Take a picture of an elephant browsing.</Challenge2stt>
+      <Challenge3stt>Take a picture of an elephant walking.</Challenge3stt>
+      <Challenge2Completestt>Challenge complete (take a picture of an elephant browsing).</Challenge2Completestt>
+      <Challenge3Completestt>Challenge complete (take a picture of an elephant walking).</Challenge3Completestt>
+      <challengeset_tiger_difficulty1>Tiger Challenge (difficulty level 1)</challengeset_tiger_difficulty1>
+      <challenge_tiger_eating_stt>Take a picture of a tiger eating.</challenge_tiger_eating_stt>
+      <challenge_tiger_eating_cstt>Challenge complete (take a picture of a tiger eating).</challenge_tiger_eating_cstt>
+      <challenge_tiger_walking_stt>Take a picture of a tiger walking.</challenge_tiger_walking_stt>
+      <challenge_tiger_walking_cstt>Challenge complete (take a picture of a tiger walking).</challenge_tiger_walking_cstt>
+      <challenge_hungry_tiger_stt>Take a picture of a hungry tiger.</challenge_hungry_tiger_stt>
+      <challenge_hungry_tiger_cstt>Challenge complete (take a picture of a hungry tiger).</challenge_hungry_tiger_cstt>
+      <challenge_mother_and_young_tiger_stt>Take a picture of a mother tiger with her young.</challenge_mother_and_young_tiger_stt>
+      <challenge_mother_and_young_tiger_cstt>Challenge complete (take a picture of a mother tiger with her young).</challenge_mother_and_young_tiger_cstt>
+      <challenge_tiger_and_gorilla_stt>Take a picture of a tiger by a gorilla.</challenge_tiger_and_gorilla_stt>
+      <challenge_tiger_and_gorilla_cstt>Challenge complete (take a picture of a tiger by a gorilla).</challenge_tiger_and_gorilla_cstt>
+      <UndoneChallengeltt>You must take a picture that completes the listed requirements in order to fulfill the photo challenge.</UndoneChallengeltt>
+      <SubmitPhotosstt>Submit your photos to the photo challenge.</SubmitPhotosstt>
+      <default_album_name>My Photo Album</default_album_name>
+      <default_photo_caption>Subject not found</default_photo_caption>
+   </ZTPhotoMode>
+
+   
+   
+   
+   
+</ZT2Strings>

@@ -1,0 +1,6 @@
+<TEXTKEY>
+
+<key time="0.0" text="anim 'Sit_Idle', anim 'Sit_2Stand', anim 'Stand_2Walk', anim 'Walk_2Stand',  anim 'Stand_2Climb', ClimbDown"/>
+<key percent="80" text="Climb2Walk, exit"/>
+
+</TEXTKEY>

@@ -1,0 +1,6 @@
+<TEXTKEY>
+   <key frame="20" text="{FootBackLeft} snd 'medium_dropa'"/>
+   <key frame="20" text="{FootBackLeft} runps Biomefx"/>
+   <key frame="40" text="{FootBackLeft} snd 'medium_dropa'"/>
+   <key frame="40" text="{FootBackLeft} runps Biomefx"/>
+</TEXTKEY>

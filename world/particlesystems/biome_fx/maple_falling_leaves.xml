@@ -1,0 +1,5 @@
+<BFPhysObj drawLast="true">
+   <BFSceneGraphComponent updateBounds="true" modelfile="world\particlesystems\biome_fx\maple_falling_leaves.nif"/>
+   <BFHasParticleComponent/>
+   <BFForceUpdateWhenVisibleComponent controllersOnly="false"/>
+</BFPhysObj>

@@ -1,0 +1,5 @@
+<BFPhysObj>
+   <position x="3" y="3" z="0"/>
+   <BFSceneGraphComponent modelfile="ui/fx/anchor/anchor.nif" scale="1.0"/>
+   <BFGroundFitComponent heightOffset="0.0"/>
+</BFPhysObj>

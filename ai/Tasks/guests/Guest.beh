@@ -1,0 +1,47 @@
+<BehaviorSets>
+   <Queue>
+      <subjects>
+         <Guest/>
+      </subjects>
+      <behaviors>
+         <BFBehDockQueue hitRadius="3" queueRadius="12" locoSpeed="slow"/>
+         <BFBehWaitQueue minWaitTime="30" maxWaitTime="60" waitBehSet="WaitInLine"/>
+         <BFBehDock targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Queue>
+   <WaitInLine>
+      <subjects>
+         <Guest/>
+      </subjects>
+      <behaviors>
+         <BFBehDockQueue hitRadius="3" queueRadius="12" locoSpeed="slow"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </WaitInLine>
+   
+   <WaitForPath>
+      <subjects>
+         <Guest/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet loopFlag="true">
+            <behaviorTable>
+               <StandItem behSet="StandItemWaitForPath"/>
+               <default behSet="StandWaitForPath"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>   
+
+   </WaitForPath>   
+
+   <StandItemWaitForPath>
+      <subjects>
+         <Guest/>
+      </subjects>
+      <behaviors>
+		<BFBehAnimate targetAnim="StandItem_Idle"/>
+      </behaviors>
+   </StandItemWaitForPath>
+
+   
+</BehaviorSets>

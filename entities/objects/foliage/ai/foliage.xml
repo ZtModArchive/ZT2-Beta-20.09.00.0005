@@ -1,0 +1,10 @@
+<BFTypedBinder binderType="foliage" abstract="true">
+   <types>
+      <entity>
+         <foliage/>
+      </entity>
+   </types>
+   <shared>
+      <BFGCollisionData isPassable="true" isTraversable="true"/>
+   </shared>
+</BFTypedBinder>

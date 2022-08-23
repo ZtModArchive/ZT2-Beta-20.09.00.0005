@@ -1,0 +1,20 @@
+<entries>
+   <BFHelpEntry order="zoopedia_biomes:entry" entry="zoopedia_biomes:entry" text="zoopedia_biomes:text" page2="zoopedia_biomes:page2"/>
+   <BFHelpEntry order="zoopedia_tropicalrainforest:entry" entry="zoopedia_tropicalrainforest:entry" text="zoopedia_tropicalrainforest:text" page2="zoopedia_tropicalrainforest:page2"/>
+   <BFHelpEntry order="zoopedia_savannah:entry" entry="zoopedia_savannah:entry" text="zoopedia_savannah:text" page2="zoopedia_savannah:page2"/>
+   <BFHelpEntry order="zoopedia_alpine:entry" entry="zoopedia_alpine:entry" text="zoopedia_alpine:text" page2="zoopedia_alpine:page2"/>
+   <BFHelpEntry order="zoopedia_boreal:entry" entry="zoopedia_boreal:entry" text="zoopedia_boreal:text" page2="zoopedia_boreal:page2"/>
+   <BFHelpEntry order="zoopedia_desert:entry" entry="zoopedia_desert:entry" text="zoopedia_desert:text" page2="zoopedia_desert:page2"/>
+   <BFHelpEntry order="zoopedia_grassland:entry" entry="zoopedia_grassland:entry" text="zoopedia_grassland:text" page2="zoopedia_grassland:page2"/>
+   <BFHelpEntry order="zoopedia_scrub:entry" entry="zoopedia_scrub:entry" text="zoopedia_scrub:text" page2="zoopedia_scrub:page2"/>
+   <BFHelpEntry order="zoopedia_temperate:entry" entry="zoopedia_temperate:entry" text="zoopedia_temperate:text" page2="zoopedia_temperate:page2"/>
+   <BFHelpEntry order="zoopedia_tundra:entry" entry="zoopedia_tundra:entry" text="zoopedia_tundra:text" page2="zoopedia_tundra:page2"/>
+   <BFHelpEntry order="zoopedia_wetland:entry" entry="zoopedia_wetland:entry" text="zoopedia_wetland:text" page2="zoopedia_wetland:page2"/>
+   
+   
+   
+   
+   
+   
+   
+</entries>

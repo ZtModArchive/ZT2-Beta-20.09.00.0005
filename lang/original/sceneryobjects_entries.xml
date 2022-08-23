@@ -1,0 +1,392 @@
+<ZT2Strings>
+
+
+   <zoopedia_trash>
+         <entry>Trash</entry>
+         <text>
+            
+            Seeing trash is irritating to zoo guests. Maintenance workers sweep up trash that is on the 
+            ground and trash cans allows guests to throw out their trash in a suitable location.
+            
+         
+         </text>
+         
+   </zoopedia_trash>
+
+   
+   <zoopedia_trashcan>
+         <entry>Trashcan</entry>
+         <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/trashcan_df/trashcan_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            
+            <br/>
+            
+            A trashcan allows guests to dispose of their trash and will be emptied by maintenance workers. 
+            Guests become irritated if trashcans become full. If a guest cannot find a trashcan, they will 
+            pitch their trash on the ground.
+            
+            
+            
+         </text>
+         
+   </zoopedia_trashcan>
+   
+   <zoopedia_themedtrashcan>
+            <entry>Themed Trashcan</entry>
+            <text>
+               
+               A trashcan allows guests to dispose of their trash and will be emptied by maintenance workers. 
+               Guests become irritated if trashcans become full. If a guest cannot find a trashcan, they will 
+               pitch their trash on the ground. Guests who have enjoyed an exhibit particularly enjoy it when 
+               the nearby scenery objects feature a similar theme.  
+            
+            </text>
+            
+   </zoopedia_themedtrashcan>
+   
+   <zoopedia_recyclebin>
+            <entry>Recycling Bin</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/recyclingbin_df/recyclingbin_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            
+            <br/>            
+               
+               A guest can dispose of their recyclable garbage in these containers. 
+               The zoo will enjoy a small cash return when these recyclables are returned for refund.
+            
+            </text>
+            
+   </zoopedia_recyclebin>
+   
+   <zoopedia_donationbox>
+            <entry>Donation Box</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/donationbox_df/donationbox_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            
+            <br/>                        
+               
+               A donation box includes an exhibit sign providing a guest with information about the exhibit they are 
+               viewing and allows guests to make a donation to the zoo. A guest who is enjoying an animal exhibit is 
+               more likely to make a donation.
+            
+            </text>
+            
+   </zoopedia_donationbox>   
+   
+   <zoopedia_lamp>
+            <entry>Lamps</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/lamp_df/lamp_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            
+            <br/>               
+               
+               Lamps provide additional ambience for zoo guests.
+            
+            </text>
+            
+   </zoopedia_lamp>
+   
+   <zoopedia_themedlamp>
+            <entry>Themed Lamps</entry>
+            <text>
+               
+               Lamps provide additional ambience for zoo guests. Guests who have enjoyed an exhibit particularly 
+               enjoy it when the nearby scenery objects feature a similar theme.
+            
+            </text>
+            
+   </zoopedia_themedlamp>
+   
+   <zoopedia_viewingareas>
+            <entry>Viewing Areas</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/viewareabasic_df/viewareabasic_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            <img src="entities/objects/scenery/viewingarea_steel/viewingarea_steel_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            <img src="entities/objects/scenery/viewingarea_stone/viewingarea_stone_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            <img src="entities/objects/scenery/viewingarea_wood/viewingarea_wood_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            
+            <br/>               
+               
+               A viewing area provides a sheltered location from which the guests can view the animals. Wood, steel or stone can
+               be used to make your zoo visually appealing.
+            
+            </text>
+            
+   </zoopedia_viewingareas>  
+   
+   <zoopedia_themedviewingareas>
+            <entry>Themed Viewing Areas</entry>
+            <text>
+               
+               A viewing area provides a sheltered location from which the guests can view the animals. 
+               Guests who have enjoyed an exhibit particularly enjoy it when the nearby viewing area features a similar theme.
+            
+            </text>
+            
+   </zoopedia_themedviewingareas> 
+   
+   <zoopedia_picnictable>
+            <entry>Picnic Table</entry>
+            <text>
+               
+            <br/>
+            <img src="entities/objects/scenery/picnictable_df/picnictable_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            
+            <br/>                
+               
+               A picnic table allows guests to sit down to consume food and drink purchased at the zoo. 
+               Guests are happier when they don't have to eat standing up.
+            
+            </text>
+            
+   </zoopedia_picnictable> 
+   
+   <zoopedia_fountains>
+            <entry>Fountains</entry>
+            <text>
+               
+            <br/>
+            <img src="entities/objects/scenery/Fountain_Elephant/Fountain_Elephant_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            <img src="entities/objects/scenery/Fountain_Lion/Fountain_Lion_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            <img src="entities/objects/scenery/Fountain_Tiger/Fountain_Tiger_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            
+            <br/>                
+               
+               Guests enjoy the appearance of a fountain, especially when it represents one of their favorite animals.
+            
+            </text>
+            
+   </zoopedia_fountains> 
+   
+   <zoopedia_themedfountains>
+            <entry>Themed Fountains</entry>
+            <text>
+               
+               Guests enjoy the appearance of a fountain, especially when it represents one of their favorite animals. 
+               Guests who have enjoyed an exhibit particularly enjoy it when the nearby scenery objects feature a similar theme.
+            
+            </text>
+            
+   </zoopedia_themedfountains>   
+   
+   <zoopedia_statue>
+            <entry>Statues</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/Statue_PolarBear/Statue_PolarBear_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            <img src="entities/objects/scenery/Statue_Rhino/Statue_Rhino_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                        
+            <br/>             
+               
+               Guests enjoy the appearance of a statue, especially when it represents one of their favorite animals.
+            
+            </text>
+            
+   </zoopedia_statue> 
+   
+   <zoopedia_themedstatue>
+            <entry>Themed Statue</entry>
+            <text>
+               
+               Guests enjoy the appearance of a statue, especially when it represents one of their favorite animals. 
+               Guests who have enjoyed an exhibit particularly enjoy it when the nearby scenery objects feature a similar theme.
+            
+            
+            </text>
+            
+   </zoopedia_themedstatue> 
+   
+   <zoopedia_zoomap>
+            <entry>Zoo Map</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/zoomap_df/zoomap_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                                    
+            <br/>             
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_zoomap>    
+   
+   <zoopedia_bench>
+            <entry>Bench</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/bench_df/bench_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                                    
+            <br/>              
+               
+               Guests will become tired as they walk around the zoo. A bench provides a convenient location to take a 
+               break. Fatigued guests who can't find a seat will become unhappy.
+            
+            </text>
+            
+   </zoopedia_bench> 
+   
+   <zoopedia_themedbench>
+            <entry>Themed Bench</entry>
+            <text>
+               
+               Guests will become tired as they walk around the zoo. A bench provides a convenient location to take a 
+               break. Fatigued guests who can't find a seat will become unhappy. Guests who have enjoyed an exhibit particularly 
+               enjoy it when the nearby scenery objects feature a similar theme.
+            
+            
+            </text>
+            
+   </zoopedia_themedbench> 
+   
+   <zoopedia_arch>
+            <entry>Arch</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/PathArch_df/PathArch_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            <img src="entities/objects/scenery/PathArch_Stone_df/PathArch_Stone_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+            <img src="entities/objects/scenery/PathArch_Wood_df/PathArch_Wood_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                                    
+            <br/>              
+               
+               An arch adds a nice decorative element to paths and zoo areas. Guests enjoy walking under the arch.
+            
+            </text>
+            
+   </zoopedia_arch> 
+   
+   <zoopedia_themedarch>
+            <entry>Themed Arch</entry>
+            <text>
+               
+               An arch adds a nice decorative element to paths and zoo areas.  Guests enjoy walking under the arch.
+               Guests who have enjoyed an exhibit particularly enjoy it when the nearby scenery objects feature a similar theme.
+            
+            </text>
+            
+   </zoopedia_themedarch> 
+   
+   <zoopedia_binoculars>
+            <entry>Binoculars</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/binoculars_df/binoculars_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                                    
+            <br/>             
+               
+               Viewing binoculars allow guests to get an even closer view of the animals in an exhibit. When guests get a 
+               good view of all the interesting things an animal does, they enjoy the exhibit even more.
+            
+            </text>
+            
+   </zoopedia_binoculars>    
+   
+   <zoopedia_soundrock>
+            <entry>Outdoor Rock Speakers</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/MusicalRock_df/MusicalRock_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                                    
+            <br/>            
+               
+               These small rocks are outdoor speakers that blend nicely into the landscaping and create a pleasant 
+               ambience for guests. Guests are happy to hear the audio as they walk nearby.
+            
+            </text>
+            
+   </zoopedia_soundrock> 
+   
+   <zoopedia_feedingdispenser>
+            <entry>Feeding Dispenser</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/pelletdispenser_df/pelletdispenser_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                                    
+            <br/>            
+               
+               A feeding dispenser dispenses grain pellets that the guests can throw to the animals. 
+               Guests enjoy watching animals consume the pellets.
+            
+            </text>
+            
+   </zoopedia_feedingdispenser> 
+   
+   <zoopedia_footstool>
+            <entry>Children's Footstool</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/footstool_df/footstool_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                                    
+            <br/>            
+               
+               Children can stand on the footstool to get a better view of the animal exhibits. 
+               Children are happier when they can see the animals.
+            
+            </text>
+            
+   </zoopedia_footstool> 
+   
+   <zoopedia_gazebo>
+            <entry>Gazebo</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/gazebo_df/gazebo_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                                    
+            <br/>            
+               
+               Guests enjoy taking a break by sitting in the gazebo. This restful location can make guests happy 
+               to sit and watch the activity going on around them.
+            
+            </text>
+            
+   </zoopedia_gazebo>    
+   
+   <zoopedia_umbrellatable>
+            <entry>Outdoor Table</entry>
+            <text>
+            
+            <br/>
+            <img src="entities/objects/scenery/umbrellatable_df/umbrellatable_df_icon.tga" sx="0" sy="0" sw="64" sh="64" />
+                                    
+            <br/>            
+               
+               A dining table allows guests to sit down to consume food and drink purchased at the zoo. 
+               Guests are happier when they don't have to eat standing up.
+            
+            </text>
+            
+   </zoopedia_umbrellatable>  
+   
+   <zoopedia_themedumbrellatable>
+            <entry>Themed Umbrella Table</entry>
+            <text>
+               
+               A dining table allows guests to sit down to consume food and drink purchased at the zoo. 
+               Guests are happier when they don't have to eat standing up. Guests who have enjoyed an exhibit 
+               particularly enjoy it when the nearby scenery objects feature a similar theme.
+            
+            
+            </text>
+            
+   </zoopedia_themedumbrellatable>  
+   
+   
+   </ZT2Strings>

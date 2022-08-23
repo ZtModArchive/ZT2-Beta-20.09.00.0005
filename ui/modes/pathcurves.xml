@@ -1,0 +1,570 @@
+<CurveMap>
+   <curve texture="west_hilite6.tga">
+      <on>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="4"/>
+      </on>
+      <off>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="2"/>
+         <TriangleID x="1" y="-1" dir="6"/>
+         <TriangleID x="1" y="-1" dir="0"/>
+      </off>
+      <curb1_>
+         <TriangleID x="0" y="0" dir="6"/>
+      </curb1_>
+      <curb2_>
+         <TriangleID x="0" y="0" dir="4"/>
+      </curb2_>
+   </curve>
+   <curve texture="west_hilite5.tga">
+      <on>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="0"/>
+      </on>
+      <off>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="2"/>
+         <TriangleID x="1" y="1" dir="6"/>
+         <TriangleID x="1" y="1" dir="4"/>
+      </off>
+      <curb1_>
+         <TriangleID x="0" y="0" dir="6"/>
+      </curb1_>
+      <curb2_>
+         <TriangleID x="0" y="0" dir="0"/>
+      </curb2_>
+   </curve>
+   <curve texture="west_hilite1.tga">
+      <on>
+         <TriangleID x="-2" y="1" dir="4"/>
+         <TriangleID x="-2" y="1" dir="2"/>
+         <TriangleID x="-1" y="1" dir="0"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="0" dir="0"/>
+         <TriangleID x="-2" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="6"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="6"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="-1" y="0" dir="0"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite2.tga">
+      <on>
+         <TriangleID x="-2" y="-1" dir="0"/>
+         <TriangleID x="-2" y="-1" dir="2"/>
+         <TriangleID x="-1" y="-1" dir="4"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="0" dir="4"/>
+         <TriangleID x="-2" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="6"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="6"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="-1" y="0" dir="4"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite17.tga">
+      <on>
+         <TriangleID x="-2" y="-1" dir="2"/>
+         <TriangleID x="-1" y="-1" dir="6"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="-1" dir="2"/>
+         <TriangleID x="1" y="-1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="-1" dir="0"/>
+         <TriangleID x="-2" y="0" dir="4"/>
+         <TriangleID x="-2" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="6"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="4"/>
+         <TriangleID x="1" y="-1" dir="0"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="7"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="-1" y="0" dir="1"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite18.tga">
+      <on>
+         <TriangleID x="-2" y="1" dir="2"/>
+         <TriangleID x="-1" y="1" dir="6"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="1" dir="2"/>
+         <TriangleID x="1" y="1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="1" dir="4"/>
+         <TriangleID x="-2" y="0" dir="0"/>
+         <TriangleID x="-2" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="6"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="0"/>
+         <TriangleID x="1" y="1" dir="4"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="5"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="-1" y="0" dir="3"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite20.tga">
+      <on>
+         <TriangleID x="1" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="2"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="4"/>
+         <TriangleID x="0" y="-2" dir="0"/>
+         <TriangleID x="0" y="-2" dir="2"/>
+         <TriangleID x="1" y="-2" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="1" y="1" dir="4"/>
+         <TriangleID x="1" y="0" dir="0"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="-1" dir="2"/>
+         <TriangleID x="1" y="-1" dir="6"/>
+         <TriangleID x="1" y="-1" dir="4"/>
+         <TriangleID x="1" y="-2" dir="0"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="5"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="0" y="-1" dir="7"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite19.tga">
+      <on>
+         <TriangleID x="1" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="2"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="0"/>
+         <TriangleID x="0" y="2" dir="4"/>
+         <TriangleID x="0" y="2" dir="2"/>
+         <TriangleID x="1" y="2" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="1" y="-1" dir="0"/>
+         <TriangleID x="1" y="0" dir="4"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="1" dir="2"/>
+         <TriangleID x="1" y="1" dir="6"/>
+         <TriangleID x="1" y="1" dir="0"/>
+         <TriangleID x="1" y="2" dir="4"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="7"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="0" y="1" dir="5"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite22.tga">
+      <on>
+         <TriangleID x="-2" y="0" dir="4"/>
+         <TriangleID x="-2" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="6"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="1" dir="2"/>
+         <TriangleID x="1" y="1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="-1" dir="0"/>
+         <TriangleID x="-2" y="-1" dir="2"/>
+         <TriangleID x="-1" y="-1" dir="6"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="0"/>
+         <TriangleID x="1" y="1" dir="4"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="5"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="-1" y="0" dir="4"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite25.tga">
+      <on>
+         <TriangleID x="-2" y="0" dir="0"/>
+         <TriangleID x="-2" y="0" dir="2"/>
+         <TriangleID x="-1" y="0" dir="6"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="-1" dir="2"/>
+         <TriangleID x="1" y="-1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="1" dir="4"/>
+         <TriangleID x="-2" y="1" dir="2"/>
+         <TriangleID x="-1" y="1" dir="6"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="4"/>
+         <TriangleID x="1" y="-1" dir="0"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="7"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="-1" y="0" dir="0"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite4.tga">
+      <on>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="1" dir="2"/>
+         <TriangleID x="1" y="1" dir="6"/>
+         <TriangleID x="1" y="1" dir="0"/>
+         <TriangleID x="1" y="2" dir="4"/>
+      </on>
+      <off>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="0"/>
+         <TriangleID x="0" y="2" dir="4"/>
+         <TriangleID x="0" y="2" dir="2"/>
+         <TriangleID x="1" y="2" dir="6"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="6"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="0" y="1" dir="5"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite7.tga">
+      <on>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="-1" dir="2"/>
+         <TriangleID x="1" y="-1" dir="6"/>
+         <TriangleID x="1" y="-1" dir="4"/>
+         <TriangleID x="1" y="-2" dir="0"/>
+      </on>
+      <off>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="4"/>
+         <TriangleID x="0" y="-2" dir="0"/>
+         <TriangleID x="0" y="-2" dir="2"/>
+         <TriangleID x="1" y="-2" dir="6"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="6"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="0" y="-1" dir="7"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite8.tga">
+      <on>
+         <TriangleID x="-2" y="1" dir="2"/>
+         <TriangleID x="-1" y="1" dir="6"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="4"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="1" dir="4"/>
+         <TriangleID x="-2" y="0" dir="0"/>
+         <TriangleID x="-2" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="6"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="2"/>
+         <TriangleID x="1" y="-1" dir="6"/>
+         <TriangleID x="1" y="-1" dir="0"/>
+      </off>
+   </curve>
+   <curve texture="west_hilite9.tga">
+      <on>
+         <TriangleID x="-2" y="-1" dir="2"/>
+         <TriangleID x="-1" y="-1" dir="6"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="0"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="-1" dir="0"/>
+         <TriangleID x="-2" y="0" dir="4"/>
+         <TriangleID x="-2" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="6"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="2"/>
+         <TriangleID x="1" y="1" dir="6"/>
+         <TriangleID x="1" y="1" dir="4"/>
+      </off>
+   </curve>
+   <curve texture="west_hilite3.tga">
+      <on>
+         <TriangleID x="-2" y="-2" dir="2"/>
+         <TriangleID x="-1" y="-2" dir="6"/>
+         <TriangleID x="-1" y="-2" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="4"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="-2" dir="0"/>
+         <TriangleID x="-2" y="-1" dir="4"/>
+         <TriangleID x="-2" y="-1" dir="2"/>
+         <TriangleID x="-1" y="-1" dir="6"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="6"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="-1" y="-1" dir="1"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite0.tga">
+      <on>
+         <TriangleID x="-2" y="2" dir="2"/>
+         <TriangleID x="-1" y="2" dir="6"/>
+         <TriangleID x="-1" y="2" dir="4"/>
+         <TriangleID x="-1" y="1" dir="0"/>
+         <TriangleID x="-1" y="1" dir="2"/>
+         <TriangleID x="0" y="1" dir="6"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="-1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="-2" y="2" dir="4"/>
+         <TriangleID x="-2" y="1" dir="0"/>
+         <TriangleID x="-2" y="1" dir="2"/>
+         <TriangleID x="-1" y="1" dir="6"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="2"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="6"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="-1" y="1" dir="3"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite28.tga">
+      <on>
+         <TriangleID x="-1" y="2" dir="2"/>
+         <TriangleID x="-1" y="2" dir="4"/>
+         <TriangleID x="-1" y="1" dir="0"/>
+         <TriangleID x="-1" y="1" dir="4"/>
+         <TriangleID x="-1" y="0" dir="0"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="-1" dir="4"/>
+         <TriangleID x="1" y="-1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="0" y="2" dir="6"/>
+         <TriangleID x="0" y="2" dir="4"/>
+         <TriangleID x="0" y="1" dir="0"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="4"/>
+         <TriangleID x="1" y="-1" dir="0"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="7"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="0" y="1" dir="6"/>
+      </curb2>
+   </curve>
+   <curve texture="west_hilite27.tga">
+      <on>
+         <TriangleID x="-1" y="-2" dir="2"/>
+         <TriangleID x="-1" y="-2" dir="0"/>
+         <TriangleID x="-1" y="-1" dir="4"/>
+         <TriangleID x="-1" y="-1" dir="0"/>
+         <TriangleID x="-1" y="0" dir="4"/>
+         <TriangleID x="-1" y="0" dir="2"/>
+         <TriangleID x="0" y="0" dir="0"/>
+         <TriangleID x="0" y="1" dir="4"/>
+         <TriangleID x="0" y="1" dir="0"/>
+         <TriangleID x="1" y="1" dir="6"/>
+      </on>
+      <off>
+         <TriangleID x="0" y="-2" dir="6"/>
+         <TriangleID x="0" y="-2" dir="0"/>
+         <TriangleID x="0" y="-1" dir="4"/>
+         <TriangleID x="0" y="-1" dir="0"/>
+         <TriangleID x="0" y="0" dir="4"/>
+         <TriangleID x="0" y="0" dir="2"/>
+         <TriangleID x="1" y="0" dir="6"/>
+         <TriangleID x="1" y="0" dir="0"/>
+         <TriangleID x="1" y="1" dir="4"/>
+      </off>
+      <curb1>
+         <TriangleID x="0" y="0" dir="5"/>
+      </curb1>
+      <curb2>
+         <TriangleID x="0" y="-1" dir="6"/>
+      </curb2>
+   </curve>
+</CurveMap>

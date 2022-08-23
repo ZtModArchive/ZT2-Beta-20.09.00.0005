@@ -1,0 +1,28 @@
+[CampaignExperience]
+How fun was this scenario?
+<CampaignDifficulty>
+1 - Boring
+2 - Not Fun
+3 - Indifferent
+4 - Fun
+5 - Very Fun
+[CampaignDifficulty]
+How difficult was this scenario?
+<PlayAgain>
+Too Difficult
+Difficult
+Just Right
+Easy
+Too Easy
+[PlayAgain]
+Would you play this scenario again?
+Yes
+No
+[FreeformExperience]
+How fun was this game session?
+<CampaignDifficulty>
+1 - Boring
+2 - Not Fun
+3 - Indifferent
+4 - Fun
+5 - Very Fun

@@ -1,0 +1,21 @@
+<BFTypedBinder binderType="Perissodactyla" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Perissodactyla/>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared b_CudChewer="true">
+         <BFAINeedAdjusts hunger="0.33" social="0.50" stimulation="0.125"/>
+      </BFAIEntityDataShared>
+   </shared>
+</BFTypedBinder>

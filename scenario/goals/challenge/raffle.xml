@@ -1,0 +1,21 @@
+<BFScenarioGroup name="rafflerules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="raffle" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHRaffleShort" overview="Challengetext:CHRaffle" />
+				<success locid="Challengetext:CHRaffleSuccessShort" overview="Challengetext:CHRaffleSuccess" />
+				<failure locid="Challengetext:CHRaffleFailureShort" overview="Challengetext:CHRaffleFailure" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/raffle.lua" entry="evalraffle" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/raffle.lua" entry="completeraffle" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/raffle.lua" entry="failraffle" />
+			</failure>			
+			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

@@ -1,0 +1,17 @@
+<BFTypedBinder binderType="bathroomlarge" abstract="true">
+   <types>
+      <entity>
+         <building>
+            <bathroom>
+              <bathroomlarge/>
+            </bathroom>
+         </building>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0 0.479318" icon3Dscale="0.273883" />
+   </shared>
+</BFTypedBinder>

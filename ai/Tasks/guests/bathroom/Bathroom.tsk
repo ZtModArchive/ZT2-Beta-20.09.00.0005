@@ -1,0 +1,82 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="UseBathroomSmall" CursorTask="false" reserveTag="Use">
+      <BFAICreateData>
+         <Subjects>
+            <Guest/>
+         </Subjects>
+         <Targets>
+            <bathroomsmall/>
+            <Qualifiers inSight="40"/>            
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap thirst="-0" bathroom="-20"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="UseBathroom"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteBathroomgood"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>         
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap bathroom="-100" happiness ="-3"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="UseBathroomLarge" CursorTask="false" reserveTag="Use_Male">
+      <BFAICreateData>
+         <Subjects>
+            <Guest_Adult_M/>
+            <Guest_Young_M/>
+         </Subjects>
+         <Targets>
+            <bathroomlarge/>
+            <Qualifiers inSight="30"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap bathroom="-20"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="UseBathroom"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteBathroomgood"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>  
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap bathroom="-100" happiness ="-5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="UseBathroomLarge" CursorTask="false" reserveTag="Use_Female">
+      <BFAICreateData>
+         <Subjects>
+            <Guest_Adult_F/>
+            <Guest_Young_F/>
+         </Subjects>
+         <Targets>
+            <bathroomlarge/>
+            <Qualifiers inSight="30"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap bathroom="-20"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="UseBathroom"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteBathroomgood"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>  
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap bathroom="-100" happiness ="-5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

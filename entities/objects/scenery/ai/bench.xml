@@ -1,0 +1,15 @@
+<BFTypedBinder binderType="bench" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <bench/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 -0.046191 0.482759" icon3Dscale="0.628040" />
+   </shared>
+</BFTypedBinder>

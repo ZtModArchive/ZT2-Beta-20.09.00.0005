@@ -1,0 +1,16 @@
+<BehaviorSets>
+   <BroadcastAttack>
+      <subjects>
+         <animal/>
+      </subjects>
+      <behaviors>
+         <BFBehSendToken>
+            <BFAITokenList>
+               <BFAIToken Name="t_Attack" GiveTo="Guest" Payload="subject" Radius="30" Timeout="30" Reconsider="true"/>
+               <BFAIToken Name="t_Attack" GiveTo="Worker" Payload="subject" Radius="30" Timeout="30" Reconsider="true"/>
+               <BFAIToken Name="t_Attack" GiveTo="Educator" Payload="subject" Radius="30" Timeout="30" Reconsider="true"/>
+            </BFAITokenList>
+         </BFBehSendToken>
+      </behaviors>
+   </BroadcastAttack>
+</BehaviorSets>

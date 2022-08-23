@@ -1,0 +1,2 @@
+<BFDX9Renderer graphicsDetail="high" screenWidth="1024" screenHeight="768" fullScreen="1" backgroundRed="0.73" backgroundBlue="1.0" backGroundGreen="0.83" minScreenWidth="640" minScreenHeight="480" minScreenDepth="16" useTriShapes="true" />
+<!-- graphics detail values: high, med, low, lowest -->

@@ -1,0 +1,5 @@
+<Schema name="BFNullEvent">
+	<ElementType name="BFNullEvent">
+		<extends type="BFEvent"/>
+	</ElementType>
+</Schema>

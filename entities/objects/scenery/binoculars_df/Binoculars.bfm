@@ -1,0 +1,60 @@
+<BFM modelname="entities\objects\scenery\binoculars_df\Binoculars_Base.nif">
+	<animation anim="entities\objects\scenery\binoculars_df\Adult_2Stand.bf" animName="Adult_2Stand" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Adult_Idle.bf" animName="Adult_Idle" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Adult_Left.bf" animName="Adult_Left" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Adult_Right.bf" animName="Adult_Right" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Binoculars_Base.bf" animName="Base" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Stand_2Adult.bf" animName="Stand_2Adult" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Stand_2Young.bf" animName="Stand_2Young" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Stand_Idle.bf" animName="Stand_Idle" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Young_2Stand.bf" animName="Young_2Stand" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Young_Idle.bf" animName="Young_Idle" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Young_Left.bf" animName="Young_Left" debug="false" load="true" />
+	<animation anim="entities\objects\scenery\binoculars_df\Young_Right.bf" animName="Young_Right" debug="false" load="true" />
+</BFM>
+<Graph name="Binoculars_Base" version="1">
+	<node name="Adult">
+		<table>
+			<Adult_Idle />
+			<Adult_Left />
+			<Adult_Right />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Adult_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Base">
+		<table>
+			<Base />
+		</table>
+	</node>
+	<node name="Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+		<edge name="Adult">
+			<table>
+				<Stand_2Adult />
+			</table>
+		</edge>
+		<edge name="Young">
+			<table>
+				<Stand_2Young />
+			</table>
+		</edge>
+	</node>
+	<node name="Young">
+		<table>
+			<Young_Idle />
+			<Young_Left />
+			<Young_Right />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Young_2Stand />
+			</table>
+		</edge>
+	</node>
+</Graph>

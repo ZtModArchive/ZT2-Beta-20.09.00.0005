@@ -1,0 +1,4 @@
+<TEXTKEY>
+   <key time="0.0" text="anim 'Swim_Ahead'"/>
+   <key percent="100" text="anim 'Swim_2TreadWater', dis, anim 'TreadWater_TurnRightA',  anim 'TreadWater_TurnRightA', exit"/>
+</TEXTKEY>

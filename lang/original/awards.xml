@@ -1,0 +1,292 @@
+<ZT2Strings>
+   <awards>
+      <example>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! Your zoo has won the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Highest Quality Exhibits - Gold Certificate"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </example>
+      <AnimalBirth>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations on your new a baby animal! Here is your </b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Endangered Animal Birth Certificate"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </AnimalBirth>      
+      <BronzeSealParkRedevelopment>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! Your zoo has won the </b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Bronze Seal for Park Redevelopment"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </BronzeSealParkRedevelopment>
+      <ZooAttendance100>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>One hundred guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 100" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </ZooAttendance100>
+      <ZooAttendance1000>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>One thousand guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 1,000" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </ZooAttendance1000>
+      <ZooAttendance5000>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Five thousand guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 5,000" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </ZooAttendance5000>      
+      <ZooAttendance10000>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Ten thousand guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 10,000" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </ZooAttendance10000>
+      <ZooAttendance20000>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Twenty thousand guests have visited your zoo! You've been given the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Zoo Attendance 20,000" Ribbon</b>
+            </color>
+            <b>.</b>
+         </font>
+      </ZooAttendance20000>      
+   
+      <CrueltyPrevention>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>You have been admitted to the Cruelty Prevention Coalition's (CPC) Gold List! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"CPC Gold List Certificate"</b>
+            </color>
+            <b>.</b>
+         </font>      
+      </CrueltyPrevention>
+       
+      <FirstAnniversary>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Your zoo has been open for one year! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Bronze Commemorative Seal"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </FirstAnniversary>       
+      <FifthAnniversary>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Your zoo has been open for five years! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Silver Commemorative Seal"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </FifthAnniversary> 
+      <TenthAnniversary>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Your zoo has been open for ten years! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Gold Commemorative Seal"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </TenthAnniversary>  
+      <TwentiethAnniversary>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Your zoo has been open for twenty years! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Diamond Medallion"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </TwentiethAnniversary>   
+      
+      <AlfredWindsor>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Alfred Windsor Photography Award of Merit"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </AlfredWindsor>
+      <Beckenspot>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Beckenspot Charitable Foundation Photographic Portfolio Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </Beckenspot> 
+      <ConservationEffort>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Conservation Effort Award"</b>
+            </color>
+            <b>in recognition of your 1st animal released to the wild.</b>
+         </font>
+      </ConservationEffort> 
+      <ConservationAchieve>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Conservation Achievement Award"</b>
+            </color>
+            <b>in recognition of your 10th animal released to the wild.</b>
+         </font>
+      </ConservationAchieve>       
+      <ConservationExel>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Conservation Excellence Award"</b>
+            </color>
+            <b>in recognition of your 25th animal released to the wild.</b>
+         </font>
+      </ConservationExel>       
+      <ConservationImage>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Animal Conservation Image Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </ConservationImage>
+      <Entertainment>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Exemplary Entertainment Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </Entertainment> 
+      <Global>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Global Achievement Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </Global>   
+      <Habitat>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Habitat Trophy"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </Habitat>       
+      <Lindain>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Lindain Lenses Photographic Clarity Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </Lindain>  
+      <LoneStar>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Lone Star Trophy"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </LoneStar>
+      <PhotoDesign>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Photo Design Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </PhotoDesign> 
+      <Premier>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Premier Plaque"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </Premier>      
+      <Procedural>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Procedural Safety Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </Procedural> 
+      <Scholars>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Scholars Achievement Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </Scholars> 
+      <Wildlife>
+         <font name="arial" size="12" shadowx="-1" shadowy="1" shadowa="32">
+            <b>Congratulations! You have received the</b>
+            <color r="255" g="255" b="0" a="255">
+               <b>"Wildlife Magazine Amateur Photographer Award"</b>
+            </color>
+            <b>.</b>
+         </font>
+      </Wildlife>      
+
+   </awards>
+   
+   <moneygrants>
+   	<speciesgrant>	
+   		Your progress in adding new species to your zoo has earned you a cash grant! You have received:
+   	</speciesgrant>
+   	
+   </moneygrants>
+   
+   <itemunlock>
+   	<newitemsafari>
+   		Congratulations! You have unlocked the Safari Themed buildings and objects!
+   	</newitemsafari>
+   	<newitemjungle>
+   		Congratulations! You have unlocked the Jungle Themed buildings and objects!
+   	</newitemjungle>
+   	<newitemgeneral>
+	   	Congratulations! A new scenery item is available! You've unlocked the:	
+   	</newitemgeneral>
+
+   </itemunlock>
+   
+   
+   
+</ZT2Strings>

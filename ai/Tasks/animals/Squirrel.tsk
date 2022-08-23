@@ -1,0 +1,22 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="EatTrash" TaskDelayMin="60" TaskDelayMax="180" reserveTag="General">
+      <BFAICreateData>
+         <Subjects>
+            <Squirrel/>
+         </Subjects>
+         <Targets>
+            <TrashGround/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="10001"/>
+      <BFBehExecTask>
+         <BFBehDockRadial subjectNode="Floor" targetAnim="Stand_Idle"/>
+         <BFBehPlaySet behSet="Eat"/>
+         <BFBehKill killTarget="true" fadeOutPeriod="1"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

@@ -1,0 +1,10 @@
+<BFM modelname="entities\objects\crates\AnimalCrate_Small_df\AnimalCrate_MoveNode.nif">
+	<animation anim="entities\objects\crates\AnimalCrate_Small_df\AnimalCrate_MoveNode.bf" animName="MoveNode" debug="false" load="true" />
+</BFM>
+<Graph name="AnimalCrate_MoveNode" version="1">
+	<node name="MoveNode">
+		<table>
+			<MoveNode />
+		</table>
+	</node>
+</Graph>

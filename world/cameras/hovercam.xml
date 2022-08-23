@@ -1,0 +1,9 @@
+<BFPhysObj> 
+	<BFFPSCameraComponent pitchRotate="0.0"  hasFramerate="0" framerateX="10" framerateY="10" /> 
+	<BFUserDrivenVehicleComponent moveSpeed="5.0" />
+	<BFHoverGroundFitComponent heightOffset = "1.3f" pctFriction="0.2f" constFriction="1.0f" maxSpeed="30.0f" gravityConstant="9.8f" />
+	<BFBoundedObjectComponent> 
+		<minPoint x="10" y="10" z="0" /> 
+		<maxPoint x="290" y="290" z="100" /> 
+	</BFBoundedObjectComponent> 
+</BFPhysObj>

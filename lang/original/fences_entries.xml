@@ -1,0 +1,180 @@
+<ZT2Strings>
+
+
+   <zoopedia_ironbar>
+         <entry>Iron Bar</entry>
+         <text>
+            
+		The iron bar fence is a sturdy and long-lasting option when building fences. Plus, it 
+		won’t block your zoo guests’ views of the animals in their exhibits.  Animals cannot climb or jump the 
+		iron bar fence. Some animals can jump the low iron bar fence.
+         
+         </text>
+         
+   </zoopedia_ironbar>
+
+   
+   <zoopedia_chainlink>
+         <entry>Chainlink</entry>
+         <text>
+            
+            I am placeholder text!
+         </text>
+         
+   </zoopedia_chainlink>
+   
+   <zoopedia_plexiglass>
+            <entry>Plexiglass</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_plexiglass>
+   
+   <zoopedia_postrail>
+            <entry>Wooden Rail</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_postrail>
+   
+   <zoopedia_woodenslat>
+            <entry>Wooden Slat</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_woodenslat>
+   
+   <zoopedia_woodslatwindow>
+            <entry>Wooden Slat Window Fence</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_woodslatwindow>
+   
+   <zoopedia_brick>
+            <entry>Brick Wall</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_brick>
+   
+   <zoopedia_hedge>
+            <entry>Hedge</entry>
+            <text>
+               
+               Hedges don’t work well as exhibit fencing, but many zoo guests appreciate decorative 
+               hedges that are used as landscaping along paths and walkways.
+            
+            </text>
+            
+   </zoopedia_hedge>
+   
+   <zoopedia_postrope>
+            <entry>Post and Rope</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_postrope>
+   
+   <zoopedia_picket>
+            <entry>White Picket</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_picket>
+    
+    
+   <zoopedia_stonewall>
+            <entry>Stone Wall</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_stonewall>
+   
+   <zoopedia_safarifence>
+            <entry>Safari Themed Fence</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_safarifence>
+   
+   <zoopedia_junglefence>
+            <entry>Jungle Themed Fence</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_junglefence>
+   
+   <zoopedia_tundrafence>
+            <entry>Tundra Themed Fence</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_tundrafence>   
+   
+   <zoopedia_fencegate>
+            <entry>Staff Gate</entry>
+            <text>
+               
+               I am placeholder text!
+            
+            </text>
+            
+   </zoopedia_fencegate>  
+   
+   <zoopedia_concretefence>
+            <entry>Concrete Fence</entry>
+            <text>
+	       <img src="entities/objects/fences/concrete_df/concrete_icon.tga" sx="0" sy="0" sw="64" sh="64"/>               
+	       <p/>
+               A concrete fence is one of the strongest barrier-type fences available. It can withstand 
+               repeated bashing by animals, and most primates won’t be able to climb over it. Keep in mind, 
+               though, that zoo guests will not be able to see animals that are enclosed in an exhibit 
+               surrounded completely by high concrete fencing. While low concrete fencing provides better visibility,
+               some animals will be able to jump this low barrier.
+            
+            </text>
+            
+   </zoopedia_concretefence>    
+   
+   
+   
+   
+   
+   
+   
+   
+   </ZT2Strings>

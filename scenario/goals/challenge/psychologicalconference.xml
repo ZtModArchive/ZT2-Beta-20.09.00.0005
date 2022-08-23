@@ -1,0 +1,19 @@
+<BFScenarioGroup name="psychologicalconferencerules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="psychologicalconferencephoto" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="PsychologicalConferencetext:PHPsychologicalConferenceShort" overview="PsychologicalConferencetext:PHPsychologicalConference" />
+				<success locid="PsychologicalConferencetext:PHPsychologicalConferenceSuccessShort" overview="PsychologicalConferencetext:PHPsychologicalConferenceSuccess" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/psychologicalconference.lua" entry="evalpsychologicalconference" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/psychologicalconference.lua" entry="completepsychologicalconference" />
+			 </success>
+			 <failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/psychologicalconference.lua" entry="failpsychologicalconference" />
+			 </failure>
+		</BFScenarioRule>		
+	 </children>
+</BFScenarioGroup>

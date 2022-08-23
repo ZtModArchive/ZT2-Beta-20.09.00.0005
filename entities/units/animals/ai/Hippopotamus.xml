@@ -1,0 +1,160 @@
+<BFTypedBinder binderType="Hippopotamus" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Artiodactyla>
+                     <Hippopotamidae>
+                        <Hippopotamus/>
+                     </Hippopotamidae>
+                  </Artiodactyla>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj1" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj2" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\units\animals\Hippopotamus\Hippopotamus_Adult_F_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo ids="entityname:Hippopotamus"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Hippopotamus_Adult_F"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData waterPlacement="true"/>
+      <BFAIEntityDataShared s_DonateToken="t_DonateHippopotamus" s_Species="Hippopotamus" p_NurseNode=".75 .25 90" b_Medium="true" b_Ambivore="true" b_Granivore="true" b_Graminivore="true" b_LargeAnimal="true" b_TroughEater="true" b_FoodDishEater="true" b_SubstratePileEater="true" b_Grazer="true" b_Browser="true" f_adoptRemoveTime="0" f_adoptRarity="30" s_Zoopedia="zoopedia:zoopedia_hippo:entry" f_RequiredInitialSpace="280" f_RequiredAdditionalSpace="40" p_PursuitBallNode="0 -3 180">
+         <BFAINeedAdjusts privacy="0"/>
+      </BFAIEntityDataShared>
+      <BFGBiomeData location="wetland_africa" locationSensitivity="10">
+		<alpine sensitivity="-5"/>
+		<borealforest sensitivity="0"/>
+		<desert sensitivity="0"/>
+		<grassland sensitivity="0"/>
+		<temperateforest sensitivity="2"/>
+		<tropicalrainforest sensitivity="-5"/>
+		<tundra sensitivity="-10"/>
+		<savannah sensitivity="2"/>
+		<scrub sensitivity="2"/>
+		<wetlands sensitivity="10" primary="true"/>
+      </BFGBiomeData>
+      <ZTUserStaffAction>
+         <SetAttribute name="hygiene" value="0" threshold="20" locid="superstaff:animal_wash" effect="SuperStaffWashLarge"/>
+         <SetAttribute name="health" value="0" threshold="20" locid="superstaff:animal_heal" effect="SuperStaffHeal"/>
+      </ZTUserStaffAction>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFShadowLODComponent numLevels="1" switchingDists="60.0"/>
+               <BFActorComponent actorfile="entities\units\animals\Hippopotamus\Hippopotamus_Adult_M.bfm"/>
+               <BF4LegsGroundFitComponent heightOffset="-.10" maxRollError=".2" maxPitchError=".1" maxHeightError=".5" pitchGain="1.00" heightGain="6.0" rollGain="1.0" bicyclePointBack="Bip01" bicyclePointFront="Bip01 Neck" backBuoyancyNode="Node_Buoy_Back" frontBuoyancyNode="Node_Buoy_Front"/>
+               <BFSwimComponent waterInDistance="0.50" waterOutDistance="0.1"/>
+               <BFSecondaryAnimComponent animName="Secondary_EarTwitchA" frequency="1.5" chance="40" validAnims="Stand_Idle,Stand_Gape,Stand_Grunt,Stand_LookLeft,Stand_LookRight,Stand_Nudge,Stand_RubTreeA,Stand_RubTreeB,Stand_Stomp,Stand_TurnLeft90,Stand_TurnRight90,Chew_Idle,Chew_Graze,Chew_Eat,Chew_Browse,Float_Idle,Float_Grunt,Float_Nudge,TreadWater_Idle,Treadwater_TurnLeft,TreadWater_TurnRight,Swim_Ahead,EatTrough_Idle"/>
+               <BFSecondaryAnimComponent animName="Secondary_TailTwitchA" frequency="1.5" chance="40" validAnims="Stand_Idle,Stand_Gape,Stand_Grunt,Stand_LookLeft,Stand_LookRight,Stand_Nudge,Stand_RubTreeA,Stand_RubTreeB,Stand_Stomp,Stand_TurnLeft90,Stand_TurnRight90,Chew_Idle,Chew_Graze,Chew_Eat,Chew_Browse,Float_Idle,Float_Grunt,Float_Nudge,TreadWater_Idle,Treadwater_TurnLeft,TreadWater_TurnRight,Swim_Ahead,EatTrough_Idle"/>
+               <BFLegFitComponent maxLegRaise="0.6" leftFrontHipJoint="Bip01 L UpperArm" leftFrontKneeJoint="Bip01 L Forearm" leftFrontAnkleJoint="Bip01 L Hand" rightFrontHipJoint="Bip01 R UpperArm" rightFrontKneeJoint="Bip01 R Forearm" rightFrontAnkleJoint="Bip01 R Hand" leftBackHipJoint="Bip01 L Thigh" leftBackKneeJoint="Bip01 L Calf" leftBackAnkleJoint="Bip01 L Foot" rightBackHipJoint="Bip01 R Thigh" rightBackKneeJoint="Bip01 R Calf" rightBackAnkleJoint="Bip01 R Foot" ankleRotVectorLeftFront="0 0 1" ankleRotVectorRightFront="0 0 1" ankleRotVectorRightBack="0 0 -1" ankleRotVectorLeftBack="0 0 -1" hipRaiseVectorLeftFront="0 1 0" hipRaiseVectorRightFront="0 1 0" hipRaiseVectorLeftBack="0 0 1" hipRaiseVectorRightBack="0 0 1" kneeRaiseVectorLeftFront="0 0 1" kneeRaiseVectorRightFront="0 0 1" kneeRaiseVectorLeftBack="0 0 1" kneeRaiseVectorRightBack="0 0 1" legFitModeLeftFront="0" legFitModeRightFront="0" legFitModeRightBack="1" legFitModeLeftBack="1" anklePitchVector="0 -1 0" maxLOD="1"/>
+               <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+               <BFCollisionComponent grid="Grid"/>
+               <BFGridCollisionComponent/>
+               <BFDecalTextureCycleComponent materialName="Hippopotamus_Adult_M_MTL" textureSet="2">
+                  <Step imageName="" hold="3.0" variance="0.5"/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink.dds" hold="0.1" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+               </BFDecalTextureCycleComponent>
+               <BFHeadLookComponent leftRightAnimName="Secondary_HeadLook" lookDirNode="Bip01 Head" lookDirVector="0 -1 0" gain_z="-2" fov_extreme_lr="90.0"/>
+            </BFPhysObj>
+         </instance>
+         <shared>
+            <BFTextTagMacrosComponent>
+               <MACROS>
+                  <macro name="Walky" text="anim 'Walk_Ahead'"/>
+                  <macro name="Walky2Standy" text="anim 'Walk_2Stand', anim'Stand_Idle'"/>
+                  <macro name="Stand2LieBelly" text="anim 'Stand_2Lie', anim 'Lie_Idle'"/>
+                  <macro name="LieBelly2Stand" text="anim 'Lie_2Stand', anim 'Stand_Idle'"/>
+                  <macro name="Standy2Walky" text="anim 'Stand_2Walk', anim 'Walk_TurnLeftA'"/>
+                  <macro name="LieOnBelly" text="anim 'Lie_Idle'"/>
+                  <macro name="TurnLeft180" text="anim 'Stand_TurnLeft90', anim 'Stand_TurnLeft90"/>
+                  <macro name="TurnRight180" text="anim 'Stand_TurnRight90', anim 'Stand_TurnRight90'"/>
+	<macro name="WalkBack" text="anim 'Backup_Ahead'"/>
+	<macro name="Standy2WalkBack" text="anim 'Stand_2Backup', Backup_Ahead'"/> 
+	<macro name="WalkBack2Stand" text="anim 'Backup_2Stand', anim 'Stand_Idle'"/>
+               </MACROS>
+            </BFTextTagMacrosComponent>
+         </shared>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent lodLevel="0" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Neck" width="2.5" minLength="2.5" maxLength="5" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj1">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent lodLevel="0" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Spine2" width="2.5" minLength="2.5" maxLength="5" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj2">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent lodLevel="0" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Spine1" width="2.5" minLength="2.5" maxLength="5" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFBehaviorMgr behaviorVersion="1">
+               <subBehaviors>
+                  <BFBehLocoSwitchSet loopFlag="true">
+                     <behaviorTable>
+                        <ground behSet="Stand_Idle"/>
+                        <water behSet="Float_Idle"/>
+                     </behaviorTable>
+                  </BFBehLocoSwitchSet>
+               </subBehaviors>
+            </BFBehaviorMgr>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFLocomotionMgr/>
+         </instance>
+         <binder>
+            <BFNamedBinder binderName="water" required="1">
+               <instance>
+                  <BFLocoAnimate version="1" stationaryAnim="Float_Idle">
+                     <stop name="Float"/>
+                     <slow name="Swim"/>
+                     <medium name="Swim"/>
+                     <fast name="Swim"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+         </binder>
+      </BFBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="1800">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>       
+   </binder>
+</BFTypedBinder>

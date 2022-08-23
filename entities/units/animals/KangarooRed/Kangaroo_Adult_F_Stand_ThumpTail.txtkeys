@@ -1,0 +1,6 @@
+<TEXTKEY>
+   <key frame="9" text="{Bip01 Head} snd 'thumptail'"/>
+   <key frame="9" text="{Bip01 Tail3} runps Biomefx"/>
+   <key frame="18" text="{Bip01 Head} snd 'thumptail'"/>
+   <key frame="18" text="{Bip01 Tail3} runps Biomefx"/>
+</TEXTKEY>

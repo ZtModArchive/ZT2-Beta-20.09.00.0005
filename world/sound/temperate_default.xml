@@ -1,0 +1,7 @@
+<ambient loop="temperate_loop">
+   <ambients>
+      <snds>
+         <snd name="t_animals01"/>
+      </snds>
+   </ambients>
+</ambient>

@@ -1,0 +1,40 @@
+<UIToggleButton sticky="1">
+   <UIRegion x="4" y="0" w="-26" h="20" xalign="min" yalign="min" walign="max" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <standard>
+         <normal>
+            <BFFont>
+               <BFColor r="255" g="197" b="29" a="255"/>
+            </BFFont>
+         </normal>
+         <highlighted>
+            <BFFont>
+               <BFColor r="255" g="255" b="201" a="255"/>
+            </BFFont>
+         </highlighted>
+         <activated>
+            <BFColor r="220" g="191" b="113" a="255"/>
+         </activated>
+         <disabled>
+            <BFColor r="255" g="255" b="201" a="255"/>
+         </disabled>
+      </standard>
+      <alternate>
+         <normal>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </normal>
+         <highlighted>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </highlighted>
+         <activated>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </activated>
+         <disabled>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </disabled>
+      </alternate>
+   </UIAspect>
+   <text format="mainmenu:profile_name"/>
+   <on/>
+</UIToggleButton>

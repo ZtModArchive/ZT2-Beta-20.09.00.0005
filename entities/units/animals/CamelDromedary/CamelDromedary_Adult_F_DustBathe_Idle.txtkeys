@@ -1,0 +1,7 @@
+<TEXTKEY>
+   <key time="0.0" text="gf 0"/>
+   <key frame="17" text="{Bip01 Spine1} snd 'dustbathe'"/>
+   <key frame="17" text="{Bip01 Spine1} runps PlacementCloud"/>
+   <key frame="37" text="{Bip01 Spine1} snd 'dustbathe'"/>
+   <key frame="37" text="{Bip01 Spine1} runps PlacementCloud"/>
+</TEXTKEY>

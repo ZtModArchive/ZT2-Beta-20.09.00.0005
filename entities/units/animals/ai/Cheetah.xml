@@ -1,0 +1,178 @@
+<BFTypedBinder binderType="Cheetah" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Carnivora>
+                     <Felidae>
+                        <Cheetah/>
+                     </Felidae>
+                  </Carnivora>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities/units/animals/Cheetah/Cheetah_Adult_F_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo ids="entityname:Cheetah"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Cheetah_Adult_F"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData waterPlacement="true"/>
+      <BFAIEntityDataShared s_DonateToken="t_DonateCheetah" s_Species="Cheetah" p_GreetNode="0 -3 0" p_NurseNode="-.25 -1 270" b_Medium="true" f_ResponseRadius="35" b_RespondToCursor="true" b_Carnivore="true" b_Piscivore="true" b_LargeAnimal="true" b_TroughEater="true" b_FoodDishEater="true" f_adoptRemoveTime="0" f_adoptRarity="30" s_Zoopedia="zoopedia:zoopedia_cheetah:entry" f_RequiredInitialSpace="360" f_RequiredAdditionalSpace="120" p_FenceJumpNode="0 -5 180" p_PursuitBallNode="0 -3 180">
+         <BFAINeedAdjusts privacy="0" social="0.1"/>
+      </BFAIEntityDataShared>
+      <BFGBiomeData location="savannah_africa" locationSensitivity="10">
+         <alpine sensitivity="-5"/>
+         <borealforest sensitivity="0"/>
+         <desert sensitivity="0"/>
+         <grassland sensitivity="0"/>
+         <temperateforest sensitivity="2"/>
+         <tropicalrainforest sensitivity="0"/>
+         <tundra sensitivity="-10"/>
+         <savannah sensitivity="10" primary="true"/>
+         <scrub sensitivity="2"/>
+         <wetlands sensitivity="-5"/>
+      </BFGBiomeData>
+      <ZTUserStaffAction>
+         <SetAttribute name="hygiene" value="0" threshold="20" locid="superstaff:animal_groom" effect="SuperStaffGroom"/>
+         <SetAttribute name="health" value="0" threshold="20" locid="superstaff:animal_heal" effect="SuperStaffHeal"/>
+      </ZTUserStaffAction>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFShadowLODComponent numLevels="2" switchingDists="18.0 60.0"/>
+               <BFActorComponent actorfile="entities/units/animals/Cheetah/Cheetah_Adult_F.bfm" scale="0.90"/>
+               <BF4LegsGroundFitComponent heightOffset="-.20" maxRollError=".2" maxPitchError=".1" maxHeightError=".5" pitchGain="1.0" heightGain="6.0" rollGain="1.0" bicyclePointBack="Bip01" bicyclePointFront="Bip01 Neck2" backBuoyancyNode="Node_Buoy_Back" frontBuoyancyNode="Node_Buoy"/>
+               <BFSwimComponent waterInDistance="0.50" waterOutDistance="0.1"/>
+               <BFLegFitComponent maxLegRaise="2.0" leftFrontHipJoint="Bip01 L Forearm" leftFrontKneeJoint="Bip01 L Hand" leftFrontAnkleJoint="Bip01 L Finger0" rightFrontHipJoint="Bip01 R Forearm" rightFrontKneeJoint="Bip01 R Hand" rightFrontAnkleJoint="Bip01 R Finger0" leftBackHipJoint="Bip01 L Thigh" leftBackKneeJoint="Bip01 L Calf" leftBackAnkleJoint="Bip01 L Foot" rightBackHipJoint="Bip01 R Thigh" rightBackKneeJoint="Bip01 R Calf" rightBackAnkleJoint="Bip01 R Foot" ankleRotVectorLeftFront="0 1 0" ankleRotVectorRightFront="0 -1 0" ankleRotVectorRightBack="0 0 -1" ankleRotVectorLeftBack="0 0 -1" hipRaiseVectorLeftFront="0 0 1" hipRaiseVectorRightFront="0 0 1" hipRaiseVectorLeftBack="0 0 1" hipRaiseVectorRightBack="0 0 1" kneeRaiseVectorLeftFront="0 0 1" kneeRaiseVectorRightFront="0 0 1" kneeRaiseVectorLeftBack="0 0 1" kneeRaiseVectorRightBack="0 0 1" legFitModeLeftFront="0" legFitModeRightFront="0" legFitModeRightBack="1" legFitModeLeftBack="1" anklePitchVector="0 -1 0" maxLOD="2"/>
+               <BFSecondaryAnimComponent animName="Secondary_TailA" frequency="1.5" chance="40" validAnims="Stand_Idle,Stalk_Idle"/>
+               <BFSecondaryAnimComponent animName="Secondary_EarA" frequency="1.5" chance="40" validAnims="Stand_Idle,Walk_Ahead,Stalk_Idle,Sit_Idle,Lie_Idle,GroomPaw_Idle,Eat_BiteA,Lie_LickObject,Lie_SearchLog,Sit_2TeethInspection,Sit_Listen,Stand_Listen,Lie_Listen,Stand_BiteHigh,Stand_BiteMed,Stand_BiteLow,Stand_BitLow,Stand_BitMed,Stand_HeadCockWater,Stand_HitMed,Stand_HitHigh,Stand_LickObject,Stand_PlayPounce,Stand_PlayRoar,Stand_ScratchLogHigh,Stand_ScratchLogLow,Stand_ScratchTree,Stand_SwatWater,Stand_SwipeLow,Stand_SwipeMed,TeethInspection_2Sit,TeethInspection_Idle,Tug_2Stand,Tug_Idle,Stand_2Tug"/>
+               <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+               <BFCollisionComponent grid="Bip01 Spine1"/>
+               <BFGridCollisionComponent/>
+               <BFDecalTextureCycleComponent materialName="Tiger Body">
+                  <Step imageName="" hold="3.0" variance="0.5"/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink.dds" hold="0.1" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+               </BFDecalTextureCycleComponent>
+               <BFHeadLookComponent leftRightAnimName="Secondary_HeadLook" lookDirNode="Bip01 Head" lookDirVector="0 1 0" gain_z="-2" fov_extreme_lr="90.0"/>
+            </BFPhysObj>
+         </instance>
+         <shared>
+            <BFTextTagMacrosComponent>
+               <MACROS>
+                  <macro name="CatJumpOn" text="as 100 1, anim 'Walk_2ClimbFlat'"/>
+                  <macro name="CatJumpOff" text="as 100 1, anim 'ClimbFlat_2Walk'"/>
+                  <macro name="CatHangOn" text="anim 'ClimbFlat_Idle'"/>
+                  <macro name="JumpOnHeatedRock" text="as 100 1, anim 'Stand_JumpUp'"/>
+                  <macro name="JumpOnRock" text="as 100 1, anim 'Stand_JumpUp'"/>
+                  <macro name="Walky" text="anim 'Walk_Ahead'"/>
+                  <macro name="Walky2Standy" text="anim 'Walk_2Stand', anim'Stand_Idle'"/>
+                  <macro name="Stand2LieBelly" text="anim 'Stand_2Lie', anim 'Lie_Idle'"/>
+                  <macro name="LieBelly2Stand" text="anim 'Lie_2Stand', anim 'Stand_Idle'"/>
+                  <macro name="Standy2Walky" text="anim 'Stand_2Walk', anim 'Walk_Ahead'"/>
+                  <macro name="LieOnBelly" text="anim 'Lie_Idle'"/>
+                  <macro name="TurnLeft180" text="anim 'Stand_TurnLeft90', anim 'Stand_TurnLeft90'"/>
+                  <macro name="TurnRight180" text="anim 'Stand_TurnRight90', anim 'Stand_TurnRight90'"/>
+                  <macro name="TurnLeft90" text="anim 'Stand_TurnLeft90'"/>
+                  <macro name="TurnRight90" text="anim 'Stand_TurnRight90'"/>
+               </MACROS>
+            </BFTextTagMacrosComponent>
+         </shared>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFBehaviorMgr behaviorVersion="1">
+               <subBehaviors>
+                  <BFBehLocoSwitchSet loopFlag="true">
+                     <behaviorTable>
+                        <ground behSet="Lie_Idle"/>
+                        <water behSet="TreadWater_Idle"/>
+                     </behaviorTable>
+                  </BFBehLocoSwitchSet>
+               </subBehaviors>
+            </BFBehaviorMgr>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFLocomotionMgr/>
+         </instance>
+         <binder>
+            <BFNamedBinder binderName="ground" required="1">
+               <instance>
+                  <BFLocoAnimate version="1" stationaryAnim="Stand_Idle">
+                     <stop name="Stand"/>
+                     <slow name="Walk"/>
+                     <medium name="Walk" minAnimSpeed="1.5" maxAnimSpeed="1.5"/>
+                     <fast name="Run" minAnimSpeed="1.2" maxAnimSpeed="1.2"/>
+                     <stalk name="Stalk"/>
+                     <sprint name="Sprint"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+            <BFNamedBinder binderName="groundcarry" required="1">
+               <instance>
+                  <BFLocoAnimate version="1" stationaryAnim="StandObject_Idle">
+                     <stop name="StandObject"/>
+                     <slow name="WalkObject"/>
+                     <med name="WalkObject"/>
+                     <fast name="RunObject"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+            <BFNamedBinder binderName="grounddrag" required="1">
+               <instance>
+                  <BFLocoAnimate version="1" stationaryAnim="DragPreyBack_Idle">
+                     <stop name="DragPreyBack"/>
+                     <slow name="DragPreyBack"/>
+                     <med name="DragPreyBack"/>
+                     <fast name="DragPreyBack"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+            <BFNamedBinder binderName="water" required="1">
+               <instance>
+                  <BFLocoAnimate version="1" stationaryAnim="TreadWater_Idle">
+                     <stop name="TreadWater"/>
+                     <slow name="Swim"/>
+                     <medium name="Swim"/>
+                     <fast name="Swim"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+         </binder>
+      </BFBinder>
+      <BFNamedBinder binderName="mouth" required="1">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot ownContents="false" hideContents="false" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="1800">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

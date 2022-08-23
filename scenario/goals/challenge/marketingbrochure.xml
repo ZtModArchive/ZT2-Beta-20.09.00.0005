@@ -1,0 +1,20 @@
+<BFScenarioGroup name="marketingbrochurerules" state="0" chain="true" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="marketingbrochure" state="0" sticky="true">
+			<info type="photo">
+				<neutral locid="PhotoChallengetext:PHMarketingBrochureShort" overview="PhotoChallengetext:PHMarketingBrochure" />
+				<success locid="PhotoChallengetext:PHMarketingBrochureSuccessShort" overview="PhotoChallengetext:PHMarketingBrochureSuccess" />		
+			</info>	
+			
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/marketingbrochure.lua" entry="evalmarketingbrochure" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/marketingbrochure.lua" entry="completemarketingbrochure" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/marketingbrochure.lua" entry="failmarketingbrochure" />
+			</failure>	
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

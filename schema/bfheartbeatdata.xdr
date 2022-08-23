@@ -1,0 +1,11 @@
+<Schema name="BFHeartbeatData">
+	<ElementType name="BFHeartbeatData">
+		<extends type="BFXMLObj"/>
+		<attribute name="realtime" dt:type="float" default="0.0" />
+		<attribute name="realtimepassed" dt:type="float" default="0.0" />
+		<attribute name="realtimeused" dt:type="float" default="0.0" />
+		<attribute name="simtime" dt:type="float" default="0.0" />
+		<attribute name="simtimepassed" dt:type="float" default="0.0" />
+		<attribute name="simtimenext" dt:type="float" default="0.0" />
+	</ElementType>
+</Schema>

@@ -1,0 +1,244 @@
+<ZT2Strings>
+   <credits>
+      <headingxtralarge>
+         <font name="arial" image="ui/font/color_mainmenu.tga" size="40">
+            <color r="255" g="187" b="68" a="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </headingxtralarge>
+      <headinglarge>
+         <font name="arial" image="ui/font/color_mainmenu.tga" size="36">
+            <color r="255" g="197" b="78" a="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </headinglarge>
+      <headingmedium>
+         <font name="arial" image="ui/font/color_mainmenu.tga" size="28">
+            <color r="255" g="197" b="78" a="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </headingmedium>
+      <headingsmall>
+         <font name="arial" image="ui/font/color_mainmenu.tga" size="20">
+            <color r="255" g="197" b="78" a="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </headingsmall>
+      <headingname>
+         <font name="arial" size="28">
+            <color r="255" g="217" b="98" a="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </headingname>
+      <headingnamesmall>
+         <font name="arial" size="15">
+            <color r="255" g="217" b="98" a="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </headingnamesmall>
+      <zoo2>ZOO TYCOON 2</zoo2>
+      <devteam>DEVELOPMENT TEAM</devteam>
+      <management>BLUE FANG MANAGEMENT</management>
+      <additional>ADDITIONAL SUPPORT</additional>
+      <microsoftdevteam>MICROSOFT DEVELOPMENT TEAM</microsoftdevteam>
+      <producer>Producer</producer>
+      <leaddesigner>Lead Designer</leaddesigner>
+      <technicaldesigner>Technical Project Manager</technicaldesigner>
+      <leadprogrammer>Programming Lead/Architect</leadprogrammer>
+      <artmanager>Art Manager</artmanager>
+      <artdirector>Art Director</artdirector>
+      <artlead>Art Lead</artlead>
+      <designteam>Design Team</designteam>
+      <engineeringteam>Engineering Team</engineeringteam>
+      <artteam>Art Team</artteam>
+      <testing>Testing</testing>
+      <sound>Sound and Music Production</sound>
+      <productionassistant>Production Assistant</productionassistant>
+      <marketing>Marketing</marketing>
+      <business>Business</business>
+      <support>Support</support>
+      <ceo>CEO &amp; Creative Director</ceo>
+      <president>President</president>
+      <vpsoftware>VP Software Development</vpsoftware>
+      <additionalweb>Additional Web Content Engineering</additionalweb>
+      <additionalanimation>Additional Animation and Art Production</additionalanimation>
+      <movies>Zoo Tycoon 2 intro and Blue Fang logo movies</movies>
+      <musicandsound>Music and Sound Effects</musicandsound>
+      <programmanager>Program Manager</programmanager>
+      <addprogrammng>Additional Program Management</addprogrammng>
+      <artdirection>Art Direction</artdirection>
+      <addart>Additional Art Support</addart>
+      <devmanager>Development Manager</devmanager>
+      <addprogram>Additional Programming</addprogram>
+      <gamedesignmanager>Game Design Manager</gamedesignmanager>
+      <adddesignsupport>Additional Game Design Support</adddesignsupport>
+      <businessmanagement>Business Management</businessmanagement>
+      <userexpteam>User Experience (UX) Team</userexpteam>
+      <contentcoordination>Content Coordination</contentcoordination>
+      <webcommunityteam>Web &amp; Community Team</webcommunityteam>
+      <playtest>Usability and Playtest</playtest>
+      <marketingteam>Marketing Team</marketingteam>
+      <prteam>PR Team</prteam>
+      <testmanager>Test Manager</testmanager>
+      <projecttestlead>Project Test Lead</projecttestlead>
+      <testteam>Test Team</testteam>
+      <windowscompteam>Windows Compatibility Team</windowscompteam>
+      <reconteam>Recon Team</reconteam>
+      <pssteam>PSS Team</pssteam>
+      <setupteam>Setup Team</setupteam>
+      <studioleads>Studio Leads</studioleads>
+      <localization>Localization Program Management</localization>
+      <irelandteam>Ireland Team</irelandteam>
+      <japanteam>Japan Team</japanteam>
+      <koreateam>Korea Team</koreateam>
+      <taiwanteam>Taiwan Team</taiwanteam>
+      <sbsi>(Siemens Business Services Inc)</sbsi>
+   </credits>
+   <devteamnames>
+      <jr_surprenant>JR Surprenant</jr_surprenant>
+      <adam_levesque>Adam Levesque</adam_levesque>
+      <jason_barlow>Jason Barlow</jason_barlow>
+      <brian_shea>Brian Shea</brian_shea>
+      <fred_galpern>Fred Galpern</fred_galpern>
+      <lou_catanzaro>Lou Catanzaro</lou_catanzaro>
+      <alex_chouls>Alex Chouls</alex_chouls>
+      <linda_currie>Linda Currie</linda_currie>
+      <steven_serafino>Steven Serafino</steven_serafino>
+      <bart_simon>Bart Simon</bart_simon>
+      <shawn_stone>Shawn Stone</shawn_stone>
+      <ike_adams>Ike Adams</ike_adams>
+      <tj_bordelon>TJ Bordelon</tj_bordelon>
+      <steve_gargolinski>Steve Gargolinski</steve_gargolinski>
+      <ralph_hebb>Ralph Hebb</ralph_hebb>
+      <matt_kimmel>Matt Kimmel</matt_kimmel>
+      <mark_kolenski>Mark Kolenski</mark_kolenski>
+      <nathan_sitkoff>Nathan Sitkoff</nathan_sitkoff>
+      <john_wheeler>John Wheeler</john_wheeler>
+      <david_wingrove>David Wingrove</david_wingrove>
+      <eric_camara>Eric Camara</eric_camara>
+      <scott_downey>Scott Downey</scott_downey>
+      <mitch_fletcher>Mitch Fletcher</mitch_fletcher>
+      <tom_gale>Thomas Gale</tom_gale>
+      <andre_gressieux>André Gressieux</andre_gressieux>
+      <zachary_morong>Zachary Morong</zachary_morong>
+      <karla_zimonja>Karla Zimonja</karla_zimonja>
+      <richard_baker>Richard Baker</richard_baker>
+      <dan_sopel>Dan Sopel</dan_sopel>
+      <scott_triola>Scott Triola</scott_triola>
+      <hank_howie>Hank Howie</hank_howie>
+      <vince_kraft>Vince Kraft - IT</vince_kraft>
+      <dina_spylios>Dina Spylios - Office Manager</dina_spylios>
+      <ron_clabo>Ron Clabo</ron_clabo>
+      <rapan>Rapan - www.rapan.com</rapan>
+      <jennifer_lesser>Jennifer Hrabota Lesser - www.jennbot.com</jennifer_lesser>
+      <michael_clark>Michael Clarke</michael_clark>
+      <brian_labore>Brian Labore</brian_labore>
+      <new_pencil>New Pencil - www.newpencil.com</new_pencil>
+      <dsonic>dSonic - www.dsonicaudio.com</dsonic>
+      <robert_jerauld>Robert Jerauld - Lead Program Manager</robert_jerauld>
+      <deanna_hearns>Deanna Hearns - Program Manager</deanna_hearns>
+      <jennifer_christensen>Jennifer Christensen - Program Manager</jennifer_christensen>
+      <kevin_brown>Kevin Brown - Art Director</kevin_brown>
+      <korey_kuriel>Korey Kuriel - Senior Artist</korey_kuriel>
+      <aaron_nicholls>Aaron Nicholls - Development Lead</aaron_nicholls>
+      <thomas_zuccotti>Thomas Zuccotti - Game Design Manager</thomas_zuccotti>
+      <howard_philips>Howard Philips - Game Designer</howard_philips>
+      <james_spahn>James Spahn - Business Manager</james_spahn>
+      <dana_fos>Dana Fos - UX Manager</dana_fos>
+      <kiki_mcmillan>Kiki McMillan - UX Lead, Senior Writer</kiki_mcmillan>
+      <marti_mckenna>Marti McKenna (Volt) - Editor </marti_mckenna>
+      <louan_williams>LouAn Williams - Licensing Specialist</louan_williams>
+      <dave_pierot>Dave Pierot - </dave_pierot>
+      <web_content>Web Content and Community Manager</web_content>
+      <bradley_shelton>Bradley Shelton - Site Manager</bradley_shelton>
+      <reagan_wright>Reagan Wright (BlueBear Studio) - </reagan_wright>
+      <zoopedia_ui_design>Zoopedia UI Designer</zoopedia_ui_design>
+      <dan_ivanov>Dan Ivanov (Siemens Business Services Inc) - </dan_ivanov>
+      <zoopedia_ui_dev>Zoopedia UI Developer</zoopedia_ui_dev>
+      <mark_burdick>Mark Burdick - User-testing Project Lead</mark_burdick>
+      <bill_fulton>Bill Fulton - User-testing Manager</bill_fulton>
+      <ramon_romero>Ramon Romero - User-testing Group Lead</ramon_romero>
+      <keith_steury>Keith Steury - User-testing Group Lead</keith_steury>
+      <melissa_federoff>Melissa Federoff</melissa_federoff>
+      <paul_burkhead>Paul Burkhead (Siemens Business Services Inc) -</paul_burkhead>
+      <user_test_assist>User-test Assistant</user_test_assist>
+      <adam_kovach>Adam Kovach - Product Manager</adam_kovach>
+      <ben_arndt>Ben Arndt - Product Manager</ben_arndt>
+      <leslie_mcbride>Leslie McBride - Product Manager</leslie_mcbride>
+      <jen_martin>Jen Martin - Public Relations Manager</jen_martin>
+      <humberto_castaneda>Humberto Castaneda - Test Manager (Ret.)</humberto_castaneda>
+      <korey_krauskopf>Korey Krauskopf - Test Manager</korey_krauskopf>
+      <andrew_binder>M. Andrew Binder - Software Test Lead</andrew_binder>
+      <bill_metters>Bill Metters - Senior Test Engineer</bill_metters>
+      <brandon_baker>Brandon Baker (Volt) - Test Associate</brandon_baker>
+      <brishan_merrillbrown>Brishan Merrill-Brown (Volt) - Test Associate</brishan_merrillbrown>
+      <bryce_jones>Bryce Jones - Software Design Engineer/Test</bryce_jones>
+      <chris_lee>Chris Lee - Software Design Engineer/Test</chris_lee>
+      <christopher_singleton>Christopher Singleton (Volt) - Test Engineer</christopher_singleton>
+      <clint_kreider>Clint Kreider (Volt) - Test Associate</clint_kreider>
+      <david_alenick>David Alenick (Volt) - Test Engineer</david_alenick>
+      <david_eim>David Eim (Volt) - Test Engineer</david_eim>
+      <jennifer_tunnell>Jennifer Tunnell (Volt) - Test Engineer</jennifer_tunnell>
+      <jeremy_williams>Jeremy Williams (Volt) - Test Associate</jeremy_williams>
+      <jon_burns>Jon Burns - Software Design Engineer/Test</jon_burns>
+      <jon_heeren>Jon Heeren (Volt) - Test Engineer</jon_heeren>
+      <keith_harris>Keith Harris - Software Test Lead</keith_harris>
+      <marwan_jubran>Marwan Jubran - Software Design Engineer/Test</marwan_jubran>
+      <paul_gradwohl>Paul H. Gradwohl - Software Test Engineer</paul_gradwohl>
+      <ty_roberts>Ty Roberts (Volt) - Test Engineer</ty_roberts>
+      <val_miller>Val Miller (Volt) - Test Engineer</val_miller>
+      <patrick_ascolese>Patrick Ascolese - Test Lead</patrick_ascolese>
+      <tim_kerns>Tim Kerns (Volt) - Test Engineer</tim_kerns>
+      <xi_wu>Xi Wu (volt) - Test Engineer</xi_wu>
+      <chad_herrewig>Chad Herrewig (Volt) - Test Engineer</chad_herrewig>
+      <craig_marshall>Craig Marshall - Recon Playtest Lead</craig_marshall>
+      <chris_green>Chris Green (Volt) - Recon Alpha Coordinator</chris_green>
+      <greg_frankovic>Greg Frankovic - Program Manager</greg_frankovic>
+      <siemens>(Siemens Business Services Inc)</siemens>
+      <christopher_guthrie>Christopher Guthrie - Setup Engineer</christopher_guthrie>
+      <jason_brown>Jason Brown - Setup Engineer</jason_brown>
+      <julie_mccormack>Julie McCormack - Setup Program Manager</julie_mccormack>
+      <sean_stroud>Sean Stroud - Setup Engineer</sean_stroud>
+      <bonnie_ross>Bonnie Ross - Studio Manager</bonnie_ross>
+      <john_grande>John Grande - Lead Product Planner</john_grande>
+      <kyle_shannon>Kyle Shannon - Test Manager</kyle_shannon>
+      <ryan_haveson>Ryan Haveson - Group Program Manager</ryan_haveson>
+      <stacie_scattergood>Stacie Scattergood - Administrative Assistant</stacie_scattergood>
+      <tim_znamenacek>Tim Znamenacek - Group Program Manager</tim_znamenacek>
+      <todd_stevens>Todd Stevens - Lead Product Planner</todd_stevens>
+      <tony_cox>Tony Cox - Development Manager</tony_cox>
+      <victoria_olson>Victoria Olson - Localization Program Manager</victoria_olson>
+      <david_foster>David Foster - Program Manager</david_foster>
+      <greg_ward>Greg Ward - Senior Program Manager</greg_ward>
+      <john_twomey>John Twomey - Software Design Engineer</john_twomey>
+      <paul_mckevitt>Paul McKevitt - Software Test Engineer</paul_mckevitt>
+      <takayuki_tsuchiya>Takayuki Tsuchiya - Program Manager</takayuki_tsuchiya>
+      <kazuyuki_kumai>Kazuyuki Kumai - Manager</kazuyuki_kumai>
+      <kaoru_ito>Kaoru Ito - Localization Project Manager</kaoru_ito>
+      <yutaka_hasegawa>Yutaka Hasegawa - Lead Software Design Engineer</yutaka_hasegawa>
+      <yuji_yoneshige>Yuji Yoneshige - Lead Software Test Engineer</yuji_yoneshige>
+      <munetaka_fuse>Munetaka Fuse - Software Design Engineer</munetaka_fuse>
+      <sachiko_nagasawa>Sachiko Nagasawa - Software Design Engineer</sachiko_nagasawa>
+      <kenichi_akiyama>Kenichi Akiyama - Software Test Engineer</kenichi_akiyama>
+      <miyuki_nouguchi>Miyuki Nouguchi - User Education</miyuki_nouguchi>
+      <mariko_kikuchi>Mariko Kikuchi - Software Test Engineer</mariko_kikuchi>
+      <masayo_ohara>Masayo Ohara - Assistant Program Manager</masayo_ohara>
+      <yumiko_furukawa>Yumiko Furukawa - Administrative Assistant</yumiko_furukawa>
+      <atsushi_hori>Atsushi Hori - IP Manager</atsushi_hori>
+      <aya_kazama>Aya Kazama - Marketing</aya_kazama>
+      <il_jin_park>Il Jin Park (Wise SerTech) - Software Test Engineer</il_jin_park>
+      <jae_youn_kim>Jae Youn Kim - Program Manager</jae_youn_kim>
+      <whi_young_yoon>Whi Young Yoon (Wise SerTech) - </whi_young_yoon>
+      <localization_program_manager>Localization Program Manager</localization_program_manager>
+      <lana_peng>Lana Peng - Lead Program Manager</lana_peng>
+      <lilia_lee>Lilia Lee (104) - </lilia_lee>
+      <wenchin_deng>Wen-Chin Deng - Software Test Engineer</wenchin_deng>
+      <name>Name</name>
+   </devteamnames>
+</ZT2Strings>

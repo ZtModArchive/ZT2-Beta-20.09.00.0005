@@ -1,0 +1,113 @@
+<ZT2Strings>
+      <LOC_STRING _locID="zoopedia_ironbar:entry">Iron Bar</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_ironbar:text">
+            
+		The iron bar fence is a sturdy and long-lasting option when building fences. Plus, it 
+		won’t block your zoo guests’ views of the animals in their exhibits.  Animals cannot climb or jump the 
+		iron bar fence. Some animals can jump the low iron bar fence.
+         
+         </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_chainlink:entry">Chainlink</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_chainlink:text">
+            
+            I am placeholder text!
+         </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_plexiglass:entry">Plexiglass</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_plexiglass:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_postrail:entry">Wooden Rail</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_postrail:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_woodenslat:entry">Wooden Slat</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_woodenslat:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_woodslatwindow:entry">Wooden Slat Window Fence</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_woodslatwindow:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_brick:entry">Brick Wall</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_brick:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_hedge:entry">Hedge</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_hedge:text">
+               
+               Hedges don’t work well as exhibit fencing, but many zoo guests appreciate decorative 
+               hedges that are used as landscaping along paths and walkways.
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_postrope:entry">Post and Rope</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_postrope:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_picket:entry">White Picket</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_picket:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_stonewall:entry">Stone Wall</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_stonewall:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_safarifence:entry">Safari Themed Fence</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_safarifence:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_junglefence:entry">Jungle Themed Fence</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_junglefence:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_tundrafence:entry">Tundra Themed Fence</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_tundrafence:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_fencegate:entry">Staff Gate</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_fencegate:text">
+               
+               I am placeholder text!
+            
+            </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_concretefence:entry">Concrete Fence</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_concretefence:text">
+	       <img src="entities/objects/fences/concrete_df/concrete_icon.tga" sx="0" sy="0" sw="64" sh="64"/>               
+	       <p/>
+               A concrete fence is one of the strongest barrier-type fences available. It can withstand 
+               repeated bashing by animals, and most primates won’t be able to climb over it. Keep in mind, 
+               though, that zoo guests will not be able to see animals that are enclosed in an exhibit 
+               surrounded completely by high concrete fencing. While low concrete fencing provides better visibility,
+               some animals will be able to jump this low barrier.
+            
+            </LOC_STRING>    
+   
+   
+   
+   
+   
+   
+   
+   
+   </ZT2Strings>

@@ -1,0 +1,5 @@
+<TEXTKEY>
+
+   <key percent="0.0" text="anim 'Stand_2ClimbUp', anim 'ClimbUp_Idle'"/>
+<key percent="70" text="anim 'ClimbUp_2Stand',  dis,  tap-trans 'Ladder2Platform'"/>
+</TEXTKEY>

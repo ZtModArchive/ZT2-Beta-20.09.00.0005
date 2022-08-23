@@ -1,0 +1,19 @@
+<BFScenarioGroup name="gardeningsocietyrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="gardeningsocietyphoto" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="GardeningSocietytext:PHGardeningSocietyShort" overview="GardeningSocietytext:PHGardeningSociety" />
+				<success locid="GardeningSocietytext:PHGardeningSocietySuccessShort" overview="GardeningSocietytext:PHGardeningSocietySuccess" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/gardeningsociety.lua" entry="evalgardeningsociety" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/gardeningsociety.lua" entry="completegardeningsociety" />
+			 </success>
+			 <failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/gardeningsociety.lua" entry="failgardeningsociety" />
+			 </failure>	
+		</BFScenarioRule>		
+	 </children>
+</BFScenarioGroup>

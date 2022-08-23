@@ -1,0 +1,4 @@
+<TEXTKEY>
+   <key frame="0.0" text="anim 'Stand_2ClimbDown', anim 'ClimbDown_Idle'"/>
+   <key percent="60" text="anim 'ClimbDown_2Stand', dis, anim 'Stand_Right180',  tap-trans 'ExitFromLadderA'"/>
+</TEXTKEY>

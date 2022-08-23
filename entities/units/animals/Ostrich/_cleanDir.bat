@@ -1,0 +1,9 @@
+del *.kf
+del *.kfm
+del *.kfinfo
+del Ostrich_Adult_F_*.nif
+del Ostrich_Adult_M_*.nif
+del Ostrich_Young_F_*.nif
+del Ostrich_Adult_F.bf
+del Ostrich_Adult_M.bf
+del Ostrich_Young_F.bf

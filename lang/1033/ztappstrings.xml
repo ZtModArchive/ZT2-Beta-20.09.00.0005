@@ -1,0 +1,10 @@
+<ZT2Strings>
+      <LOC_STRING _locID="ztapp:general_regkey">Software\Microsoft\Microsoft Games\Zoo Tycoon 2</LOC_STRING>
+      <LOC_STRING _locID="ztapp:general_eula_filename">eula.rtf</LOC_STRING>
+      <LOC_STRING _locID="ztapp:general_warranty_filename">warranty.rtf</LOC_STRING>
+      <LOC_STRING _locID="ztapp:general_eula_dll_name">eula.dll</LOC_STRING>
+      <LOC_STRING _locID="ztapp:general_eula_required_title">EULA acceptance required</LOC_STRING>
+      <LOC_STRING _locID="ztapp:general_eula_required_text">You must accept the EULA in order to play Zoo Tycoon 2.</LOC_STRING>
+      <LOC_STRING _locID="ztapp:general_cd_required_title">Zoo Tycoon 2 game CD required</LOC_STRING>
+      <LOC_STRING _locID="ztapp:general_cd_required_text">Please insert your Zoo Tycoon 2 CD-ROM.</LOC_STRING>
+</ZT2Strings>

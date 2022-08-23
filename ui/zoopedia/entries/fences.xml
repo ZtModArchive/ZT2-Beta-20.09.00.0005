@@ -1,0 +1,23 @@
+<entries>
+   <BFHelpEntry order="zoopedia_fences:entry" entry="zoopedia_fences:entry" text="zoopedia_fences:text" page2="zoopedia_fences:page2"/>
+   <BFHelpEntry order="zoopedia_ironbar:entry" entry="zoopedia_ironbar:entry" text="zoopedia_ironbar:text" page2="zoopedia_ironbar:page2"/>
+   <BFHelpEntry order="zoopedia_chainlink:entry" entry="zoopedia_chainlink:entry" text="zoopedia_chainlink:text" page2="zoopedia_chainlink:page2"/>
+   <BFHelpEntry order="zoopedia_plexiglass:entry" entry="zoopedia_plexiglass:entry" text="zoopedia_plexiglass:text" page2="zoopedia_plexiglass:page2"/>
+   <BFHelpEntry order="zoopedia_postrail:entry" entry="zoopedia_postrail:entry" text="zoopedia_postrail:text" page2="zoopedia_postrail:page2"/>
+   <BFHelpEntry order="zoopedia_woodenslat:entry" entry="zoopedia_woodenslat:entry" text="zoopedia_woodenslat:text" page2="zoopedia_woodenslat:page2"/>
+   <BFHelpEntry order="zoopedia_woodslatwindow:entry" entry="zoopedia_woodslatwindow:entry" text="zoopedia_woodslatwindow:text" page2="zoopedia_woodslatwindow:page2"/>
+   <BFHelpEntry order="zoopedia_brick:entry" entry="zoopedia_brick:entry" text="zoopedia_brick:text" page2="zoopedia_brick:page2"/>
+   <BFHelpEntry order="zoopedia_hedge:entry" entry="zoopedia_hedge:entry" text="zoopedia_hedge:text" page2="zoopedia_hedge:page2"/>
+   <BFHelpEntry order="zoopedia_postrope:entry" entry="zoopedia_postrope:entry" text="zoopedia_postrope:text" page2="zoopedia_postrope:page2"/>
+   <BFHelpEntry order="zoopedia_picket:entry" entry="zoopedia_picket:entry" text="zoopedia_picket:text" page2="zoopedia_picket:page2"/>
+   <BFHelpEntry order="zoopedia_stonewall:entry" entry="zoopedia_stonewall:entry" text="zoopedia_stonewall:text" page2="zoopedia_stonewall:page2"/>
+   <BFHelpEntry order="zoopedia_zoowall:entry" entry="zoopedia_zoowall:entry" text="zoopedia_zoowall:text" page2="zoopedia_zoowall:page2"/>
+   <BFHelpEntry order="zoopedia_safarifence:entry" entry="zoopedia_safarifence:entry" text="zoopedia_safarifence:text" page2="zoopedia_safarifence:page2"/>
+   <BFHelpEntry order="zoopedia_junglefence:entry" entry="zoopedia_junglefence:entry" text="zoopedia_junglefence:text" page2="zoopedia_junglefence:page2"/>
+   <BFHelpEntry order="zoopedia_tundrafence:entry" entry="zoopedia_tundrafence:entry" text="zoopedia_tundrafence:text" page2="zoopedia_tundrafence:page2"/>
+   <BFHelpEntry order="zoopedia_fencegate:entry" entry="zoopedia_fencegate:entry" text="zoopedia_fencegate:text" page2="zoopedia_fencegate:page2"/>
+   <BFHelpEntry order="zoopedia_concretefence:entry" entry="zoopedia_concretefence:entry" text="zoopedia_concretefence:text" page2="zoopedia_concretefence:page2"/>
+
+   
+     
+</entries>

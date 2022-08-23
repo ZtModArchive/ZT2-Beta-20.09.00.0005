@@ -1,0 +1,56 @@
+<UILayout name="">
+   <UIRegion x="0" y="0" w="172" h="270" xalign="min" yalign="min" walign="len" halign="len"/>
+   <children>
+      <UILayout name="image background">
+         <UIRegion x="0" y="0" w="0" h="129" xalign="min" yalign="min" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/photosaf/emptychallenge.tga">
+               <BFRect x="4" y="0" w="195" h="146"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+         <children>
+            <UIText name="incompletelabel">
+               <UIRegion x="0" y="57" w="0" h="30" xalign="min" yalign="min" walign="max" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect locid="photom:incomplete_label">
+                  <default>
+                     <BFFont align="center"/>
+                  </default>
+               </UIAspect>
+               <text type="multi"/>
+            </UIText>
+            <UIButton name="button">
+               <UIRegion x="5" y="5" w="-5" h="-5" xalign="min" yalign="min" walign="max" halign="max"/>
+               <UIAspect alwayshit="true">
+                  <default>
+                     <BFRect x="0" y="0" w="198" h="150"/>
+                  </default>
+               </UIAspect>
+               <UIState active="normal" visible="normal"/>
+            </UIButton>
+         </children>
+      </UILayout>
+      <UIStatic name="stars">
+         <UIRegion x="25" y="95" w="80" h="16" xalign="min" yalign="min" walign="% min" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default image="ui/photosaf/stars.dds">
+               <BFRect x="0" y="0" w="256" h="32"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIText name="challenge description">
+         <UIRegion x="0" y="132" w="172" h="0" xalign="min" yalign="min" walign="len" halign="max"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default>
+               <BFFont align="center"/>
+            </default>
+         </UIAspect>
+         <text format="shell:lttformat" type="multi">Take a picture of a Dromedary Camel</text>
+      </UIText>
+   </children>
+</UILayout>

@@ -1,0 +1,6 @@
+RhinocerosBlack_Adult_F_Charge_Ahead.max
+RhinocerosBlack_Adult_F_Poop_Idle.max
+RhinocerosBlack_Adult_F_Sleep_Idle.max
+RhinocerosBlack_Adult_F_Stand_Mew.max
+RhinocerosBlack_Adult_F_Stand_Sniff.max
+RhinocerosBlack_Adult_F_Stand_Squeal.max

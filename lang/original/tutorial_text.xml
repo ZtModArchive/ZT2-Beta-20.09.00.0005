@@ -1,0 +1,516 @@
+<ZT2Strings>
+   <tutorial1>
+      <tutorial1_welcome>
+         Welcome to the Zoo Tycoon 2 Tutorials. In the following tutorials you will learn the basics of how to control the camera. Then you'll move on to construction techniques and accessing all the information available to you about your zoo. 
+         <br>So let's get started,  click the check button on this panel to continue.</br>
+      </tutorial1_welcome>
+      <goalpanelheading>Open the Goal Panel</goalpanelheading>
+      <opengoalpanel>Open the Goal Panel by clicking the Scenario Goals Button on the Primary Game Button Panel.</opengoalpanel>
+      <opengoalpanelcompleted>Great! Return to the goal panel anytime to see what your current goals are during a Campaign or Challenge game. Now we 
+      	can learn how to move the camera around the game world. Click the check button on this panel to continue.
+      </opengoalpanelcompleted>
+      <closegoalpanelheading>Close Goal Panel</closegoalpanelheading>
+      <closegoalpanel>Close the Goal Panel by clicking the "x" button on the Scenario Goals Panel.</closegoalpanel>
+      <cameracontrolscrollheading>Camera Controls: Scrolling</cameracontrolscrollheading>
+      <cameracontolscroll>Now we need to practice moving the camera around. Scroll the map by using the W A S or D keys on your keyboard or by 
+      	moving your mouse cursor all the way to any of the four edges of the map.
+      </cameracontolscroll>
+      <cameracontolscrollcompleted>
+      	Scrolling the map will allow you view and monitor various areas of your zoo. Click the check button on this panel to 
+      	continue.
+      </cameracontolscrollcompleted>
+      <cameracontrolzoomheading>Camera Controls</cameracontrolzoomheading>
+      <cameracontolzoom>
+      	Zoom in and out using the Camera Control Zoom buttons from the Primary Game Button Panel, or use the mouse wheel if 
+      	your mouse supports this function.
+      	</cameracontolzoom>
+      <cameracontolzoomcompleted>
+      	Zooming in will allow you to get a close up view of anything in the zoo. Zooming out will allow you to get a better 
+      	perspective of the overall structure. Click the check button on this panel to continue.
+      </cameracontolzoomcompleted>
+      <cameracontrolrotateheading>Camera Controls: Zoom &amp; Rotate</cameracontrolrotateheading>
+      <cameracontolrotate>
+      	Rotate the map by using the Camera Control Rotate buttons from the Primary Game Button Panel.
+      </cameracontolrotate>
+      <cameracontolrotatecompleted>
+      	Rotating will allow you to view buildings, animals and guests from different angles. There are some other ways that you can 
+      	rotate your view. You can also hold down the CTRL key or click and hold the left mouse button while moving
+      	the mouse to rotate the camera. Click the check button on this panel to continue.
+      </cameracontolrotatecompleted>
+      <guestmodeheading>Guest Mode</guestmodeheading>
+      <guestmode>Enter Guest Mode by clicking on the Guest Mode button to the left of the Primary Game Button Panel.</guestmode>
+      <guestmodecompleted>
+      	In Guest Mode you can walk around your zoo by pressing the left mouse button. While in Guest Mode, the view panel 
+      	and the mouse cursor are hidden so that your view is unobstructed. To access the Camera View Pane and enable your mouse cursor, right 
+      	click the mouse. Click the check button on this panel to continue.</guestmodecompleted>
+      <photosafariheading>Photo Safari</photosafariheading>
+      <photosafari>
+      	While in Guest Mode with the Camera View Pane visible, click on the Photo Safari View button to bring up the camera.
+      </photosafari>
+      <photosafaricompleted>
+      	Photo Safari will allow you use your camera to take photographs of anything in your zoo. Press the spacebar 
+      	to take a picture.  Right click the mouse to bring back the mouse cursor. Click the check button on 
+      	this panel to continue.
+      </photosafaricompleted>
+      <openpeanutcompleted>
+      	From here you can change your view to Guest Mode, Photo Safari Mode, and Overhead Mode. Click the check button on this 
+      	panel to continue.
+      </openpeanutcompleted>
+      <overheadmapheading>Overhead View</overheadmapheading>
+      <overheadmap>
+      	Let's return to the Overhead View. Click on the Overhead View button to the left of the Primary Game Button Panel.
+      </overheadmap>
+      <overviewmapheading>Overview Map</overviewmapheading>
+      <overviewmap>View the Overview Map by clicking on the Overview Map button to the left of the Primary Game Button Panel.</overviewmap>
+      <overviewmapcompleted>
+      	The Overview Map gives you a broad layout of your zoo. You can quickly jump around from place 
+      	to place in your zoo by clicking the mouse cursor in any location on the Overview Map. Click the check button on this 
+      	panel to continue.
+      </overviewmapcompleted>
+      <overviewmapcloseheading>Overview Map</overviewmapcloseheading>
+      <overviewmapclose>
+      	To close the Overview Map click the back arrow in the lower right corner of the screen. The map legend allows 
+      	you to toggle various objects on the map on and off. 
+      </overviewmapclose>
+      <zoopediaheading>Zoopedia and Help</zoopediaheading>
+      <zoopedia>Press F1 to open Zoo Tycoon 2's Zoopedia.</zoopedia>
+      <zoopediacloseheading>Zoopedia and Help</zoopediacloseheading>
+      <zoopediaclose>
+      	The Zoopedia contains information about 
+      	game controls and the animals and objects included in Zoo Tycoon 2. You can access the Zoopedia at anytime while in the game. Exit the Zoopedia using the exit button in the upper right corner.      </zoopediaclose>
+      <zoopediaclosecompleted>
+      	Great job! This is the end of the Controls Tutorial. The next tutorial will show you a few things about Construction techniques. Click the check button on this panel to continue.
+      </zoopediaclosecompleted>
+      <tutorial_1_complete>This is the end of the Controls Tutorial. The next tutorial will show you a few things about Construction techniques. To continue playing the next tutorial, click the check mark button in the lower right, or if you wish to return to the main menu click on the back button.</tutorial_1_complete>
+   </tutorial1>
+   <tutorial2>
+      <tutorial2_welcome>
+         In the following tutorial you will learn the basics of construction techniques... essentially 
+         how to make a basic exhibit, change the terrain. add animals and provide paths and buildings for your guests. 
+         <br>So let's get started,  click the check button on this panel to continue.</br>
+      </tutorial2_welcome>
+      <openconstructionpanelheading>Construction Panel</openconstructionpanelheading>
+      <openconstructionpanel>
+         
+         
+         It's time to start building! 
+         
+         
+         <p/>
+         
+         
+          Open the Construction Panel by clicking on the Construction button.
+      
+      
+      </openconstructionpanel>
+      <openconstructionpanelcompleted>
+      	The Construction Panel is where you'll go when you want to place fences, paths, zoo buildings, scenery objects and all kinds of other
+      	"man-made" objects in your zoo. Click the check button on this panel to continue.
+      </openconstructionpanelcompleted>
+      <openfencerectangletoolheading>Fence Placement Rectangle Tool</openfencerectangletoolheading>
+      <openfencerectangletool>
+      	Fences are the most common way to keep your animals in... and your guests out! Click on 
+      	the Rectangle Fence Placement button in the Fence Buy panel.
+      </openfencerectangletool>
+      <openfencerectangletoolcompleted>
+      	The Rectangle Mode tool lets you easily create an enclosed habitat area. Click the check 
+      	button on this panel to continue.
+      </openfencerectangletoolcompleted>
+      <placefencesheading>Buy Fence</placefencesheading>
+      <placefences>
+      	Scroll the map to find a clear spot to create a fenced area (you do remember how to scroll, right?). 
+      	Select the Chain Link Fence, then click once on the ground to "anchor" the corner. Drag your mouse to see a 
+      	preview of the enclosed area and click again to place it in the world. Make it large as you'll be 
+      	adding a BIG animal later!</placefences>
+      <placefencescompleted>
+      	Great! Now you have a basic enclosure. Later you can try the Octagonal Placement Mode to make an 
+      	octangonal shape or the Rubber Band Mode to place single sections. Click the check button on this panel to continue.
+      </placefencescompleted>
+      <placegateheading>Staff Gate</placegateheading>
+      <placegate>
+      	Now it's time to place a gate. Select the Staff Gate and place it over the fenced area you just made. The 
+      	gate preview will snap into place when your cursor is over the fence. Just click to insert the gate in that location.
+      </placegate>
+      <placegatecompleted>
+      	You'll want to make sure that your enclosed areas have gates so your staff can get in and
+      	care for the animals. Right now we're only using the Chain Link fence but there are all kinds of 
+      	different fence types. The Staff Gate will automatically work on any of them. Click the check button on this panel to continue.
+      </placegatecompleted>
+      <selectscenerytabheading>Scenery Tab</selectscenerytabheading>
+      <selectscenerytab>
+      	Click on the Scenery Tab to open the Scenery Buy panel. Here's where you'll find  
+      	useful and decorative objects that you can place in your zoo.</selectscenerytab>
+      <selectscenerytabcompleted>
+      	Normally you'd see many objects on the Scenery Buy panel but for now we've 
+      	narrowed it down to just one - the Donation Box. Click the check button on this panel to continue.</selectscenerytabcompleted>
+      <placedonationboxheading>Donation Box</placedonationboxheading>
+      <placedonationbox>
+      	Select the Donation Box and move your mouse cursor over the world to see a preview of the object. When an item is on 
+      	your cursor, you can rotate it by by using the &lt; &gt; keys or by clicking AND holding the left mouse button 
+      	while you move the cursor around the screen. Note the green arrow pointing to it. This is the direction from which 
+      	your guests will donate so make sure this side isn't blocked by something else in your zoo. Click to place the 
+      	Donation Box near the fenced area you made earlier.
+      </placedonationbox>
+      <placedonationboxcompleted>
+      	You should place a Donation Box near every exhibit... how else will your happy guests give you their 
+      	money?  If guests can't find a Donation Box, their cash will stay in their pockets instead of going 
+      	into yours. Click the check button on this panel to continue.
+      </placedonationboxcompleted>
+      <selectpathtabheading>Path Tab</selectpathtabheading>
+      <selectpathtab>Click on the Path Tab to open the Path Buy panel.</selectpathtab>
+      <selectpathtabcompleted>
+      	You'll see that there are a number of different paths that you can choose from. Guests don't so much care what 
+      	type of path surface is in your zoo, but they do care that there is one! Click the check button on this panel to continue.
+      </selectpathtabcompleted>
+      <placepathheading>Place Path</placepathheading>
+      <placepath>
+      	Paths work a little like fences do (you do remember placing fences, right?). Click on a path type, then click on the ground to "anchor" the path. Drag the mouse in a desired direction to see the preview of where the path will go. 
+      	Click again to place it. TIP: Whenever you have an object on your cursor (in this case, a path), you can right 
+      	click to clear it away.</placepath>
+      <placepathcompleted>
+      	You'll want to make sure that your paths lead to and provide views to your exhibits, 
+      	otherwise your guests won't see your exhibits. They'll miss out on your great animals, and you'll 
+      	miss out on their donations. (Yup, you'll want those paths leading to your Donation 
+      	Boxes too!) Click the check button on this panel to continue.
+      </placepathcompleted>
+      <selectbuildingtabheading>Building Tab</selectbuildingtabheading>
+      <selectbuildingtab>
+      	Click on the Building Tab to access the Building Buy panel... and you guessed it... this is where you'll find buildings to 
+      	place in your zoo.
+      </selectbuildingtab>
+      <selectbuildingtabcompleted>
+      	You'll find all sorts of buildings on the Building Buy panel, from food and drink stands to restrooms and 
+      	more. Click the check button on this panel to continue.</selectbuildingtabcompleted>
+      <placebuildingsheading>Purchase Buildings</placebuildingsheading>
+      <placebuildings>
+      	Now purchase a Hot Dog Food Stand, a Pretzel Cart and a Soda Drink Stand.  Click 
+      	on each building, then move your mouse over the zoo to see a preview of the object. Notice the access 
+      	arrow (you do remember that the arrow shows the direction the guest will access the object from, 
+      	right?). Click to place the building.
+      </placebuildings>
+      <placebuildingscompleted>
+      	Guests get hungry, thirsty, and need to use a restroom while visting your zoo. If you don't provide them 
+      	with amenities to meet these needs they may leave prematurely and take their cash with them. Like exhibits and Donation Boxes, make sure that you have paths leading to all your great 
+      	amenities! Click the check button on this panel to continue. </placebuildingscompleted>
+      <selectpretzelcartheading>Selecting Objects</selectpretzelcartheading>
+      <selectpretzelcart>
+      	You can select objects that have already been placed in the world. Click on the Pretzel Cart 
+      	that you just placed in your zoo to select it. (If another object is already on your cursor, you can 
+      	right click to clear it.)</selectpretzelcart>
+      <selectpretzelcartcompleted>
+      	Great, you have the Pretzel Cart selected! Note that an information panel opens up showing the item 
+      	you have selected. Don't worry about all the things on this panel for now... we'll come back to this 
+      	in more detail later. Click the check button on this panel to continue.
+      </selectpretzelcartcompleted>
+      <moveselectedentityheading>Moving Objects</moveselectedentityheading>
+      <moveselectedentity>
+      	Many objects can be moved to other locations (though there are some that can't be). Once you have selected an object, you can use the Pick Up 
+      	Building button to "pick it up". You can also just click on the object again once it is selected. 
+      	Now move the Pretzel Cart to another location.
+      </moveselectedentity>
+      <moveselectedentitycompleted>
+      	Remember, when an item is on your cursor, you can rotate it by by using the &lt; &gt; keys or by clicking AND holding the left 
+      	mouse button while you move the cursor around the screen. Click the check button on this panel to continue.
+      </moveselectedentitycompleted>
+      <openanimalpanelheading>Adopting Animals</openanimalpanelheading>
+      <openanimalpanel>
+      	Click on the Animals button to open the Animal Adoption panel. This is where you'll obtain animals for 
+      	your zoo.
+      </openanimalpanel>
+      <openanimalpanelcompleted>Great! Now let's adopt an animal. Click the check button on this panel to continue.</openanimalpanelcompleted>
+      <placeanimalheading>Adopt animal</placeanimalheading>
+      <placeanimal>
+      	Select the African Elephant from the Adoption panel. Move your mouse cursor over to the fenced area that 
+      	you made earlier and click to place the African Elephant inside the basic enclosure.</placeanimal>
+      <placeanimalcompleted>
+      	Excellent! Now you have a new animal. Guests come to see the animals so if you have no animals, you'll have 
+      	no guests! Click the check button on this panel to continue.</placeanimalcompleted>
+      <selectfoodtabheading>Animal Food</selectfoodtabheading>
+      <selectfoodtab>
+      	Select the Animal Food Tab to open the Animal Food Buy panel. If you want your animals to thrive, 
+      	you'll need to make sure they have food and water.</selectfoodtab>
+      <selectfoodtabcompleted>
+      	All animals require food and water but they won't eat just anything (will you?). We'll tell you 
+      	more about how to determine what an animal eats later but for now just click the check button on this 
+      	panel to continue.
+      </selectfoodtabcompleted>
+      <placewaterfoodheading>Purchace Food and Water</placewaterfoodheading>
+      <placewaterfood>Place a Food Trough with Hay and a Food Trough with Water near the African Elephant by clicking on the dish, then clicking inside the enclosure to place it.</placewaterfood>
+      <placewaterfoodcompleted>
+      	Great! Placing food and water in your exhibits will allow your animals to satisfy their hunger and thirst 
+      	needs. Remember... a hungry or thirsty animal is not a happy animal! Click the check button on 
+      	this panel to continue.
+      </placewaterfoodcompleted>
+      <selectsheltertabheading>Shelter Tab</selectsheltertabheading>
+      <selectsheltertab>Select the Animal Shelters Tab to open the Animal Shelter Buy panel.</selectsheltertab>
+      <selectsheltertabcompeted>While an exhausted animal might sleep just anywhere, animals require a shelter to meet their need for privacy. Click the check button on this panel to continue.</selectsheltertabcompeted>
+      <researchobjectheading>Research</researchobjectheading>
+      <researchobject>
+      	Certain advanced objects need to be studied more carefully before you have access to them. You do this by 
+      	choosing to Research the object. Objects that need to be researched are shaded green and have a small book 
+      	appearing over their icon. Select the Elephant House, then press the Research button on the Object Info panel 
+      	to begin research.</researchobject>
+      <researchobjectcompleted>
+      	It takes time and money to research an object. Once the research has been completed, the object is available for 
+      	purchase. Click the check button on this panel to continue.</researchobjectcompleted>
+      <placeshelterheading>Purchase Shelter</placeshelterheading>
+      <placeshelter>
+      	Wait for the Elephant House to complete its research. Of course you don't actually have to 'wait'... you can 
+      	continue to do other things while objects are being researched. (Hey, this would be a great time for 
+      	you to take a look around the zoo!). Once the research is completed, select the Elephant House and then move your cursor into your zoo 
+      	to see a preview of the item. Click to place the shelter in the African Elephant's enclosure.
+      </placeshelter>
+      <placesheltercompleted>Great! Your animal has a place to go for a little privacy. Click the check button on this panel to continue.</placesheltercompleted>
+      <enrichmentpanelheading>Animal Enrichment </enrichmentpanelheading>
+      <enrichmentpanel>
+      	Select the Animal Enrichment Tab to open the Animal Enrichment Object Buy panel.
+      </enrichmentpanel>
+      <enrichmentpanelcompleted>
+      	Enrichment objects enhance an exhibit area for many species of animals by keeping them 
+      	active and entertained in their environment. Click the check button on this panel to continue.
+      </enrichmentpanelcompleted>
+      <placeopursuitballheading>Pursuit Ball</placeopursuitballheading>
+      <placeopursuitball>
+      	There are many enrichment objects available in Zoo Tycoon 2, but for now we've narrowed the selection down to 
+      	one. Purchase a Pursuit Ball for your African Elephant. Click on the object then place it in the 
+      	Elephant's enclosure.
+      </placeopursuitball>
+      <placeopursuitballcompleted>
+      	Different species of animals have different levels of interest in enrichment objects for 
+      	stimulation. We'll go into more detail later about how to find out about what items 
+      	stimulate different animals. Click the check button on this panel to continue.
+      </placeopursuitballcompleted>
+      <openlandscapingpanelheading>Landscaping </openlandscapingpanelheading>
+      <openlandscapingpanel>
+      	Open the Landscaping panel by clicking the Landscaping button. The Landscaping panel is where you'll go to modify 
+      	the "organic" parts of your zoo by changing the terrain, and placing trees, rocks and other foliage.</openlandscapingpanel>
+      <openlandscapingpanelcompleted>
+      	The Landscaping panel is also where you have all the tools you'll need to create a proper habitat (also known as a biome) for 
+      	your animal(s) to live in. Click the check button on this panel to continue.
+      </openlandscapingpanelcompleted>
+      <paintsavannahheading>Paint Savannah Biome</paintsavannahheading>
+      <paintsavannah>
+      	Move through the different biomes by clicking on the arrows until you locate the 
+      	Savannah Biome. After you find it, move the cursor into the African Elephant's enclosure and click and drag to 
+      	start painting with land approriate to the Savannah.</paintsavannah>
+      <paintsavannahcompleted>
+      	Great job! Animals prefer to be in exhibits that resemble their natural habitats. Use these Biome Brushes 
+      	to paint the terrain that best suits their natural environments. Click the check button on this panel to continue.
+      </paintsavannahcompleted>
+      <openstaffpanelheading>Staff Panel</openstaffpanelheading>
+      <openstaffpanel>Open the Hire Staff panel by clicking on the Staff button.</openstaffpanel>
+      <openstaffpanelcompleted>
+      	This is where you will find workers to handle general zoo maintenance, animal care, and guest 
+      	education. Click the check button on this panel to continue.
+      </openstaffpanelcompleted>
+      <hirezookeeperheading>Hire Staff</hirezookeeperheading>
+      <hirezookeeper>
+      	The Zookeeper staff member specializes in animal care and will make sure that your animals receive food 
+      	and water as needed. They will also treat illnesses and groom dirty animals. Select a Zookeeper and move the 
+      	cursor into your zoo.  Click to place your new Zookeeper in the world.</hirezookeeper>
+      <hirezookeepercompleted>Excellent! Your Zookeeper can provide care for your African Elephant. Click the check button on this panel to continue.</hirezookeepercompleted>
+      <tutorial_2_complete>
+      	Great job! This is the end of the Construction Tutorial. The next tutorial will 
+      	teach you a few things about accessing information about your zoo. To continue playing the next tutorial, click the check mark button in the lower right, or if you wish to return to the main menu click on the back button.   </tutorial_2_complete>
+   </tutorial2>
+   <tutorial3>
+      <tutorial3_welcome>
+         In the following tutorial you will learn how to get information about animals, staff, guests, buildings and your zoo's status.
+         <br>Let's get started!  Click the check button on this panel to continue.</br>
+      </tutorial3_welcome>
+      <selectanimalheading>Select an Animal</selectanimalheading>
+      <selectanimal>
+      	Let's start by learning how to get more information about animals. Click on one of the animals in your 
+      	zoo to open its Information panel. Don't forget you can scroll the map around in case an
+      	animal isn't currently in view.</selectanimal>
+      <selectanimalcompleted>
+      	Great! When you first open the Animal Infomation panel you'll see a number of icons that indicate the state 
+      	of the animal's needs. Click the check button on this panel to continue.</selectanimalcompleted>
+      <viewanimalneedsheading>View Animal Status</viewanimalneedsheading>
+      <viewanimalneeds>
+      	The next tab will take you to the Animal Status panel. Click on the Animal Status Tab.</viewanimalneeds>
+      <viewanimalneedscompleted>
+      	Great! This panel shows you what the animal's current activity is and a few other
+      	things about the animal's condition that you'd want to be aware of. This is where you'll see whether an animal
+      	is ill or, ah, expecting a new addition! Click the check button on this panel to continue.
+      </viewanimalneedscompleted>
+      <viewanimalgeneralheading>View General Animal Info</viewanimalgeneralheading>
+      <viewanimalgeneral>Click on the General Information Tab. This is where you'll find the animal's 
+      	gender, preferred biome and an icon indicating which part of the world the animal 
+      	originates in.
+      </viewanimalgeneral>
+      <viewanimalgeneralcompleted/>
+      <viewrecommendationsheading>Zookeeper Recommendations</viewrecommendationsheading>
+      <viewrecommendations>
+      	You can get a lot of helpful information about an animal's preferences using the Zookeeper Recommendation 
+      	panel. Click on the Zookeeper Recommendations button to open the Zookeeper Recommendation panel now.
+      </viewrecommendations>
+      <viewrecommendationscompleted>
+      	Excellent! All of the objects that you see on this panel are sorted to include only 
+      	those that are useful to the animal you have selected. You can choose objects 
+      	from this panel and place them in your zoo just as you did with the other 
+      	Buy panels covered in the second tutorial. Click the check button on this panel to continue.
+      </viewrecommendationscompleted>
+      <closerecommendations>
+      	When you are through viewing the Zookeeper Recommendations panel you can click again on the Zookeeper 
+      	Recommendation button, or click the close button in the upper right corner of the Zookeeper 
+      	Recommendation panel.
+      </closerecommendations>
+      <selectkeeperheading>Select a Zookeeper</selectkeeperheading>
+      <selectkeeper>Locate a Zookeeper in your zoo. If they have no specific tasks, you might find them
+      	sitting on one of your benches... they're a lot like real people after all. Otherwise they'll be walking around tending to your exhibits. 
+      	Click on a Zookeeper to open the Zookeeper Information panel.
+      </selectkeeper>
+      <selectkeepercompleted/>
+      <viewassignmentsheading>View Keeper Assignments</viewassignmentsheading>
+      <viewassignments>Click on the Staff Assignments tab to view the Zookeeper's assignments.</viewassignments>
+      <viewassignmentscompleted/>
+      <selectaddassignheading>Select Add Assignment</selectaddassignheading>
+      <selectaddassign>You can assign Zookeepers to specific exhibit areas. This will keep them focused on the exhibits that 
+      	you select. If a Zookeeper does not have an assignment, they'll head for any exhibit that needs attention... and 
+      	depending on your zoo, this could mean they do a lot of walking! Click on the Add New Assignment button now.</selectaddassign>
+      <selectaddassigncompleted>
+      	You can place the flag post in any exhibit area to assign a Zookeeper to that exhibit. Once you have place a 
+      	flag, right click the mouse to clear the cursor. Click the check button on this panel to continue.
+      </selectaddassigncompleted>
+      <selectstaffthoughtsheading>Select Staff Thoughts</selectstaffthoughtsheading>
+      <selectstaffthoughts>Click on the Staff Thoughts button to view the staff thoughts.</selectstaffthoughts>
+      <selectstaffthoughtscompleted/>
+      <selectstaffsalaryheading>Select Staff Salary</selectstaffsalaryheading>
+      <selectstaffsalary>Click on the Staff Salary button to see their current salary and how long they've been employed.</selectstaffsalary>
+      <selectstaffsalarycompleted/>
+      <selectguestheading>Select a Guest</selectguestheading>
+      <selectguest>Now let's move on to the guests. Click on any guest to select him (or her).</selectguest>
+      <selectguestcompleted>
+      	The Guest Activities and Needs panel shows you what the guest is currently doing along with icons 
+     	indicating the status of the guest's various needs.
+      </selectguestcompleted>
+      <selectgueststatusheading>Select Guest Status</selectgueststatusheading>
+      <selectgueststatus>
+      	Click on the Guest Status Tab to see how much cash the guest is carrying and whether the guest has 
+      	purchased any items in your zoo.
+      </selectgueststatus>
+      <selectgueststatuscompleted/>
+      <selectguestfavoritesheading>Select Guest Favorites</selectguestfavoritesheading>
+      <selectguestfavorites>
+      	Click on the Guest Favorites Tab to see the guest's favorite animal. Guests are likely to make 
+      	larger donations if they see their favorite animals.
+      </selectguestfavorites>
+      <selectguestfavoritescompleted/>
+      <selectguestthoughtsheading>Select Guest Thoughts</selectguestthoughtsheading>
+      <selectguestthoughts>
+      	Click on the Guest Thoughts Tab to find out what the guest thinks about your zoo. (Don't 
+      	you wish you could read everyone's mind this way?) This might give you some ideas about what things you can
+      	do to improve your guests' experience.</selectguestthoughts>
+      <selectguestthoughtscompleted/>
+      <selectfoodstandheading>Select a Food Stand</selectfoodstandheading>
+      <selectfoodstand>
+      	Buildings have information panels as well. Click on any Food Stand in your zoo to open its Building Information 
+      	panel. Don't forget... you may need to scroll your map in order to locate one of the food stands.</selectfoodstand>
+      <selectfoodstandcompleted/>
+      <selectfoodstandfinanceheading>Select Finance Tab</selectfoodstandfinanceheading>
+      <selectfoodstandfinance>
+      	The first Status panel shows you the current price level for items being sold in the building and the items it 
+      	sells. Some buildings may display slightly different infomation here. Now click on the Finance Tab to 
+      	view the financial information.
+      </selectfoodstandfinance>
+      <selectfoodstandfinancecompleted/>
+      <selectzoostatusheading>Select Zoo Status</selectzoostatusheading>
+      <selectzoostatus>
+      	You can get a complete overview about how your zoo is doing from the Zoo Status panel. Click the Zoo 
+      	Finances button to open the Zoo Status panel.</selectzoostatus>
+      <selectzoostatuscompleted/>
+      <selectzoofinancesheading>Select Income/Expense Tab</selectzoofinancesheading>
+      <selectzoofinances>
+      	This first information panel gives you some summary information about your zoo. This is also where you can mark 
+      	your zoo as Open or Closed and alter the level of your admission prices. When you close the zoo, all your guests 
+      	will begin to leave. Now click on the Income and Expense Report Tab to open the balance sheet for your zoo. 
+      </selectzoofinances>
+      <selectzoofinancescompleted/>
+      <closezoostatusheading>Close Zoo Status</closezoostatusheading>
+      <closezoostatus>
+      	Notice that there are a number of other tabs where you can go to see graphs, a list of awards earned by your zoo,
+      	donation summaries and more. Click on the Close button when you are all through viewing zoo information.
+      </closezoostatus>
+      <closezoostatuscompleted/>
+      <openquickstatsheading>Open Quick Stats</openquickstatsheading>
+      <openquickstats>
+      	The Quick Stats panel provides you with a list of all the living beings in your zoo, including 
+      	animals, guests and staff. Now click on the Quick Stats button to open the Quick Stats Panel.  </openquickstats>
+      <openquickstatscompleted/>
+      <viewguestlistheading>View Guest List</viewguestlistheading>
+      <viewguestlist>
+      	While viewing the list, you can click on any animal or person in the list to select it. The camera will jump to that 
+      	location and begin tracking the movements of the animal or person selected (hmmm, maybe 
+      	another one of those "don't you wish you could..." things). Now click on the Guest Information Tab.
+      </viewguestlist>
+      <viewguestlistcompleted/>
+      <viewstafflistheading>View Staff List</viewstafflistheading>
+      <viewstafflist>
+      	You can easily find the whereabouts of the staff in your zoo by selecting them from the staff list. To open the Staff List panel, click 
+      	on the staff tab.
+      </viewstafflist>
+      <viewstafflistcompleted/>
+      <closequickstatsheading>Close Quick Stats</closequickstatsheading>
+      <closequickstats>When you're finished viewing the people and animals in your zoo, close the Quick Stats panel.</closequickstats>
+      <closequickstatscompleted/>
+      <enterphotosafariheading>Select Camera Mode</enterphotosafariheading>
+      <enterphotosafari>
+      	You can take pictures of anything in your zoo using the Photo Safari view. Click on the Photo Safari button to 
+      	enter this mode.
+      </enterphotosafari>
+      <enterphotosafaricompleted/>
+      <takephotosheading>Take Some Pictures</takephotosheading>
+      <takephotos>
+      	It's time to take a few pictures. Hit the Spacebar to take a picture... try it now by taking 3 
+      	pictures of things around the zoo.
+      </takephotos>
+      <takephotoscompleted/>
+      <openphotoalbumheading>Open Photo Album</openphotoalbumheading>
+      <openphotoalbum>
+      	Great! You can view the photographs that you've taken by opening your Photo Album. Click on the Photo Album 
+      	button to open the Photo Album.
+      </openphotoalbum>
+      <openphotoalbumcompleted/>
+      <closephotoalbumheading>Close Photo Album</closephotoalbumheading>
+      <closephotoalbum>
+      	The photos that you've just taken are shown in the film strip along the top of the screen. You can click and drag them 
+      	into empty slots in your Photo Album. When you're finished viewing your pictures, click on the Return to Game button to close the Photo 
+      	Album.
+      </closephotoalbum>
+      <closephotoalbumcompleted/>
+      <tutorial_3_complete>
+      	Great job! This wraps up the tutorials for Zoo Tycoon 2. We've only brushed the surface of 
+      	all the great features available to you when creating your dream zoo. There's plenty for you to explore with 
+      	30 animals, 10 different biomes, hundreds of objects, and more. Be sure to refer to the Zoo Tycoon 2 manual for even 
+      	more in-depth information.  Click the back button to return to the main menu.</tutorial_3_complete>
+   </tutorial3>
+   <Tutoriallabels>
+      <textformat>
+         <font name="arial" size="11" shadowx="-1" shadowy="1" shadowa="128">
+            <color r="255" g="255" b="255" a="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </textformat>
+      <labelformat>
+         <font name="arial" size="16">
+            <color r="255" g="248" b="178" a="255">
+               <b>%text%</b>
+            </color>
+         </font>
+      </labelformat>
+      <campaignname>Zoo Tycoon 2 Tutorials</campaignname>
+      <T1> Tutorial 1: Control</T1>
+      <T1short> Control Techniques</T1short>
+      <T1overviewshort>Start learning the basics of camera controls in Zoo Tycoon 2 with this guided tutorial. Then move on to Construction techniques and more!      </T1overviewshort>
+      <T2> Tutorial 2: Construction </T2>
+      <T2short> Construction Techniques</T2short>
+      <T2overviewshort>Start learning the basics of construction Zoo Tycoon 2 with this guided tutorial. Then move on to General Information techniques and more! </T2overviewshort>
+      <T3> Tutorial 3: Getting Information</T3>
+      <T3short>Getting Information</T3short>
+      <T3overviewshort>Learn the basics of getting information about your zoo with this guided tutorial. After this, you'll be all set to create your own zoo in Freeform Mode, take on Challenge Mode or start a Campaign 
+      	in Campaign Mode.
+      </T3overviewshort>
+   </Tutoriallabels>
+</ZT2Strings>

@@ -1,0 +1,15 @@
+<BFTypedBinder binderType="Statue" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <Statue/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData terrainFlatten="true" moveable="false"/>
+   </shared>
+</BFTypedBinder>

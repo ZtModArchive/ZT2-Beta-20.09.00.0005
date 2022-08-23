@@ -1,0 +1,5 @@
+<BFCampaign name="C1scenariolabels:S1short">
+   <entry name="C1scenariolabels:S1" short="C1scenariolabels:S1short" key="campaign1scenario1" scenario="scenario\goals\campaign1.xml" map="newcampgn1" cash="5000" difficulty="difficulty:medium" description="C1scenariogoals:S1overviewshort"/>
+   <entry name="C1scenariolabels:S3" short="C1scenariolabels:S3short" key="campaign1scenario2" scenario="scenario\goals\campaign1scenario2.xml" map="camp1scen2" cash="5000" difficulty="difficulty:medium" description="C1scenariogoals:S3overviewshort" state="locked"/>
+   <entry name="C1scenariolabels:S4" short="C1scenariolabels:S4short" key="campaign1scenario3" scenario="scenario\goals\campaign1scenario3.xml" map="camp1scen3" cash="2500" difficulty="difficulty:medium" description="C1scenariogoals:S4overviewshort" state="locked"/>
+</BFCampaign>

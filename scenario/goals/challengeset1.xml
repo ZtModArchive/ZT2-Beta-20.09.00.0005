@@ -1,0 +1,24 @@
+	<ZTScenarioMgr>
+	 <children>
+	   <BFScenarioGroup name="challengeset1" state="0" chain="false" allsuccess="true" sticky="false" optional="true">
+	     <success>
+	     	<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="checkcompletionchallengeset1" />
+	     </success>
+	     <failure>
+	     	<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="checkcompletionchallengeset1" />
+	     </failure>	     
+	     <children>
+		<BFScenarioRule hidden="1" name="bearconference" state="0" sticky="true" optional="false">
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="checkforbears" />
+			 </evaluate>
+		</BFScenarioRule>
+		<BFScenarioRule hidden="1" name="checkmoneyonhand" state="0" sticky="true" optional="false">
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge1.lua" entry="checkmoneyonhand" />
+			</evaluate>
+		</BFScenarioRule>
+	     </children>
+	   </BFScenarioGroup>
+	 </children>
+	</ZTScenarioMgr>

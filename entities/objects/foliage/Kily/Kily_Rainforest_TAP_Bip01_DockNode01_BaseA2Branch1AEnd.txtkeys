@@ -1,0 +1,4 @@
+<TEXTKEY>
+   <key time="0.0" text="Walk2Climb, ClimbThing"/>
+   <key percent="90" text="!anim 'Climb_Idle' blend .2 advance_cur_t, anim 'Climb_2Stand', anim 'Stand_2Walk', anim 'Walk_Ahead', anim 'Walk_2Stand', dis, TurnLeft180,  anim 'Stand_2Sit', anim 'Sit_Idle',  exit"/>
+</TEXTKEY>

@@ -1,0 +1,7 @@
+<Schema name="ZTRelationshipQueryData">
+	<ElementType name="ZTRelationshipQueryData">
+		<extends type="BFXMLObj"/>
+		<attribute name="relation" dt:type="string" default="" />
+		<attribute name="id" dt:type="int" default="0" />
+	</ElementType>
+</Schema>

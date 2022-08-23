@@ -1,0 +1,133 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="DefaultTask">
+      <BFAICreateData>
+         <Subjects>
+            <Staff/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore=".00002">
+         <BFAIAttributeFloatMap/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="staffactions:StaffPlaced"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateRandom minPlays="1" maxPlays="7">
+            <randomAnims>
+               <Stand_Idle weight="1"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+
+	<BFAITaskTemplate Name="StaffWander" CursorTask="false">
+	  <BFAICreateData>
+	     <Subjects>
+			<Staff/>
+	     </Subjects>
+	     <Targets>
+			<self/>
+	     </Targets>
+	     <Objects/>
+	  </BFAICreateData>
+	  <BFAIEvalData>
+	     <BFAIAttributeFloatMap work="-.5"/>
+	  </BFAIEvalData>
+	  <BFBehExecTask>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:WaitingForTask"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTThoughtInfo locID="staffthoughts:WaitingForTask" priority="1" timeout="30" global="false" />
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+		 <BFBehWander playTime="5"/>
+	  </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+	</BFAITaskTemplate>
+
+	<BFAITaskTemplate Name="StaffWaitBench" CursorTask="false" Priority="1" reserveTag="Use_Seating">
+	  <BFAICreateData>
+	     <Subjects>
+			<Staff/>
+	     </Subjects>
+	     <Targets>
+			<bench/>
+	     </Targets>
+	     <Objects/>
+	  </BFAICreateData>
+	  <BFAIEvalData>
+	     <BFAIAttributeFloatMap work="-5"/>
+	  </BFAIEvalData>
+	  <BFBehExecTask>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:WaitingForTaskBench"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTThoughtInfo locID="staffthoughts:WaitingForTaskBench" priority="1" timeout="30" global="false" />
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehDock targetAnim="Stand_Idle"/>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:WaitingForTask"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehAnimate targetAnim="SitBench_Idle"/>
+	  </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+	</BFAITaskTemplate>
+
+	<BFAITaskTemplate Name="StaffWaitStaffCenter" CursorTask="false" Priority="2" reserveTag="Use">
+	  <BFAICreateData>
+	     <Subjects>
+			<Staff/>
+	     </Subjects>
+	     <Targets>
+			<staffcenter_df/>
+	     </Targets>
+	     <Objects/>
+	  </BFAICreateData>
+	  <BFAIEvalData>
+	     <BFAIAttributeFloatMap work="-10"/>
+	  </BFAIEvalData>
+	  <BFBehExecTask>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:WaitingForTaskCenter"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTThoughtInfo locID="staffthoughts:WaitingForTaskCenter" priority="1" timeout="30" global="false" />
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+		 <BFBehEnter/>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:WaitingForTask"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehPlaySet behSet="useContainer"/>
+	  </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+	</BFAITaskTemplate>
+</BFAITaskTemplateList>

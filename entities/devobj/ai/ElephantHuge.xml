@@ -1,0 +1,76 @@
+<BFTypedBinder binderType="ElephantHuge">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <ElephantHuge/>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\devobj\ElephantHuge\ElephantHuge_Adult_M_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ElephantHuge"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData gridSnap="false" randomRotate="false"/>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFActorComponent actorfile="entities/devobj/ElephantHuge/ElephantHuge_Adult_M.kfm" scale="0.8"/>
+               <BF4LegsGroundFitComponent heightOffset="-.10" maxRollError=".2" maxPitchError=".1" maxHeightError=".5" pitchGain="2.00" heightGain="6.0" rollGain="1.0"/>
+               <BFLegFitComponent maxLegRaise="2.0" 
+               leftFrontHipJoint="Bip01 L UpperArm" leftFrontKneeJoint="Bip01 L ForeArm" leftFrontAnkleJoint="Bip01 L Hand"
+               rightFrontHipJoint="Bip01 R UpperArm" rightFrontKneeJoint="Bip01 R ForeArm" rightFrontAnkleJoint="Bip01 R Hand" 
+               leftBackHipJoint="Bip01 L Thigh" leftBackKneeJoint="Bip01 L Calf" leftBackAnkleJoint="Bip01 L Foot" 
+               rightBackHipJoint="Bip01 R Thigh" rightBackKneeJoint="Bip01 R Calf" rightBackAnkleJoint="Bip01 R Foot"
+               ankleRotVectorLeftFront="0 0 -1" ankleRotVectorRightFront="0 0 -1" ankleRotVectorRightBack="0 0 -1"
+			   ankleRotVectorLeftBack="0 0 -1" 		    
+			   
+			   hipRaiseVectorLeftFront="0 -1 0"  hipRaiseVectorRightFront="0 -1 0" hipRaiseVectorLeftBack="0 0 1" 
+			   hipRaiseVectorRightBack="0 0 1" kneeRaiseVectorLeftFront="0 0 1" kneeRaiseVectorRightFront="0 0 1"
+			   kneeRaiseVectorLeftBack="0 0 1" kneeRaiseVectorRightBack="0 0 1"
+			   
+			   legFitModeLeftFront="1" legFitModeRightFront="1"
+			   legFitModeRightBack="1" legFitModeLeftBack="1" anklePitchVector="0 1 0"
+			   
+			   maxLOD="1"
+			   />
+               <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+               <BFBoundedObjectComponent>
+                  <minPoint x="0" y="0" z="-100"/>
+                  <maxPoint x="300" y="300" z="100"/>
+               </BFBoundedObjectComponent>
+            </BFPhysObj>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFAnimationMgr/>
+         </instance>
+         <shared>
+            <BFAnimGraph filename="entities/devobj/ElephantHuge/ElephantHuge_Adult_M.xml"/>
+         </shared>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFBehaviorMgr behaviorVersion="1">
+               <subBehaviors>
+                  <BFBehAnimate interruptible="true" targetAnim="Stand_Idle" interruptFlag="true" loopFlag="true"/>
+               </subBehaviors>
+            </BFBehaviorMgr>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

@@ -1,0 +1,697 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="DefaultTask_Happy">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers f_needPointsGood="L 50"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="1" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_Happy"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_Happy_inWater">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND inWater="true" isSwimming="false" f_needPointsGood="L 50"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="1" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_Happy_inWater"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_Happy_isSwimming">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND isSwimming="true" f_needPointsGood="L 50"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="1" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_Happy_isSwimming"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_VeryHappy">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="50" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_VeryHappy"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_VeryHappy_inWater">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND inWater="true" isSwimming="false"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="50" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_VeryHappy_inWater"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_VeryHappy_isSwimming">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers isSwimming="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="50" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_VeryHappy_isSwimming"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_Unhappy">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers f_needPointsBad="L 50"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsBad="1" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_Unhappy"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_Unhappy_inWater">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND inWater="true" isSwimming="false" f_needPointsBad="L 50"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsBad="1" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_Unhappy_inWater"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_Unhappy_isSwimming">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND isSwimming="true" f_needPointsBad="L 50"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsBad="1" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_Unhappy_isSwimming"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_VeryUnhappy">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsBad="50" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_VeryUnhappy"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_VeryUnhappy_inWater">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND inWater="true" isSwimming="false"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsBad="50" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_VeryUnhappy_inWater"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DefaultTask_VeryUnhappy_isSwimming">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers isSwimming="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsBad="50" fixedScore=".0001"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Default_VeryUnhappy_isSwimming"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="LookAt" TaskDelayMin="60" TaskDelayMax="120">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects>
+            <t_SlapLookAt/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="2000"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="LookAt"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HungryLargeAnimal" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <b_LargeAnimal/>
+            <Qualifiers_AND inWater_OR_onLand="true" hunger="GE 90"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_5">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalHungryBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalHungerBad"/>
+               <ZTActionInfo locID="animalactions:LookingForFood"/>
+               <ZTThoughtInfo locID="animalthoughts:HungryAnimal" priority="1" timeout="30" global="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HungryLargeAnimalElite" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects_AND>
+            <b_LargeAnimal/>
+            <b_Elite/>
+            <Qualifiers_AND hunger="GE 90" inWater_OR_onLand="true"/>
+         </Subjects_AND>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_8">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalHungryBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalHungerBad"/>
+               <ZTActionInfo locID="animalactions:LookingForFood"/>
+               <ZTThoughtInfo locID="animalthoughts:HungryAnimal" priority="1" timeout="30" global="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HungrySmallAnimal" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <b_SmallAnimal/>
+            <Qualifiers_AND hunger="GE 90" inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_5">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalHungryBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalHungerBad" emoticonScale="0.75"/>
+               <ZTActionInfo locID="animalactions:LookingForFood"/>
+               <ZTThoughtInfo locID="animalthoughts:HungryAnimal" priority="1" timeout="30" global="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="HungrySmallAnimalElite" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects_AND>
+            <b_SmallAnimal/>
+            <b_Elite/>
+            <Qualifiers_AND hunger="GE 90" inWater_OR_onLand="true"/>
+         </Subjects_AND>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_8">
+            <ZTFeedbackData>
+              <ZTThoughtInfo locID="guestthoughts:AnimalHungryBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalHungerBad" emoticonScale="0.75"/>
+               <ZTActionInfo locID="animalactions:LookingForFood"/>
+               <ZTThoughtInfo locID="animalthoughts:HungryAnimal" priority="1" timeout="30" global="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ThirstyLargeAnimal" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <b_LargeAnimal/>
+            <Qualifiers_AND thirst="GE 90" inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_5">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalThirstyBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalThirstBad"/>
+               <ZTThoughtInfo locID="animalthoughts:ThirstyAnimal" priority="1" timeout="30" global="true"/>
+               <ZTActionInfo locID="animalactions:LookingForDrink"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ThirstyLargeAnimalElite" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects_AND>
+            <b_LargeAnimal/>
+            <b_Elite/>
+            <Qualifiers_AND thirst="GE 90" inWater_OR_onLand="true"/>
+         </Subjects_AND>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_8">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalThirstyBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalThirstBad"/>
+               <ZTThoughtInfo locID="animalthoughts:ThirstyAnimal" priority="1" timeout="30" global="true"/>
+               <ZTActionInfo locID="animalactions:LookingForDrink"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ThirstySmallAnimal" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <b_SmallAnimal/>
+            <Qualifiers_AND thirst="GE 90" inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_5">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalThirstyBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalThirstBad" emoticonScale="0.75"/>
+               <ZTThoughtInfo locID="animalthoughts:ThirstyAnimal" priority="1" timeout="30" global="true"/>
+               <ZTActionInfo locID="animalactions:LookingForDrink"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="ThirstySmallAnimalElite" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects_AND>
+            <b_SmallAnimal/>
+            <b_Elite/>
+            <Qualifiers_AND thirst="GE 90" inWater_OR_onLand="true"/>
+         </Subjects_AND>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_8">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalThirstyBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalThirstBad" emoticonScale="0.75"/>
+               <ZTThoughtInfo locID="animalthoughts:ThirstyAnimal" priority="1" timeout="30" global="true"/>
+               <ZTActionInfo locID="animalactions:LookingForDrink"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="AnimalBiomeBad" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND biome="GE 60" inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_8">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalBiomeBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteBiomebad"/>
+               <ZTThoughtInfo locID="animalthoughts:AnimalBiomeBad" priority="1" timeout="30" global="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="AnimalSpaceBad" TaskDelayMin="20" TaskDelayMax="25" Priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND space="GE 10" inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehViewEvent viewKey="Neg_8">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalSpaceBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteCrampedbad"/>
+               <ZTThoughtInfo locID="animalthoughts:AnimalSpaceBad" priority="1" timeout="30" global="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DirtySicken" TaskDelayMin="30" TaskDelayMax="30" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND hygiene="GE 90" inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Idle"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap health="5"/>   
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="DeSicken" TaskDelayMin="30" TaskDelayMax="30" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND inWater_OR_onLand="true" hygiene="L 90" hunger="L 90" thirst="L 90" biome="L 90"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="2000"/>
+      <BFBehExecTask>
+         <BFBehSetAttribute>
+            <BFAITargetData health="-5"/>
+         </BFBehSetAttribute>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="Sick" TaskDelayMin="60" TaskDelayMax="60" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers_AND health="GE 50" inWater_OR_onLand="true"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap health="-5"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Sick"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <ZTBehViewEvent viewKey="Neg_8">
+               <ZTFeedbackData>
+                  <ZTThoughtInfo locID="guestthoughts:AnimalSickBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehViewEvent>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalHealthBad"/>
+                  <ZTActionInfo locID="animalactions:Sick"/>
+                  <ZTMessageInfo locID="animalthoughts:SickAnimal" priority="-1" timeout="60" global="true" useEntityName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+         </BFBehExecTask>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="VerySick" TaskDelayMin="30" TaskDelayMax="30" Priority="100">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers health="GE 90"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="300">
+         <BFAIAttributeFloatMap health="-100"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="VerySick"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAITokenList>
+            <BFAIToken Name="t_Sick" GiveTo="animal" Payload="subject" Radius="25" Timeout="15" Chance="25" Reconsider="true"/>
+         </BFAITokenList>
+         <BFBehExecTask>
+            <ZTBehViewEvent viewKey="Neg_10">
+               <ZTFeedbackData>
+                  <ZTThoughtInfo locID="guestthoughts:AnimalVerySickBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               </ZTFeedbackData>
+            </ZTBehViewEvent>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalHealthBad"/>
+                  <ZTActionInfo locID="animalactions:VerySick"/>
+                  <ZTMessageInfo locID="animalthoughts:VerySickAnimal" priority="-1" timeout="60" global="true" useEntityName="true"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+         </BFBehExecTask>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="SickDie" TaskDelayMin="300" TaskDelayMax="300" Priority="1000">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+            <Qualifiers health="GE 99"/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap health="-100"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="Die_Sick"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="Tranquilized" Priority="900">
+      <BFAICreateData>
+         <Subjects>
+            <animal/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects>
+            <t_Tranquilized/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="1000"/>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:BeingTranquilized" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <ZTBehViewEvent viewKey="Pos_3">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalTranquilizedGood" priority="0" timeout="60" global="false" useTargetName="true"/>
+               <ZTMessageInfo locID="zoomessages:AnimalCaptured" priority="-1" timeout="60" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehScript file="scripts/CrateAnimal.lua" function="main"/>
+         <BFBehSetAttribute>
+            <BFAISubjectData b_Escaped="false"/>
+         </BFBehSetAttribute>         
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData>
+         <BFAIAttributeFloatMap/>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask> 
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

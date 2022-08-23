@@ -1,0 +1,7 @@
+<ambient loop="boreal_forest_loop">
+   <ambients>
+      <snds>
+         <snd name="b_bf_animals01"/>
+      </snds>
+   </ambients>
+</ambient>

@@ -1,0 +1,77 @@
+<UIToggleSet>
+	<UIRegion w="57" h="48" />
+	<children>
+		<UIStatic name="fullcolor">
+			<UIRegion x="0" y="0" w="57" h="48" />
+			<UIAspect alwayshit="never">
+				<default image="">
+					<BFRect x="0" y="0" w="64" h="64"/>
+				</default>
+				<standard>
+					<normal>
+						<BFRect x="3" y="5" w="57" h="48"/>
+					</normal>
+					<highlighted>
+						<BFRect x="3" y="69" w="57" h="48"/>
+					</highlighted>
+					<activated>
+						<BFRect x="67" y="5" w="57" h="48"/>
+					</activated>
+					<disabled>
+						<BFRect x="67" y="69" w="57" h="48"/>
+					</disabled>
+				</standard>
+				<alternate>
+					<normal>
+						<BFRect x="67" y="5" w="57" h="48"/>
+					</normal>
+					<highlighted>
+						<BFRect x="67" y="5" w="57" h="48"/>
+					</highlighted>
+					<activated>
+						<BFRect x="67" y="5" w="57" h="48"/>
+					</activated>
+					<disabled>
+						<BFRect x="67" y="69" w="57" h="48"/>
+					</disabled>
+				</alternate>
+			</UIAspect>
+		</UIStatic>
+		<UIStatic>
+			<UIRegion x="20" y="18" w="32" h="32" xalign="min" yalign="min" walign="len" halign="len"/>
+			<UIAspect string="" alwayshit="never">
+				<default image="ui/maingame/buttons.dds" sound="">
+					<BFColor r="255" g="255" b="255" a="255"/>
+				</default>
+				<standard>
+					<normal>
+						<BFRect x="0" y="256" w="64" h="64"/>
+					</normal>
+					<highlighted>
+						<BFRect x="0" y="320" w="64" h="64"/>
+					</highlighted>
+					<activated>
+						<BFRect x="64" y="256" w="64" h="64"/>
+					</activated>
+					<disabled>
+						<BFRect x="64" y="320" w="64" h="64"/>
+					</disabled>
+				</standard>
+				<alternate>
+					<normal>
+						<BFRect x="64" y="256" w="64" h="64"/>
+					</normal>
+					<highlighted>
+						<BFRect x="64" y="256" w="64" h="64"/>
+					</highlighted>
+					<activated>
+						<BFRect x="64" y="256" w="64" h="64"/>
+					</activated>
+					<disabled>
+						<BFRect x="64" y="320" w="64" h="64"/>
+					</disabled>
+				</alternate>
+			</UIAspect>
+		</UIStatic>
+	</children>
+</UIToggleSet>

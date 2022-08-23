@@ -1,0 +1,113 @@
+<BFTypedBinder binderType="LookoutPost">
+   <types>
+      <entity>
+         <enrichment>
+            <stationary_enrichment>
+               <LookoutPost/>
+            </stationary_enrichment>
+         </enrichment>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\enrichment\LookoutPost\LookoutPost_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:LookoutPost"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="LookoutPost"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\enrichment\LookoutPost\LookoutPost_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="LookoutPost"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData randomRotate="false" gridSnap="true" autoFootprint="true" terrainFlatten="true" dockArrowStyle="special" dockArrowSize="1.0" icon3Doffset="0 -0.124622 0.250391" icon3Dscale="0.352383"/>
+      <BFAIEntityDataShared b_RubObject_Large="true" s_Zoopedia="zoopedia:zoopedia_lookoutpost:entry" f_researchUnlockTime="135" f_researchCost="1950"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\square_blob.tga" baseNode="footprint" width="5" minLength="5" maxLength="12" minOffset="0" maxOffset="2"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/enrichment/LookoutPost/LookoutPost.nif" scale="1.0" switch="0 36" miinSwitch="0 36"/>
+               <BFTravAnimPathComponent actorfile="entities/objects/enrichment/LookoutPost/LookoutPost_TAP.bfm"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="1300">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal_upkeep"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="General">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot targetNode="Dock_Rub_01"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Rub_02"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Rub_03"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Rub_04"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterLookOutPost" useBehSet="UseLookOutPost" exitBehSet="ExitLookOutPost" targetNode="DockNode01_BaseA2Branch1AEnd"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP_Perch">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterPerch1" useBehSet="Perch" exitBehSet="ExitPerch1" targetNode="Peafowl_EnterA" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP_Perch_Rest">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterPerch1" useBehSet="Sleep" exitBehSet="ExitPerch1" targetNode="Peafowl_EnterA" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP_Perch_Groom">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterPerch1" useBehSet="Perch_Groom" exitBehSet="ExitPerch1" targetNode="Peafowl_EnterA" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

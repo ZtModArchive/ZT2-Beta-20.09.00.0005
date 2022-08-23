@@ -1,0 +1,12 @@
+<BFParticleDictionary>
+   <SuperStaffPourWater>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\particles\user_actions\Pour_water.xml" removeTime="6.0"/>
+      </Conditions>
+   </SuperStaffPourWater>
+   <SuperStaffRake>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\particles\user_actions\Rake.xml" removeTime="4.0"/>
+      </Conditions>
+   </SuperStaffRake>
+</BFParticleDictionary>

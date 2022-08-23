@@ -1,0 +1,7 @@
+<Schema name="BFGFloatAttribute">
+	<ElementType name="BFGFloatAttribute">
+		<extends type="BFXMLObj"/>
+		<attribute name="name" dt:type="string" required="yes"/>
+		<attribute name="value" dt:type="float" required="yes"/>
+	</ElementType>
+</Schema>

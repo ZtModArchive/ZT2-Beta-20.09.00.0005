@@ -1,0 +1,15 @@
+<entries>
+   <BFHelpEntry order="zoopedia_rocks:entry" entry="zoopedia_rocks:entry" text="zoopedia_rocks:text" page2="zoopedia_rocks:page2"/>
+   <BFHelpEntry order="zoopedia_savannahrocks:entry" entry="zoopedia_savannahrocks:entry" text="zoopedia_savannahrocks:text" page2="zoopedia_savannahrocks:page2"/>
+   <BFHelpEntry order="zoopedia_rainforestrocks:entry" entry="zoopedia_rainforestrocks:entry" text="zoopedia_rainforestrocks:text" page2="zoopedia_rainforestrocks:page2"/>
+   <BFHelpEntry order="zoopedia_borealrocks:entry" entry="zoopedia_borealrocks:entry" text="zoopedia_borealrocks:text" page2="zoopedia_borealrocks:page2"/>
+   <BFHelpEntry order="zoopedia_alpinerocks:entry" entry="zoopedia_alpinerocks:entry" text="zoopedia_alpinerocks:text" page2="zoopedia_alpinerocks:page2"/>
+   <BFHelpEntry order="zoopedia_scrubrocks:entry" entry="zoopedia_scrubrocks:entry" text="zoopedia_scrubrocks:text" page2="zoopedia_scrubrocks:page2"/>
+   <BFHelpEntry order="zoopedia_desertrocks:entry" entry="zoopedia_desertrocks:entry" text="zoopedia_desertrocks:text" page2="zoopedia_desertrocks:page2"/>
+   <BFHelpEntry order="zoopedia_wetlandrocks:entry" entry="zoopedia_wetlandrocks:entry" text="zoopedia_wetlandrocks:text" page2="zoopedia_wetlandrocks:page2"/>
+   <BFHelpEntry order="zoopedia_tundrarocks:entry" entry="zoopedia_tundrarocks:entry" text="zoopedia_tundrarocks:text" page2="zoopedia_tundrarocks:page2"/>
+   <BFHelpEntry order="zoopedia_grasslandrocks:entry" entry="zoopedia_grasslandrocks:entry" text="zoopedia_grasslandrocks:text" page2="zoopedia_grasslandrocks:page2"/>
+   <BFHelpEntry order="zoopedia_temperaterocks:entry" entry="zoopedia_temperaterocks:entry" text="zoopedia_temperaterocks:text" page2="zoopedia_temperaterocks:page2"/>
+    
+     
+</entries>

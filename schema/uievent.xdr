@@ -1,0 +1,7 @@
+<Schema name="UIEvent">
+	<ElementType name="UIEvent">
+		<extends type="BFXMLObj"/>
+		<attribute name="msg" dt:type="string" />
+		<attribute name="data" dt:type="string" />
+	</ElementType>
+</Schema>

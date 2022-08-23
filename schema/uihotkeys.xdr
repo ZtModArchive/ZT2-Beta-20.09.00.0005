@@ -1,0 +1,15 @@
+<Schema name="UIHotKeys">
+	<ElementType name="keybinding">
+		<extends type="BFXMLObj"/>
+		<attribute name="code" dt:type="int" />
+		<attribute name="key" dt:type="char" />
+		<element type="UIEvent" />
+	</ElementType>
+	<ElementType name="UIHotKeys" order="many">
+		<extends type="BFXMLObj"/>
+		<attribute name="locid" dt:type="string" default="" />
+		<element type="keybinding" name="down" />
+		<element type="keybinding" name="up" />
+		<element type="keybinding" name="char" />
+	</ElementType>
+</Schema>

@@ -1,0 +1,20 @@
+<BFScenarioGroup name="randomanimalchance2rules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="randomanimalchance2" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHRandomAnimalChance2Short" overview="Challengetext:CHRandomAnimalChance2" />
+				<success locid="Challengetext:CHRandomAnimalChance2SuccessShort" overview="Challengetext:CHRandomAnimalChance2Success" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/randomanimalchance2.lua" entry="evalrandomanimalchance2" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/randomanimalchance2.lua" entry="completerandomanimalchance2" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/randomanimalchance2.lua" entry="failrandomanimalchance2" />
+			</failure>
+			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

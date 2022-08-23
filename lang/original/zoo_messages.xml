@@ -1,0 +1,37 @@
+<ZT2Strings>
+   <zoomessages>
+<!--Global Zoo Messages-->
+      <GuestsHungry>Guests are starving!</GuestsHungry>
+      <GuestsThirsty>Guests are thirsty!</GuestsThirsty>
+      <GuestsBathroom>Your zoo needs more bathrooms!</GuestsBathroom>
+      <GuestsTired>Guests are tired in your zoo. They needs more places to rest.</GuestsTired>
+      <GuestsNeedDessert>Guests need some desserts to go with their meals!</GuestsNeedDessert>
+      <GuestAmusementBad>You should place some buildings that will amuse your guests.</GuestAmusementBad>
+      <GuestsEntertained>Guests are having a good time in your zoo!</GuestsEntertained>
+      <GuestsAmused>Guests like your zoo.</GuestsAmused>
+      <GuestsBored>Guests think your zoo is boring.</GuestsBored>
+      <GuestsDisturbed>Guests are disturbed.  Very disturbed.</GuestsDisturbed>
+      <GuestsTrashGround>Guests are upset at the lack of trash cans.</GuestsTrashGround>
+      <GuestsTrashFull>Guests can't find a trash can that isn't overflowing!</GuestsTrashFull>
+      <GuestsStandingEat>Guests are complaining because there is no place to sit and eat!</GuestsStandingEat>
+      <AnimalsHungry>There are lots of hungry animals in the zoo!</AnimalsHungry>
+      <AnimalsThirsty>There are lots of thirsty animals in the zoo!</AnimalsThirsty>
+      <EscapedAnimal>%s has escaped from its exhibit!</EscapedAnimal>
+      <SickAnimal>%s is sick.</SickAnimal>
+      <VerySickAnimal>%s is very sick!</VerySickAnimal>
+      <PregnantAnimal>%s is now pregnant.</PregnantAnimal>
+      <AnimalBirth>%s has given birth.</AnimalBirth>
+      <AnimalDied>%s has died of old age.</AnimalDied>
+      <AnimalDrowning>%s is in the water and can't swim!</AnimalDrowning>
+      <GuestsCantFindATM>Guests are out of money and can't find an ATM machine!</GuestsCantFindATM>
+      <GuestsCantFindDonationBox>You don't have enough donation boxes!</GuestsCantFindDonationBox>
+      <GuestAttacked>A guest was attacked by an escaped animal!</GuestAttacked>
+      <AnimalAttacked>%s was attacked and killed!</AnimalAttacked>
+      <AnimalBiomeBad>Animals are in hostile habitats!</AnimalBiomeBad>
+      <AnimalSpaceBad>Animals don't have enough space!</AnimalSpaceBad>      
+      <AnimalCaptured>%s has been captured.</AnimalCaptured>      
+      <AnimalLayEgg>%s has laid an egg.</AnimalLayEgg>
+      <AnimalHatchEgg>%s has just hatched.</AnimalHatchEgg>
+      <StaffFailure>%1s can't reach %2s.</StaffFailure>
+   </zoomessages>
+</ZT2Strings>

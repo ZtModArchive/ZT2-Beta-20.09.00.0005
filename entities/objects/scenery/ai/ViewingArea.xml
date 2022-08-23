@@ -1,0 +1,34 @@
+<BFTypedBinder binderType="ViewingArea" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <ViewingArea/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 -0.015234 0.376781" icon3Dscale="0.284080" />
+      <BFAIEntityDataShared b_ViewingArea="true" f_ViewPriority="1" p_Dock_01="-1.5 -0.5 0" p_Dock_02="-0.5 -0.5 0" p_Dock_03="0.5 -0.5 0" p_Dock_04="1.5 -0.5 0" p_Dock_05="-1.5 0.5 0" p_Dock_06="-0.5 0.5 0" p_Dock_07="0.5 0.5 0" p_Dock_08="1.5 0.5 0"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="Use_View">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot targetNode="p_Dock_01" capacity="1"/>
+                  <BFGEntityContainerSlot targetNode="p_Dock_02" capacity="1"/>
+                  <BFGEntityContainerSlot targetNode="p_Dock_03" capacity="1"/>
+                  <BFGEntityContainerSlot targetNode="p_Dock_04" capacity="1"/>
+                  <BFGEntityContainerSlot targetNode="p_Dock_05" capacity="1"/>
+                  <BFGEntityContainerSlot targetNode="p_Dock_06" capacity="1"/>
+                  <BFGEntityContainerSlot targetNode="p_Dock_07" capacity="1"/>
+                  <BFGEntityContainerSlot targetNode="p_Dock_08" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

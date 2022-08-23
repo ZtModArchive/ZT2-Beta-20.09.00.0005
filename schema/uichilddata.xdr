@@ -1,0 +1,10 @@
+<Schema name="UIChildData">
+	<ElementType name="UIChildData">
+		<extends type="BFXMLObj"/>
+		<AttributeType name="event">
+			<datatype dt:type="bin.hex" bf:pointer="BFEvent"/>
+		</AttributeType>
+		<attribute name="name" dt:type="string"/>
+		<attribute type="event"/>
+	</ElementType>
+</Schema>

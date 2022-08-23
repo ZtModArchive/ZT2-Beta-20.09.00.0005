@@ -1,0 +1,70 @@
+<UISlider templateName="pricespinner" min="0" max="500" inc="0.5" value="20">
+   <UIRegion x="0" y="0" w="250" h="88"/>
+   <UIHotKeys>
+      <down code="38" msg="UI_SCROLL" data="BFPoint" x="+1"/>
+      <down code="40" msg="UI_SCROLL" data="BFPoint" x="-1"/>
+   </UIHotKeys>
+   <children>
+      <UIText name="number">
+         <UIRegion x="112" y="8" w="70" h="20"/>
+         <UIAspect>
+            <default/>
+         </UIAspect>
+      </UIText>
+      <UIPushButton name="slideup" interval="0.5">
+         <UIRegion x="70" y="0" w="37" h="22"/>
+         <UIHelpInfo name="" short="" long="" help="" ids="zoostatus:info_price_up_button"/>
+         <UIAspect>
+            <default image="ui/shared/button_spinners.tga">
+               <BFRect x="0" y="0" w="37" h="22"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+            <standard>
+               <normal>
+                  <BFRect x="0" y="0" w="37" h="22"/>
+               </normal>
+               <highlighted>
+                  <BFRect x="0" y="22" w="37" h="22"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="37" y="0" w="37" h="22"/>
+               </activated>
+               <disabled>
+                  <BFRect x="37" y="22" w="37" h="22"/>
+               </disabled>
+            </standard>
+         </UIAspect>
+         <activate>
+            <event msg="UI_SCROLL" data="BFPoint" x="+1"/>
+         </activate>
+      </UIPushButton>
+      <UIPushButton name="slidedown" interval="0.5">
+         <UIRegion x="70" y="20" w="37" h="22"/>
+         <UIHelpInfo name="" short="" long="" help="" ids="zoostatus:info_price_down_button"/>
+         <UIAspect>
+            <default image="ui/shared/button_spinners.tga">
+               <BFRect x="0" y="0" w="37" h="22"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+            <standard>
+               <normal>
+                  <BFRect x="0" y="44" w="37" h="22"/>
+               </normal>
+               <highlighted>
+                  <BFRect x="0" y="66" w="37" h="22"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="37" y="44" w="37" h="22"/>
+               </activated>
+               <disabled>
+                  <BFRect x="37" y="66" w="37" h="22"/>
+               </disabled>
+            </standard>
+         </UIAspect>
+         <activate>
+            <event msg="UI_SCROLL" data="BFPoint" x="-1"/>
+         </activate>
+      </UIPushButton>
+   </children>
+   <field name="number" type="float" fmt="%.2f"/>
+</UISlider>

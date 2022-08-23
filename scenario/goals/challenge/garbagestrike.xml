@@ -1,0 +1,17 @@
+<BFScenarioGroup name="garbagestrikerules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="garbagestrike" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHGarbageStrikeShort" overview="Challengetext:CHGarbageStrike" />
+				<success locid="Challengetext:CHGarbageStrikeSuccessShort" overview="Challengetext:CHGarbageStrikeSuccess" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/garbagestrike.lua" entry="evalgarbagestrike" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/garbagestrike.lua" entry="completegarbagestrike" />
+			</success>
+			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

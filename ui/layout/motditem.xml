@@ -1,0 +1,26 @@
+<UILayout>
+	<UIRegion x="0" y="0" w="1024" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+	<UIState active="normal" visible="normal"/>
+	<children>
+		<UIText name="MOTDIcon">
+			<UIRegion x="0" y="0" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+			<UIState active="normal" visible="normal"/>
+			<text format="mainmenu:motdtext"/>
+		</UIText>
+		<UIStatic name="MOTDBar">
+			<UIRegion x="64" y="17" w="932" h="43" xalign="min" yalign="min" walign="len" halign="len"/>
+			<UIState active="normal" visible="normal"/>
+			<UIAspect>
+				<default image="ui/motd/motd_bar.dds">
+					<BFRect x="0" y="0" w="932" h="43"/>
+					<BFColor r="255" g="255" b="255" a="255"/>
+				</default>
+			</UIAspect>
+		</UIStatic>
+		<UIText name="MOTDText">
+			<UIRegion x="80" y="26" w="900" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+			<UIState active="normal" visible="normal"/>
+			<text format="mainmenu:motdtext"/>
+		</UIText>
+	</children>
+</UILayout>		

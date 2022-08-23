@@ -1,0 +1,8 @@
+<TEXTKEY>
+   <key frame="5" text="{Bip01 R Hand} snd 'pawground' terrain"/>
+   <key frame="5" text="{Bip01 R Hand} runps Biomefx"/>
+   <key frame="34" text="{Bip01 R Hand} snd 'pawground' terrain"/>
+   <key frame="34" text="{Bip01 R Hand} runps Biomefx"/>
+   <key frame="61" text="{Bip01 R Hand} snd 'pawground' terrain"/>
+   <key frame="61" text="{Bip01 R Hand} runps Biomefx"/>
+</TEXTKEY>

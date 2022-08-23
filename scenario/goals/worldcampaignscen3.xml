@@ -1,0 +1,100 @@
+<ZTScenarioMgr interval="2" name="mgr" state="0" chain="true" allsuccess="true" sticky="true" optional="false">
+	<info locid="TheWorld:AfricanAnimalsintro"/>
+	<children>
+		<BFScenarioRule hidden="1" name="setinitialzoostatescen3" state="0" sticky="true">
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/worldcampaign.lua" entry="setinitialzoostatescen3" />
+			</evaluate>
+		</BFScenarioRule>
+		<BFScenarioGroup name="africananimals" state="0" chain="false" allsuccess="true" sticky="true">
+			<info type="primary">
+				<neutral overview="TheWorld:AfricanAnimalsoverview" />
+				<success locid="TheWorld:AfricanAnimalsresult" overview = "AfricanAnimalsSuccessoverview"/>
+			</info>	
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/worldcampaign.lua" entry="completeworldcampaignscen3" />
+			</success>			
+			<children>
+				<BFScenarioRule name="africananimalsoverall" state="0" sticky="true">
+					<info type="primary" locid="TheWorld:AfricanAnimalsoverallgoal">
+						<neutral locid="TheWorld:AfricanAnimalsoverallgoal" />
+						<success locid="TheWorld:AfricanAnimalsoverallgoalOK" />
+					</info>
+					<evaluate>
+						<BFScenarioScriptAction script="scenario/scripts/worldcampaign.lua" entry="evalafricananimalsoverall" />
+					</evaluate>
+					<success>
+						<BFScenarioScriptAction script="scenario/scripts/worldcampaign.lua" entry="completeafricananimalsoverall" />
+					</success>
+				</BFScenarioRule>
+			</children>
+		</BFScenarioGroup>
+		
+				<!--BFScenarioRule name="animalone" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave1" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animaltwo" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave2" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animalthree" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave3" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animalfour" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave4" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animalfive" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave5" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animalsix" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave6" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animalseven" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave7" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animaleight" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave8" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animalnine" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave9" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animalten" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave10" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animaleleven" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave11" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="animaltwelve" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalshave1">
+						<neutral locid="TheWorld:AfricanAnimalshave12" />
+					</info>
+				</BFScenarioRule>
+				<BFScenarioRule name="getridofothers" hidden = "1" state="0" sticky="false">
+					<info type="primary" locid="TheWorld:AfricanAnimalsgetridofothers">
+						<neutral locid="TheWorld:AfricanAnimalsgetridofothers" />
+					</info>
+				</BFScenarioRule-->				
+				
+	</children>
+</ZTScenarioMgr>

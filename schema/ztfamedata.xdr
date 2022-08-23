@@ -1,0 +1,13 @@
+<Schema name="ZTFameData">
+	<ElementType name="ZTFameData">
+		<extends type="BFXMLObj"/>
+		<AttributeType name="halfstars">
+			<datatype dt:type="int" dt:min="0" dt:max="10" />
+		</AttributeType>
+		<AttributeType name="zoofame">
+			<datatype dt:type="float" dt:min="0.0" dt:max="100.0" />
+		</AttributeType>
+		<attribute type="halfstars" required="no" default="0" />
+		<attribute type="zoofame" required="yes" />
+	</ElementType>
+</Schema>

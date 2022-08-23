@@ -1,0 +1,29 @@
+<UIToggleButton name="MessageEntryBad" sticky="0">
+   <UIRegion x="0" w="350" h="16"/>
+   <UIAspect alwayshit="true">
+      <default>
+         <BFFont>
+            <BFColor r="255" g="0" b="0" a="255"/>
+         </BFFont>
+      </default>
+      <standard>
+         <normal>
+            <BFFont>
+               <BFColor r="255" g="100" b="100" a="255"/>
+            </BFFont>
+         </normal>
+         <highlighted image="">
+            <BFFont>
+               <BFColor r="255" g="25" b="25" a="255"/>
+            </BFFont>
+         </highlighted>
+         <activated image="">
+            <BFFont>
+               <BFColor r="255" g="0" b="0" a="255"/>
+            </BFFont>
+         </activated>
+         <disabled/>
+      </standard>
+   </UIAspect>
+   <text format="messages:normal_format"/>
+</UIToggleButton>

@@ -1,0 +1,36 @@
+<BFTypedBinder binderType="Stick">
+   <types>
+      <entity>
+         <item>
+            <Stick/>
+         </item>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <BFGDetachInfo>
+         <detachActionTable>
+            <dropitem destination="kill"/>
+            <killitem destination="kill"/>
+            <inventory destination="inventory"/>
+         </detachActionTable>
+      </BFGDetachInfo>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="UI/infopan/icon_Stick.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:Stick"/>
+      </UIToggleButton>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/enrichment/Sticks/StickProp.nif" scale="1.0" switch="0 18"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

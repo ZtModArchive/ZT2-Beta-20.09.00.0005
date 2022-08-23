@@ -1,0 +1,8 @@
+<crowd
+		kQuietCrowdHighTrigger="10" 
+		kSmallCrowdLowTrigger="15" kSmallCrowdHighTrigger="50" 
+		kMediumCrowdLowTrigger="60" kMediumCrowdHighTrigger="100" 
+		kLargeCrowdLowTrigger="110" kLargeCrowdHighTrigger="160"
+		kHugeCrowdLowTrigger="170"
+		crowdSounds="crowd_quiet crowd_small crowd_medium crowd_large crowd_huge">
+</crowd>

@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key time="0.0" text="as 100 1, Ground2Perch"/>
+   <key percent="95" text="!anim 'Perch_Idle' blend 0.5 advance_cur_t, dis, exit"/>
+</TEXTKEY>
+ 

@@ -1,0 +1,7 @@
+<Schema name="ZTAdmissionData">
+	<ElementType name="ZTAdmissionData">
+		<extends type="BFXMLObj"/>
+		<attribute name="admissiontype" dt:type="string" default="" />
+		<attribute name="admissionprice" dt:type="float" default="0.0" />
+	</ElementType>
+</Schema>

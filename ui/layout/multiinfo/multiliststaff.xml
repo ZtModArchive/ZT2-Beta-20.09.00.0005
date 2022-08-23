@@ -1,0 +1,69 @@
+<UIListBox name="Mulit List Entry" columns="-1">
+   <UIRegion x="0" y="0" w="0" h="32" xalign="min" yalign="min" walign="max" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default image="ui/shared/white1x1.tga"/>
+   </UIAspect>
+   <children>
+      <UIButton name="icon">
+         <UIRegion x="0" y="0" w="32" h="32" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect alwayshit="region">
+            <default/>
+            <standard>
+               <normal>
+                  <BFRect x="3" y="5" w="57" h="48"/>
+               </normal>
+               <highlighted>
+                  <BFRect x="3" y="69" w="57" h="48"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="67" y="5" w="57" h="48"/>
+               </activated>
+               <disabled>
+                  <BFRect x="67" y="69" w="57" h="48"/>
+               </disabled>
+            </standard>
+            <alternate>
+               <normal>
+                  <BFRect x="67" y="5" w="57" h="48"/>
+               </normal>
+               <highlighted>
+                  <BFRect x="67" y="5" w="57" h="48"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="67" y="5" w="57" h="48"/>
+               </activated>
+               <disabled>
+                  <BFRect x="67" y="69" w="57" h="48"/>
+               </disabled>
+            </alternate>
+         </UIAspect>
+         <doubleclick>
+            <event msg="UI_CHILD" data="UIChildData" name="multilist layout">
+               <child msg="UI_HIDE"/>
+            </event>
+         </doubleclick>
+      </UIButton>
+      <UIText name="name" autosize="true">
+         <UIRegion x="0" y="0" w="92" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect alwayshit="region">
+            <default>
+               <BFFont x="0" y="0"/>
+            </default>
+         </UIAspect>
+         <text format="entityname:format" type="multi"/>
+      </UIText>
+      <UIText name="Task Label" autosize="true">
+         <UIRegion x="0" y="0" w="70" h="0" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect alwayshit="region">
+            <default>
+               <BFFont x="0" y="0"/>
+            </default>
+         </UIAspect>
+         <text format="entityname:format" type="multi"/>
+      </UIText>
+   </children>
+</UIListBox>

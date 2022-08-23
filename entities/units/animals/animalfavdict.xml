@@ -1,0 +1,107 @@
+<BFParticleDictionary>
+   <BearGrizzlyEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\BearGrizzly\BearGrizzlyEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </BearGrizzlyEmote>
+   <BearPolarEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\BearPolar\BearPolarEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </BearPolarEmote>
+   <CamelDromedaryEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\CamelDromedary\CamelDromedaryEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </CamelDromedaryEmote>
+   <ChimpanzeeEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\Chimpanzee\ChimpanzeeEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </ChimpanzeeEmote>
+   <ElephantAfricanEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\ElephantAfrican\ElephantAfricanEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </ElephantAfricanEmote>
+   <FlamingoGreaterEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\FlamingoGreater\FlamingoGreaterEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </FlamingoGreaterEmote>
+   <GemsbokEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\Gemsbok\GemsbokEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </GemsbokEmote>
+   <GiraffeEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\Giraffe\GiraffeEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </GiraffeEmote>
+   <GorillaMountainEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\GorillaMountain\GorillaMountainEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </GorillaMountainEmote>
+   <HippopotamusEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\Hippopotamus\HippopotamusEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </HippopotamusEmote>
+   <JaguarEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\Jaguar\JaguarEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </JaguarEmote>
+   <KangarooRedEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\KangarooRed\KangarooRedEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </KangarooRedEmote>
+   <LemurRingtailedEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\LemurRingtailed\LemurRingtailedEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </LemurRingtailedEmote>
+   <LeopardSnowEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\LeopardSnow\LeopardSnowEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </LeopardSnowEmote>
+   <LionEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\Lion\LionEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </LionEmote>
+   <MooseEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\Moose\MooseEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </MooseEmote>
+   <PandaGiantEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\PandaGiant\PandaGiantEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </PandaGiantEmote>
+   <PenguinEmperorEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\PenguinEmperor\PenguinEmperorEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </PenguinEmperorEmote>
+   <RhinocerosBlackEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\RhinocerosBlack\RhinocerosBlackEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </RhinocerosBlackEmote>
+   <TigerBengalEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\TigerBengal\TigerBengalEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </TigerBengalEmote>
+   <ZebraEmote>
+      <Conditions>
+         <BFParticleDefinition xmlFile="entities\units\animals\Zebra\ZebraEmote.xml" removeTime="10.0"/>
+      </Conditions>
+   </ZebraEmote>
+</BFParticleDictionary>

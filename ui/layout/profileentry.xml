@@ -1,0 +1,41 @@
+<UIToggleButton name="ProfileEntry" sticky="1">
+   <UIRegion x="15" w="0" h="20" walign="max"/>
+   <UIAspect alwayshit="true">
+      <default>
+         <BFFont>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </BFFont>
+      </default>
+      <standard>
+         <normal>
+            <BFFont>
+               <BFColor r="255" g="205" b="57" a="255"/>
+            </BFFont>
+         </normal>
+         <highlighted>
+            <BFFont>
+               <BFColor r="255" g="255" b="201" a="255"/>
+            </BFFont>
+         </highlighted>
+         <activated>
+            <BFFont>
+               <BFColor r="255" g="255" b="0" a="255"/>
+            </BFFont>
+         </activated>
+         <disabled>
+            <BFFont>
+               <BFColor r="200" g="200" b="200" a="255"/>
+            </BFFont>
+         </disabled>
+      </standard>
+   </UIAspect>
+   <text format="mainmenu:profile_name"/>
+   <on>
+      <event msg="UI_SELF">
+         <child msg="UI_COPY_TEXT" data="BFString" string="deleteprofile"/>
+      </event>
+      <event msg="UI_SELF">
+         <child msg="UI_COPY_TEXT" data="BFString" string="Profile_Display"/>
+      </event>
+   </on>
+</UIToggleButton>

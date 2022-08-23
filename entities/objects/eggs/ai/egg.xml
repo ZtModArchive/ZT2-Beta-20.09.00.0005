@@ -1,0 +1,74 @@
+<BFTypedBinder binderType="egg">
+   <types>
+      <entity>
+          <egg/>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared b_ReceiveUpdates="true">
+         <BFAINeedAdjusts incubation="1"/>
+      </BFAIEntityDataShared>
+      <ZTPlacementData selectable="true" deletable="false" gridSnap="false" randomRotate="false" displayFootprint="false">
+         <stompData>
+            <allow>
+               <wildflowers/>
+               <grass/>
+               <fungi/>
+               <bush/>
+               <thicket/>
+            </allow>
+            <prevent>
+               <log/>
+               <flowerbed/>
+            </prevent>
+         </stompData>
+      </ZTPlacementData>
+      <BFGCollisionData isPassable="true"/>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFBehaviorMgr behaviorVersion="1">
+               <subBehaviors>
+                  <BFBehAnimate interruptible="true" targetAnim="Stand_Idle" interruptFlag="true" loopFlag="true"/>
+               </subBehaviors>
+            </BFBehaviorMgr>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFAICognitiveMgr>
+               <Sensors>
+                  <ZTAISensor/>
+                  <BFAISensorSelf/>
+               </Sensors>
+               <StateThinkers>
+                  <ZTAIStateThinker>
+                     <BFAIStateVar Name="incubation" Value="" ValueMin="0" ValueMax="0" CessationThreshold="0" TriggerThreshold="0" CriticalThreshold="90" Advanced="true"/>
+                  </ZTAIStateThinker>
+               </StateThinkers>
+               <TaskThinkers>
+                  <ZTAITaskThinker/>
+               </TaskThinkers>
+            </BFAICognitiveMgr>
+         </instance>
+         <shared>
+            <BFAICogShared>
+               <BFAINoPerceive>
+                  <fence/>
+                  <path/>
+                  <entrance/>
+               </BFAINoPerceive>
+            </BFAICogShared>
+         </shared>
+      </BFBinder>
+      <BFBinder repopulateMethod="byType">
+         <instance>
+            <BFAIRelationshipMgr/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

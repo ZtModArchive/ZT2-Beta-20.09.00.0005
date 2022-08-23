@@ -1,0 +1,48 @@
+<ZT2Strings>
+      <LOC_STRING _locID="Pandas:Pandasintro">The Mysterious Panda</LOC_STRING>
+      <LOC_STRING _locID="Pandas:Pandasoverview">
+	One of the most recognizable animals in the world, the Giant Panda is also one of the most endangered. Only 
+	zoos with exceptional reputations are even considered as recipients for Giant Panda adoptions. 
+	<p/>
+	Due to a low reproductive rate, attempts to breed Giant Pandas in captivity often meet with 
+	failure. Facilities that undertake efforts to aid in the conservation of the Giant Panda are highly 
+	valued and often rely heavily on donations and grants.
+	<p/>
+	Create a zoo and build it to the 5-star level. If you can obtain one male Giant Panda for your zoo, you will then receive a female Panda as well as international assistance towards establishing a supportive breeding 
+	environment. Play your cards right to breed two Giant Pandas and your zoo will go down in 
+	history as one of the few that has successfully bred Giant Pandas in captivity.
+      </LOC_STRING>
+      <LOC_STRING _locID="Pandas:Pandasoverviewshort">
+        One of the most recognizable animals in the world, the Giant Panda is also one of the most endangered. Only 
+	zoos with exceptional reputations are even considered as recipients for Giant Panda adoptions. Will yours be one?
+      </LOC_STRING>
+      <LOC_STRING _locID="Pandas:PandasSuccessPart1overview">
+	Your exemplary Giant Panda exhibit has come to the attention of a prominent zoo in Asia. They 
+	would like to send their female Giant Panda Aki Aiko to your facility on a breeding mission. Add Aki 
+	to your panda exhibit and cater to her advanced needs in the hope that she will successfully give birth 
+	to a baby panda. 
+      </LOC_STRING>
+      <LOC_STRING _locID="Pandas:PandasSuccessPart2overview">
+	You have successfully bred Aki with your panda and have provided excellent care for Aki and her 
+	baby. Aki is being returned to her zoo and they have expressed some interest in perhaps returning 
+	her to your facility when her breeding cycle is again optimal. In recognition of your achievement 
+	and as a sign of their appreciation for your efforts, you have been presented with a Panda Statue.
+      </LOC_STRING>
+      <LOC_STRING _locID="Pandas:Pandasresult">A Panda baby is born!</LOC_STRING>
+      <LOC_STRING _locID="Pandas:PandasAdoptPanda">
+      	Build your zoo to the 5-star level and adopt one male Giant Panda.
+      </LOC_STRING>
+      <LOC_STRING _locID="Pandas:PandasAdoptPandaOK">
+      	You have adopted a Giant Panda!
+      </LOC_STRING>
+      <LOC_STRING _locID="Pandas:PandasBreeding">
+      	Meet the advanced needs of your two Giant Pandas and successfully breed them.
+      </LOC_STRING>
+      <LOC_STRING _locID="Pandas:PandasBreedingOK">
+      	Congratulations! You are one of the few facilities that has bred the Giant Panda in captivity.
+      </LOC_STRING>
+      <LOC_STRING _locID="PandasLabels:Pandasshort">The Mysterious Panda</LOC_STRING>
+      <LOC_STRING _locID="PandasLabels:PandasS1">The Mysterious Panda</LOC_STRING>
+      <LOC_STRING _locID="PandasLabels:PandasS1short">The Mysterious Panda</LOC_STRING>   
+   
+</ZT2Strings>

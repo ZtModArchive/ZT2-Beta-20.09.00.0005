@@ -1,0 +1,11 @@
+<UIStatic name="icon item">
+	<UIRegion x="0" y="0" w="40" h="40" xalign="min" yalign="min" walign="len" halign="len"/>
+	<UIState active="normal" visible="normal"/>
+	<UIHelpInfo name="" short="" long="" help="" ids=""/>
+	<UIAspect>
+		<default image="" sound="">
+			<BFRect x="0" y="0" w="-1" h="-1"/>
+		</default>
+		<standard><normal/></standard>
+	</UIAspect>
+</UIStatic>

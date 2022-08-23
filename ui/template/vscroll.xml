@@ -1,0 +1,66 @@
+<UISlider templateName="vscroll" name="vscroll" min="0" max="100" inc="3" value="0" span="100">
+   <UIRegion x="-21" y="0" w="0" h="0" xalign="max" yalign="min" walign="max" halign="max"/>
+   <UIAspect>
+      <default image="ui/shared/slidevert.tga">
+         <BFRect x="11" y="0" w="21" h="361"/>
+      </default>
+   </UIAspect>
+   <UIHotKeys>
+      <down code="38" msg="UI_SCROLL" data="BFPoint" y="-1"/>
+      <down code="40" msg="UI_SCROLL" data="BFPoint" y="+1"/>
+   </UIHotKeys>
+   <children>
+      <UIPushButton name="slideup">
+         <UIRegion w="100" h="21" walign="% min"/>
+         <UIAspect>
+            <default image="ui/shared/slidevert.tga">
+               <BFRect x="5" y="362" w="21" h="21"/>
+            </default>
+            <standard>
+               <highlighted>
+                  <BFRect x="5" y="406" w="21" h="21"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="5" y="450" w="21" h="21"/>
+               </activated>
+            </standard>
+         </UIAspect>
+         <activate>
+            <event msg="UI_SCROLL" data="BFPoint" y="-1"/>
+         </activate>
+      </UIPushButton>
+      <UIPushButton name="slidedown">
+         <UIRegion y="-21" w="100" h="0" yalign="max" walign="% min" halign="max"/>
+         <UIAspect>
+            <default image="ui/shared/slidevert.tga">
+               <BFRect x="5" y="384" w="21" h="21"/>
+            </default>
+            <standard>
+               <highlighted>
+                  <BFRect x="5" y="428" w="21" h="21"/>
+               </highlighted>
+               <activated>
+                  <BFRect x="5" y="472" w="21" h="21"/>
+               </activated>
+            </standard>
+         </UIAspect>
+         <activate>
+            <event msg="UI_SCROLL" data="BFPoint" y="+1"/>
+         </activate>
+      </UIPushButton>
+      <UIDrag name="thumb">
+         <UIRegion h="10" w="100" walign="% min"/>
+         <UIAspect>
+            <default image="ui/shared/slidevert.tga">
+               <BFRect x="0" y="252" w="10" h="99"/>
+            </default>
+         </UIAspect>
+         <drag>
+            <UIDragCommand msg="UI_MOUSE_DRAG" axis="y"/>
+         </drag>
+      </UIDrag>
+   </children>
+   <thumb name="thumb" axis="y">
+      <UIRegion y="21" h="-21" w="100" halign="max" walign="% min"/>
+   </thumb>
+</UISlider>

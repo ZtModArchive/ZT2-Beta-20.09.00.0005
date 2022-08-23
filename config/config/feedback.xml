@@ -1,0 +1,31 @@
+<ZTFeedbackMgr>
+	<globalThoughts>
+		<guestthoughts:Hungry threshold="20" priority="-1" interval="10" message="zoomessages:GuestsHungry" />
+		<guestthoughts:Thirsty threshold="20" priority="-1" interval="10" message="zoomessages:GuestsThirsty" />
+		<guestthoughts:Bathroom threshold="20" priority="-1" interval="10" message="zoomessages:GuestsBathroom" />
+		<guestthoughts:DessertBad threshold="20" priority="-1" interval="10" message="zoomessages:GuestsNeedDessert" />
+		<guestthoughts:Tired threshold="20" priority="-1" interval="10" message="zoomessages:GuestsTired" />
+		<guestthoughts:AmusementBad threshold="20" priority="-1" interval="10" message="zoomessages:GuestAmusementBad" />
+		<guestthoughts:AnimalEntertaining threshold="40" priority="1" interval="10" message="zoomessages:GuestsEntertained" />
+		<guestthoughts:AnimalAmusing threshold="40" priority="1" interval="10" message="zoomessages:GuestsAmused" />
+		<guestthoughts:AnimalBoring threshold="20" priority="-1" interval="5" message="zoomessages:GuestsBored" />
+		<guestthoughts:AnimalDisturbing threshold="20" priority="-1" interval="0" message="zoomessages:GuestsDisturbed" />
+		<guestthoughts:TrashGround threshold="20" priority="-1" interval="10" message="zoomessages:GuestsTrashGround" />
+		<guestthoughts:TrashFull threshold="20" priority="-1" interval="15" message="zoomessages:GuestsTrashFull" />
+		<guestthoughts:EatStanding threshold="10" priority="-1" interval="15" message="zoomessages:GuestsStandingEat" />
+		<guestthoughts:CantFindATM treshold="5" priority="-1" interval="15" message="zoomessages:GuestsCantFindATM" />
+		<guestthoughts:CantFindDonationBox treshold="5" priority="-1" interval="15" message="zoomessages:GuestsCantFindDonationBox" />
+		<animalthoughts:HungryAnimal threshold="10" priority="-1" interval="15" message="zoomessages:AnimalsHungry" />
+		<animalthoughts:ThirstyAnimal threshold="10" priority="-1" interval="15" message="zoomessages:AnimalsThirsty" />
+		<animalthoughts:EscapedAnimal threshold="1" priority="-1" interval="15" message="zoomessages:EscapedAnimal" />
+		<animalthoughts:AnimalSpaceBad threshold="10" priority="-1" interval="15" message="zoomessages:AnimalSpaceBad" />
+		<animalthoughts:AnimalBiomeBad threshold="10" priority="-1" interval="15" message="zoomessages:AnimalBiomeBad" />
+		<animalthoughts:SickAnimal threshold="3" priority="-1" interval="15" message="zoomessages:SickAnimal" />
+		<animalthoughts:VerySickAnimal threshold="1" priority="-1" interval="15" message="zoomessages:VerySickAnimal" />
+	</globalThoughts>
+	<globalDisplay list="feedbackMessageList" last="feedbackLastMessage" count="25">
+		<template priority="-1" file="ui/layout/messagebad.xml" />
+		<template priority="0" file="ui/layout/messagenormal.xml" />
+		<template priority="1" file="ui/layout/messagegood.xml" />
+	</globalDisplay>
+</ZTFeedbackMgr>

@@ -1,0 +1,80 @@
+<ZTApp>
+   <!--Elements can have initData or not-->
+   <BFLog default="note" sendFile="0" sendDebugger="1" logfile="logfile.txt">
+      <BFLuaStack cutoff="info"/>
+      <BFLuaContext cutoff="info"/>
+      <BFScenarioRule cutoff="info"/>
+      <BFSceneGraphComponent cutoff="info"/>
+      <BFTextTagMacrosComponent cutoff="info"/>
+      <BFSwimComponent cutoff="info"/>
+   </BFLog>
+   <BFResourceMgr path="." zippath="./maps/default;./maps/scenario"/>
+   <BFRegistry appKey="Software\Microsoft\Microsoft Games\Zoo Tycoon 2"/>
+   <ZTExtraPaths/>
+   <BFLocaleMgr initData="config/locale.xml"/>
+   <ZTEULACheck>
+      <eula eulafile="ztapp:general_eula_filename" warrantyfile="ztapp:general_warranty_filename" euladll="ztapp:general_eula_dll_name"/>
+   </ZTEULACheck>
+   <!--
+   <ZTCDCheck>
+		<cd name="ZOOTYCN2"/>
+   </ZTCDCheck>
+   -->
+   <BFUserProfileMgr initData="config/user.xml"/>
+   <BFWindowComponent width="1024" height="768" class="Zoo2" window="Zoo Tycoon 2" icon="101"/>
+   <BFDX9Renderer initData="config/graphics.xml"/>
+   <BFAnimManager/>
+   <BFPhysObj initData="world/cameras/overheadcam.xml"/>
+   <BFNISpriteMgr/>
+   <BFSoundMgr initData="config/soundConfig.xml"/>
+   <UIRoot cursorDirectory="./ui/cursor/" cursor="arrow.cur">
+      <UIRegion x="0" y="0" w="1024" h="768"/>
+      <UIHotKeys>
+         <down code="27" msg="UI_CHILD" data="UIChildData" name="Help Panel">
+            <child msg="UI_HIDE"/>
+         </down>
+         <down code="112" msg="UI_CHILD" data="UIChildData" name="Help Panel">
+            <child msg="UI_SHOW"/>
+         </down>
+      </UIHotKeys>
+      <children>
+         <UITooltip float="false" appear=".2" display="0" type="long" autohide="true">
+            <UIRegion x="40" y="490" w="236" h="106" xalign="min" yalign="min" walign="len" halign="len"/>
+            <UIAspect padx="5" pady="5">
+               <default image="ui/shared/black50_outline.tga">
+                  <BFRect x="0" y="0" w="256" h="96"/>
+               </default>
+            </UIAspect>
+            <text format="shell:lttformat" type="multi"/>
+         </UITooltip>
+         <UITooltip float="true" appear=".5" display="0" type="short" offy="30" offx="10">
+            <UIAspect padx="3" pady="2">
+               <default image="ui/shared/black50_outline.tga">
+                  <BFRect x="0" y="234" w="128" h="22"/>
+               </default>
+            </UIAspect>
+            <text format="shell:sttformat"/>
+         </UITooltip>
+      </children>
+      <namedEventLists>
+		  <pause>
+			 <event msg="ZT_TEMPORARY_PAUSE" data="bool" value="true"/>
+		  </pause>
+		  <unpause>
+			 <event msg="ZT_TEMPORARY_PAUSE" data="bool" value="false"/>
+		  </unpause>
+      </namedEventLists>
+   </UIRoot>
+   <UISoundMgr initData="ui/sound/config.xml"/>
+   <ZTMainMode initData="ui/modes/modes.xml"/>
+   <BFHelpComponent initData="ui/zoopedia/config.xml"/>
+   <ZTLocationMgr initData="config/ztlocationmgr.xml"/>
+   <BFXMLSchemaMgr/>
+   <BFScriptContextMgr/>
+   <ZTScenarioMgr/>
+   <BFPerformanceMonitor sampleLength="1.0" graphicsSampleLength="0.25" decreaseQualityFramerate="0.1f" increaseQualityFramerate="0.045" decreaseGraphicsQualityFramerate="0.068" increaseGraphicsQualityFramerate="0.03" qualityDelta="5" graphicsQualityDelta="1" lowMinGQ="0" lowMaxGQ="50" medMinGQ="25" medMaxGQ="75" highMinGQ="30" highMaxGQ="100"/>
+   <ZTDevConsole initData="config/devconsole.xml"/>
+   <BFMagellanComponent enabled="false"/>
+   <BFParticleDictionary initData="config/particledict.xml"/>
+   <ZTMovieList initData="config/movies.xml"/>
+</ZTApp>

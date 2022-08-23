@@ -1,0 +1,76 @@
+<BFTypedBinder binderType="ViewingArea_Steel">
+   <types>
+      <entity>
+         <scenery>
+            <ViewingArea>
+               <ViewingArea_Steel/>
+            </ViewingArea>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj2" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\scenery\ViewingArea_Steel\ViewingArea_Steel_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:ViewingArea_Steel"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ViewingArea_Steel"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\scenery\ViewingArea_Steel\ViewingArea_Steel_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ViewingArea_Steel"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData terrainFlatten="true"/>
+      <BFGCollisionData isPassable="true"/>
+      <BFAIEntityDataShared s_Zoopedia="zoopedia:zoopedia_viewingareas:entry" f_researchUnlockTime="108" f_researchCost="360"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\square_blob.tga" baseNode="ShadowNode_01" ignoreLights="true" width="8" minLength="2.5" maxLength="4" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj2">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\square_blob.tga" baseNode="ShadowNode_02" ignoreLights="true" width="8" minLength="2.5" maxLength="4" minOffset="0" maxOffset=".5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFSimpleLODComponent modelfile="entities/objects/scenery/ViewingArea_Steel/ViewingArea_Steel.nif" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="200">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

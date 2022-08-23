@@ -1,0 +1,25 @@
+<challenges>
+
+
+	
+	<ZTPhotoChallenge name="ThreeZebras" difficulty="1" script="scenario/scripts/challenge/wildlifemagazine.lua" function="scoreThreeZebras"
+						stt="WildlifeMagChallengetext:stt_ThreeZebras" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="TwoFlamingoesandHippo" difficulty="1" script="scenario/scripts/challenge/wildlifemagazine.lua" function="scoreFlamingoesandHippo"
+						stt="WildlifeMagChallengetext:stt_TwoFlamingoesandHippo" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="CrocinWater" difficulty="1" script="scenario/scripts/challenge/wildlifemagazine.lua" function="scoreCrocinWater"
+						stt="WildlifeMagChallengetext:stt_CrocinWater" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>
+	<ZTPhotoChallenge name="KangarooTailThumping" difficulty="1" script="scenario/scripts/challenge/wildlifemagazine.lua" function="scoreKangarooTailThumping"
+						stt="WildlifeMagChallengetext:stt_KangarooTailThump" cstt="PhotoChallengetext:cstt_genericgotphoto"
+						/>						
+	<ZTPhotoChallengeSet name="WildlifeMagazine" title="PhotoChallengetext:PHWildlifeMagPhotos">
+		<ThreeZebras/>
+		<TwoFlamingoesandHippo/>
+		<CrocinWater/>
+		<KangarooTailThumping/>
+	</ZTPhotoChallengeSet>						
+						
+						
+</challenges>

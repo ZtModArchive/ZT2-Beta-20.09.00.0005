@@ -1,0 +1,19 @@
+<UILayout name="BFAIStateVar">
+	<UIRegion x="0" y="0" w="120" h="20" />
+	<children>
+		<UIText name="Name">
+			<UIRegion x="0" w="80" h="20" />
+			<text format="entityname:format"/>
+		</UIText>
+		<UISlider name="Value" min="0" max="100" inc="1" value="0">
+			<UIRegion x="90" w="30" h="20"/>
+			<children>
+				<UIText name="number">
+					<UIRegion x="0" y="0" h="20" w="40"/>
+					<text format="entityname:format"/>
+				</UIText>
+			</children>
+			<field name="number" type="float" fmt="%3.0f"/>
+		</UISlider>
+	</children>
+</UILayout>

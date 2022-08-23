@@ -1,0 +1,176 @@
+<BehaviorSets>
+   <UsePonyRide>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehSyncSet subjectBehSet="UsePonyRideYoung" targetBehSet="PonyRideActive" resetPhase="true"/>		
+      </behaviors>
+   </UsePonyRide> 
+
+   <UsePonyRideYoung>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_RidePony"/>
+      </behaviors>
+   </UsePonyRideYoung> 
+   
+   <PonyRideActive>
+      <subjects>
+         <shetlandride_df/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Used"/>
+      </behaviors>
+   </PonyRideActive>   
+
+   <EnterBouncyRide>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehDock locoSpeed="fast" targetAnim="Stand_Idle"/>
+         <BFBehAnimate targetAnim="Stand_2BouncyRide"/>
+      </behaviors>
+   </EnterBouncyRide>  
+   <UseBouncyRide>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehSyncSet subjectBehSet="UseBouncyRideYoung" targetBehSet="BouncyRideActive" resetPhase="true"/>		
+      </behaviors>
+   </UseBouncyRide> 
+
+   <UseBouncyRideYoung>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="BouncyRide_Idle"/>
+         <BFBehAnimate targetAnim="BouncyRide_Idle"/>
+         <BFBehAnimate targetAnim="BouncyRide_Idle"/>
+      </behaviors>
+   </UseBouncyRideYoung> 
+   
+   <BouncyRideActive>
+      <subjects>
+         <Lion_df/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+      </behaviors>
+   </BouncyRideActive>   
+
+   <BouncyRideActive>
+      <subjects>
+         <Hippo_df/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+      </behaviors>
+   </BouncyRideActive>
+
+   <BouncyRideActive>
+      <subjects>
+         <Rhino_df/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+      </behaviors>
+   </BouncyRideActive>
+
+   <BouncyRideActive>
+      <subjects>
+         <Kangaroo_df/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+         <BFBehAnimate targetAnim="BouncyRide_used"/>
+      </behaviors>
+   </BouncyRideActive>
+   
+   <LookAtObject>
+      <subjects>
+         <Guest/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom minPlays="2" maxPlays="2"> 
+            <randomAnims>
+               <Stand_Applaud weight="20"/>
+               <Stand_OohAhh weight="10"/>
+               <Camera_TakePhoto weight="20"/>
+               <Stand_Point weight="20"/>
+               <StandListen_Idle weight="10"/>
+            </randomAnims>
+          </BFBehAnimateRandom>  
+	<BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </LookAtObject> 
+   <LookAtMap>
+      <subjects>
+         <Guest/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom minPlays="2" maxPlays="2"> 
+            <randomAnims>
+               <Stand_OohAhh weight="20"/>
+               <Camera_TakePhoto weight="30"/>
+               <StandListen_Idle weight="30"/>
+            </randomAnims>
+          </BFBehAnimateRandom>  
+	<BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </LookAtMap>
+
+
+   <LookAtKiosk>
+      <subjects>
+         <Guest_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom minPlays="6" maxPlays="10">
+            <randomAnims>
+               <Stand_Applaud weight="20"/>
+               <Stand_PointCasual weight="20"/>
+               <Stand_Wave weight="5"/>
+               <Stand_OohAhh weight="15"/>
+               <Camera_TakePhoto weight="5"/>
+               <Stand_Idle weight="40"/>
+               <StandListen_Idle weight="40"/>
+            </randomAnims>
+         </BFBehAnimateRandom> 
+					<BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </LookAtKiosk>
+   
+   <LookAtKiosk>
+      <subjects>
+         <Guest_Young/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom minPlays="6" maxPlays="10">
+            <randomAnims>
+               <Stand_Whistle weight="2"/>
+               <Stand_Wave weight="2"/>
+               <Stand_Laugh weight="2"/>
+               <Stand_Idle weight="10"/>
+               <Stand_Point weight="2"/>
+            </randomAnims>
+         </BFBehAnimateRandom> 
+					<BFBehAnimate targetAnim="Stand_Turn180"/>
+      </behaviors>
+   </LookAtKiosk>
+   
+   
+   
+</BehaviorSets>

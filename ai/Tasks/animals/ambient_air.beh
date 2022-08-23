@@ -1,0 +1,117 @@
+<BehaviorSets>
+   <Idle>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateSwitch>
+            <animTable>
+               <Fly anim="Fly_Ahead"/>
+               <default anim="Fly_Ahead"/>
+            </animTable>
+         </BFBehAnimateSwitch>
+      </behaviors>
+   </Idle>
+   <Airborne>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehPlaySet behSet="Wander"/>
+      </behaviors>
+   </Airborne>
+   <Airborne_Glider>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Wander weight="50"/>
+               <Glide weight="30"/>
+               <FlyCall weight="20"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Airborne_Glider>
+   <Airborne_Glider_Vulture>
+      <subjects>
+         <VultureKing/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Wander weight="30"/>
+               <Glide weight="60"/>
+               <FlyCall weight="10"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Airborne_Glider_Vulture>
+   <Airborne_Glider_Pigeon>
+      <subjects>
+         <Pigeon/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Wander weight="80"/>
+               <Glide weight="10"/>
+               <FlyCall weight="10"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Airborne_Glider_Pigeon>
+   <Glide>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Fly_Ahead_Glide" playTime="30" animSpeed="0.3"/>
+      </behaviors>
+   </Glide>
+   <Glide>
+      <subjects>
+         <VultureKing/>
+      </subjects>
+      <behaviors>
+         <BFBehWander playTime="20" locoSpeed="glide"/>
+      </behaviors>
+   </Glide>
+   <CircleCarrion>
+      <subjects>
+         <VultureKing/>
+      </subjects>
+      <behaviors>
+         <BFBehMove pathRadius="3"/>
+         <BFBehAnimate targetAnim="Glide_TurnLeftA"/>
+         <BFBehAnimate targetAnim="Glide_TurnLeftA"/>
+         <BFBehAnimate targetAnim="Glide_TurnLeftA"/>
+         <BFBehAnimate targetAnim="Glide_TurnLeftA"/>
+      </behaviors>
+   </CircleCarrion>
+   <Wander>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehWander playTime="20" locoSpeed="medium"/>
+      </behaviors>
+   </Wander>
+   <FlyStraight>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Fly_Ahead" playTime="30" animSpeed="0.3"/>
+      </behaviors>
+   </FlyStraight>
+   <FlyCall>
+      <subjects>
+         <ambient_air/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Fly_Call"/>
+      </behaviors>
+   </FlyCall>
+</BehaviorSets>

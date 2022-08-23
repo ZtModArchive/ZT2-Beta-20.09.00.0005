@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key frame="40" text="{Bip01 Ponytail1} snd 'medium_dropa'"/>
+   <key frame="56" text="{FootBackLeft} snd 'FootStep'terrain"/>
+   <key frame="40" text="{Bip01 Spine1} runps Biomefx"/>
+</TEXTKEY>

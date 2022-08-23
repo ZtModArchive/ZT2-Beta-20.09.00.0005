@@ -1,0 +1,16 @@
+<UILayout name="eomna">
+	<UIRegion x="0" y="0" w="80" h="90" xalign="min" yalign="min" walign="len" halign="len"/>
+	<UIState active="normal" visible="normal"/>
+	<children>
+		<UIText name="number">
+			<UIRegion x="0" y="36" w="80" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+			<UIState active="normal" visible="normal"/>
+			<text format="shell:currentdatedisplay"/>
+			<UIAspect locid="eom:not_avail">
+				<default>
+					<BFFont align="center"/>
+				</default>
+			</UIAspect>
+		</UIText>
+	</children>
+</UILayout>		

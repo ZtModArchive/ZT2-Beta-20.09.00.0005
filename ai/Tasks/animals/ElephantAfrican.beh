@@ -1,0 +1,1223 @@
+<BehaviorSets>
+   <Idle>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateSwitch>
+            <animTable>
+               <Stand anim="Stand_Idle"/>
+               <StandAggressive anim="StandAggressive_Idle"/>
+               <Lie anim="Lie_Idle"/>
+               <default anim="Stand_Idle"/>
+            </animTable>
+         </BFBehAnimateSwitch>
+      </behaviors>
+   </Idle>
+   <Think>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimSwitchSet loopFlag="true">
+            <behaviorTable>
+               <Stand behSet="Idle"/>
+               <default behSet="Idle"/>
+            </behaviorTable>
+         </BFBehAnimSwitchSet>
+      </behaviors>
+   </Think>
+   <LookAt>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Idle weight="50"/>
+               <Investigate weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </LookAt>
+   <Investigate>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToLookAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehMove pathRadius="3"/>
+         <ZTBehViewEvent viewKey="Pos_2"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:LookAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehFaceTarget/>
+         <BFBehPlaySet behSet="Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </Investigate>
+   <Die_OldAge>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Dying"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Sleep"/>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalDiedBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               <ZTMessageInfo locID="zoomessages:AnimalDied" priority="-1" timeout="60" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </behaviors>
+   </Die_OldAge>
+   <Die_Sick>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Dying_Sick"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPlaySet behSet="Sleep"/>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalDiedBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               <ZTMessageInfo locID="zoomessages:AnimalDied" priority="-1" timeout="60" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehKill killSubject="true" fadeOutPeriod="1"/>
+      </behaviors>
+   </Die_Sick>
+   <Die_Fight>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Killed"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Neg_10">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalDiedBad" priority="-1" timeout="60" global="false" useTargetName="true"/>
+               <ZTMessageInfo locID="zoomessages:AnimalDied" priority="-1" timeout="60" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+	 <ZTBehMorph morphEntity="subject" morphTargetEntityType="Carcass_Meat"/>
+      </behaviors>
+   </Die_Fight>
+   <Stand>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Stand>
+   <Lie>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Lie_Idle"/>
+      </behaviors>
+   </Lie>
+   <Sleep>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <SleepSide weight="20"/>
+               <SleepStand weight="80"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Sleep>
+   <SleepSide>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Lie_Idle" playTime="20"/>
+      </behaviors>
+   </SleepSide>
+   <SleepStand>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle" playTime="20"/>
+      </behaviors>
+   </SleepStand>
+   <Poop>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Poop_Idle"/>
+      </behaviors>
+   </Poop>
+   <Pee>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Pee_Idle"/>
+      </behaviors>
+   </Pee>
+   <RubEye>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_RubEye"/>
+      </behaviors>
+   </RubEye>
+   <EarFlap>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_EarFlapB"/>
+      </behaviors>
+   </EarFlap>
+   <DustThrow>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_DustThrow"/>
+      </behaviors>
+   </DustThrow>
+   <Sway>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Sway"/>
+      </behaviors>
+   </Sway>
+   <FootSwing>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_FootSwing"/>
+      </behaviors>
+   </FootSwing>
+   <PawGround>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_PawGround"/>
+      </behaviors>
+   </PawGround>
+   <TrunkSwat>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TrunkSwat"/>
+      </behaviors>
+   </TrunkSwat>
+   <PlayBall>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TrunkSwat"/>
+      </behaviors>
+   </PlayBall>
+   <HeadRam>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_HeadRam"/>
+      </behaviors>
+   </HeadRam>
+   <NoiseMaker>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Noisemaker"/>
+      </behaviors>
+   </NoiseMaker>
+   <Trumpet>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Trumpet"/>
+      </behaviors>
+   </Trumpet>
+   <FailureSet>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Trumpet"/>
+      </behaviors>
+   </FailureSet>
+   <MarkScent>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_MarkScent"/>
+      </behaviors>
+   </MarkScent>
+   <Aggressive>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="StandAggressive_Idle"/>
+         <BFBehAnimate targetAnim="StandAggressive_TuskThrust"/>
+      </behaviors>
+   </Aggressive>
+   <Submissive>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="WalkBack_Back"/>
+      </behaviors>
+   </Submissive>
+   <PeanutFeeder>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_UsePeanutFeeder"/>
+      </behaviors>
+   </PeanutFeeder>
+   <EnterTree>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Mouth" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterTree> 
+   <BrowseTree>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Browse_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAnimate targetAnim="Browse_2Eat_BranchSlap"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_A" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_B" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </BrowseTree>
+   <ExitTree>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+      </behaviors>
+   </ExitTree>
+   <BrowseLow>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="EatTrough_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </BrowseLow>
+   <BrowseBush>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="EatTrough_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </BrowseBush>
+   <EnterEasel>
+      <subjects>
+         <ElephantAfrican_Adult/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToUse" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Front" targetNode="Dock_Paint_0" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_PaintLevel="0">
+               <Options Reset="true"/>
+            </BFAITargetData>
+         </BFBehSetAttribute>
+      </behaviors>
+   </EnterEasel>
+   <EnterEasel>
+      <subjects>
+         <ElephantAfrican_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToUse" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Paint_Young" targetNode="Dock_Paint_0" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_PaintLevel="0">
+               <Options Reset="true"/>
+            </BFAITargetData>
+         </BFBehSetAttribute>
+      </behaviors>
+   </EnterEasel>
+   <Paint>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Painting" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Pos_7">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalUseEaselGood" priority="1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehAnimate targetAnim="Paint_Idle"/>
+         <BFBehAnimate targetAnim="Paint_B"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_PaintLevel="5">
+               <Options Reset="true"/>
+            </BFAITargetData>
+         </BFBehSetAttribute>
+         <BFBehAnimate targetAnim="Paint_C"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_PaintLevel="10">
+               <Options Reset="true"/>
+            </BFAITargetData>
+         </BFBehSetAttribute>
+         <BFBehAnimate targetAnim="Paint_D"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_PaintLevel="20">
+               <Options Reset="true"/>
+            </BFAITargetData>
+         </BFBehSetAttribute>
+         <BFBehAnimate targetAnim="Paint_E"/>
+         <BFBehSetAttribute>
+            <BFAITargetData f_PaintLevel="30">
+               <Options Reset="true"/>
+            </BFAITargetData>
+         </BFBehSetAttribute>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalStimulationVeryGood"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </behaviors>
+   </Paint>
+   <ExitEasel>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+      </behaviors>
+   </ExitEasel>
+   <Eat>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </Eat>
+   <EatApple>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="target" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </EatApple>
+   <Drink>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Drink_Idle"/>
+         <BFBehAnimateRandom minPlays="2" maxPlays="4">
+            <randomAnims>
+               <Drink_A weight="50"/>
+               <Drink_B weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </Drink>
+   <EnterFoodDish>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Mouth" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterFoodDish> 
+   <UseFoodDish>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </UseFoodDish>
+   <DrinkFoodDish>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Drink_Idle"/>
+         <BFBehAnimateRandom minPlays="2" maxPlays="4">
+            <randomAnims>
+               <Drink_A weight="50"/>
+               <Drink_B weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </DrinkFoodDish>
+   <ExitFoodDish>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+      </behaviors>
+   </ExitFoodDish>
+   <EnterBrowseHolder>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Mouth" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterBrowseHolder> 
+   <UseBrowseHolder>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Browse_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_A" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_B" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </UseBrowseHolder>
+   <ExitBrowseHolder>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+      </behaviors>
+   </ExitBrowseHolder>
+   <EnterElevatedFoodDish>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Mouth" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterElevatedFoodDish> 
+   <UseElevatedFoodDish>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Browse_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_A" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_B" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </UseElevatedFoodDish>
+   <DrinkElevatedFoodDish>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Browse_Idle"/>
+         <BFBehAnimate targetAnim="Eat_Idle"/>
+      </behaviors>
+   </DrinkElevatedFoodDish>
+   <ExitElevatedFoodDish>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+      </behaviors>
+   </ExitElevatedFoodDish>
+   <EnterShadeStructure>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Floor" targetRadius="3" rotError="180"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterShadeStructure> 
+   <UseShadeStructure>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle" playTime="20"/>
+      </behaviors>
+   </UseShadeStructure>
+   <ExitShadeStructure>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+      </behaviors>
+   </ExitShadeStructure>
+   <EnterBall>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Mouth" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterBall> 
+   <UseBall_Whap>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehWhap targetAnim="Stand_TrunkSwat"/>
+      </behaviors>
+   </UseBall_Whap>
+   <UsePursuitBall_Whap>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehWhap targetAnim="Stand_TrunkSwat"/>
+      </behaviors>
+   </UsePursuitBall_Whap>
+   <UseCarTire_Whap>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehWhap targetAnim="Stand_TrunkSwat"/>
+      </behaviors>
+   </UseCarTire_Whap>
+   <UseBarrel_Whap>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <PlayBarrel_Idle weight="50"/>
+               <Barrel_Idle weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </UseBarrel_Whap>
+   <UseBall>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TrunkSwat"/>
+      </behaviors>
+   </UseBall>
+   <ExitBall>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+      </behaviors>
+   </ExitBall>
+   <EnterSubstratePile>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="Node_Mouth" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterSubstratePile> 
+   <UseSubstratePile>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateRandom>
+            <randomAnims>
+               <Stand_PawGround weight="50"/>
+               <Kneel_Dig weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </UseSubstratePile>
+   <ExitSubstratePile>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+      </behaviors>
+   </ExitSubstratePile>
+   <Graze>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="Eat_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </Graze>
+   <EnterTrough>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehHeadLook/>
+         <BFBehDock subjectNode="Node_Mouth" targetAnim="Stand_Idle"/>
+         <BFBehHeadLook disengage="true"/>
+      </behaviors>
+   </EnterTrough> 
+   <UseTrough>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="EatTrough_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehAttachObject attachEntity="s_prop" targetAnim="EatTrough_Idle" targetNode="Dock_Attach" detachAction="killitem"/>
+      </behaviors>
+   </UseTrough>
+   <DrinkTrough>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="EatTrough_Idle"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehAnimate targetAnim="EatTrough_Idle"/>
+      </behaviors>
+   </DrinkTrough>
+   <ExitTrough>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+         <BFBehAnimate targetAnim="Stand_TurnLeft90"/>
+      </behaviors>
+   </ExitTrough>
+   <EnterShelter1>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingRestShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockTAP targetAnim="Walk_Ahead" subjectNode="Floor" targetTAP="Bip01_DockNode01_BaseA2Branch1AEnd"/>
+         <BFBehHeadLook disengage="true"/>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="Bip01_DockNode01_BaseA2Branch1AEnd" exitTap="false"/>
+      </behaviors>
+   </EnterShelter1>
+   <EnterShelter2>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingRestShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockTAP targetAnim="Walk_Ahead" subjectNode="Floor" targetTAP="Bip01_DockNode03_BaseB2Branch1BEnd"/>
+         <BFBehHeadLook disengage="true"/>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="Bip01_DockNode03_BaseB2Branch1BEnd" exitTap="false"/>
+      </behaviors>
+   </EnterShelter2>
+   <UseShelter>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:RestingShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="LieBelly_Idle" playTime="20"/>
+      </behaviors>
+   </UseShelter>
+   <ExitShelter1>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ExitingShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="Bip01_DockNode02_Branch1AEnd2ExitA" exitTAP="true"/>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalPrivacyGood"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+      </behaviors>
+   </ExitShelter1>
+   <ExitShelter2>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:ExitingShelter" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateTAP subjectNode="Floor" targetTAP="Bip01_DockNode04_Branch1BEnd2ExitB" exitTAP="true"/>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalPrivacyGood"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+      </behaviors>
+   </ExitShelter2>
+   <SmashFence>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_HeadRam"/>
+      </behaviors>
+   </SmashFence>
+   <Mate>
+      <subjects>
+         <ElephantAfrican_Adult/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Mating" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Sleep_Idle" playTime="10"/>
+      </behaviors>
+   </Mate>
+   <Birth>
+      <subjects>
+         <ElephantAfrican_Adult_F/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet minPlays="1" maxPlays="1">
+            <randomSets>
+               <SpawnF weight="50"/>
+               <SpawnM weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Birth>
+   <SpawnF>
+      <subjects>
+         <ElephantAfrican_Adult_F/>
+      </subjects>
+      <behaviors>
+         <BFBehSpawn spawnEntity="ElephantAfrican_Young_F" spawnRelation="child" subjectNode="Floor" fadeInPeriod="1" randomPosOffset="3" randomRotOffset="180"/>
+         <BFBehScript context="behavior" file="scripts/justgavebirth.lua" function="justgavebirth"/>
+      </behaviors>
+   </SpawnF>
+   <SpawnM>
+      <subjects>
+         <ElephantAfrican_Adult_F/>
+      </subjects>
+      <behaviors>
+         <BFBehSpawn spawnEntity="ElephantAfrican_Young_M" spawnRelation="child" subjectNode="Floor" fadeInPeriod="1" randomPosOffset="3" randomRotOffset="180"/>
+         <BFBehScript context="behavior" file="scripts/justgavebirth.lua" function="justgavebirth"/>
+      </behaviors>
+   </SpawnM>
+   <Sick>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Sick>
+   <VerySick>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Lie_Idle" playTime="30"/>
+      </behaviors>
+   </VerySick>
+   <MatingCall_F>
+      <subjects>
+         <ElephantAfrican_Adult_F/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:MatingCallAt" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Trumpet"/>
+      </behaviors>
+   </MatingCall_F>
+   <MatingCall_M>
+      <subjects>
+         <ElephantAfrican_Adult_M/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:MatingCallAnswer" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Trumpet"/>
+      </behaviors>
+   </MatingCall_M>
+   <TreadWater_Idle>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate interruptFlag="true" targetAnim="TreadWater_Idle"/>
+      </behaviors>
+   </TreadWater_Idle>
+   <Stand_Idle>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate interruptFlag="true" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Stand_Idle>
+   <WaitAttackGuest>
+      <subjects>
+         <ElephantAfrican_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitAttackGuest>
+   <AttackGuest>
+      <subjects>
+         <ElephantAfrican_Adult/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_AttackGuest" interruptFlag="true"/>
+      </behaviors>
+   </AttackGuest>
+   <ChaseBall>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToPlayWith" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehHeadLook/>
+         <BFBehDockRadial subjectNode="p_PursuitBallNode" targetAnim="Stand_Idle" locoSpeed="fast"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:PlayingWith" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehWhap targetAnim="Stand_TrunkSwat"/>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToPlayWith" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehPursuit hitRadius="5" locoSpeed="fast"/>
+         <BFBehFaceTarget/>
+         <BFBehHeadLook disengage="true"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:PlayingWith" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Pos_5">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalPlayObjectGood" priority="2" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehWhap targetAnim="Stand_TrunkSwat"/>
+         <BFBehRandomSet>
+            <randomSets>
+               <PlayBallAgain weight="50"/>
+               <Idle weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </ChaseBall>
+   <PlayBallAgain>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToPlayWith" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+         <BFBehHeadLook/>
+         <BFBehPursuit hitRadius="5" locoSpeed="fast"/>
+         <BFBehFaceTarget/>
+         <BFBehHeadLook disengage="true"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:PlayingWith" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewEvent viewKey="Pos_5">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalPlayObjectGood" priority="2" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehWhap targetAnim="Stand_TrunkSwat"/>
+      </behaviors>
+   </PlayBallAgain>
+   <TuskThrust>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_TuskThrust"/>
+      </behaviors>
+   </TuskThrust>
+   <Nurse>
+      <subjects>
+         <ElephantAfrican_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:BeingNursed" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Nurse_Idle" playTime="8"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTEmoticonInfo emoticonName="EmoteAnimalHungerGood"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </behaviors>
+   </Nurse>
+   <DockNurse>
+      <subjects>
+         <ElephantAfrican_Young/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToNurse" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDock subjectNode="Node_Mouth" targetNode="p_NurseNode" targetAnim="Stand_Idle" locoSpeed="fast"/>
+      </behaviors>
+   </DockNurse>
+   <WaitNurse>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:WaitingToNurse" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitNurse>
+   <NurseYoung>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:NurseOther" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </NurseYoung>
+   <Caress>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_CaressAdult"/>
+      </behaviors>
+   </Caress>
+   <BatheWater>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <SprayWater weight="50"/>
+               <WallowWater weight="50"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </BatheWater>
+   <SprayWater>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:SprayingWater"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimateRandom minPlays="2" maxPlays="3">
+            <randomAnims>
+               <Drink_ShowerA weight="50"/>
+               <Drink_ShowerB weight="50"/>
+            </randomAnims>
+         </BFBehAnimateRandom>
+      </behaviors>
+   </SprayWater>
+   <WallowWater>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Wallowing"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Lie_Roll" playTime="3"/>
+      </behaviors>
+   </WallowWater>
+   <DockGreet>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToGreet" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDock subjectNode="Node_Mouth" targetNode="p_GreetNode" targetAnim="Stand_Idle"/>
+      </behaviors>
+   </DockGreet>
+   <WaitGreet>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:WaitingToGreet" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_Idle" loopFlag="true"/>
+      </behaviors>
+   </WaitGreet>
+   <Greet>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Greeting" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_CaressAdult" playTime="3"/>
+      </behaviors>
+   </Greet>
+   <GreetTeapot>
+      <subjects>
+         <ElephantAfrican/>
+      </subjects>
+      <behaviors>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:Greeting" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Teapot_Idle" playTime="3"/>
+      </behaviors>
+   </GreetTeapot>
+</BehaviorSets>

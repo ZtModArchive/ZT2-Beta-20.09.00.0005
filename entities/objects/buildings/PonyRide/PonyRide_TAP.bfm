@@ -1,0 +1,22 @@
+<BFM modelname="entities\objects\buildings\PonyRide\PonyRide.nif">
+	<animation anim="entities\objects\buildings\PonyRide\PonyRide_TAP_Bip01_DockNode01_ChildPath.bf" animName="ChildPath" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\PonyRide\PonyRide_TAP_Bip01_DockNode00_PonyPath.bf" animName="PonyPath" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\PonyRide\PonyRide_TAP_Bip01_DockNode02_TrainerPath.bf" animName="TrainerPath" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="PonyRide" version="1">
+	<node name="ChildPath">
+		<table>
+			<ChildPath />
+		</table>
+	</node>
+	<node name="PonyPath">
+		<table>
+			<PonyPath />
+		</table>
+	</node>
+	<node name="TrainerPath">
+		<table>
+			<TrainerPath />
+		</table>
+	</node>
+</Graph>

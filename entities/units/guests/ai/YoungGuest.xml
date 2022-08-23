@@ -1,0 +1,29 @@
+<BFTypedBinder binderType="Guest_Young" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <people>
+               <Guest>
+                  <Guest_Young/>
+               </Guest>
+            </people>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <BFAIEntityDataShared f_DonationDivisor="20" f_MinDonation="2" f_MaxDonation="1000"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BF2LegsGroundFitComponent frontBuoyancyNode="Node_Buoy"/>
+               <BFSwimComponent waterInDistance="0.1" waterOutDistance="0.250"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>    
+   </binder>
+</BFTypedBinder>

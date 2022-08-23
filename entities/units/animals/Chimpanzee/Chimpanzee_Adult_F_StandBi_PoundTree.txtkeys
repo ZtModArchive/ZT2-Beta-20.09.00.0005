@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key frame="19" text="{Bip01 Head} snd 'medium_hita'"/>
+   <key frame="23" text="{Bip01 Head} snd 'medium_hitb'"/>
+   <key frame="22" text="whap 10 15"/>
+</TEXTKEY>

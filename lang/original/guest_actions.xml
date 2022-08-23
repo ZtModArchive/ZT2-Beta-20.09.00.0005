@@ -1,0 +1,60 @@
+<ZT2Strings>
+   <guestactions>
+<!--Guest Actions-->
+      <TestAction>I AM DOING SOMETHING PROFOUND</TestAction>
+      <GoSitBench>Going to sit on a bench</GoSitBench>
+      <SittingBench>Resting on bench</SittingBench>
+      <GoSitTable>Going to sit at a table</GoSitTable>
+      <GoStandEat>Going to eat %s</GoStandEat>
+      <GoStandDrink>Going to drink</GoStandDrink>
+      <EatStand>Standing and eating %s</EatStand>
+      <EatBench>Sitting on bench eating %s</EatBench>
+      <EatTable>Sitting at table eating %s</EatTable>
+      <DrinkStand>Standing and drinking</DrinkStand>
+      <DrinkBench>Sitting on bench drinking %s</DrinkBench>
+      <DrinkTable>Sitting at table drinking %s</DrinkTable>
+      <GoingToBuyFood>Going to buy %s</GoingToBuyFood>
+      <BuyingFood>Buying %s</BuyingFood>
+      <GoingToGiftcart>Going to gift cart</GoingToGiftcart>
+      <GoingToGiftshop>Going to gift shop</GoingToGiftshop>
+      <BuyingGift>Buying a gift</BuyingGift>
+      <GoingToViewAnimal>Going to view animals</GoingToViewAnimal>
+      <ViewingAnimals>Viewing animals</ViewingAnimals>
+      <LeaveZoo>Leaving zoo</LeaveZoo>
+      <GoingUseBathroom>Going to use the bathroom</GoingUseBathroom>
+      <UsingBathroom>Using the bathroom</UsingBathroom>
+      <GoThrowawayTrash>Going to trashcan</GoThrowawayTrash>
+      <GoThrowTrashGround>Throwing trash on the ground</GoThrowTrashGround>
+      <GoThrowRecyclingGround>Throwing recyclable on the ground</GoThrowRecyclingGround>
+      <ThrowawayTrash>Putting trash in can</ThrowawayTrash>
+      <GoRecycleTrash>Going to recycling bin</GoRecycleTrash>
+      <RecycleTrash>Putting recyclable in bin</RecycleTrash>
+      <ThrowTrashGround>Throwing trash on ground</ThrowTrashGround>
+      <ThrowRecyclableGround>Throwing recyclable on ground</ThrowRecyclableGround>
+      <RunningFromAnimal>Running from %s</RunningFromAnimal>
+      <AttackedAnimal>Getting attacked by %s</AttackedAnimal>
+      <GoingToATM>Going to ATM</GoingToATM>
+      <UseATM>Getting money from ATM</UseATM>
+      <GoToRestaurant>Going to restaurant</GoToRestaurant>
+      <GoToDonate>Going to donation box</GoToDonate>
+      <DonateMoney>Donating money</DonateMoney>
+      <GoingToPhotobooth>Going to animal photo booth</GoingToPhotobooth>
+      <PhotoBeingTaken>Posing for photo</PhotoBeingTaken>
+      <GettingPhoto>Buying photo</GettingPhoto>
+      <GoToBinoculars>Going to use binoculars</GoToBinoculars>
+      <UseBinoculars>Using the binoculars</UseBinoculars>
+      <GoToBenchVA>Going to view animals from a bench</GoToBenchVA>
+      <BenchVA>Viewing animals from a bench</BenchVA>
+      <LookForATM>Looking for an ATM</LookForATM>
+      <LookForDonationBox>Looking for a donation box</LookForDonationBox>
+      <GoUseAmusement>Going to play on %s</GoUseAmusement>
+      <UseAmusement>Playing on %s</UseAmusement>
+      <GoToGazebo>Going to %s</GoToGazebo>
+      <UseGazebo>Resting in %s</UseGazebo>
+      <WavingAnimal>Waving at %s</WavingAnimal>
+      <InteractAnimal>Interacting with %s</InteractAnimal>
+      <GoLookAt>Going to look at %s</GoLookAt>
+      <LookingAt>Looking at %s</LookingAt>
+      <UsePonyRide>Riding on %s.</UsePonyRide>
+   </guestactions>
+</ZT2Strings>

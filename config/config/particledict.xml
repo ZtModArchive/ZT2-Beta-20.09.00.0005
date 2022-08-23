@@ -1,0 +1,6 @@
+<BFParticleDictionary>
+   <DictionaryDir directory="world/particlesystems"/>
+   <DictionaryDir directory="UI/fx/particles"/>
+   <DictionaryDir directory="UI/fx"/>
+   <DictionaryDir directory="entities/units/animals"/>
+</BFParticleDictionary>

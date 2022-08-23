@@ -1,0 +1,20 @@
+<BFScenarioGroup name="enrichinganimalsrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="enrichinganimals" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHEnrichingAnimalsShort" overview="Challengetext:CHEnrichingAnimals" />
+				<success locid="Challengetext:CHEnrichingAnimalsSuccessShort" overview="Challengetext:CHEnrichingAnimalsSuccess" />
+				<failure locid="Challengetext:CHEnrichingAnimalsFailureShort" overview="Challengetext:CHEnrichingAnimalsFailure" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/enrichinganimals.lua" entry="evalenrichinganimals" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/enrichinganimals.lua" entry="completeenrichinganimals" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/enrichinganimals.lua" entry="failenrichinganimals" />
+			</failure>			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

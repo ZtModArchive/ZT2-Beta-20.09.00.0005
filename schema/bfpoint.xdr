@@ -1,0 +1,7 @@
+<Schema name="BFPoint">
+	<ElementType name="BFPoint">
+		<extends type="BFXMLObj"/>
+		<attribute name="x" dt:type="int" default="0" />
+		<attribute name="y" dt:type="int" default="0" />
+	</ElementType>
+</Schema>

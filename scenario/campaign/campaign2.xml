@@ -1,0 +1,5 @@
+<BFCampaign name="ElephantHerdScenarioLabels:C2S1short">
+   <entry name="ElephantHerdScenarioLabels:C2S1" short="ElephantHerdScenarioLabels:C2S1short" key="campaign2scenario1" scenario="scenario\goals\campaign2scenario1.xml" map="camp2scen1" cash="10000" difficulty="difficulty:easy" description="ElephantHerdScenarioGoals:overviewshort"/>
+   <entry name="CruelConditionsLabels:C2S2" short="CruelConditionsLabels:C2S2short" key="campaign2scenario2" scenario="scenario\goals\campaign2scenario2.xml" map="camp2scen2" cash="7500" difficulty="difficulty:medium" description="CruelConditions:Crueloverviewshort" state="unlocked"/>
+   <entry name="SmugglingRingLabels:C2S3" short="SmugglingRingLabels:C2S3short" key="campaign2scenario3" scenario="scenario\goals\campaign2scenario3.xml" map="camp2scen3" cash="20000" difficulty="difficulty:hard" description="SmugglingRing:SmugglingRingoverviewshort" state="unlocked"/>
+</BFCampaign>

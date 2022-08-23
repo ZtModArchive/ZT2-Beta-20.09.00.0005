@@ -1,0 +1,6 @@
+<Schema name="UIColorObj">
+	<ElementType name="UIColorObj">
+		<extends type="BFXMLObj"/>
+		<extends type="Color"/>
+	</ElementType>
+</Schema>

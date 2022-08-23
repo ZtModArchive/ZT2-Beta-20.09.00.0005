@@ -1,0 +1,43 @@
+<UILayout name="Alert Dialog">
+   <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default>
+         <BFColor r="0" g="0" b="0" a="128"/>
+      </default>
+   </UIAspect>
+   <children>
+      <UILayout name="savegamemessage">
+         <UIRegion x="337" y="304" w="350" h="88" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default image="ui/shared/alert_back.dds">
+               <BFRect x="0" y="0" w="350" h="88" xalign="min" yalign="min" walign="len" halign="len"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+         <children>
+            <UIText name="save_game_message">
+               <UIRegion x="98" y="30" w="240" h="30" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect locid="alert:save_game_message">
+                  <default image="" sound="">
+                     <BFRect x="0" y="0" w="465" h="40"/>
+                     <BFFont align="center">
+                        <BFColor r="255" g="197" b="78" a="255"/>
+                     </BFFont>
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+                  <standard>
+                     <normal/>
+                     <highlighted/>
+                     <activated/>
+                     <disabled/>
+                  </standard>
+               </UIAspect>
+               <UIHotKeys/>
+            </UIText>
+         </children>
+      </UILayout>
+   </children>
+</UILayout>

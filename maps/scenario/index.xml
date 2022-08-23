@@ -1,0 +1,68 @@
+<maps>
+	<camp1scen2>
+		<ZTMapData name="mapname:rainforestsml" size="mapsize:small" biome="tropicalrainforest" location="rainforest1" />
+	</camp1scen2>
+	<camp1scen3>
+		<ZTMapData name="mapname:borealsml" size="mapsize:small" biome="borealforest" location="boreal1" />
+	</camp1scen3>
+	<camp2scen1>
+		<ZTMapData name="mapname:temperatesml" size="mapsize:small" biome="temperateforest" location="temperate1" />
+	</camp2scen1>
+	<camp2scen2>
+		<ZTMapData name="mapname:grasslandsml" size="mapsize:small" biome="grassland" location="sandiego" />
+	</camp2scen2>
+	<camp2scen3>
+		<ZTMapData version="0" name="mapname:grasslandmed" size="mapsize:medium" biome="grassland" location="sandiego" />
+	</camp2scen3>
+	<newcampgn1>
+		<ZTMapData version="0" name="mapname:cityzoomed" size="mapsize:medium" biome="grassland" location="denver" />
+	</newcampgn1>
+	<pandacampaign>
+		<ZTMapData version="0" name="mapname:grasslandmed" size="mapsize:medium" biome="grassland" location="sandiego" />
+	</pandacampaign>
+	<phototestmap>
+		<ZTMapData name="mapname:cityzoomed" size="mapsize:medium" biome="grassland" location="denver" />
+	</phototestmap>
+	<speciescampscen1>
+		<ZTMapData version="0" name="mapname:wetlandsml" size="mapsize:small" biome="wetlands" location="wetland1" />
+	</speciescampscen1>
+	<speciescampscen2>
+		<ZTMapData version="0" name="mapname:rainforestsml" size="mapsize:small" biome="tropicalrainforest" location="rainforest1" />
+	</speciescampscen2>
+	<speciescampscen3>
+		<ZTMapData version="0" name="mapname:cityzoomed" size="mapsize:medium" biome="grassland" location="denver" />
+	</speciescampscen3>
+	<tutorialscen1>
+		<ZTMapData version="0" name="mapname:cityzoosml" size="mapsize:small" biome="grassland" location="denver" />
+	</tutorialscen1>
+	<tutorialscen2>
+		<ZTMapData version="0" name="mapname:cityzoosml" size="mapsize:small" biome="grassland" location="denver" />
+	</tutorialscen2>
+	<tutorialscen3>
+		<ZTMapData version="0" name="mapname:cityzoosml" size="mapsize:small" biome="grassland" location="denver" />
+	</tutorialscen3>
+	<worldcampscen1>
+		<ZTMapData version="0" name="mapname:rainforestmed" size="mapsize:medium" biome="tropicalrainforest" location="rainforest1" />
+	</worldcampscen1>
+	<worldcampscen2>
+		<ZTMapData version="0" name="mapname:borealmed" size="mapsize:medium" biome="borealforest" location="boreal1" />
+	</worldcampscen2>
+	<worldcampscen3>
+		<ZTMapData version="0" name="mapname:temperatemed" size="mapsize:medium" biome="temperateforest" location="temperate1" />
+	</worldcampscen3>
+	<worldcampscen4>
+		<ZTMapData version="0" name="mapname:grasslandmed" size="mapsize:medium" biome="grassland" location="sandiego" />
+	</worldcampscen4>
+	<worldcampscen5>
+		<ZTMapData version="0" name="mapname:grasslandmed" size="mapsize:medium" biome="grassland" location="sandiego" />
+	</worldcampscen5>
+	<zktrainingscen1>
+		<ZTMapData version="0" name="mapname:cityzoosml" size="mapsize:small" biome="grassland" location="denver" />
+	</zktrainingscen1>
+	<zktrainingscen2>
+		<ZTMapData version="0" name="mapname:grasslandsml" size="mapsize:small" biome="grassland" location="sandiego" />
+	</zktrainingscen2>
+	<zktrainingscen3>
+		<ZTMapData version="0" name="mapname:cityzoomed" size="mapsize:medium" biome="grassland" location="denver" />
+	</zktrainingscen3>
+</maps>

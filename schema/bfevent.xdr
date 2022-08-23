@@ -1,0 +1,6 @@
+<Schema name="BFEvent">
+	<ElementType name="BFEvent">
+		<extends type="BFXMLObj"/>
+		<attribute name="msgtype" dt:type="string" required="yes"/>
+	</ElementType>
+</Schema>

@@ -1,0 +1,40 @@
+<ZT2Strings>
+
+
+
+
+   
+   <zoopedia_asphalt>
+         <entry>Path Materials</entry>
+         <text>
+            
+            Paths can be constructed from asphalt, brick, concrete, dirt, sand and stone. Having a 
+            
+            
+            <a href="zoopedia:zoopedia_pathdef:entry">
+	       <u>
+	          <color r="0" g="0" b="255">path</color>
+	       </u>
+            </a>
+            
+            is more important than the materials that a path is made of. You can use path materials to make your zoo visually appealing.
+         
+         </text>
+         
+   </zoopedia_asphalt>
+   
+   <zoopedia_elevatedview>
+          <entry>Elevated Viewing Areas</entry>
+          <text>
+               
+             An elevated viewing area provides an optimal spot from which guests can watch the animals.
+            
+          </text>
+   </zoopedia_elevatedview>
+   
+   
+   
+   
+   
+   
+   </ZT2Strings>

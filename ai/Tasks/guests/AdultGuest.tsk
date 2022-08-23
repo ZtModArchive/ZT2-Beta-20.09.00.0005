@@ -1,0 +1,89 @@
+<BFAITaskTemplateList>
+
+   <BFAITaskTemplate Name="GetCash" CursorTask="false" reserveTag="Use_ATM">
+      <BFAICreateData>
+         <Subjects>
+            <Guest_Adult/>
+            <Qualifiers happiness="L 70"/>
+         </Subjects>
+         <Targets>
+            <atm_df/>
+            <Qualifiers inSight="50"/>                       
+         </Targets>
+         <Objects>
+            <t_GetCash/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="150"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="UseATM"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:UseAtm" priority="1" timeout="60" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <ZTBehEconomy transactionName="getCash"/>
+         </BFBehExecTask>
+         <BFAIAttributeFloatMap/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   
+   <BFAITaskTemplate Name="FailGetCashUnhappy" CursorTask="false">
+      <BFAICreateData>
+         <Subjects>
+            <Guest_Adult/>
+            <Qualifiers happiness="GE 70"/>
+         </Subjects>
+         <Targets>
+            <atm_df/>
+            <Qualifiers inSight="50"/>                       
+         </Targets>
+         <Objects>
+            <t_GetCash/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="100"/>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:FoundATMUnhappy" priority="1" timeout="60" global="false"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Stand_ShakeHead"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+   </BFAITaskTemplate>   
+   
+   <BFAITaskTemplate Name="CantGetCash" CursorTask="false">
+      <BFAICreateData>
+         <Subjects>
+            <Guest_Adult/>
+         </Subjects>
+         <Targets>
+            <self/>
+         </Targets>
+         <Objects>
+            <t_GetCash/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="50"/>
+      <BFBehExecTask>
+         <BFBehAnimate targetAnim="Stand_ScratchHead"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:LookForATM"/>
+               <ZTThoughtInfo locID="guestthoughts:CantFindATM" priority="1" timeout="60" global="true"/>
+               <ZTEmoticonInfo emoticonName="EmoteGuestATMBad"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap f_departurePoints="-20"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>   
+   
+   
+</BFAITaskTemplateList>

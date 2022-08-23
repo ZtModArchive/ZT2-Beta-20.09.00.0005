@@ -1,0 +1,15 @@
+<Graph name = "CrocodileNile_Adult_M">
+	<node name = "Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+		<edge anim = "Stand_2Walk" node = "Walk" />	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_TurnL30 />
+			<Walk_TurnR30 />
+		</table>
+		<edge anim = "Walk_2Stand" node = "Stand" />	</node>
+
+</Graph>

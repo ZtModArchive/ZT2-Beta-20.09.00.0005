@@ -1,0 +1,9 @@
+del *.kf
+del *.kfm
+del *.kfinfo
+del Ibex_Adult_M_*.nif
+del Ibex_Adult_F_*.nif
+del Ibex_Young_F_*.nif
+del Ibex_Adult_M.bf
+del Ibex_Adult_F.bf
+del Ibex_Young_F.bf

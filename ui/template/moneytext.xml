@@ -1,0 +1,4 @@
+<ZTMoneyText nocents="true" nominus="false" negformat="zoostatus:misc_label_red_format" posformat="zoostatus:misc_label_green_format">
+	<UIRegion x="0" y="0" w="250" h="20" />
+	<UIAspect string="0"/>
+</ZTMoneyText>

@@ -1,0 +1,31 @@
+<entries>
+   <BFHelpEntry order="zoopedia_scenery:entry" entry="zoopedia_scenery:entry" text="zoopedia_scenery:text" page2="zoopedia_scenery:page2"/>
+   <BFHelpEntry order="zoopedia_trash:entry" entry="zoopedia_trash:entry" text="zoopedia_trash:text" page2="zoopedia_trash:page2"/>
+   <BFHelpEntry order="zoopedia_trashcan:entry" entry="zoopedia_trashcan:entry" text="zoopedia_trashcan:text" page2="zoopedia_trashcan:page2"/>
+   <BFHelpEntry order="zoopedia_themedtrashcan:entry" entry="zoopedia_themedtrashcan:entry" text="zoopedia_themedtrashcan:text" page2="zoopedia_themedtrashcan:page2"/>
+   <BFHelpEntry order="zoopedia_recyclebin:entry" entry="zoopedia_recyclebin:entry" text="zoopedia_recyclebin:text" page2="zoopedia_recyclebin:page2"/>
+   <BFHelpEntry order="zoopedia_donationbox:entry" entry="zoopedia_donationbox:entry" text="zoopedia_donationbox:text" page2="zoopedia_donationbox:page2"/>
+   <BFHelpEntry order="zoopedia_lamp:entry" entry="zoopedia_lamp:entry" text="zoopedia_lamp:text" page2="zoopedia_lamp:page2"/>
+   <BFHelpEntry order="zoopedia_themedlamp:entry" entry="zoopedia_themedlamp:entry" text="zoopedia_themedlamp:text" page2="zoopedia_themedlamp:page2"/>
+   <BFHelpEntry order="zoopedia_viewingareas:entry" entry="zoopedia_viewingareas:entry" text="zoopedia_viewingareas:text" page2="zoopedia_viewingareas:page2"/>
+   <BFHelpEntry order="zoopedia_themedviewingareas:entry" entry="zoopedia_themedviewingareas:entry" text="zoopedia_themedviewingareas:text" page2="zoopedia_themedviewingareas:page2"/>
+   <BFHelpEntry order="zoopedia_picnictable:entry" entry="zoopedia_picnictable:entry" text="zoopedia_picnictable:text" page2="zoopedia_picnictable:page2"/>
+   <BFHelpEntry order="zoopedia_fountains:entry" entry="zoopedia_fountains:entry" text="zoopedia_fountains:text" page2="zoopedia_fountains:page2"/>
+   <BFHelpEntry order="zoopedia_themedfountains:entry" entry="zoopedia_themedfountains:entry" text="zoopedia_themedfountains:text" page2="zoopedia_themedfountains:page2"/>
+   <BFHelpEntry order="zoopedia_statue:entry" entry="zoopedia_statue:entry" text="zoopedia_statue:text" page2="zoopedia_statue:page2"/>
+   <BFHelpEntry order="zoopedia_themedstatue:entry" entry="zoopedia_themedstatue:entry" text="zoopedia_themedstatue:text" page2="zoopedia_themedstatue:page2"/>
+   <BFHelpEntry order="zoopedia_zoomap:entry" entry="zoopedia_zoomap:entry" text="zoopedia_zoomap:text" page2="zoopedia_zoomap:page2"/>
+   <BFHelpEntry order="zoopedia_bench:entry" entry="zoopedia_bench:entry" text="zoopedia_bench:text" page2="zoopedia_bench:page2"/>
+   <BFHelpEntry order="zoopedia_themedbench:entry" entry="zoopedia_themedbench:entry" text="zoopedia_themedbench:text" page2="zoopedia_themedbench:page2"/>
+   <BFHelpEntry order="zoopedia_arch:entry" entry="zoopedia_arch:entry" text="zoopedia_arch:text" page2="zoopedia_arch:page2"/>
+   <BFHelpEntry order="zoopedia_themedarch:entry" entry="zoopedia_themedarch:entry" text="zoopedia_themedarch:text" page2="zoopedia_themedarch:page2"/>
+   <BFHelpEntry order="zoopedia_binoculars:entry" entry="zoopedia_binoculars:entry" text="zoopedia_binoculars:text" page2="zoopedia_binoculars:page2"/>
+   <BFHelpEntry order="zoopedia_soundrock:entry" entry="zoopedia_soundrock:entry" text="zoopedia_soundrock:text" page2="zoopedia_soundrock:page2"/>
+   <BFHelpEntry order="zoopedia_feedingdispenser:entry" entry="zoopedia_feedingdispenser:entry" text="zoopedia_feedingdispenser:text" page2="zoopedia_feedingdispenser:page2"/>
+   <BFHelpEntry order="zoopedia_footstool:entry" entry="zoopedia_footstool:entry" text="zoopedia_footstool:text" page2="zoopedia_footstool:page2"/>
+   <BFHelpEntry order="zoopedia_gazebo:entry" entry="zoopedia_gazebo:entry" text="zoopedia_gazebo:text" page2="zoopedia_gazebo:page2"/>
+   <BFHelpEntry order="zoopedia_umbrellatable:entry" entry="zoopedia_umbrellatable:entry" text="zoopedia_umbrellatable:text" page2="zoopedia_umbrellatable:page2"/>
+   <BFHelpEntry order="zoopedia_themedumbrellatable:entry" entry="zoopedia_themedumbrellatable:entry" text="zoopedia_themedumbrellatable:text" page2="zoopedia_themedumbrellatable:page2"/>
+   
+   
+</entries>

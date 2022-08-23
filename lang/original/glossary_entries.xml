@@ -1,0 +1,166 @@
+<ZT2Strings>
+
+
+  <zoopedia_biomedef>
+                  
+      <entry>Biome Definition</entry>
+      <text>
+      
+         
+         Biome, also known as life zones, are defined by all plants, animals, and other organisms, as well as the physical environment in a particular area. A biome is characterized by its plant life, the types of which are determined by a location's climatic conditions, latitude, and altitude. For example, northern boreal forests exist in sub-arctic portions of North America and Asia, but further north, the conditions are simply too harsh and the season too brief for trees to grow. Instead of trees, the short vegetation of the tundra thrives in these areas. The same phenomenon occurs with altitude, as trees give way to short alpine vegetation in high mountainous regions
+         
+         <br/>
+          
+         -
+         
+         <br/>
+         
+         A biome is composed of many ecosystems - smaller communities of plants and animals and their habitats (the physical parts of their environment that affect them). Whereas the boundaries of a biome are determined by climate, the boundaries of ecosystems are physical features, such as ridges or riverbanks, that separate one community from another. The ecosystems of a particular biome tend to have plants with similar growth forms and animals with similar feeding habits.
+      
+      </text>
+      <page2>
+         
+         Major terrestrial biomes include alpine, 
+         
+         <a href="zoopedia:zoopedia_tropicalrainforest:entry">
+            <u>
+               <color r="0" g="0" b="255">tropical rainforest</color>
+            </u>
+         </a>
+         
+         , boreal forest, temperate forest, tundra, desert, grassland,
+         
+         <a href="zoopedia:zoopedia_savannah:entry">
+            <u>
+               <color r="0" g="0" b="255">savannah</color>
+            </u>
+         </a>
+         
+         , and scrub. Although not necessarily associated with marine environments, the term biome is sometimes used by ecologists to describe marine life zones such as the littoral zone, found in shallow water; the pelagic zone in the open ocean; and the benthic zone on the ocean floor.
+      
+      </page2>
+  </zoopedia_biomedef>
+  
+  <zoopedia_animalenrichmentdef>
+  
+  	<entry>Animal Enrichment Definition</entry>
+      	<text>
+  		
+  		<br/>
+  		Placeholder text about how animals like to be stimulated....
+  
+  	</text>
+  
+  </zoopedia_animalenrichmentdef>
+  
+  <zoopedia_pathdef>
+  
+  	<entry>About Paths</entry>
+      	<text>
+  		
+  	<br/>
+  		A path indicates where guests should walk. Guests prefer to walk on paths to travel from place to place, and enjoy watching the animals from defined areas. 
+  
+  	</text>
+  
+  </zoopedia_pathdef> 
+  
+  <zoopedia_scenerydef>
+  
+  	<entry>About Scenery Objects</entry>
+      	<text>
+  		
+  	<br/>
+  		Scenery objects are items that can be placed around your zoo. Some objects allow guests to do certain things, 
+  		like disposing of 
+  		
+  			<a href="zoopedia:zoopedia_trash:entry">
+		            <u>
+		               <color r="0" g="0" b="255">trash</color>
+		            </u>
+         		</a>
+  				
+  		in a 
+  		
+  			<a href="zoopedia:zoopedia_trashcan:entry">
+		            <u>
+		               <color r="0" g="0" b="255">trash can.</color>
+		            </u>
+         		</a>		
+  		
+  		Other objects can be used to create a visually pleasing zoo.
+  
+  	</text>
+  
+  </zoopedia_scenerydef>  
+  
+  <zoopedia_encarta>
+  
+  	<entry>About Encarta</entry>
+      	<text>
+  		
+  		<br/>
+  		Encarta Reference Library 2004 
+  		<br/>
+  		-
+  		<br/>
+		All the tools you need in one great product!
+  		<br/>
+  		-
+  		<br/>
+  		<br/>
+  		-
+  		<br/>  		
+
+		The comprehensive, award-winning Microsoft Encarta Reference Library is the ultimate reference 
+		source for the entire family. You get more up-to-date content, more learning tools, and more 
+		leading-edge multimedia than ever before!
+		<br/>
+  		<br/>
+  		-
+  		<br/>
+  		<br/>
+  		-
+  		<br/>
+  		<br/>
+  		-
+  		<br/>  		
+		
+		For more information, please visit:
+  		<br/>
+  		-
+  		<br/>		
+
+ 
+  		
+  			<a href="http://www.microsoft.com/products/encarta/">
+		            <u>
+		               <color r="200" g="0" b="255">http://www.microsoft.com/products/encarta/</color>
+		            </u>
+         		</a>
+  				
+  		
+  
+  	</text>
+  
+  </zoopedia_encarta>  
+  
+  <zoopedia_buildingdef>
+  
+  	<entry>About Buildings</entry>
+      	<text>
+  		
+  	<br/>
+  		Placeholder text: info about the many benefits you can give your guests with building and a link to 
+  		the how-to section that relates to placing buildings.
+  
+  	</text>
+  
+  </zoopedia_buildingdef>   
+      
+   
+   
+   
+   
+   
+   </ZT2Strings>

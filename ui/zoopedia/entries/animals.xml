@@ -1,0 +1,35 @@
+<entries>
+	
+	<BFHelpEntry order="zoopedia_animals:entry" entry="zoopedia_animals:entry" text="zoopedia_animals:text" page2="zoopedia_animals:page2" />
+	<BFHelpEntry order="zoopedia_tiger:entry" entry="zoopedia_tiger:entry" text="zoopedia_tiger:text" page2="zoopedia_tiger:page2" />
+	<BFHelpEntry order="zoopedia_elephant:entry" entry="zoopedia_elephant:entry" text="zoopedia_elephant:text" page2="zoopedia_elephant:page2" />
+	<BFHelpEntry order="zoopedia_beaver:entry" entry="zoopedia_beaver:entry" text="zoopedia_beaver:text" page2="zoopedia_beaver:page2"/>
+	<BFHelpEntry order="zoopedia_rhino:entry" entry="zoopedia_rhino:entry" text="zoopedia_rhino:text" page2="zoopedia_rhino:page2"/>
+	<BFHelpEntry order="zoopedia_cheetah:entry" entry="zoopedia_cheetah:entry" text="zoopedia_cheetah:text" page2="zoopedia_cheetah:page2"/>
+	<BFHelpEntry order="zoopedia_chimp:entry" entry="zoopedia_chimp:entry" text="zoopedia_chimp:text" page2="zoopedia_chimp:page2"/>
+	<BFHelpEntry order="zoopedia_peafowl:entry" entry="zoopedia_peafowl:entry" text="zoopedia_peafowl:text" page2="zoopedia_peafowl:page2"/>
+	<BFHelpEntry order="zoopedia_zebra:entry" entry="zoopedia_zebra:entry" text="zoopedia_zebra:text" page2="zoopedia_zebra:page2"/>
+	<BFHelpEntry order="zoopedia_camel:entry" entry="zoopedia_camel:entry" text="zoopedia_camel:text" page2="zoopedia_camel:page2"/>
+	<BFHelpEntry order="zoopedia_penguin:entry" entry="zoopedia_penguin:entry" text="zoopedia_penguin:text" page2="zoopedia_penguin:page2"/>
+	<BFHelpEntry order="zoopedia_gemsbok:entry" entry="zoopedia_gemsbok:entry" text="zoopedia_gemsbok:text" page2="zoopedia_gemsbok:page2"/>
+	<BFHelpEntry order="zoopedia_panda:entry" entry="zoopedia_panda:entry" text="zoopedia_panda:text" page2="zoopedia_panda:page2"/>
+	<BFHelpEntry order="zoopedia_flamingo:entry" entry="zoopedia_flamingo:entry" text="zoopedia_flamingo:text" page2="zoopedia_flamingo:page2"/>
+	<BFHelpEntry order="zoopedia_grizzly:entry" entry="zoopedia_grizzly:entry" text="zoopedia_grizzly:text" page2="zoopedia_grizzly:page2"/>
+	<BFHelpEntry order="zoopedia_hippo:entry" entry="zoopedia_hippo:entry" text="zoopedia_hippo:text" page2="zoopedia_hippo:page2"/>
+	<BFHelpEntry order="zoopedia_jaguar:entry" entry="zoopedia_jaguar:entry" text="zoopedia_jaguar:text" page2="zoopedia_jaguar:page2"/>
+	<BFHelpEntry order="zoopedia_lion:entry" entry="zoopedia_lion:entry" text="zoopedia_lion:text" page2="zoopedia_lion:page2"/>
+	<BFHelpEntry order="zoopedia_moose:entry" entry="zoopedia_moose:entry" text="zoopedia_moose:text" page2="zoopedia_moose:page2"/>
+	<BFHelpEntry order="zoopedia_gorilla:entry" entry="zoopedia_gorilla:entry" text="zoopedia_gorilla:text" page2="zoopedia_gorilla:page2"/>
+	<BFHelpEntry order="zoopedia_croc:entry" entry="zoopedia_croc:entry" text="zoopedia_croc:text" page2="zoopedia_croc:page2"/>
+	<BFHelpEntry order="zoopedia_okapi:entry" entry="zoopedia_okapi:entry" text="zoopedia_okapi:text" page2="zoopedia_okapi:page2"/>
+	<BFHelpEntry order="zoopedia_ostrich:entry" entry="zoopedia_ostrich:entry" text="zoopedia_ostrich:text" page2="zoopedia_ostrich:page2"/>
+	<BFHelpEntry order="zoopedia_polarbear:entry" entry="zoopedia_polarbear:entry" text="zoopedia_polarbear:text" page2="zoopedia_polarbear:page2"/>
+	<BFHelpEntry order="zoopedia_kangaroo:entry" entry="zoopedia_kangaroo:entry" text="zoopedia_kangaroo:text" page2="zoopedia_kangaroo:page2"/>
+	<BFHelpEntry order="zoopedia_redpanda:entry" entry="zoopedia_redpanda:entry" text="zoopedia_redpanda:text" page2="zoopedia_redpanda:page2"/>
+	<BFHelpEntry order="zoopedia_giraffe:entry" entry="zoopedia_giraffe:entry" text="zoopedia_giraffe:text" page2="zoopedia_giraffe:page2"/>
+	<BFHelpEntry order="zoopedia_lemur:entry" entry="zoopedia_lemur:entry" text="zoopedia_lemur:text" page2="zoopedia_lemur:page2"/>
+	<BFHelpEntry order="zoopedia_leopard:entry" entry="zoopedia_leopard:entry" text="zoopedia_leopard:text" page2="zoopedia_leopard:page2"/>
+	<BFHelpEntry order="zoopedia_gazelle:entry" entry="zoopedia_gazelle:entry" text="zoopedia_gazelle:text" page2="zoopedia_gazelle:page2"/>
+        <BFHelpEntry order="zoopedia_ibex:entry" entry="zoopedia_ibex:entry" text="zoopedia_ibex:text" page2="zoopedia_ibex:page2"/>
+		
+</entries>

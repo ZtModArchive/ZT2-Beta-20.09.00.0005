@@ -1,0 +1,94 @@
+<entries>
+   <ZTLocationEntry name="grassland" locid="grassland:icon_stt">
+      <ZTLocationEntry name="waltham" locid="worldlocation:northamerica">
+         <coordinate long="-72" lat="41"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="sandiego" locid="worldlocation:northamerica">
+         <coordinate long="-116" lat="32"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="london" locid="worldlocation:westerneurope">
+         <coordinate long="0.0" lat="51.5"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="tokyo" locid="worldlocation:southeastasia">
+         <coordinate long="139.4" lat="35.7"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="sydney" locid="worldlocation:oceania">
+         <coordinate long="151" lat="-34"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="denver" locid="worldlocation:northamerica">
+         <coordinate long="-104.87" lat="39.77"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="peru" locid="worldlocation:southamerica">
+         <coordinate long="-75.40" lat="-10.5"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+   <ZTLocationEntry name="savannah" locid="savannah:icon_stt">
+      <ZTLocationEntry name="kenya" locid="worldlocation:eastafrica">
+         <coordinate long="37" lat="0"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="savannah1" locid="worldlocation:southernafrica">
+         <coordinate long="21.4" lat="-27.1"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+   <ZTLocationEntry name="desert" locid="desert:icon_stt">
+      <ZTLocationEntry name="sahara_desert" locid="worldlocation:northafrica">
+         <coordinate long="-1.6" lat="25"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="desert1" locid="worldlocation:middleeast">
+         <coordinate long="48" lat="22.4"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+   <ZTLocationEntry name="alpine" locid="alpine:icon_stt">
+      <ZTLocationEntry name="china" locid="worldlocation:centralasia">
+         <coordinate long="94.9" lat="29"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="alpine1" locid="worldlocation:westerneurope">
+         <coordinate long="11" lat="46.6"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+   <ZTLocationEntry name="tundra" locid="tundra:icon_stt">
+      <ZTLocationEntry name="antarctica" locid="worldlocation:antarctica">
+         <coordinate long="79.3" lat="-85.2"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="tundra1" locid="worldlocation:arctic">
+         <coordinate long="-41.6" lat="79.1"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+   <ZTLocationEntry name="tropicalrainforest" locid="tropicalrainforest:icon_stt">
+      <ZTLocationEntry name="vietnam" locid="worldlocation:southeastasia">
+         <coordinate long="103" lat="15"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="rainforest1" locid="worldlocation:southasia">
+         <coordinate long="79.8" lat="18.7"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+   <ZTLocationEntry name="temperateforest" locid="temperateforest:icon_stt">
+      <ZTLocationEntry name="france" locid="worldlocation:westerneurope">
+         <coordinate long="-0.7" lat="47.6"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="temperate1" locid="worldlocation:easterneurope">
+         <coordinate long="23.4" lat="51.2"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+   <ZTLocationEntry name="borealforest" locid="borealforest:icon_stt">
+      <ZTLocationEntry name="boreal1" locid="worldlocation:notherneurope">
+         <coordinate long="14.1" lat="60.7"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+   <ZTLocationEntry name="scrub" locid="scrub:icon_stt">
+      <ZTLocationEntry name="outback" locid="worldlocation:oceania">
+         <coordinate long="135.8" lat="-24.4"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="scrub1" locid="worldlocation:westafrica">
+         <coordinate long="-13.1" lat="18.5"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+   <ZTLocationEntry name="wetlands" locid="wetlands:icon_stt">
+      <ZTLocationEntry name="everglades" locid="worldlocation:northamerica">
+         <coordinate long="-81.0" lat="26.2"/>
+      </ZTLocationEntry>
+      <ZTLocationEntry name="wetland1" locid="worldlocation:eastafrica">
+         <coordinate long="31.1" lat="-1.8"/>
+      </ZTLocationEntry>
+   </ZTLocationEntry>
+</entries>

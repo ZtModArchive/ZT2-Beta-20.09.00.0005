@@ -1,0 +1,7 @@
+<TEXTKEY>
+   <key frame="17" text="{FootFrontRight} runps Biomefx"/>
+   <key frame="17" text="{FootFrontRight} snd 'FootStep' terrain"/>
+   <key frame="60" text="{Bip01 Head} snd 'Eat'"/>
+   <key percent="45" text = "{Node_Eat} attach object"/>
+   <key percent="60" text = "{Node_Eat} detach object"/>
+</TEXTKEY>

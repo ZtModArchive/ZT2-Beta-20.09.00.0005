@@ -1,0 +1,14 @@
+<BFM modelname="entities\objects\enrichment\RattleBall\RattleBall_Idle.nif">
+	<animation anim="entities\objects\enrichment\RattleBall\RattleBall_Bounce.bf" animName="Stand_Bounce" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\RattleBall\RattleBall_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\RattleBall\RattleBall_Nudge.bf" animName="Stand_Nudge" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="RattleBall_Idle" version="1">
+	<node name="Stand">
+		<table>
+			<Stand_Bounce />
+			<Stand_Idle />
+			<Stand_Nudge />
+		</table>
+	</node>
+</Graph>

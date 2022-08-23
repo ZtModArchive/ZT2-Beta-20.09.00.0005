@@ -1,0 +1,78 @@
+<BFTypedBinder binderType="Keeper" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <people>
+               <Staff>
+                  <Keeper/>
+               </Staff>
+            </people>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFAICognitiveMgr>
+               <Sensors>
+                  <ZTAIStaffSensorSelf/>
+                  <ZTAIStaffSensor/>
+               </Sensors>
+               <TaskThinkers>
+                  <ZTAIStaffTaskThinker/>
+               </TaskThinkers>
+            </BFAICognitiveMgr>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <ZTAIStaffAssignmentComponent/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="Binoculars" required="0">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\Items\Binoculars\Binoculars.nif" scale="1.0" switch="0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="DartGun" required="0">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\Items\DartGun\DartGun.nif" scale="1.0" switch="0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Broom" required="0">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\Items\Broom\Broom.nif" scale="1.0" switch="0 9"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Rake" required="0">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\Items\Rake\Rake.nif" scale="1.0" switch="0 9"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="HealClosed" required="0">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\Items\FirstAid\FirstAid_Closed.nif" scale="1.0" switch="0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="HealOpen" required="0">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities\objects\Items\FirstAid\FirstAid_Open.nif" scale="1.0" switch="0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

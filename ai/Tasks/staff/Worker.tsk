@@ -1,0 +1,134 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="SweepTrash" CursorTask="false" Priority="10">
+      <BFAICreateData>
+         <Subjects>
+            <Worker/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_SweepTrash/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-50"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:GotSweepTrash"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehDock targetAnim="Stand_Idle"/>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:SweepTrash"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTThoughtInfo locID="staffthoughts:WorkerSweepTrash" priority="1" timeout="30" global="false" />
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehAnimate targetAnim="Sweep_Idle"/>
+         <BFBehKill killTarget="true"/>
+      </BFBehExecTask>
+      <BFAIFailureData/>      
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="EmptyTrash" CursorTask="false" Priority="10" reserveTag="Use_Can">
+      <BFAICreateData>
+         <Subjects>
+            <Worker/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+            <Qualifiers f_TrashLevel="G 0"/>
+         </Targets>
+         <Objects>
+            <t_EmptyTrash/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-100"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:GotoEmptyTrashcan"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehEnter/>
+         <BFBehPlaySet behSet="useContainer"/>	   
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAITargetData f_TrashLevel="-100"/>
+      </BFAICompletionData>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   
+   <BFAITaskTemplate Name="EmptyRecycling" CursorTask="false" Priority="10" reserveTag="Use_Can">
+      <BFAICreateData>
+         <Subjects>
+            <Worker/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+            <Qualifiers f_TrashLevel="G 0"/>
+         </Targets>
+         <Objects>
+            <t_EmptyRecyclingBin/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap work="-100"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+      	 <ZTBehFeedback>
+      	 	<ZTFeedbackData>
+		 	<ZTActionInfo locID="staffactions:GotoEmptyTrashcan"/>
+	 	</ZTFeedbackData>
+	 </ZTBehFeedback>
+         <BFBehEnter/>
+         <BFBehPlaySet behSet="useContainer"/>	   
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAITargetData f_TrashLevel="-100"/>
+      </BFAICompletionData>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>   
+   
+   <BFAITaskTemplate Name="EvadeAttack">
+      <BFAICreateData>
+         <Subjects>
+            <Worker/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+            <Qualifier inHabitat="true"/>
+         </Targets>
+         <Objects>
+            <t_Attack/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="100"/>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="staffactions:RunningFromAnimal" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="staffthoughts:RunningFromAnimal" priority="1" timeout="30" global="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehEvasion evasionRadius="30" locoSpeed="fast"/>
+      </BFBehExecTask>
+      <BFAICompletionData/>
+      <BFAIFailureData/>
+   </BFAITaskTemplate>
+   
+
+   
+</BFAITaskTemplateList>

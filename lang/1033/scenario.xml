@@ -1,0 +1,17 @@
+<ZT2Strings>
+      <LOC_STRING _locID="scenario:test">
+         <font size="12">
+            <color r="255" g="255" b="255" a="255">
+               <b>Test Scenario</b>
+            </color>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="scenario:test0">Have three tigers with all basic needs satisfied.</LOC_STRING>
+      <LOC_STRING _locID="scenario:test1_n">Have two giraffes that have food and drink.</LOC_STRING>
+      <LOC_STRING _locID="scenario:test1_s">At some point you had two fed and watered giraffes.</LOC_STRING>
+      <LOC_STRING _locID="scenario:test1_f">I don't know how, but you failed the two giraffe task.</LOC_STRING>
+      <LOC_STRING _locID="scenario:test1a">Have two giraffes.</LOC_STRING>
+      <LOC_STRING _locID="scenario:test1b">Provide food for the giraffes.</LOC_STRING>
+      <LOC_STRING _locID="scenario:test1c">Provide water for the giraffes.</LOC_STRING>
+      <LOC_STRING _locID="scenario:test2">test2</LOC_STRING>
+</ZT2Strings>

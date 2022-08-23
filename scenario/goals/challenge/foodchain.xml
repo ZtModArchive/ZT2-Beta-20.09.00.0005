@@ -1,0 +1,20 @@
+<BFScenarioGroup name="foodchainrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="foodchainphotos" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="FoodChaintext:PHFoodChainShort" overview="FoodChaintext:PHFoodChain" />
+				<success locid="FoodChaintext:PHFoodChainSuccessShort" overview="FoodChaintext:PHFoodChainSuccess" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/foodchain.lua" entry="evalfoodchain" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/foodchain.lua" entry="completefoodchain" />
+			 </success>
+			 <failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/foodchain.lua" entry="failfoodchain" />
+			 </failure>	
+	 
+		</BFScenarioRule>		
+	 </children>
+</BFScenarioGroup>

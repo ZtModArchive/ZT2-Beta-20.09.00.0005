@@ -1,0 +1,118 @@
+<Graph name = "FlamingoGreater_Adult_M">
+	<node name = "Eat">
+		<table>
+			<Eat_Idle />
+		</table>
+		<edge anim = "Eat_2Stand" node = "Stand" />
+	</node>
+	<node name = "Fly">
+		<table>
+			<Fly_Ahead />
+			<Fly_Left />
+			<Fly_Right />
+		</table>
+		<edge anim = "Fly_2Run" node = "Run" />
+		<edge anim = "Fly_2Walk" node = "Walk" />
+	</node>
+	<node name = "HeadDown">
+		<table>
+			<HeadDown_Call />
+			<HeadDown_Idle />
+			<HeadDown_Nudge />
+			<HeadDown_Scratch />
+		</table>
+	</node>
+	<node name = "Poop">
+		<table>
+			<Poop_Idle />
+		</table>
+		<edge anim = "Poop_2Stand" node = "Stand" />
+	</node>
+	<node name = "Rest">
+		<table>
+			<Rest_Idle />
+		</table>
+		<edge anim = "Rest_2Sleep" node = "Sleep" />
+		<edge anim = "Rest_2Stand" node = "Stand" />
+	</node>
+	<node name = "Run">
+		<table>
+			<Run_Ahead />
+			<Run_Left />
+			<Run_Right />
+		</table>
+		<edge anim = "Run_2Fly" node = "Fly" />
+		<edge anim = "Run_2Stand" node = "Stand" />
+		<edge anim = "Run_2Walk" node = "Walk" />
+	</node>
+	<node name = "Sit">
+		<table>
+			<Sit_Idle />
+			<Sit_LookLeft />
+			<Sit_LookRight />
+			<Sit_Pose />
+		</table>
+		<edge anim = "Sit_2Stand" node = "Stand" />
+	</node>
+	<node name = "Sleep">
+		<table>
+			<Sleep_Idle />
+		</table>
+		<edge anim = "Sleep_2Rest" node = "Rest" />
+	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Attacked />
+			<Stand_BeakAttack />
+			<Stand_Breath />
+			<Stand_Call />
+			<Stand_CleanWingL />
+			<Stand_CleanWingR />
+			<Stand_HeadBob />
+			<Stand_Idle />
+			<Stand_LookLeft />
+			<Stand_LookRight />
+			<Stand_PeckGuest />
+			<Stand_Pose />
+			<Stand_Shake />
+			<Stand_StretchLeft />
+			<Stand_StretchRight />
+		</table>
+		<edge anim = "Stand_2Eat" node = "Eat" />
+		<edge anim = "Stand_2HeadDown" node = "HeadDown" />
+		<edge anim = "Stand_2Poop" node = "Poop" />
+		<edge anim = "Stand_2Rest" node = "Rest" />
+		<edge anim = "Stand_2Run" node = "Run" />
+		<edge anim = "Stand_2Sit" node = "Sit" />
+		<edge anim = "Stand_2TailSpread" node = "TailSpread" />
+		<edge anim = "Stand_2Walk" node = "Walk" />
+	</node>
+	<node name = "TailSpread">
+		<table>
+			<TailSpread_Call />
+			<TailSpread_Idle />
+		</table>
+		<edge anim = "TailSpread_2Stand" node = "Stand" />
+	</node>
+	<node name = "WalkHeadDown">
+		<table>
+			<WalkHeadDown_Ahead />
+			<WalkHeadDown_Left />
+			<WalkHeadDown_Right />
+		</table>
+		<edge anim = "WalkHeadDown_2HeadDown" node = "HeadDown" />
+		<edge anim = "WalkHeadDown_2Walk" node = "Walk" />
+	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_Left />
+			<Walk_Right />
+		</table>
+		<edge anim = "Walk_2Fly" node = "Fly" />
+		<edge anim = "Walk_2Run" node = "Run" />
+		<edge anim = "Walk_2Stand" node = "Stand" />
+		<edge anim = "Walk_2WalkHeadDown" node = "WalkHeadDown" />
+	</node>
+
+</Graph>

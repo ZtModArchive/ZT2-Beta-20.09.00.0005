@@ -1,0 +1,24 @@
+<UIGraph templateName="graphtmpl2" name="graphtempl2"
+		XPaddingPct="0.0"
+		YPaddingPct = "0.0"
+		numXLabels = "10"
+		numYLabels = "5"
+		forceYAxisValues = "true"
+		forcedMinY = "1"
+		forcedMaxY = "5"
+		labelAsXAxis = "true"
+		drawPointLabel = "true"
+		drawPointsOnLineGraph = "true"
+		graphTypeString = "bar"
+		YIsMoney = "false">
+	<lineColor r="0" g="255" b="0" />
+	<boxColor r="120" g="120" b="120" />
+	<pointLabelColor r="120" g="120" b="120" />
+	<pointColor r="120" g="120" b="120" />
+	<axisLineColor r="120" g="120" b="120" />
+	<UIRegion x="0" y="0" w="0" h="0" xalign="min" yalign="min" walign="min" halign="min"/>
+	<UIAspect>
+		<default image=""/>
+	</UIAspect>
+	<UIHotKeys />
+</UIGraph>

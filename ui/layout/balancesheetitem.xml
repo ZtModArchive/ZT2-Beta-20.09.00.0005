@@ -1,0 +1,3 @@
+<UIListBox name="balance sheet item" columns="1" rows="-1">
+   <UIRegion x="0" y="0" w="80" h="330" xalign="min" yalign="min" walign="len" halign="len"/>
+</UIListBox>

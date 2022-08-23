@@ -1,0 +1,6 @@
+<BFPhysObj>
+   <BFFPSCameraComponent pitchRotate="0.0" hasFramerate="1" framerateX="10" framerateY="10" minPitch="-0.10f" maxPitch="0.35f" standHeight="1.7f" crouchHeight="0.7f" minMaxViewDist="125" medMaxViewDist="800" maxMaxViewDist="800" />
+   <ZTFPSUDVComponent moveSpeed="5.0" turnSpeed="0.3f" jumpVelocity="0.0f" gravitySpeed="20.0f" pushForce="2.5" minZoom=".1" maxZoom="1.0"/>
+   <BFAboveGroundFitComponent heightOffset="1.7f" fitRadius="1.0f" floatOnWater="true" waterOffset="0.5f"/>
+   <BFBoundedObjectComponent/>
+</BFPhysObj>

@@ -1,0 +1,19 @@
+<BFScenarioGroup name="animalsalerules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="animalsale" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHAnimalSaleShort" overview="Challengetext:CHAnimalSale" />
+				<success locid="Challengetext:CHAnimalSaleSuccessShort" overview="Challengetext:CHAnimalSaleSuccess" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalsale.lua" entry="evalanimalsale" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalsale.lua" entry="completeanimalsale" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalsale.lua" entry="failanimalsale" />
+			</failure>
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

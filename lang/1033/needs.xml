@@ -1,0 +1,18 @@
+<ZT2Strings>
+      <LOC_STRING _locID="entityneeds:satisfied">Satisfied</LOC_STRING>
+      <LOC_STRING _locID="entityneeds:pressing">Pressing</LOC_STRING>
+      <LOC_STRING _locID="entityneeds:critical">Critical</LOC_STRING>
+      <LOC_STRING _locID="entityneeds:environment">Environment: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:hunger">Hunger: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:thirst">Thirst: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:rest">Rest: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:hygiene">Hygiene: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:exercise">Exercise: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:shelter">Shelter: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:privacy">Privacy: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:reproduction">Reproduction: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:social">Social: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:stimulation">Stimulation: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:bathroom">Bathroom: </LOC_STRING>
+      <LOC_STRING _locID="entityneeds:amusement">Amusement: </LOC_STRING>
+</ZT2Strings>

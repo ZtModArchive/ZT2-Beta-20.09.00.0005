@@ -1,0 +1,340 @@
+<UILayout name="Edge Scroller">
+   <UIRegion x="0" y="0" w="100" h="100" xalign="% min" yalign="% min" walign="% min" halign="% min"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect string="">
+      <default image="" sound="">
+         <BFColor r="0" g="0" b="0" a="0"/>
+      </default>
+   </UIAspect>
+   <UIHotKeys/>
+   <children>
+      <UILayout name="North Scroll Arrow">
+         <UIRegion x="502" y="8" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIShowHideAnim time=".5f">
+            <colors>
+               <start r="255" g="255" b="0" a="0"/>
+               <end r="255" g="255" b="0" a="128"/>
+            </colors>
+         </UIShowHideAnim>
+         <UIState active="normal" visible="hidden"/>
+         <children>
+            <UIStatic>
+               <UIRegion x="0" y="0" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/scrollarrows.dds">
+                     <BFRect x="0" y="0" w="30" h="30"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+         </children>
+      </UILayout>
+      <UILayout name="NorthEast Scroll Arrow">
+         <UIRegion x="994" y="8" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIShowHideAnim time=".5f">
+            <colors>
+               <start r="255" g="255" b="0" a="0"/>
+               <end r="255" g="255" b="0" a="128"/>
+            </colors>
+         </UIShowHideAnim>
+         <UIState active="normal" visible="hidden"/>
+         <children>
+            <UIStatic>
+               <UIRegion x="0" y="0" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/scrollarrows.dds">
+                     <BFRect x="60" y="0" w="30" h="30"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+         </children>
+      </UILayout>
+      <UILayout name="East Scroll Arrow">
+         <UIRegion x="986" y="374" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIShowHideAnim time=".5f">
+            <colors>
+               <start r="255" g="255" b="0" a="0"/>
+               <end r="255" g="255" b="0" a="128"/>
+            </colors>
+         </UIShowHideAnim>
+         <UIState active="normal" visible="hidden"/>
+         <children>
+            <UIStatic>
+               <UIRegion x="0" y="0" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/scrollarrows.dds">
+                     <BFRect x="30" y="30" w="30" h="30"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+         </children>
+      </UILayout>
+      <UILayout name="SouthEast Scroll Arrow">
+         <UIRegion x="990" y="734" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIShowHideAnim time=".5f">
+            <colors>
+               <start r="255" g="255" b="0" a="0"/>
+               <end r="255" g="255" b="0" a="128"/>
+            </colors>
+         </UIShowHideAnim>
+         <UIState active="normal" visible="hidden"/>
+         <children>
+            <UIStatic>
+               <UIRegion x="0" y="0" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/scrollarrows.dds">
+                     <BFRect x="60" y="30" w="30" h="30"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+         </children>
+      </UILayout>
+      <UILayout name="South Scroll Arrow">
+         <UIRegion x="502" y="734" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIShowHideAnim time=".5f">
+            <colors>
+               <start r="255" g="255" b="0" a="0"/>
+               <end r="255" g="255" b="0" a="128"/>
+            </colors>
+         </UIShowHideAnim>
+         <UIState active="normal" visible="hidden"/>
+         <children>
+            <UIStatic>
+               <UIRegion x="0" y="0" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/scrollarrows.dds">
+                     <BFRect x="0" y="30" w="30" h="30"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+         </children>
+      </UILayout>
+      <UILayout name="SouthWest Scroll Arrow">
+         <UIRegion x="8" y="740" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIShowHideAnim time=".5f">
+            <colors>
+               <start r="255" g="255" b="0" a="0"/>
+               <end r="255" g="255" b="0" a="128"/>
+            </colors>
+         </UIShowHideAnim>
+         <UIState active="normal" visible="hidden"/>
+         <children>
+            <UIStatic>
+               <UIRegion x="0" y="0" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/scrollarrows.dds">
+                     <BFRect x="90" y="30" w="30" h="30"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+         </children>
+      </UILayout>
+      <UILayout name="West Scroll Arrow">
+         <UIRegion x="8" y="374" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIShowHideAnim time=".5f">
+            <colors>
+               <start r="255" g="255" b="0" a="0"/>
+               <end r="255" g="255" b="0" a="128"/>
+            </colors>
+         </UIShowHideAnim>
+         <UIState active="normal" visible="hidden"/>
+         <children>
+            <UIStatic>
+               <UIRegion x="0" y="0" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/scrollarrows.dds">
+                     <BFRect x="30" y="0" w="30" h="30"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+         </children>
+      </UILayout>
+      <UILayout name="NorthWest Scroll Arrow">
+         <UIRegion x="8" y="8" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIShowHideAnim time=".5f">
+            <colors>
+               <start r="255" g="255" b="0" a="0"/>
+               <end r="255" g="255" b="0" a="128"/>
+            </colors>
+         </UIShowHideAnim>
+         <UIState active="normal" visible="hidden"/>
+         <children>
+            <UIStatic>
+               <UIRegion x="0" y="0" w="25" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/scrollarrows.dds">
+                     <BFRect x="90" y="0" w="30" h="30"/>
+                  </default>
+               </UIAspect>
+            </UIStatic>
+         </children>
+      </UILayout>
+      <UIHoverButton name="North" cursor="blank.cur">
+         <UIRegion x="2" y="0" w="98" h="2" xalign="% min" yalign="% min" walign="% min" halign="% min"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect string="" alwayshit="true">
+            <default image="" sound=""/>
+         </UIAspect>
+         <UIHotKeys/>
+         <enter>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="north"/>
+            <event msg="UI_CHILD" data="UIChildData" name="North Scroll Arrow">
+               <child msg="UI_SHOW"/>
+            </event>
+         </enter>
+         <leave>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="stop"/>
+            <event msg="UI_CHILD" data="UIChildData" name="North Scroll Arrow">
+               <child msg="UI_HIDE"/>
+            </event>
+         </leave>
+      </UIHoverButton>
+      <UIHoverButton name="NorthEast" cursor="blank.cur">
+         <UIRegion x="98" y="0" w="100" h="2" xalign="% min" yalign="% min" walign="% min" halign="% min"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect string="" alwayshit="true">
+            <default image="" sound=""/>
+         </UIAspect>
+         <UIHotKeys/>
+         <enter>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="northeast"/>
+            <event msg="UI_CHILD" data="UIChildData" name="NorthEast Scroll Arrow">
+               <child msg="UI_SHOW"/>
+            </event>
+         </enter>
+         <leave>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="stop"/>
+            <event msg="UI_CHILD" data="UIChildData" name="NorthEast Scroll Arrow">
+               <child msg="UI_HIDE"/>
+            </event>
+         </leave>
+      </UIHoverButton>
+      <UIHoverButton name="East" cursor="blank.cur">
+         <UIRegion x="99" y="2" w="100" h="98" xalign="% min" yalign="% min" walign="% min" halign="% min"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect string="" alwayshit="true">
+            <default image="" sound=""/>
+         </UIAspect>
+         <UIHotKeys/>
+         <enter>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="east"/>
+            <event msg="UI_CHILD" data="UIChildData" name="East Scroll Arrow">
+               <child msg="UI_SHOW"/>
+            </event>
+         </enter>
+         <leave>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="stop"/>
+            <event msg="UI_CHILD" data="UIChildData" name="East Scroll Arrow">
+               <child msg="UI_HIDE"/>
+            </event>
+         </leave>
+      </UIHoverButton>
+      <UIHoverButton name="SouthEast" cursor="blank.cur">
+         <UIRegion x="98" y="98" w="100" h="100" xalign="% min" yalign="% min" walign="% min" halign="% min"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect string="" alwayshit="true">
+            <default image="" sound=""/>
+         </UIAspect>
+         <UIHotKeys/>
+         <enter>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="southeast"/>
+            <event msg="UI_CHILD" data="UIChildData" name="SouthEast Scroll Arrow">
+               <child msg="UI_SHOW"/>
+            </event>
+         </enter>
+         <leave>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="stop"/>
+            <event msg="UI_CHILD" data="UIChildData" name="SouthEast Scroll Arrow">
+               <child msg="UI_HIDE"/>
+            </event>
+         </leave>
+      </UIHoverButton>
+      <UIHoverButton name="South" cursor="blank.cur">
+         <UIRegion x="2" y="763" w="98" h="5" xalign="% min" yalign="min" walign="% min" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect string="" alwayshit="true">
+            <default image="" sound=""/>
+         </UIAspect>
+         <UIHotKeys/>
+         <enter>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="south"/>
+            <event msg="UI_CHILD" data="UIChildData" name="South Scroll Arrow">
+               <child msg="UI_SHOW"/>
+            </event>
+         </enter>
+         <leave>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="stop"/>
+            <event msg="UI_CHILD" data="UIChildData" name="South Scroll Arrow">
+               <child msg="UI_HIDE"/>
+            </event>
+         </leave>
+      </UIHoverButton>
+      <UIHoverButton name="SouthWest" cursor="blank.cur">
+         <UIRegion x="0" y="98" w="2" h="100" xalign="% min" yalign="% min" walign="% min" halign="% min"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect string="" alwayshit="true">
+            <default image="" sound=""/>
+         </UIAspect>
+         <UIHotKeys/>
+         <enter>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="southwest"/>
+            <event msg="UI_CHILD" data="UIChildData" name="SouthWest Scroll Arrow">
+               <child msg="UI_SHOW"/>
+            </event>
+         </enter>
+         <leave>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="stop"/>
+            <event msg="UI_CHILD" data="UIChildData" name="SouthWest Scroll Arrow">
+               <child msg="UI_HIDE"/>
+            </event>
+         </leave>
+      </UIHoverButton>
+      <UIHoverButton name="West" cursor="blank.cur">
+         <UIRegion x="0" y="2" w="1" h="98" xalign="% min" yalign="% min" walign="% min" halign="% min"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect string="" alwayshit="true">
+            <default image="" sound=""/>
+         </UIAspect>
+         <UIHotKeys/>
+         <enter>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="west"/>
+            <event msg="UI_CHILD" data="UIChildData" name="West Scroll Arrow">
+               <child msg="UI_SHOW"/>
+            </event>
+         </enter>
+         <leave>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="stop"/>
+            <event msg="UI_CHILD" data="UIChildData" name="West Scroll Arrow">
+               <child msg="UI_HIDE"/>
+            </event>
+         </leave>
+      </UIHoverButton>
+      <UIHoverButton name="NorthWest" cursor="blank.cur">
+         <UIRegion x="0" y="0" w="2" h="2" xalign="% min" yalign="% min" walign="% min" halign="% min"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect string="" alwayshit="true">
+            <default image="" sound=""/>
+         </UIAspect>
+         <UIHotKeys/>
+         <enter>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="northwest"/>
+            <event msg="UI_CHILD" data="UIChildData" name="NorthWest Scroll Arrow">
+               <child msg="UI_SHOW"/>
+            </event>
+         </enter>
+         <leave>
+            <event msg="ZT_CAMERA_PAN" data="BFString" string="stop"/>
+            <event msg="UI_CHILD" data="UIChildData" name="NorthWest Scroll Arrow">
+               <child msg="UI_HIDE"/>
+            </event>
+         </leave>
+      </UIHoverButton>
+   </children>
+</UILayout>

@@ -1,0 +1,114 @@
+<Graph name = "GorillaMountain_Adult_M">
+	<node name = "GroomOther">
+		<table>
+			<GroomOther_A />
+			<GroomOther_B />
+			<GroomOther_C />
+			<GroomOther_Idle />
+		</table>
+		<edge anim = "GroomOther_2Sit" node = "Sit" />
+	</node>
+	<node name = "JumpAcross">
+		<table>
+			<JumpAcross_Idle />
+		</table>
+		<edge anim = "JumpAcross_2RunKnuckle" node = "RunKnuckle" />
+		<edge anim = "JumpAcross_2WalkKnuckle" node = "WalkKnuckle" />
+	</node>
+	<node name = "MaxBONES">
+		<table>
+			<MaxBONES_test />
+			<MaxBONES_walktest />
+		</table>
+	</node>
+	<node name = "RunKnuckle">
+		<table>
+			<RunKnuckle_Ahead />
+			<RunKnuckle_LeftA />
+			<RunKnuckle_LeftB />
+			<RunKnuckle_RightA />
+			<RunKnuckle_RightB />
+		</table>
+		<edge anim = "RunKnuckle_2JumpAcross" node = "JumpAcross" />
+		<edge anim = "RunKnuckle_2Stand" node = "Stand" />
+		<edge anim = "RunKnuckle_2WalkKnuckle" node = "WalkKnuckle" />
+	</node>
+	<node name = "Sit">
+		<table>
+			<Sit_Idle />
+		</table>
+		<edge anim = "Sit_2GroomOther" node = "GroomOther" />
+		<edge anim = "Sit_2Stand" node = "Stand" />
+	</node>
+	<node name = "StandBi">
+		<table>
+			<StandBi_Idle />
+			<StandBi_TurnLeft />
+			<StandBi_TurnRight />
+		</table>
+	</node>
+	<node name = "StandObject">
+		<table>
+			<StandObject_Idle />
+		</table>
+		<edge anim = "StandObject_2Stand" node = "Stand" />
+		<edge anim = "StandObject_2WalkObject" node = "WalkObject" />
+	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Chuckle />
+			<Stand_Dig />
+			<Stand_Growl />
+			<Stand_Grunt />
+			<Stand_HandGroundToMouth />
+			<Stand_Idle />
+			<Stand_QuestionBark />
+			<Stand_Scratch />
+			<Stand_SearchGround />
+			<Stand_Sneeze />
+			<Stand_TurnLeft />
+			<Stand_TurnRight />
+			<Stand_Yawn />
+		</table>
+		<edge anim = "Stand_2RunKnuckle" node = "RunKnuckle" />
+		<edge anim = "Stand_2Sit" node = "Sit" />
+		<edge anim = "Stand_2StandObject" node = "StandObject" />
+		<edge anim = "Stand_2WalkKnuckle" node = "WalkKnuckle" />
+	</node>
+	<node name = "WalkBi">
+		<table>
+			<WalkBi_Ahead />
+			<WalkBi_LeftA />
+			<WalkBi_LeftB />
+			<WalkBi_RightA />
+			<WalkBi_RightB />
+		</table>
+		<edge anim = "WalkBi_2Stand" node = "Stand" />
+		<edge anim = "WalkBi_2StandBi" node = "StandBi" />
+		<edge anim = "WalkBi_2WalkKnuckle" node = "WalkKnuckle" />
+	</node>
+	<node name = "WalkKnuckle">
+		<table>
+			<WalkKnuckle_Ahead />
+			<WalkKnuckle_LeftA />
+			<WalkKnuckle_LeftB />
+			<WalkKnuckle_RightA />
+			<WalkKnuckle_RightB />
+		</table>
+		<edge anim = "WalkKnuckle_2JumpAcross" node = "JumpAcross" />
+		<edge anim = "WalkKnuckle_2RunKnuckle" node = "RunKnuckle" />
+		<edge anim = "WalkKnuckle_2Stand" node = "Stand" />
+		<edge anim = "WalkKnuckle_2WalkBi" node = "WalkBi" />
+	</node>
+	<node name = "WalkObject">
+		<table>
+			<WalkObject_Ahead />
+			<WalkObject_LeftA />
+			<WalkObject_LeftB />
+			<WalkObject_RightA />
+			<WalkObject_RightB />
+		</table>
+		<edge anim = "WalkObject_2StandObject" node = "StandObject" />
+	</node>
+
+</Graph>

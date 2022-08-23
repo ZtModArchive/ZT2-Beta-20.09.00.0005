@@ -1,0 +1,13 @@
+<UIText name="neggraphlabel">
+   <UIRegion x="0" y="0" w="100" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default image="" sound="">
+         <BFFont align="right">
+            <BFColor r="255" g="0" b="0" a="255"/>
+         </BFFont>
+         <BFColor r="255" g="255" b="255" a="255"/>
+      </default>
+   </UIAspect>
+   <text format="zoostatus:misc_label_red_format"/>
+</UIText>

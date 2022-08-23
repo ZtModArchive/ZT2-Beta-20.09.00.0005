@@ -1,0 +1,48 @@
+<UIToggleButton sticky="1" autosize="true">
+   <UIRegion x="4" w="240" h="24"/>
+   <UIState visible="normal"/>
+   <UIAspect alwayshit="true">
+      <default>
+         <BFFont>
+            <BFColor r="255" g="255" b="255" a="255"/>
+         </BFFont>
+         <BFRect x="0" y="0" w="-1" h="-1"/>
+      </default>
+      <standard>
+         <normal>
+            <BFFont>
+               <BFColor r="255" g="197" b="78" a="255"/>
+            </BFFont>
+         </normal>
+         <highlighted image="">
+            <BFFont>
+               <BFColor r="255" g="255" b="201" a="255"/>
+            </BFFont>
+         </highlighted>
+         <activated image="">
+            <BFFont>
+               <BFColor r="255" g="170" b="0" a="255"/>
+            </BFFont>
+         </activated>
+         <disabled>
+            <BFFont>
+               <BFColor r="192" g="192" b="192" a="64"/>
+            </BFFont>
+         </disabled>
+      </standard>
+   </UIAspect>
+   <text format="mapname:format" type="multi"/>
+   <doubleclick>
+      <event msg="UI_CHILD" data="UIChildData" name="Play Map">
+         <child msg="UI_ACTIVATE"/>
+      </event>
+   </doubleclick>
+   <on>
+      <event msg="UI_CHILD" data="UIChildData" name="Play Map">
+         <child msg="UI_ENABLE"/>
+      </event>
+      <event msg="UI_CHILD" data="UIChildData" name="Map Lock Image">
+         <child msg="UI_HIDE"/>
+      </event>
+   </on>
+</UIToggleButton>

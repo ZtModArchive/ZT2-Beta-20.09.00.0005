@@ -1,0 +1,21 @@
+<BFTypedBinder binderType="entrance" abstract="true">
+   <types>
+      <entity>
+         <building>
+	        <entrance/>
+         </building>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <UIButton name="overviewicon">
+		<UIAspect>
+			<default image="ui/zoomap/icon_zoogate.tga"/>
+		</UIAspect>
+	  </UIButton>
+   </shared>
+	<binder>
+	</binder>
+</BFTypedBinder>

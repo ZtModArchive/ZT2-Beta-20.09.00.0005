@@ -1,0 +1,7 @@
+<ZTAIAmbientsMgr
+	On="true"
+	MaxAmbients="10"
+	MinDelaySecs="4"
+	MaxDelaySecs="6"
+	Probability="1.0"
+/>

@@ -1,0 +1,9 @@
+del *.kf
+del *.kfm
+del *.kfinfo
+del PeafowlCommon_Adult_M_*.nif
+del PeafowlCommon_Adult_F_*.nif
+del PeafowlCommon_Young_M_*.nif
+del PeafowlCommon_Adult_M.bf
+del PeafowlCommon_Adult_F.bf
+del PeafowlCommon_Young_M.bf

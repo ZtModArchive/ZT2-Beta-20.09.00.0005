@@ -1,0 +1,232 @@
+<BFTypedBinder binderType="Rock_Savannah_Large_A">
+   <types>
+      <entity>
+         <rock>
+            <Rock_Savannah_Large_A/>
+         </rock>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj2" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj3" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj4" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="biomedetail_01" rottype="ignore" postype="use" attachnode="biomedetail_01"/>
+            <parentObj parent="mainObj" child="biomedetail_02" rottype="ignore" postype="use" attachnode="biomedetail_02"/>
+            <parentObj parent="mainObj" child="biomedetail_03" rottype="ignore" postype="use" attachnode="biomedetail_03"/>
+            <parentObj parent="mainObj" child="biomedetail_04" rottype="ignore" postype="use" attachnode="biomedetail_04"/>
+            <parentObj parent="mainObj" child="biomedetail_05" rottype="ignore" postype="use" attachnode="biomedetail_05"/>
+            <parentObj parent="mainObj" child="biomedetail_06" rottype="ignore" postype="use" attachnode="biomedetail_06"/>
+            <parentObj parent="mainObj" child="biomedetail_07" rottype="ignore" postype="use" attachnode="biomedetail_07"/>
+            <parentObj parent="mainObj" child="biomedetail_08" rottype="ignore" postype="use" attachnode="biomedetail_08"/>
+            <parentObj parent="mainObj" child="biomedetail_09" rottype="ignore" postype="use" attachnode="biomedetail_09"/>
+            <parentObj parent="mainObj" child="biomedetail_10" rottype="ignore" postype="use" attachnode="biomedetail_10"/>
+            <parentObj parent="mainObj" child="biomedetail_11" rottype="ignore" postype="use" attachnode="biomedetail_11"/>
+            <parentObj parent="mainObj" child="biomedetail_12" rottype="ignore" postype="use" attachnode="biomedetail_12"/>
+            <parentObj parent="mainObj" child="biomedetail_13" rottype="ignore" postype="use" attachnode="biomedetail_13"/>
+            <parentObj parent="mainObj" child="biomedetail_14" rottype="ignore" postype="use" attachnode="biomedetail_14"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\rocks\savannah\Rock_Savannah_Large_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:Rock_Savannah_Large_A"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Rock_Savannah_Large_A"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\rocks\savannah\Rock_Savannah_Large_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Rock_Savannah_Large_A"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData icon3Doffset="0 0 0.854466" icon3Dscale="0.202134" terrainFlatten="true"><!--check rock.xml for other placement data--></ZTPlacementData>
+      <BFGBiomeData location="savannah_worldwide">
+         <savannah/>
+      </BFGBiomeData>
+      <BFAIEntityDataShared b_LargeRock="true" b_ScentMarkable="true" s_Zoopedia="zoopedia:zoopedia_savannahrocks:entry" f_researchUnlockTime="108" f_researchCost="90" b_SeeThrough="false"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFStaticBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="ShadowNode_01" width="6" minLength="6" maxLength="7" minOffset="0" maxOffset="1"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj2">
+         <instance>
+            <BFPhysObj>
+               <BFStaticBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="ShadowNode_02" width="6" minLength="6" maxLength="7" minOffset="0" maxOffset="1"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj3">
+         <instance>
+            <BFPhysObj>
+               <BFStaticBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="ShadowNode_03" width="6" minLength="6" maxLength="8" minOffset="0" maxOffset="1.5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj4">
+         <instance>
+            <BFPhysObj>
+               <BFStaticBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="ShadowNode_04" width="6" minLength="6" maxLength="8" minOffset="0" maxOffset="2"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities\objects\rocks\savannah\Rock_Savannah_Large_A.nif" scale=".9"/>
+               <BFTravAnimPathComponent actorfile="entities/objects/rocks/savannah/Rock_Savannah_Large_A_TAP.bfm"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_01">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_02">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_03">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_04">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_05">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_06">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_07">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_08">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_09">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_10">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_11">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_12">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_13">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_14">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFAIEntityDataInstance b_ScentEmitter="false"/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="TAP">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock1" useBehSet="UseRock" exitBehSet="ExitRock1" targetNode="Rock_EnterA"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock2" useBehSet="UseRock" exitBehSet="ExitRock2" targetNode="Rock_EnterB"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock3" useBehSet="UseRock" exitBehSet="ExitRock3" targetNode="Rock_EnterC"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock4" useBehSet="UseRock" exitBehSet="ExitRock4" targetNode="Rock_EnterD"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock5" useBehSet="UseRock" exitBehSet="ExitRock5" targetNode="Rock_EnterE"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock6" useBehSet="UseRock" exitBehSet="ExitRock6" targetNode="Rock_EnterF"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock7" useBehSet="UseRock" exitBehSet="ExitRock7" targetNode="Rock_EnterG"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock8" useBehSet="UseRock" exitBehSet="ExitRock8" targetNode="Rock_EnterH"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock9" useBehSet="UseRock" exitBehSet="ExitRock9" targetNode="Rock_EnterI"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock10" useBehSet="UseRock" exitBehSet="ExitRock10" targetNode="Rock_EnterJ"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock11" useBehSet="UseRock" exitBehSet="ExitRock11" targetNode="Rock_EnterK"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock12" useBehSet="UseRock" exitBehSet="ExitRock12" targetNode="Rock_EnterL"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock13" useBehSet="UseRock" exitBehSet="ExitRock13" targetNode="Rock_EnterM"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock14" useBehSet="UseRock" exitBehSet="ExitRock14" targetNode="Rock_EnterN"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock15" useBehSet="UseRock" exitBehSet="ExitRock15" targetNode="Rock_EnterO"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock16" useBehSet="UseRock" exitBehSet="ExitRock16" targetNode="Rock_EnterP"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterRock17" useBehSet="UseRock" exitBehSet="ExitRock17" targetNode="Rock_EnterQ"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="50">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

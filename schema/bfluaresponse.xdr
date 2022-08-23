@@ -1,0 +1,14 @@
+<Schema name="BFLuaResponse">
+	<ElementType name="BFLuaResponse">
+		<extends type="BFXMLObj"/>
+		<ElementType name="luaargs">
+			<AttributeType name="argsptr">
+				<datatype dt:type="bin.hex" bf:pointer="BFXMLObj"/>
+			</AttributeType>
+			<attribute name="value" type="argsptr" required="yes"/>
+		</ElementType>
+		<attribute name="context" dt:type="string" required="yes"/>
+		<attribute name="msgtype" dt:type="string" required="yes"/>
+		<element type="luaargs"/>
+	</ElementType>
+</Schema>

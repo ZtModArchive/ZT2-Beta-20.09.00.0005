@@ -1,0 +1,111 @@
+<BFTypedBinder binderType="Ostrich" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Struthioniformes>
+                     <Struthionidae>
+                        <Ostrich/>
+                     </Struthionidae>
+                  </Struthioniformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\units\animals\Ostrich\Ostrich_Adult_M_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo ids="entityname:Ostrich"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Ostrich_Adult_F"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared p_FightOffset="0 -1 0" p_PreyOffset="0 1 0" b_Prey="true" s_DonateToken="t_DonateOstrich" s_Species="Ostrich" b_Basic="true" b_Granivore="true" b_Graminivore="true" b_SmallAnimal="true" b_FoodDishEater="true" f_adoptRemoveTime="0" f_adoptRarity="1" s_Zoopedia="zoopedia:zoopedia_ostrich:entry" f_RequiredInitialSpace="200" f_RequiredAdditionalSpace="20" p_PursuitBallNode="0 -1 180">
+         <BFAINeedAdjusts privacy="0"/>
+      </BFAIEntityDataShared>
+      <BFGBiomeData location="savannah_southafrica">
+         <savannah/>
+      </BFGBiomeData>
+      <ZTPlacementData icon3Doffset="0 0 -.16" icon3Dscale="1.29"/>
+      <ZTUserStaffAction>
+         <SetAttribute name="hygiene" value="0" threshold="20" locid="superstaff:animal_groom" effect="SuperStaffGroom"/>
+         <SetAttribute name="health" value="0" threshold="20" locid="superstaff:animal_heal" effect="SuperStaffHeal"/>
+      </ZTUserStaffAction>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFShadowLODComponent numLevels="1" switchingDists="60.0"/>
+               <BFActorComponent actorfile="entities/units/animals/Ostrich/Ostrich_Adult_M.bfm"/>
+               <BFSecondaryAnimComponent animName="Secondary_TailA" frequency="1.5" chance="40" validAnims="Stand_Idle,Pee_Idle,Poop_Idle,Chew_Idle,Eat_Drink,Eat_Idle,Stand_Click,Stand_Hiss,Stand_Scratch,Stand_Snort,Stand_TendEgg,Stand_TurnLeft90,Stand_TurnRight180,Stand_TurnRight90,Stand_Yawn"/>
+               <BF2LegsGroundFitComponent rightAnkleJoint="Bip01 R Foot" leftAnkleJoint="Bip01 L Foot" ankleRotVectorLeft="0 0 -1" ankleRotVectorRight="0 0 -1" heightOffset="0" fitRadius=".15"/>
+                <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+               <BFCollisionComponent grid="Bip01 Spine"/>
+               <BFGridCollisionComponent/>
+               <BFDecalTextureCycleComponent materialName="Ostrich_Adult_M_MTL">
+                  <Step imageName="" hold="3.0" variance="0.5"/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink.dds" hold="0.1" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+               </BFDecalTextureCycleComponent>
+               <BFHeadLookComponent leftRightAnimName="Secondary_HeadLook" lookDirNode="Bip01 Head" lookDirVector="0 1 0" gain_z="-2" fov_extreme_lr="90.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent lodLevel="0" shadowTexture="world\shadows\blob\blob_animal_final.tga" baseNode="Bip01 Spine" width="1.5" minLength="1.5" maxLength="3.0" minOffset="0" maxOffset=".75"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFBehaviorMgr behaviorVersion="1">
+               <subBehaviors>
+                  <BFBehAnimate interruptible="true" targetAnim="Stand_Idle" interruptFlag="true" loopFlag="true"/>
+               </subBehaviors>
+            </BFBehaviorMgr>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFLocomotionMgr/>
+         </instance>
+         <binder>
+            <BFNamedBinder binderName="ground" required="1">
+               <instance>
+                  <BFLocoAnimate version="1">
+                     <stop name="Stand"/>
+                     <slow name="Walk"/>
+                     <medium name="Walk" minAnimSpeed="1.2" maxAnimSpeed="1.5"/>
+                     <fast name="Run"/>
+                     <prance name="Prance"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+         </binder>
+      </BFBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="600">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>       
+   </binder>
+</BFTypedBinder>

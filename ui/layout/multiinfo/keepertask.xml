@@ -1,0 +1,26 @@
+<UILayout>
+   <UIRegion x="0" y="0" w="60" h="32" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default/>
+   </UIAspect>
+   <children>
+      <UIStatic>
+         <UIRegion x="5" y="1" w="30" h="30" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default image="ui/infopan/button_keeperassignments.tga">
+               <BFRect x="12" y="11" w="39" h="41"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIText name="num assignments">
+         <UIRegion x="38" y="10" w="0" h="32" xalign="min" yalign="min" walign="max" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default/>
+         </UIAspect>
+         <text format="entityname:format"/>
+      </UIText>
+   </children>
+</UILayout>

@@ -1,0 +1,12 @@
+<BFTypedBinder binderType="Playground" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <Playground/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+</BFTypedBinder>

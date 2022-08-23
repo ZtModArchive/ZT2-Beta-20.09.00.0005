@@ -1,0 +1,24 @@
+<lodDistances>
+	<level upThresh="95" downThresh="85" zero="1.0" one="2.0"  two="2.0"  three="2.0" />
+	<level upThresh="85" downThresh="80" zero="1.0" one="2.0"  two="2.0"  three="2.0" />
+	<level upThresh="75" downThresh="70" zero="1.0" one="1.8"  two="1.5"  three="1.5" />
+	<level upThresh="65" downThresh="60" zero="1.0" one="1.6"  two="1.3"  three="1.0" />
+	<level upThresh="55" downThresh="50" zero="1.0" one="1.4"  two="1.0"  three="1.0" />
+	<level upThresh="45" downThresh="42" zero="1.0" one="1.0"  two="0.9"  three="0.7" />
+	<level upThresh="43" downThresh="40" zero="1.0" one="1.0"  two="0.85" three="0.65" />
+	<level upThresh="40" downThresh="37" zero="1.0" one="1.0"  two="0.8"  three="0.6" />
+	<level upThresh="38" downThresh="35" zero="1.0" one="1.0"  two="0.75" three="0.55" />
+	<level upThresh="35" downThresh="32" zero="1.0" one="1.0"  two="0.7"  three="0.5" />
+	<level upThresh="32" downThresh="29" zero="1.0" one="0.95" two="0.65" three="0.45" />
+	<level upThresh="30" downThresh="27" zero="1.0" one="0.9"  two="0.6"  three="0.4" />
+	<level upThresh="28" downThresh="25" zero="1.0" one="0.85" two="0.55" three="0.4" />
+	<level upThresh="26" downThresh="23" zero="1.0" one="0.8"  two="0.5"  three="0.35" />
+	<level upThresh="23" downThresh="20" zero="1.0" one="0.75" two="0.45" three="0.35" />
+	<level upThresh="20" downThresh="15" zero="1.0" one="0.7"  two="0.4"  three="0.3" />
+	<level upThresh="18" downThresh="13" zero="1.0" one="0.6"  two="0.35" three="0.3" />
+	<level upThresh="15" downThresh="12" zero="1.0" one="0.55" two="0.3"  three="0.25" />
+	<level upThresh="12" downThresh="10" zero="1.0" one="0.5"  two="0.25" three="0.25" />
+	<level upThresh="9" downThresh="8"   zero="1.0" one="0.45" two="0.2"  three="0.2" />
+	<level upThresh="5" downThresh="3"   zero="1.0" one="0.4"  two="0.15" three="0.15" />
+	<level upThresh="0" downThresh="0"   zero="1.0" one="0.2"  two="0.1"  three="0.1" />
+</lodDistances>

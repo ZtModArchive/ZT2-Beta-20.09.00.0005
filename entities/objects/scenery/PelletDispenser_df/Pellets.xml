@@ -1,0 +1,35 @@
+<BFTypedBinder binderType="Pellets">
+   <types>
+      <entity>
+         <scenery>
+            <Pellets/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\scenery\PelletDispenser_df\Pellets_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:Pellets"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Pellets"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData gridSnap="true" randomRotate="false"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFTerrainDecalComponent imageName="entities\objects\scenery\PelletDispenser_df\terrain_pellets.dds" alphaBlend="false" radius="1.0"/>
+               <BFBoundedObjectComponent/>
+            </BFPhysObj>
+         </instance>
+         <shared/>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

@@ -1,0 +1,22 @@
+<soundtags>
+   <BFSoundtag>
+      <BF3DSndFactory name="cash_register">
+         <snd name="sounds/register.wav" volume="0.8" mindist="20.0" maxdist="100.0"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="fryregister">
+         <snd name="sounds/fryregister.wav" volume="0.6" mindist="20.0" maxdist="100.0"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="bathroom">
+         <snd name="entities/objects/buildings/sound/bathroom.wav" volume="0.6" mindist="40.0" maxdist="50"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="bouncyride_used">
+         <snd name="entities/objects/scenery/Playground_BouncyRide_Lion_df/sound/lion_bouncy.wav" volume="1" mindist="2" maxdist="50"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+</soundtags>

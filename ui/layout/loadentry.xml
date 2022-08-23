@@ -1,0 +1,34 @@
+<UIButton name="LoadEntry">
+   <UIRegion x="10" w="177" h="16"/>
+   <UIAspect alwayshit="true">
+      <default>
+         <BFFont>
+            <BFColor r="255" g="83" b="66" a="255"/>
+         </BFFont>
+      </default>
+      <standard>
+         <normal>
+            <BFFont>
+               <BFColor r="59" g="83" b="66" a="255"/>
+            </BFFont>
+         </normal>
+         <highlighted image="">
+            <BFFont>
+               <BFColor r="255" g="255" b="201" a="255"/>
+            </BFFont>
+         </highlighted>
+         <activated image="">
+            <BFFont>
+               <BFColor r="255" g="255" b="0" a="255"/>
+            </BFFont>
+         </activated>
+         <disabled/>
+      </standard>
+   </UIAspect>
+   <text format="savegame:filename"/>
+   <doubleclick>
+      <event msg="UI_CHILD" data="UIChildData" name="TextButton Load">
+         <child msg="UI_ACTIVATE"/>
+      </event>
+   </doubleclick>
+</UIButton>

@@ -1,0 +1,26 @@
+<UILayout name="eomanimals">
+	<UIRegion x="0" y="0" w="80" h="90" xalign="min" yalign="min" walign="len" halign="len"/>
+	<UIState active="normal" visible="normal"/>
+	<children>
+		<UIText name="number">
+			<UIRegion x="0" y="66" w="80" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+			<UIState active="normal" visible="normal"/>
+			<text format="shell:currentdatedisplay">321</text>
+			<UIAspect>
+				<default>
+					<BFFont align="center"/>
+				</default>
+			</UIAspect>
+		</UIText>
+		<UIStatic name="icon">
+			<UIRegion x="8" y="0" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+			<UIState active="normal" visible="normal"/>
+			<UIAspect>
+				<default image="entities/units/animals/BearPolar/BearPolar_Adult_F_icon.dds">
+					<BFRect x="0" y="0" w="64" h="64"/>
+					<BFColor r="255" g="255" b="255" a="255"/>
+				</default>
+			</UIAspect>
+		</UIStatic>
+	</children>
+</UILayout>		

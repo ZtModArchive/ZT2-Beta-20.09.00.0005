@@ -1,0 +1,14 @@
+<BFM modelname="entities\objects\enrichment\CarTire\CarTire_Idle.nif">
+	<animation anim="entities\objects\enrichment\CarTire\CarTire_Idle.bf" animName="CarTire_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\CarTire\CarTire_Nudge.bf" animName="CarTire_Nudge" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\CarTire\CarTire_Used.bf" animName="CarTire_Used" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="CarTire_Idle" version="1">
+	<node name="CarTire">
+		<table>
+			<CarTire_Idle />
+			<CarTire_Nudge />
+			<CarTire_Used />
+		</table>
+	</node>
+</Graph>

@@ -1,0 +1,227 @@
+<ZT2Strings>
+   <ElephantHerdScenarioGoals>
+      <intro>Elephant Herd Addition</intro>
+      <overview>
+         A group of African elephants were scheduled to be culled in the Kingdom of Swaziland because of 
+         elephant overpopulation. Instead they have been offered to the zoo best able to create a suitable 
+         habitat for the animals. One crated African elephant has been delivered to your zoo and can be found
+         near the front gate.  
+         <p/>
+         Create a wildlife exhibit for the elephant and ensure that its basic needs are met. 
+         If you can demonstrate your ability to care for this species, you will be given 3 more animals of mixed 
+         gender to help you establish a thriving community.
+      </overview>
+      <overviewshort>
+         A group of African elephants were scheduled to be culled in the Kingdom of Swaziland because of 
+         elephant overpopulation. Instead they have been offered to the zoo best able to create a suitable 
+         habitat for the animals.
+      </overviewshort>
+      <elephantpart1successoverview>
+         The Kingdom of Swaziland is pleased to be able to offer you the remaining African elephants. The 
+         animals will be delivered shortly for you to incorporate into your African elephant exhibit.  The 
+         habitat conditions will be monitored by the International Society of Animal Wellbeing (ISAW) for the 
+         next 3 months and should you fail to meet the basic needs for any of these animals, they will be removed 
+         from your zoo and donated to another facility.
+      </elephantpart1successoverview>      
+      <result>Elephant Herd successfully added to your zoo!</result>
+      <adoptelephant>Create an exhibit area to house your African elephant and release her from her crate. Ensure that her environment need is met.</adoptelephant>
+      <finishadoptelephant>Great! Your new elephant seems content with her new exhibit area.</finishadoptelephant>
+      <meetneeds>Now that you have an appropriate exhibit, meet the basic needs of your African elephant.</meetneeds>
+      <finishmeetneeds>Excellent! You have met the basic needs of your African elephant!</finishmeetneeds>
+            
+      <adoptfourelephants>Add the three crated African elephants to your elephant exhibit.</adoptfourelephants>
+      <finishadoptfourelephants>Great! All new elephants have been released from their crates.</finishadoptfourelephants>
+      <meetenvironmentfourelephants>Ensure your exhibit provides a suitable environment for your four elephants.</meetenvironmentfourelephants>      
+      <finishmeetenvironmentfourelephants>Your environment is well suited to the four elephants.</finishmeetenvironmentfourelephants>
+      <meetallneeds>
+      	Care for your elephants and strive to meet all needs. Their condition will be evaluated in three months.
+      </meetallneeds>
+      <finishmeetallneeds>Your 4 African elephants were well cared for! They are yours to keep.</finishmeetallneeds>
+      <failedmeetneedsoverview>
+      	Unfortunately ISAW officials are not satisfied that your facility is capable of providing 
+      	adequate care for a herd of African elephants. The animals are being removed from your park and 
+      	will be donated to an alternate facility.
+      </failedmeetneedsoverview>
+      <failedmeetneeds>Your animals did not do well in your facility. They have been sent to an alternate facility.</failedmeetneeds>
+      <finishmeetneedsoverview>
+      	ISAW officials are satisfied that your facility is capable of providing excellent care for your herd of 
+      	African elephants. Your elephants are here to stay and the ISAW will contact you again should they 
+      	become aware of other animals requiring suitable homes. 
+      </finishmeetneedsoverview>      
+   </ElephantHerdScenarioGoals>
+   
+   <CruelConditions>
+	<Cruelintro>Mistreated Animals</Cruelintro>
+      <Crueloverview>
+         An unnamed zoo in North America has been operating in an unregulated and 
+         uncontrolled environment. A series of animal abuse complaints brought against 
+         the facility have initiated an official investigation. The animals were found 
+         in poorly designed and poorly maintained facilities that did not provide for the 
+         health and psychological well-being of the animals. These mistreated animals need 
+         rehabilitative care.
+         <p/>
+         Although your facility has so far only catered to small animals, you are one of the few
+	 in the area with vacant land. Due to the emergency nature of the situation, yours is the
+	 only facility capable of accommodating these animals. 
+	 <p/>
+	 A herd of zebras and a pride of lions have been delivered to your zoo. Create 
+	 exhibits large enough to accommodate these 2 animal groups, treat their illnesses 
+	 and provide basic care.
+
+      </Crueloverview>
+      <Crueloverviewshort>
+         A series of animal abuse complaints brought against an unnamed facility have 
+         initiated an official investigation and resulted in groups of animals being removed from the 
+         zoo. Care for these mistreated animals in your facility.
+      </Crueloverviewshort>
+      <Cruelsuccessoverview>
+	Your zoo has been able to provide excellent care for these animals. In the meantime, the offending 
+	facility has been shutdown permanently and another group of animals has been delivered into 
+	your care! You have been given a cash grant of $8000 to help defray the cost.
+      </Cruelsuccessoverview>
+      
+      <Cruelresult>Abused animals restored to excellent health!</Cruelresult>
+      <Cruelaccomodatezebras>Create a habitat suitable for 6 Common Zebras.</Cruelaccomodatezebras>
+      <Cruelaccomodatelions>Create a habitat suitable for 8 Lions.</Cruelaccomodatelions>
+      <Cruelmeetneeds>Cure any illnesses and meet the basic needs of these animals.</Cruelmeetneeds>
+      
+      <finishCruelaccomodatezebras>The 6 Common Zebras are in a suitable habitat.</finishCruelaccomodatezebras>
+      <finishCruelaccomodatelions>The 8 Lions are in a suitable habitat.</finishCruelaccomodatelions>
+      <finishCruelmeetneeds>All animals have been cured of illnesses and their basic needs have been met.</finishCruelmeetneeds>
+      
+      
+           
+      <Cruelaccomodatechimps>Create a habitat suitable for 7 Chimpanzees, cure their illnesses and meet their basic needs.</Cruelaccomodatechimps>>
+      <finishCruelaccomodatechimps>Your Chimpanzees are thriving!</finishCruelaccomodatechimps>
+      
+      <failedCruelscenario>An animal has died! All abused animals have been shipped to another facility.</failedCruelscenario>
+      <failedCruelscenariooverview>
+      	One of the abused animals has died! It seems your facility is not capable of 
+      	providing adequate care of these previously mistreated animals. The surviving animals 
+      	have been removed from your facility and will hopefully receive better care in 
+      	their new homes
+      </failedCruelscenariooverview>
+      
+
+      <finishCruelscenariooverview>
+      	Congratulations! All of the animals removed from the offending facility have received
+      	excellent care in your zoo. Your efforts in preventing animal cruelty have been noticed by
+      	the wildlife community.
+      </finishCruelscenariooverview>     	
+   
+   </CruelConditions>
+   
+
+   <SmugglingRing>
+	<SmugglingRingintro>Smuggling Ring Exposed</SmugglingRingintro>
+      <SmugglingRingoverview>
+         Authorities have exposed an international smuggling ring that was illegally trading 
+         endangered animals. Many animals have been recovered in recent raids and are 
+         desperate for suitable homes. You have been given the opportunity to obtain several 
+         endangered animals as long as you can quickly prepare exhibits that will house them 
+         successfully. You will receive a new animal at a regular interval for as 
+         long as you can maintain the happiness and welfare of the animals you have previously 
+         received.  Further shipments of animals will cease on first report that any animal 
+         previously sent to your facility becomes unhappy with its care or environment. 
+      </SmugglingRingoverview>
+      <SmugglingRingoverviewshort>
+         Authorities have exposed an international smuggling ring that was illegally trading 
+         endangered animals. Many animals have been recovered and are desperate for 
+         suitable homes. If you act fast, several endangered animals can be yours.
+      </SmugglingRingoverviewshort>
+      <SmugglingRingFailureoverview>
+	Sadly your facility seems unable to accommodate all of the animals and many more animals 
+	still require rehabilitative homes. It will be necessary for authorities to find an 
+	alternate solution.  
+      </SmugglingRingFailureoverview>
+      
+      <SmugglingRingPart1Successoverview>
+	You have successfully housed all of the animals rescued from an extensive smuggling 
+	ring. This Herculean effort on your part has ensured that these endangered animals will
+	forever be protected from the threat of becoming merchandise on the black market.
+      </SmugglingRingPart1Successoverview>      
+           
+      <SmugglingRingresult>Smuggling ring exposed! All animals rehabilitated.</SmugglingRingresult>
+      
+      <SmugglingRingRedKangaroo>Time is of the essence! Create a habitat for the Red Kangaroo and release her from her crate.</SmugglingRingRedKangaroo>
+      <SmugglingRingRedKangarooOK>The Red Kangaroo is content with her environment.</SmugglingRingRedKangarooOK>
+      
+      <SmugglingRingBengalTiger>A new animal has been delivered! Create a habitat for the Bengal Tiger and release him from his crate.</SmugglingRingBengalTiger>
+      <SmugglingRingBengalTigerOK>The Bengal Tiger is content with his environment.</SmugglingRingBengalTigerOK>
+      
+      <SmugglingRingGrizzlyBear>Another animal has arrived! Create a habitat for the Grizzly Bear and release him from his crate.</SmugglingRingGrizzlyBear>
+      <SmugglingRingGrizzlyBearOK>The Grizzly Bear is content with his environment.</SmugglingRingGrizzlyBearOK>
+            
+      <SmugglingRingGorilla>Another animal delivered! Create a habitat for the Gorilla and release her from her crate.</SmugglingRingGorilla>
+      <SmugglingRingGorillaOK>The Gorilla is content with her environment.</SmugglingRingGorillaOK>
+      
+      <SmugglingRingRhino>A new animal has arrived! Create a habitat for the Black Rhinoceros and release him from his crate.</SmugglingRingRhino>
+      <SmugglingRingRhinoOK>The Black Rhinoceros is content with his environment.</SmugglingRingRhinoOK>
+      
+      <SmugglingRingElephant>A new animal delivery... only a couple more! Create a habitat for the African Elephant and release her from her crate.</SmugglingRingElephant>
+      <SmugglingRingElephantOK>The African Elephant is content with her environment.</SmugglingRingElephantOK>
+      
+      <SmugglingRingSnowLeopard>The last animal has been delivered! Create a habitat for the Snow Leopard and release him from his crate.</SmugglingRingSnowLeopard>
+      <SmugglingRingSnowLeopardOK>The Snow Leopard is content with his environment.</SmugglingRingSnowLeopardOK>
+      
+      <SmugglingRingNeedPoints>Ensure the animals are happy and that their environment is met until the last animal has been delivered.</SmugglingRingNeedPoints>
+	
+      <SmugglingRingNeedPointsDone>
+        Congratulations! All of the animals have been housed in appropriate exhibits and you've been able to 
+        manage their happiness throughout the rush of placing all these new additions.
+      </SmugglingRingNeedPointsDone>    
+      
+      <SmugglingRingAnimalUnhappy>An animal has become unhappy with its care or environment. Futher animal shipments have ceased.</SmugglingRingAnimalUnhappy>
+      <SmugglingRingAnimalDeath>An animal has died! Your facility is incapable of handling the influx of animals!</SmugglingRingAnimalDeath>
+      
+      <SmugglingRingPart2overview>
+        Each of the animals you have received were confiscated from a smuggling operation and had 
+        likely been poached from game reserves, many of them having been separated from their 
+        mothers while very young. It would be an incredible accomplishment to be able to return 
+        these animals to the wild. Meet the advanced needs of these animals so that they may be
+        successfully released back into their natural habitats.
+      </SmugglingRingPart2overview>
+      
+      <SmugglingRingMeedAdvancedNeeds>Meet the advanced needs of all rescued animals and release them to the wild.</SmugglingRingMeedAdvancedNeeds>
+      <SmugglingRingMeedAdvancedNeedsDone>You have successfully released many endangered animals back into the wild!</SmugglingRingMeedAdvancedNeedsDone>
+      
+      
+      <SmugglingRingPart2Successoverview>
+	Congratulations!  You have successfully returned all of the animals rescued from an 
+	international smuggling ring to their natural habitats and your efforts are lauded by animal 
+	conservationists worldwide.  In recognition of your efforts, you have been presented with a commemorative sundial which represents the
+	timelessness of your achievement. You will be able to use this sundial in all of your future
+	endeavors.
+      </SmugglingRingPart2Successoverview>      
+     
+   	
+   
+   
+   
+   </SmugglingRing>
+
+
+
+
+
+
+
+
+   <ElephantHerdScenarioLabels>
+      <C2S1>Prevent Animal Abuse</C2S1>
+      <C2S1short>Prevent Animal Abuse</C2S1short>
+   </ElephantHerdScenarioLabels>
+   
+   <CruelConditionsLabels>
+   	<C2S2>Cruel and Inhumane Conditions</C2S2>
+   	<C2S2short>Cruel and Inhumane Conditions</C2S2short>
+   
+   </CruelConditionsLabels>
+   
+   <SmugglingRingLabels>
+   	<C2S3>Smuggling Ring Exposed</C2S3>
+   	<C2S3short>Smuggling Ring Exposed</C2S3short>
+   
+   </SmugglingRingLabels>   
+   
+</ZT2Strings>

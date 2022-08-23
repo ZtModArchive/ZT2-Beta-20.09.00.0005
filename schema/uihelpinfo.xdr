@@ -1,0 +1,10 @@
+<Schema name="UIHelpInfo">
+	<ElementType name="UIHelpInfo">
+		<extends type="BFXMLObj"/>
+		<attribute name="ids" dt:type="string" default="" />
+		<attribute name="name" dt:type="string" default="" />
+		<attribute name="short" dt:type="string" default="" />
+		<attribute name="long" dt:type="string" default="" />
+		<attribute name="help" dt:type="string"default="" />
+	</ElementType>
+</Schema>

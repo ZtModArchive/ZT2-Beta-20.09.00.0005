@@ -1,0 +1,75 @@
+<BFTypedBinder binderType="RhinocerosBlack_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Perissodactyla>
+                     <Rhinocerotidae>
+                        <RhinocerosBlack>
+                           <RhinocerosBlack_Adult/>
+                        </RhinocerosBlack>
+                     </Rhinocerotidae>
+                  </Perissodactyla>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0.001074 1.036035" icon3Dscale="0.404327" />
+      <BFAIEntityDataShared f_viewBonus="5" b_Adult="1"/>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="2" motionClass="mover" maxSlope=".50" wadeDepth="1"/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="texController" required="1">
+         <instance>
+            <BFAITextureController currState="well" defaultState="well">
+               <attribList>
+                  <health/>
+                  <hygiene/>
+               </attribList>
+               <stateList>
+                  <sickanddirty>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="1 - Default" image="entities\units\animals\RhinocerosBlack\RhinocerosBlack_Adult_F_Sick_Dirty.dds"/>
+                     </textureData>
+                  </sickanddirty>
+                  <sick>
+                     <attribData>
+                        <health minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="1 - Default" image="entities\units\animals\RhinocerosBlack\RhinocerosBlack_Adult_F_Sick.dds"/>
+                     </textureData>
+                  </sick>
+                  <dirty>
+                     <attribData>
+                        <hygiene minRange="50" maxRange="101"/>
+                     </attribData>
+                     <textureData>
+                        <mainObj material="1 - Default" image="entities\units\animals\RhinocerosBlack\RhinocerosBlack_Adult_F_Dirty.dds"/>
+                     </textureData>
+                  </dirty>
+                  <well>
+                     <textureData>
+                        <mainObj material="1 - Default" image="entities\units\animals\RhinocerosBlack\RhinocerosBlack_Adult_F.dds"/>
+                     </textureData>
+                  </well>
+               </stateList>
+            </BFAITextureController>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

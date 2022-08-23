@@ -1,0 +1,259 @@
+<ZT2Strings>
+   <TheWorld>
+   
+   
+      <AmericanAnimalsintro>North American Animals</AmericanAnimalsintro>
+      <AmericanAnimalsoverview>
+         A prominent zoo would like to open a new sister facility to display an exhibit area featuring three different species of 
+         animals from North America. However due to foreign content restrictions established by the ruling government, these 
+         animals must represent less than 30% of the animals on exhibit.
+	 <p/>
+	 To include three animals from North America in your zoo and be within the regulations you must have at least 
+	 8 different species that are from regions other than North America. 
+      </AmericanAnimalsoverview>
+      <AmericanAnimalsoverviewshort>
+         A prominent zoo would like to open a new sister facility to feature an exhibit area featuring North American animals. However due to 
+         regulations these animals must represent less than 30% of the animals on exhibit. Create a new zoo so that you can display the required 
+         animals and fall within regulations.
+      </AmericanAnimalsoverviewshort>
+      
+      <AmericanAnimalsSuccessoverview>
+	Your zoo has been a great success and the new North American exhibit area is a hit!  The balance between 
+	animals from North America and those from other regions of the world has ensured that you fall within regulations.
+      </AmericanAnimalsSuccessoverview>  
+   
+      <AmericanAnimalsresult>North American animals on exhibit!</AmericanAnimalsresult>
+      
+      <AmericanAnimalsoverallgoal>
+      	Adopt three animals from North America. However, to be permitted to display these animals, you must have at least 
+      	8 species from outside North America.
+      </AmericanAnimalsoverallgoal>
+      <AmericanAnimalsoverallgoalOK>
+      	Congratulations! You have succeeded in balancing your display of animals from North America with other species.
+      </AmericanAnimalsoverallgoalOK>    
+   
+   
+      <AsianAnimalsintro>Asian Animal Expansion</AsianAnimalsintro>
+      <AsianAnimalsoverview>
+         The Board of Directors of your zoo has mandated that the three Asian animals be obtained within one 
+         year. Unfortunately animals from Asia are in short supply! Zoos around the world have had difficulty obtaining 
+         these treasured endangered animals and they are only being offered to zoos with the highest of reputations. 
+	 <p/>
+	 You have one year to obtain the animals. Given their scarcity, you must increase your zoo fame to at least  
+	 four stars to even hope to obtain the mandated number of these rare creatures.
+      </AsianAnimalsoverview>
+      <AsianAnimalsoverviewshort>
+         The Board of Directors of your zoo has mandated that the three Asian animals be obtained within one 
+         year. Unfortunately animals from Asia are in short supply! Do what it takes to increase your zoo's reputation to 
+         be able to aquire these rare creatures.
+      </AsianAnimalsoverviewshort>
+      
+      <AsianAnimalsSuccessoverview>
+	The addition of these rare Asian animals has had the expected positive impact on zoo attendance. Your zoo is thriving and the 
+	Board is exceptionally pleased with your results.
+      </AsianAnimalsSuccessoverview>  
+      <AsianAnimalsFailureoverview>
+	Unfortunately the mandated time allowed by your board of Directors has expired. Regrettably they have had to find an 
+	alternate direction for the zoo. 
+      </AsianAnimalsFailureoverview>       
+   
+      <AsianAnimalsresult>Asian animals on exhibit!</AsianAnimalsresult>
+      
+      <AsianAnimalsoverallgoal>
+      	Add three animals from Asia to your zoo within one year.
+      </AsianAnimalsoverallgoal>
+      <AsianAnimalsoverallgoalOK>
+      	Congratulations! You have succeeded in obtaining three Asian animals within the required one year timeframe.
+      </AsianAnimalsoverallgoalOK>
+      <AsianAnimalsoverallgoalfailed>
+      	You have failed to obtain three Asian animals within the required one year timeframe.
+      </AsianAnimalsoverallgoalfailed>      
+   
+   
+   	
+   	
+      <AfricanAnimalsintro>African Animal Empire</AfricanAnimalsintro>
+      <AfricanAnimalsoverview>
+         A wealthy landowner in Northern Europe wants to attempt the impossible. He has a vacant plot of land and would 
+         like to create an animal park featuring animals only from Africa. He has $25,000 to get started 
+         and will provide some additional funding each time a new African animal species is added. The completed park must hold 
+         12 different species of animals that originate in Africa.
+	 <p/>
+	 In the interest of getting the park off the ground, he's willing to accept that it may be necessary to include 
+	 animals from other regions of the world. Ultimately however for the park to meet his criteria, the park must 
+	 be home to animals only from Africa. Any animals from other regions must be released to the wild for the park to be 
+	 considered complete.
+      </AfricanAnimalsoverview>
+      <AfricanAnimalsoverviewshort>
+         A wealthy landowner would like to create an animal park featuring animals only from Africa. It must contain at least
+         12 different species. You can use any animal to get it going but animals from other regions must be 
+         released to the wild for the park to be considered complete.
+      </AfricanAnimalsoverviewshort>
+      
+      <AfricanAnimalsSuccessoverview>
+	Congratulations! You have succeeded in creating an animal park dedicated to the animals of Africa. The new "African 
+	Animal Empire" has been written up as a tourist destination and is attracting guests from around the world.
+      </AfricanAnimalsSuccessoverview>  
+   
+      <AfricanAnimalsresult>African Animal Empire completed!</AfricanAnimalsresult>
+      
+      <AfricanAnimalsoverallgoal>
+      	Build an animal park featuring 12 species of animals originating from Africa. Release to the wild any animals 
+      	from other regions of the world that you may have used while building the park.
+      </AfricanAnimalsoverallgoal>
+      <AfricanAnimalsoverallgoalOK>
+      	Congratulations! You have succeeded in creating an animal park dedicated to the animals of Africa.
+      </AfricanAnimalsoverallgoalOK>      
+      
+      
+      <AfricanAnimalshave1>You have your first animal from Africa in your park!</AfricanAnimalshave1>
+      <AfricanAnimalshave2>You have two animals from Africa in your park!</AfricanAnimalshave2>
+      <AfricanAnimalshave3>You have three animals from Africa in your park!</AfricanAnimalshave3>
+      <AfricanAnimalshave4>You have four animals from Africa in your park!</AfricanAnimalshave4>
+      <AfricanAnimalshave5>You have five animals from Africa in your park!</AfricanAnimalshave5>
+      <AfricanAnimalshave6>You have six animals from Africa in your park!</AfricanAnimalshave6>
+      <AfricanAnimalshave7>You have seven animals from Africa in your park!</AfricanAnimalshave7>
+      <AfricanAnimalshave8>You have eight animals from Africa in your park!</AfricanAnimalshave8>
+      <AfricanAnimalshave9>You have nine animals from Africa in your park!</AfricanAnimalshave9>
+      <AfricanAnimalshave10>You have ten animals from Africa in your park!</AfricanAnimalshave10>
+      <AfricanAnimalshave11>You have eleven animals from Africa in your park!</AfricanAnimalshave11>
+      <AfricanAnimalshave12>You have twelve animals from Africa in your park!</AfricanAnimalshave12>
+      
+      <AfricanAnimalsgetridofothers>You have enough animals from Africa but you need to release to the wild animals from any other world region.</AfricanAnimalsgetridofothers>
+   
+     
+
+      <HugeBiomeintro>Complete Ecosystem</HugeBiomeintro>
+      <HugeBiomeoverview>
+         Guests particularly enjoy exhibits that resemble the natural habitat of the animals they house. They are even 
+         more impressed when an entire ecosystem can be modeled within such an exhibit. Create a Savannah exhibit 
+         that contains both herbivores and carnivores. Ensure that their environment needs are met. As long as your 
+         carnivores' food needs are being met by your zookeepers, your herbivores should be safe. To make the 
+         exhibit a success, you will need at least 6 herbivores and 4 carnivores within the same area.
+         <p/>
+         Continue to run this exhibit for 4 months. As long as you maintain this exhibit, you will 
+         receive an additional $2000 per month in grant funding to help pay the staff cost likely required to keep this running
+         smoothly.
+      </HugeBiomeoverview>
+      <HugeBiomeoverviewshort>
+         Create a Savannah exhibit that contains both herbivores and carnivores but keep your carnivores well fed to avoid 
+         any unfortunate accidents! 
+      </HugeBiomeoverviewshort>
+      
+      <HugeBiomeSuccessoverview>
+	Your ecosystem has been successful over the four month trial period. Guests enjoyed the exhibit immensely in spite of the
+	additional stress on zoo staff to keep the carnivores sated!
+      </HugeBiomeSuccessoverview>  
+      <HugeBiomeFailureoverview>
+	Your ecosystem exhibit has failed as you were unable to prevent your carnivores from attacking your herbivores. You
+	have lost all funding for this program.
+      </HugeBiomeFailureoverview>
+     <HugeBiomeFailureWitnessedoverview>
+	Your zoo has suffered a serious setback when one of your guests witnessed one of your animals become prey to 
+	another. Your biome exhibit is considered a failure and parents are outraged that their children were 
+	exposed to the brutality of a live animal becoming prey to another.  Regrettably your zoo has had to put a 
+	significant sum of money into escrow to pay the legal fees expected as a result of the lawsuit filed on behalf 
+	of the Outraged Parents Coalition.  
+      </HugeBiomeFailureWitnessedoverview>      
+   
+      <HugeBiomeresult>A successful ecosystem demonstration!</HugeBiomeresult>
+      
+      <HugeBiomeoverallgoal>
+      	Create a Savannah exhibit combining 4 carnivores and 6 herbivores within the same area. Run this exhibit for 4 months and ensure that no herbivores get injured.
+      </HugeBiomeoverallgoal>
+      <HugeBiomeoverallgoalOK>
+      	Congratulations! You have succeeded displaying an entire ecosystem without allowing any animals to be injured.
+      </HugeBiomeoverallgoalOK>
+      <HugeBiomeoverallgoalfailed>
+      	Your display of an ecosystem unfortunately has resulted in tragedy. Carnivores need to be well fed!
+      </HugeBiomeoverallgoalfailed>  
+   
+   
+   
+   
+   
+      <TheWorldsBiomesintro>The World's Biomes</TheWorldsBiomesintro>
+      <TheWorldsBiomesoverview>
+         A biome is characterized by the plant and animal life and climate in a region. The Earth has many different 
+         environments that vary in temperature, moisture, light and the life that the various conditions support.
+	 <p/>
+	 The geography department of a major university has funded a massive biome project to create a facility where 
+	 the major biomes of the world are represented and can be used for study, research and education. By creating 
+	 such an environment and opening it to the public, it is hoped that the benefits of education can be shared at 
+	 the same time that some of the costs of the project are defrayed by public admission.
+	 <p/>
+	 Create a single zoo that features each of the following biomes and ensure that you have at least one animal in 
+	 each exhibit.
+	 <p/>
+	 Alpine, Boreal Forest, Desert, Savannah, Scrub, Temperate Forest, Tropical Rainforest, Tundra, and Wetlands.
+      </TheWorldsBiomesoverview>
+      <TheWorldsBiomesoverviewshort>
+         The geography department of a major university has funded a massive biome project to create a facility where 
+	 the major biomes of the world are represented. You have the task to create such an environment.
+      </TheWorldsBiomesoverviewshort>
+      
+      <TheWorldsBiomesSuccessoverview>
+	This facility has proven to be a great educational asset to the community. Learning about the nuances of the 
+	different biomes and the life forms that they support is the first step in understanding how animal and plant life 
+	can be protected through conservation.  In recognition of your accomplishment, you have been given The Global Monument
+	which you will be able to use in all of your future endeavors.
+      </TheWorldsBiomesSuccessoverview>      
+           
+      <TheWorldsBiomesresult>Biome facility a success!</TheWorldsBiomesresult>
+      
+      <TheWorldsBiomesAlpine>Create an Alpine biome and adopt one animal suitable for this exhibit.</TheWorldsBiomesAlpine>
+      <TheWorldsBiomesAlpineOK>Great! You have an Alpine biome with an animal suited for the exhibit.</TheWorldsBiomesAlpineOK>
+      
+      <TheWorldsBiomesBorealForest>Create a Boreal Forest biome and adopt one animal suitable for this exhibit.</TheWorldsBiomesBorealForest>
+      <TheWorldsBiomesBorealForestOK>Great! You have a Boreal Forest biome with an animal suited for the exhibit.</TheWorldsBiomesBorealForestOK>
+      
+      <TheWorldsBiomesDesert>Create a Desert biome and adopt one animal suitable for this exhibit.</TheWorldsBiomesDesert>
+      <TheWorldsBiomesDesertOK>Great! You have a Desert biome with an animal suited for the exhibit.</TheWorldsBiomesDesertOK>
+            
+      <TheWorldsBiomesSavannah>Create a Savannah biome and adopt one animal suitable for this exhibit.</TheWorldsBiomesSavannah>
+      <TheWorldsBiomesSavannahOK>Great! You have a Savannah biome with an animal suited for the exhibit.</TheWorldsBiomesSavannahOK>
+      
+      <TheWorldsBiomesScrub>Create a Scrub biome and adopt one animal suitable for this exhibit.</TheWorldsBiomesScrub>
+      <TheWorldsBiomesScrubOK>Great! You have a Scrub biome with an animal suited for the exhibit.</TheWorldsBiomesScrubOK>
+      
+      <TheWorldsBiomesTemperateForest>Create a Temperate Forest biome and adopt one animal suitable for this exhibit.</TheWorldsBiomesTemperateForest>
+      <TheWorldsBiomesTemperateForestOK>Great! You have a Temperate Forest biome with an animal suited for the exhibit.</TheWorldsBiomesTemperateForestOK>
+      
+      <TheWorldsBiomesTropicalRainforest>Create a Tropical Rainforest biome and adopt one animal suitable for this exhibit.</TheWorldsBiomesTropicalRainforest>
+      <TheWorldsBiomesTropicalRainforestOK>Great! You have a Tropical Rainforest biome with an animal suited for the exhibit.</TheWorldsBiomesTropicalRainforestOK>
+      
+      <TheWorldsBiomesTundra>Create a Tundra biome and adopt one animal suitable for this exhibit.</TheWorldsBiomesTundra>
+      <TheWorldsBiomesTundraOK>Great! You have a Tundra biome with an animal suited for the exhibit.</TheWorldsBiomesTundraOK>
+      
+      <TheWorldsBiomesWetlands>Create a Wetlands biome and adopt one animal suitable for this exhibit.</TheWorldsBiomesWetlands>
+      <TheWorldsBiomesWetlandsOK>Great! You have a Wetlands biome with an animal suited for the exhibit.</TheWorldsBiomesWetlandsOK>
+            
+      
+      
+   </TheWorld>
+
+
+
+
+   
+   <TheWorldLabels>
+   	<WorldCampaignshort>The Globe</WorldCampaignshort>
+   	
+   	<WorldCampaignS1>North American Foreign Content</WorldCampaignS1>
+   	<WorldCampaignS1short>Foreign Content</WorldCampaignS1short>   	
+   	
+   	<WorldCampaignS2>Scarce Asian Animals</WorldCampaignS2>
+   	<WorldCampaignS2short>Scarce Asian Animals</WorldCampaignS2short>   	
+   	
+   	<WorldCampaignS3>African Animal Empire</WorldCampaignS3>
+   	<WorldCampaignS3short>African Animal Empire</WorldCampaignS3short>   	
+   	
+   	<WorldCampaignS4>Complete Ecosystem</WorldCampaignS4>
+   	<WorldCampaignS4short>Complete Ecosystem</WorldCampaignS4short>
+   	
+   	<WorldCampaignS5>The World's Biomes</WorldCampaignS5>
+   	<WorldCampaignS5short>The World's Biomes</WorldCampaignS5short>
+   
+   </TheWorldLabels>   
+   
+</ZT2Strings>

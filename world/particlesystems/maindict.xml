@@ -1,0 +1,74 @@
+<BFParticleDictionary>
+   <TestParticle>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/dustpuff_test.xml"/>
+      </Conditions>
+      <Conditions biome="grassland">
+         <BFParticleDefinition xmlFile="world/particlesystems/emoticon_test.xml"/>
+      </Conditions>
+   </TestParticle>
+   <WaterfallSpray>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/water/waterfallspray.xml"/>
+      </Conditions>
+   </WaterfallSpray>
+   <WaterRipples>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/water/ripples.xml" removeTime="2.0"/>
+      </Conditions>
+   </WaterRipples>
+   <ShallowRipples>
+      <Conditions ground="water">
+         <BFParticleDefinition xmlFile="world/water/ripples.xml" removeTime="2.0"/>
+      </Conditions>
+   </ShallowRipples>
+   <ShoreRipples>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/water/shore_ripples.xml" removeTime="5.0"/>
+      </Conditions>
+   </ShoreRipples>
+   <PlacementCloud>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/dustpuff_test.xml" removeTime="3.0"/>
+      </Conditions>
+   </PlacementCloud>
+   <maple_falling_leaves>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/biome_fx/maple_falling_leaves.xml" removeTime="4.0"/>
+      </Conditions>
+   </maple_falling_leaves>
+   <Biomefx>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/biome_fx/Biomefx_Dust.xml" removeTime="2.0"/>
+      </Conditions>
+      <Conditions ground="water">
+         <BFParticleDefinition xmlFile="world/particlesystems/biome_fx/Biomefx_Splash.xml" removeTime="1.32"/>
+      </Conditions>
+      <Conditions biome="desert">
+         <BFParticleDefinition xmlFile="world/particlesystems/biome_fx/Biomefx_Sand.xml" removeTime="1.32"/>
+      </Conditions>
+      <Conditions biome="tundra">
+         <BFParticleDefinition xmlFile="world/particlesystems/biome_fx/Biomefx_Snow.xml" removeTime="1.32"/>
+      </Conditions>
+   </Biomefx>
+   <Biomefx_Dust>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/biome_fx/Biomefx_Dust.xml" removeTime="2.0"/>
+      </Conditions>
+   </Biomefx_Dust>
+   <Biomefx_Splash>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/biome_fx/Biomefx_Splash.xml" removeTime="1.32"/>
+      </Conditions>
+   </Biomefx_Splash>
+   <Biomefx_Sand>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/biome_fx/Biomefx_Sand.xml" removeTime="1.32"/>
+      </Conditions>
+   </Biomefx_Sand>
+   <Biomefx_Snow>
+      <Conditions>
+         <BFParticleDefinition xmlFile="world/particlesystems/biome_fx/Biomefx_Snow.xml" removeTime="1.32"/>
+      </Conditions>
+   </Biomefx_Snow>
+</BFParticleDictionary>

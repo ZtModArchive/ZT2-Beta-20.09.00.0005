@@ -1,0 +1,58 @@
+<BFTypedBinder binderType="ElephantGrass_Savannah">
+   <types>
+      <entity>
+         <foliage>
+            <plant>
+               <grass>
+                  <ElephantGrass_Savannah/>
+               </grass>
+            </plant>
+         </foliage>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 -0.001562 0.723912" icon3Dscale="0.559745" />
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\foliage\ElephantGrass\ElephantGrass_Savannah_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:ElephantGrass_Savannah"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ElephantGrass_Savannah"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\foliage\ElephantGrass\ElephantGrass_Savannah_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ElephantGrass_Savannah"/>
+         </on>
+      </UIToggleButton>
+      <BFGBiomeData location="savannah_africa">
+         <savannah/>
+      </BFGBiomeData>
+      <BFAIEntityDataShared b_GrazeGrass="true" s_prop="Grass_Prop" s_Zoopedia="zoopedia:zoopedia_elephantgrass:entry" f_researchUnlockTime="108" f_researchCost="27"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities/objects/foliage/ElephantGrass/ElephantGrass_Savannah.nif" scale="1.0"/>
+               <BFMultiGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="15">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

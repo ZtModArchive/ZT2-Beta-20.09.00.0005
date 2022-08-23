@@ -1,0 +1,10 @@
+<Schema name="BFAIRelationData">
+	<ElementType name="BFAIRelationData">
+		<extends type="BFXMLObj"/>
+		<attribute name="relation" dt:type="string" required="yes"/>
+		<AttributeType name="entityptr">
+			<datatype dt:type="bin.hex" bf:pointer="BFGEntity"/>
+		</AttributeType>
+		<attribute name="target" type="entityptr" required="yes"/>
+	</ElementType>
+</Schema>

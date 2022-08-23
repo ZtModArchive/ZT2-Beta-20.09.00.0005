@@ -1,0 +1,13 @@
+<TEXTKEY>
+   <key percent="0" text="{Bip01 Neck2} runps WaterRipples useZRot snd"/>
+   <key percent="0" text="snd 'large_swim' "/>
+   <key percent="10" text="{Bip01 Neck2} runps WaterRipples useZRot"/>
+   <key percent="20" text="{Bip01 Neck2} runps WaterRipples useZRot"/>
+   <key percent="30" text="{Bip01 Neck2} runps WaterRipples useZRot"/>
+   <key percent="40" text="{Bip01 Neck2} runps WaterRipples useZRot"/>
+   <key percent="50" text="{Bip01 Neck2} runps WaterRipples useZRot"/>
+   <key percent="60" text="{Bip01 Neck2} runps WaterRipples useZRot"/>
+   <key percent="70" text="{Bip01 Neck2} runps WaterRipples useZRot"/>
+   <key percent="80" text="{Bip01 Neck2} runps WaterRipples useZRot"/>
+   <key percent="90" text="{Bip01 Neck2} runps WaterRipples useZRot"/>
+</TEXTKEY>

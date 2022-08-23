@@ -1,0 +1,165 @@
+<BFTypedBinder binderType="ReptileKiosk_df">
+   <types>
+      <entity>
+         <building>
+            <ReptileKiosk_df/>
+         </building>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="shadowObj2" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="biomedetail_01" rottype="ignore" postype="use" attachnode="biomedetail_01"/>
+            <parentObj parent="mainObj" child="biomedetail_02" rottype="ignore" postype="use" attachnode="biomedetail_02"/>
+            <parentObj parent="mainObj" child="biomedetail_03" rottype="ignore" postype="use" attachnode="biomedetail_03"/>
+            <parentObj parent="mainObj" child="biomedetail_04" rottype="ignore" postype="use" attachnode="biomedetail_04"/>
+            <parentObj parent="mainObj" child="biomedetail_05" rottype="ignore" postype="use" attachnode="biomedetail_05"/>
+            <parentObj parent="mainObj" child="biomedetail_06" rottype="ignore" postype="use" attachnode="biomedetail_06"/>
+            <parentObj parent="mainObj" child="biomedetail_07" rottype="ignore" postype="use" attachnode="biomedetail_07"/>
+            <parentObj parent="mainObj" child="reptiles" rottype="use" postype="use"/>
+            <parentObj parent="mainObj" child="tanks" rottype="use" postype="use"/>
+            
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <ZTPlacementData dockArrowStyle="standard" dockArrowSize="1.5">
+         <UIAspect>
+            <default image="entities\objects\buildings\ReptileKiosk_df\ReptileKiosk_df_icon.tga"/>
+         </UIAspect>
+      </ZTPlacementData>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\buildings\ReptileKiosk_df\ReptileKiosk_df_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:ReptileKiosk"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ReptileKiosk_df"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\buildings\ReptileKiosk_df\ReptileKiosk_df_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="ReptileKiosk_df"/>
+         </on>
+      </UIToggleButton>
+      <UIButton name="overviewicon">
+         <UIAspect>
+            <default image="ui/zoomap/icon_gift.dds"/>
+         </UIAspect>
+      </UIButton>
+      <BFAIEntityDataShared b_DonationAcceptor="false" s_Zoopedia="zoopedia:zoopedia_giftshop:entry" f_researchUnlockTime="135" f_researchCost="1200"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\square_blob.tga" baseNode="ShadowNode_01" width="10" minLength="10" maxLength="15" minOffset="0" maxOffset="4"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj2">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\square_blob.tga" baseNode="ShadowNode_02" width="10" minLength="10" maxLength="15" minOffset="0" maxOffset="4"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/buildings/ReptileKiosk_df/ReptileKiosk_df.nif" scale="1.0" switch="0 20 45" minSwitch="0 0 20"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="reptiles">
+         <instance>
+            <BFPhysObj>
+               <BFActorComponent actorfile="entities/objects/buildings/ReptileKiosk_df/ReptileKiosk_Reptiles_df.bfm" activeSequenceName="Stand_Idle" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFSecondaryAnimComponent animName="Secondary_Cham" frequency="1.5" chance="40" validAnims="Stand_Idle"/>
+               <BFSecondaryAnimComponent animName="Secondary_Snake" frequency="1.5" chance="40" validAnims="Stand_Idle"/>
+               <BFSecondaryAnimComponent animName="Secondary_Turtle" frequency="1.5" chance="40" validAnims="Stand_Idle"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="tanks">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/buildings/ReptileKiosk_df/ReptileKiosk_Tanks_df.nif" scale="1.0" switch="0 18 36"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_01">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_02">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_03">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_04">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_05">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_06">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_07">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="5 15 25 35"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Use_Kiosk">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot targetNode="Dock_Guest_01"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Guest_02"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Guest_03"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Guest_04"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Guest_05"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Guest_06"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Guest_07"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Guest_08"/>
+                  <BFGEntityContainerSlot targetNode="Dock_Guest_09"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>       
+   </binder>
+</BFTypedBinder>

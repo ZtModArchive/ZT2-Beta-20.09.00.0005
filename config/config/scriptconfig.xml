@@ -1,0 +1,7 @@
+<BFLuaConfig>
+	<BFLog sendFile="1" sendDebugger="0" logfile="lualog.txt">
+		<BFLuaContext cutoff="trace"/>
+		<BFLuaStack cutoff="trace"/>
+	</BFLog>
+	<BFScriptContextMgr cacheScripts="1"/>
+</BFLuaConfig>

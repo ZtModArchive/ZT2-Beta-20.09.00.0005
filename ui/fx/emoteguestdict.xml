@@ -1,0 +1,12 @@
+<BFParticleDictionary>
+   <EmoteGuestMoneyVeryGood>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteGuestMoneyVeryGood.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestMoneyVeryGood>
+   <EmoteGuestMoneyBad>
+      <Conditions>
+         <BFParticleDefinition xmlFile="UI\fx\emoticons_animal\EmoteGuestMoneyBad.xml" removeTime="10.0"/>
+      </Conditions>
+   </EmoteGuestMoneyBad>
+</BFParticleDictionary>

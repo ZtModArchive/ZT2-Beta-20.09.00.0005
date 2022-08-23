@@ -1,0 +1,63 @@
+<BehaviorSets>
+   <Idle>
+      <subjects>
+         <ambient_ground/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimateSwitch>
+            <animTable>
+               <Walk anim="Walk_Ahead"/>
+               <Run anim="Run_Ahead"/>
+               <Stand anim="Stand_Idle"/>
+               <default anim="Walk_Ahead"/>
+            </animTable>
+         </BFBehAnimateSwitch>
+      </behaviors>
+   </Idle>
+   <Ambient>
+      <subjects>
+         <ambient_ground/>
+      </subjects>
+      <behaviors>
+         <BFBehRandomSet>
+            <randomSets>
+               <Wander weight="60"/>
+               <Stand weight="30"/>
+               <Eat weight="10"/>
+            </randomSets>
+         </BFBehRandomSet>
+      </behaviors>
+   </Ambient>
+   <Wander>
+      <subjects>
+         <ambient_ground/>
+      </subjects>
+      <behaviors>
+         <BFBehWander playTime="20" locoSpeed="fast"/>
+      </behaviors>
+   </Wander>
+   <Stand>
+      <subjects>
+         <ambient_ground/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Idle"/>
+      </behaviors>
+   </Stand>
+   <Eat>
+      <subjects>
+         <ambient_ground/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Stand_Eat"/>
+      </behaviors>
+   </Eat>
+   <RunStraight>
+      <subjects>
+         <ambient_ground/>
+      </subjects>
+      <behaviors>
+         <BFBehAnimate targetAnim="Run_Ahead" playTime="30"/>
+      </behaviors>
+   </RunStraight>
+</BehaviorSets>

@@ -1,0 +1,18 @@
+<UILayout>
+   <UIRegion x="0" y="0" w="0" h="64" walign="max"/>
+   <children>
+      <UIStatic name="image">
+         <UIRegion x="0" y="0" w="64" h="54"/>
+         <UIAspect>
+            <default image="awards/Wildlife.dds">
+               <BFRect x="0" y="5" w="64" h="54"/>
+            </default>
+         </UIAspect>
+      </UIStatic>
+      <UIText name="label">
+         <UIRegion x="70" y="8" w="525" h="48" walign="len"/>
+         <UIAspect locid="awards:Wildlife"/>
+         <text type="multi"/>
+      </UIText>
+   </children>
+</UILayout>

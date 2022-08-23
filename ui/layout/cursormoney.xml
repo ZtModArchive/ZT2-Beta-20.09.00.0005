@@ -1,0 +1,22 @@
+<ZTMoneyText name="" nocents="true" posformat="entityinfo:poscursorformat" negformat="entityinfo:negcursorformat">
+   <UIRegion x="-80" y="-30" w="100" h="30" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect alwayshit="never">
+      <default>
+         <BFFont shadowx="0" shadowy="0">
+            <BFColor r="255" g="255" b="0" a="192"/>
+         </BFFont>
+      </default>
+   </UIAspect>
+   <UIShowHideAnim time=".8" initialDir="true" initialTime=".8" exitRate="1.0">
+      <start x="0" y="-100" w="-1" h="-1"/>
+      <end x="0" y="0" w="-1" h="-1"/>
+      <colors>
+         <start r="255" g="255" b="0" a="0"/>
+         <end r="255" g="255" b="0" a="192"/>
+      </colors>
+   </UIShowHideAnim>
+   <animationcompleted>
+      <event msg="UI_ANIMATION_COMPLETED"/>
+   </animationcompleted>
+</ZTMoneyText>

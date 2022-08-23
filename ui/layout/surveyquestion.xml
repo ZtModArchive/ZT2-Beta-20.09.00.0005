@@ -1,0 +1,37 @@
+<UILayout name="surveyquestion">
+   <UIRegion x="0" y="0" w="512" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default/>
+   </UIAspect>
+   <children>
+      <UIText name="string">
+         <UIRegion x="10" y="0" w="502" h="25" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect locid="">
+            <default>
+               <BFFont align="left">
+                  <BFColor r="59" g="83" b="66" a="255"/>
+               </BFFont>
+            </default>
+         </UIAspect>
+      </UIText>
+      <UIMultiIcon name="value" value="1">
+         <UIRegion x="0" y="20" w="512" h="32" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="normal"/>
+         <UIAspect>
+            <default>
+               <BFRect x="0" y="0" w="512" h="32"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+         <images>
+            <image key="1" image="ui/zooinfo/survey1.dds"/>
+            <image key="2" image="ui/zooinfo/survey2.dds"/>
+            <image key="3" image="ui/zooinfo/survey3.dds"/>
+            <image key="4" image="ui/zooinfo/survey4.dds"/>
+            <image key="5" image="ui/zooinfo/survey5.dds"/>
+         </images>
+      </UIMultiIcon>
+   </children>
+</UILayout>

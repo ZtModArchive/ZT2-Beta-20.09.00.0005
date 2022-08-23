@@ -1,0 +1,119 @@
+<Graph name = "TigerBengal_Adult_F">
+	<node name = "Eat">
+		<table>
+			<Eat_BiteA />
+			<Eat_ChewGulp />
+			<Eat_DrinkA />
+			<Eat_DrinkB />
+			<Eat_Sniff />
+		</table>
+		<edge anim = "Eat_2Stand" node = "Stand" />	</node>
+	<node name = "GroomPaw">
+		<table>
+			<GroomPaw_A />
+			<GroomPaw_B />
+			<GroomPaw_C />
+			<GroomPaw_Idle />
+		</table>
+		<edge anim = "GroomPaw_2Sit" node = "Sit" />	</node>
+	<node name = "LieEat">
+		<table>
+			<LieEat_A />
+			<LieEat_Idle />
+		</table>
+		<edge anim = "LieEat_2Lie" node = "Lie" />	</node>
+	<node name = "LieLickPaw">
+		<table>
+			<LieLickPaw_Idle />
+		</table>
+		<edge anim = "LieLickPaw_2Lie" node = "Lie" />	</node>
+	<node name = "Lie">
+		<table>
+			<Lie_Idle />
+			<Lie_Roar />
+			<Lie_Sneeze />
+			<Lie_Sniff />
+			<Lie_Yawn />
+		</table>
+		<edge anim = "Lie_2LieEat" node = "LieEat" />		<edge anim = "Lie_2LieLickPaw" node = "LieLickPaw" />		<edge anim = "Lie_2Sit" node = "Sit" />		<edge anim = "Lie_2Sleep" node = "Sleep" />		<edge anim = "Lie_2Stand" node = "Stand" />	</node>
+	<node name = "Poop">
+		<table>
+			<Poop_A />
+		</table>
+		<edge anim = "Poop_2Stand" node = "Stand" />	</node>
+	<node name = "Run">
+		<table>
+			<Run_Ahead />
+			<Run_LeftA />
+			<Run_LeftB />
+			<Run_RightA />
+			<Run_RightB />
+		</table>
+		<edge anim = "Run_2Stalk" node = "Stalk" />		<edge anim = "Run_2StalkPause" node = "StalkPause" />		<edge anim = "Run_2Stand" node = "Stand" />		<edge anim = "Run_2Walk" node = "Walk" />	</node>
+	<node name = "Sit">
+		<table>
+			<Sit_Idle />
+			<Sit_Roar />
+			<Sit_Sneeze />
+			<Sit_Sniff />
+			<Sit_Yawn />
+		</table>
+		<edge anim = "Sit_2GroomPaw" node = "GroomPaw" />		<edge anim = "Sit_2Lie" node = "Lie" />		<edge anim = "Sit_2Stand" node = "Stand" />	</node>
+	<node name = "Sleep">
+		<table>
+			<Sleep_Idle />
+		</table>
+		<edge anim = "Sleep_2Lie" node = "Lie" />	</node>
+	<node name = "StalkPause">
+		<table>
+			<StalkPause_Idle />
+		</table>
+		<edge anim = "StalkPause_2Run" node = "Run" />		<edge anim = "StalkPause_2Stalk" node = "Stalk" />		<edge anim = "StalkPause_2Stand" node = "Stand" />	</node>
+	<node name = "Stalk">
+		<table>
+			<Stalk_Ahead />
+		</table>
+		<edge anim = "Stalk_2Run" node = "Run" />		<edge anim = "Stalk_2StalkPause" node = "StalkPause" />		<edge anim = "Stalk_2Stand" node = "Stand" />		<edge anim = "Stalk_2Walk" node = "Walk" />	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Idle />
+			<Stand_MarkScent />
+			<Stand_NoseNudge />
+			<Stand_Pee />
+			<Stand_Pounce />
+			<Stand_Roar />
+			<Stand_RoarLong />
+			<Stand_Shake />
+			<Stand_Sneeze />
+			<Stand_Sniff />
+			<Stand_Stretch />
+			<Stand_SwipeLeft />
+			<Stand_SwipeRight />
+			<Stand_TurnLeft />
+			<Stand_TurnRight />
+			<Stand_Yawn />
+		</table>
+		<edge anim = "Stand_2Eat" node = "Eat" />		<edge anim = "Stand_2Lie" node = "Lie" />		<edge anim = "Stand_2Poop" node = "Poop" />		<edge anim = "Stand_2Run" node = "Run" />		<edge anim = "Stand_2Sit" node = "Sit" />		<edge anim = "Stand_2StalkPause" node = "StalkPause" />		<edge anim = "Stand_2Walk" node = "Walk" />	</node>
+	<node name = "Swim">
+		<table>
+			<Swim_Ahead />
+			<Swim_LeftA />
+			<Swim_RightA />
+		</table>
+		<edge anim = "Swim_2TreadWater" node = "TreadWater" />	</node>
+	<node name = "TreadWater">
+		<table>
+			<TreadWater_Idle />
+		</table>
+		<edge anim = "TreadWater_2Swim" node = "Swim" />	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_LeftA />
+			<Walk_LeftB />
+			<Walk_RightA />
+			<Walk_RightB />
+		</table>
+		<edge anim = "Walk_2Run" node = "Run" />		<edge anim = "Walk_2Stalk" node = "Stalk" />		<edge anim = "Walk_2Stand" node = "Stand" />	</node>
+
+</Graph>

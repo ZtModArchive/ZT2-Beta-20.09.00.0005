@@ -1,0 +1,33 @@
+<BFTypedBinder binderType="Moose_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Artiodactyla>
+                     <Cervidae>
+                        <Moose>
+                           <Moose_Adult/>
+                        </Moose>
+                     </Cervidae>
+                  </Artiodactyla>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0 1.105249" icon3Dscale="0.467516" />
+      <BFAIEntityDataShared b_Adult="1"/>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="2" motionClass="swimmer" waterScore="0" landScore="0" maxSlope=".75"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

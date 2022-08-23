@@ -1,0 +1,4 @@
+<TEXTKEY>
+   <key time="0.0" text="as 100 1, anim 'Swim_2Slide'"/>
+   <key percent="100" text="anim 'Slide_Ahead', dis, exit"/>
+</TEXTKEY>

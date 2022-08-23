@@ -1,0 +1,19 @@
+<soundtags>
+   <BFSoundtag>
+      <BF3DSndFactory name="burger_loop">
+         <snd name="entities\objects\buildings\foodstand\sound\foodstand_burger_loop.wav" volume=".8" mindist="3" maxdist="50"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BFAmbient3DSndFactory name="burger_amb">
+         <snds>
+            <snd name="burger_flipping" mindelay="10" maxdelay="20"/>
+         </snds>
+      </BFAmbient3DSndFactory>
+   </BFSoundtag>
+   <BFSoundtag>
+      <BF3DSndFactory name="burger_flipping">
+         <snd name="entities\objects\buildings\foodstand\sound\foodstand_burger.wav" mindist="3" maxdist="50" minpitch="0.9" maxpitch="1.2"/>
+      </BF3DSndFactory>
+   </BFSoundtag>
+</soundtags>

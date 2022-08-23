@@ -1,0 +1,28 @@
+<UILayout name="OverviewAnimal">
+   <UIRegion x="0" y="0" w="38" h="38" xalign="min" yalign="min" walign="len" halign="len"/>
+   <children>
+      <UIButton name="iconcircle" cursor="zoom.cur">
+         <UIRegion x="0" y="0" w="38" h="38" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIHelpInfo name="" short="" long="" help=""/>
+         <UIAspect>
+            <default image="ui/zoomap/animalcircle.dds">
+               <BFRect x="0" y="0" w="38" h="38"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+         <activate>
+            <event msg="ZT_CAMERA_POSITION" data="BFString" string=""/>
+         </activate>
+      </UIButton>
+      <UIButton name="icon" cursor="zoom.cur">
+         <UIRegion x="3" y="3" w="32" h="32" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIHelpInfo name="" short="" long="" help=""/>
+         <UIAspect alwayshit="never">
+            <default image="">
+               <BFRect x="0" y="0" w="64" h="64"/>
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+      </UIButton>
+   </children>
+</UILayout>

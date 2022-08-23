@@ -1,0 +1,1362 @@
+<UILayout name="eom layout">
+   <UIState active="normal" visible="normal"/>
+   <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIAspect>
+      <default/>
+   </UIAspect>
+   <children>
+      <ZTEOMComponent name="eom component">
+         <UIRegion x="0" y="96" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default/>
+         </UIAspect>
+         <econcategories>
+            <category measurement="users" name="admissions" format="eom:number_format"/>
+            <category measurement="profit" name="admissions_income" format="eom:money_format"/>
+            <category measurement="profit" name="concessions_gifts" format="eom:money_format"/>
+            <category measurement="profit" name="concessions_food_drink" format="eom:money_format"/>
+            <category measurement="profit" name="donations_income" format="eom:money_format"/>
+            <category measurement="profit" name="animal_upkeep" format="eom:money_format"/>
+            <category measurement="profit" name="staff_salaries" format="eom:money_format"/>
+            <category measurement="profit" name="construction" format="eom:money_format"/>
+            <category measurement="profit" name="recycling" format="eom:money_format"/>
+            <category measurement="profit" name="upkeep" format="eom:money_format"/>
+         </econcategories>
+         <children>
+            <UILayout name="eom summary page">
+               <UIRegion x="256" y="0" w="512" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default/>
+               </UIAspect>
+               <children>
+                  <UIStatic name="summary page">
+                     <UIRegion x="0" y="0" w="512" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default image="ui/eom/eom_summary_page01.dds">
+                           <BFRect x="0" y="0" w="512" h="512"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIText name="zoo_name_label_1">
+                     <UIRegion x="0" y="10" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect locid="eom:zoo_name_label_1"/>
+                  </UIText>
+                  <UIText name="zoo_name_label_2">
+                     <UIRegion x="0" y="10" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect locid="eom:zoo_name_label_2"/>
+                  </UIText>
+                  <UIText name="zoo_name_label_3">
+                     <UIRegion x="0" y="10" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect locid="eom:zoo_name_label_3"/>
+                  </UIText>
+                  <UIButton name="goto econ detail">
+                     <UIRegion x="150" y="90" w="250" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="eom:zoo_econ_detail_label">
+                        <default>
+                           <BFFont align="left"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFFont>
+                                 <BFColor r="255" g="197" b="78" a="255"/>
+                              </BFFont>
+                           </normal>
+                           <highlighted>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="201" a="255"/>
+                              </BFFont>
+                           </highlighted>
+                           <activated>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="0" a="255"/>
+                              </BFFont>
+                           </activated>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom econ page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="goto animals detail">
+                     <UIRegion x="150" y="130" w="250" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="eom:animals_detail_label">
+                        <default>
+                           <BFFont align="left"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFFont>
+                                 <BFColor r="255" g="197" b="78" a="255"/>
+                              </BFFont>
+                           </normal>
+                           <highlighted>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="201" a="255"/>
+                              </BFFont>
+                           </highlighted>
+                           <activated>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="0" a="255"/>
+                              </BFFont>
+                           </activated>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom animals page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="goto guests detail">
+                     <UIRegion x="150" y="170" w="250" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="eom:guests_detail_label">
+                        <default>
+                           <BFFont align="left"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFFont>
+                                 <BFColor r="255" g="197" b="78" a="255"/>
+                              </BFFont>
+                           </normal>
+                           <highlighted>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="201" a="255"/>
+                              </BFFont>
+                           </highlighted>
+                           <activated>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="0" a="255"/>
+                              </BFFont>
+                           </activated>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom guests page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="goto staff detail">
+                     <UIRegion x="150" y="210" w="250" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="eom:staff_detail_label">
+                        <default>
+                           <BFFont align="left"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFFont>
+                                 <BFColor r="255" g="197" b="78" a="255"/>
+                              </BFFont>
+                           </normal>
+                           <highlighted>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="201" a="255"/>
+                              </BFFont>
+                           </highlighted>
+                           <activated>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="0" a="255"/>
+                              </BFFont>
+                           </activated>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom staff page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="goto awards detail">
+                     <UIRegion x="150" y="250" w="250" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="eom:rewards_detail_label">
+                        <default>
+                           <BFFont align="left"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFFont>
+                                 <BFColor r="255" g="197" b="78" a="255"/>
+                              </BFFont>
+                           </normal>
+                           <highlighted>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="201" a="255"/>
+                              </BFFont>
+                           </highlighted>
+                           <activated>
+                              <BFFont>
+                                 <BFColor r="255" g="255" b="0" a="255"/>
+                              </BFFont>
+                           </activated>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom awards page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="summary page return">
+                     <UIRegion x="420" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_return.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom component">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+               </children>
+            </UILayout>
+            <UILayout name="eom econ page">
+               <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="hidden"/>
+               <UIAspect>
+                  <default/>
+               </UIAspect>
+               <children>
+                  <UIStatic name="econ page">
+                     <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default image="ui/eom/eom_detail_economy.dds">
+                           <BFRect x="0" y="0" w="1024" h="512"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIListBox name="eom econ totals" columns="1" rows="-1">
+                     <UIRegion x="100" y="120" w="300" h="320" xalign="min" yalign="min" walign="len" halign="len"/>
+                  </UIListBox>
+                  <!--
+						<UILayout>
+							<UIRegion x="120" y="60" w="160" h="30" xalign="min" yalign="min" walign="len" halign="len"/>
+							<children>
+								<UILayout>
+									<UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_income">
+												<default>
+													<BFFont align="left"/>
+												</default>
+											</UIAspect>
+										</UIText>
+									</children>
+								</UILayout>
+							</children>
+						</UILayout>
+				
+						<UILayout>
+							<UIRegion x="160" y="460" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+							<children>
+								<UIText>
+									<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<UIAspect locid="eom:econ_curr_cash">
+										<default>
+											<BFFont align="right"/>
+										</default>
+									</UIAspect>
+								</UIText>
+								<UIText name="econ curr cash">
+									<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<UIState active="normal" visible="normal"/>
+									<UIAspect>
+										<default>
+											<BFFont>
+												<BFColor r="0" g="0" b="0" a="255"/>
+											</BFFont>
+										</default>
+									</UIAspect>
+									<text>$0</text>
+								</UIText>
+							</children>
+						</UILayout>
+
+						
+						<UILayout>
+							<UIRegion x="140" y="90" w="360" h="360" xalign="min" yalign="min" walign="len" halign="len"/>
+							<children>
+								<UILayout>
+									<UIRegion x="0" y="30" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_admissions">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ admissions">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+
+								<UILayout>
+									<UIRegion x="0" y="60" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_donations">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ donations">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+
+								<UILayout>
+									<UIRegion x="0" y="90" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_grants">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ grants">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+
+								<UILayout>
+									<UIRegion x="0" y="120" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_concessions">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ concessions">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+
+								<UILayout>
+									<UIRegion x="0" y="150" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_recycling">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ recycling">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+
+								<UILayout>
+									<UIRegion x="0" y="180" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_members">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ members">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+
+							</children>
+						</UILayout>
+
+						<UILayout>
+							<UIRegion x="540" y="60" w="360" h="30" xalign="min" yalign="min" walign="len" halign="len"/>
+							<children>
+								<UILayout>
+									<UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_expenses">
+												<default>
+													<BFFont align="left"/>
+												</default>
+											</UIAspect>
+										</UIText>
+									</children>
+								</UILayout>
+							</children>
+						</UILayout>
+						
+						<UILayout>
+							<UIRegion x="540" y="90" w="360" h="360" xalign="min" yalign="min" walign="len" halign="len"/>
+							<children>
+								<UILayout>
+									<UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_salaries">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ salaries">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+								
+								<UILayout>
+									<UIRegion x="0" y="30" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_upkeep">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ upkeep">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+								
+								<UILayout>
+									<UIRegion x="0" y="60" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_construction">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ construction">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+								
+								<UILayout>
+									<UIRegion x="0" y="90" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_infrastructure">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ infrastructure">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+								
+								<UILayout>
+									<UIRegion x="0" y="120" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_marketing">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ marketing">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+								
+								<UILayout>
+									<UIRegion x="0" y="150" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+									<children>
+										<UIText>
+											<UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIAspect locid="eom:econ_conservation">
+												<default>
+													<BFFont align="right"/>
+												</default>
+											</UIAspect>
+										</UIText>
+										<UIText name="econ conservation">
+											<UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+											<UIState active="normal" visible="normal"/>
+											<UIAspect>
+												<default>
+													<BFFont>
+														<BFColor r="0" g="0" b="0" a="255"/>
+													</BFFont>
+												</default>
+											</UIAspect>
+											<text>$0</text>
+										</UIText>
+									</children>
+								</UILayout>
+								
+							</children>
+						</UILayout>
+						-->
+                  <UILayout>
+                     <UIRegion x="540" y="280" w="360" h="30" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UILayout>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <children>
+                              <UIText>
+                                 <UIRegion x="0" y="0" w="150" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                                 <UIAspect locid="eom:econ_net">
+                                    <default>
+                                       <BFFont align="right"/>
+                                    </default>
+                                 </UIAspect>
+                              </UIText>
+                              <UIText name="eom econ net">
+                                 <UIRegion x="155" y="0" w="355" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                                 <UIState active="normal" visible="normal"/>
+                                 <UIAspect>
+                                    <default>
+                                       <BFFont>
+                                          <BFColor r="0" g="0" b="0" a="255"/>
+                                       </BFFont>
+                                    </default>
+                                 </UIAspect>
+                                 <text>$0</text>
+                              </UIText>
+                           </children>
+                        </UILayout>
+                     </children>
+                  </UILayout>
+                  <UIButton name="econ page back">
+                     <UIRegion x="835" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom econ page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="econ page return">
+                     <UIRegion x="880" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_return.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom econ page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom component">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+               </children>
+            </UILayout>
+            <UILayout name="eom animals page">
+               <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="hidden"/>
+               <UIAspect>
+                  <default/>
+               </UIAspect>
+               <children>
+                  <UIStatic name="animals page">
+                     <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default image="ui/eom/eom_detail_animal.dds">
+                           <BFRect x="0" y="0" w="1024" h="512"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIText>
+                     <UIRegion x="100" y="10" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect locid="eom:animals_title"/>
+                  </UIText>
+                  <UILayout>
+                     <UIRegion x="140" y="85" w="360" h="220" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:animals_adopted"/>
+                        </UIText>
+                        <UIListBox name="animals adopted listbox" template="listbox" autosize="false" columns="4" rows="2">
+                           <UIRegion x="5" y="15" w="355" h="200" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UILayout>
+                     <UIRegion x="140" y="305" w="360" h="160" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:animals_born"/>
+                        </UIText>
+                        <UIListBox name="animals born listbox" template="listbox" autosize="false" columns="4" rows="2">
+                           <UIRegion x="20" y="15" w="340" h="140" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UILayout>
+                     <UIRegion x="540" y="85" w="360" h="120" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:animals_up_for_adoption"/>
+                        </UIText>
+                        <UIListBox name="animals up for adoption listbox" template="listbox" autosize="false" columns="4" rows="1">
+                           <UIRegion x="5" y="15" w="355" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UILayout>
+                     <UIRegion x="540" y="205" w="360" h="120" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:animals_died"/>
+                        </UIText>
+                        <UIListBox name="animals died listbox" template="listbox" autosize="false" columns="4" rows="1">
+                           <UIRegion x="5" y="15" w="355" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UILayout>
+                     <UIRegion x="540" y="325" w="360" h="120" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:animals_released"/>
+                        </UIText>
+                        <UIListBox name="animals released listbox" template="listbox" autosize="false" columns="4" rows="2">
+                           <UIRegion x="5" y="15" w="355" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UIButton name="animals page back">
+                     <UIRegion x="835" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom animals page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="animals page return">
+                     <UIRegion x="880" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_return.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom animals page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom component">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+               </children>
+            </UILayout>
+            <UILayout name="eom guests page">
+               <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="hidden"/>
+               <UIAspect>
+                  <default/>
+               </UIAspect>
+               <children>
+                  <UIStatic name="guests page">
+                     <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default image="ui/eom/eom_detail_guest.dds">
+                           <BFRect x="0" y="0" w="1024" h="512"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIText>
+                     <UIRegion x="100" y="10" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect locid="eom:guests_title"/>
+                  </UIText>
+                  <UILayout>
+                     <UIRegion x="140" y="85" w="360" h="120" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:guests_attendance"/>
+                        </UIText>
+                        <UIListBox name="guests arrived listbox" template="listbox" autosize="false" columns="4" rows="1">
+                           <UIRegion x="5" y="15" w="355" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UILayout>
+                     <UIRegion x="140" y="205" w="360" h="120" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:guests_donations"/>
+                        </UIText>
+                        <UIText name="guest donations">
+                           <UIRegion x="10" y="30" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIText>
+                     </children>
+                  </UILayout>
+                  <UIText><!-- label: exit summary --></UIText>
+                  <UIText><!-- label: exit summary: education --></UIText>
+                  <UIText><!-- label: exit summary: entertainment --></UIText>
+                  <UIText><!-- label: exit summary: overall --></UIText>
+                  <UIButton name="guests page back">
+                     <UIRegion x="835" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom guests page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="guests page return">
+                     <UIRegion x="880" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_return.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom guests page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom component">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+               </children>
+            </UILayout>
+            <UILayout name="eom staff page">
+               <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="hidden"/>
+               <UIAspect>
+                  <default/>
+               </UIAspect>
+               <children>
+                  <UIStatic name="staff page">
+                     <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default image="ui/eom/eom_detail_staff.dds">
+                           <BFRect x="0" y="0" w="1024" h="512"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIText>
+                     <UIRegion x="100" y="10" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect locid="eom:staff_title"/>
+                  </UIText>
+                  <UILayout>
+                     <UIRegion x="140" y="85" w="360" h="320" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:staff_hired"/>
+                        </UIText>
+                        <UIListBox name="staff hired listbox" template="listbox" autosize="false" columns="4" rows="3">
+                           <UIRegion x="5" y="15" w="355" h="300" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UILayout>
+                     <UIRegion x="540" y="85" w="360" h="320" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:staff_fired"/>
+                        </UIText>
+                        <UIListBox name="staff fired listbox" template="listbox" autosize="false" columns="4" rows="3">
+                           <UIRegion x="5" y="15" w="355" h="300" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UIButton name="staff page back">
+                     <UIRegion x="835" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom staff page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="staff page return">
+                     <UIRegion x="880" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_return.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom staff page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom component">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+               </children>
+            </UILayout>
+            <UILayout name="eom awards page">
+               <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="hidden"/>
+               <UIAspect>
+                  <default/>
+               </UIAspect>
+               <children>
+                  <UIStatic name="awards page">
+                     <UIRegion x="0" y="0" w="1024" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default image="ui/eom/eom_detail_awards.dds">
+                           <BFRect x="0" y="0" w="1024" h="512"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIText>
+                     <UIRegion x="100" y="10" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect locid="eom:awards_title"/>
+                  </UIText>
+                  <UILayout>
+                     <UIRegion x="140" y="85" w="360" h="170" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:awards_grants"/>
+                        </UIText>
+                        <UIListBox name="awards grants listbox" template="listbox" autosize="false" columns="4" rows="2">
+                           <UIRegion x="5" y="15" w="355" h="300" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UILayout>
+                     <UIRegion x="140" y="255" w="360" h="170" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:awards_grants"/>
+                        </UIText>
+                        <UIListBox name="awards challenges listbox" template="listbox" autosize="false" columns="4" rows="2">
+                           <UIRegion x="5" y="15" w="355" h="300" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UILayout>
+                     <UIRegion x="540" y="85" w="360" h="170" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:awards_opportunities"/>
+                        </UIText>
+                        <UIListBox name="awards opportunities listbox" template="listbox" autosize="false" columns="4" rows="2">
+                           <UIRegion x="5" y="15" w="355" h="300" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UILayout>
+                     <UIRegion x="540" y="255" w="360" h="170" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <children>
+                        <UIText>
+                           <UIRegion x="0" y="0" w="360" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIAspect locid="eom:awards_awards"/>
+                        </UIText>
+                        <UIListBox name="awards awards listbox" template="listbox" autosize="false" columns="4" rows="2">
+                           <UIRegion x="5" y="15" w="355" h="300" xalign="min" yalign="min" walign="len" halign="len"/>
+                           <UIState active="normal" visible="normal"/>
+                           <UIAspect>
+                              <default/>
+                           </UIAspect>
+                        </UIListBox>
+                     </children>
+                  </UILayout>
+                  <UIButton name="awards page back">
+                     <UIRegion x="835" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom awards page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="awards page return">
+                     <UIRegion x="880" y="435" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids=""/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_return.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom summary page">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom awards page">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="eom component">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+               </children>
+            </UILayout>
+         </children>
+      </ZTEOMComponent>
+   </children>
+</UILayout>

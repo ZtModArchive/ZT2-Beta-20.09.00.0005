@@ -1,0 +1,13 @@
+<ZT2Strings>
+   <ZTDownloadMode version="0">
+      <ItemName>Item Name</ItemName>
+      <Size>Size</Size>
+      <Status>Status</Status>
+      <ClickHere>Click to Download</ClickHere>
+      <HeaderFormat>
+         <font name="arial" size="10" shadowx="1" shadowy="1" shadowa="64">
+            <b>%text%</b>
+         </font>
+      </HeaderFormat>
+   </ZTDownloadMode>
+</ZT2Strings>

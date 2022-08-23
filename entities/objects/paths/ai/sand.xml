@@ -1,0 +1,39 @@
+<BFTypedBinder binderType="sand">
+   <types>
+      <entity>
+         <path>
+            <sand/>
+         </path>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <UIToggleButton template="path">
+         <UIAspect>
+            <default image="entities\objects\paths\sand\path_sand_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:sand"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTPATH" data="BFString" string="sand"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared s_Zoopedia="zoopedia:zoopedia_asphalt:entry"/>
+   </shared>
+   <binder>
+      <BFBinder>
+         <instance>
+            <ZTPath texture="entities/objects/paths/sand/path_sand_256.DDS" curb="curb_sand"/>
+         </instance>
+      </BFBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="5">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

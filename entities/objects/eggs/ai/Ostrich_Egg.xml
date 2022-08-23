@@ -1,0 +1,60 @@
+<BFTypedBinder binderType="Ostrich_Egg">
+   <types>
+      <entity>
+          <egg>
+              <Ostrich_Egg/>
+          </egg>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities/objects/eggs/Ostrich_Egg/Ostrich_Egg.dds"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:Ostrich_Egg"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Ostrich_Egg"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData autoFootprint="false" moveable="true">
+         <cfootprint width="1.5" height="2"/>
+         <dfootprint width="1.5" height="2"/>
+      </ZTPlacementData> 
+      <BFGCollisionData isTraversable="true"/>
+      <ZTEntitySelector parentName="mainObj" nodeName="" animationTime="0.4" useFootprint="false" size="2.0">
+         <BFPhysObj>
+            <BFTerrainDecalComponent imageName="UI/fx/selection/unit.tga" alphaBlend="true">
+               <lighting emmisiveColor="255 255 255" specularColor="255 255 255" diffuseColor="255 255 255" ambientColor="255 255 255"/>
+            </BFTerrainDecalComponent>
+         </BFPhysObj>
+      </ZTEntitySelector>
+      <BFAIEntityDataShared/>
+      <BFGBiomeData location="savannah_africa" locationSensitivity="10">
+		<alpine sensitivity="-5"/>
+		<borealforest sensitivity="0"/>
+		<desert sensitivity="0"/>
+		<grassland sensitivity="5"/>
+		<temperateforest sensitivity="2"/>
+		<tropicalrainforest sensitivity="0"/>
+		<tundra sensitivity="-10"/>
+		<savannah sensitivity="10" primary="true"/>
+		<scrub sensitivity="2"/>
+		<wetlands sensitivity="-5"/>
+	  </BFGBiomeData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent grid="Bip01"/>
+				<BFActorComponent actorfile="entities/objects/eggs/Ostrich_Egg/Ostrich_Egg.bfm" activeSequenceName="Stand_Idle" activeSequenceAccumulate="false" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+               <BFGridCollisionComponent/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

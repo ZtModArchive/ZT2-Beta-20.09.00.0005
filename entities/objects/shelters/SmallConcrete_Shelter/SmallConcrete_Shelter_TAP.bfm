@@ -1,0 +1,11 @@
+<BFM modelname="entities\objects\shelters\SmallConcrete_Shelter\SmallConcrete_Shelter.nif">
+	<animation anim="entities\objects\shelters\SmallConcrete_Shelter\SmallConcrete_Shelter_TAP_Bip01_DockNode01_BaseA2Branch1AEnd.bf" animName="Bip01_DockNode01_BaseA2Branch1AEnd" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\shelters\SmallConcrete_Shelter\SmallConcrete_Shelter_TAP_Bip01_DockNode02_Branch1AEnd2ExitA.bf" animName="Bip01_DockNode02_Branch1AEnd2ExitA" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\shelters\SmallConcrete_Shelter\SmallConcrete_Shelter_TAP_Bip01_DockNode03_BaseB2Branch1BEnd.bf" animName="Bip01_DockNode03_BaseB2Branch1BEnd" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\shelters\SmallConcrete_Shelter\SmallConcrete_Shelter_TAP_Bip01_DockNode04_Branch1BEnd2ExitB.bf" animName="Bip01_DockNode04_Branch1BEnd2ExitB" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\shelters\SmallConcrete_Shelter\SmallConcrete_Shelter_TAP_Bip01_DockNode05_BaseC2Branch1CEnd.bf" animName="Bip01_DockNode05_BaseC2Branch1CEnd" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\shelters\SmallConcrete_Shelter\SmallConcrete_Shelter_TAP_Bip01_DockNode06_Branch1CEnd2ExitC.bf" animName="Bip01_DockNode06_Branch1CEnd2ExitC" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\shelters\SmallConcrete_Shelter\SmallConcrete_Shelter_TAP_Bip01_DockNode07_BaseD2Branch1DEnd.bf" animName="Bip01_DockNode07_BaseD2Branch1DEnd" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\shelters\SmallConcrete_Shelter\SmallConcrete_Shelter_TAP_Bip01_DockNode08_Branch1DEnd2ExitD.bf" animName="Bip01_DockNode08_Branch1DEnd2ExitD" debug="false" animSpeed="1.000000" load="true" />
+</BFM>
+<Graph name="SmallConcrete_Shelter" version="1" />

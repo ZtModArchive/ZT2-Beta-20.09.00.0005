@@ -1,0 +1,6 @@
+<TEXTKEY>
+   <key frame="2" text="{Bip01 Head} snd 'wingflap'"/>
+   <key frame="63" text="{Bip01 Head} snd 'wingflapb'"/>
+   <key frame="108" text="{Bip01 Head} snd 'FootStep' terrain"/>
+   <key frame="119" text="{Bip01 Head} snd  'FootStep' terrain"/>
+</TEXTKEY>

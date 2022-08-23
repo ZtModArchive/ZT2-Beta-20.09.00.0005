@@ -1,0 +1,4 @@
+<TEXTKEY>
+   <key time="0.0" text="anim 'LieTree_2ClimbDown'"/>
+   <key percent="70" text="!dis, anim 'ClimbDown_2Stand', exit"/>
+</TEXTKEY>

@@ -1,0 +1,13 @@
+<Schema name="UINotifyData">
+	<ElementType name="UINotifyData">
+		<extends type="BFXMLObj"/>
+		<AttributeType name="component">
+			<datatype dt:type="bin.hex" bf:pointer="BFComponent"/>
+		</AttributeType>
+		<AttributeType name="event">
+			<datatype dt:type="bin.hex" bf:pointer="BFEvent"/>
+		</AttributeType>
+		<attribute type="component"/>
+		<attribute type="event"/>
+	</ElementType>
+</Schema>

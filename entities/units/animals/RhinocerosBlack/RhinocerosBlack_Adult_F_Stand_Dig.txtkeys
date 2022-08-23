@@ -1,0 +1,6 @@
+<TEXTKEY>
+   <key frame="6" text="{FootFrontRight} snd 'pawground' terrain"/>
+   <key frame="44" text="{FootBackLeft} snd 'pawground' terrain"/>
+   <key frame="45" text="{Bip01 Head} snd 'Snort'"/>
+   <key frame="64" text="{Bip01 Head} snd 'Snort'"/>
+</TEXTKEY>

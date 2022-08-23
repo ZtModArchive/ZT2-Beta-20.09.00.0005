@@ -1,0 +1,6 @@
+<BFPhysObj drawLast="true">
+   <position x="0" y="0" z="0"/>
+   <BFSceneGraphComponent modelfile="world/particlesystems/emoticons/animal_food_meat.nif" updateBounds="false"/>
+   <BFHasParticleComponent/>
+   <BFForceUpdateWhenVisibleComponent/>
+</BFPhysObj>

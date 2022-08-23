@@ -1,0 +1,88 @@
+<BFTypedBinder binderType="TremblingAspen_Grassland">
+   <types>
+      <entity>
+         <foliage>
+            <tree>
+               <TremblingAspen_Grassland/>
+            </tree>
+         </foliage>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="biomedetail_01" rottype="ignore" postype="use" attachnode="biomedetail_01"/>
+            <parentObj parent="mainObj" child="biomedetail_02" rottype="ignore" postype="use" attachnode="biomedetail_02"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 -0.042407 0.092651" icon3Dscale="0.171893" autoFootprint="false">
+         <cfootprint width="1" height="1"/>
+         <dfootprint width="1" height="1"/>
+      </ZTPlacementData>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\foliage\TremblingAspen\TremblingAspen_Grassland_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:TremblingAspen_Grassland"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="TremblingAspen_Grassland"/>
+         </on>
+      </UIToggleButton>
+      <BFGBiomeData location="grassland_northamerica">
+         <grassland/>
+      </BFGBiomeData>
+      <BFAIEntityDataShared s_Zoopedia="zoopedia:zoopedia_tremblingaspen:entry"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="biomedetail_01">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="15 20 25 45"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_02">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="15 20 25 45"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFStaticBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="footprint" width="7" minLength="7" maxLength="16" minOffset="0" maxOffset="5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities\objects\foliage\TremblingAspen\TremblingAspen_Grassland.nif" switch="0 13 25 60"/>
+               <BFTravAnimPathComponent actorfile="entities\objects\foliage\TremblingAspen\TremblingAspen_Grassland_TAP.bfm"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="40">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="TAP">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="ClimbOntoTree1" useBehSet="InTree" exitBehSet="ClimbOffTree1" targetNode="Bip01_DockNode01_BaseA2Branch1AEnd" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

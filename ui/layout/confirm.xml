@@ -1,0 +1,1521 @@
+<UILayout name="Confirm Dialog">
+   <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIState active="normal" visible="normal"/>
+   <UIAspect>
+      <default>
+         <BFColor r="0" g="0" b="0" a="128"/>
+      </default>
+   </UIAspect>
+   <children>
+      <UILayout name="exit_zoo" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default alwayshit="true" image="ui\shared\white1x1.dds">
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIButton name="cancel">
+                     <UIRegion x="40" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:cancel_exit_zoo_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="exit_zoo">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="exit game">
+                     <UIRegion x="400" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:exit_zoo"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="ZT_EXITAPP" data="BFString" string="exit"/>
+                        <event msg="UI_HIDE"/>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="">
+                     <UIRegion x="20" y="80" w="456" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:exit_app_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+                  <UIText name="">
+                     <UIRegion x="20" y="120" w="456" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:exit_app_2_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout name="add_profile_confirmation" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default image=""/>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm_nomidbar.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIStatic>
+                     <UIRegion x="100" y="125" w="300" h="35"/>
+                     <UIAspect>
+                        <default image="ui/shared/dropdwn_back.dds">
+                           <BFRect x="0" y="229" w="256" h="28"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UITextEdit name="userstring_profile" template="textedit" cursor="edit.cur">
+                     <UIRegion x="103" y="129" w="293" h="29" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect string="" alwayshit="true">
+                        <default>
+                           <BFFont x="5" y="3">
+                              <BFColor r="203" g="198" b="123" a="255"/>
+                           </BFFont>
+                        </default>
+                     </UIAspect>
+                     <text format="confirm:prompt"/>
+                     <cursor>
+                        <UIStatic>
+                           <UIRegion x="0" y="0" w="2" h="28"/>
+                           <UIAspect>
+                              <default image="ui/shared/whiterec.dds">
+                                 <BFColor r="0" g="0" b="0" a="255"/>
+                              </default>
+                              <BFColor r="0" g="0" b="0" a="255"/>
+                           </UIAspect>
+                        </UIStatic>
+                     </cursor>
+                  </UITextEdit>
+                  <UIButton name="create_profile_button">
+                     <UIRegion x="400" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:profile_create_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="add_profile_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="userstring_profile">
+                           <event msg="UI_SEND_TEXT" data="BFType" type="BFUSERPROFILE_ADD_PROFILE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="Profile_Display">
+                           <event msg="UI_SEND_TEXT" data="BFType" type="BFUSERPROFILE_SET_PROFILE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="Profile_Display">
+                           <event msg="UI_COPY_TEXT" data="BFString" string="currentprofile"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="cancel">
+                     <UIRegion x="40" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:new_profile_cancel_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="profile_ manager_dialog">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="add_profile_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="confimation_label_add">
+                     <UIRegion x="0" y="3" w="512" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:new_profile_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="512" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+                  <UIText name="confimation_type">
+                     <UIRegion x="0" y="80" w="512" h="40" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:create_profile_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout name="delete_profile_confirmation">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default image="">
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm_nomidbar.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIStatic>
+                     <UIRegion x="100" y="125" w="300" h="35"/>
+                     <UIAspect>
+                        <default image="ui/shared/dropdwn_back.dds">
+                           <BFRect x="0" y="229" w="256" h="28"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIButton name="cancel">
+                     <UIRegion x="40" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:delete_profile_cancel_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="delete_profile_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="profile_ manager_dialog">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="delete_profile">
+                     <UIRegion x="400" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:delete_profile_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="deleteprofile">
+                           <event msg="UI_SEND_TEXT" data="BFType" type="BFUSERPROFILE_REMOVE_PROFILE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="delete_profile_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="profile_ manager_dialog">
+                           <child msg="UI_SHOW"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="confimation_delete_label">
+                     <UIRegion x="0" y="3" w="512" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:delete_profile_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+                  <UIText name="delete selected profile label">
+                     <UIRegion x="0" y="80" w="512" h="40" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:delete_selected_profile_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+                  <UIText name="deleteprofile">
+                     <UIRegion x="110" y="130" w="190" h="28" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect string="">
+                        <default>
+                           <BFFont>
+                              <BFColor r="203" g="198" b="123" a="255"/>
+                           </BFFont>
+                           <BFColor r="0" g="0" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                     <text format="confirm:prompt"/>
+                  </UIText>
+                  <UIText name="photoalbum selection text">
+                     <UIRegion x="130" y="217" w="300" h="20" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="">
+                        <default>
+                           <BFFont>
+                              <BFColor r="255" g="248" b="178" a="255"/>
+                           </BFFont>
+                        </default>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <text format="photoalbum:album_name_label"/>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout name="add _new_album_confirmation" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default alwayshit="true" image="ui\shared\white1x1.dds">
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIStatic>
+                     <UIRegion x="100" y="125" w="300" h="35"/>
+                     <UIAspect>
+                        <default image="ui/shared/dropdwn_back.dds">
+                           <BFRect x="0" y="229" w="256" h="28"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UITextEdit name="new_albumstring" template="textedit" cursor="edit.cur">
+                     <UIRegion x="110" y="130" w="280" h="28" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect string="" alwayshit="true">
+                        <default>
+                           <BFFont y="2">
+                              <BFColor r="203" g="198" b="123" a="255"/>
+                           </BFFont>
+                           <BFColor r="0" g="0" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                     <text format="confirm:prompt"/>
+                     <cursor>
+                        <UIStatic>
+                           <UIRegion x="0" y="0" w="2" h="28"/>
+                           <UIAspect>
+                              <default image="ui/shared/whiterec.dds">
+                                 <BFColor r="0" g="0" b="0" a="255"/>
+                              </default>
+                              <BFColor r="0" g="0" b="0" a="255"/>
+                           </UIAspect>
+                        </UIStatic>
+                     </cursor>
+                  </UITextEdit>
+                  <UIButton name="cancel">
+                     <UIRegion x="30" y="180" w="80" h="80" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:create_new_album_cancel_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_return.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="add _new_album_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="add_album">
+                     <UIRegion x="395" y="180" w="80" h="80" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:create_new_album_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="add _new_album_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="photoalbum_layout">
+                           <child msg="ZT_PHOTOEVENT_NEW_ALBUM" data="BFXMLNode">
+                              <new_albumstring/>
+                           </child>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="">
+                     <UIRegion x="20" y="80" w="456" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:create_new_album">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout name="delete_album_confirmation" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default alwayshit="true" image="ui\shared\white1x1.dds">
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIStatic>
+                     <UIRegion x="100" y="125" w="300" h="35"/>
+                     <UIAspect>
+                        <default image="ui/shared/dropdwn_back.dds">
+                           <BFRect x="0" y="229" w="256" h="28"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIText name="delete_album_display">
+                     <UIRegion x="110" y="130" w="280" h="28" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect string="">
+                        <default>
+                           <BFFont y="2">
+                              <BFColor r="203" g="198" b="123" a="255"/>
+                           </BFFont>
+                           <BFColor r="0" g="0" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                     <text format="confirm:prompt"/>
+                  </UIText>
+                  <UIButton name="cancel">
+                     <UIRegion x="30" y="180" w="80" h="80" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:delete_album_cancel_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_return.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="delete_album_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="delete_album">
+                     <UIRegion x="395" y="180" w="80" h="80" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:delete_album_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="photoalbum_layout">
+                           <child msg="ZT_PHOTOEVENT_DELETE_ALBUM"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="delete_album_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="">
+                     <UIRegion x="20" y="80" w="456" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:delete_album_confirmation">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout name="return_mainmenu" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default alwayshit="true" image="ui\shared\white1x1.dds">
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIButton name="save_button">
+                     <UIRegion x="400" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:save_continue_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="ZT_SETMODE" data="BFString" string="mode_save"/>
+                        <event msg="UI_CHILD" data="UIChildData" name="return_mainmenu">
+                           <event msg="UI_HIDE"/>
+                        </event>
+                        <event msg="ZT_MAINMENU_AFTER_SAVE"/>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="no_button">
+                     <UIRegion x="225" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:no_save_continue_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_return.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="return_mainmenu">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="ZT_EXITTOMAINMENU"/>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="cancel">
+                     <UIRegion x="40" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:return_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="return_mainmenu">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="return_mainmenu_label">
+                     <UIRegion x="0" y="75" w="512" h="50" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:return_mainmenu_label">
+                        <default image="" sound="">
+                           <BFFont align="center">
+                              <BFColor r="255" g="248" b="178" a="255"/>
+                           </BFFont>
+                           <BFRect x="175" y="130" w="100" h="16"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <normal/>
+                     </UIAspect>
+                  </UIText>
+                  <UIText name="return_mainmenu_label2">
+                     <UIRegion x="0" y="105" w="512" h="50" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:return_mainmenu_label2">
+                        <default image="" sound="">
+                           <BFFont align="center">
+                              <BFColor r="255" g="248" b="178" a="255"/>
+                           </BFFont>
+                           <BFRect x="175" y="130" w="100" h="16"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <normal/>
+                     </UIAspect>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout name="delete_object_confirmation" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default alwayshit="true" image="ui\shared\white1x1.dds">
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIButton name="cancel">
+                     <UIRegion x="40" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:no_sell_object_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="delete_object_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="delete_object">
+                     <UIRegion x="400" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:sell_object_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="ZT_SELL_ENTITY"/>
+                        <event msg="UI_CHILD" data="UIChildData" name="delete_object_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="">
+                     <UIRegion x="20" y="80" w="456" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:sell_selected_item_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout name="fire_staff_confirmation" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default alwayshit="true" image="ui\shared\white1x1.dds">
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIButton name="cancel">
+                     <UIRegion x="40" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:no_fire_staff_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="fire_staff_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="fire_staff">
+                     <UIRegion x="400" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:fire_staff_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="ZT_FIRE_STAFF"/>
+                        <event msg="UI_CHILD" data="UIChildData" name="fire_staff_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="">
+                     <UIRegion x="20" y="80" w="456" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:fire_selected_staff_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout name="delete_savegame_confirmation" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default alwayshit="true" image="ui\layout\white1x1.dds">
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <UIHotKeys>
+            <file name="UI/hotkeys/hotkeys.xml" node="esccancel"/>
+         </UIHotKeys>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm_nomidbar.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIStatic>
+                     <UIRegion x="100" y="125" w="300" h="35"/>
+                     <UIAspect>
+                        <default image="ui/shared/dropdwn_back.dds">
+                           <BFRect x="0" y="229" w="256" h="28"/>
+                        </default>
+                     </UIAspect>
+                  </UIStatic>
+                  <UIButton name="cancel">
+                     <UIRegion x="40" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:delete_game_cancel_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="delete_savegame_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIButton name="delete_savegame">
+                     <UIRegion x="400" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:delete_game_button"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="gamename">
+                           <event msg="UI_SEND_TEXT" data="BFType" type="ZT_DELETEGAME"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="delete_savegame_confirmation">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="confimation_delete_game_label">
+                     <UIRegion x="0" y="3" w="512" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:confimation_delete_game_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+                  <UIText name="delete selected savegame label">
+                     <UIRegion x="0" y="80" w="512" h="40" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:delete_game_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+                  <UIText name="gamename">
+                     <UIRegion x="110" y="130" w="285" h="28" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIAspect string="" alwayshit="true">
+                        <default>
+                           <BFFont>
+                              <BFColor r="203" g="198" b="123" a="255"/>
+                           </BFFont>
+                           <BFColor r="0" g="0" b="255" a="255"/>
+                        </default>
+                     </UIAspect>
+                     <text format="confirm:prompt"/>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout name="restart_game_ok" modal="true">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIAspect>
+            <default alwayshit="true" image="ui\shared\white1x1.dds">
+               <BFColor r="0" g="0" b="0" a="128"/>
+            </default>
+         </UIAspect>
+         <show>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+         </show>
+         <hide>
+            <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+         </hide>
+         <children>
+            <UILayout name="">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visible="normal"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm.dds">
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UIButton name="exit game">
+                     <UIRegion x="255" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="confirm:restart_game_ok"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="uiclick">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <activate>
+                        <event msg="ZT_EXITAPP" data="BFString" string="exit"/>
+                        <event msg="UI_HIDE"/>
+                     </activate>
+                     <UIHotKeys/>
+                  </UIButton>
+                  <UIText name="">
+                     <UIRegion x="20" y="80" w="456" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:restart_game_ok_label">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+                  <UIText name="">
+                     <UIRegion x="20" y="120" w="456" h="100" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect locid="confirm:restart_game_ok_label2">
+                        <default image="" sound="">
+                           <BFRect x="0" y="0" w="465" h="40"/>
+                           <BFFont align="center">
+                              <BFColor r="255" g="197" b="78" a="255"/>
+                           </BFFont>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal/>
+                           <highlighted/>
+                           <activated/>
+                           <disabled/>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                  </UIText>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+      <UILayout alwayshit="true" name="Play Tutorial" modal="1">
+         <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIState active="normal" visible="hidden"/>
+         <UIShowHideAnim time=".6">
+            <start x="0" y="-768" w="1024" h="768"/>
+            <end x="0" y="0" w="1024" h="768"/>
+         </UIShowHideAnim>
+         <children>
+            <UILayout name="dither">
+               <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIAspect alwayshit="true">
+                  <default image="ui/shared/white1x1.dds">
+                     <BFColor r="0" g="0" b="0" a="0"/>
+                  </default>
+               </UIAspect>
+            </UILayout>
+            <UILayout name="Play Tutorial Info">
+               <UIRegion x="255" y="250" w="512" h="256" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIAspect>
+                  <default image="ui/shared/confirm.dds">
+                     <BFRect x="0" y="0" w="512" h="512"/>
+                  </default>
+               </UIAspect>
+               <children>
+                  <UILayout name="tutorial play listbox layout">
+                     <UIRegion x="35" y="50" w="621" h="244" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIAspect>
+                        <default/>
+                     </UIAspect>
+                     <children>
+                        <UIText name="tutorial play text" autosize="true">
+                           <UIRegion x="7" y="30" w="400"/>
+                           <UIAspect locid="mainmenu:tutorial_intro_text"/>
+                           <text type="multi"/>
+                        </UIText>
+                     </children>
+                  </UILayout>
+                  <UIButton name="play tutorial">
+                     <UIRegion x="400" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="mainmenu:tutorial_panel_play"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_ok.tga" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="Play Tutorial">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="UI_CHILD" data="UIChildData" name="Main Menu Layout">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                        <event msg="ZT_SET_GAME_MODE" data="BFString" string="config/campaign_mode.xml"/>
+                        <event msg="ZT_SCENARIO_SELECTION_CHANGED" data="BFString" string="scenario\goals\tutorialgoals.xml"/>
+                        <event msg="ZT_LOADGAME" data="BFString" string="maps/scenario/tutorialscen1"/>
+                     </activate>
+                  </UIButton>
+                  <UIButton name="skip tutorial">
+                     <UIRegion x="40" y="187" w="70" h="70" xalign="min" yalign="min" walign="len" halign="len"/>
+                     <UIState active="normal" visible="normal"/>
+                     <UIHelpInfo name="" short="" long="" help="" ids="mainmenu:tutorial_panel_dont_play"/>
+                     <UIAspect string="">
+                        <default image="ui\shared\button_back.dds" sound="">
+                           <BFRect x="0" y="0" w="-1" h="-1"/>
+                           <BFColor r="255" g="255" b="255" a="255"/>
+                        </default>
+                        <standard>
+                           <normal>
+                              <BFRect x="0" y="0" w="64" h="64"/>
+                           </normal>
+                           <highlighted>
+                              <BFRect x="0" y="64" w="64" h="64"/>
+                           </highlighted>
+                           <activated sound="">
+                              <BFRect x="64" y="0" w="64" h="64"/>
+                           </activated>
+                           <disabled>
+                              <BFRect x="64" y="64" w="64" h="64"/>
+                           </disabled>
+                        </standard>
+                     </UIAspect>
+                     <UIHotKeys/>
+                     <activate>
+                        <event msg="UI_CHILD" data="UIChildData" name="Play Tutorial">
+                           <child msg="UI_HIDE"/>
+                        </event>
+                     </activate>
+                  </UIButton>
+               </children>
+            </UILayout>
+         </children>
+      </UILayout>
+   </children>
+</UILayout>

@@ -1,0 +1,4 @@
+<TEXTKEY>
+   <key time="0.0" text="JumpOnRock"/>
+   <key percent="90" text="anim 'Stand_Idle', dis, TurnLeft90, anim 'Stand_2Sit', anim 'Sit_Idle', anim 'Sit_2Stand', exit"/>
+</TEXTKEY>

@@ -1,0 +1,9 @@
+<Schema name="BFComponentHandleVector">
+	<ElementType name="BFComponentHandleVector">
+		<extends type="BFXMLObj"/>
+		<ElementType name="handle">
+			<attribute name="safehandleID" dt:type="int" required="yes"/>
+		</ElementType>
+		<element type="handle" occurs="zeroOrMore"/>
+	</ElementType>
+</Schema>

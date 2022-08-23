@@ -1,0 +1,66 @@
+<BFTypedBinder binderType="snackcart_fruitcup" abstract="true">
+   <types>
+      <entity>
+         <building>
+            <snackcart>
+               <snackcart_fruitcup/>
+            </snackcart>
+         </building>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting mergeKey="child">
+            <parentObj parent="mainObj" child="Snack" rottype="use" postype="use" attachnode="Link_Snack"/>
+            <parentObj parent="mainObj" child="signidle" rottype="use" postype="use" attachnode="Link_Sign"/>
+            <parentObj parent="mainObj" child="signused" rottype="use" postype="use" attachnode="Link_Sign"/>
+            <parentObj parent="mainObj" child="Umbrella" rottype="use" postype="use" attachnode="Link_Umbrella"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <binder>
+      <BFBinder>
+         <instance>
+            <BFGPhysAnimController currState="idle" defaultState="idle">
+               <stateList>
+                  <idle parent="mainObj" child="signidle" rottype="use" postype="use" attachnode="Link_Sign"/>
+                  <used parent="mainObj" child="signused" rottype="use" postype="use" attachnode="Link_Sign"/>
+               </stateList>
+            </BFGPhysAnimController>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="Snack">
+               <instance>
+                  <BFPhysObj>
+                     <BFSimpleLODComponent modelfile="entities/objects/buildings/Snackcart/snack_fruitcup.nif"/>
+                  </BFPhysObj>
+               </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="signidle">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/buildings/Snackcart/sign_fruitcup_idle.nif" scale="1.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="signused" required="0">
+         <instance>
+            <BFPhysObj drawLast="true">
+               <BFSceneGraphComponent modelfile="entities/objects/buildings/Snackcart/sign_fruitcup_used.nif" scale="1.0" initialTextKey="snd &quot;cash_register&quot;"/>
+               <BFForceUpdateWhenVisibleComponent controllersOnly="false"/>
+               <BFAnimatedObjectControllerComponent autoStart="true" duration="3.16"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+              <instance>
+                  <ZTEconomyComponent cost="400" mergeKey="name">
+                                       <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+                                       <ZTTransaction name="destroy" cost="200" costType="%parent" type="credit" category="recycling"/>
+                                       <ZTTransaction name="upkeep" cost="20" period="monthly" type="debit" category="upkeep"/>
+                                       <ZTTransaction name="Buy_Item" costIndex="1" costChoice="2 4 5" type="debit" category="concessions_food_drink" nextTransaction="add_user"/>
+                  </ZTEconomyComponent>
+              </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

@@ -1,0 +1,20 @@
+<ZT2Strings>
+   <entityneeds>
+      <satisfied>Satisfied</satisfied>
+      <pressing>Pressing</pressing>
+      <critical>Critical</critical>
+      <environment>Environment: </environment>
+      <hunger>Hunger: </hunger>
+      <thirst>Thirst: </thirst>
+      <rest>Rest: </rest>
+      <hygiene>Hygiene: </hygiene>
+      <exercise>Exercise: </exercise>
+      <shelter>Shelter: </shelter>
+      <privacy>Privacy: </privacy>
+      <reproduction>Reproduction: </reproduction>
+      <social>Social: </social>
+      <stimulation>Stimulation: </stimulation>
+      <bathroom>Bathroom: </bathroom>
+      <amusement>Amusement: </amusement>
+   </entityneeds>
+</ZT2Strings>

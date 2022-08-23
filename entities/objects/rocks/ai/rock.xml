@@ -1,0 +1,45 @@
+<BFTypedBinder binderType="rock" abstract="true">
+   <types>
+      <entity>
+         <rock/>
+      </entity>
+   </types>
+   <shared>
+      <BFGCollisionData isPassable="false" isTraversable="true"/>
+      <ZTPlacementData waterPlacement="true" randomRotate="true" gridSnap="true" autoFootprint="true">
+         <stompData>
+            <delete>
+               <bush/>
+               <grass/>
+               <wildflowers/>
+               <fungi/>
+               <watersurfacefoliage/>
+            </delete>
+            <prevent>
+               <treat/>
+               <flowerbed/>
+               <thicket/>
+            </prevent>
+            <allow>
+               <animal/>
+            </allow>
+         </stompData>
+      </ZTPlacementData>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent/>
+               <BFTerrainPaintComponent/>
+               <BFDistanceCullComponent firstPersonOnly="true" cullDistance="70"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+	<BFBinder required="1">
+		<instance>
+			<ZTPhotoAnalysisComponent/>
+		</instance>
+	</BFBinder>
+   </binder>
+</BFTypedBinder>

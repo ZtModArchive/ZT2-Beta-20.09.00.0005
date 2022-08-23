@@ -1,0 +1,56 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="InviteTalkNeutral" CursorTask="false">
+      <BFAICreateData>
+         <Subjects>
+            <Guest_Adult/>
+         </Subjects>
+         <Targets>
+            <Guest_Adult/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap social="-10"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehFaceTarget/>
+         <BFBehAnimate targetAnim="Stand_Whistle"/>
+         <BFBehSendToken>
+            <BFAITokenList>
+               <BFAIToken Name="t_TalkNeutral" GiveTo="target" Payload="subject" Timeout="10" Reconsider="true"/>
+            </BFAITokenList>
+         </BFBehSendToken>
+         <BFBehAnimate targetAnim="Stand_Idle" playTime="15"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap social="-100"/>
+         <BFAITargetData social="-100"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="AcceptTalkNeutral" CursorTask="false" reserveTag="General">
+      <BFAICreateData>
+         <Subjects>
+            <Guest_Adult/>
+         </Subjects>
+         <Targets>
+            <fromToken/>
+         </Targets>
+         <Objects>
+            <t_TalkNeutral/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap social="-100"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehSyncSet subjectBehSet="DockTalk" targetBehSet="WaitTalkNeutral"/>
+         <BFBehSyncSet subjectBehSet="TalkNeutral" targetBehSet="ListenNeutral"/>
+         <BFBehSyncSet subjectBehSet="ListenNeutral" targetBehSet="TalkNeutral"/>
+         <BFBehSyncSet subjectBehSet="TalkNeutral" targetBehSet="ListenNeutral"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap social="-100"/>
+         <BFAITargetData social="-100"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

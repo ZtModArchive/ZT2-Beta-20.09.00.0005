@@ -1,0 +1,42 @@
+<BFTypedBinder binderType="shelters" abstract="true">
+   <types>
+      <entity>
+         <shelters/>
+      </entity>
+   </types>
+   <shared>
+      <BFAIEntityDataShared b_CommerceBuilding="false" b_DonationAcceptor="false" b_SendSlap="true" b_SeeThrough="false"/>
+      <ZTPlacementData moveable="false" randomRotate="false" gridSnap="true" autoFootprint="true" terrainFlatten="true" dockArrowStyle="special" dockArrowSize="1.0">
+         <stompData>
+            <delete>
+               <treat/>
+               <bush/>
+               <flowerbed/>
+               <grass/>
+               <wildflowers/>
+               <thicket/>
+               <fungi/>
+               <watersurfacefoliage/>
+            </delete>
+            <prevent/>
+         </stompData>
+      </ZTPlacementData>
+      <BFGCollisionData score="100000"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFCollisionComponent/>
+               <BFTerrainPaintComponent/>
+               <BFDistanceCullComponent firstPersonOnly="true" cullDistance="100"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <ZTPhotoAnalysisComponent/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

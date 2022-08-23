@@ -1,0 +1,45 @@
+<BFContext>
+	<!--Elements can have initData or not-->
+	<ZTMapData name="" size="" biome="" location="" />
+	<ZTUndoMgr saveable="false" />
+	<ZTStatus configData="config/status.xml" />
+	<!--ZTEconomyMgr must come after ZTStatus and before the BFGManager-->
+	<ZTEconomyMgr configData="config/economy_freeform.xml" initialCash="10000" />
+	<ZTWorldMgr defaultWorldSize="288.0f" />
+	<ZTWorldSndMgr saveable="1" ambientSound="ambient" kQuietCrowdHighTrigger="2" kSmallCrowdLowTrigger="5"
+		kSmallCrowdHighTrigger="75" kMediumCrowdLowTrigger="85" kMediumCrowdHighTrigger="150" kLargeCrowdLowTrigger="160"
+		crowdSounds="crowd_quiet crowd_small crowd_medium crowd_large">
+		<ambients>
+			<snds />
+		</ambients>
+	</ZTWorldSndMgr>
+	<BFGPlacementGrid saveable="false" />
+	<BFGInfluenceMgr saveable="false" configData="config/influence.xml" />
+	<BFGTraversabilityMgr configData="config/traversability.xml" />
+	<BFGManager initData="config/gameConfig.xml" />
+	<BFGPathFinderMgr saveable="false" />
+	<ZTFeedbackMgr configData="config/feedback.xml" />
+	<ZTAIStaffMgr configData="AI/staffmgr.xml" cleanupInterval="10.0f" />
+	<ZTAIGuestMgr configData="AI/guestMgr.xml" />
+	<ZTAdoptionMgr saveable="false" panel="Animal Typelist">
+		<loadEvents>
+			<event msg="UI_CHILD" data="UIChildData" name="Adopt Animal Tab">
+				<child msg="UI_HIDE" />
+			</event>
+			<event msg="UI_CHILD" data="UIChildData" name="Buy Animal Tab">
+				<child msg="UI_SHOW" />
+			</event>
+			<event msg="UI_CHILD" data="UIChildData" name="Buy Animal Tab">
+				<child msg="UI_ACTIVATE_OFF" />
+			</event>
+			<event msg="UI_CHILD" data="UIChildData" name="Buy Animal Tab">
+				<child msg="UI_ACTIVATE_ON" />
+			</event>
+			<event msg="ZT_SETPLACEMENTOBJECT" />
+		</loadEvents>
+	</ZTAdoptionMgr>
+	<ZTPhotoChallengesComponent />
+	<ZTFavoriteAnimalMgr configData="config/favorite.xml" />
+	<ZTAwardMgr uipanel="ZTAwardPanel" />
+	<ZTScenarioMgr />
+</BFContext>

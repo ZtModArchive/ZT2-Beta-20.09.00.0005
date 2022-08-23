@@ -1,0 +1,6 @@
+<BFGTraversabilityMgr timeSlicePct="10" invalidationDelay="1.000000" viewingDistance="9.000000" viewingRange="32.000000" minOpenAreaSize="3" displayMotionClass="displayer">
+   <entities>
+      <b_ViewingArea/>
+      <b_DonationAcceptor/>
+   </entities>
+</BFGTraversabilityMgr>

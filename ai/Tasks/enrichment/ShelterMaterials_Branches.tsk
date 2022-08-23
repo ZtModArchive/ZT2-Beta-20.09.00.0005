@@ -1,0 +1,31 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="GetBranch" reserveTag="General">
+      <BFAICreateData>
+         <Subjects>
+            <GorillaMountain/>
+            <BeaverAmerican/>
+         </Subjects>
+         <Targets>
+            <ShelterMaterials_Branches/>
+            <Qualifiers inHabitat="true"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap rest="-75"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="ApproachShelterMaterials"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="PickUpBranch"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

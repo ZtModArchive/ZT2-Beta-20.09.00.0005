@@ -1,0 +1,66 @@
+<BFM modelname="entities\units\staff\Vendor\Vendor_Adult_M.nif">
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_PrepareFood_2StandItem.bf" animName="PrepareFood_2StandItem" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_PrepareFood_Idle.bf" animName="PrepareFood_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_Rummage_2StandItem.bf" animName="Rummage_2StandItem" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_Rummage_Idle.bf" animName="Rummage_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_StandItem_2Stand.bf" animName="StandItem_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_StandItem_Idle.bf" animName="StandItem_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_StandItem_Turn180.bf" animName="StandItem_Turn180" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_StandItem_TurnL.bf" animName="StandItem_TurnLeft" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_StandItem_TurnR.bf" animName="StandItem_TurnRight" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_Stand_2PrepareFood.bf" animName="Stand_2PrepareFood" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_Stand_2Rummage.bf" animName="Stand_2Rummage" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\staff\Vendor\Staff_Vendor_M_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\guests\AdultMale\Guest_Adult_M_Stand_Turn180.bf" animName="Stand_Turn180" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Vendor_Adult_M" version="1">
+	<node name="PrepareFood">
+		<table>
+			<PrepareFood_Idle />
+		</table>
+		<edge name="StandItem">
+			<table>
+				<PrepareFood_2StandItem />
+			</table>
+		</edge>
+	</node>
+	<node name="Rummage">
+		<table>
+			<Rummage_Idle />
+		</table>
+		<edge name="StandItem">
+			<table>
+				<Rummage_2StandItem />
+			</table>
+		</edge>
+	</node>
+	<node name="Stand">
+		<table>
+			<Stand_Idle />
+			<Stand_Turn180 />
+		</table>
+		<edge name="PrepareFood">
+			<table>
+				<Stand_2PrepareFood />
+			</table>
+		</edge>
+		<edge name="Rummage">
+			<table>
+				<Stand_2Rummage />
+			</table>
+		</edge>
+	</node>
+	<node name="StandItem">
+		<table>
+			<StandItem_Idle />
+			<StandItem_Turn180 />
+			<StandItem_TurnLeft />
+			<StandItem_TurnRight />
+		</table>
+		<edge name="Stand">
+			<table>
+				<StandItem_2Stand />
+			</table>
+		</edge>
+	</node>
+</Graph>

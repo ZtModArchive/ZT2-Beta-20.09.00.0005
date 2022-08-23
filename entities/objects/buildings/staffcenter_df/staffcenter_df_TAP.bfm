@@ -1,0 +1,85 @@
+<BFM modelname="entities\objects\buildings\staffcenter_df\staffcenter_df.nif">
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode00_Enter2LadderA.bf" animName="Enter2LadderA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode02_EnterB.bf" animName="EnterB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode04_EnterC.bf" animName="EnterC" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode06_EnterD.bf" animName="EnterD" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode10_EnterE.bf" animName="EnterE" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode12_EnterF.bf" animName="EnterF" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode08_EnterLadderA.bf" animName="EnterLadderA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode03_ExitB.bf" animName="ExitB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode05_ExitC.bf" animName="ExitC" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode07_ExitD.bf" animName="ExitD" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode11_ExitE.bf" animName="ExitE" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode13_ExitF.bf" animName="ExitF" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode01_ExitFromLadderA.bf" animName="ExitFromLadderA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode09_ExitLadderA.bf" animName="ExitLadderA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode14_Ladder2Platform.bf" animName="Ladder2Platform" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\buildings\staffcenter_df\staffcenter_df_TAP_Bip01_DockNode15_Platform2Ladder.bf" animName="Platform2Ladder" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="staffcenter_df" version="1">
+	<node name="EnterB">
+		<table>
+			<EnterB />
+		</table>
+	</node>
+	<node name="EnterC">
+		<table>
+			<EnterC />
+		</table>
+	</node>
+	<node name="EnterD">
+		<table>
+			<EnterD />
+		</table>
+	</node>
+	<node name="EnterE">
+		<table>
+			<EnterE />
+		</table>
+	</node>
+	<node name="EnterF">
+		<table>
+			<EnterF />
+		</table>
+	</node>
+	<node name="EnterLadderA">
+		<table>
+			<EnterLadderA />
+		</table>
+	</node>
+	<node name="ExitB">
+		<table>
+			<ExitB />
+		</table>
+	</node>
+	<node name="ExitC">
+		<table>
+			<ExitC />
+		</table>
+	</node>
+	<node name="ExitD">
+		<table>
+			<ExitD />
+		</table>
+	</node>
+	<node name="ExitE">
+		<table>
+			<ExitE />
+		</table>
+	</node>
+	<node name="ExitF">
+		<table>
+			<ExitF />
+		</table>
+	</node>
+	<node name="ExitFromLadderA">
+		<table>
+			<ExitFromLadderA />
+		</table>
+	</node>
+	<node name="ExitLadderA">
+		<table>
+			<ExitLadderA />
+		</table>
+	</node>
+</Graph>

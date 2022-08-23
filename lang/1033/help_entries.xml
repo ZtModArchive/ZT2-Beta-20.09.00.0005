@@ -1,0 +1,306 @@
+<ZT2Strings>
+      <LOC_STRING _locID="zoopedia_f1help:order">!!!!!Help</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_f1help:entry">Controls Help</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_f1help:text">
+         
+         Camera Movement
+         
+         <br/>
+         
+         -----------------------
+         
+         <br/>
+         
+         Arrow Keys OR
+         
+         <br/>
+         
+         W : Scroll Forward
+         
+         <br/>
+         
+         A : Scroll Left
+         
+         <br/>
+         
+         S : Scroll Backward      
+         
+         <br/>         
+         
+         D : Scroll Right
+        
+         <br/>
+         
+         -
+         
+         <br/>
+        
+         Camera Rotation
+       
+         <br/>
+      
+         --------------------
+         
+         <br/>
+         
+         CTRL + Mouse OR
+       
+         <br/>
+       
+         CTRL + Arrow Keys
+         
+         <br/>
+        
+         -
+        
+         <br/>
+         
+         Camera Zoom
+         
+         <br/>
+     
+         -----------------
+         
+         <br/>
+         
+         + : Zoom In
+       
+         <br/>
+        
+         - : Zoom Out
+         
+         <br/>
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_f1help:page2">
+     
+          Save/Load
+         
+         <br/>
+         
+      
+         -----------------------
+         
+         <br/>
+          
+             F6: Save Game
+         
+         <br/>
+          
+             F7: Load Game
+         
+         <br/>
+        
+         -     
+          
+         <br/>
+          
+          Terrain Mode [icon]
+        
+         <br/>
+         
+         -----------------------
+         
+         <br/>
+         
+           [icon] Create Hill
+         
+         <br/>
+         
+           [icon] Create Valley
+          
+         <br/>
+         
+         
+          [icon] Create Cliff
+        
+         <br/>
+         
+         [icon] Smooth Terrain
+         
+         <br/>
+      
+         -----------------------
+         
+         <br/>
+         
+          [ : Decrease Terrain Deformation Brush Size
+         
+         <br/>
+      
+          ] : Increase Terrain Deformation Brush Size     
+         
+         <br/>
+          
+         Left Button: Perform Selected Terrain Operation.    
+      
+         <br/>
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_f1help2:order">!!!!!Help2</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_f1help2:entry">Controls Help2</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_f1help2:text">
+        
+         Placement Mode [animal and foliage icons]
+         
+         <br/>
+       
+         -----------------------------------------
+        
+         <br/>
+        
+         Left click on animal or object icon in the panel,
+       
+         <br/>
+        
+         then left click to place the object in the world.
+       
+         <br/>
+       
+         -
+      
+         <br/>
+     
+         Selection Mode [icon]
+       
+         <br/>
+    
+         -----------------------------------------
+   
+         <br/>
+      
+         Click on an object in the world to select it. Click on the selected object to move it and place it somewhere else.
+        
+         <br/>
+      
+         -
+      
+         <br/>
+     
+         Deletion Mode [icon]
+    
+         <br/>
+  
+         -----------------------------------------
+        
+         <br/>
+       
+         Left click on object in the world to delete it.
+        
+         <br/>
+          
+         -
+        
+         <br/>
+       
+         UI Panels
+       
+         <br/>
+       
+         -----------------------------------------
+       
+         <br/>
+       
+         F1: Show/Hide Zoopedia
+        
+         <br/>
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_f1help2:page2">
+         
+         First Person Controls
+         
+         <br/>
+         
+         --------------------------
+         
+         <br/>
+         
+         Right click toggles between movement mode and cursor mode. 
+         
+         <br/>
+         
+         Left click while in movement mode to move around.
+         
+         <br/>
+         
+         -
+         
+         <br/>
+         
+         First Person Camera Controls
+         
+         <br/>
+         
+         --------------------------
+         
+         <br/>
+         
+         Right click toggles between camera mode and cursor mode. 
+         
+         <br/>
+         
+         Left click while in cameramode to take a picture.
+         
+         <br/>
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_challenge:order">!!!Challenge Play</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_challenge:entry">Challenge Play</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_challenge:text">
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="0" sy="107" sw="97" sh="110" width="97" height="110"/>
+               
+         Use this button to play the game in challenge mode, with few rules.
+      
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_challenge:page2">Test of page 2.</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_freeform:order">!!!Freeform Play</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_freeform:entry">Freeform Play</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_freeform:text">
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="0" sy="0" sw="90" sh="107" width="90" height="107"/>
+         
+         Use this button to play the game in freeform mode, with no rules.
+ 
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_campaign:order">!!!Campaign Play</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_campaign:entry">Campaign Play</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_campaign:text">
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="0" sy="217" sw="109" sh="97" width="109" height="97"/>
+         
+         Use this button to play the game in campaign mode.
+      
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_options:order">!!!Game Options</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_options:entry">Game Options</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_options:text">
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="3" sy="415" sw="90" sh="97" width="90" height="97"/>
+         
+         Use this button to set game options.
+  
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_downloads:order">!!!Downloads</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_downloads:entry">Downloads</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_downloads:text">
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="432" sy="0" sw="80" sh="87" width="80" height="87"/>
+   
+         Use this button to download addition Zoo Tycoon 2 content.
+  
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_loadgame:order">!!!Load Game</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_loadgame:entry">Load Game</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_loadgame:text">
+         <img src="ui/mainmenu/paw_a_buttons.tga" sx="0" sy="314" sw="105" sh="91" width="105" height="91"/>
+   
+         Use this button to load a previously-saved game.
+      
+      </LOC_STRING>
+      <LOC_STRING _locID="zoopedia_exitgame:order">!!!Exit Game</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_exitgame:entry">Exit Game</LOC_STRING>
+      <LOC_STRING _locID="zoopedia_exitgame:text">
+         <img src="ui/mainmenu/paw_b_pointers.tga" sx="0" sy="0" sw="96" sh="96" width="96" height="96"/>
+       
+         Use this button to exit Zoo Tycoon 2.
+    
+      </LOC_STRING>
+
+   
+   
+   
+   
+   </ZT2Strings>

@@ -1,0 +1,52 @@
+<BFScenarioGroup name="animaltraderules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="animaltradefirst" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHAnimalTradeFirstShort" overview="Challengetext:CHAnimalTrade" />
+				<success locid="Challengetext:CHAnimalTradeFirstSuccessShort" overview="Challengetext:CHAnimalTradeFirstSuccess" />
+				<failure locid="Challengetext:CHAnimalTradeFailureShort" overview="Challengetext:CHAnimalTradeFailure" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animaltrade.lua" entry="evalanimaltradefirst" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animaltrade.lua" entry="completeanimaltradefirst" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animaltrade.lua" entry="failanimaltrade" />
+			</failure>			
+		</BFScenarioRule>
+		<!--
+		<BFScenarioRule hidden="1" name="animaltradesecond" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHAnimalTradeSecondShort" />
+				<success locid="Challengetext:CHAnimalTradeSecondSuccessShort" overview="Challengetext:CHAnimalTradeSecondSuccess" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animaltrade.lua" entry="evalanimaltradesecond" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animaltrade.lua" entry="completeanimaltradesecond" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animaltrade.lua" entry="failanimaltrade" />
+			</failure>
+		</BFScenarioRule>
+		<BFScenarioRule hidden="1" name="animaltradethird" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHAnimalTradeSecondShort" />
+				<success locid="Challengetext:CHAnimalTradeThirdSuccessShort" overview="Challengetext:CHAnimalTradeThirdSuccess" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animaltrade.lua" entry="evalanimaltradethird" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animaltrade.lua" entry="completeanimaltradethird" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animaltrade.lua" entry="failanimaltrade" />
+			</failure>
+		</BFScenarioRule>
+		-->
+	</children>
+</BFScenarioGroup>

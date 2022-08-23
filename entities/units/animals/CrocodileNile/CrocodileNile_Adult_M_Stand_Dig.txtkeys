@@ -1,0 +1,9 @@
+<TEXTKEY>
+   <key frame="1" text="{Bip01 Head} snd 'Dig'"/>
+   <key frame="18" text="{Bip01 R Finger0Nub} runps Biomefx"/>
+   <key frame="31" text="{Bip01 R Finger0Nub} runps Biomefx"/>
+   <key frame="52" text="{Bip01 R Finger0Nub} runps Biomefx"/>
+   <key frame="99" text="{Bip01 L Finger0Nub} runps Biomefx"/>
+   <key frame="111" text="{Bip01 L Finger0Nub} runps Biomefx"/>
+   <key frame="132" text="{Bip01 L Finger0Nub} runps Biomefx"/>
+</TEXTKEY>

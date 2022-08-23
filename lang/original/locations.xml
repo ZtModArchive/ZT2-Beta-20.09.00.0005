@@ -1,0 +1,43 @@
+<ZT2Strings>
+   <worldlocation>
+      <!--GLOBE WORLD REGIONS-->
+      <northamerica>North America</northamerica>
+      <southamerica>South America</southamerica>
+      <centralamerica>Central America &amp; Caribbean</centralamerica>
+      <westafrica>West Africa</westafrica>
+      <northafrica>North Africa</northafrica>
+      <eastafrica>East Africa</eastafrica>
+      <centralafrica>Central Africa</centralafrica>
+      <southernafrica>Southern Africa</southernafrica>
+      <southasia>South Asia</southasia>
+      <southeastasia>Southeast Asia</southeastasia>
+      <centralasia>Central Asia</centralasia>
+      <eastasia>East Asia</eastasia>
+      <oceania>Oceania</oceania>
+      <arctic>Arctic</arctic>
+      <antarctica>Antarctica</antarctica>
+      <westerneurope>Western Europe</westerneurope>
+      <southerneurope>Southern Europe</southerneurope>
+      <notherneurope>Northern Europe</notherneurope>
+      <easterneurope>Eastern Europe</easterneurope>
+      <worldwide>Worldwide</worldwide>
+      <middleeast>Middle East</middleeast>
+      <all>All Biome Maps</all>
+   </worldlocation>
+   <worldlocation>
+      <!--ANIMAL REGIONS -->
+      <africa>Africa</africa>
+      <southafrica>South Africa</southafrica>
+      <southeastafrica>Southeast Africa</southeastafrica>
+      <southwestafrica>Southwest Africa</southwestafrica>
+      <madagascar>Madagascar</madagascar>
+      <asia>Asia</asia>
+      <westernasia>Western Asia</westernasia>
+      <australia>Australia</australia>
+      <eastaustralia>East Australia</eastaustralia>
+      <arcticantarctica>Arctic Antarctica</arcticantarctica>
+      <everglades>Florida Everglades</everglades>
+      <outback>Australian Outback</outback>
+      <europe>Europe</europe>
+   </worldlocation>
+</ZT2Strings>

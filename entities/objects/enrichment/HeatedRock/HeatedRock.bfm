@@ -1,0 +1,5 @@
+<BFM modelname="entities\objects\enrichment\HeatedRock\HeatedRock_TAP.nif">
+	<animation anim="entities\objects\enrichment\HeatedRock\HeatedRock_TAP_Bip01_DockNode01_BaseA2Branch1AEnd.bf" animName="Bip01_DockNode01_BaseA2Branch1AEnd" debug="false" animSpeed="1.000000" load="true" />
+	<animation anim="entities\objects\enrichment\HeatedRock\HeatedRock_TAP_Bip01_DockNode02_BaseB2Branch1BEnd.bf" animName="DockNode02_BaseB2Branch1BEnd" debug="false" animSpeed="1.000000" load="true" />
+</BFM>
+<Graph name="HeatedRock_TAP" version="1" />

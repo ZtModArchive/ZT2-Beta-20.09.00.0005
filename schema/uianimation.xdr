@@ -1,0 +1,13 @@
+<Schema name="UIAnimation">
+	<ElementType name="colors" order="all">
+		<extends type="BFXMLObj"/>
+		<element type="BFColor" name="start" />
+		<element type="BFColor" name="end" />
+	</ElementType>
+	<ElementType name="UIAnimation" order="many">
+		<extends type="BFXMLObj"/>
+		<element type="BFRect" name="start" />
+		<element type="BFRect" name="end" />
+		<element type="colors" />
+	</ElementType>
+</Schema>

@@ -1,0 +1,9 @@
+<UIListBox name="badNode" rows="-1" autosize="true">
+	<UIRegion x="10" y="0" w="100" h="0" walign="% min" />
+	<children>
+		<UIStatic name="label">
+			<UIRegion w="100" h="20" walign="% min" />
+			<UIAspect string="label" />
+		</UIStatic>
+	</children>
+</UIListBox>

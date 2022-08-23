@@ -1,0 +1,58 @@
+<ZTDevConsole savePath="maps/default">
+   <commands>
+      <exit msg="ZTDEV_EXIT"/>
+      <set msg="ZTDEV_SET"/>
+      <get msg="ZTDEV_GET"/>
+      <runps msg="ZTDEV_RUNPS"/>
+      <addps msg="ZTDEV_ADDPS"/>
+      <send msg="ZTDEV_SEND_EVENT"/>
+      <rs msg="ZTDEV_RUNSCRIPT"/>
+      <shownode msg="ZTDEV_SHOWNODE"/>
+      <hidenode msg="ZTDEV_HIDENODE"/>
+      <smoothshore msg="ZTDEV_SMOOTHSHORE"/>
+      <viewtiles msg="ZTDEV_VIEWTILES"/>
+      <openareas msg="ZTDEV_OPENAREAS"/>
+      <showcoll msg="ZTDEV_SHOWCOLL"/>
+      <animscale msg="ZTDEV_ANIMSCALE"/>
+      <showgf msg="ZTDEV_SHOWGROUNDFIT"/>
+      <killhumans msg="ZTDEV_KILLHUMANS"/>
+      <cachescripts msg="ZTDEV_CACHESCRIPTS"/>
+      <fame msg="ZTDEV_GETZOOFAME"/>
+      <runslow msg="ZTDEV_RUNSLOW"/>
+      <whap msg="ZTDEV_WHAP"/>
+      <help msg="ZTDEV_SHOWCOMMANDS"/>
+      <addrel msg="ZTDEV_ADD_RELATIONSHIP"/>
+      <delrel msg="ZTDEV_REMOVE_RELATIONSHIP"/>
+      <tstrel msg="ZTDEV_TEST_RELATIONSHIP"/>
+      <dumptaskdata msg="ZTDEV_DUMPTASKDATA"/>
+      <setsavepath msg="ZTDEV_SET_SAVE_PATH"/>
+      <dry msg="ZTDEV_DRY"/>
+      <xray msg="BFG_TOGGLE_CHECK_VISIBLE"/>
+      <rt msg="BFG_INVALIDATE_ALL_TRAVERSABILITY"/>
+   </commands>
+   <alias>
+      <pa cmd="rs scripts/playanim.lua exec"/>
+      <gt cmd="rs scripts/givetoken.lua exec1"/>
+      <gtnf cmd="rs scripts/givetoken.lua exec2"/>
+      <po cmd="rs scripts/placeobj.lua exec"/>
+      <so cmd="rs scripts/setonly.lua exec"/>
+      <find cmd="rs scripts/findobjects.lua exec"/>
+      <ass cmd="runslow on"/>
+      <noass cmd="runslow off"/>
+      <sd cmd="setsavepath maps/default"/>
+      <ss cmd="setsavepath maps/scenario"/>
+      <su cmd="setsavepath saved"/>
+   </alias>
+   <badWords>
+      <!--Add elements here to recognize words.  The element name is the word.-->
+      <xyzzy/>
+      <plugh/>
+      <plover/>
+      <nubefit/>
+   </badWords>
+   <badWordResponses>
+      <!--Add elements here to randomly respond to the above words.  The first attribute value is the response.-->
+      <response text="A hollow voice says, &quot;Fool!&quot;"/>
+      <response text="Wicked awesome!  Let's go to Wista!"/>
+   </badWordResponses>
+</ZTDevConsole>

@@ -1,0 +1,112 @@
+<Graph name = "Hippopotamus_Adult_M">
+	<node name = "Browse">
+		<table>
+			<Browse_Idle />
+		</table>
+		<edge anim = "Browse_2Chew" node = "Chew" />
+		<edge anim = "Browse_2Stand" node = "Stand" />
+	</node>
+	<node name = "Chew">
+		<table>
+			<Chew_Idle />
+		</table>
+		<edge anim = "Chew_2Browse" node = "Browse" />
+		<edge anim = "Chew_2Eat" node = "Eat" />
+		<edge anim = "Chew_2Graze" node = "Graze" />
+		<edge anim = "Chew_2Stand" node = "Stand" />
+	</node>
+	<node name = "Eat">
+		<table>
+			<Eat_Idle />
+		</table>
+		<edge anim = "Eat_2Chew" node = "Chew" />
+		<edge anim = "Eat_2Stand" node = "Stand" />
+	</node>
+	<node name = "Graze">
+		<table>
+			<Graze_Drink />
+			<Graze_Idle />
+		</table>
+		<edge anim = "Graze_2Chew" node = "Chew" />
+		<edge anim = "Graze_2Stand" node = "Stand" />
+	</node>
+	<node name = "Lie">
+		<table>
+			<Lie_Idle />
+		</table>
+		<edge anim = "Lie_2Sleep" node = "Sleep" />
+		<edge anim = "Lie_2Stand" node = "Stand" />
+		<edge anim = "Lie_2Wallow" node = "Wallow" />
+	</node>
+	<node name = "Pee">
+		<table>
+			<Pee_Idle />
+		</table>
+		<edge anim = "Pee_2Stand" node = "Stand" />
+	</node>
+	<node name = "Poop">
+		<table>
+			<Poop_Idle />
+		</table>
+		<edge anim = "Poop_2Stand" node = "Stand" />
+	</node>
+	<node name = "Run">
+		<table>
+			<Run_Ahead />
+			<Run_LeftA />
+			<Run_LeftB />
+			<Run_RightA />
+			<Run_RightB />
+		</table>
+		<edge anim = "Run_2Stand" node = "Stand" />
+		<edge anim = "Run_2Walk" node = "Walk" />
+	</node>
+	<node name = "Sit">
+		<table>
+			<Sit_Idle />
+		</table>
+		<edge anim = "Sit_2Lie" node = "Lie" />
+		<edge anim = "Sit_2Stand" node = "Stand" />
+	</node>
+	<node name = "Sleep">
+		<table>
+			<Sleep_Idle />
+		</table>
+		<edge anim = "Sleep_2Lie" node = "Lie" />
+	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Idle />
+			<Stand_RubTreeA />
+			<Stand_RubTreeB />
+			<Stand_Turn180 />
+			<Stand_TurnR />
+		</table>
+		<edge anim = "Stand_2Browse" node = "Browse" />
+		<edge anim = "Stand_2Chew" node = "Chew" />
+		<edge anim = "Stand_2Eat" node = "Eat" />
+		<edge anim = "Stand_2Graze" node = "Graze" />
+		<edge anim = "Stand_2Lie" node = "Lie" />
+		<edge anim = "Stand_2Pee" node = "Pee" />
+		<edge anim = "Stand_2Poop" node = "Poop" />
+		<edge anim = "Stand_2Run" node = "Run" />
+		<edge anim = "Stand_2Sit" node = "Sit" />
+		<edge anim = "Stand_2Walk" node = "Walk" />
+	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_LeftA />
+			<Walk_LeftB />
+		</table>
+		<edge anim = "Walk_2Run" node = "Run" />
+		<edge anim = "Walk_2Stand" node = "Stand" />
+	</node>
+	<node name = "Wallow">
+		<table>
+			<Wallow_Idle />
+		</table>
+		<edge anim = "Wallow_2Lie" node = "Lie" />
+	</node>
+
+</Graph>

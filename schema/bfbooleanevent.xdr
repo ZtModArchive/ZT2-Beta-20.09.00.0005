@@ -1,0 +1,9 @@
+<Schema name="BFBooleanEvent">
+	<ElementType name="BFBooleanEvent">
+		<extends type="BFEvent"/>
+		<ElementType name="boolean">
+			<attribute name="value" dt:type="int"/>
+		</ElementType>
+		<element type="boolean"/>
+	</ElementType>
+</Schema>

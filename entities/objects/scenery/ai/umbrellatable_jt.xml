@@ -1,0 +1,68 @@
+<BFTypedBinder binderType="umbrellatable_jt">
+   <types>
+      <entity>
+         <scenery>
+            <umbrellatable>
+               <umbrellatable_jt/>
+            </umbrellatable>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\scenery\umbrellatable_jt\umbrellatable_jt_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:umbrellatable_jt"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="umbrellatable_jt"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared s_ProfileLock="junglelock" s_Zoopedia="zoopedia:zoopedia_umbrellatable:entry" s_Theme="jungle"/>
+      <ZTPlacementData terrainFlatten="true"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFMovingBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="footprint" width="4" minLength="4" maxLength="7" minOffset="0" maxOffset="1.5"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities/objects/scenery/umbrellatable_jt/umbrellatable_jt.nif" switch="0 20 40" minSwitch="0 0 20"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Use_Seating">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="TableDock1"/>
+                  <BFGEntityContainerSlot enterBehSet="TableDock2"/>
+                  <BFGEntityContainerSlot enterBehSet="TableDock3"/>
+                  <BFGEntityContainerSlot enterBehSet="TableDock4"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="210">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

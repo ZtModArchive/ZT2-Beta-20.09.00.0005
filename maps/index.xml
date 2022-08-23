@@ -1,0 +1,110 @@
+<maps>
+	<aaatinytestmap>
+		<ZTMapData name="mapname:atestmap" size="mapsize:small" biome="grassland" location="waltham" />
+	</aaatinytestmap>
+	<alpinebig>
+		<ZTMapData version="0" name="mapname:alpinebig" size="mapsize:large" biome="alpine" location="alpine1" />
+	</alpinebig>
+	<alpinemed>
+		<ZTMapData name="mapname:alpinemed" size="mapsize:medium" biome="alpine" location="alpine1" />
+	</alpinemed>
+	<alpinesml>
+		<ZTMapData name="mapname:alpinesml" size="mapsize:small" biome="alpine" location="alpine1" />
+	</alpinesml>
+	<biomesquares>
+		<ZTMapData name="mapname:biome_squares" size="mapsize:large" biome="grassland" location="peru" />
+	</biomesquares>
+	<borealbig>
+		<ZTMapData version="0" name="mapname:borealbig" size="mapsize:large" biome="borealforest" location="boreal1" />
+	</borealbig>
+	<borealmed>
+		<ZTMapData name="mapname:borealmed" size="mapsize:medium" biome="borealforest" location="boreal1" />
+	</borealmed>
+	<borealsml>
+		<ZTMapData name="mapname:borealsml" size="mapsize:small" biome="borealforest" location="boreal1" />
+	</borealsml>
+	<cityzoo>
+		<ZTMapData name="mapname:cityzoo" size="mapsize:large" biome="grassland" location="denver" />
+	</cityzoo>
+	<cityzoomed>
+		<ZTMapData name="mapname:cityzoomed" size="mapsize:medium" biome="grassland" location="denver" />
+	</cityzoomed>
+	<cityzoosml>
+		<ZTMapData name="mapname:cityzoosml" size="mapsize:small" biome="grassland" location="denver" />
+	</cityzoosml>
+	<desert>
+		<ZTMapData name="mapname:desert" size="mapsize:large" biome="desert" location="sahara_desert" />
+	</desert>
+	<desertmed>
+		<ZTMapData name="mapname:desertmed" size="mapsize:medium" biome="desert" location="desert1" />
+	</desertmed>
+	<desertsml>
+		<ZTMapData name="mapname:desertsml" size="mapsize:small" biome="desert" location="desert1" />
+	</desertsml>
+	<grassland>
+		<ZTMapData name="mapname:grassland" size="mapsize:large" biome="grassland" location="sandiego" />
+	</grassland>
+	<grasslandmed>
+		<ZTMapData name="mapname:grasslandmed" size="mapsize:medium" biome="grassland" location="sandiego" />
+	</grasslandmed>
+	<grasslandsml>
+		<ZTMapData name="mapname:grasslandsml" size="mapsize:small" biome="grassland" location="sandiego" />
+	</grasslandsml>
+	<rainforestbig>
+		<ZTMapData version="0" name="mapname:rainforestbig" size="mapsize:large" biome="tropicalrainforest" location="vietnam" />
+	</rainforestbig>
+	<rainforestmed>
+		<ZTMapData name="mapname:rainforestmed" size="mapsize:medium" biome="tropicalrainforest" location="rainforest1" />
+	</rainforestmed>
+	<rainforestsml>
+		<ZTMapData name="mapname:rainforestsml" size="mapsize:small" biome="tropicalrainforest" location="rainforest1" />
+	</rainforestsml>
+	<river>
+		<ZTMapData version="0" name="mapname:river" size="mapsize:large" biome="grassland" location="sydney" />
+	</river>
+	<savannah>
+		<ZTMapData name="mapname:savannah" size="mapsize:large" biome="savannah" location="kenya" />
+	</savannah>
+	<savannahmed>
+		<ZTMapData name="mapname:savannahmed" size="mapsize:medium" biome="savannah" location="savannah1" />
+	</savannahmed>
+	<savannahsml>
+		<ZTMapData name="mapname:savannahsml" size="mapsize:small" biome="savannah" location="savannah1" />
+	</savannahsml>
+	<scrub>
+		<ZTMapData name="mapname:scrub" size="mapsize:large" biome="scrub" location="outback" />
+	</scrub>
+	<scrubmed>
+		<ZTMapData name="mapname:scrubmed" size="mapsize:medium" biome="scrub" location="scrub1" />
+	</scrubmed>
+	<scrubsml>
+		<ZTMapData name="mapname:scrubsml" size="mapsize:small" biome="scrub" location="scrub1" />
+	</scrubsml>
+	<temperatemed>
+		<ZTMapData name="mapname:temperatemed" size="mapsize:medium" biome="temperateforest" location="temperate1" />
+	</temperatemed>
+	<temperatesml>
+		<ZTMapData name="mapname:temperatesml" size="mapsize:small" biome="temperateforest" location="temperate1" />
+	</temperatesml>
+	<tempforest>
+		<ZTMapData name="mapname:tempforest" size="mapsize:large" biome="temperateforest" location="france" />
+	</tempforest>
+	<tundrabig>
+		<ZTMapData version="0" name="mapname:tundrabig" size="mapsize:large" biome="tundra" location="antarctica" />
+	</tundrabig>
+	<tundramed>
+		<ZTMapData name="mapname:tundramed" size="mapsize:medium" biome="tundra" location="tundra1" />
+	</tundramed>
+	<tundrasml>
+		<ZTMapData name="mapname:tundrasml" size="mapsize:small" biome="tundra" location="tundra1" />
+	</tundrasml>
+	<wetlandbig>
+		<ZTMapData name="mapname:wetlandbig" size="mapsize:large" biome="wetlands" location="everglades" />
+	</wetlandbig>
+	<wetlandmed>
+		<ZTMapData name="mapname:wetlandmed" size="mapsize:medium" biome="wetlands" location="wetland1" />
+	</wetlandmed>
+	<wetlandsml>
+		<ZTMapData name="mapname:wetlandsml" size="mapsize:small" biome="wetlands" location="wetland1" />
+	</wetlandsml>
+</maps>

@@ -1,0 +1,19 @@
+<BFScenarioGroup name="animalinstinctsrules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="animalinstinctsphoto" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="AnimalInstinctstext:PHAnimalInstinctsShort" overview="AnimalInstinctstext:PHAnimalInstincts" />
+				<success locid="AnimalInstinctstext:PHAnimalInstinctsSuccessShort" overview="AnimalInstinctstext:PHAnimalInstinctsSuccess" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/animalinstincts.lua" entry="evalanimalinstincts" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/animalinstincts.lua" entry="completeanimalinstincts" />
+			 </success>
+			 <failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalinstincts.lua" entry="failanimalinstincts" />
+			 </failure>	
+		</BFScenarioRule>		
+	 </children>
+</BFScenarioGroup>

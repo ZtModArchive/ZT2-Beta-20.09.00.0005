@@ -1,0 +1,9 @@
+<Graph name = "Gemsbok_Adult_M">
+	<node name = "Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+		<edge anim = "Stand_2Test" node = "Test" />
+	</node>
+
+</Graph>

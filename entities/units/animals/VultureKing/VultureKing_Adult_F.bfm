@@ -1,0 +1,38 @@
+<BFM modelname="entities\units\animals\VultureKing\VultureKing_Adult_F.nif">
+	<animation anim="entities\units\animals\VultureKing\VultureKing_Adult_F_Fly_2Glide.bf" animName="Fly_2Glide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\VultureKing\VultureKing_Adult_F_Fly_Ahead.bf" animName="Fly_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\VultureKing\VultureKing_Adult_F_Fly_Call.bf" animName="Fly_Call" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\VultureKing\VultureKing_Adult_F_Fly_TurnLeftA.bf" animName="Fly_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\VultureKing\VultureKing_Adult_F_Fly_TurnRightA.bf" animName="Fly_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\VultureKing\VultureKing_Adult_F_Glide_2Fly.bf" animName="Glide_2Fly" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\VultureKing\VultureKing_Adult_F_Glide_Ahead.bf" animName="Glide_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\VultureKing\VultureKing_Adult_F_Glide_TurnLeftA.bf" animName="Glide_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\VultureKing\VultureKing_Adult_F_Glide_TurnRightA.bf" animName="Glide_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="VultureKing_Adult_F" version="1">
+	<node name="Fly">
+		<table>
+			<Fly_Ahead />
+			<Fly_Call />
+			<Fly_TurnLeftA />
+			<Fly_TurnRightA />
+		</table>
+		<edge name="Glide">
+			<table>
+				<Fly_2Glide />
+			</table>
+		</edge>
+	</node>
+	<node name="Glide">
+		<table>
+			<Glide_Ahead />
+			<Glide_TurnLeftA />
+			<Glide_TurnRightA />
+		</table>
+		<edge name="Fly">
+			<table>
+				<Glide_2Fly />
+			</table>
+		</edge>
+	</node>
+</Graph>

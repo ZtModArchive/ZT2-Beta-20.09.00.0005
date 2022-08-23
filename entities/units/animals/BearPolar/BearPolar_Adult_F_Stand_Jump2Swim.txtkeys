@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key frame="32" text="{FootBackRight} runps Biomefx_Splash"/>
+   <key frame="34" text="{Bip01 Head} snd 'large_splash'"/>
+   <key frame="34" text="{FootFrontRight} runps Biomefx_Splash"/>
+</TEXTKEY>

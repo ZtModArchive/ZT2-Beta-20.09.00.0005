@@ -1,0 +1,5 @@
+<Schema name="UIRectObj">
+	<ElementType name="UIRectObj">
+		<extends type="BFRect"/>
+	</ElementType>
+</Schema>

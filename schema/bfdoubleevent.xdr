@@ -1,0 +1,9 @@
+<Schema name="BFDoubleEvent">
+	<ElementType name="BFDoubleEvent">
+		<extends type="BFEvent"/>
+		<ElementType name="double">
+			<attribute name="value" dt:type="float"/>
+		</ElementType>
+		<element type="double"/>
+	</ElementType>
+</Schema>

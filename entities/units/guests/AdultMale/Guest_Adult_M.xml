@@ -1,0 +1,273 @@
+<Graph name = "Guest_Adult_M">
+	<node name = "Camera">
+		<table>
+			<Camera_Idle />
+			<Camera_TakePhoto />
+			<Camera_ViewPhoto />
+		</table>
+		<edge anim = "Camera_2Stand" node = "Stand" />
+	</node>
+	<node name = "CoverEyes">
+		<table>
+			<CoverEyes_Idle />
+		</table>
+		<edge anim = "CoverEyes_2Stand" node = "Stand" />
+	</node>
+	<node name = "Dance">
+		<table>
+			<Dance_Idle />
+		</table>
+		<edge anim = "Dance_2Stand" node = "Stand" />
+	</node>
+	<node name = "HoldHandLeft">
+		<table>
+			<HoldHandLeft_Idle />
+		</table>
+		<edge anim = "HoldHandLeft_2Stand" node = "Stand" />
+	</node>
+	<node name = "HoldHandRight">
+		<table>
+			<HoldHandRight_Idle />
+		</table>
+		<edge anim = "HoldHandRight_2Stand" node = "Stand" />
+	</node>
+	<node name = "Jump">
+		<table>
+			<Jump_Ahead />
+		</table>
+		<edge anim = "Jump_2Run" node = "Run" />
+	</node>
+	<node name = "ReadMapBench">
+		<table>
+			<ReadMapBench_Idle />
+		</table>
+		<edge anim = "ReadMapBench_2SitBenchItem" node = "SitBenchItem" />
+	</node>
+	<node name = "ReadMap">
+		<table>
+			<ReadMap_Idle />
+		</table>
+		<edge anim = "ReadMap_2StandItem" node = "StandItem" />
+		<edge anim = "ReadMap_2WalkReadMap" node = "WalkReadMap" />
+	</node>
+	<node name = "RunScream">
+		<table>
+			<RunScream_Ahead />
+		</table>
+		<edge anim = "RunScream_2Run" node = "Run" />
+	</node>
+	<node name = "Run">
+		<table>
+			<Run_Ahead />
+			<Run_Left />
+			<Run_Right />
+		</table>
+		<edge anim = "Run_2RunScream" node = "RunScream" />
+		<edge anim = "Run_2Stand" node = "Stand" />
+		<edge anim = "Run_2Walk" node = "Walk" />
+		<edge anim = "Run_2Jump" node = "Jump" />
+	</node>
+	<node name = "SitBenchCellPhone">
+		<table>
+			<SitBenchCellPhone_Idle />
+		</table>
+		<edge anim = "SitBenchCellPhone_2SitBench" node = "SitBench" />
+	</node>
+	<node name = "SitBenchItem">
+		<table>
+			<SitBenchItem_Drink />
+			<SitBenchItem_Eat />
+			<SitBenchItem_Idle />
+			<SitBenchItem_Lick />
+			<SitBenchItem_Sip />
+		</table>
+		<edge anim = "SitBenchItem_2ReadMapBench" node = "ReadMapBench" />
+		<edge anim = "SitBenchItem_2StandItem" node = "StandItem" />
+	</node>
+	<node name = "SitBenchListenLeft">
+		<table>
+			<SitBenchListenLeft_A />
+			<SitBenchListenLeft_Idle />
+		</table>
+		<edge anim = "SitBenchListenLeft_2SitBench" node = "SitBench" />
+	</node>
+	<node name = "SitBenchListenRight">
+		<table>
+			<SitBenchListenRight_A />
+			<SitBenchListenRight_Idle />
+		</table>
+		<edge anim = "SitBenchListenRight_2SitBench" node = "SitBench" />
+	</node>
+	<node name = "SitBenchTalkLeft">
+		<table>
+			<SitBenchTalkLeft_A />
+			<SitBenchTalkLeft_Idle />
+		</table>
+		<edge anim = "SitBenchTalkLeft_2SitBench" node = "SitBench" />
+	</node>
+	<node name = "SitBenchTalkRight">
+		<table>
+			<SitBenchTalkRight_A />
+			<SitBenchTalkRight_Idle />
+		</table>
+		<edge anim = "SitBenchTalkRight_2SitBench" node = "SitBench" />
+	</node>
+	<node name = "SitBench">
+		<table>
+			<SitBench_Applaud />
+			<SitBench_ArmsUp />
+			<SitBench_CheckWatch />
+			<SitBench_Cheer />
+			<SitBench_Dismissive />
+			<SitBench_Grumble />
+			<SitBench_Idle />
+			<SitBench_Laugh />
+			<SitBench_OohAhh />
+			<SitBench_Point />
+			<SitBench_ShakeFist />
+			<SitBench_ShakeHead />
+			<SitBench_Yawn />
+		</table>
+		<edge anim = "SitBench_2SitBenchListenLeft" node = "SitBenchListenLeft" />
+		<edge anim = "SitBench_2SitBenchListenRight" node = "SitBenchListenRight" />
+		<edge anim = "SitBench_2SitBenchTalkLeft" node = "SitBenchTalkLeft" />
+		<edge anim = "SitBench_2SitBenchTalkRight" node = "SitBenchTalkRight" />
+		<edge anim = "SitBench_2Stand" node = "Stand" />
+		<edge anim = "SitBench_2SitBenchCellPhone" node = "SitBenchCellPhone" />
+	</node>
+	<node name = "SitTableItem">
+		<table>
+			<SitTableItem_Drink />
+			<SitTableItem_Eat />
+			<SitTableItem_EatFingerFood />
+			<SitTableItem_EatFork />
+			<SitTableItem_Idle />
+			<SitTableItem_Lick />
+			<SitTableItem_Sip />
+		</table>
+		<edge anim = "SitTableItem_2StandItem" node = "StandItem" />
+	</node>
+	<node name = "SitTable">
+		<table>
+			<SitTable_Idle />
+		</table>
+		<edge anim = "SitTable_2Stand" node = "Stand" />
+	</node>
+	<node name = "StandCellPhone">
+		<table>
+			<StandCellPhone_Idle />
+			<StandCellPhone_Talk />
+		</table>
+		<edge anim = "StandCellPhone_2Stand" node = "Stand" />
+	</node>
+	<node name = "StandItem">
+		<table>
+			<StandItem_Drink />
+			<StandItem_Eat />
+			<StandItem_Idle />
+			<StandItem_Lick />
+			<StandItem_LookAtPhoto />
+			<StandItem_Sip />
+			<StandItem_ThrowAway />
+			<StandItem_TossFood />
+			<StandItem_WearHat />
+		</table>
+		<edge anim = "StandItem_2ReadMap" node = "ReadMap" />
+		<edge anim = "StandItem_2SitBenchItem" node = "SitBenchItem" />
+		<edge anim = "StandItem_2SitTableItem" node = "SitTableItem" />
+		<edge anim = "StandItem_2Stand" node = "Stand" />
+		<edge anim = "StandItem_2WalkItem" node = "WalkItem" />
+	</node>
+	<node name = "StandListen">
+		<table>
+			<StandListen_A />
+			<StandListen_Idle />
+		</table>
+		<edge anim = "StandListen_2Stand" node = "Stand" />
+	</node>
+	<node name = "StandTalk">
+		<table>
+			<StandTalk_A />
+			<StandTalk_Idle />
+		</table>
+		<edge anim = "StandTalk_2Stand" node = "Stand" />
+	</node>
+	<node name = "Stand">
+		<table>
+			<Stand_Applaud />
+			<Stand_Argue />
+			<Stand_ArmsUp />
+			<Stand_CheckWatch />
+			<Stand_Cheer />
+			<Stand_CombHair />
+			<Stand_CoverEars />
+			<Stand_Cry />
+			<Stand_Dismissive />
+			<Stand_Grumble />
+			<Stand_HandShake />
+			<Stand_Idle />
+			<Stand_JumpUp />
+			<Stand_Laugh />
+			<Stand_OohAhh />
+			<Stand_PeekABoo />
+			<Stand_PinchNose />
+			<Stand_Point />
+			<Stand_PointTrash />
+			<Stand_Read />
+			<Stand_RubBack />
+			<Stand_RubHip />
+			<Stand_Scold />
+			<Stand_ScratchHead />
+			<Stand_ShakeFist />
+			<Stand_ShakeHead />
+			<Stand_ShopGiveMoney />
+			<Stand_ShopReceiveItem />
+			<Stand_TapGlass />
+			<Stand_Turn180 />
+			<Stand_TurnL />
+			<Stand_TurnR />
+			<Stand_UseATM />
+			<Stand_Wave />
+			<Stand_Whistle />
+			<Stand_Yawn />
+			<Stand_Yell />
+		</table>
+		<edge anim = "Stand_2Camera" node = "Camera" />
+		<edge anim = "Stand_2CoverEyes" node = "CoverEyes" />
+		<edge anim = "Stand_2Dance" node = "Dance" />
+		<edge anim = "Stand_2Run" node = "Run" />
+		<edge anim = "Stand_2SitBench" node = "SitBench" />
+		<edge anim = "Stand_2StandCellPhone" node = "StandCellPhone" />
+		<edge anim = "Stand_2StandItem" node = "StandItem" />
+		<edge anim = "Stand_2StandListen" node = "StandListen" />
+		<edge anim = "Stand_2StandTalk" node = "StandTalk" />
+		<edge anim = "Stand_2Walk" node = "Walk" />
+		<edge anim = "Stand_2SitTable" node = "SitTable" />
+	</node>
+	<node name = "WalkItem">
+		<table>
+			<WalkItem_Ahead />
+			<WalkItem_Left />
+			<WalkItem_Right />
+		</table>
+		<edge anim = "WalkItem_2StandItem" node = "StandItem" />
+	</node>
+	<node name = "WalkReadMap">
+		<table>
+			<WalkReadMap_Ahead />
+			<WalkReadMap_Left />
+			<WalkReadMap_Right />
+		</table>
+		<edge anim = "WalkReadMap_2ReadMap" node = "ReadMap" />
+	</node>
+	<node name = "Walk">
+		<table>
+			<Walk_Ahead />
+			<Walk_Left />
+			<Walk_Right />
+		</table>
+		<edge anim = "Walk_2Run" node = "Run" />
+		<edge anim = "Walk_2Stand" node = "Stand" />
+	</node>
+
+</Graph>

@@ -1,0 +1,37 @@
+<UILayout name="donationsbyspeciesitem">
+   <UIRegion x="0" y="0" w="570" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+   <children>
+      <UIText name="species">
+         <UIRegion x="0" y="0" w="200" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIAspect>
+            <default>
+               <BFFont>
+                  <BFColor r="255" g="255" b="255" a="255"/>
+               </BFFont>
+            </default>
+         </UIAspect>
+         <text format="zoostatus:donations_box_names"/>
+      </UIText>
+      <UIText name="number">
+         <UIRegion x="300" y="0" w="50" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIAspect>
+            <default>
+               <BFFont aligh="center">
+                  <BFColor r="255" g="255" b="255" a="255"/>
+               </BFFont>
+            </default>
+         </UIAspect>
+         <text format="zoostatus:donations_list_num_color"/>
+      </UIText>
+      <ZTMoneyText name="amount" posformat="zoostatus:posformat" negformat="zoostatus:negformat" nocents="true" nominus="false">
+         <UIRegion x="430" y="0" w="100" h="24" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIAspect>
+            <default>
+               <BFFont>
+                  <BFColor r="255" g="255" b="255" a="255"/>
+               </BFFont>
+            </default>
+         </UIAspect>
+      </ZTMoneyText>
+   </children>
+</UILayout>

@@ -1,0 +1,149 @@
+<UILayout name="Load Game Shell" modal="true">
+   <UIRegion x="0" y="0" w="1024" h="768" xalign="min" yalign="min" walign="len" halign="len"/>
+   <UIAspect alwayshit="true">
+      <default image="ui\shared\white1x1.dds">
+         <BFColor r="0" g="0" b="0" a="128"/>
+      </default>
+   </UIAspect>
+   <UIHotKeys>
+      <file name="UI/hotkeys/hotkeys.xml" node="esctextcancel"/>
+   </UIHotKeys>
+   <show>
+      <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="pause"/>
+   </show>
+   <hide>
+      <event msg="UI_SEND_NAMED_EVENTS" data="BFString" string="unpause"/>
+   </hide>
+   <children>
+      <UILayout name="LoadGameGUI">
+         <UIRegion x="256" y="192" w="512" h="512" xalign="min" yalign="min" walign="len" halign="len"/>
+         <UIAspect>
+            <default image="ui/shared/panel_alt.dds">
+               <BFColor r="255" g="255" b="255" a="255"/>
+            </default>
+         </UIAspect>
+         <children>
+            <UIText name="LoadPrompt">
+               <UIRegion x="109" y="4" w="292" h="30" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIAspect locid="loadgame:loadgame">
+                  <default>
+                     <BFFont align="center">
+                        <BFColor r="255" g="248" b="178" a="255"/>
+                     </BFFont>
+                  </default>
+               </UIAspect>
+            </UIText>
+            <UIText name="LoadGameName">
+               <UIRegion x="57" y="39" w="397" h="22" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIAspect>
+                  <default image="">
+                     <BFFont y="2">
+                        <BFColor r="59" g="83" b="66" a="255"/>
+                     </BFFont>
+                  </default>
+               </UIAspect>
+               <text format="loadgame:filename"/>
+            </UIText>
+            <UIListBox name="SavedGamesList" template="listbox" rows="-1">
+               <UIRegion x="23" y="72" w="238" h="149" xalign="min" yalign="min" walign="len" halign="len"/>
+            </UIListBox>
+            <UIStatic name="LoadGamePreview">
+               <UIRegion x="281" y="74" w="201" h="149" xalign="" yalign="" walign="" halign=""/>
+               <default image="">
+                  <BFColor r="255" g="255" b="255" a="255"/>
+               </default>
+            </UIStatic>
+            <UIButton name="TextButton Cancel">
+               <UIRegion x="52" y="231" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIHelpInfo name="" short="loadgame:cancel_button_stt" long="loadgame:cancel_button_ltt" help=""/>
+               <UIAspect>
+                  <default image="ui\shared\button_back.dds" sound="">
+                     <BFRect x="0" y="0" w="-1" h="-1"/>
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+                  <standard>
+                     <normal>
+                        <BFRect x="0" y="0" w="64" h="64"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="0" y="64" w="64" h="64"/>
+                     </highlighted>
+                     <activated sound="uiclick">
+                        <BFRect x="64" y="0" w="64" h="64"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="64" y="64" w="64" h="64"/>
+                     </disabled>
+                  </standard>
+               </UIAspect>
+               <activate>
+                  <event msg="ZT_LOADGAME" data="BFString" string="cancel"/>
+               </activate>
+            </UIButton>
+            <UIButton name="TextButton Load">
+               <UIRegion x="394" y="231" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIHelpInfo name="" short="loadgame:load_button_stt" long="loadgame:load_button_ltt" help=""/>
+               <UIAspect>
+                  <default image="ui\shared\button_ok.dds" sound="">
+                     <BFRect x="0" y="0" w="-1" h="-1"/>
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+                  <standard>
+                     <normal>
+                        <BFRect x="0" y="0" w="64" h="64"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="0" y="64" w="64" h="64"/>
+                     </highlighted>
+                     <activated sound="uiclick">
+                        <BFRect x="64" y="0" w="64" h="64"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="64" y="64" w="64" h="64"/>
+                     </disabled>
+                  </standard>
+               </UIAspect>
+               <activate>
+                  <event msg="ZT_LOADGAME" data="BFString" string="load"/>
+               </activate>
+            </UIButton>
+            <UIButton name="TextButton Delete">
+               <UIRegion x="224" y="231" w="64" h="64" xalign="min" yalign="min" walign="len" halign="len"/>
+               <UIState active="normal" visable="hidden"/>
+               <UIAspect>
+                  <default image="ui\shared\button_delete.dds" sound="">
+                     <BFRect x="0" y="0" w="-1" h="-1"/>
+                     <BFColor r="255" g="255" b="255" a="255"/>
+                  </default>
+                  <standard>
+                     <normal>
+                        <BFRect x="0" y="0" w="64" h="64"/>
+                     </normal>
+                     <highlighted>
+                        <BFRect x="0" y="64" w="64" h="64"/>
+                     </highlighted>
+                     <activated sound="uiclick">
+                        <BFRect x="64" y="0" w="64" h="64"/>
+                     </activated>
+                     <disabled>
+                        <BFRect x="64" y="64" w="64" h="64"/>
+                     </disabled>
+                  </standard>
+               </UIAspect>
+               <UIHelpInfo name="" short="loadgame:delete_button_stt" long="loadgame:delete_button_ltt" help=""/>
+               <activate>
+                  <event msg="UI_CHILD" data="UIChildData" name="Confirm Dialog">
+                     <event msg="UI_SHOW"/>
+                  </event>
+                  <event msg="UI_CHILD" data="UIChildData" name="delete_savegame_confirmation">
+                     <event msg="UI_SHOW"/>
+                  </event>
+                  <event msg="UI_CHILD" data="UIChildData" name="LoadGameName">
+                     <event msg="UI_COPY_TEXT" data="BFString" string="gamename"/>
+                  </event>
+               </activate>
+            </UIButton>
+         </children>
+      </UILayout>
+   </children>
+</UILayout>

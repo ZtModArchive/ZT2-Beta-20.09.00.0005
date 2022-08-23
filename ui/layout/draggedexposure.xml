@@ -1,0 +1,9 @@
+<UIStatic name="draggedexposure">
+    <UIRegion x="0" y="0" w="96" h="72"/>
+	<UIState active="normal" visible="normal"/>
+    <UIAspect alwayshit="never">
+		<default>
+			<BFRect x="0" y="0" w="192" h="144"/>
+		</default>
+    </UIAspect>
+</UIStatic>

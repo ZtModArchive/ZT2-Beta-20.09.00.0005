@@ -1,0 +1,196 @@
+<BFM modelname="entities\objects\enrichment\IceFloe\IceFloe_Medium.nif">
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode00_EnterA.bf" animName="EnterA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode02_EnterB.bf" animName="EnterB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode04_EnterC.bf" animName="EnterC" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode06_EnterD.bf" animName="EnterD" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode08_EnterE.bf" animName="EnterE" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode10_EnterF.bf" animName="EnterF" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode12_EnterG.bf" animName="EnterG" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode14_EnterH.bf" animName="EnterH" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode16_EnterI.bf" animName="EnterI" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode18_EnterJ.bf" animName="EnterJ" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode20_EnterK.bf" animName="EnterK" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode22_EnterL.bf" animName="EnterL" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode24_EnterM.bf" animName="EnterM" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode26_EnterN.bf" animName="EnterN" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode28_EnterO.bf" animName="EnterO" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode30_EnterP.bf" animName="EnterP" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode01_ExitA.bf" animName="ExitA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode03_ExitB.bf" animName="ExitB" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode05_ExitC.bf" animName="ExitC" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode07_ExitD.bf" animName="ExitD" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode09_ExitE.bf" animName="ExitE" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode11_ExitF.bf" animName="ExitF" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode13_ExitG.bf" animName="ExitG" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode15_ExitH.bf" animName="ExitH" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode17_ExitI.bf" animName="ExitI" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode19_ExitJ.bf" animName="ExitJ" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode21_ExitK.bf" animName="ExitK" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode23_ExitL.bf" animName="ExitL" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode25_ExitM.bf" animName="ExitM" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode27_ExitN.bf" animName="ExitN" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode29_ExitO.bf" animName="ExitO" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\objects\enrichment\IceFloe\IceFloe_Medium_TAP_Bip01_DockNode31_ExitP.bf" animName="ExitP" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="IceFloe_Medium" version="1">
+	<node name="EnterA">
+		<table>
+			<EnterA />
+		</table>
+	</node>
+	<node name="EnterB">
+		<table>
+			<EnterB />
+		</table>
+	</node>
+	<node name="EnterC">
+		<table>
+			<EnterC />
+		</table>
+	</node>
+	<node name="EnterD">
+		<table>
+			<EnterD />
+		</table>
+	</node>
+	<node name="EnterE">
+		<table>
+			<EnterE />
+		</table>
+	</node>
+	<node name="EnterF">
+		<table>
+			<EnterF />
+		</table>
+	</node>
+	<node name="EnterG">
+		<table>
+			<EnterG />
+		</table>
+	</node>
+	<node name="EnterH">
+		<table>
+			<EnterH />
+		</table>
+	</node>
+	<node name="EnterI">
+		<table>
+			<EnterI />
+		</table>
+	</node>
+	<node name="EnterJ">
+		<table>
+			<EnterJ />
+		</table>
+	</node>
+	<node name="EnterK">
+		<table>
+			<EnterK />
+		</table>
+	</node>
+	<node name="EnterL">
+		<table>
+			<EnterL />
+		</table>
+	</node>
+	<node name="EnterM">
+		<table>
+			<EnterM />
+		</table>
+	</node>
+	<node name="EnterN">
+		<table>
+			<EnterN />
+		</table>
+	</node>
+	<node name="EnterO">
+		<table>
+			<EnterO />
+		</table>
+	</node>
+	<node name="EnterP">
+		<table>
+			<EnterP />
+		</table>
+	</node>
+	<node name="ExitA">
+		<table>
+			<ExitA />
+		</table>
+	</node>
+	<node name="ExitB">
+		<table>
+			<ExitB />
+		</table>
+	</node>
+	<node name="ExitC">
+		<table>
+			<ExitC />
+		</table>
+	</node>
+	<node name="ExitD">
+		<table>
+			<ExitD />
+		</table>
+	</node>
+	<node name="ExitE">
+		<table>
+			<ExitE />
+		</table>
+	</node>
+	<node name="ExitF">
+		<table>
+			<ExitF />
+		</table>
+	</node>
+	<node name="ExitG">
+		<table>
+			<ExitG />
+		</table>
+	</node>
+	<node name="ExitH">
+		<table>
+			<ExitH />
+		</table>
+	</node>
+	<node name="ExitI">
+		<table>
+			<ExitI />
+		</table>
+	</node>
+	<node name="ExitJ">
+		<table>
+			<ExitJ />
+		</table>
+	</node>
+	<node name="ExitK">
+		<table>
+			<ExitK />
+		</table>
+	</node>
+	<node name="ExitL">
+		<table>
+			<ExitL />
+		</table>
+	</node>
+	<node name="ExitM">
+		<table>
+			<ExitM />
+		</table>
+	</node>
+	<node name="ExitN">
+		<table>
+			<ExitN />
+		</table>
+	</node>
+	<node name="ExitO">
+		<table>
+			<ExitO />
+		</table>
+	</node>
+	<node name="ExitP">
+		<table>
+			<ExitP />
+		</table>
+	</node>
+</Graph>

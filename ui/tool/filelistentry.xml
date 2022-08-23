@@ -1,0 +1,29 @@
+<UIButton name="FileListEntry">
+   <UIRegion x="10" w="193" h="16"/>
+   <UIAspect alwayshit="true">
+      <default>
+         <BFFont>
+            <BFColor r="255" g="83" b="66" a="255"/>
+         </BFFont>
+      </default>
+      <standard>
+         <normal>
+            <BFFont>
+               <BFColor r="59" g="83" b="66" a="255"/>
+            </BFFont>
+         </normal>
+         <highlighted image="">
+            <BFFont>
+               <BFColor r="255" g="255" b="201" a="255"/>
+            </BFFont>
+         </highlighted>
+         <activated image="">
+            <BFFont>
+               <BFColor r="255" g="255" b="0" a="255"/>
+            </BFFont>
+         </activated>
+         <disabled/>
+      </standard>
+   </UIAspect>
+   <text format="savegame:filename"/>
+</UIButton>

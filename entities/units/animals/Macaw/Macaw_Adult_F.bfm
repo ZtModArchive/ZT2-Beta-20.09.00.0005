@@ -1,0 +1,40 @@
+<BFM modelname="entities\units\animals\Macaw\Macaw_Adult_F.nif">
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Fly_2Stand.bf" animName="Fly_2Stand" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Fly_Ahead.bf" animName="Fly_Ahead" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Fly_Ahead_Glide.bf" animName="Fly_Ahead_Glide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Fly_Call.bf" animName="Fly_Call" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Fly_TurnLeftA.bf" animName="Fly_TurnLeftA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Fly_TurnLeftA_Glide.bf" animName="Fly_TurnLeftA_Glide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Fly_TurnRightA.bf" animName="Fly_TurnRightA" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Fly_TurnRightA_Glide.bf" animName="Fly_TurnRightA_Glide" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Stand_2Fly.bf" animName="Stand_2Fly" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+	<animation anim="entities\units\animals\Macaw\Macaw_Adult_F_Stand_Idle.bf" animName="Stand_Idle" debug="false" animSpeed="1.000000" explicitUseOnly="false" resolveUnitCollisions="true" load="true" />
+</BFM>
+<Graph name="Macaw_Adult_F" version="1">
+	<node name="Fly">
+		<table>
+			<Fly_Ahead />
+			<Fly_Ahead_Glide />
+			<Fly_Call />
+			<Fly_TurnLeftA />
+			<Fly_TurnLeftA_Glide />
+			<Fly_TurnRightA />
+			<Fly_TurnRightA_Glide />
+		</table>
+		<edge name="Stand">
+			<table>
+				<Fly_2Stand />
+			</table>
+		</edge>
+	</node>
+	<node name="Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+		<edge name="Fly">
+			<table>
+				<Stand_2Fly />
+			</table>
+		</edge>
+	</node>
+</Graph>

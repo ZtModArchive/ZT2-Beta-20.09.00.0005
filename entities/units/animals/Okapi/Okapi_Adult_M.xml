@@ -1,0 +1,9 @@
+<Graph name = "Okapi_Adult_M">
+	<node name = "Stand">
+		<table>
+			<Stand_Idle />
+		</table>
+		<edge anim = "Stand_2~" node = "~" />
+	</node>
+
+</Graph>

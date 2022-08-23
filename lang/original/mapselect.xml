@@ -1,0 +1,219 @@
+<ZT2Strings>
+   <mapdata>
+      <map_info_label>
+         <font name="arial" size="12" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Map Information:</b>
+            </color>
+         </font>
+      </map_info_label>
+      <map_select_label>
+         <font name="arial" size="12" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Select Map:</b>
+            </color>
+         </font>
+      </map_select_label>
+      <map_scenario_label>
+         <font name="arial" size="12" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Select Scenario:</b>
+            </color>
+         </font>
+      </map_scenario_label>
+      <map_list_label>
+         <font name="arial" size="12" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Select Map :</b>
+            </color>
+         </font>
+      </map_list_label>
+      <map_location_label>
+         <font name="arial" size="12" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Select Biome:</b>
+            </color>
+         </font>
+      </map_location_label>
+      <select_campaign_label>
+         <font name="arial" size="12" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>Select Campaign:</b>
+            </color>
+         </font>
+      </select_campaign_label>
+      <biome>
+         <font name="arial" size="10" shadowx="1" shadowy="1">
+            <b>Biome:</b>
+         </font>
+      </biome>
+      <play>
+         <font name="arial" size="16">
+            <b>Play</b>
+         </font>
+      </play>
+      <back>
+         <font name="arial" size="16">
+            <b>Back</b>
+         </font>
+      </back>
+      <challengeheading>Challenge Mode</challengeheading>
+      <freeformheading>Freeform Mode</freeformheading>
+      <campaignheading>Campaign Mode</campaignheading>
+      <modeheading>
+         <font name="arial" size="16" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </modeheading>
+      <unlimited>
+         <font name="arial" size="14">Unlimited Cash</font>
+      </unlimited>
+      <play_button_stt>Play</play_button_stt>
+      <play_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Play</b>
+         </color>
+         <br>Click this button to play the selected map</br>
+      </play_button_ltt>
+      <cancel_button_stt>Cancel</cancel_button_stt>
+      <cancel_button_ltt>
+         <color r="255" g="248" b="178">
+            <b>Cancel</b>
+         </color>
+         <br>Click this button to cancel and retun to the main menu.</br>
+      </cancel_button_ltt>
+      <posformat>
+         <font name="arial" size="14" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </posformat>
+      <campaign_name>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga">
+            <b>%text%</b>
+         </font>
+      </campaign_name>
+   </mapdata>
+   <mapname>
+      <format>
+         <font name="arial" size="12" shadowx="1" shadowy="1">
+            <b>%text%</b>
+         </font>
+      </format>
+      <largeformat>
+         <font name="arial" size="12" shadowx="1" shadowy="1">
+            <b>%text%</b>
+         </font>
+      </largeformat>
+      <atestmap>A Tiny Test Map</atestmap>
+      <nomap>test size map</nomap>
+      <alpinebig>Alpine (Large)</alpinebig>
+      <alpinemed>Alpine (Medium)</alpinemed>
+      <alpinesml>Alpine (Small)</alpinesml>
+      <borealbig>Boreal Forest (Large)</borealbig>
+      <borealmed>Boreal Forest (Medium)</borealmed>
+      <borealsml>Boreal Forest (Small)</borealsml>
+      <cityzoo>City Zoo (Large)</cityzoo>
+      <cityzoomed>City Zoo (Medium)</cityzoomed>
+      <cityzoosml>City Zoo (Small)</cityzoosml>
+      <desert>Desert (Large)</desert>
+      <desertmed>Desert (Medium)</desertmed>
+      <desertsml>Desert (Small)</desertsml>
+      <grassland>Grassland (Large)</grassland>
+      <grasslandmed>Grassland (Medium)</grasslandmed>
+      <grasslandsml>Grassland (Small)</grasslandsml>
+      <savannah>Savannah (Large)</savannah>
+      <savannahmed>Savannah (Medium)</savannahmed>
+      <savannahsml>Savannah (Small)</savannahsml>
+      <scrub>Scrub (Large)</scrub>
+      <scrubmed>Scrub (Medium)</scrubmed>
+      <scrubsml>Scrub (Small)</scrubsml>
+      <tempforest>Temperate Forest (Large)</tempforest>
+      <temperatemed>Temperate Forest (Medium)</temperatemed>
+      <temperatesml>Temperate Forest (Small)</temperatesml>
+      <rainforestbig>Tropical Rainforest (Large)</rainforestbig>
+      <rainforestmed>Tropical Rainforest (Medium)</rainforestmed>
+      <rainforestsml>Tropical Rainforest (Small)</rainforestsml>
+      <tundrabig>Tundra (Large)</tundrabig>
+      <tundramed>Tundra (Medium)</tundramed>
+      <tundrasml>Tundra (Small)</tundrasml>
+      <wetlandbig>Wetland (Large)</wetlandbig>
+      <wetlandmed>Wetland (Medium)</wetlandmed>
+      <wetlandsml>Wetland (Small)</wetlandsml>
+      <biome_squares>Biome Squares</biome_squares>
+      <river>River</river>
+      <savannahridge>Safari Ridge (Large)</savannahridge>
+      <polarcoast>Polar Coast (Large)</polarcoast>
+      <rockies>Rocky Mountain Valley (Medium)</rockies>
+      <desertshore>Desert Shore (Medium)</desertshore>
+      <junglepool>Jungle Pool (Small)</junglepool>
+      <mangrovecoast>Mangrove Coast (Small)</mangrovecoast>
+   </mapname>
+   <mapsize>
+      <small>Small</small>
+      <medium>Medium</medium>
+      <large>Large</large>
+      <header>
+         <font name="arial" size="10" shadowx="1" shadowy="1">
+            <b>Map Size:</b>
+         </font>
+      </header>
+   </mapsize>
+   <maplocation>
+      <format>
+         <font name="arial" size="10" shadowx="1" shadowy="1">
+            <b>%text%</b>
+         </font>
+      </format>
+      <header>
+         <font name="arial" size="10" shadowx="1" shadowy="1">
+            <b>Location:</b>
+         </font>
+      </header>
+   </maplocation>
+   <difficulty>
+      <format>
+         <font name="arial" size="10" shadowx="1" shadowy="1">
+            <b>%text%</b>
+         </font>
+      </format>
+      <header>
+         <font name="arial" size="10" shadowx="1" shadowy="1">
+            <b>Difficulty:</b>
+         </font>
+      </header>
+      <easy>Easy</easy>
+      <medium>Medium</medium>
+      <hard>Hard</hard>
+   </difficulty>
+   <globe_label>
+      <format>
+         <font name="arial" size="15" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>World Map Locations</b>
+            </color>
+         </font>
+      </format>
+   </globe_label>
+   <map_name_field>
+      <format>
+         <font name="arial" size="20" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </format>
+   </map_name_field>
+   <map_other_field>
+      <format>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga">
+            <color r="255" g="248" b="178">
+               <b>%text%</b>
+            </color>
+         </font>
+      </format>
+   </map_other_field>
+</ZT2Strings>

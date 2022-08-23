@@ -1,0 +1,14 @@
+<entries>
+   <BFHelpEntry order="zoopedia_biomedef:entry" entry="zoopedia_biomedef:entry" text="zoopedia_biomedef:text" page2="zoopedia_biomedef:page2"/>
+   <BFHelpEntry order="zoopedia_animalenrichmentdef:entry" entry="zoopedia_animalenrichmentdef:entry" text="zoopedia_animalenrichmentdef:text" page2="zoopedia_animalenrichmentdef:page2"/>
+   <BFHelpEntry order="zoopedia_pathdef:entry" entry="zoopedia_pathdef:entry" text="zoopedia_pathdef:text" page2="zoopedia_pathdef:page2"/>
+   <BFHelpEntry order="zoopedia_scenerydef:entry" entry="zoopedia_scenerydef:entry" text="zoopedia_scenerydef:text" page2="zoopedia_scenerydef:page2"/>
+   <BFHelpEntry order="zoopedia_encarta:entry" entry="zoopedia_encarta:entry" text="zoopedia_encarta:text" page2="zoopedia_encarta:page2"/>
+   <BFHelpEntry order="zoopedia_buildingdef:entry" entry="zoopedia_buildingdef:entry" text="zoopedia_buildingdef:text" page2="zoopedia_buildingdef:page2"/>
+
+   
+   
+   
+   
+   
+</entries>

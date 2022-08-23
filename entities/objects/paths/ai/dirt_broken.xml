@@ -1,0 +1,40 @@
+<BFTypedBinder binderType="dirt_broken">
+   <types>
+      <entity>
+         <path>
+            <dirt_broken/>
+         </path>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <shared>
+      <ZTDevComponent/>
+      <UIToggleButton template="path">
+         <UIAspect>
+            <default image="entities\objects\paths\dirt\path_dirt_broken_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:dirt_broken"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTPATH" data="BFString" string="dirt_broken"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared s_Zoopedia="zoopedia:zoopedia_asphalt:entry"/>
+   </shared>
+   <binder>
+      <BFBinder>
+         <instance>
+            <ZTPath texture="entities/objects/paths/dirt/path_dirt_256_broken.DDS" curb="curb_sand_broken"/>
+         </instance>
+      </BFBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="5">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="15" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

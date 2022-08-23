@@ -1,0 +1,201 @@
+<BFTypedBinder binderType="Kily_Rainforest">
+   <types>
+      <entity>
+         <foliage>
+            <tree>
+               <Kily_Rainforest/>
+            </tree>
+         </foliage>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1">
+         <physObjParenting>
+            <parentObj parent="mainObj" child="shadowObj" rottype="use" postype="ignore" attachnode="link"/>
+            <parentObj parent="mainObj" child="biomedetail_01" rottype="ignore" postype="use" attachnode="biomedetail_01"/>
+            <parentObj parent="mainObj" child="biomedetail_02" rottype="ignore" postype="use" attachnode="biomedetail_02"/>
+            <parentObj parent="mainObj" child="biomedetail_03" rottype="ignore" postype="use" attachnode="biomedetail_03"/>
+            <parentObj parent="mainObj" child="biomedetail_04" rottype="ignore" postype="use" attachnode="biomedetail_04"/>
+            <parentObj parent="mainObj" child="biomedetail_05" rottype="ignore" postype="use" attachnode="biomedetail_05"/>
+         </physObjParenting>
+      </BFGEntity>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0 0.113477" icon3Dscale="0.168561" />
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\objects\foliage\Kily\Kily_Rainforest_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo name="" short="" long="" help="" ids="entityname:Kily_Rainforest"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Kily_Rainforest"/>
+         </on>
+      </UIToggleButton>
+      <UIToggleButton template="researchentity">
+         <UIAspect>
+            <default image="entities\objects\foliage\Kily\Kily_Rainforest_icon.tga"/>
+         </UIAspect>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="Kily_Rainforest"/>
+         </on>
+      </UIToggleButton>
+      <BFGBiomeData location="tropicalrainforest_africa">
+         <tropicalrainforest/>
+      </BFGBiomeData>
+      <BFAIEntityDataShared b_RubObject_Large="true" b_BrowseTree="true" s_prop="Branches_Prop" s_Zoopedia="zoopedia:zoopedia_kily:entry" f_researchUnlockTime="135" f_researchCost="90"/>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="shadowObj">
+         <instance>
+            <BFPhysObj>
+               <BFStaticBlobShadowComponent shadowTexture="world\shadows\blob\round_blob.tga" baseNode="footprint" width="12" minLength="12" maxLength="20" minOffset="0" maxOffset="4"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <BFSimpleLODComponent modelfile="entities\objects\foliage\Kily\Kily_Rainforest.nif" scale="0.90" switch="0 15 30 60"/>
+               <BFTravAnimPathComponent actorfile="entities\objects\foliage\Kily\Kily_Rainforest_TAP.bfm"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_01">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="15 20 25 45"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_02">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="15 20 25 45"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_03">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="15 20 25 45"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_04">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="15 20 25 45"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="biomedetail_05">
+         <instance>
+            <BFPhysObj>
+               <BFDecorativeDetailObjectComponent lodDistances="15 20 25 45"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="60">
+               <ZTTransaction name="build" costType="parent" type="debit" category="construction"/>
+               <ZTTransaction name="destroy" cost="80" costType="%parent" type="credit" category="recycling"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="Browse">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterTree" useBehSet="BrowseTree" exitBehSet="ExitTree" targetNode="Dock_Eat_01" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTree" useBehSet="BrowseTree" exitBehSet="ExitTree" targetNode="Dock_Eat_02" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTree" useBehSet="BrowseTree" exitBehSet="ExitTree" targetNode="Dock_Eat_03" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTree" useBehSet="BrowseTree" exitBehSet="ExitTree" targetNode="Dock_Eat_04" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Rub">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeRub" useBehSet="RubTree" exitBehSet="ExitTreeRub" targetNode="Dock_Rub_01" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeRub" useBehSet="RubTree" exitBehSet="ExitTreeRub" targetNode="Dock_Rub_02" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeRub" useBehSet="RubTree" exitBehSet="ExitTreeRub" targetNode="Dock_Rub_03" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeRub" useBehSet="RubTree" exitBehSet="ExitTreeRub" targetNode="Dock_Rub_04" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="Scratch">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeScratch" useBehSet="ScratchTree" exitBehSet="ExitTreeScratch" targetNode="Dock_Rub_01" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeScratch" useBehSet="ScratchTree" exitBehSet="ExitTreeScratch" targetNode="Dock_Rub_02" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeScratch" useBehSet="ScratchTree" exitBehSet="ExitTreeScratch" targetNode="Dock_Rub_03" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterTreeScratch" useBehSet="ScratchTree" exitBehSet="ExitTreeScratch" targetNode="Dock_Rub_04" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="ClimbOntoTree2" useBehSet="InTree" exitBehSet="ClimbOffTree2" targetNode="Bip01_DockNode03_BaseB2Branch1BEnd" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP_Fruit">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="ClimbOntoTree3" useBehSet="PickFruit" exitBehSet="ClimbOffTree3" targetNode="Bip01_DockNode05_BaseC2Branch1CEnd" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP_Sit">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="ClimbOntoTree1" useBehSet="SitInTree" exitBehSet="ClimbOffTree1" targetNode="Bip01_DockNode01_BaseA2Branch1AEnd" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP_Perch">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterPerch1" useBehSet="Perch" exitBehSet="ExitPerch1" targetNode="Peafowl_EnterA" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterPerch2" useBehSet="Perch" exitBehSet="ExitPerch2" targetNode="Peafowl_EnterB" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP_Perch_Rest">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterPerch1" useBehSet="Sleep" exitBehSet="ExitPerch1" targetNode="Peafowl_EnterA" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterPerch2" useBehSet="Sleep" exitBehSet="ExitPerch2" targetNode="Peafowl_EnterB" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="TAP_Perch_Groom">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="EnterPerch1" useBehSet="Perch_Groom" exitBehSet="ExitPerch1" targetNode="Peafowl_EnterA" capacity="1"/>
+                  <BFGEntityContainerSlot enterBehSet="EnterPerch2" useBehSet="Perch_Groom" exitBehSet="ExitPerch2" targetNode="Peafowl_EnterB" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

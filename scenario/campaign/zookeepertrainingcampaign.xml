@@ -1,0 +1,6 @@
+<BFCampaign name="ZookeeperTrainingLabels:ZookeeperTrainingshort">
+   <entry name="ZookeeperTrainingLabels:ZookeeperTrainingS1" short="ZookeeperTrainingLabels:ZookeeperTrainingS1short" key="ZookeeperTrainingscenario1" scenario="scenario\goals\zookeepertrainingscen1.xml" map="zktrainingscen1" cash="30000" difficulty="difficulty:easy" description="ZookeeperTraining:ZookeeperTrainingoverviewshort"/>
+   <entry name="ZookeeperTrainingLabels:StartUpS2" short="ZookeeperTrainingLabels:StartUpS2short" key="ZookeeperTrainingscenario2" scenario="scenario\goals\zookeepertrainingscen2.xml" map="zktrainingscen2" cash="30000" difficulty="difficulty:easy" description="ZookeeperTraining:StartUpoverviewshort" state="locked"/>
+   <entry name="ZookeeperTrainingLabels:BeyondStartUpS3" short="ZookeeperTrainingLabels:BeyondStartUpS3short" key="ZookeeperTrainingscenario3" scenario="scenario\goals\zookeepertrainingscen3.xml" map="zktrainingscen3" cash="30000" difficulty="difficulty:medium" description="ZookeeperTraining:BeyondStartUpoverviewshort" state="locked"/>
+      
+</BFCampaign>

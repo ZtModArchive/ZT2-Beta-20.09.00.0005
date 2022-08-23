@@ -1,0 +1,8 @@
+<entries>
+   <BFHelpEntry order="zoopedia_staff:entry" entry="zoopedia_staff:entry" text="zoopedia_staff:text" page2="zoopedia_staff:page2"/>
+   <BFHelpEntry order="zoopedia_animaleducator:entry" entry="zoopedia_animaleducator:entry" text="zoopedia_animaleducator:text" page2="zoopedia_animaleducator:page2"/>
+   <BFHelpEntry order="zoopedia_maintworker:entry" entry="zoopedia_maintworker:entry" text="zoopedia_maintworker:text" page2="zoopedia_maintworker:page2"/>
+   <BFHelpEntry order="zoopedia_speczookeeper:entry" entry="zoopedia_speczookeeper:entry" text="zoopedia_speczookeeper:text" page2="zoopedia_speczookeeper:page2"/>
+   <BFHelpEntry order="zoopedia_zookeeper:entry" entry="zoopedia_zookeeper:entry" text="zoopedia_zookeeper:text" page2="zoopedia_zookeeper:page2"/>
+     
+</entries>

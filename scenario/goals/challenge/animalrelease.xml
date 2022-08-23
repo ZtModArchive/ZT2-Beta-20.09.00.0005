@@ -1,0 +1,20 @@
+<BFScenarioGroup name="animalreleaserules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="animalrelease" state="0" sticky="true">
+			<info type="primary">
+				<neutral locid="Challengetext:CHAnimalReleaseShort" overview="Challengetext:CHAnimalRelease" />
+				<success locid="Challengetext:CHAnimalReleaseSuccessShort" overview="Challengetext:CHAnimalReleaseSuccess" />
+				<failure locid="Challengetext:CHAnimalReleaseFailureShort" overview="Challengetext:CHAnimalReleaseFailure" />
+			</info>
+			<evaluate>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalrelease.lua" entry="evalanimalrelease" />
+			</evaluate>
+			<success>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalrelease.lua" entry="completeanimalrelease" />
+			</success>
+			<failure>
+				<BFScenarioScriptAction script="scenario/scripts/challenge/animalrelease.lua" entry="failanimalrelease" />
+			</failure>			
+		</BFScenarioRule>
+	</children>
+</BFScenarioGroup>

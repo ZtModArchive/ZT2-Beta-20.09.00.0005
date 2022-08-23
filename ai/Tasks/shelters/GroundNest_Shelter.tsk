@@ -1,0 +1,230 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="StartGroundNest_Shade_Leaf" priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+            <GorillaMountain/>
+         </Subjects>
+         <Targets>
+            <shade/>
+         </Targets>
+         <Objects>
+            <Leaf/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="100"/>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToCreateGroundNest" useObjectName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehMove/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="CreateGroundNest"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="StartGroundNest_GroundCover_Leaf" priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+            <GorillaMountain/>
+         </Subjects>
+         <Targets>
+            <ground_cover/>
+         </Targets>
+         <Objects>
+            <Leaf/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="90"/>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToCreateGroundNest" useObjectName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehMove/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="CreateGroundNest"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="BuildUpGroundNest_Leaf" priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+            <GorillaMountain/>
+         </Subjects>
+         <Targets>
+            <GroundNest_Shelter/>
+            <Qualifiers f_ConstructionLevel="LE 99"/>
+         </Targets>
+         <Objects>
+            <Leaf/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="110"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="ApproachGroundNest"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="BuildGroundNest"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="StartGroundNest_Shade_Branch" priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <GorillaMountain/>
+         </Subjects>
+         <Targets>
+            <shade/>
+         </Targets>
+         <Objects>
+            <Branch/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="100"/>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToCreateGroundNest" useObjectName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehMove/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="CreateGroundNest"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="StartGroundNest_GroundCover_Branch" priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <GorillaMountain/>
+         </Subjects>
+         <Targets>
+            <ground_cover/>
+         </Targets>
+         <Objects>
+            <Branch/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="90"/>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="animalactions:GoingToCreateGroundNest" useObjectName="true"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehMove/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="CreateGroundNest"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="BuildUpGroundNest_Branch" priority="1">
+      <BFAICreateData>
+         <Subjects>
+            <GorillaMountain/>
+         </Subjects>
+         <Targets>
+            <GroundNest_Shelter/>
+            <Qualifiers f_ConstructionLevel="LE 99"/>
+         </Targets>
+         <Objects>
+            <Branch/>
+         </Objects>
+      </BFAICreateData>
+      <BFAIEvalData fixedScore="110"/>
+      <BFBehExecTask>
+         <BFBehPlaySet behSet="ApproachGroundNest"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="BuildGroundNest"/>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="GroundNestAdvanced" reserveTag="Sleep">
+      <BFAICreateData>
+         <Subjects>
+            <Chimpanzee/>
+            <GorillaMountain/>
+            <LemurRingtailed/>
+         </Subjects>
+         <Targets>
+            <GroundNest_Shelter/>
+            <Qualifiers f_ConstructionLevel="E 100"/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData>
+         <BFAIAttributeFloatMap rest="-80" privacy="-20"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <BFBehEnter/>
+         <ZTBehViewEvent viewKey="Pos_6">
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:AnimalUseShelterGood" priority="1" timeout="60" global="false" useTargetTarget="true" useTargetName="true"/>
+            </ZTFeedbackData>
+         </ZTBehViewEvent>
+         <BFBehPlaySet behSet="useContainer"/>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap rest="-100" privacy="-100"/>
+         <BFBehExecTask>
+            <ZTBehFeedback>
+               <ZTFeedbackData>
+                  <ZTEmoticonInfo emoticonName="EmoteAnimalRestVeryGood"/>
+               </ZTFeedbackData>
+            </ZTBehFeedback>
+         </BFBehExecTask>
+      </BFAICompletionData>
+      <BFAIFailureData>
+         <BFBehExecTask>
+            <BFBehPlaySet behSet="FailureSet"/>
+         </BFBehExecTask>
+      </BFAIFailureData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

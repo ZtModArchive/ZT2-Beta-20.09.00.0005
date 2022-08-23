@@ -1,0 +1,64 @@
+<ZT2Strings>
+      <LOC_STRING _locID="ZTPhotoMode" version="0"/>
+      <LOC_STRING _locID="ZTPhotoMode:NumPicsFormat">%02d / %02d</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:photo_challenge_mode_label">
+         <font name="arial" size="20" image="ui\font\color_mainmenu.tga" shadowx="1" shadowy="1" shadowa="64">
+            <color r="255" g="248" b="178">
+               <b>Photo Challenge</b>
+            </color>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:CameraNotFullFormat">
+         <font name="arial" size="12" shadowx="1" shadowy="1" shadowa="64">
+            <color r="0" g="255" b="0">
+               <b>%text%</b>
+            </color>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:CameraFullFormat">
+         <font name="arial" size="12" shadowx="1" shadowy="1" shadowa="64">
+            <color r="255" g="8" b="8">
+               <b>%text%</b>
+            </color>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:go_to_cursor_mode">
+         <font name="arial" size="12" shadowx="0" shadowy="0" shadowa="60">
+            <color r="255" g="255" b="255" a="100">
+               <b>Right click to toggle the mouse cursor on and off.</b>
+            </color>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:go_to_photo_mode">
+         <font name="arial" size="12" shadowx="0" shadowy="0" shadowa="60">
+            <color r="255" g="255" b="255" a="100">
+               <b>Right click to enter photo mode.</b>
+            </color>
+         </font>
+      </LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:ScoreLabel">Score:</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:Challenge2stt">Take a picture of an elephant browsing.</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:Challenge3stt">Take a picture of an elephant walking.</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:Challenge2Completestt">Challenge complete (take a picture of an elephant browsing).</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:Challenge3Completestt">Challenge complete (take a picture of an elephant walking).</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challengeset_tiger_difficulty1">Tiger Challenge (difficulty level 1)</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_tiger_eating_stt">Take a picture of a tiger eating.</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_tiger_eating_cstt">Challenge complete (take a picture of a tiger eating).</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_tiger_walking_stt">Take a picture of a tiger walking.</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_tiger_walking_cstt">Challenge complete (take a picture of a tiger walking).</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_hungry_tiger_stt">Take a picture of a hungry tiger.</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_hungry_tiger_cstt">Challenge complete (take a picture of a hungry tiger).</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_mother_and_young_tiger_stt">Take a picture of a mother tiger with her young.</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_mother_and_young_tiger_cstt">Challenge complete (take a picture of a mother tiger with her young).</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_tiger_and_gorilla_stt">Take a picture of a tiger by a gorilla.</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:challenge_tiger_and_gorilla_cstt">Challenge complete (take a picture of a tiger by a gorilla).</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:UndoneChallengeltt">You must take a picture that completes the listed requirements in order to fulfill the photo challenge.</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:SubmitPhotosstt">Submit your photos to the photo challenge.</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:default_album_name">My Photo Album</LOC_STRING>
+      <LOC_STRING _locID="ZTPhotoMode:default_photo_caption">Subject not found</LOC_STRING>
+
+   
+   
+   
+   
+</ZT2Strings>

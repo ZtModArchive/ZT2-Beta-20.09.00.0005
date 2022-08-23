@@ -1,0 +1,20 @@
+<BFScenarioGroup name="ungulatespart2rules" state="0" chain="false" allsuccess="true" sticky="true" optional="false">
+	<children>
+		<BFScenarioRule hidden="1" name="ungulatespart2photo" state="0" sticky="true" optional="true">
+			<info type="photo">
+				<neutral locid="UngulatesPart2text:PHUngulatesPart2Short" overview="UngulatesPart2text:PHUngulatesPart2" />
+				<success locid="UngulatesPart2text:PHUngulatesPart2SuccessShort" overview="UngulatesPart2text:PHUngulatesPart2Success" />
+				<failure locid="UngulatesPart2text:PHUngulatesPart2FailureShort" overview="UngulatesPart2text:PHUngulatesPart2Failure" />
+			  </info>
+			 <evaluate>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/ungulatespart2.lua" entry="evalungulatespart2" />
+			 </evaluate>
+			 <success>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/ungulatespart2.lua" entry="completeungulatespart2" />
+			 </success>		
+			 <failure>
+			 	<BFScenarioScriptAction script="scenario/scripts/challenge/ungulatespart2.lua" entry="failungulatespart2" />
+			 </failure>	 
+		</BFScenarioRule>		
+	 </children>
+</BFScenarioGroup>

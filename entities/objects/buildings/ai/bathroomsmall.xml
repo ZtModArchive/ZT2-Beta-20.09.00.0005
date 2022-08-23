@@ -1,0 +1,28 @@
+<BFTypedBinder binderType="bathroomsmall" abstract="true">
+   <types>
+      <entity>
+         <building>
+            <bathroom>
+              <bathroomsmall/>
+            </bathroom>
+         </building>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0.001135 0.460151" icon3Dscale="0.308900" />
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="Use">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot enterBehSet="UseBathroomSmall" capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+   </binder>
+</BFTypedBinder>

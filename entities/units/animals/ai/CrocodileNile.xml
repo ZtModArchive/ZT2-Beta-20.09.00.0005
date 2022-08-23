@@ -1,0 +1,129 @@
+<BFTypedBinder binderType="CrocodileNile" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Reptilia>
+                  <Crocodylia>
+                     <Crocodylidae>
+                        <CrocodileNile/>
+                     </Crocodylidae>
+                  </Crocodylia>
+               </Reptilia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\units\animals\CrocodileNile\CrocodileNile_Adult_M_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo ids="entityname:CrocodileNile"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="CrocodileNile_Adult_F"/>
+         </on>
+      </UIToggleButton>
+      <ZTPlacementData waterPlacement="true"/>
+      <BFAIEntityDataShared s_DonateToken="t_DonateCrocodileNile" s_Species="CrocodileNile" b_Basic="true" b_Carnivore="true" b_Piscivore="true" b_FoodDishEater="true" b_LargeAnimal="true" f_adoptRemoveTime="0" f_adoptRarity="0" s_Zoopedia="zoopedia:zoopedia_croc:entry" f_RequiredInitialSpace="150" f_RequiredAdditionalSpace="50">
+         <BFAINeedAdjusts privacy="0.1"/>
+      </BFAIEntityDataShared>
+      <BFGBiomeData location="wetland_africa" locationSensitivity="10">
+         <alpine sensitivity="-5"/>
+         <borealforest sensitivity="0"/>
+         <desert sensitivity="0"/>
+         <grassland sensitivity="0"/>
+         <temperateforest sensitivity="2"/>
+         <tropicalrainforest sensitivity="-5"/>
+         <tundra sensitivity="-10"/>
+         <savannah sensitivity="2"/>
+         <scrub sensitivity="2"/>
+         <wetlands sensitivity="10" primary="true"/>
+      </BFGBiomeData>
+      <ZTPlacementData icon3Dscale=".37"/>
+      <ZTUserStaffAction>
+         <SetAttribute name="hygiene" value="0" threshold="20" locid="superstaff:animal_wash" effect="SuperStaffWashLarge"/>
+         <SetAttribute name="health" value="0" threshold="20" locid="superstaff:animal_heal"/>
+      </ZTUserStaffAction>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFShadowLODComponent numLevels="1" switchingDists="60.0"/>
+               <BFActorComponent actorfile="entities/units/animals/CrocodileNile/CrocodileNile_Adult_M.bfm" scale="0.75"/>
+               <BF4LegsGroundFitComponent heightOffset="0" maxRollError=".2" maxPitchError=".1" maxHeightError=".5" pitchGain="1.0" heightGain="6.0" rollGain="1.0" bicyclePointBack="Bip01 Pelvis" bicyclePointFront="Bip01 Head" backBuoyancyNode="Node_Buoy_Back" frontBuoyancyNode="Node_Buoy"/>
+               <BFSwimComponent waterInDistance="0.50" waterOutDistance="0.1"/>
+               <BFManipSensorComponent maxAngle=".4" minAngle="-.4" targetJoint="Bip01 Head" sensorNode="Floor_Head" rotVector="0 0 1" gain=".1"/>
+               <BFManipSensorComponent maxAngle=".4" minAngle="-.4" targetJoint="Bip01 Tail" sensorNode="Floor_Tail1" rotVector="0 0 -1" gain=".1" z_offset="0"/>
+               <BFManipSensorComponent maxAngle=".4" minAngle="-.4" targetJoint="Bip01 Tail1" sensorNode="Floor_Tail2" rotVector="0 0 -1" gain=".05" z_offset="0"/>
+               <BFManipSensorComponent maxAngle=".4" minAngle="-.4" targetJoint="Bip01 Tail2" sensorNode="Floor_Tail3" rotVector="0 0 -1" gain=".025" z_offset="0"/>
+               <BFManipSensorComponent maxAngle=".4" minAngle="-.4" targetJoint="Bip01 Tail3" sensorNode="Floor_Tail4" rotVector="0 0 -1" gain=".0125" z_offset="0"/>
+               <BFRotYawMovingComponent/>
+               <BFCollisionComponent grid="Bip01 Spine1"/>
+               <BFGridCollisionComponent/>
+               <BFDecalTextureCycleComponent materialName="Material #12" textureSet="2">
+                  <Step imageName="" hold="3.0" variance="0.5"/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink.dds" hold="0.1" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+               </BFDecalTextureCycleComponent>
+               <BFHeadLookComponent leftRightAnimName="Secondary_HeadLook" lookDirNode="Bip01 Head" lookDirVector="0 1 0" gain_z="-2" fov_extreme_lr="90.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFBehaviorMgr behaviorVersion="1">
+               <subBehaviors>
+                  <BFBehLocoSwitchSet loopFlag="true">
+                     <behaviorTable>
+                        <ground behSet="Stand_Idle"/>
+                        <water behSet="TreadWater_Idle"/>
+                     </behaviorTable>
+                  </BFBehLocoSwitchSet>
+               </subBehaviors>
+            </BFBehaviorMgr>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFLocomotionMgr/>
+         </instance>
+         <binder>
+            <BFNamedBinder binderName="ground" required="1">
+               <instance>
+                  <BFLocoAnimate version="1" stationaryAnim="Stand_Idle">
+                     <stop name="Stand"/>
+                     <slow name="Walk"/>
+                     <medium name="Walk"/>
+                     <fast name="Run"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+            <BFNamedBinder binderName="water" required="1">
+               <instance>
+                  <BFLocoAnimate version="1" stationaryAnim="TreadWater_Idle">
+                     <stop name="TreadWater"/>
+                     <slow name="Swim"/>
+                     <medium name="Swim"/>
+                     <fast name="Swim"/>
+                     <dominant name="DominanceSwim"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+         </binder>
+      </BFBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="600">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

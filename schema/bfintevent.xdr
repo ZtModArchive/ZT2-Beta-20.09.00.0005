@@ -1,0 +1,9 @@
+<Schema name="BFIntEvent">
+	<ElementType name="BFIntEvent">
+		<extends type="BFEvent"/>
+		<ElementType name="int">
+			<attribute name="value" dt:type="int"/>
+		</ElementType>
+		<element type="int"/>
+	</ElementType>
+</Schema>

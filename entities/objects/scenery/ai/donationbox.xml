@@ -1,0 +1,32 @@
+<BFTypedBinder binderType="donationbox" abstract="true">
+   <types>
+      <entity>
+         <scenery>
+            <donationbox/>
+         </scenery>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity entityVersion="1"/>
+   </instance>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFAIEntityDataInstance s_name="unnamed"/>
+         </instance>
+      </BFBinder>
+       <BFNamedBinder binderName="Use_DonationBox">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot targetNode="AdultDock" capacity="1"/>
+               </slots>
+               <queue>
+               	  <BFGEntityContainerSlot targetNode="AdultDock" capacity="5"/>
+               </queue>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+    </binder>
+  
+</BFTypedBinder>

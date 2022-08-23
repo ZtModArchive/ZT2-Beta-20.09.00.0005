@@ -1,0 +1,8 @@
+<BFPhysObj drawLast="true">
+	<BFSceneGraphComponent 
+		updateBounds="false" 
+		modelfile="world\waterfall\waterfall_spray.nif" 
+	/>
+	<BFHasParticleComponent/>
+	<BFForceUpdateWhenVisibleComponent controllersOnly="true"/>
+</BFPhysObj>

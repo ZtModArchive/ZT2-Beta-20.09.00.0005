@@ -1,0 +1,82 @@
+<BFAITaskTemplateList>
+   <BFAITaskTemplate Name="GuestViewAnimal_BinocsAdult" CursorTask="false" sensorTag="viewanimals" reserveTag="Use_Binocs">
+      <BFAICreateData>
+         <Subjects>
+            <Guest_Adult/>
+         </Subjects>
+         <Targets>
+            <binoculars_df/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="0" needPointsBad="0">
+         <BFAIAttributeFloatMap viewanimals="-15"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:GoToBinoculars"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDock targetNode="Dock_Adult" targetAnim="Stand_Idle"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:UseBinoculars"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:BinocularsCool"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewAnimals viewMeter="150" retarget="false">
+            <emoteSets>
+               <VA_BinocsAdult min="-1000" max="1000"/>
+            </emoteSets>
+         </ZTBehViewAnimals>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap hunger="rand(1,5,.5)" thirst="rand(1,5,1)" rest="rand(1,5,.5)"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+   <BFAITaskTemplate Name="GuestViewAnimal_BinocsYoung" CursorTask="false" sensorTag="viewanimals" reserveTag="Use_Binocs">
+      <BFAICreateData>
+         <Subjects>
+            <Guest_Young/>
+         </Subjects>
+         <Targets>
+            <binoculars_df/>
+         </Targets>
+         <Objects/>
+      </BFAICreateData>
+      <BFAIEvalData needPointsGood="0" needPointsBad="0">
+         <BFAIAttributeFloatMap viewanimals="-15"/>
+      </BFAIEvalData>
+      <BFBehExecTask>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:GoToBinoculars"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <BFBehDock targetNode="Dock_Young" targetAnim="Stand_Idle"/>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTActionInfo locID="guestactions:UseBinoculars"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehFeedback>
+            <ZTFeedbackData>
+               <ZTThoughtInfo locID="guestthoughts:BinocularsCool"/>
+            </ZTFeedbackData>
+         </ZTBehFeedback>
+         <ZTBehViewAnimals viewMeter="150" retarget="false">
+            <emoteSets>
+               <VA_BinocsYoung min="-1000" max="1000"/>
+            </emoteSets>
+         </ZTBehViewAnimals>
+      </BFBehExecTask>
+      <BFAICompletionData>
+         <BFAIAttributeFloatMap hunger="rand(1,5,.5)" thirst="rand(1,5,1)" rest="rand(1,5,.5)"/>
+      </BFAICompletionData>
+   </BFAITaskTemplate>
+</BFAITaskTemplateList>

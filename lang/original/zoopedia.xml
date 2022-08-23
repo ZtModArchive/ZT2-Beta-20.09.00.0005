@@ -1,0 +1,1744 @@
+<ZT2Strings>
+   <zoopedia_label>
+      <label>
+         <font name="arial" size="18" image="ui\font\color_mainmenu.tga" shadowx="-1" shadowy="1" shadowa="255">
+            <color r="255" g="250" b="200">
+               <b>Zoopedia</b>
+            </color>
+         </font>
+      </label>
+   </zoopedia_label>
+   <text_format>
+      <body_text>
+         <font name="arial" size="10" shadowx="0" shadowy="0" shadowa="0">
+            <color r="74" g="74" b="74">
+               <b>%text%</b>
+            </color>
+         </font>
+      </body_text>
+      <zoopedia_entity_label>
+         <font name="arial" size="14" image="ui\font\color_mainmenu.tga" shadowx="-2" shadowy="1" shadowa="50">
+            <color r="57" g="135" b="119">
+               <b>%text%</b>
+            </color>
+         </font>
+      </zoopedia_entity_label>
+      <zoopedia_secondary_label>
+         <font name="arial" size="11" image="ui\font\color_mainmenu.tga" shadowx="-2" shadowy="1" shadowa="50">
+            <color r="225" g="225" b="165">
+               <b>%text%</b>
+            </color>
+         </font>
+      </zoopedia_secondary_label>
+   </text_format>
+   <zoopedia_home>
+      <order>!!!!!!Table of Contents</order>
+      <entry>Table of Contents</entry>
+      <text>
+         <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+            <br/>
+            <a href="zoopedia:zoopedia_f1help:entry">
+               <u>
+                  <color r="0" g="0" b="255">Help on controls</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_animals:entry">
+               <u>
+                  <color r="0" g="0" b="255">Animals</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_animalenrichment:entry">
+               <u>
+                  <color r="0" g="0" b="255">Animal Enrichment</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_shelters:entry">
+               <u>
+                  <color r="0" g="0" b="255">Animal Shelters</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_food:entry">
+               <u>
+                  <color r="0" g="0" b="255">Animal Food</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_biomes:entry">
+               <u>
+                  <color r="0" g="0" b="255">Biomes</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_buildings:entry">
+               <u>
+                  <color r="0" g="0" b="255">Buildings</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_foliage:entry">
+               <u>
+                  <color r="0" g="0" b="255">Foliage</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_foodcontainer:entry">
+               <u>
+                  <color r="0" g="0" b="255">Food Containers</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_rocks:entry">
+               <u>
+                  <color r="0" g="0" b="255">Rocks</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_scenery:entry">
+               <u>
+                  <color r="0" g="0" b="255">Scenery Objects</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_staff:entry">
+               <u>
+                  <color r="0" g="0" b="255">Staff</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_paths:entry">
+               <u>
+                  <color r="0" g="0" b="255">Paths</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_fences:entry">
+               <u>
+                  <color r="0" g="0" b="255">Fences</color>
+               </u>
+            </a>
+         </font>
+      </text>
+   </zoopedia_home>
+   <zoopedia_animals>
+      <entry>Animals</entry>
+      <text>
+         <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+            <br/>
+            <!-- List of all animals -->
+            <a href="zoopedia:zoopedia_elephant:entry">
+               <u>
+                  <color r="0" g="0" b="255">African Elephant</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_beaver:entry">
+               <u>
+                  <color r="0" g="0" b="255">American Beaver</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_tiger:entry">
+               <u>
+                  <color r="0" g="0" b="255">Bengal Tiger</color>
+               </u>
+               <br/>
+            </a>
+            <a href="zoopedia:zoopedia_rhino:entry">
+               <u>
+                  <color r="0" g="0" b="255">Black Rhinoceros</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_cheetah:entry">
+               <u>
+                  <color r="0" g="0" b="255">Cheetah</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_chimp:entry">
+               <u>
+                  <color r="0" g="0" b="255">Chimpanzee</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_peafowl:entry">
+               <u>
+                  <color r="0" g="0" b="255">Common Peafowl</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_zebra:entry">
+               <u>
+                  <color r="0" g="0" b="255">Common Zebra</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_camel:entry">
+               <u>
+                  <color r="0" g="0" b="255">Dromedary Camel</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_penguin:entry">
+               <u>
+                  <color r="0" g="0" b="255">Emperor Penguin</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_gemsbok:entry">
+               <u>
+                  <color r="0" g="0" b="255">Gemsbok</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_panda:entry">
+               <u>
+                  <color r="0" g="0" b="255">Giant Panda</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_flamingo:entry">
+               <u>
+                  <color r="0" g="0" b="255">Greater Flamingo</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_grizzly:entry">
+               <u>
+                  <color r="0" g="0" b="255">Grizzly Bear</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_hippo:entry">
+               <u>
+                  <color r="0" g="0" b="255">Hippopotamus</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_jaguar:entry">
+               <u>
+                  <color r="0" g="0" b="255">Jaguar</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_lion:entry">
+               <u>
+                  <color r="0" g="0" b="255">Lion</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_moose:entry">
+               <u>
+                  <color r="0" g="0" b="255">Moose</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_gorilla:entry">
+               <u>
+                  <color r="0" g="0" b="255">Mountain Gorilla</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_croc:entry">
+               <u>
+                  <color r="0" g="0" b="255">Nile Crocodile</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_okapi:entry">
+               <u>
+                  <color r="0" g="0" b="255">Okapi</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_ostrich:entry">
+               <u>
+                  <color r="0" g="0" b="255">Ostrich</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_polarbear:entry">
+               <u>
+                  <color r="0" g="0" b="255">Polar Bear</color>
+               </u>
+            </a>
+         </font>
+         <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+            <br/>
+            <a href="zoopedia:zoopedia_kangaroo:entry">
+               <u>
+                  <color r="0" g="0" b="255">Red Kangaroo</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_redpanda:entry">
+               <u>
+                  <color r="0" g="0" b="255">Red Panda</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_giraffe:entry">
+               <u>
+                  <color r="0" g="0" b="255">Reticulated Giraffe</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_lemur:entry">
+               <u>
+                  <color r="0" g="0" b="255">Ring-Tailed Lemur</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_leopard:entry">
+               <u>
+                  <color r="0" g="0" b="255">Snow Leopard</color>
+               </u>
+            </a>
+            <br/>
+            <a href="zoopedia:zoopedia_gazelle:entry">
+               <u>
+                  <color r="0" g="0" b="255">Thomson's Gazelle</color>
+               </u>
+            </a>
+         </font>
+      </text>
+   </zoopedia_animals>
+   <zoopedia_biomes>
+      <entry>Biomes</entry>
+      <text>
+         <br/>
+      		What is a 
+         <a href="zoopedia:zoopedia_biomedef:entry">
+            <u>
+               <color r="0" g="0" b="255">Biome</color>
+            </u>
+         </a>
+         	?
+         <p/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_alpine:entry">
+            <u>
+               <color r="0" g="0" b="255">Alpine</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_boreal:entry">
+            <u>
+               <color r="0" g="0" b="255">Boreal Forest</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_desert:entry">
+            <u>
+               <color r="0" g="0" b="255">Desert</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_grassland:entry">
+            <u>
+               <color r="0" g="0" b="255">Grassland</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_savannah:entry">
+            <u>
+               <color r="0" g="0" b="255">Savannah</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_scrub:entry">
+            <u>
+               <color r="0" g="0" b="255">Scrub</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_temperate:entry">
+            <u>
+               <color r="0" g="0" b="255">Temperate Forest</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_tropicalrainforest:entry">
+            <u>
+               <color r="0" g="0" b="255">Tropical Rainforest</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_tundra:entry">
+            <u>
+               <color r="0" g="0" b="255">Tundra</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_wetland:entry">
+            <u>
+               <color r="0" g="0" b="255">Wetland</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_biomes>
+   <zoopedia_animalenrichment>
+      <entry>Animal Enrichment</entry>
+      <text>
+         <br/>
+            	What is  
+         <a href="zoopedia:zoopedia_animalenrichmentdef:entry">
+            <u>
+               <color r="0" g="0" b="255">animal enrichment</color>
+            </u>
+         </a>
+               	?
+         <p/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_apple:entry">
+            <u>
+               <color r="0" g="0" b="255">Apple</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_ball:entry">
+            <u>
+               <color r="0" g="0" b="255">Ball</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_ballwithrattle:entry">
+            <u>
+               <color r="0" g="0" b="255">Ball with Rattle</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_beddingmaterial:entry">
+            <u>
+               <color r="0" g="0" b="255">Bedding Material</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_beefshank:entry">
+            <u>
+               <color r="0" g="0" b="255">Beef Shank</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_bone:entry">
+            <u>
+               <color r="0" g="0" b="255">Bone</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_cartire:entry">
+            <u>
+               <color r="0" g="0" b="255">Car Tire</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_carrot:entry">
+            <u>
+               <color r="0" g="0" b="255">Carrot</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_deadfish:entry">
+            <u>
+               <color r="0" g="0" b="255">Dead Fish</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_deadrat:entry">
+            <u>
+               <color r="0" g="0" b="255">Dead Rat</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_easel:entry">
+            <u>
+               <color r="0" g="0" b="255">Easel</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_fig:entry">
+            <u>
+               <color r="0" g="0" b="255">Figs</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_heatedrock:entry">
+            <u>
+               <color r="0" g="0" b="255">Flat Heated Rock</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_grainpellets:entry">
+            <u>
+               <color r="0" g="0" b="255">Grain Pellets</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_hollowlog:entry">
+            <u>
+               <color r="0" g="0" b="255">Hollow Log</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_honey:entry">
+            <u>
+               <color r="0" g="0" b="255">Honey</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_iceblock:entry">
+            <u>
+               <color r="0" g="0" b="255">Ice Block</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_insects:entry">
+            <u>
+               <color r="0" g="0" b="255">Insects</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_icefloatlrg:entry">
+            <u>
+               <color r="0" g="0" b="255">Large Floating Ice Pack</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_livefish:entry">
+            <u>
+               <color r="0" g="0" b="255">Live Fish</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_liverat:entry">
+            <u>
+               <color r="0" g="0" b="255">Live Rat</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_lookoutpost:entry">
+            <u>
+               <color r="0" g="0" b="255">Lookout Post</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_monkeybars:entry">
+            <u>
+               <color r="0" g="0" b="255">Monkey Bars</color>
+            </u>
+         </a>         
+         <br/>
+         <a href="zoopedia:zoopedia_icefloatmed:entry">
+            <u>
+               <color r="0" g="0" b="255">Medium Floating Ice Pack</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_peanutfeeder:entry">
+            <u>
+               <color r="0" g="0" b="255">Peanut Feeder</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_stickpile:entry">
+            <u>
+               <color r="0" g="0" b="255">Pile of Sticks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_plasticbarrel:entry">
+            <u>
+               <color r="0" g="0" b="255">Plastic Barrel</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_polenrope:entry">
+            <u>
+               <color r="0" g="0" b="255">Pole with Rope</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_pursuitball:entry">
+            <u>
+               <color r="0" g="0" b="255">Pursuit Ball</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_rubbertoy:entry">
+            <u>
+               <color r="0" g="0" b="255">Rubber Toy</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_scratchingpost:entry">
+            <u>
+               <color r="0" g="0" b="255">Scratching Post</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_substratepile:entry">
+            <u>
+               <color r="0" g="0" b="255">Substrate Pile</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_termitemound:entry">
+            <u>
+               <color r="0" g="0" b="255">Termite Mound Feeder</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_woodenramp:entry">
+            <u>
+               <color r="0" g="0" b="255">Wooden Ramp</color>
+            </u>
+         </a>         
+         </font>
+      </text>
+   </zoopedia_animalenrichment>
+   <zoopedia_paths>
+      <entry>Paths</entry>
+      <text>
+         <br/>
+            	Why use a
+         <a href="zoopedia:zoopedia_pathdef:entry">
+            <u>
+               <color r="0" g="0" b="255">path</color>
+            </u>
+               	?
+         </a>
+         <p/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_asphalt:entry">
+            <u>
+               <color r="0" g="0" b="255">Asphalt, Brick, Concrete, Dirt, Sand and Stone</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_elevatedview:entry">
+            <u>
+               <color r="0" g="0" b="255">Elevated Viewing Areas</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_paths>
+   <zoopedia_buildings>
+      <entry>Buildings</entry>
+      <text>
+         <br/>
+            	What are 
+         <a href="zoopedia:zoopedia_buildingdef:entry">
+            <u>
+               <color r="0" g="0" b="255">buildings</color>
+            </u>
+         </a>
+               	used for?
+         <p/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_adultresto:entry">
+            <u>
+               <color r="0" g="0" b="255">Restaurant</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_animalphotobooth:entry">
+            <u>
+               <color r="0" g="0" b="255">Animal Photo Booth</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_atm:entry">
+            <u>
+               <color r="0" g="0" b="255">ATM</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_cheesecake:entry">
+            <u>
+               <color r="0" g="0" b="255">Cheesecake Cart</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_coffee:entry">
+            <u>
+               <color r="0" g="0" b="255">Coffee Stand</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_compost:entry">
+            <u>
+               <color r="0" g="0" b="255">Compost Building</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_cottoncandy:entry">
+            <u>
+               <color r="0" g="0" b="255">Cotton Candy Cart</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_elephantride:entry">
+            <u>
+               <color r="0" g="0" b="255">Elephant Bouncy Ride</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_familyrestroom:entry">
+            <u>
+               <color r="0" g="0" b="255">Family Restroom</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_frontgate:entry">
+            <u>
+               <color r="0" g="0" b="255">Front Gate</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_fruitcup:entry">
+            <u>
+               <color r="0" g="0" b="255">Fruit Cup Cart</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_giftcart:entry">
+            <u>
+               <color r="0" g="0" b="255">Gift Cart</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_giftshop:entry">
+            <u>
+               <color r="0" g="0" b="255">Gift Shop</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_giraffeswing:entry">
+            <u>
+               <color r="0" g="0" b="255">Giraffe Swing</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_gourmetresto:entry">
+            <u>
+               <color r="0" g="0" b="255">Gourmet Restaurant</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_hamburger:entry">
+            <u>
+               <color r="0" g="0" b="255">Hamburger Stand</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_hotdog:entry">
+            <u>
+               <color r="0" g="0" b="255">Hotdog Stand</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_icecream:entry">
+            <u>
+               <color r="0" g="0" b="255">Ice Cream Cart</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_kidsresto:entry">
+            <u>
+               <color r="0" g="0" b="255">Family Restaurant</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_monkeygoround:entry">
+            <u>
+               <color r="0" g="0" b="255">Monkey Go-Round</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_ostrichride:entry">
+            <u>
+               <color r="0" g="0" b="255">Ostrich Bouncy Ride</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_popcorn:entry">
+            <u>
+               <color r="0" g="0" b="255">Popcorn Cart</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_pretzel:entry">
+            <u>
+               <color r="0" g="0" b="255">Pretzel Cart</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_restroom:entry">
+            <u>
+               <color r="0" g="0" b="255">Restroom</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_rhinoride:entry">
+            <u>
+               <color r="0" g="0" b="255">Rhino Bouncy Ride</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_salad:entry">
+            <u>
+               <color r="0" g="0" b="255">Salad Stand</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_shish:entry">
+            <u>
+               <color r="0" g="0" b="255">Shish-ka-bob Stand</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_soda:entry">
+            <u>
+               <color r="0" g="0" b="255">Soda Stand</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_sparklingwater:entry">
+            <u>
+               <color r="0" g="0" b="255">Sparkling Water Stand</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_staffcenter:entry">
+            <u>
+               <color r="0" g="0" b="255">Staff Center</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_substand:entry">
+            <u>
+               <color r="0" g="0" b="255">Sub Stand</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_sushi:entry">
+            <u>
+               <color r="0" g="0" b="255">Sushi Stand</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_tigerride:entry">
+            <u>
+               <color r="0" g="0" b="255">Tiger Bouncy Ride</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_zebrabars:entry">
+            <u>
+               <color r="0" g="0" b="255">Zebra Climbing Bars</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_educator_podium:entry">
+            <u>
+               <color r="0" g="0" b="255">Animal Educator's Podium</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_buildings>
+   <zoopedia_staff>
+      <entry>Staff</entry>
+      <text>
+         <br/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_animaleducator:entry">
+            <u>
+               <color r="0" g="0" b="255">Animal Educator</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_maintworker:entry">
+            <u>
+               <color r="0" g="0" b="255">Maintenance Worker</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_speczookeeper:entry">
+            <u>
+               <color r="0" g="0" b="255">Specialized Zookeeper</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_zookeeper:entry">
+            <u>
+               <color r="0" g="0" b="255">Zookeeper</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_staff>
+   <zoopedia_foodcontainer>
+      <entry>Food Containers</entry>
+      <text>
+         <br/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_animalcarcass:entry">
+            <u>
+               <color r="0" g="0" b="255">Animal Carcass</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_browseholder:entry">
+            <u>
+               <color r="0" g="0" b="255">Browse Holder</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_elevateddish:entry">
+            <u>
+               <color r="0" g="0" b="255">Elevated Dish</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_fooddish:entry">
+            <u>
+               <color r="0" g="0" b="255">Food Dish</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_metaltrough:entry">
+            <u>
+               <color r="0" g="0" b="255">Metal Trough</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_trough:entry">
+            <u>
+               <color r="0" g="0" b="255">Trough</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_foodcontainer>
+   <zoopedia_food>
+      <entry>Animal Food</entry>
+      <text>
+         <br/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_bamboo:entry">
+            <u>
+               <color r="0" g="0" b="255">Bamboo</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_bananas:entry">
+            <u>
+               <color r="0" g="0" b="255">Bananas</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_branches:entry">
+            <u>
+               <color r="0" g="0" b="255">Branches</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_fish:entry">
+            <u>
+               <color r="0" g="0" b="255">Fish</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_grass:entry">
+            <u>
+               <color r="0" g="0" b="255">Grass</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_hay:entry">
+            <u>
+               <color r="0" g="0" b="255">Hay</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_lettuce:entry">
+            <u>
+               <color r="0" g="0" b="255">Lettuce</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_meat:entry">
+            <u>
+               <color r="0" g="0" b="255">Meat</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_shrimp:entry">
+            <u>
+               <color r="0" g="0" b="255">Shrimp</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_water:entry">
+            <u>
+               <color r="0" g="0" b="255">Water</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_food>
+   <zoopedia_shelters>
+      <entry>Animal Shelters</entry>
+      <text>
+         <br/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_beaverlodge:entry">
+            <u>
+               <color r="0" g="0" b="255">Beaver Lodge</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_cubbingden:entry">
+            <u>
+               <color r="0" g="0" b="255">Cubbing Den</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_elephanthouse:entry">
+            <u>
+               <color r="0" g="0" b="255">Elephant House</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_nestbox:entry">
+            <u>
+               <color r="0" g="0" b="255">Elevated Nest Box</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_giraffehouse:entry">
+            <u>
+               <color r="0" g="0" b="255">Giraffe House</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_groundnest:entry">
+            <u>
+               <color r="0" g="0" b="255">Ground Nest</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_treestump:entry">
+            <u>
+               <color r="0" g="0" b="255">Hollow Tree Stump</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_concreteshelter:entry">
+            <u>
+               <color r="0" g="0" b="255">Concrete Shelters</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_rockcave:entry">
+            <u>
+               <color r="0" g="0" b="255">Rock Cave</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_snowyrockcave:entry">
+            <u>
+               <color r="0" g="0" b="255">Snowy Rock Cave</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_stable:entry">
+            <u>
+               <color r="0" g="0" b="255">Stables</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_woodenshelter:entry">
+            <u>
+               <color r="0" g="0" b="255">Wooden Shelters</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_raisedsleepingplatform:entry">
+            <u>
+               <color r="0" g="0" b="255">Raised Sleeping Platform</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_shadestructure:entry">
+            <u>
+               <color r="0" g="0" b="255">Shade Structure</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_sleepingbasket:entry">
+            <u>
+               <color r="0" g="0" b="255">Sleeping Basket</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_shelters>
+   <zoopedia_scenery>
+      <entry>Scenery Objects</entry>
+      <text>
+         <br/>
+		What are 
+         <a href="zoopedia:zoopedia_biomedef:entry">
+            <u>
+               <color r="0" g="0" b="255">scenery objects</color>
+            </u>
+         </a>
+         	used for?
+         <p/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_trashcan:entry">
+            <u>
+               <color r="0" g="0" b="255">Trashcan</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_recyclebin:entry">
+            <u>
+               <color r="0" g="0" b="255">Recycling Bin</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_donationbox:entry">
+            <u>
+               <color r="0" g="0" b="255">Donation Box</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_lamp:entry">
+            <u>
+               <color r="0" g="0" b="255">Lamps</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_viewingareas:entry">
+            <u>
+               <color r="0" g="0" b="255">Viewing Areas</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_picnictable:entry">
+            <u>
+               <color r="0" g="0" b="255">Picnic Table</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_fountains:entry">
+            <u>
+               <color r="0" g="0" b="255">Fountains</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_statue:entry">
+            <u>
+               <color r="0" g="0" b="255">Statues</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_zoomap:entry">
+            <u>
+               <color r="0" g="0" b="255">Zoo Map</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_bench:entry">
+            <u>
+               <color r="0" g="0" b="255">Bench</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_arch:entry">
+            <u>
+               <color r="0" g="0" b="255">Arch</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_binoculars:entry">
+            <u>
+               <color r="0" g="0" b="255">Binoculars</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_soundrock:entry">
+            <u>
+               <color r="0" g="0" b="255">Outdoor Rock Speakers</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_feedingdispenser:entry">
+            <u>
+               <color r="0" g="0" b="255">Feeding Dispenser</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_footstool:entry">
+            <u>
+               <color r="0" g="0" b="255">Children's Footstool</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_gazebo:entry">
+            <u>
+               <color r="0" g="0" b="255">Gazebo</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_umbrellatable:entry">
+            <u>
+               <color r="0" g="0" b="255">Outdoor Table</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_scenery>
+   <zoopedia_fences>
+      <entry>Fences</entry>
+      <text>
+         <br/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_ironbar:entry">
+            <u>
+               <color r="0" g="0" b="255">Iron Bar</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_chainlink:entry">
+            <u>
+               <color r="0" g="0" b="255">Chainlink</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_concretefence:entry">
+            <u>
+               <color r="0" g="0" b="255">Concrete Fence</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_plexiglass:entry">
+            <u>
+               <color r="0" g="0" b="255">Plexiglass</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_postrail:entry">
+            <u>
+               <color r="0" g="0" b="255">Wooden Rail</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_woodenslat:entry">
+            <u>
+               <color r="0" g="0" b="255">Wooden Slat</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_woodslatwindow:entry">
+            <u>
+               <color r="0" g="0" b="255">Wooden Slat Window Fence</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_brick:entry">
+            <u>
+               <color r="0" g="0" b="255">Brick Wall</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_hedge:entry">
+            <u>
+               <color r="0" g="0" b="255">Hedge</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_postrope:entry">
+            <u>
+               <color r="0" g="0" b="255">Post and Rope</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_picket:entry">
+            <u>
+               <color r="0" g="0" b="255">White Picket</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_stonewall:entry">
+            <u>
+               <color r="0" g="0" b="255">Stone Wall</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_safarifence:entry">
+            <u>
+               <color r="0" g="0" b="255">Safari Themed Fence</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_junglefence:entry">
+            <u>
+               <color r="0" g="0" b="255">Jungle Themed Fence</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_tundrafence:entry">
+            <u>
+               <color r="0" g="0" b="255">Tundra Themed Fence</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_fencegate:entry">
+            <u>
+               <color r="0" g="0" b="255">Staff Gate</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_fences>
+   <zoopedia_foliage>
+      <entry>Foliage</entry>
+      <text>
+         <br/>
+         <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">                	
+         <a href="zoopedia:zoopedia_bushes:entry">
+            <u>
+               <color r="0" g="0" b="255">Bushes and Groundcover</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_trees:entry">
+            <u>
+               <color r="0" g="0" b="255">Trees</color>
+            </u>
+         </a>
+        </font>
+      </text>
+   </zoopedia_foliage>
+   <zoopedia_bushes>
+      <entry>Bushes and Groundcover</entry>
+      <text>
+         <p/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">                	
+         <a href="zoopedia:zoopedia_arcticmoss:entry">
+            <u>
+               <color r="0" g="0" b="255">Arctic Moss</color>
+            </u>
+         </a>
+         <br/>         
+         <a href="zoopedia:zoopedia_blackthorn:entry">
+            <u>
+               <color r="0" g="0" b="255">Black Thorn Bush</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_bananaleaf:entry">
+            <u>
+               <color r="0" g="0" b="255">Banana Leaf Bush</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_desertgrass:entry">
+            <u>
+               <color r="0" g="0" b="255">Desert Grass</color>
+            </u>
+         </a>         
+         <br/>
+         <a href="zoopedia:zoopedia_gambagrass:entry">
+            <u>
+               <color r="0" g="0" b="255">Gamba Grass</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_papyrus:entry">
+            <u>
+               <color r="0" g="0" b="255">Papyrus</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_cattails:entry">
+            <u>
+               <color r="0" g="0" b="255">Cattails</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_bluebush:entry">
+            <u>
+               <color r="0" g="0" b="255">Bluebush</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_sedge:entry">
+            <u>
+               <color r="0" g="0" b="255">Sedge</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_spinosa:entry">
+            <u>
+               <color r="0" g="0" b="255">Spinosa Bush</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_flowerbed:entry">
+            <u>
+               <color r="0" g="0" b="255">Flowerbeds</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_elephantgrass:entry">
+            <u>
+               <color r="0" g="0" b="255">Elephant Grass</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_toadstools:entry">
+            <u>
+               <color r="0" g="0" b="255">Toadstools</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_reindeerlichen:entry">
+            <u>
+               <color r="0" g="0" b="255">Reindeer Lichen</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_bluelovegrass:entry">
+            <u>
+               <color r="0" g="0" b="255">Blue Love Grass</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_waterlily:entry">
+            <u>
+               <color r="0" g="0" b="255">Water Lily</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_junegrass:entry">
+            <u>
+               <color r="0" g="0" b="255">June Grass</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_dandelions:entry">
+            <u>
+               <color r="0" g="0" b="255">Dandelions</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_whitelillies:entry">
+            <u>
+               <color r="0" g="0" b="255">White Lillies</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_larkspur:entry">
+            <u>
+               <color r="0" g="0" b="255">Larkspur</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_africandaisy:entry">
+            <u>
+               <color r="0" g="0" b="255">African Daisy</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_africanviolet:entry">
+            <u>
+               <color r="0" g="0" b="255">African Violet</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_junglelillies:entry">
+            <u>
+               <color r="0" g="0" b="255">Jungle Lillies</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_lilyofvalley:entry">
+            <u>
+               <color r="0" g="0" b="255">Lily of the Valley</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_fringedpolygala:entry">
+            <u>
+               <color r="0" g="0" b="255">Fringed Polygala</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_proteawildflowers:entry">
+            <u>
+               <color r="0" g="0" b="255">Protea Wildflowers</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_wetlandlog:entry">
+            <u>
+               <color r="0" g="0" b="255">Wetland Log</color>
+            </u>
+         </a>           
+         </font>
+      </text>
+   </zoopedia_bushes>
+   <zoopedia_trees>
+      <entry>Trees</entry>
+      <text>
+         <br/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_baobab:entry">
+            <u>
+               <color r="0" g="0" b="255">Baobab</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_umbrellaacacia:entry">
+            <u>
+               <color r="0" g="0" b="255">Umbrella Acacia</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_acaciacaffra:entry">
+            <u>
+               <color r="0" g="0" b="255">Acacia Caffra</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_orchid:entry">
+            <u>
+               <color r="0" g="0" b="255">Orchid</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_elephantear:entry">
+            <u>
+               <color r="0" g="0" b="255">Elephant Ear</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_kily:entry">
+            <u>
+               <color r="0" g="0" b="255">Kily</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_bananatree:entry">
+            <u>
+               <color r="0" g="0" b="255">Banana Tree</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_kapok:entry">
+            <u>
+               <color r="0" g="0" b="255">Kapok</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_redcedar:entry">
+            <u>
+               <color r="0" g="0" b="255">Red Cedar</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_foxtailpalm:entry">
+            <u>
+               <color r="0" g="0" b="255">Foxtail Palm</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_treefern:entry">
+            <u>
+               <color r="0" g="0" b="255">Tree Fern</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_birch:entry">
+            <u>
+               <color r="0" g="0" b="255">Birch</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_maple:entry">
+            <u>
+               <color r="0" g="0" b="255">Maple</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_fountainbamboo:entry">
+            <u>
+               <color r="0" g="0" b="255">Fountain Bamboo</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_waterbamboo:entry">
+            <u>
+               <color r="0" g="0" b="255">Water Bamboo</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_himalayanbirch:entry">
+            <u>
+               <color r="0" g="0" b="255">Himalayan Birch</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_blackspruce:entry">
+            <u>
+               <color r="0" g="0" b="255">Black Spruce</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_balsamfir:entry">
+            <u>
+               <color r="0" g="0" b="255">Balsam Fir</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_tamarack:entry">
+            <u>
+               <color r="0" g="0" b="255">Tamarack</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_himalayanpine:entry">
+            <u>
+               <color r="0" g="0" b="255">Himalayan Pine</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_yellowcedar:entry">
+            <u>
+               <color r="0" g="0" b="255">Yellow Cedar</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_datepalm:entry">
+            <u>
+               <color r="0" g="0" b="255">Date Palm</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_camelthornacacia:entry">
+            <u>
+               <color r="0" g="0" b="255">Camel Thorn Acacia</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_mangrove:entry">
+            <u>
+               <color r="0" g="0" b="255">Mangrove</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_cypress:entry">
+            <u>
+               <color r="0" g="0" b="255">Cypress</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_weepingmyall:entry">
+            <u>
+               <color r="0" g="0" b="255">Weeping Myall</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_yellowfeveracacia:entry">
+            <u>
+               <color r="0" g="0" b="255">Yellow Fever Acacia</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_tremblingaspen:entry">
+            <u>
+               <color r="0" g="0" b="255">Trembling Aspen</color>
+            </u>
+         </a>
+        </font>
+      </text>
+   </zoopedia_trees>
+   <zoopedia_rocks>
+      <entry>Rocks</entry>
+      <text>
+         <br/>
+	 <font name="arial" size="11" shadowx="0" shadowy="0" shadowa="0">
+         <a href="zoopedia:zoopedia_savannahrocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Savannah Rocks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_rainforestrocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Rainforest Rocks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_borealrocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Boreal Forest Rocks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_alpinerocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Alpine Rocks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_scrubrocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Scrub Rocks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_desertrocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Desert Rocks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_wetlandrocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Wetland Rocks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_tundrarocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Tundra Rocks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_grasslandrocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Grassland Rocks</color>
+            </u>
+         </a>
+         <br/>
+         <a href="zoopedia:zoopedia_temperaterocks:entry">
+            <u>
+               <color r="0" g="0" b="255">Temperate Forest Rocks</color>
+            </u>
+         </a>
+         </font>
+      </text>
+   </zoopedia_rocks>
+</ZT2Strings>

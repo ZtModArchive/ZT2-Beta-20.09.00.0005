@@ -1,0 +1,33 @@
+<BFTypedBinder binderType="Okapi_Adult" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Mammalia>
+                  <Artiodactyla>
+                     <Giraffidae>
+                        <Okapi>
+                           <Okapi_Adult/>
+                        </Okapi>
+                     </Giraffidae>
+                  </Artiodactyla>
+               </Mammalia>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <ZTPlacementData icon3Doffset="0 0 1.051807" icon3Dscale="0.687409" />
+      <BFAIEntityDataShared f_viewBonus="20" b_Adult="1"/>
+   </shared>
+   <binder>
+      <BFBinder required="1">
+         <instance>
+            <BFGCollisionTester radius="1" motionClass="mover" maxSlope=".75" wadeDepth="1"/>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

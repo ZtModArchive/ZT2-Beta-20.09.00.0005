@@ -1,0 +1,79 @@
+<BFTypedBinder binderType="path" abstract="true">
+   <types>
+      <entity>
+         <path/>
+      </entity>
+   </types>
+   <shared>
+      <ZTPlacementData selectable="false" randomRotate="false" gridSnap="true" autoFootprint="false" noBiomeHeightOffset="true" moveable="false">
+         <cfootprint width="0" height="0"/>
+      </ZTPlacementData>
+      <BFGCollisionData score="0"/>
+      <BFAIEntityDataShared s_mainObjName="path_decal" b_ViewingArea="true" b_SendSlap="false"/>
+      <ZTEntitySelector size="0.0" useFootprint="false">
+         <color r="255" g="255" b="255"/>
+      </ZTEntitySelector>
+   </shared>
+   <binder>
+      <BFBinder>
+         <instance>
+            <ZTPath/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="Use_Path">
+         <instance>
+            <BFGEntityContainer>
+               <slots>
+                  <BFGEntityContainerSlot capacity="1"/>
+               </slots>
+            </BFGEntityContainer>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="path_decal" required="1">
+         <instance>
+            <BFPhysObj>
+               <BFTerrainDecalComponent alphaBlend="true" radius="3.0f" floatOnWater="true"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFAIEntityDataInstance f_TrashLevel="0"/>
+         </instance>
+      </BFBinder>
+      <BFNamedBinder binderName="path_trash" required="0">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities/objects/Items/Trash/Trash.nif" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFNamedBinder binderName="path_recycling" required="0">
+         <instance>
+            <BFPhysObj>
+               <BFSceneGraphComponent modelfile="entities/objects/Items/Recyclable/Recyclable.nif" scale="1.0"/>
+               <BFGroundFitComponent heightOffset="0.0"/>
+            </BFPhysObj>
+         </instance>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFAIFadeController attribName="f_TrashLevel" currState="empty" fadePeriod="1">
+               <stateList>
+                  <empty minRange="-1000" maxRange="1"/>
+                  <trash physObj="path_trash" minRange="1" maxRange="4"/>
+                  <recycling physObj="path_recycling" minRange="4" maxRange="1000"/>
+               </stateList>
+            </BFAIFadeController>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <ZTAIStaffRequestController attribName="f_TrashLevel" thresholdValue="0" testType="2" cancelThresholdValue="0" cancelTestType="3">
+               <ZTStaffRequestData tokenKey="t_SweepTrash" subjectType="Worker"/>
+            </ZTAIStaffRequestController>
+         </instance>
+      </BFBinder>
+   </binder>
+</BFTypedBinder>

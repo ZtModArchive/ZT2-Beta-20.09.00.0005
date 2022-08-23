@@ -1,0 +1,122 @@
+<BFTypedBinder binderType="PeafowlCommon" abstract="true">
+   <types>
+      <entity>
+         <actor>
+            <animal>
+               <Aves>
+                  <Galliformes>
+                     <Phasianidae>
+                        <PeafowlCommon/>
+                     </Phasianidae>
+                  </Galliformes>
+               </Aves>
+            </animal>
+         </actor>
+      </entity>
+   </types>
+   <instance>
+      <BFGEntity/>
+   </instance>
+   <shared>
+      <UIToggleButton template="adopt">
+         <UIAspect>
+            <default image="entities\units\animals\PeafowlCommon\PeafowlCommon_Adult_M_icon.tga"/>
+         </UIAspect>
+         <UIHelpInfo ids="entityname:PeafowlCommon"/>
+         <on>
+            <event msg="ZT_SETPLACEMENTOBJECT" data="BFString" string="PeafowlCommon_Adult_M"/>
+         </on>
+      </UIToggleButton>
+      <BFAIEntityDataShared p_FightOffset="0 -1 0" s_DonateToken="t_DonatePeafowlCommon" p_EggOffset="0 -.5 0" p_MateOffset="-1 0 0" p_PreyOffset="0 1 0" b_Prey="true" s_Species="PeafowlCommon" b_Basic="true" b_Graminivore="true" b_Frugivore="true" b_SmallAnimal="true" b_FoodDishEater="true" f_adoptRemoveTime="0" f_adoptRarity="0" s_Zoopedia="zoopedia:zoopedia_peafowl:entry" f_RequiredInitialSpace="100" f_RequiredAdditionalSpace="25"/>
+      <BFGBiomeData location="temperateforest_india" locationSensitivity="10">
+         <alpine sensitivity="0"/>
+         <borealforest sensitivity="2"/>
+         <desert sensitivity="-5"/>
+         <grassland sensitivity="0"/>
+         <temperateforest sensitivity="10" primary="true"/>
+         <tropicalrainforest sensitivity="0"/>
+         <tundra sensitivity="-10"/>
+         <savannah sensitivity="-5"/>
+         <scrub sensitivity="-5"/>
+         <wetlands sensitivity="-5"/>
+      </BFGBiomeData>
+      <ZTPlacementData icon3Doffset="0 0 .1" icon3Dscale="1.02"/>
+      <ZTUserStaffAction>
+         <SetAttribute name="hygiene" value="0" threshold="20" locid="superstaff:animal_groom" effect="SuperStaffGroom"/>
+         <SetAttribute name="health" value="0" threshold="20" locid="superstaff:animal_heal"/>
+      </ZTUserStaffAction>
+   </shared>
+   <binder>
+      <BFNamedBinder binderName="mainObj">
+         <instance>
+            <BFPhysObj>
+               <position x="10" y="0" z="0"/>
+               <BFShadowLODComponent numLevels="1" switchingDists="60.0"/>
+               <BFActorComponent actorfile="entities/units/animals/PeafowlCommon/PeafowlCommon_Adult_M.bfm"/>
+               <BF2LegsGroundFitComponent rightAnkleJoint="Bip01 R Foot" leftAnkleJoint="Bip01 L Foot" ankleRotVectorLeft="0 0 -1" ankleRotVectorRight="0 0 -1" heightOffset="0" fitRadius=".15"/>
+               <BFForwardMovingComponent/>
+               <BFRotYawMovingComponent/>
+               <BFCollisionComponent grid="Bip01 Spine"/>
+               <BFGridCollisionComponent/>
+               <BFDecalTextureCycleComponent materialName="flamingo_mat">
+                  <Step imageName="" hold="3.0" variance="0.5"/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink.dds" hold="0.1" variance=""/>
+                  <Step imageName="entities/units/animals/shared/tiger_blink02.dds" hold="0.08" variance=""/>
+               </BFDecalTextureCycleComponent>
+               <BFHeadLookComponent leftRightAnimName="Secondary_HeadLook" lookDirNode="Bip01 Head" lookDirVector="0 1 0" gain_z="-2" fov_extreme_lr="90.0"/>
+            </BFPhysObj>
+         </instance>
+         <shared>
+            <BFTextTagMacrosComponent>
+               <MACROS>
+                  <macro name="Walky" text="anim 'Walk_Ahead'"/>
+                  <macro name="Walky2Standy" text="anim 'Walk_2Stand', anim'Stand_Idle'"/>
+                  <macro name="Stand2LieBelly" text="anim 'Stand_2Sit', anim 'Sit_Idle'"/>
+                  <macro name="LieBelly2Stand" text="anim 'Sit_2Stand', anim 'Stand_Idle'"/>
+                  <macro name="Standy2Walky" text="anim 'Stand_2Walk', anim 'Walk_TurnLeftA'"/>
+                  <macro name="LieOnBelly" text="anim 'Sit_Idle'"/>
+                  <macro name="TurnLeft180" text="anim 'Stand_TurnLeft90', anim 'Stand_TurnLeft90'"/>
+                  <macro name="TurnRight180" text="anim 'Stand_TurnRight90', anim 'Stand_TurnRight90'"/>
+                  <macro name="Ground2Perch" text="as 50 1, anim 'Walk_2Fly', as 50 1, anim 'Fly_2Perch_Short'"/>
+                  <macro name="Perch2Ground" text="as 100 1, anim 'Fly_2Walk_Short'"/>
+               </MACROS>
+            </BFTextTagMacrosComponent>
+         </shared>
+      </BFNamedBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFBehaviorMgr behaviorVersion="1">
+               <subBehaviors>
+                  <BFBehAnimate interruptible="true" targetAnim="Stand_Idle" interruptFlag="true" loopFlag="true"/>
+               </subBehaviors>
+            </BFBehaviorMgr>
+         </instance>
+      </BFBinder>
+      <BFBinder required="1">
+         <instance>
+            <BFLocomotionMgr/>
+         </instance>
+         <binder>
+            <BFNamedBinder binderName="ground" required="1">
+               <instance>
+                  <BFLocoAnimate version="1">
+                     <stop name="Stand"/>
+                     <slow name="Walk"/>
+                     <medium name="Walk"/>
+                     <fast name="Run"/>
+                     <fly name="Fly"/>
+                  </BFLocoAnimate>
+               </instance>
+            </BFNamedBinder>
+         </binder>
+      </BFBinder>
+      <BFBinder>
+         <instance>
+            <ZTEconomyComponent cost="600">
+               <ZTTransaction name="build" costType="parent" type="debit" category="animal"/>
+            </ZTEconomyComponent>
+         </instance>
+      </BFBinder>       
+   </binder>
+</BFTypedBinder>

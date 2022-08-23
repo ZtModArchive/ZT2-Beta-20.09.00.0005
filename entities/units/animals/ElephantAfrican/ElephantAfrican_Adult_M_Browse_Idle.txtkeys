@@ -1,0 +1,5 @@
+<TEXTKEY>
+   <key frame="0" text="{Trunk} snd 'Eat'"/>
+   <key percent="0" text = "{Trunk} attach object"/>
+   <key percent="32" text = "{Trunk} detach object"/>
+</TEXTKEY>

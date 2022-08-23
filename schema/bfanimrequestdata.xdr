@@ -1,0 +1,22 @@
+<Schema name="BFAnimRequestData">
+	<ElementType name="BFAnimRequestData">
+		<extends type="BFXMLObj"/>
+		<AttributeType name="scale">
+			<datatype dt:type="float" dt:min="0.0" dt:max="10.0" default="1.0" />
+		</AttributeType>
+		<AttributeType name="time">
+			<datatype dt:type="float" dt:min="0.0" default="0.0" />
+		</AttributeType> 
+		<AttributeType name="blendDuration">
+			<datatype dt:type="float" dt:min="0.0" dt:max="5.0" default="0.0" />
+		</AttributeType> 
+		<attribute name="seqToken" dt:type="string" required="yes" />
+		<attribute name="loop" dt:type="boolean" default="false" required="no" />
+		<attribute name="accumulate" dt:type="boolean" default="true" required="no" />
+		<attribute name="switchnow" dt:type="boolean" default="true" required="no" />
+		<attribute type="scale" required="no" />
+		<attribute type="time" required="no" />
+		<attribute type="blendDuration" required="no" />
+		<attribute name="blendFlags" dt:type="int" default="0" required="no" />
+	</ElementType>
+</Schema>

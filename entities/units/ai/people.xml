@@ -1,0 +1,22 @@
+<BFTypedBinder binderType="people" abstract="true">
+	<types>
+		<entity>
+			<actor>
+				<people />
+			</actor>
+		</entity>
+	</types>
+	<instance>
+		<BFGEntity />
+	</instance>
+   <shared>
+      <BFAIEntityDataShared s_RouteClass="ZTBehPathRoute"/>
+   </shared>
+	<binder>   
+       <BFBinder required="1">
+          <instance>
+             <BFGCollisionTester motionClass="people"/>
+          </instance>
+      </BFBinder>
+	</binder>
+</BFTypedBinder>
